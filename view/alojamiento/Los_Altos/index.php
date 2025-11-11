@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Básicos -->
-  <title>Casa Kandu – Alojamiento </title>
+  <title> Alojamiento Los Altos</title>
   <meta name="description" content="Casa Kandu en Arbeláez (Cundinamarca): alojamiento de ambiente familiar, contacto con la naturaleza y decoración con antigüedades de la región cafetera. Un lugar tranquilo para descansar y pasarla chévere.">
-  <link rel="canonical" href="https://www.arbelaez.com.co/alojamiento/Casa_Kandu/">
+  <link rel="canonical" href="https://www.arbelaez.com.co/alojamiento/Los_Altos/">
   <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 
   <!-- Idioma y geografía -->
@@ -24,22 +24,22 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Casa Kandu – Alojamiento familiar en Arbeláez">
   <meta property="og:description" content="Ambiente familiar, naturaleza y antigüedades de la región cafetera en Arbeláez, Cundinamarca. Un lugar tranquilo para descansar.">
-  <meta property="og:url" content="https://www.arbelaez.com.co/alojamiento/Casa_Kandu/">
-  <meta property="og:image" content="https://www.arbelaez.com.co/media/Casa_Kandu/og-1200x630.jpg">
+  <meta property="og:url" content="https://www.arbelaez.com.co/alojamiento/Los_Altos/">
+  <meta property="og:image" content="https://www.arbelaez.com.co/media/Los_Altos/og-1200x630.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Casa Kandu – Alojamiento familiar en Arbeláez">
   <meta name="twitter:description" content="Alojamiento tranquilo en Arbeláez con naturaleza y tradición cafetera.">
-  <meta name="twitter:image" content="https://www.arbelaez.com.co/media/Casa_Kandu/og-1200x630.jpg">
+  <meta name="twitter:image" content="https://www.arbelaez.com.co/media/Los_Altos/og-1200x630.jpg">
 
   <!-- Icono / tema (rutas como las tienes ahora) -->
-  <link rel="icon" href="../../../view/alojamiento/Casa_Kandu/img/piscina.jpeg" type="image/jpeg">
-  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/Casa_Kandu/apple-touch-icon.png">
+  <link rel="icon" href="../../../view/alojamiento/Los_Altos/img/piscina.jpeg" type="image/jpeg">
+  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/Los_Altos/apple-touch-icon.png">
   <meta name="theme-color" content="#005548">
 
   <!-- Rendimiento -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="image" href="https://www.arbelaez.com.co/view/alojamiento/Casa_Kandu/img/piscina1.jpeg">
-  <link rel="stylesheet" href="../../../view/alojamiento/Casa_Kandu/style.css">
+  <link rel="preload" as="image" href="https://www.arbelaez.com.co/view/alojamiento/Los_Altos/img/piscina1.jpeg">
+  <link rel="stylesheet" href="../../../view/alojamiento/Los_Altos/style.css">
 
   <!-- Datos estructurados: Alojamiento (LocalBusiness/Lodging) -->
   <script type="application/ld+json">
@@ -47,8 +47,8 @@
     "@context": "https://schema.org",
     "@type": "LodgingBusiness",
     "name": "Casa Kandu",
-    "image": "https://www.arbelaez.com.co/media/Casa_Kandu/og-1200x630.jpg",
-    "url": "https://www.arbelaez.com.co/alojamiento/Casa_Kandu/",
+    "image": "https://www.arbelaez.com.co/media/Los_Altos/og-1200x630.jpg",
+    "url": "https://www.arbelaez.com.co/alojamiento/Los_Altos/",
     "telephone": "+57 3143417111",
     "priceRange": "$$",
     "address": {
@@ -78,7 +78,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Casa Kandu – Alojamiento familiar en Arbeláez",
-    "url": "https://www.arbelaez.com.co/alojamiento/Casa_Kandu/",
+    "url": "https://www.arbelaez.com.co/alojamiento/Los_Altos/",
     "inLanguage": "es-CO",
     "keywords": [
       "Casa Kandu",
@@ -185,16 +185,16 @@
   </script>
 </head>
 
-<body class="body_Casa_Kandu">
-  <?php include "../../../view/alojamiento/Casa_Kandu/menu/menu.php" ?>
-  <div class="container_Casa_Kandu">
-    <?php include "../../../view/alojamiento/Casa_Kandu/title/title.php" ?>
-    <?php include "../../../view/alojamiento/Casa_Kandu/slider/slider.php" ?>
-    <?php include "../../../view/alojamiento/Casa_Kandu/galery/productos.php" ?>
-    <?php include "../../../view/alojamiento/Casa_Kandu/bout_us/about.php" ?>
-    <?php include "../../../view/alojamiento/Casa_Kandu/maps/maps.php"?>
+<body class="body_Los_Altos">
+  <?php include "../../../view/alojamiento/Los_Altos/menu/menu.php" ?>
+  <div class="container_Los_Altos">
+    <?php include "../../../view/alojamiento/Los_Altos/title/title.php" ?>
+    <?php include "../../../view/alojamiento/Los_Altos/slider/slider.php" ?>
+    <?php include "../../../view/alojamiento/Los_Altos/galery/productos.php" ?>
+    <?php include "../../../view/alojamiento/Los_Altos/bout_us/about.php" ?>
+    <?php include "../../../view/alojamiento/Los_Altos/maps/maps.php"?>
   </div>
-  <?php include "../../../view/alojamiento/Casa_Kandu/footer/footer.php" ?>
+  <?php include "../../../view/alojamiento/Los_Altos/footer/footer.php" ?>
 
   <!-- Botón WhatsApp -->
   <a class="whatsapp-fab"

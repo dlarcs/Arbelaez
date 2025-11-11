@@ -197,12 +197,12 @@ Con zona de BBQ y espacios amplios para compartir en familia, con amigos o en pa
   <article class="card" itemscope itemtype="https://schema.org/LodgingBusiness">
     <header>
       <h2 class="card-title" itemprop="name">
-        <a href="#">Los Altos</a>
+        <a href="../../view/alojamiento/Los_Altos/index.php">Los Altos</a>
       </h2>
     </header>
 
     <figure class="media" itemprop="image">
-      <a href="#" rel="noopener">
+      <a href="../../view/alojamiento/Los_Altos/index.php" rel="noopener">
         <img src="../../view/alojamiento/Los_Altos/img/ejemplo.jpeg" alt="Apartado">
       </a>
     </figure>
@@ -219,7 +219,7 @@ Con zona de BBQ y espacios amplios para compartir en familia, con amigos o en pa
         </a>
       </li>
       <li class="pill">
-        <a href="#" rel="noopener" aria-label="Ver categoría: Alojamiento">
+        <a href="../../view/alojamiento/Los_Altos/index.php" rel="noopener" aria-label="Ver categoría: Alojamiento">
           🏷️ <span itemprop="additionalType">Rural</span>
         </a>
       </li>
