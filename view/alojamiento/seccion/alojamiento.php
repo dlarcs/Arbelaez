@@ -214,7 +214,7 @@ Con zona de BBQ y espacios amplios para compartir en familia, con amigos o en pa
         </a>
       </li>
       <li class="pill">
-        <a href="<?= wa_link('573112250633', 'Alojamiento Casa Kandu') ?>" target="_blank" rel="noopener noreferrer" aria-label="Chatear por WhatsApp Los altos">
+        <a href="<?= wa_link('573132120224', 'Alojamiento Los Altos') ?>" target="_blank" rel="noopener noreferrer" aria-label="Chatear por WhatsApp Los altos">
           <span itemprop="openingHours">🕑 Reservar</span>
         </a>
       </li>
