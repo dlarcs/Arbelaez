@@ -68,7 +68,7 @@ $lodgings = [
   [
     'name'      => 'Los Altos',
     'slug'      => 'Los_Altos',
-    'img'       => '../../view/alojamiento/Los_Altos/img/ejemplo.jpeg',
+    'img'       => '../../view/alojamiento/Los_Altos/img/general23.jpg',
     'img_alt'   => 'Los Altos – vista general',
     'map_url'   => 'https://maps.app.goo.gl/8iXw4nfoL2ehs9ZR7',
     'distance'  => '15 min 🚶',
