@@ -68,7 +68,7 @@
     "checkinTime": "15:00",
     "checkoutTime": "12:00",
     "petsAllowed": false,
-    "hasMap": "https://maps.google.com/?q=Casa+Kandu+Arbel%C3%A1ez+Cundinamarca"
+    "hasMap": "https://maps.google.com/?q=Los+Altos+Arbel%C3%A1ez+Cundinamarca"
   }
   </script>
 
