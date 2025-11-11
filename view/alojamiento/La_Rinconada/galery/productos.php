@@ -28,11 +28,11 @@ $jsTime = filemtime('../../../view/alojamiento/La_Rinconada/galery/productos.js'
 	    <div class="food_card General"><img src="../../../view/alojamiento/La_Rinconada/img/general5.jpeg" alt="General 6" width="1200" height="800" loading="lazy" decoding="async"></div>
 
 	    <!-- ===== Piscina (3) ===== -->
-	    <div class="food_card Piscina"><img src="../../../view/alojamiento/La_Rinconada/img/Piscina.jpeg" alt="Piscina 1" width="1200" height="800" loading="lazy" decoding="async"></div>
-	    <div class="food_card Piscina"><img src="../../../view/alojamiento/La_Rinconada/img/Piscina1.jpeg" alt="Piscina 2" width="1200" height="800" loading="lazy" decoding="async"></div>
-	    <div class="food_card Piscina"><img src="../../../view/alojamiento/La_Rinconada/img/Piscina2.jpeg" alt="Piscina 3" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Piscina"><img src="../../../view/alojamiento/La_Rinconada/img/Piscina3.jpeg" alt="Piscina 4" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Piscina"><img src="../../../view/alojamiento/La_Rinconada/img/Piscina4.jpeg" alt="Piscina 5" width="1200" height="800" loading="lazy" decoding="async"></div>
+	    <div class="food_card Piscina"><img src="../../../view/alojamiento/La_Rinconada/img/piscina.jpeg" alt="Piscina 1" width="1200" height="800" loading="lazy" decoding="async"></div>
+	    <div class="food_card Piscina"><img src="../../../view/alojamiento/La_Rinconada/img/piscina1.jpeg" alt="Piscina 2" width="1200" height="800" loading="lazy" decoding="async"></div>
+	    <div class="food_card Piscina"><img src="../../../view/alojamiento/La_Rinconada/img/piscina2.jpeg" alt="Piscina 3" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Piscina"><img src="../../../view/alojamiento/La_Rinconada/img/piscina3.jpeg" alt="Piscina 4" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Piscina"><img src="../../../view/alojamiento/La_Rinconada/img/piscina4.jpeg" alt="Piscina 5" width="1200" height="800" loading="lazy" decoding="async"></div>
 
 	    <!-- ===== Aposento (3) ===== -->
 	    <div class="food_card Aposento"><img src="../../../view/alojamiento/La_Rinconada/img/habitaciones.jpeg" alt="Aposento 1" width="1200" height="800" loading="lazy" decoding="async"></div>
