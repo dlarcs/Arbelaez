@@ -46,7 +46,6 @@ $jsTime = filemtime('../../../view/alojamiento/Los_Altos/galery/productos.js'); 
 	    <div class="food_card General"><img src="../../../view/alojamiento/Los_Altos/img/general19.jpg" alt="General 20" width="1200" height="800" loading="lazy" decoding="async"></div>
 	    <div class="food_card General"><img src="../../../view/alojamiento/Los_Altos/img/general20.jpg" alt="General 21" width="1200" height="800" loading="lazy" decoding="async"></div>
 	    <div class="food_card General"><img src="../../../view/alojamiento/Los_Altos/img/general21.jpg" alt="General 22" width="1200" height="800" loading="lazy" decoding="async"></div>
-	    <div class="food_card General"><img src="../../../view/alojamiento/Los_Altos/img/general22.jpg" alt="General 23" width="1200" height="800" loading="lazy" decoding="async"></div>
 
 	    <!-- ===== Habitaciones (5) ===== -->
 	    <div class="food_card Habitaciones"><img src="../../../view/alojamiento/Los_Altos/img/habitaciones.jpg" alt="Habitaciones 1" width="1200" height="800" loading="lazy" decoding="async"></div>

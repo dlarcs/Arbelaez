@@ -1,270 +1,151 @@
 <?php
 $cssTime = filemtime('../../view/alojamiento/seccion/alojamiento.css');
-$jsTime  = filemtime('../../view/alojamiento/seccion/alojamiento.js'); // <-- añade tu JS real
+$jsTime  = filemtime('../../view/alojamiento/seccion/alojamiento.js'); // <-- tu JS real
 
-// Helper para WhatsApp (mensaje dinámico por alojamiento)
+// Helper WhatsApp (mensaje dinámico por alojamiento)
 function wa_link($phoneInt, $alojamiento) {
-  $texto = "Hola vengo desde la web de Alojamiento - $alojamiento";
+  $texto = "Hola, vengo desde la web de Alojamiento - $alojamiento";
   return "https://wa.me/{$phoneInt}?text=" . rawurlencode($texto);
 }
+
+// ====== Configuración de alojamientos (agrega/edita aquí) ======
+$lodgings = [
+  [
+    'name'      => 'IsraHousSuites',
+    'slug'      => 'IsraHousSuites',
+    'img'       => '../../view/alojamiento/img/isaraHouse.jpeg',
+    'img_alt'   => 'IsraHousSuites – vista del alojamiento',
+    'map_url'   => 'https://maps.app.goo.gl/5K3pzDrMt5Bnyfb16',
+    'distance'  => '15 min 🚶',
+    'reserve'   => ['type' => 'wa', 'phone' => '573102443297', 'label' => 'Reservas'],
+    'category'  => 'Rural',
+    'desc'      => 'Alojamiento campestre para hasta 50 personas, con hermosa vista y acceso al río. Zonas comunes cómodas, cocina equipada, BBQ y parqueadero. A 15 minutos a pie del pueblo.'
+  ],
+  [
+    'name'      => 'Cachorros L&C',
+    'slug'      => 'Cachorros_LyC',
+    'img'       => '../../view/alojamiento/Cachorros_LyC/img/trago1.jpg',
+    'img_alt'   => 'Cachorros L&C – zona social',
+    'map_url'   => '#', // TODO: reemplazar por link real de Google Maps
+    'distance'  => '15 min 🚶',
+    'reserve'   => ['type' => 'wa', 'phone' => '573102443287', 'label' => '24 horas'],
+    'category'  => 'Rural',
+    'desc'      => 'Espacio para acampar, comer y disfrutar con amigos. Ambiente relajado y parqueadero disponible.'
+  ],
+  [
+    'name'      => 'Turismo Hoy Vivo',
+    'slug'      => 'Turismo_Hoy_Vivo',
+    'img'       => '../../view/alojamiento/Turismo_Hoy_Vivo/img/Casa_rural1.jpg',
+    'img_alt'   => 'Turismo Hoy Vivo – casa rural accesible',
+    'map_url'   => 'https://maps.app.goo.gl/f1chLdpw8PJSa8sh9',
+    'distance'  => '5 min 🚶',
+    'reserve'   => ['type' => 'url', 'url' => 'https://www.airbnb.com.co/rooms/47158905', 'label' => 'Reservas'],
+    'category'  => 'Rural',
+    'desc'      => 'Casa rural accesible, en ambiente privado y seguro. Huerta orgánica y avistamiento de aves.'
+  ],
+  [
+    'name'      => 'La Rinconada',
+    'slug'      => 'La_Rinconada',
+    'img'       => '../../view/alojamiento/La_Rinconada/img/piscina1.jpeg',
+    'img_alt'   => 'La Rinconada – piscina y zona de descanso',
+    'map_url'   => 'https://maps.google.com/?q=La%20Rinconada%20Arbel%C3%A1ez%20Cundinamarca',
+    'distance'  => '5 min 🚶',
+    'reserve'   => ['type' => 'wa', 'phone' => '573007804430', 'label' => 'Reservas'],
+    'category'  => 'Rural',
+    'desc'      => 'Alojamiento campestre con piscina y jacuzzi, rodeado de naturaleza. Ideal para descansar o celebrar en familia.'
+  ],
+  [
+    'name'      => 'Casa Kandu',
+    'slug'      => 'Casa_Kandu',
+    'img'       => '../../view/alojamiento/img/casa_kandu.jpg',
+    'img_alt'   => 'Casa Kandu – fachada',
+    'map_url'   => 'https://maps.app.goo.gl/8iXw4nfoL2ehs9ZR7',
+    'distance'  => '15 min 🚶',
+    'reserve'   => ['type' => 'wa', 'phone' => '573112250633', 'label' => 'Reservar'],
+    'category'  => 'Rural',
+    'desc'      => 'Ambiente familiar, cálido y tranquilo para desconectar y respirar aire puro. Zona BBQ y espacios amplios para compartir.'
+  ],
+  [
+    'name'      => 'Los Altos',
+    'slug'      => 'Los_Altos',
+    'img'       => '../../view/alojamiento/Los_Altos/img/ejemplo.jpeg',
+    'img_alt'   => 'Los Altos – vista general',
+    'map_url'   => 'https://maps.app.goo.gl/8iXw4nfoL2ehs9ZR7',
+    'distance'  => '15 min 🚶',
+    'reserve'   => ['type' => 'wa', 'phone' => '573132120224', 'label' => 'Reservar'],
+    'category'  => 'Rural',
+    'desc'      => 'Alojamiento campestre con espacios amplios, zona de BBQ y ambiente familiar para descansar o compartir con amigos.'
+  ],
+];
 ?>
+
 <link rel="stylesheet" href="../../view/alojamiento/seccion/alojamiento.css?v=<?= $cssTime ?>">
 
 <section class="seccion_alojamiento">
-  <!-- Card 1 IsaHouseSuites-->
+  <?php foreach ($lodgings as $it):
+    // Sanitización básica
+    $name = htmlspecialchars($it['name'], ENT_QUOTES, 'UTF-8');
+    $slug = htmlspecialchars($it['slug'], ENT_QUOTES, 'UTF-8');
+    $img  = htmlspecialchars($it['img'], ENT_QUOTES, 'UTF-8');
+    $alt  = htmlspecialchars($it['img_alt'], ENT_QUOTES, 'UTF-8');
+    $map  = htmlspecialchars($it['map_url'], ENT_QUOTES, 'UTF-8');
+    $dist = htmlspecialchars($it['distance'], ENT_QUOTES, 'UTF-8');
+    $cat  = htmlspecialchars($it['category'], ENT_QUOTES, 'UTF-8');
+    $desc = htmlspecialchars($it['desc'], ENT_QUOTES, 'UTF-8');
+
+    // Link principal a la ficha
+    $detailHref = "../../view/alojamiento/{$slug}/index.php";
+    $detailHref = htmlspecialchars($detailHref, ENT_QUOTES, 'UTF-8');
+  ?>
   <article class="card" itemscope itemtype="https://schema.org/LodgingBusiness">
     <header>
       <h2 class="card-title" itemprop="name">
-        <a href="../../view/alojamiento/IsraHousSuites/index.php" rel="noopener">IsraHousSuites</a>
+        <a href="<?= $detailHref ?>" rel="noopener"><?= $name ?></a>
       </h2>
     </header>
+
     <figure class="media" itemprop="image">
-      <a href="../../view/alojamiento/IsraHousSuites/index.php" rel="noopener">
-        <img src="../../view/alojamiento/img/isaraHouse.jpeg" alt="IsraHousSuites - vista del alojamiento">
+      <a href="<?= $detailHref ?>" rel="noopener">
+        <img src="<?= $img ?>" alt="<?= $alt ?>" width="1200" height="800" loading="lazy" decoding="async">
       </a>
     </figure>
+
     <ul class="meta">
       <li class="pill">
-        <a itemprop="address" href="https://maps.app.goo.gl/5K3pzDrMt5Bnyfb16" target="_blank" rel="noopener noreferrer" aria-label="Ver ubicación en el mapa">
-          📍 15 min 🚶
+        <a itemprop="hasMap" href="<?= $map ?>" target="_blank" rel="noopener noreferrer" aria-label="Ver ubicación en el mapa de <?= $name ?>">
+          📍 <?= $dist ?>
         </a>
       </li>
+
       <li class="pill">
-        <a href="<?= wa_link('573102443297', 'IsraHousSuites') ?>"  target="_blank" rel="noopener noreferrer" aria-label="Chatear por WhatsApp con IsraHousSuites">
-          <span itemprop="openingHours">🕑 Reservas</span>
-        </a>
+        <?php if ($it['reserve']['type'] === 'wa'):
+          $wa = wa_link($it['reserve']['phone'], $it['name']);
+          $wa = htmlspecialchars($wa, ENT_QUOTES, 'UTF-8');
+          $label = htmlspecialchars($it['reserve']['label'], ENT_QUOTES, 'UTF-8');
+        ?>
+          <a href="<?= $wa ?>" target="_blank" rel="noopener noreferrer" aria-label="Chatear por WhatsApp con <?= $name ?>">
+            🕑 <?= $label ?>
+          </a>
+        <?php else:
+          $url   = htmlspecialchars($it['reserve']['url'], ENT_QUOTES, 'UTF-8');
+          $label = htmlspecialchars($it['reserve']['label'], ENT_QUOTES, 'UTF-8');
+        ?>
+          <a href="<?= $url ?>" target="_blank" rel="noopener noreferrer" aria-label="Abrir reservas de <?= $name ?>">
+            🕑 <?= $label ?>
+          </a>
+        <?php endif; ?>
       </li>
+
       <li class="pill">
-        <a href="../../view/alojamiento/IsraHousSuites/index.php" rel="noopener" aria-label="Ver categoría: Alojamiento">
-          🏷️ <span itemprop="additionalType">Rural</span>
+        <a href="<?= $detailHref ?>" rel="noopener" aria-label="Ver categoría del alojamiento">
+          🏷️ <?= $cat ?>
         </a>
       </li>
     </ul>
 
-    <p class="descripcion" itemprop="description">
-      Alojamiento campestre para máximo 50 personas, con hermosa vista y acceso directo al río, a solo 15 minutos a pie del pueblo.
-      Ofrece zonas comunes cómodas, cocina equipada y área de parrilladas, además de parqueadero.
-    </p>
+    <p class="descripcion" itemprop="description"><?= $desc ?></p>
   </article>
-  <!-- Card 2 Cachorros L&C -->
-  <article class="card" itemscope itemtype="https://schema.org/LodgingBusiness">
-    <header>
-      <h2 class="card-title" itemprop="name">
-        <a href="../../view/alojamiento/Cachorros_LyC/index.php">Cachorros L&C</a>
-      </h2>
-    </header>
-    <figure class="media" itemprop="image">
-      <a href="../../view/alojamiento/Cachorros_LyC/index.php" rel="noopener">
-        <img src="../../view/alojamiento/Cachorros_LyC/img/trago1.jpg" alt="Cachorros LyC">
-      </a>
-    </figure>
-    <ul class="meta">
-      <li class="pill">
-        <a itemprop="address" href="Link de google maps" target="_blank" rel="noopener noreferrer" aria-label="Ver ubicación en el mapa">
-          📍 15 min 🚶
-        </a>
-      </li>
-      <li class="pill">
-        <a href="<?= wa_link('573102443287', 'Cachorros L&C') ?>" target="_blank" rel="noopener noreferrer" aria-label="Chatear por WhatsApp con Cachorros L&C">
-          <span itemprop="openingHours">🕑 24 horas</span>
-        </a>
-      </li>
-      <li class="pill">
-        <a href="../../view/alojamiento/Cachorros_LyC/index.php" rel="noopener" aria-label="Ver categoría: Cabañas">
-          🏷️ <span itemprop="additionalType">Rural</span>
-        </a>
-      </li>
-    </ul>
-    <p class="descripcion" itemprop="description">
-
-      Para acampar, comer y tomar. Un espacio perfecto para relajarte, compartir con amigos y disfrutar de unas cuantas en buena compañía.
-      Cuenta con parqueadero, ideal para pasar un rato agradable sin preocupaciones.
-    </p>
-  </article>
-  <!-- Card 3 Turismo Hoy vivo Casa Rural Accesible -->
-  <article class="card" itemscope itemtype="https://schema.org/LodgingBusiness">
-    <header>
-      <h2 class="card-title" itemprop="name">
-        <a href="../../view/alojamiento/Turismo_Hoy_Vivo/index.php" rel="noopener">Turismo Hoy Vivo</a>
-      </h2>
-    </header>
-
-    <figure class="media" itemprop="image">
-      <a href="../../view/alojamiento/Turismo_Hoy_Vivo/index.php" rel="noopener">
-        <img src="../../view/alojamiento/Turismo_Hoy_Vivo/img/Casa_rural1.jpg" alt="Turismo hoy vivo ">
-      </a>
-    </figure>
-    <ul class="meta">
-      <li class="pill">
-        <a itemprop="address" href="https://maps.app.goo.gl/f1chLdpw8PJSa8sh9" target="_blank" rel="noopener noreferrer" aria-label="Ver ubicación en el mapa">
-          📍 5 min 🚶
-        </a>
-      </li>
-      <li class="pill">
-        <a href="https://www.airbnb.com.co/rooms/47158905"
-           target="_blank"
-           rel="noopener noreferrer"
-           aria-label="Abrir Airbnb: Turismo Hoy Vivo Casa Rural Accesible">
-          <span itemprop="openingHours">🕑 Reservas</span>
-        </a>
-      </li>
-      <li class="pill">
-        <a href="../../view/alojamiento/Turismo_Hoy_Vivo/index.php" rel="noopener" aria-label="Ver categoría: Alojamiento">
-          🏷️ <span itemprop="additionalType">Rural</span>
-        </a>
-      </li>
-    </ul>
-    <p class="descripcion" itemprop="description">
-       Casa Rural Accesible en un ambiente privado y seguro, rodeada de naturaleza.
-        Huerta orgánica y avistamiento de aves.
-    </p>
-  </article>
-  <!-- Card 4 La Rinconada -->
-  <article class="card" itemscope itemtype="https://schema.org/LodgingBusiness">
-    <header>
-      <h2 class="card-title" itemprop="name">
-        <a href="../../view/alojamiento/La_Rinconada/index.php" rel="noopener">La Rinconada</a>
-      </h2>
-    </header>
-
-    <figure class="media" itemprop="image">
-      <a href="../../view/alojamiento/La_Rinconada/index.php" rel="noopener">
-        <img src="../../view/alojamiento/La_Rinconada/img/piscina1.jpeg" alt="La Rinconada - piscina y zona de descanso">
-      </a>
-    </figure>
-
-    <ul class="meta">
-      <li class="pill">
-        <a itemprop="address" href="https://maps.google.com/?q=La%20Rinconada%20Arbel%C3%A1ez%20Cundinamarca" target="_blank" rel="noopener noreferrer" aria-label="Ver ubicación en el mapa">
-          📍 5 min 🚶
-        </a>
-      </li>
-      <li class="pill">
-        <a href="<?= wa_link('573007804430', 'La Rinconada')?>" target="_blank" rel="noopener noreferrer" aria-label="Chatear por WhatsApp con La Rinconada">
-          <span itemprop="openingHours">🕑 Reservas</span>
-        </a>
-      </li>
-      <li class="pill">
-        <a href="../../view/alojamiento/La_Rinconada/index.php" rel="noopener" aria-label="Ver categoría: Alojamiento">
-          🏷️ <span itemprop="additionalType">Rural</span>
-        </a>
-      </li>
-    </ul>
-    <p class="descripcion" itemprop="description">
-      Alojamiento campestre con piscina y jacuzzi, rodeada de naturaleza para desconectar.
-      Ambiente familiar, seguro y acogedor, ideal para descansar o celebrar.
-    </p>
-  </article>
-
-  <!-- Card 5 Casa kandu-->
-  <article class="card" itemscope itemtype="https://schema.org/LodgingBusiness">
-    <header>
-      <h2 class="card-title" itemprop="name">
-        <a href="view/alojamiento/Casa_Kandu/index.php">Casa Kandu</a>
-      </h2>
-    </header>
-
-    <figure class="media" itemprop="image">
-      <a href="../../view/alojamiento/Casa_Kandu/index.php" rel="noopener">
-        <img src="../../view/alojamiento/img/casa_kandu.jpg" alt="Apartado">
-      </a>
-    </figure>
-
-    <ul class="meta">
-      <li class="pill">
-        <a itemprop="address" href="https://maps.app.goo.gl/8iXw4nfoL2ehs9ZR7" target="_blank" rel="noopener noreferrer" aria-label="Ver ubicación en el mapa">
-          📍 15 min 🚶
-        </a>
-      </li>
-      <li class="pill">
-        <a href="<?= wa_link('573112250633', 'Alojamiento Casa Kandu') ?>" target="_blank" rel="noopener noreferrer" aria-label="Chatear por WhatsApp Casa Kandu">
-          <span itemprop="openingHours">🕑 Reservar</span>
-        </a>
-      </li>
-      <li class="pill">
-        <a href="../../view/alojamiento/Casa_Kandu/index.php" rel="noopener" aria-label="Ver categoría: Alojamiento">
-          🏷️ <span itemprop="additionalType">Rural</span>
-        </a>
-      </li>
-    </ul>
-
-    <p class="descripcion" itemprop="description">
-Ambiente familiar, cálido y tranquilo, ideal para desconectar y respirar aire puro.
-Con zona de BBQ y espacios amplios para compartir en familia, con amigos o en pareja.
-    </p>
-  </article>
-  <!-- Card 6 Casa kandu-->
-  <article class="card" itemscope itemtype="https://schema.org/LodgingBusiness">
-    <header>
-      <h2 class="card-title" itemprop="name">
-        <a href="../../view/alojamiento/Los_Altos/index.php">Los Altos</a>
-      </h2>
-    </header>
-
-    <figure class="media" itemprop="image">
-      <a href="../../view/alojamiento/Los_Altos/index.php" rel="noopener">
-        <img src="../../view/alojamiento/Los_Altos/img/ejemplo.jpeg" alt="Apartado">
-      </a>
-    </figure>
-
-    <ul class="meta">
-      <li class="pill">
-        <a itemprop="address" href="https://maps.app.goo.gl/8iXw4nfoL2ehs9ZR7" target="_blank" rel="noopener noreferrer" aria-label="Ver ubicación en el mapa">
-          📍 15 min 🚶
-        </a>
-      </li>
-      <li class="pill">
-        <a href="<?= wa_link('573132120224', 'Alojamiento Los Altos') ?>" target="_blank" rel="noopener noreferrer" aria-label="Chatear por WhatsApp Los altos">
-          <span itemprop="openingHours">🕑 Reservar</span>
-        </a>
-      </li>
-      <li class="pill">
-        <a href="../../view/alojamiento/Los_Altos/index.php" rel="noopener" aria-label="Ver categoría: Alojamiento">
-          🏷️ <span itemprop="additionalType">Rural</span>
-        </a>
-      </li>
-    </ul>
-
-    <p class="descripcion" itemprop="description">
-  Ambiente familiar, cálido y tranquilo, ideal para desconectar y respirar aire puro.
-  Con zona de BBQ y espacios amplios para compartir en familia, con amigos o en pareja.
-    </p>
-  </article>
-  <!-- <article class="card" itemscope itemtype="https://schema.org/LodgingBusiness">
-    <header>
-      <h2 class="card-title" itemprop="name">
-        <a href="../../view/alojamiento/Casa_Colibri/index.php">Casa Colibrí</a>
-      </h2>
-    </header>
-
-    <figure class="media" itemprop="image">
-      <a href="../../view/alojamiento/Casa_Colibri/index.php" rel="noopener">
-        <img src="../../view/alojamiento/img/casaColibri.jpeg" alt="Casa Colibrí - imagen del alojamiento">
-      </a>
-    </figure>
-
-    <ul class="meta">
-      <li class="pill">
-        <a itemprop="address" href="https://maps.app.goo.gl/qq4ekGBdLoD2JRR68" target="_blank" rel="noopener noreferrer" aria-label="Ver ubicación en el mapa">
-          📍 20 min 🚶
-        </a>
-      </li>
-      <li class="pill">
-        <a href="<?= wa_link('573118627750', 'Casa Colibrí') ?>" target="_blank" rel="noopener noreferrer" aria-label="Chatear por WhatsApp con Casa Colibrí">
-          <span itemprop="openingHours">🕑 Reservas</span>
-        </a>
-      </li>
-      <li class="pill">
-        <a href="../../view/alojamiento/Casa_Colibri/index.php" rel="noopener" aria-label="Ver categoría: Alojamiento">
-          🏷️ <span itemprop="additionalType">Rural</span>
-        </a>
-      </li>
-    </ul>
-
-    <p class="descripcion" itemprop="description">
-      Alojamiento campestre, piscina, vista panorámica.
-      Y un ambiente familiar y en parereja ademas de reuniones importantes.
-    </p>
-  </article> -->
+  <?php endforeach; ?>
 </section>
+
 <script src="../../view/alojamiento/seccion/alojamiento.js?v=<?= $jsTime ?>" type="text/javascript"></script>
