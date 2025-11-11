@@ -1,14 +1,14 @@
 <?php
-$cssTime = filemtime('../../../view/alojamiento/Casa_Kandu/slider/slider.css');
-$jsTime = filemtime('../../../view/alojamiento/Casa_Kandu/slider/slider.js');
+$cssTime = filemtime('../../../view/alojamiento/Los_Altos/slider/slider.css');
+$jsTime = filemtime('../../../view/alojamiento/Los_Altos/slider/slider.js');
 ?>
-	<link rel="stylesheet" href="../../../view/alojamiento/Casa_Kandu/slider/slider.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../../view/alojamiento/Los_Altos/slider/slider.css?v=<?= $cssTime ?>">
 	<section class="slider" aria-role description="carrusel" aria-label="Galería destacada">
 		<div class="slider__viewport" tabindex="0">
 			<div class="slider__track" id="slider-track">
 				<!-- Slide 1 -->
 				<article class="slide is-current" aria-role description="slide" aria-label="1 de 4">
-					<img src="../../../view/alojamiento/Casa_Kandu/img/piscina4.jpeg" alt="Artesanías" />
+					<img src="../../../view/alojamiento/Los_Altos/img/piscina4.jpeg" alt="Artesanías" />
 					<div class="slide__caption">
 						<!-- <h2>Dios es Amor</h2>
            <p>Descubre el amor que transforma vidas.</p> -->
@@ -16,7 +16,7 @@ $jsTime = filemtime('../../../view/alojamiento/Casa_Kandu/slider/slider.js');
 				</article>
 				<!-- Slide 2 -->
 				<article class="slide" aria-role description="slide" aria-label="2 de 4">
-					<img src="../../../view/alojamiento/Casa_Kandu/img/habitaciones3.jpeg" alt="Artesanías" />
+					<img src="../../../view/alojamiento/Los_Altos/img/habitaciones3.jpeg" alt="Artesanías" />
 					<div class="slide__caption">
 						<!-- <h2>Una Familia de Fe</h2>
            <p>Aquí siempre encontrarás un lugar para ti.</p> -->
@@ -24,7 +24,7 @@ $jsTime = filemtime('../../../view/alojamiento/Casa_Kandu/slider/slider.js');
 				</article>
 				<!-- Slide 3 -->
 				<article class="slide" aria-role description="slide" aria-label="3 de 4">
-					<img src="../../../view/alojamiento/Casa_Kandu/img/general5.jpeg" alt="Artesanías" />
+					<img src="../../../view/alojamiento/Los_Altos/img/general5.jpeg" alt="Artesanías" />
 					<div class="slide__caption">
 						<!-- <h2>La Esperanza Vive</h2>
            <p>Cristo es la luz en medio de la oscuridad.</p> -->
@@ -32,7 +32,7 @@ $jsTime = filemtime('../../../view/alojamiento/Casa_Kandu/slider/slider.js');
 				</article>
 				<!-- Slide 4 -->
 				<article class="slide" aria-role description="slide" aria-label="4 de 4">
-					<img src="../../../view/alojamiento/Casa_Kandu/img/general2.jpeg" alt="Artesanías" />
+					<img src="../../../view/alojamiento/Los_Altos/img/general2.jpeg" alt="Artesanías" />
 					<div class="slide__caption">
 						<!-- <h2>Fortaleza en la Oración</h2>
            <p>Habla con Dios, Él siempre escucha.</p> -->
@@ -54,4 +54,4 @@ $jsTime = filemtime('../../../view/alojamiento/Casa_Kandu/slider/slider.js');
 		</div>
 	</section>
 
-	<script src="../../../view/alojamiento/Casa_Kandu/slider/slider.js?v=<?= $jsTime ?>" type="text/javascript"></script>
+	<script src="../../../view/alojamiento/Los_Altos/slider/slider.js?v=<?= $jsTime ?>" type="text/javascript"></script>
