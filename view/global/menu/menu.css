@@ -1,0 +1,158 @@
+/* ===== Reset mínimo ===== */
+ul { margin: 0; padding: 0; list-style: none; }
+a { text-decoration: none; color: inherit; }
+
+/* ===== Tokens opcionales (usa los tuyos si ya los tienes) ===== */
+:root{
+  --brand: #005548;
+  --brand-2: #2f6048;
+  --ink: #0b1b16;
+  --fg-on-brand: #fafafa;
+  --glass-top: rgba(235,255,235,0.45);
+  --glass-bot: rgba(0,85,72,1);
+  --shadow-1: 0 8px 24px rgba(0,0,0,.12);
+}
+
+/* ===== Mejoras de accesibilidad ===== */
+.skip-link{
+  position: absolute;
+  left: -999px; top: 0;
+  background: #fafafa; color: #000;
+  padding: .5rem .75rem; border-radius: .5rem;
+  box-shadow: var(--shadow-1);
+  z-index: 10002;
+}
+.skip-link:focus{
+  left: .75rem; top: .75rem;
+}
+
+/* ===== Header ===== */
+.site-header{
+  position: sticky; top: 0; z-index: 10001;
+  width: 100%;
+  padding: .85rem 1rem;
+  display: flex; align-items: center; justify-content: space-between;
+  box-sizing: border-box;
+  background: linear-gradient(to top, var(--glass-top) 0%, var(--glass-bot) 100%);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+/* Marca */
+.brand_menu{ display: inline-flex; align-items: center; font-weight: 700; gap: .5rem; }
+.brand-text{ letter-spacing: .3px; color: var(--fg-on-brand); font-size: clamp(1.5rem, 1vw + 1.5rem, 3rem); }
+.brand-logo{ width: 40px; height: 40px; object-fit: contain; display: block; }
+
+/* Burger */
+.burger{
+  width: 40px; height: 32px; display: inline-block; position: relative; cursor: pointer; z-index: 10003;
+  border-radius: 8px;
+}
+.burger::before, .burger::after{
+  content: ""; position: absolute; left: 4px; right: 4px; height: 3px; border-radius: 2px; background: #fafafa;
+  transition: transform .25s ease, top .25s ease, opacity .25s ease;
+}
+.burger::before{ top: 9px; }
+.burger::after{ top: 20px; }
+/* línea central */
+.burger{
+  background: linear-gradient(#fafafa 0 0) center 50%/calc(100% - 8px) 3px no-repeat;
+}
+
+/* Scrim (oscurece fondo y permite cerrar tocando fuera) */
+.scrim{
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,.35);
+  opacity: 0; pointer-events: none;
+  transition: opacity .25s ease;
+  z-index: 10000;
+}
+
+/* Navegación móvil: panel deslizante */
+.nav{
+  position: fixed;
+	inset: 0 0 0 auto;
+	width: min(82vw, 320px);
+	height: 100vh;
+  transform: translateX(100%);
+	transition: transform .3s ease;
+  background: linear-gradient(to bottom, rgba(235,255,235,.95) 0%, rgba(0,85,72,.92) 100%);
+  padding: 4.5rem 1.25rem 2rem;
+  display: flex;
+	flex-direction: column;
+	align-items:
+	flex-start;
+	justify-content: flex-start;
+  box-shadow: var(--shadow-1);
+  z-index: 10001;
+}
+
+/* Botón cerrar dentro del panel */
+.close-nav{
+  position: absolute; top: .75rem; right: .75rem;
+  width: 40px; height: 40px; border-radius: 50%;
+  display: grid; place-items: center;
+  font-size: 1.75rem; line-height: 1; color: var(--fg-on-brand);
+  cursor: pointer;
+  background: rgba(0,0,0,.18);
+  transition: background .2s ease, transform .2s ease;
+}
+.close-nav:hover{ background: rgba(0,0,0,.28); transform: scale(1.02); }
+
+.nav-list{ display: flex; flex-direction: column; gap: .25rem; width: 100%; }
+.nav-list a{
+  display: block; padding: 1rem 1rem; color: #00130e;
+  border-radius: 10px;
+  transition: background .2s ease, transform .2s ease;
+}
+.nav-list a:hover{ background: #2f6048; color: yellow; transform: translateX(2px); }
+.nav-list .cta{ background: #2f4560; color: #fafafa; font-weight: 600; }
+.nav-list .cta:hover{ background: #2f6048; }
+
+/* Estado abierto (checkbox hack) */
+.nav-toggle:checked ~ .nav { transform: translateX(0); }
+.nav-toggle:checked ~ .scrim{ opacity: 1; pointer-events: auto; }
+/* Burger -> X */
+.nav-toggle:checked + .burger{ background: none; }
+.nav-toggle:checked + .burger::before{ top: 50%; transform: translateY(-50%) rotate(45deg);
+background-color: #000;}
+.nav-toggle:checked + .burger::after{ top: 50%; transform: translateY(-50%) rotate(-45deg);
+background-color: #000;
+}
+
+/* Bloquear scroll de la página cuando menú está abierto (requiere :has) */
+body:has(#nav-toggle:checked){ overflow: hidden; }
+
+/* Focus visible para teclado (accesibilidad) */
+.burger:focus-visible,
+.close-nav:focus-visible,
+.nav-list a:focus-visible,
+.brand_menu:focus-visible{
+  outline: 2px solid #ffdf40;
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+
+/* Preferencia de menos animación */
+@media (prefers-reduced-motion: reduce){
+  .burger::before, .burger::after, .nav, .scrim{ transition: none; }
+}
+
+/* ===== Tablet y Desktop ===== */
+@media (min-width: 900px){
+  .site-header{ padding: 1rem 2rem; }
+  .burger, .scrim, .close-nav{ display: none; }
+  .nav{
+    position: static; transform: none; background: transparent; padding: 0; width: auto; height: auto;
+    box-shadow: none;
+  }
+  .nav-list{
+    flex-direction: row; align-items: center; gap: 1rem;
+  }
+  .nav-list a{
+    color: #fafafa; padding: .6rem .8rem;
+  }
+  .nav-list a:hover{ background: var(--brand-2); transform: none; }
+  .nav-list .cta{ background: #2f4560; color: #fafafa; }
+  .nav-list .cta:hover{ background: var(--brand-2); }
+}
