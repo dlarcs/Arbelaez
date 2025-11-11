@@ -1,0 +1,238 @@
+:root{
+  --bg-1:#f7f8fc;
+  --bg-2:#f2f7ff;
+  --ink:#1d1d1f;
+  --muted:#555;
+  --brand:#9b4de0;
+  --brand-2:#ff6f61;
+  --card:#ffffffcc;
+  --ring:#e6e6ef;
+  --shadow:0 10px 30px rgba(20,20,40,.10);
+  --radius:20px;
+}
+*{ box-sizing:border-box; }
+html,body{ height:100%; }
+
+.body_qr{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,"Noto Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  color:var(--ink);
+  background:
+    radial-gradient(1200px 800px at -10% -10%, var(--bg-2), transparent 60%),
+    radial-gradient(900px 900px at 110% 10%, #fff0f6, transparent 55%),
+    linear-gradient(180deg, var(--bg-1), #ffffff);
+  background-attachment: fixed;
+}
+
+.container_qr{
+  background: linear-gradient(
+    to bottom,
+    rgba(235,255,235,.4) 0%,
+    rgba(0,85,72,1) 100%
+  );
+}
+
+.wrap{
+  max-width:1050px;
+  margin:auto;
+  padding:clamp(12px,4vw,28px); /* más fluido en móvil */
+}
+
+/* ===== Banner ===== */
+.banner{
+  display:grid;
+  gap:22px;
+  background:var(--card);
+  backdrop-filter:blur(6px);
+  border:1px solid var(--ring);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  padding:clamp(16px,3vw,28px);
+  grid-template-columns:1fr;       /* móvil: una columna */
+  min-width:0;                     /* evita desbordes en grid */
+}
+@media (min-width:880px){
+  .banner{
+    grid-template-columns:1.1fr 1fr; /* desktop: dos columnas */
+    align-items:center;
+  }
+}
+
+/* Habilitar cortes de línea y evitar empujes del layout */
+.banner, .content, .features, .price, .cta{
+  min-width:0;
+  overflow-wrap:anywhere;
+  word-break:break-word;
+}
+
+/* ===== Media ===== */
+.media{
+  position:relative;
+  overflow:hidden;
+  border-radius:calc(var(--radius) - 6px);
+  background:#fff;
+}
+.media img{
+  width:100%;
+  height:auto;
+  display:block;
+  object-fit:cover;
+  transform:translateZ(0);
+  animation:float 8s ease-in-out infinite;
+  max-width:100%;
+}
+@keyframes float{
+  0%,100%{ transform:translateY(0); }
+  50%{ transform:translateY(-4px); }
+}
+
+/* Badge adaptable */
+.badge{
+  position:absolute;
+  top:12px; left:12px;
+  padding:8px 12px;
+  border-radius:999px;
+  background:#fff;
+  color:var(--brand);
+  font-weight:700;
+  font-size:.9rem;
+  box-shadow:0 6px 16px rgba(0,0,0,.08);
+  border:1px solid #eee;
+  background-color:red;
+  max-width:calc(100% - 24px);
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+@media (max-width:420px){
+  .badge{
+    font-size:.75rem;
+    padding:6px 10px;
+  }
+}
+
+/* ===== Texto ===== */
+.content h1{
+  margin:0 0 10px;
+  font-size:clamp(1.35rem,6vw,2.4rem); /* mejor escala en móvil */
+  line-height:1.15;
+  letter-spacing:.2px;
+}
+.tagline{
+  margin:0 0 14px;
+  color:var(--muted);
+  font-size:clamp(.95rem,2.8vw,1.05rem);
+}
+
+/* ===== Features ===== */
+.features{
+  display:grid;
+  gap:10px;
+  margin:18px 0 22px;
+  padding:0;
+  list-style:none;
+}
+.features li{
+  display:grid;
+  grid-template-columns:24px 1fr;
+  align-items:start;
+  gap:10px;
+  font-size:clamp(.95rem,2.8vw,1.03rem);
+}
+@media (max-width:420px){
+  .features li{ grid-template-columns:18px 1fr; }
+}
+.dot{
+  width:22px; height:22px; border-radius:6px;
+  background:linear-gradient(135deg, var(--brand), var(--brand-2));
+  box-shadow:0 3px 10px rgba(155,77,224,.35);
+  translate:0 2px;
+}
+@media (max-width:420px){
+  .dot{ width:18px; height:18px; }
+}
+
+/* ===== Botones / CTA ===== */
+.cta{ display:flex; flex-wrap:wrap; gap:10px; }
+.btn{
+  appearance:none; border:0; cursor:pointer;
+  border-radius:12px;
+  font-weight:700;
+  padding:12px 18px;
+  font-size:1rem;
+  line-height:1.2;
+  transition:transform .08s ease, box-shadow .2s ease;
+  box-shadow:var(--shadow);
+  text-decoration:none;
+  display:inline-flex; align-items:center; justify-content:center;
+  white-space:normal;  /* antes: nowrap */
+}
+.btn-primary{
+  background:linear-gradient(135deg, var(--brand), var(--brand-2));
+  color:#fff;
+}
+.btn-ghost{
+  background:#fff; color:#333; border:1px solid var(--ring);
+}
+.btn:active{ transform:translateY(1px) scale(.99); }
+
+@media (max-width:480px){
+  .cta{ gap:8px; }
+  .cta .btn{ flex:1 1 100%; width:100%; } /* botones a ancho completo */
+}
+
+/* ===== Precio / Pills ===== */
+.price{
+  display:flex;
+  align-items:baseline;
+  gap:10px;
+  margin:10px 0 18px;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.price b{ font-size:clamp(1.2rem,4vw,1.6rem); }
+
+.pill{
+  padding:.35rem .8rem;
+  min-width:auto;            /* evita desbordes */
+  background:#fff;           /* corregido: #red no es válido */
+  border-radius:999px;
+  border:1px solid var(--ring);
+  font-size:.85rem;
+  color:#333;
+  white-space:normal;
+}
+
+/* ===== Notas / Confianza ===== */
+.note{
+  margin-top:10px;
+  font-size:.92rem;
+  color:var(--muted);
+}
+.trust{
+  display:flex; gap:10px; flex-wrap:wrap; margin-top:6px;
+}
+.trust span{
+  font-size:.82rem; color:#666; background:#fff; border:1px solid var(--ring);
+  padding:6px 10px; border-radius:999px;
+}
+
+/* ===== WhatsApp (tap target cómodo) ===== */
+.icono_whatssap_general{
+  position:relative; padding:0; margin:0; border:0; z-index:10;
+}
+.icono_whatssap_general img{
+  position:fixed;
+  bottom:20px; right:20px;
+  background-color:#fff;
+  padding:15px;
+  border-radius:36%;
+  box-shadow:2px 2px 5px rgba(0,0,0,.3);
+  width:54px; height:54px; /* mejor para móvil */
+  transition:transform .3s ease, box-shadow .3s ease;
+}
+.icono_whatssap_general img:hover{
+  transform:scale(1.1);
+  cursor:pointer;
+}

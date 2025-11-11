@@ -1,0 +1,78 @@
+.radio-card {
+	max-width: 520px;
+	margin: auto;
+	padding: 16px;
+	border: 1px solid #e5e7eb;
+	border-radius: 16px;
+	box-shadow: 0 8px 24px rgba(17, 24, 39, .08);
+	font-family: system-ui, Segoe UI, Roboto, Arial
+}
+
+.radio-top {
+	display: flex;
+	gap: 12px;
+	align-items: center
+}
+
+.radio-logo {
+	width: 56px;
+	height: 56px;
+	border-radius: 12px;
+	object-fit: cover;
+	background: #f1f5f9
+}
+
+.radio-title {
+	margin: 0;
+	font-size: 1.1rem
+}
+
+.radio-live {
+	font-size: .85rem;
+	color: #16a34a
+}
+
+.radio-ctrls {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-top: 12px
+}
+
+.btn {
+	padding: 10px 14px;
+	border: 0;
+	border-radius: 12px;
+	cursor: pointer;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, .08)
+}
+
+.btn:focus {
+	outline: 2px solid #111827;
+	outline-offset: 2px
+}
+
+.btn-primary {
+	background: #005548;
+	color: #fff
+}
+
+.status {
+	margin-top: 8px;
+	color: #6b7280;
+	font-size: .9rem
+}
+
+.np {
+	margin-top: 6px;
+	font-weight: 500
+}
+
+.vol {
+	flex: 1
+}
+
+.fallback {
+	margin-top: 10px;
+	font-size: .9rem
+}

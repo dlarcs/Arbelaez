@@ -1,0 +1,51 @@
+.seccion_nosotros{
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  margin: 0;
+  background-image: url("../../../view/iglesia/img/techo_iglesia.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+	 background-attachment: fixed;
+   --fade: 10%; /* porcentaje del alto que se desvanece arriba */
+
+   -webkit-mask-image: linear-gradient(
+   to bottom,
+   transparent 0,
+   black var(--fade),
+   black 100%
+   );
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-size: cover;
+
+   mask-image: linear-gradient(
+   to bottom,
+   transparent 0,
+   black var(--fade),
+   black 100%
+   );
+   mask-repeat: no-repeat;
+   mask-size: cover;
+
+}
+.about_us{
+  background-color: rgb(254, 243, 232);
+  min-width: 280px;
+  max-width: 600px;
+  margin: 2rem auto;
+  border-radius: 5px;
+  padding: 2rem;
+  gap:2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about_us h1{
+  margin: auto;
+}
+.about_us img{
+  width: 100px;
+  height: auto;
+  margin: auto;
+}
