@@ -1,0 +1,44 @@
+.seccion_maps {
+	width: 100%;
+	margin: 0;
+}
+.maps {
+	display: grid;
+	place-items: center;
+	padding: 2rem 3rem 2rem 2rem;
+}
+.text_maps {
+	width: min(1100px, 100%);
+	display: grid;
+	gap: 1rem;
+	justify-items: center;
+	color: #005548;
+	/* si el fondo es oscuro */
+}
+
+/* Título */
+
+.text_maps h1 {
+	font-size: clamp(2rem, 1.2rem+ 2.5vw, 3rem);
+	text-align: center;
+	margin: 0;
+}
+
+/* Contenedor con proporción para evitar saltos de layout */
+
+.map_frame {
+	width: 100%;
+	aspect-ratio: 3 / 1;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 10px 24px rgba(0, 0, 0, .06);
+}
+
+/* Iframe ocupa todo el contenedor */
+
+.map_frame iframe {
+	width: 100%;
+	height: 100%;
+	border: 0;
+	display: block;
+}
