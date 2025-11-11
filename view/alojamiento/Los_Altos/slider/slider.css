@@ -23,7 +23,7 @@
 	overflow: hidden;
 	background: #000;
 	box-shadow: var(--shadow);
-	margin: 2rem auto;
+	margin: 2rem 0;
 }
 .slider__viewport {
 	overflow: hidden;

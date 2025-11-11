@@ -6,7 +6,7 @@ $jsTime = filemtime('../../../view/alojamiento/Cachorros_LyC/galery/productos.js
 	<section class="section_food_gallery" id="producto_Cachorros_LyC">
 
 	  <!-- Título principal -->
-	  <h1>Cachorros LyC</h1>
+	  <h1>Cachorros L&C</h1>
 
 	  <!-- ===== Filtros de categorías ===== -->
 	  <div class="categories_food_gallery">
