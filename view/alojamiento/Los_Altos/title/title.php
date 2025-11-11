@@ -5,7 +5,7 @@ $cssTime = filemtime('../../../view/alojamiento/Los_Altos/title/title.css'); // 
 	<!-- title -->
 	<section class="site">
 		<div class="branding">
-			<img src="../../../view/alojamiento/Los_Altos/img/piscina.jpeg" alt="kalu logo" class="logo" width="64" height="64" loading="lazy">
+			<img src="../../../view/alojamiento/Los_Altos/img/general23.jpg" alt="kalu logo" class="logo" width="64" height="64" loading="lazy">
 			<div class="brand">
 				<strong class="brand-name"> Los Altos</strong>
 				<span class="brand-tag">Alojamiento</span>

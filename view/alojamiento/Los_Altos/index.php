@@ -6,7 +6,7 @@
 
   <!-- Básicos -->
   <title> Alojamiento Los Altos</title>
-  <meta name="description" content="Casa Kandu en Arbeláez (Cundinamarca): alojamiento de ambiente familiar, contacto con la naturaleza y decoración con antigüedades de la región cafetera. Un lugar tranquilo para descansar y pasarla chévere.">
+  <meta name="description" content="Los Altos en Arbeláez (Cundinamarca): alojamiento de ambiente familiar, contacto con la naturaleza y decoración con antigüedades de la región cafetera. Un lugar tranquilo para descansar y pasarla chévere.">
   <link rel="canonical" href="https://www.arbelaez.com.co/alojamiento/Los_Altos/">
   <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 
@@ -17,22 +17,22 @@
   <meta name="geo.placename" content="Arbeláez">
 
   <!-- Palabras clave -->
-  <meta name="keywords" content="Casa Kandu, Alojamiento en Arbeláez, Alojamiento Arbeláez Cundinamarca, Casa campestre Arbeláez, Hospedaje familiar Arbeláez, Alojamiento rural Arbeláez, Turismo en Arbeláez, Escapada Arbeláez, Descanso en Arbeláez, Naturaleza en Arbeláez, Zonas verdes Arbeláez, Tranquilidad Arbeláez, Antigüedades cafeteras, Región cafetera en la decoración, Cultura cafetera, Tradición cafetera, Casa con historia, Alojamiento con encanto, Casa turística Arbeláez, Alojamiento cerca del parque principal, Alojamiento cerca del pueblo Arbeláez, Clima templado Arbeláez, Paisajes verdes Arbeláez, Senderos naturales Arbeláez, Rutas ecológicas Arbeláez, Turismo rural Cundinamarca, Turismo de naturaleza Arbeláez, Turismo cultural Arbeláez, Turismo sostenible Arbeláez, Turismo responsable Arbeláez, Plan familiar Arbeláez, Plan en pareja Arbeláez, Grupos y familias Arbeláez, Casa de campo Arbeláez, Entorno natural Arbeláez, Aire puro Arbeláez, Desconexión digital Arbeláez, Silencio y descanso Arbeláez, Bienestar y relax Arbeláez, Ambiente hogareño, Hospitalidad local Arbeláez, Anfitriones amables Arbeláez, Identidad local Arbeláez, Patrimonio cultural Arbeláez, Arbeláez turismo, Arbelaez turismo, Arbeláez Cundinamarca, Arbelaez Cundinamarca, Destino cerca de Bogotá, Viaje corto desde Bogotá, Escapada de fin de semana Arbeláez, Vacaciones en Arbeláez, Puente festivo Arbeláez, Fotografía de paisaje Arbeláez, Amaneceres en Arbeláez, Atardeceres en Arbeláez, Cielos estrellados Arbeláez, Jardín amplio Arbeláez, Terraza campestre Arbeláez, Cocina equipada Arbeláez, Parqueadero privado Arbeláez, Wi-Fi alojamiento Arbeláez, Casa tradicional Arbeláez, Estética rústica Arbeláez, Detalles artesanales Arbeláez, Experiencias locales Arbeláez, Gastronomía local Arbeláez, Productos típicos Arbeláez, Artesanías Arbeláez, Café de origen Arbeláez, Slow travel Arbeláez, Turismo de proximidad Arbeláez, Descubre Arbeláez, Vivir Arbeláez, Qué hacer en Arbeláez, Alojamiento económico Arbeláez, Alojamiento con zonas verdes, Alojamiento tranquilo Arbeláez, Alojamiento con tradición, Alojamiento familiar Cundinamarca, Casa turística Cundinamarca, Finca turística cerca de Arbeláez, Campestre en Arbeláez, Contacto con la naturaleza, Miradores de Arbeláez, Ríos y quebradas Arbeláez, Caminatas en Arbeláez, Ecoturismo Arbeláez, Avistamiento de aves Arbeláez, Plan romántico Arbeláez, Retiro personal Arbeláez, Reuniones familiares Arbeláez, Fin de semana en Arbeláez, Plan descanso Arbeláez, Casa Kandu Arbeláez, Alojamiento Casa Kandu, Casa Kandu Cundinamarca, Casa Kandu turismo, Casa Kandu naturaleza, Casa Kandu tradición cafetera">
+  <meta name="keywords" content="Los Altos, Alojamiento en Arbeláez, Alojamiento Arbeláez Cundinamarca, Casa campestre Arbeláez, Hospedaje familiar Arbeláez, Alojamiento rural Arbeláez, Turismo en Arbeláez, Escapada Arbeláez, Descanso en Arbeláez, Naturaleza en Arbeláez, Zonas verdes Arbeláez, Tranquilidad Arbeláez, Antigüedades cafeteras, Región cafetera en la decoración, Cultura cafetera, Tradición cafetera, Casa con historia, Alojamiento con encanto, Casa turística Arbeláez, Alojamiento cerca del parque principal, Alojamiento cerca del pueblo Arbeláez, Clima templado Arbeláez, Paisajes verdes Arbeláez, Senderos naturales Arbeláez, Rutas ecológicas Arbeláez, Turismo rural Cundinamarca, Turismo de naturaleza Arbeláez, Turismo cultural Arbeláez, Turismo sostenible Arbeláez, Turismo responsable Arbeláez, Plan familiar Arbeláez, Plan en pareja Arbeláez, Grupos y familias Arbeláez, Casa de campo Arbeláez, Entorno natural Arbeláez, Aire puro Arbeláez, Desconexión digital Arbeláez, Silencio y descanso Arbeláez, Bienestar y relax Arbeláez, Ambiente hogareño, Hospitalidad local Arbeláez, Anfitriones amables Arbeláez, Identidad local Arbeláez, Patrimonio cultural Arbeláez, Arbeláez turismo, Arbelaez turismo, Arbeláez Cundinamarca, Arbelaez Cundinamarca, Destino cerca de Bogotá, Viaje corto desde Bogotá, Escapada de fin de semana Arbeláez, Vacaciones en Arbeláez, Puente festivo Arbeláez, Fotografía de paisaje Arbeláez, Amaneceres en Arbeláez, Atardeceres en Arbeláez, Cielos estrellados Arbeláez, Jardín amplio Arbeláez, Terraza campestre Arbeláez, Cocina equipada Arbeláez, Parqueadero privado Arbeláez, Wi-Fi alojamiento Arbeláez, Casa tradicional Arbeláez, Estética rústica Arbeláez, Detalles artesanales Arbeláez, Experiencias locales Arbeláez, Gastronomía local Arbeláez, Productos típicos Arbeláez, Artesanías Arbeláez, Café de origen Arbeláez, Slow travel Arbeláez, Turismo de proximidad Arbeláez, Descubre Arbeláez, Vivir Arbeláez, Qué hacer en Arbeláez, Alojamiento económico Arbeláez, Alojamiento con zonas verdes, Alojamiento tranquilo Arbeláez, Alojamiento con tradición, Alojamiento familiar Cundinamarca, Casa turística Cundinamarca, Finca turística cerca de Arbeláez, Campestre en Arbeláez, Contacto con la naturaleza, Miradores de Arbeláez, Ríos y quebradas Arbeláez, Caminatas en Arbeláez, Ecoturismo Arbeláez, Avistamiento de aves Arbeláez, Plan romántico Arbeláez, Retiro personal Arbeláez, Reuniones familiares Arbeláez, Fin de semana en Arbeláez, Plan descanso Arbeláez, Los Altos Arbeláez, Alojamiento Los Altos, Los Altos Cundinamarca, Los Altos turismo, Los Altos naturaleza, Los Altos tradición cafetera">
 
   <!-- Open Graph / Twitter -->
   <meta property="og:locale" content="es_CO">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Casa Kandu – Alojamiento familiar en Arbeláez">
+  <meta property="og:title" content="Los Altos – Alojamiento familiar en Arbeláez">
   <meta property="og:description" content="Ambiente familiar, naturaleza y antigüedades de la región cafetera en Arbeláez, Cundinamarca. Un lugar tranquilo para descansar.">
   <meta property="og:url" content="https://www.arbelaez.com.co/alojamiento/Los_Altos/">
   <meta property="og:image" content="https://www.arbelaez.com.co/media/Los_Altos/og-1200x630.jpg">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Casa Kandu – Alojamiento familiar en Arbeláez">
+  <meta name="twitter:title" content="Los Altos – Alojamiento familiar en Arbeláez">
   <meta name="twitter:description" content="Alojamiento tranquilo en Arbeláez con naturaleza y tradición cafetera.">
   <meta name="twitter:image" content="https://www.arbelaez.com.co/media/Los_Altos/og-1200x630.jpg">
 
   <!-- Icono / tema (rutas como las tienes ahora) -->
-  <link rel="icon" href="../../../view/alojamiento/Los_Altos/img/piscina.jpeg" type="image/jpeg">
+  <link rel="icon" href="../../../view/alojamiento/Los_Altos/img/general23.jpg" type="image/jpeg">
   <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/Los_Altos/apple-touch-icon.png">
   <meta name="theme-color" content="#005548">
 
@@ -46,7 +46,7 @@
   {
     "@context": "https://schema.org",
     "@type": "LodgingBusiness",
-    "name": "Casa Kandu",
+    "name": "Los Altos",
     "image": "https://www.arbelaez.com.co/media/Los_Altos/og-1200x630.jpg",
     "url": "https://www.arbelaez.com.co/alojamiento/Los_Altos/",
     "telephone": "+57 3143417111",
@@ -77,11 +77,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Casa Kandu – Alojamiento familiar en Arbeláez",
+    "name": "Los Altos – Alojamiento familiar en Arbeláez",
     "url": "https://www.arbelaez.com.co/alojamiento/Los_Altos/",
     "inLanguage": "es-CO",
     "keywords": [
-      "Casa Kandu",
+      "Los Altos",
       "Alojamiento en Arbeláez",
       "Alojamiento Arbeláez Cundinamarca",
       "Casa campestre Arbeláez",
@@ -175,11 +175,11 @@
       "Reuniones familiares Arbeláez",
       "Fin de semana en Arbeláez",
       "Plan descanso Arbeláez",
-      "Casa Kandu Arbeláez",
-      "Alojamiento Casa Kandu",
-      "Casa Kandu Cundinamarca",
-      "Casa Kandu turismo",
-      "Casa Kandu naturaleza",
+      "Los Altos Arbeláez",
+      "Alojamiento Los Altos",
+      "Los Altos Cundinamarca",
+      "Los Altos turismo",
+      "Los Altos naturaleza",
     ]
   }
   </script>
@@ -201,7 +201,7 @@
      href="https://wa.me/573112250633?text=Hola%20vengo%20desde%20la%20web%20del%20Alojamiento%20Casa%20Kandu%20en%20Arbel%C3%A1ez"
      target="_blank" rel="noopener"
      aria-label="Chatear por WhatsApp">
-    <img src="../../../view/home/img/img_whatsApp.png" alt="Contactar a Casa Kandu en Arbeláez por WhatsApp" decoding="async" loading="lazy" width="56" height="56">
+    <img src="../../../view/home/img/img_whatsApp.png" alt="Contactar a Los Altos en Arbeláez por WhatsApp" decoding="async" loading="lazy" width="56" height="56">
   </a>
 
 </body>
