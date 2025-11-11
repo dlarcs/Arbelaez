@@ -1,0 +1,247 @@
+:root{
+  --fade: 12%;               /* zona superior e inferior que se desvanece */
+  --brand: #005548;
+  --glass: rgba(0,85,72,.65); /* fondo del panel de texto */
+  --text: #fafafa;
+}
+
+/* ===== Sección imagen (hero) ===== */
+.seccion_imagen{
+  position: relative;
+  height: auto;         /* alto de viewport dinámico, ideal en móviles */
+  width: 100vw;
+  height: 90vh;
+  display: grid;
+  place-items: end center;    /* texto abajo centrado */
+  overflow: clip;
+  content-visibility: auto;
+  contain-intrinsic-size: 1000px;
+   background: black; /* relleno de barras si sobran espacios */
+   overflow: hidden;
+
+   --fade: 10%;
+ 	/* porcentaje del alto que se desvanece arriba y abajo */
+ 	-webkit-mask-image: linear-gradient(
+     to bottom, transparent 0, black var(--fade), black calc(100% - var(--fade)), transparent 100%);
+ 	-webkit-mask-repeat: no-repeat;
+ 	-webkit-mask-size: cover;
+ 	mask-image: linear-gradient(
+     to bottom, transparent 0, black var(--fade), black calc(100% - var(--fade)), transparent 100%);
+ 	mask-repeat: no-repeat;
+ 	mask-size: cover;
+
+}
+
+/* Imagen de fondo (usa <img> del HTML) */
+.seccion_imagen > img{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;          /* que siempre “llene” */
+  z-index: 0;
+}
+
+/* Fallback: degradado para legibilidad si no hay mask */
+.seccion_imagen::before{
+  content:"";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0) 0,
+    rgba(0,0,0,.25) var(--fade),
+    rgba(0,0,0,.5) calc(100% - var(--fade)),
+    rgba(0,0,0,0) 100%
+  );
+  z-index: 1;
+}
+
+/* Si hay soporte de mask, usamos desvanecido más “limpio” sobre la imagen */
+@supports (mask-image: linear-gradient(black, transparent)){
+  .seccion_imagen > img{
+    -webkit-mask-image: linear-gradient(
+      to bottom,
+      transparent 0,
+      black var(--fade),
+      black calc(100% - var(--fade)),
+      transparent 100%
+    );
+    mask-image: linear-gradient(
+      to bottom,
+      transparent 0,
+      black var(--fade),
+      black calc(100% - var(--fade)),
+      transparent 100%
+    );
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+  }
+  .seccion_imagen::before{ display: none; }
+}
+
+/* Contenedor del contenido encima de la imagen */
+.imagen{
+  position: relative;
+  z-index: 2;                           /* por encima de la imagen */
+  width: min(1200px, 100%);
+  margin-inline: auto;
+  padding: clamp(16px, 3vw, 32px)
+           max(16px, env(safe-area-inset-left))
+           clamp(16px, 3vw, 32px)
+           max(16px, env(safe-area-inset-right));
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+/* Panel “glass” del texto */
+.text_imagen{
+  width: min(860px, 92%);
+  border-radius: 20px;
+  padding: clamp(16px, 2.5vw, 28px);
+  background: linear-gradient(
+    to bottom,
+    color-mix(in oklab, white 20%, var(--glass)) 0%,
+    var(--glass) 100%
+  );
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,.12);
+  box-shadow: 0 8px 30px rgba(0,0,0,.35);
+}
+
+/* Título */
+.text_imagen h1{
+  margin: 0;
+  line-height: 1.06;
+  font-size: clamp(1.75rem, 3.5vw, 3rem);
+  color: var(--text);
+  text-align: center;
+  text-shadow: 0 2px 12px rgba(0,0,0,.35);
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px){
+  :root{ --fade: 10%; }
+  .text_imagen{ padding: clamp(14px, 4vw, 22px); }
+}
+@media (max-width: 480px){
+  :root{ --fade: 8%; }
+  .text_imagen{
+    width: 94%;
+    border-radius: 16px;
+  }
+  .text_imagen h1{ font-size: clamp(1.5rem, 6vw, 2.25rem); }
+}
+
+/* Accesibilidad: sin transparencias si el usuario lo prefiere */
+@media (prefers-reduced-transparency: reduce){
+  .text_imagen{
+    background: rgba(0,0,0,.55);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
+@media (max-width: 480px){
+  .seccion_imagen > img{ object-fit: contain; }
+  .seccion_imagen{ background: #000; } /* relleno de barras si sobran espacios */
+}
+/* Móvil: que el alto se adapte al contenido */
+@media (max-width: 768px){
+  .seccion_imagen{
+    height: auto;
+    min-height: 0;          /* por si en otro CSS quedó un min-height */
+  }
+
+  /* La imagen deja de ser absoluta y toma su alto natural */
+  .seccion_imagen > img{
+    position: static;
+    display: block;
+    width: 100%;
+    height: auto;
+    /* Limita el alto si quieres evitar que sea muy alta en pantallas estrechas */
+    max-height: clamp(220px, 55vw, 420px);
+    object-fit: cover;       /* o 'contain' si prefieres verla completa */
+  }
+
+  /* Evita que el overlay cubra también el área del texto al crecer en alto */
+  .seccion_imagen::before{
+    display: none;
+  }
+
+  /* Ajuste del bloque de texto */
+  .imagen{
+    place-self: center;
+    padding-top: clamp(8px, 2.5vw, 16px);
+  }
+}
+
+/* Extra compacto en muy pequeñas (opcional) */
+@media (max-width: 480px){
+  .seccion_imagen > img{
+    max-height: clamp(200px, 48vw, 360px);
+  }
+}
+/* Seccion de frases e imagenes */
+.title_products{
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title_products img{
+  min-width: 200px;
+  width: clamp(180px, 40vw, 420px);
+  max-width: 100%;
+
+-webkit-mask-image:
+linear-gradient(to bottom, black 10%, transparent 100%),
+linear-gradient(to left, black 90%, transparent 100%),
+linear-gradient(to right, black 90%, transparent 100%);
+-webkit-mask-repeat: no-repeat; -webkit-mask-size: 100% 100%;
+-webkit-mask-composite: destination-in;
+ mask-image:
+ linear-gradient(to bottom, black 80%, transparent 100%),
+ linear-gradient(to left, black 95%, transparent 100%),
+ linear-gradient(to right, black 95%, transparent 100%);
+ mask-repeat: no-repeat; mask-size: 100% 100%;
+ mask-composite: intersect;
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+  background-color: inherit;
+}
+.title_products h1 {
+  position: relative;
+  font-size: clamp(1.5rem, 1rem + 1vw, 2rem);
+  font-weight: 600;
+  letter-spacing: .7rem;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  padding: 3rem;
+}
+
+/* Intro */
+.info_product{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: .5rem 2rem;
+
+}
+.info_product h2 {
+  letter-spacing: 0.1vw;
+  text-align: center;
+  font-weight: 100;
+  color: #000;
+  padding: 1.5rem;
+  width: min(30%, 620px);
+  min-width: 300px;
+  font-size: clamp(1rem, 0.7rem + .7vw, 1.125rem);
+}
