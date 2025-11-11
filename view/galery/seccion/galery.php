@@ -136,7 +136,7 @@ $jsTime = filemtime('../../view/galery/seccion/galery.js');   // ejemplo: '../Ho
       </figure>
     </a>
     <!-- ====== PAISAJES / LUGARES (1..11 en tu snippet) ====== -->
-    <a class="card_link" href="https://www.Instagram.com/people/Arbelaez-Turismo/61580302286594/" target="_blank" rel="noopener" aria-label="Ver en Instagram: Paisaje">
+    <a class="card_link" href="https://www.Instagram.com/people/Arbelaez-Turismo/61580302286594/" target="_blank" rel="noopener" aria-label="Ver en Instagram: Paisaje1">
       <figure class="galery_card_pag_places pag_places" data-cat="pag_places">
         <img src="../../view/galery/img_lugar/lugar1.jpg" alt="Paisaje 1" loading="lazy" decoding="async" width="800" height="400">
         <div class="overlay_pag_places" aria-hidden="true">
@@ -145,7 +145,7 @@ $jsTime = filemtime('../../view/galery/seccion/galery.js');   // ejemplo: '../Ho
       </figure>
     </a>
 
-    <a class="card_link" href="https://www.Instagram.com/people/Arbelaez-Turismo/61580302286594/" target="_blank" rel="noopener" aria-label="Ver en Instagram: Paisaje">
+    <a class="card_link" href="https://www.Instagram.com/people/Arbelaez-Turismo/61580302286594/" target="_blank" rel="noopener" aria-label="Ver en Instagram: Paisaje2">
       <figure class="galery_card_pag_places pag_places" data-cat="pag_places">
         <img src="../../view/galery/img_lugar/lugar2.jpg" alt="Paisaje 2" loading="lazy" decoding="async" width="800" height="400">
         <div class="overlay_pag_places" aria-hidden="true">
@@ -154,7 +154,7 @@ $jsTime = filemtime('../../view/galery/seccion/galery.js');   // ejemplo: '../Ho
       </figure>
     </a>
 
-    <a class="card_link" href="https://www.Instagram.com/people/Arbelaez-Turismo/61580302286594/" target="_blank" rel="noopener" aria-label="Ver en Instagram: Paisaje">
+    <a class="card_link" href="https://www.Instagram.com/people/Arbelaez-Turismo/61580302286594/" target="_blank" rel="noopener" aria-label="Ver en Instagram: Paisaje3">
       <figure class="galery_card_pag_places pag_places" data-cat="pag_places">
         <img src="../../view/galery/img_lugar/lugar3.jpg" alt="Paisaje 3" loading="lazy" decoding="async" width="800" height="400">
         <div class="overlay_pag_places" aria-hidden="true">
@@ -163,7 +163,7 @@ $jsTime = filemtime('../../view/galery/seccion/galery.js');   // ejemplo: '../Ho
       </figure>
     </a>
 
-    <a class="card_link" href="https://www.Instagram.com/people/Arbelaez-Turismo/61580302286594/" target="_blank" rel="noopener" aria-label="Ver en Instagram: Paisaje">
+    <a class="card_link" href="https://www.Instagram.com/people/Arbelaez-Turismo/61580302286594/" target="_blank" rel="noopener" aria-label="Ver en Instagram: Paisaje4">
       <figure class="galery_card_pag_places pag_places" data-cat="pag_places">
         <img src="../../view/galery/img_lugar/lugar4.jpg" alt="Paisaje 4" loading="lazy" decoding="async" width="800" height="400">
         <div class="overlay_pag_places" aria-hidden="true">
@@ -173,41 +173,25 @@ $jsTime = filemtime('../../view/galery/seccion/galery.js');   // ejemplo: '../Ho
     </a>
 
     <!-- ====== Pueblo====== -->
-    <a class="card_link" href="https://www.Instagram.com/people/Arbelaez-Turismo/61580302286594/" target="_blank" rel="noopener" aria-label="Ver en Instagram: Paisaje">
+    <!-- <a class="card_link" href="https://www.Instagram.com/people/Arbelaez-Turismo/61580302286594/" target="_blank" rel="noopener" aria-label="Ver en Instagram: Paisaje5">
       <figure class="galery_card_pag_places pag_places" data-cat="pag_places">
-        <img src="../../view/galery/img_lugar/lugar1.jpg" alt="Paisaje 1" loading="lazy" decoding="async" width="800" height="400">
+        <img src="../../view/galery/img_lugar/lugar5.jpg" alt="Paisaje 1" loading="lazy" decoding="async" width="800" height="400">
         <div class="overlay_pag_places" aria-hidden="true">
         <a href="https://www.instagram.com/arbelaez_turismo/"><figcaption class="card_info_pag_places"><p>Click para ir a Instagram</p></figcaption></a>
         </div>
       </figure>
     </a>
 
-    <a class="card_link" href="https://www.Instagram.com/people/Arbelaez-Turismo/61580302286594/" target="_blank" rel="noopener" aria-label="Ver en Instagram: Paisaje">
+    <a class="card_link" href="https://www.Instagram.com/people/Arbelaez-Turismo/61580302286594/" target="_blank" rel="noopener" aria-label="Ver en Instagram: Paisaje6">
       <figure class="galery_card_pag_places pag_places" data-cat="pag_places">
-        <img src="../../view/galery/img_lugar/lugar2.jpg" alt="Paisaje 2" loading="lazy" decoding="async" width="800" height="400">
+        <img src="../../view/galery/img_lugar/lugar6.jpg" alt="Paisaje 2" loading="lazy" decoding="async" width="800" height="400">
         <div class="overlay_pag_places" aria-hidden="true">
         <a href="https://www.instagram.com/arbelaez_turismo/"><figcaption class="card_info_pag_places"><p>Click para ir a Instagram</p></figcaption></a>
         </div>
       </figure>
-    </a>
+    </a> -->
 
-    <a class="card_link" href="https://www.Instagram.com/people/Arbelaez-Turismo/61580302286594/" target="_blank" rel="noopener" aria-label="Ver en Instagram: Paisaje">
-      <figure class="galery_card_pag_places pag_places" data-cat="pag_places">
-        <img src="../../view/galery/img_lugar/lugar3.jpg" alt="Paisaje 3" loading="lazy" decoding="async" width="800" height="400">
-        <div class="overlay_pag_places" aria-hidden="true">
-        <a href="https://www.instagram.com/arbelaez_turismo/"><figcaption class="card_info_pag_places"><p>Click para ir a Instagram</p></figcaption></a>
-        </div>
-      </figure>
-    </a>
 
-    <a class="card_link" href="https://www.Instagram.com/people/Arbelaez-Turismo/61580302286594/" target="_blank" rel="noopener" aria-label="Ver en Instagram: Paisaje">
-      <figure class="galery_card_pag_places pag_places" data-cat="pag_places">
-        <img src="../../view/galery/img_lugar/lugar4.jpg" alt="Paisaje 4" loading="lazy" decoding="async" width="800" height="400">
-        <div class="overlay_pag_places" aria-hidden="true">
-        <a href="https://www.instagram.com/arbelaez_turismo/"><figcaption class="card_info_pag_places"><p>Click para ir a Instagram</p></figcaption></a>
-        </div>
-      </figure>
-    </a>
 
   </div>
 </section>
