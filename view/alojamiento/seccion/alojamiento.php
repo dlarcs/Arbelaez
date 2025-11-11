@@ -129,7 +129,7 @@ function wa_link($phoneInt, $alojamiento) {
 
     <figure class="media" itemprop="image">
       <a href="../../view/alojamiento/La_Rinconada/index.php" rel="noopener">
-        <img src="../../view/alojamiento/La_Rinconada/img/piscina1.jpeg" alt="La Rinconada - piscina y zona de descanso">
+        <img src="../../../view/alojamiento/La_Rinconada/img/piscina1.jpeg" alt="La Rinconada - piscina y zona de descanso">
       </a>
     </figure>
 
