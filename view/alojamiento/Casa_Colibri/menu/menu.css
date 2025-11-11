@@ -1,0 +1,189 @@
+/* ===== Reset mínimo ===== */
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* ===== Header ===== */
+
+.site-header {
+	position: sticky;
+	padding: 1rem 2rem;
+	top: 0;
+	z-index: 10001;
+	background-color: #fafafa;
+	border-bottom: 1px solid rgba(0, 0, 0, .06);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+
+/* Marca */
+
+.brand_menu {
+	display: inline-flex;
+	align-items: center;
+	font-weight: 700;
+}
+.brand-text {
+	letter-spacing: .5px;
+	color: #2f6048;
+}
+.brand-logo {
+	width: 40px;
+	height: 40px;
+	object-fit: contain;
+	display: block;
+}
+
+/* Botón hamburguesa (solo se muestra en móvil por defecto) */
+
+.burger {
+	width: 36px;
+	height: 28px;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	z-index: 10;
+}
+.burger::before,
+.burger::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 3px;
+	border-radius: 2px;
+	background: #2f6048;
+	transition: transform .25s ease, top .25s ease, opacity .25s ease;
+}
+.burger::before {
+	top: 6px;
+}
+.burger::after {
+	top: 19px;
+}
+
+/* Línea central usando background gradient */
+
+.burger {
+	background: linear-gradient(#2f6048 0 0) center 50%/100% 3px no-repeat;
+}
+
+/* Navegación: móvil (mobile-first) -> panel deslizante */
+
+.nav {
+	position: fixed;
+	inset: 0 0 0 auto;
+	/* ocupa alto completo, pegado a derecha */
+	width: min(80vw, 300px);
+	transform: translateX(100%);
+	transition: transform .3s ease;
+	background: linear-gradient( to bottom, rgba(235, 255, 235, 0.9) 0%, rgba(0, 85, 72, .9) 100%);
+	padding: 5rem 1.25rem 2rem;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.nav-list {
+	display: flex;
+	flex-direction: column;
+	gap: .25rem;
+	width: 100%;
+}
+.nav-list a {
+	display: block;
+	padding: .9rem 1rem;
+	color: #2f6048;
+	border-radius: 8px;
+	transition: background .2s ease, transform .2s ease;
+
+}
+.nav-list a:hover {
+	background: #2f6048;
+	color: #fafafa;
+	transform: translateX(2px);
+}
+.nav-list .cta {
+	background: #2f4560;
+	color: #fafafa;
+	font-weight: 600;
+}
+.nav-list .cta:hover {
+	background: #2f6048;
+	color: #fafafa;
+}
+
+/* Abrir menú cuando el checkbox está marcado */
+
+.nav-toggle:checked~ .nav {
+	transform: translateX(0);
+}
+
+/* Animación del ícono hamburguesa -> X */
+
+.nav-toggle:checked+ .burger {
+	background: none;
+}
+.nav-toggle:checked+ .burger::before {
+	top: 50%;
+	transform: translateY(-50%) rotate(45deg);
+}
+.nav-toggle:checked+ .burger::after {
+	top: 50%;
+	transform: translateY(-50%) rotate(-45deg);
+}
+
+/* ====== Tablet y Desktop ====== */
+
+@media (min-width: 900px) {
+	/* Header más alto y con padding */
+	.site-header {
+		padding: 1rem 2rem;
+		z-index: 1000;
+	}
+	/* Ocultar burger en desktop, mostrar nav en línea */
+	.burger {
+		display: none;
+	}
+	.nav {
+		position: static;
+		transform: none;
+		background: transparent;
+		padding: 0;
+		width: auto;
+		height: auto;
+	}
+	.nav-list {
+		flex-direction: row;
+		/* << solicitado: ul en fila */
+		align-items: center;
+		gap: 1rem;
+	}
+	.brand-text {
+		color: #2f6048;
+	}
+	.nav-list a {
+		color: #2f6048;
+		padding: .5rem .75rem;
+	}
+	.nav-list a:hover {
+		background: #2f6048;
+		transform: none;
+	}
+	.nav-list .cta {
+		background: #2f4560;
+		color: #fafafa;
+	}
+	.nav-list .cta:hover {
+		background: #2f6048;
+		color: #fafafa;
+	}
+}

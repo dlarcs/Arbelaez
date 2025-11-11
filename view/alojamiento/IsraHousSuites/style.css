@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+.body_IsraHousSuites {
+	padding: 0;
+	margin: 0;
+
+}
+.container_IsraHousSuites {
+	padding:  0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	object-fit: cover;
+	overflow: hidden;
+	background-color: #fafafa;
+}
+
+
+/* Botón flotante WhatsApp (abajo-derecha) */
+.whatsapp-fab{
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  width: 60px;                 /* tamaño visible */
+  height: 60px;
+  border-radius: 50%;
+  background:  #fafafa ;
+  box-shadow: 0 8px 20px rgba(0,0,0,.18);
+  z-index: 1000;
+  display: flex;
+  overflow:hidden;
+}
+.whatsapp-fab:hover { transform: scale(1.06); }
+.whatsapp-fab img{
+  width: 75%;
+  height: 75%;
+  margin: auto;
+  object-fit: cover;
+}

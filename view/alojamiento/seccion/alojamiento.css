@@ -1,0 +1,159 @@
+:root {
+	--bg: #f7f7fb;
+	--card: #ffffff;
+	--text: #111827;
+	--muted: #6b7280;
+	--border: #e5e7eb;
+	--brand: #005548;
+	--radius: 14px;
+	--shadow: 0 10px 24px rgba(0, 0, 0, .06);
+}
+
+.seccion_alojamiento {
+	padding: 1rem 2rem;
+  margin: auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	/* Mobile: 1 columna */
+	gap: 1rem;
+	position: relative;
+	width: 100vw;         /* mantener diseño original */
+	max-width: 100%;      /* evita scroll horizontal por padding */
+	margin: 3rem 0;
+	color: white;
+	box-sizing: border-box;
+}
+
+
+/* Tablet */
+
+@media (min-width: 640px) {
+	.seccion_alojamiento {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 1.25rem;
+	}
+}
+
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+	.seccion_alojamiento {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: 1.5rem;
+	}
+}
+
+
+/* ===== Tarjeta ===== */
+
+.card {
+	display: flex;
+	flex-direction: column;
+	gap: .75rem;
+	height: 100%;
+	background: var(--card);
+	border: 1px solid var(--border);
+	border-radius: var(--radius);
+	box-shadow: var(--shadow);
+	padding: 1rem;
+	color: var(--text);
+}
+
+
+/* Título */
+
+.card h1 {
+	font-size: clamp(1.05rem, 2.6vw, 1.5rem);
+	line-height: 1.25;
+	margin: 0;
+}
+
+
+/* Meta (ubicación + tipo) */
+
+.meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .5rem;
+	margin: .25rem 0 .25rem;
+	padding: 0;
+	list-style: none;
+}
+
+.pill {
+	display: inline-flex;
+	align-items: center;
+	gap: .4rem;
+	border: 1px solid var(--border);
+	border-radius: 999px;
+	padding: .35rem .6rem;
+	font-size: .95rem;
+	color: var(--muted);
+	background: #fafafa;
+	white-space: nowrap;
+}
+
+.pill a {
+	color: var(--brand);
+	text-decoration: none;
+}
+
+.pill a:hover,
+.pill a:focus {
+	text-decoration: underline;
+}
+
+
+/* Descripción */
+
+.descripcion {
+	margin: 0;
+	color: var(--text);
+	line-height: 1.55;
+	font-size: clamp(.95rem, 2.2vw, 1rem);
+}
+
+
+/* Modo oscuro (opcional si el SO lo solicita) */
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: #0f172a;
+		--card: #111827;
+		--text: #e5e7eb;
+		--muted: #cbd5e1;
+		--border: #1f2937;
+		--shadow: 0 8px 20px rgba(0, 0, 0, .35);
+	}
+
+}
+/* Accesibilidad: reduce animaciones si aplica (placeholder para futuras transiciones) */
+
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation: none !important;
+		transition: none !important;
+	}
+}
+
+@media (min-width: 1440px) {
+	.seccion_alojamiento {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+	}
+}
+/* Imagen dentro de cada card */
+.seccion_alojamiento .media{
+  width: 100%;
+  aspect-ratio: 16/9;        /* adapta altura automáticamente */
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: #e9ecef;       /* placeholder mientras carga */
+}
+
+.seccion_alojamiento .media img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;          /* recorta sin deformar */
+  display: block;
+}
