@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+.body_La_Marranada {
+	padding: 0;
+	margin: 0;
+	background:
+  linear-gradient(to bottom, rgba(0,0,0,.45), rgba(0,0,0,.15)),
+  url('../../../view/gastronomia/La_Marranada/fondo1.png') ;
+	background-position: center;
+	background-repeat: repeat;
+	background-size: contain;
+	background-attachment: scroll;
+}
+.container_La_Marranada {
+	padding:  0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	object-fit: cover;
+	overflow: hidden;
+}
+
+
+/* Botón flotante WhatsApp (abajo-derecha) */
+.whatsapp-fab{
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  width: 60px;                 /* tamaño visible */
+  height: 60px;
+  border-radius: 50%;
+  background:  #fafafa ;
+  box-shadow: 0 8px 20px rgba(0,0,0,.18);
+  z-index: 1000;
+  display: flex;
+  overflow:hidden;
+}
+.whatsapp-fab:hover { transform: scale(1.06); }
+.whatsapp-fab img{
+  width: 75%;
+  height: 75%;
+  margin: auto;
+  object-fit: cover;
+}

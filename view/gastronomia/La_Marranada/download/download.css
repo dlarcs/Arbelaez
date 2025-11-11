@@ -1,0 +1,55 @@
+.card_download {
+	position: relative;
+	height: 90vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* Fondo base */
+	background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
+  url("../../../../view/gastronomia/img/logo_lamarranada.jpeg") center/cover no-repeat;
+	--fade: 10%;
+	/* porcentaje del alto que se desvanece arriba y abajo */
+	-webkit-mask-image: linear-gradient(
+    to bottom, transparent 0, black var(--fade), black calc(100% - var(--fade)), transparent 100%);
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-size: cover;
+	mask-image: linear-gradient(
+    to bottom, transparent 0, black var(--fade), black calc(100% - var(--fade)), transparent 100%);
+	mask-repeat: no-repeat;
+	mask-size: cover;
+}
+
+/* Caja de descarga */
+
+.download {
+	position: relative;
+	/* para estar por encima del pseudo-elemento */
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem 1rem 2rem;
+	background: #fbd160;
+	border-radius: 12px;
+	max-width: 300px;
+	margin: auto;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.download h2 {
+	margin-top: 15px;
+	color: #000;
+	font: oblique bold 130% cursive;
+}
+.download a {
+	text-decoration: none;
+	color: inherit;
+}
+@media (max-width: 600px) {
+	.card_download {
+		background-image: linear-gradient(rgba(0, 0, 0, .4),
+    rgba(0, 0, 0, .4)), url("../../../../view/gastronomia/img/logo_lamarranada.jpeg");
+	}
+}

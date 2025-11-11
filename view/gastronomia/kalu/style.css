@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+.body_kalu {
+	padding: 0;
+	margin: 0;
+
+}
+.container_kalu {
+	padding:  0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	object-fit: cover;
+	overflow: hidden;
+
+
+	background:
+	  radial-gradient(circle at 1px 1px, rgba(255,255,255,.07) 1px, transparent 1px) 0 0 / 6px 6px,
+	  linear-gradient(to top, rgba(4,14,43,.9), rgba(138,91,48,1));
+
+	}
+
+
+	/* Botón flotante WhatsApp (abajo-derecha) */
+	.whatsapp-fab{
+	  position: fixed;
+	  right: 16px;
+	  bottom: 16px;
+	  width: 60px;                 /* tamaño visible */
+	  height: 60px;
+	  border-radius: 50%;
+	  background:  #fafafa ;
+	  box-shadow: 0 8px 20px rgba(0,0,0,.18);
+	  z-index: 1000;
+	  display: flex;
+	  overflow:hidden;
+	}
+	.whatsapp-fab:hover { transform: scale(1.06); }
+	.whatsapp-fab img{
+	  width: 75%;
+	  height: 75%;
+	  margin: auto;
+	  object-fit: cover;
+	}
