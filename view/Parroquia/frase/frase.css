@@ -1,0 +1,53 @@
+.seccion_frase{
+  width: 100%;
+  padding: 1rem;
+
+  background-image: url("../../../view/Parroquia/img/techo_iglesia.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+	 background-attachment: scroll;
+   display: flex;
+   flex-direction: column;
+   /* --- Efecto de difuminado solo en la parte inferior --- */
+--fade: 5%; /* porcentaje del alto que se desvanece abajo */
+
+-webkit-mask-image: linear-gradient(
+  to bottom,
+  black 0,
+  black calc(100% - var(--fade)),
+  transparent 100%
+);
+-webkit-mask-repeat: no-repeat;
+-webkit-mask-size: cover;
+
+mask-image: linear-gradient(
+  to bottom,
+  black 0,
+  black calc(100% - var(--fade)),
+  transparent 100%
+);
+mask-repeat: no-repeat;
+mask-size: cover;
+
+}
+.box_frases{
+  background-color: rgb(254, 243, 232);
+  min-width: 280px;
+  max-width: 600px;
+  margin: 2rem auto;
+  border-radius: 5px;
+  padding: 2rem;
+  gap:2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.box_frases h1{
+  margin: auto;
+}
+.box_frases img{
+  width: 100px;
+  height: auto;
+  margin: auto;
+}

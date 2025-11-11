@@ -1,0 +1,164 @@
+/* ===== Sección historia ===== */
+.section_history{
+  position:relative;
+  padding:3rem;
+  margin:3rem 0;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:start;
+  gap:2.5rem;
+  overflow:hidden;
+}
+
+/* Título general */
+.section_history h1{
+  position:relative;
+  font-size:clamp(24px, 2.4vw, 42px);
+  font-weight:800;
+  letter-spacing:.08em;
+  text-align:center;
+  color:#AF854F;
+  padding:2rem;
+  text-transform:uppercase;
+  margin:0 auto 2rem;
+}
+
+/* Contenedor interno */
+.container_history{
+  width:100%;
+  min-width:300px;
+  box-sizing:border-box;
+  margin:1rem auto;
+}
+
+/* Lista de tarjetas */
+.box_history{
+  position:relative;
+  width:100%;
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
+  gap:18px;
+  background-color:#000;
+  padding:1rem;
+  border-radius:10px;
+}
+
+/* Tarjeta */
+.history{
+  position:relative;
+  padding:1.25rem;
+  border-radius:12px;
+  background:linear-gradient(to bottom, rgba(235,255,235,.4) 0%, rgba(0,85,72,1) 100%);
+  color:#fffd;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  box-shadow:0 2px 12px rgba(0,0,0,.15);
+  transition:transform .25s ease, box-shadow .25s ease, background-color .25s ease, color .25s ease;
+}
+.history:hover{
+  box-shadow:0 6px 24px rgba(0,0,0,.2);
+  transform:translateY(-2px);
+  cursor:pointer;
+}
+.history:active{ transform:translateY(0) scale(1.01) }
+
+/* Texto e imagen dentro de la tarjeta */
+.history p{
+  font-size:clamp(14px, 1.6vw, 18px);
+  line-height:1.5;
+  margin:0;
+  text-align:left;
+}
+.history img{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+  border-radius:10px;
+}
+
+/* Separador entre contenedores (solo después del primero) */
+.container_history + .container_history::before{
+  content:"";
+  display:block;
+  width:72px;
+  height:4px;
+  margin:.25rem auto .75rem;
+  border-radius:2px;
+  background:#AF854F;
+  opacity:.25;
+}
+
+/* ===== Sección imagen ===== */
+.seccion_imagen{
+  width:100%;
+  height:100vh;
+  max-width:3000px;
+  margin:20px 0;
+  font-size:16px;
+  font-family:'Poppins', sans-serif;
+  z-index:1;
+}
+.imagen{
+  background-image:url("../../../view/home/img/cafe.jpg");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  height:100%;
+  width:100%;
+  box-shadow:0 4px 30px rgba(0,0,0,.1);
+  display:flex;
+  justify-content:center;
+
+  /* Fade superior/inferior */
+  --fade:2%;
+  -webkit-mask-image:linear-gradient(to bottom, transparent 0, black var(--fade), black calc(100% - var(--fade)), transparent 100%);
+  -webkit-mask-repeat:no-repeat;
+  -webkit-mask-size:cover;
+          mask-image:linear-gradient(to bottom, transparent 0, black var(--fade), black calc(100% - var(--fade)), transparent 100%);
+  mask-repeat:no-repeat;
+  mask-size:cover;
+}
+
+.text_imagen{
+  position:relative;
+  min-width:300px;
+  width:100%;
+  height:60%;
+  background:rgba(255,255,255,.15);
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+  padding:3rem 1rem;
+  color:#fff;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  box-sizing:border-box;
+}
+.text_imagen button{
+  padding:1rem;
+  border-radius:5px;
+  background-color:#fffd;
+}
+.text_imagen h1{
+  font-size:clamp(2.25em, 1em + 2.5vw, 3em);
+  position:relative;
+  text-align:center;
+  padding:1rem;
+  margin:0;
+}
+.text_imagen p{
+  font-size:clamp(1.125em, .75em + 1vw, 1.5em);
+  padding:1rem;
+  margin:0;
+}
+
+/* Respeto preferencias de movimiento */
+@media (prefers-reduced-motion:reduce){
+  .history{ transition:none }
+  .history:hover{ transform:none }
+}
