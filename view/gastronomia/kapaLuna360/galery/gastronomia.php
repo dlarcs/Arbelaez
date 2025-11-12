@@ -4,7 +4,7 @@ $jsPath  = '../../../view/gastronomia/kapaLuna360/galery/gastronomia.js';
 $cssTime = @filemtime($cssPath) ?: time();
 $jsTime  = @filemtime($jsPath)  ?: time();
 ?>
-<link rel="stylesheet" href="../../../view/gastronomia/kapaLuna360/galery/gastronomia.css<?= $cssPath ?>?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="<?= $cssPath ?>?v=<?= $cssTime ?>">
 
 <section class="section_food_gallery" id="galery_kapaLuna">
   <!-- Título principal -->
