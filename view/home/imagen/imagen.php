@@ -7,9 +7,9 @@ $bgImage = '../../../view/home/img/lugar5.jpg';
 ?>
 
 <!-- Rendimiento: precarga de la imagen LCP y fuentes -->
-<link rel="preload" as="image" href="<?= $bgImage ?>">
+<link rel="preload" as="image" href="../../view/global/img/logo.png<?= $bgImage ?>">
 
-<link rel="stylesheet" href="<?= $cssPath ?>?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../../view/home/imagen/imagen.css<?= $cssPath ?>?v=<?= $cssTime ?>">
 <div class="title_products">
   <h1>Origen y orgullo de mi tierra</h1>
 
