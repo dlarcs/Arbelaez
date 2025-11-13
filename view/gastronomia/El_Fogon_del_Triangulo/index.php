@@ -74,7 +74,7 @@
     <?php include "../../../view/gastronomia/El_Fogon_del_Triangulo/bout_us/about.php" ?>
     <?php include "../../../view/gastronomia/El_Fogon_del_Triangulo/maps/maps.php"?>
   </div>
-  <?php include "../../../view/gastronomia/El_Fogon_del_triangulo/footer/footer.php" ?>
+  <?php include "../../../view/gastronomia/El_Fogon_del_Triangulo/footer/footer.php" ?>
 
   <!-- Botón WhatsApp -->
   <a class="whatsapp-fab"
