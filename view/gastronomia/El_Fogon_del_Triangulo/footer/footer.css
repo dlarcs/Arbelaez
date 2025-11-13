@@ -3,9 +3,9 @@
 	margin: 0;
 	width: 100%;
 
-	/* background: linear-gradient(to bottom,transparent 0%,rgba(255, 0, 0, 1) 100%);  rojo*/
+	  background: linear-gradient(to bottom,transparent 0%,rgba(255, 0, 0, 1) 100%);  /*rojo */
 	/* background: linear-gradient(to bottom,transparent 0%,rgba(0, 85, 72, 1) 100%);verde */
-	background: linear-gradient(to bottom,transparent 0%,rgba(0, 0, 0, 1) 100%); /*  negro */
+	/*background: linear-gradient(to bottom,transparent 0%,rgba(0, 0, 0, 1) 100%);  negro */
 
 
 
