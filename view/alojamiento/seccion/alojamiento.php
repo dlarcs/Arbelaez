@@ -74,7 +74,7 @@ $lodgings = [
     'distance'  => '15 min 🚶',
     'reserve'   => ['type' => 'wa', 'phone' => '573132120224', 'label' => 'Reservar'],
     'category'  => 'Rural',
-    'desc'      => 'Alojamiento campestre con espacios amplios, zona de BBQ y ambiente familiar para descansar o compartir con amigos.'
+    'desc'      => 'Alojamiento campestre con espacios amplios, jacuzzi, zona de BBQ y ambiente familiar para descansar o compartir con amigos.'
   ],
 ];
 ?>
