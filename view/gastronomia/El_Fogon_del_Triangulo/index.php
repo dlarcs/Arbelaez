@@ -39,7 +39,7 @@
   <!-- Rendimiento -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="image" href="https://www.arbelaez.com.co/media/El_Fogon_del_triangulo/hero-gastronomia.webp">
-  <link rel="stylesheet" href="../../../view/gastronomia/El_Fogon_del_triangulo/style.css">
+  <link rel="stylesheet" href="../../../view/gastronomia/El_Fogon_del_Triangulo/style.css">
 
   <!-- Datos estructurados Restaurant -->
   <script type="application/ld+json">
