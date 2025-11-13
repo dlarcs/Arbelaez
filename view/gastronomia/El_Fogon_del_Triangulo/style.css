@@ -6,25 +6,26 @@
   box-sizing: inherit;
 }
 .body_El_Fogon_del_triangulo{
-  margin: 0;
+	margin: 0;
+  padding: 0;
 	background: linear-gradient(
-     to bottom,
-     rgba(60, 179, 113, 0.5)   10%,   /* transparente arriba */
-     rgba(255, 71,  87,.55) 10%,  /* rojo */
-     rgba(255,132,  66,.55) 16%,  /* naranja intenso */
-     rgba(255,165,   0,.55) 22%,  /* naranja/ámbar */
-     rgba(251,209, 96,.90) 28%,   /* amarillo protagonista */
-     rgba(255,222, 89,.70) 34%,   /* amarillo claro */
-     rgba(192,235, 85,.50) 40%,   /* lima */
-     rgba( 72,187,120,.55) 46%,   /* verde */
-     rgba( 64,224,208,.50) 52%,   /* turquesa */
-     rgba( 99,179,237,.55) 60%,   /* azul */
-     rgba( 64,120,255,.50) 68%,   /* índigo */
-     rgba(142, 97,247,.55) 76%,   /* violeta */
-     rgba(217, 70,239,.50) 84%,   /* magenta */
-     rgba(255,140,189,.45) 90%,   /* rosa suave */
-     rgba(251,209, 96,.85) 94%,   /* guiño amarillo final */
-     rgba(  0,  0,  0,.55) 100%   /* pie oscuro para contraste */
+  to bottom,
+  rgba(60, 179, 113, 0)   0%,   /* transparente arriba */
+  rgba(60, 179, 113, 0.5) 10%,  /* verde aparece */
+  rgba(255, 71,  87, .55) 16%,  /* rojo */
+  rgba(255,132,  66, .55) 22%,  /* naranja intenso */
+  rgba(255,165,   0, .55) 28%,  /* ámbar */
+  rgba(251,209,  96, .90) 34%,  /* amarillo protagonista */
+  rgba(255,222,  89, .70) 40%,  /* amarillo claro */
+  rgba(192,235,  85, .50) 46%,  /* lima */
+  rgba( 72,187,120, .55) 52%,   /* verde */
+  rgba( 64,224,208, .50) 60%,   /* turquesa */
+  rgba( 99,179,237, .55) 68%,   /* azul */
+  rgba( 64,120,255, .50) 76%,   /* índigo */
+  rgba(142, 97,247, .55) 84%,   /* violeta */
+  rgba(217, 70,239, .50) 90%,   /* magenta */
+  rgba(255,140,189, .45) 94%,   /* rosa suave */
+  rgba(  0,  0,  0, .55) 100%   /* pie oscuro */
 );
 }
 .container_El_Fogon_del_triangulo{
