@@ -48,7 +48,7 @@
     "@type": "Restaurant",
     "name": "El Fogón del Triángulo",
     "description": "Restaurante con sazón en Arbeláez, especializado en carnes a la parrilla y comida casera. Ambiente familiar, perfecto para compartir en pareja o con amigos.",
-    "url": "https://www.arbelaez.com.co/view/gastronomia/El_Fogon_del_triangulo/index.php#restaurant",
+    "url": "https://www.arbelaez.com.co/view/gastronomia/El_Fogon_del_Triangulo/index.php#restaurant",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Arbeláez",
