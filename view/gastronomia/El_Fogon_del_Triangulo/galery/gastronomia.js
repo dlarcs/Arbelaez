@@ -1,23 +1,31 @@
-const filterElements = document.querySelector('.categories_food_gallery');
-const galleryItems = document.querySelectorAll('.food_card');
+const filterBar = document.querySelector('.categories_food_gallery');
+const gallery   = document.querySelector('.food_gallery_container');
+if (!filterBar || !gallery) return;
 
-filterElements.addEventListener("click", (event) => {
-	if (event.target.classList.contains("filter_items")) {
-		// Remover la clase 'active'
-		const activeItem = filterElements.querySelector('.active');
-		if (activeItem) {
-			activeItem.classList.remove('active');
-		}
-		event.target.classList.add('active');
+const cards = Array.from(gallery.querySelectorAll('.food_card'));
 
-		// Filtro
-		const filterValue = event.target.getAttribute('data-filter');
-		galleryItems.forEach((item) => {
-			if (item.classList.contains(filterValue) || filterValue === "all") {
-				item.style.display = "block";
-			} else {
-				item.style.display = "none";
-			}
-		});
-	}
+filterBar.addEventListener('click', (e) => {
+  const btn = e.target.closest('.filter_items');
+  if (!btn) return;
+
+  // Visual activo + ARIA
+  filterBar.querySelector('.active')?.classList.remove('active');
+  btn.classList.add('active');
+  filterBar.querySelectorAll('[role="tab"]').forEach(tab => {
+    tab.setAttribute('aria-selected', tab === btn ? 'true' : 'false');
+  });
+
+  const filter = btn.dataset.filter.toLowerCase();
+
+  for (const card of cards) {
+    // Compara en minúsculas para evitar problemas de caso
+    const classes = card.className.toLowerCase().split(/\s+/);
+    const match = filter === 'all' || classes.includes(filter);
+
+    // opción A: usar atributo hidden (recomendado)
+    card.hidden = !match;
+
+    // opción B: si prefieres la clase (asegúrate del CSS de arriba)
+    // card.classList.toggle('is-hidden', !match);
+  }
 });
