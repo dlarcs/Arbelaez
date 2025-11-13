@@ -32,7 +32,7 @@
   <meta name="twitter:image" content="https://www.arbelaez.com.co/media/Los_Altos/og-1200x630.jpg">
 
   <!-- Icono / tema (rutas como las tienes ahora) -->
-  <link rel="icon" href="../../../view/alojamiento/Los_Altos/img/general23.jpg" type="image/jpeg">
+  <link rel="icon" href="../../../view/alojamiento/Los_Altos/img/general11.jpg" type="image/jpeg">
   <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/Los_Altos/apple-touch-icon.png">
   <meta name="theme-color" content="#005548">
 

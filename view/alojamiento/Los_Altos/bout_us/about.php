@@ -7,7 +7,7 @@ $cssTime = filemtime('../../../view/alojamiento/Los_Altos/bout_us/about.css');
 	  <article class="card" itemscope itemtype="https://schema.org/LodgingBusiness">
 	    <figure class="hero">
 	      <!-- Cambia la imagen cuando tengas la foto principal de la cabaña -->
-	      <img src="../../../view/alojamiento/Los_Altos/img/general11.jpg"
+	      <img src="../../../view/alojamiento/Los_Altos/img/jacuzzi3.jpg"
 	           alt="Casa Kandu — cabaña rural con zona BBQ en Arbeláez"
 	           itemprop="image" loading="lazy">
 	      <figcaption>Alojamiento rural</figcaption>
