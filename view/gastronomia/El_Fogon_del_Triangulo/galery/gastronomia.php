@@ -1,8 +1,15 @@
 <?php
-$cssTime = filemtime('../../../view/gastronomia/El_Fogon_del_Triangulo/galery/gastronomia.css'); // ejemplo: '../Home/5.Video/video.css'
-$jsTime = filemtime('../../../view/gastronomia/El_Fogon_del_Triangulo/galery/gastronomia.js');   // ejemplo: '../Home/5.Video/video.js'
+$cssPath = '../../../view/gastronomia/El_Fogon_del_Triangulo/galery/gastronomia.css';
+$jsPath  = '../../../view/gastronomia/El_Fogon_del_Triangulo/galery/gastronomia.js';
+$cssTime = @filemtime($cssPath) ?: time();
+$jsTime  = @filemtime($jsPath)  ?: time();
 ?>
-	<link rel="stylesheet" href="../../../view/gastronomia/El_Fogon_del_Triangulo/galery/gastronomia.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="<?= $cssPath ?>?v=<?= $cssTime ?>">
+
+<!-- …tu HTML… -->
+
+<script src="<?= $jsPath ?>?v=<?= $jsTime ?>" defer></script>
+
 	<section class="section_food_gallery" id="galery_El_Fogon_triangulo">
 
 		<!-- Título principal -->
