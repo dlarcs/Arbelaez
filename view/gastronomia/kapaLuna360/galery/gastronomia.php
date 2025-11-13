@@ -107,4 +107,4 @@ $jsTime  = @filemtime($jsPath)  ?: time();
   </div>
 </section>
 
-<script src="../../../view/gastronomia/kapaLuna360/galery/gastronomia.js<?= $jsPath ?>?v=<?= $jsTime ?>" defer></script>
+<script src="<?= $jsPath ?>?v=<?= $jsTime ?>" defer></script>
