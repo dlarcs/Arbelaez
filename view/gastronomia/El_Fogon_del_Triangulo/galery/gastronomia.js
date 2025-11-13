@@ -1,23 +1,23 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const filterBar = document.querySelector('.categories_food_gallery');
-  const cards = document.querySelectorAll('.food_card');
-  if (!filterBar || !cards.length) return;
+const filterElements = document.querySelector('.categories_food_gallery');
+const galleryItems = document.querySelectorAll('.food_card');
 
-  filterBar.addEventListener('click', (e) => {
-    const btn = e.target.closest('.filter_items');
-    if (!btn) return;
+filterElements.addEventListener("click", (event) => {
+	if (event.target.classList.contains("filter_items")) {
+		// Remover la clase 'active'
+		const activeItem = filterElements.querySelector('.active');
+		if (activeItem) {
+			activeItem.classList.remove('active');
+		}
+		event.target.classList.add('active');
 
-    // Visual activo
-    filterBar.querySelector('.active')?.classList.remove('active');
-    btn.classList.add('active');
-
-    // Filtro (case-insensitive)
-    const filter = (btn.dataset.filter || 'all').toLowerCase();
-
-    cards.forEach((card) => {
-      const classes = card.className.toLowerCase();
-      const match = filter === 'all' || classes.includes(filter);
-      card.hidden = !match; // oculta/muestra sin inline styles
-    });
-  });
+		// Filtro
+		const filterValue = event.target.getAttribute('data-filter');
+		galleryItems.forEach((item) => {
+			if (item.classList.contains(filterValue) || filterValue === "all") {
+				item.style.display = "block";
+			} else {
+				item.style.display = "none";
+			}
+		});
+	}
 });

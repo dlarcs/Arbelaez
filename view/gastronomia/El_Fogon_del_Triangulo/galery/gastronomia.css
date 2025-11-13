@@ -75,7 +75,6 @@
   transition: transform .25s ease;
 }
 .food_card:hover{ transform: scale(1.03); }
-.food_card.is-hidden{ display:none !important; }
 
 .food_card img{
   width: 100%;
