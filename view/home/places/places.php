@@ -50,7 +50,7 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       </article>
     </a>
 
-    <a href="../../" class="card_link">
+    <a href="../../view/Naturaleza/index.php" class="card_link">
       <article class="galery_card_places">
         <p class="badge">Naturaleza</p>
         <img
