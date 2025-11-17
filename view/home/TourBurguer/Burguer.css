@@ -205,8 +205,8 @@
 .tourburger-modal__dialog {
   position: relative;
   max-width: 640px;
-  margin:  auto;
-  background: grey;
+  margin: 20rem auto;
+  background: #050505;
   border-radius: 18px;
   padding: 1.5rem 1.5rem 1.3rem;
   border: 1px solid var(--tourburger-border);
