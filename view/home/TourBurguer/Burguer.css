@@ -185,7 +185,7 @@
 /* MODAL */
 
 .tourburger-modal {
-  margin: auto;
+  margin: 2rem 0 0 0;
   position: fixed;
   inset: 0;
   display: none;
