@@ -34,7 +34,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
       <figure class="tourburger__image-wrapper">
         <!-- Imagen principal por defecto -->
         <img
-          src="../../../view/home/TourBurguer/img/tour1.png"
+          src="../../../view/home/TourBurguer/img/general.png"
           alt="Hamburguesa artesanal del TourBurger Arbeláez"
           class="tourburger__image"
           loading="lazy"
