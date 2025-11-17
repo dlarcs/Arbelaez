@@ -198,7 +198,7 @@
 .tourburger-modal__overlay {
   position: absolute;
   inset: 0;
-  background: red;
+  background: rgba(0, 0, 0, 0.65);
   backdrop-filter: blur(3px);
 }
 
@@ -206,7 +206,7 @@
   position: relative;
   max-width: 640px;
   margin: 4vh auto;
-  background: #050505;
+  background: blue;
   border-radius: 18px;
   padding: 1.5rem 1.5rem 1.3rem;
   border: 1px solid var(--tourburger-border);
