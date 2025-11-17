@@ -34,7 +34,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
       <figure class="tourburger__image-wrapper">
         <!-- Imagen principal por defecto -->
         <img
-          src="../../view/gastronomia/La_Marranada/img/especial5.jpg"
+          src="../../../view/home/TourBurguer/img/tour1.png"
           alt="Hamburguesa artesanal del TourBurger Arbeláez"
           class="tourburger__image"
           loading="lazy"
@@ -53,7 +53,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
       <!-- CARD 1 -->
       <article
         class="tourburger-card"
-        data-image="../../view/gastronomia/La_Marranada/img/especial5.jpg"
+        data-image="../../view/gastronomia/kalu/img/especial10.jpg"
         data-image-alt="TourBurger de Kalú Café Resto-Bar"
       >
         <h3 class="tourburger-card__name">Kalú Café Resto-Bar</h3>
@@ -83,7 +83,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
       <!-- CARD 2 -->
       <article
         class="tourburger-card"
-        data-image="../../view/gastronomia/La_Marranada/img/especial5.jpg"
+        data-image="../../view/gastronomia/kapaLuna360/img/ESLOGAN.jpg"
         data-image-alt="TourBurger parrillera de KapaLuna 360°"
       >
         <h3 class="tourburger-card__name">KapaLuna 360°</h3>
