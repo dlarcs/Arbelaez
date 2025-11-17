@@ -116,7 +116,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         data-image="../../view/gastronomia/La_Marranada/img/especial5.jpg"
         data-image-alt="TourBurger de Café & Burger Parque"
       >
-        <h3 class="tourburger-card__name">Café & Burger Parque</h3>
+        <h3 class="tourburger-card__name">Café & Burger Alvaro</h3>
         <p class="tourburger-card__details">
           Al frente del parque principal — TourBurger con sabor artesanal y toques de café.
         </p>
