@@ -62,7 +62,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           </a>
           <!-- Reemplaza por el enlace real de Maps -->
           <a
-            href="https://maps.app.goo.gl/thEnUYdGNzDPJHUCA"
+            href="https://maps.app.goo.gl/6jA4Quw4p3FkPY8Y8"
             class="btn btn--ghost"
             target="_blank"
             rel="noopener noreferrer"
