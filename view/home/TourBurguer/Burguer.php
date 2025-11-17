@@ -1,3 +1,9 @@
+<?php
+$cssTime = filemtime('../../view/home/TourBurguer/Burguer.css');
+$jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
+?>
+<link rel="stylesheet" href="../../view/home/TourBurguer/Burguer.css?v=<?= $cssTime ?>">
+
 <!-- =========================
   SECTION: TOURBURGER ARBELÁEZ
 ========================= -->
@@ -184,3 +190,4 @@
     </div>
   </div>
 </section>
+<script src="../../view/home/TourBurguer/Burguer.js?v=<?= $jsTime ?>" type="text/javascript"></script>
