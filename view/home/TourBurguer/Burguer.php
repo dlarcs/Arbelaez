@@ -123,6 +123,131 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           </a>
         </div>
       </article>
+      <!-- CARD 4 (ejemplo, duplica y ajusta según locales) -->
+      <article class="tourburger-card">
+        <h3 class="tourburger-card__name">Huerto</h3>
+        <p class="tourburger-card__details">
+          Al frente del parque principal — TourBurger con sabor artesanal y toques de café.
+        </p>
+        <div class="tourburger-card__actions">
+          <a
+            href="https://wa.me/573007778899?text=Hola%2C%20quiero%20probar%20la%20TourBurger"
+            class="btn btn--primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Contacto
+          </a>
+          <a
+            href="https://maps.app.goo.gl/xxxxxxxx"
+            class="btn btn--ghost"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cómo llegar
+          </a>
+        </div>
+      </article>
+      <!-- CARD 5 (ejemplo, duplica y ajusta según locales) -->
+      <article class="tourburger-card">
+        <h3 class="tourburger-card__name">El garage</h3>
+        <p class="tourburger-card__details">
+          Al frente del parque principal — TourBurger con sabor artesanal y toques de café.
+        </p>
+        <div class="tourburger-card__actions">
+          <a
+            href="https://wa.me/573007778899?text=Hola%2C%20quiero%20probar%20la%20TourBurger"
+            class="btn btn--primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Contacto
+          </a>
+          <a
+            href="https://maps.app.goo.gl/xxxxxxxx"
+            class="btn btn--ghost"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cómo llegar
+          </a>
+        </div>
+      </article>
+      <!-- CARD 6 (ejemplo, duplica y ajusta según locales) -->
+      <article class="tourburger-card">
+        <h3 class="tourburger-card__name">La marranada</h3>
+        <p class="tourburger-card__details">
+          Al frente del parque principal — TourBurger con sabor artesanal y toques de café.
+        </p>
+        <div class="tourburger-card__actions">
+          <a
+            href="https://wa.me/573007778899?text=Hola%2C%20quiero%20probar%20la%20TourBurger"
+            class="btn btn--primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Contacto
+          </a>
+          <a
+            href="https://maps.app.goo.gl/xxxxxxxx"
+            class="btn btn--ghost"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cómo llegar
+          </a>
+        </div>
+      </article>
+      <!-- CARD 7 (ejemplo, duplica y ajusta según locales) -->
+      <article class="tourburger-card">
+        <h3 class="tourburger-card__name">Hamburguesas</h3>
+        <p class="tourburger-card__details">
+          Al frente del parque principal — TourBurger con sabor artesanal y toques de café.
+        </p>
+        <div class="tourburger-card__actions">
+          <a
+            href="https://wa.me/573007778899?text=Hola%2C%20quiero%20probar%20la%20TourBurger"
+            class="btn btn--primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Contacto
+          </a>
+          <a
+            href="https://maps.app.goo.gl/xxxxxxxx"
+            class="btn btn--ghost"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cómo llegar
+          </a>
+        </div>
+      </article>
+      <!-- CARD 3 (ejemplo, duplica y ajusta según locales) -->
+      <article class="tourburger-card">
+        <h3 class="tourburger-card__name">Casa Campestre</h3>
+        <p class="tourburger-card__details">
+          Al frente del parque principal — TourBurger con sabor artesanal y toques de café.
+        </p>
+        <div class="tourburger-card__actions">
+          <a
+            href="https://wa.me/573007778899?text=Hola%2C%20quiero%20probar%20la%20TourBurger"
+            class="btn btn--primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Contacto
+          </a>
+          <a
+            href="https://maps.app.goo.gl/xxxxxxxx"
+            class="btn btn--ghost"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cómo llegar
+          </a>
+        </div>
+      </article>
     </div>
   </div>
 
