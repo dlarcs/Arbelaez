@@ -32,7 +32,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
       </div>
 
       <figure class="tourburger__image-wrapper">
-        <!-- Cambia la ruta por la imagen que quieras usar -->
+        <!-- Imagen principal por defecto -->
         <img
           src="../../view/gastronomia/La_Marranada/img/especial5.jpg"
           alt="Hamburguesa artesanal del TourBurger Arbeláez"
@@ -44,14 +44,23 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
     <!-- Locales participantes -->
     <div class="tourburger__places" aria-label="Locales participantes">
+      <!--
+        IMPORTANTE:
+        data-image => ruta de la imagen que quieres mostrar en el hero al hacer clic
+        data-image-alt => texto alternativo para esa imagen
+      -->
+
       <!-- CARD 1 -->
-      <article class="tourburger-card">
+      <article
+        class="tourburger-card"
+        data-image="../../view/gastronomia/La_Marranada/img/especial5.jpg"
+        data-image-alt="TourBurger de Kalú Café Resto-Bar"
+      >
         <h3 class="tourburger-card__name">Kalú Café Resto-Bar</h3>
         <p class="tourburger-card__details">
           Arbeláez, Cundinamarca — Ambiente familiar y hamburguesa TourBurger Kalú.
         </p>
         <div class="tourburger-card__actions">
-          <!-- Reemplaza por el número real -->
           <a
             href="https://wa.me/573123804104?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
             class="btn btn--primary"
@@ -60,7 +69,6 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           >
             Contacto
           </a>
-          <!-- Reemplaza por el enlace real de Maps -->
           <a
             href="https://maps.app.goo.gl/6jA4Quw4p3FkPY8Y8"
             class="btn btn--ghost"
@@ -73,7 +81,11 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
       </article>
 
       <!-- CARD 2 -->
-      <article class="tourburger-card">
+      <article
+        class="tourburger-card"
+        data-image="../../view/gastronomia/La_Marranada/img/especial5.jpg"
+        data-image-alt="TourBurger parrillera de KapaLuna 360°"
+      >
         <h3 class="tourburger-card__name">KapaLuna 360°</h3>
         <p class="tourburger-card__details">
           Arbeláez, Cundinamarca — Vista panorámica y TourBurger parrillera.
@@ -98,8 +110,12 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         </div>
       </article>
 
-      <!-- CARD 3 (ejemplo, duplica y ajusta según locales) -->
-      <article class="tourburger-card">
+      <!-- CARD 3 -->
+      <article
+        class="tourburger-card"
+        data-image="../../view/gastronomia/La_Marranada/img/especial5.jpg"
+        data-image-alt="TourBurger de Café & Burger Parque"
+      >
         <h3 class="tourburger-card__name">Café & Burger Parque</h3>
         <p class="tourburger-card__details">
           Al frente del parque principal — TourBurger con sabor artesanal y toques de café.
@@ -123,11 +139,16 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           </a>
         </div>
       </article>
-      <!-- CARD 4 (ejemplo, duplica y ajusta según locales) -->
-      <article class="tourburger-card">
+
+      <!-- CARD 4 -->
+      <article
+        class="tourburger-card"
+        data-image="../../view/gastronomia/La_Marranada/img/especial5.jpg"
+        data-image-alt="TourBurger de Huerto"
+      >
         <h3 class="tourburger-card__name">Huerto</h3>
         <p class="tourburger-card__details">
-          Al frente del parque principal — TourBurger con sabor artesanal y toques de café.
+          Al frente del parque principal — TourBurger con ingredientes frescos y locales.
         </p>
         <div class="tourburger-card__actions">
           <a
@@ -148,11 +169,16 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           </a>
         </div>
       </article>
-      <!-- CARD 5 (ejemplo, duplica y ajusta según locales) -->
-      <article class="tourburger-card">
+
+      <!-- CARD 5 -->
+      <article
+        class="tourburger-card"
+        data-image="../../view/gastronomia/La_Marranada/img/especial5.jpg"
+        data-image-alt="TourBurger de El Garage"
+      >
         <h3 class="tourburger-card__name">El garage</h3>
         <p class="tourburger-card__details">
-          Al frente del parque principal — TourBurger con sabor artesanal y toques de café.
+          Estilo urbano — TourBurger con ambiente relajado y buena música.
         </p>
         <div class="tourburger-card__actions">
           <a
@@ -173,11 +199,16 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           </a>
         </div>
       </article>
-      <!-- CARD 6 (ejemplo, duplica y ajusta según locales) -->
-      <article class="tourburger-card">
+
+      <!-- CARD 6 -->
+      <article
+        class="tourburger-card"
+        data-image="../../view/gastronomia/La_Marranada/img/especial5.jpg"
+        data-image-alt="TourBurger de La Marranada"
+      >
         <h3 class="tourburger-card__name">La marranada</h3>
         <p class="tourburger-card__details">
-          Al frente del parque principal — TourBurger con sabor artesanal y toques de café.
+          Sabor contundente — TourBurger con recetas inspiradas en la casa.
         </p>
         <div class="tourburger-card__actions">
           <a
@@ -198,11 +229,16 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           </a>
         </div>
       </article>
-      <!-- CARD 7 (ejemplo, duplica y ajusta según locales) -->
-      <article class="tourburger-card">
+
+      <!-- CARD 7 -->
+      <article
+        class="tourburger-card"
+        data-image="../../view/gastronomia/La_Marranada/img/especial5.jpg"
+        data-image-alt="TourBurger de Hamburguesas"
+      >
         <h3 class="tourburger-card__name">Hamburguesas</h3>
         <p class="tourburger-card__details">
-          Al frente del parque principal — TourBurger con sabor artesanal y toques de café.
+          Tradición hamburguesera — TourBurger con sabor clásico y generoso.
         </p>
         <div class="tourburger-card__actions">
           <a
@@ -223,11 +259,16 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           </a>
         </div>
       </article>
-      <!-- CARD 3 (ejemplo, duplica y ajusta según locales) -->
-      <article class="tourburger-card">
+
+      <!-- CARD 8 -->
+      <article
+        class="tourburger-card"
+        data-image="../../view/gastronomia/La_Marranada/img/especial5.jpg"
+        data-image-alt="TourBurger de Casa Campestre"
+      >
         <h3 class="tourburger-card__name">Casa Campestre</h3>
         <p class="tourburger-card__details">
-          Al frente del parque principal — TourBurger con sabor artesanal y toques de café.
+          Entorno natural — TourBurger para disfrutar en un ambiente campestre.
         </p>
         <div class="tourburger-card__actions">
           <a
@@ -315,4 +356,5 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     </div>
   </div>
 </section>
-<script src="../../view/home/TourBurguer/Burguer.js?v=<?= $jsTime ?>" type="text/javascript"></script>
+
+<script src="../../view/home/TourBurguer/Burguer.js?v=<?= $jsTime ?>" type="text/javascript" ></script>

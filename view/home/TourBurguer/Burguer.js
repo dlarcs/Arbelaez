@@ -1,35 +1,71 @@
 // =========================
-// TOURBURGER MODAL LOGIC
+// TOURBURGER LOGIC
 // =========================
 
 document.addEventListener("DOMContentLoaded", () => {
+  // =========================
+  // MODAL TÉRMINOS
+  // =========================
   const modal = document.getElementById("tourburger-terms");
-  if (!modal) return;
-
   const openButtons = document.querySelectorAll("[data-open-modal]");
-  const closeElements = modal.querySelectorAll("[data-close-modal]");
+  const closeElements = modal ? modal.querySelectorAll("[data-close-modal]") : [];
 
   const openModal = () => {
+    if (!modal) return;
     modal.classList.add("is-open");
     modal.setAttribute("aria-hidden", "false");
   };
 
   const closeModal = () => {
+    if (!modal) return;
     modal.classList.remove("is-open");
     modal.setAttribute("aria-hidden", "true");
   };
 
-  openButtons.forEach((btn) => {
-    btn.addEventListener("click", openModal);
-  });
+  if (modal) {
+    openButtons.forEach((btn) => {
+      btn.addEventListener("click", openModal);
+    });
 
-  closeElements.forEach((el) => {
-    el.addEventListener("click", closeModal);
-  });
+    closeElements.forEach((el) => {
+      el.addEventListener("click", closeModal);
+    });
 
-  document.addEventListener("keyup", (event) => {
-    if (event.key === "Escape" && modal.classList.contains("is-open")) {
-      closeModal();
-    }
-  });
+    document.addEventListener("keyup", (event) => {
+      if (event.key === "Escape" && modal.classList.contains("is-open")) {
+        closeModal();
+      }
+    });
+  }
+
+  // =========================
+  // CAMBIO DE IMAGEN DEL HERO
+  // =========================
+  const heroImage = document.querySelector(".tourburger__image");
+  const cards = document.querySelectorAll(".tourburger-card");
+
+  if (heroImage && cards.length) {
+    cards.forEach((card) => {
+      const imgSrc = card.getAttribute("data-image");
+      const imgAlt = card.getAttribute("data-image-alt") || heroImage.alt;
+
+      if (!imgSrc) return;
+
+      const triggers = card.querySelectorAll(
+        ".tourburger-card__name, .tourburger-card__details"
+      );
+
+      triggers.forEach((trigger) => {
+        trigger.addEventListener("click", () => {
+          heroImage.style.opacity = "0.15";
+
+          setTimeout(() => {
+            heroImage.src = imgSrc;
+            heroImage.alt = imgAlt;
+            heroImage.style.opacity = "1";
+          }, 150);
+        });
+      });
+    });
+  }
 });

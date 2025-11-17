@@ -89,6 +89,7 @@
   width: 100%;
   border-radius: 24px;
   object-fit: cover;
+  transition: opacity 0.25s ease;
 }
 
 /* Locales */
@@ -118,6 +119,12 @@
 .tourburger-card__details {
   font-size: 0.9rem;
   color: var(--tourburger-muted);
+}
+
+/* Para que se note que son clicables */
+.tourburger-card__name,
+.tourburger-card__details {
+  cursor: pointer;
 }
 
 .tourburger-card__actions {
