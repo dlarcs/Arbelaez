@@ -76,11 +76,11 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
       <article class="tourburger-card">
         <h3 class="tourburger-card__name">KapaLuna 360°</h3>
         <p class="tourburger-card__details">
-          Vista panorámica y TourBurger parrillera.
+          Arbeláez, Cundinamarca — Vista panorámica y TourBurger parrillera.
         </p>
         <div class="tourburger-card__actions">
           <a
-            href="https://wa.me/573004445566?text=Hola%2C%20quiero%20reservar%20para%20el%20TourBurger"
+            href="https://wa.me/573024229260?text=Hola%2C%20quiero%20reservar%20para%20el%20TourBurger"
             class="btn btn--primary"
             target="_blank"
             rel="noopener noreferrer"
@@ -88,7 +88,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
             Contacto
           </a>
           <a
-            href="https://maps.app.goo.gl/xxxxxxxx"
+            href="https://maps.app.goo.gl/wbGNcZNAbQ9SudKQ9"
             class="btn btn--ghost"
             target="_blank"
             rel="noopener noreferrer"
