@@ -14,7 +14,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
       <div class="tourburger__text">
         <h2 class="tourburger__title">TourBurger Arbeláez</h2>
         <p class="tourburger__subtitle">
-          Ruta gastronómica de hamburguesas artesanales
+          Ruta gastronómica de hamburguesas Arbelaences
         </p>
         <p class="tourburger__dates">
           Del <strong>16</strong> al <strong>28 de diciembre</strong>
@@ -46,14 +46,14 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     <div class="tourburger__places" aria-label="Locales participantes">
       <!-- CARD 1 -->
       <article class="tourburger-card">
-        <h3 class="tourburger-card__name">Burger House Centro</h3>
+        <h3 class="tourburger-card__name">Kalú Café Resto-Bar</h3>
         <p class="tourburger-card__details">
-          Cra. 5 #10-20, Arbeláez — Ambiente familiar y hamburguesa TourBurger clásica.
+          Arbeláez, Cundinamarca — Ambiente familiar y hamburguesa TourBurger Kalú.
         </p>
         <div class="tourburger-card__actions">
           <!-- Reemplaza por el número real -->
           <a
-            href="https://wa.me/573001112233?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
+            href="https://wa.me/573123804104?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
             class="btn btn--primary"
             target="_blank"
             rel="noopener noreferrer"
@@ -62,7 +62,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           </a>
           <!-- Reemplaza por el enlace real de Maps -->
           <a
-            href="https://maps.app.goo.gl/xxxxxxxx"
+            href="https://maps.app.goo.gl/thEnUYdGNzDPJHUCA"
             class="btn btn--ghost"
             target="_blank"
             rel="noopener noreferrer"
@@ -74,9 +74,9 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <!-- CARD 2 -->
       <article class="tourburger-card">
-        <h3 class="tourburger-card__name">Parrilla Mirador</h3>
+        <h3 class="tourburger-card__name">KapaLuna 360°</h3>
         <p class="tourburger-card__details">
-          Vía vereda El Mirador — Vista panorámica y TourBurger parrillera.
+          Vista panorámica y TourBurger parrillera.
         </p>
         <div class="tourburger-card__actions">
           <a
