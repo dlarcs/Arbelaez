@@ -15,7 +15,7 @@
   background-color: #000;
   background-position:center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:contain;
   background-attachment: local;
   position: relative;
   width: 100%;
