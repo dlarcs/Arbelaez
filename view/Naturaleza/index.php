@@ -5,17 +5,12 @@
       <title>Naturaleza Rios y Quebradas</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
-    <link rel="stylesheet" href="../../view/Parroquia/style.css">
+    <link rel="stylesheet" href="../../view/Naturaleza/style.css">
   </head>
 
-  <body class="body_Parroquia">
+  <body class="body_Naturaleza">
     <?php include "../../view/global/menu/menu.php" ?>
-
-    <div class="container_Parroquia">
-      <a class="whatsapp-fab"
-   href="https://wa.me/573138846378?text=Hola%20vengo%20desde%20la%20web"
-   target="_blank" rel="noopener"
-   aria-label="Chatear por WhatsApp" ><img src="../../view/Parroquia/img/img_whatsApp.png" alt=""> </a>
+    <div class="container_Naturaleza">
       <?php include "../../view/Naturaleza/galery/galery.php" ?>
       <?php include "../../view/Naturaleza/maps/maps.php" ?>
       <?php include "../../view/global/footer/footer.php" ?>
