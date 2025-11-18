@@ -86,7 +86,7 @@
 /* Móviles: evitar background-attachment fixed por performance */
 @media (max-width: 820px){
   .seccion_img_alojamiento{
-    background-attachment: scroll;
+    background-attachment: local;
     height: 64vh; }
 }
 
