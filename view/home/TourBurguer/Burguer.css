@@ -81,7 +81,6 @@
   max-height: 50vh;        /* 🔹 límite del contenedor */
   background: radial-gradient(circle at top, #ffb74d22, #000);
   box-shadow: var(--tourburger-shadow);
-  overflow: hidden;         /* 🔹 recorta si algo se pasa */
 }
 
 .tourburger__image {
