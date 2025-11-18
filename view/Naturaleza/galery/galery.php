@@ -5,13 +5,7 @@ $jsTime = filemtime('../../view/Naturaleza/galery/galery.js');   // ejemplo: '..
 <link rel="stylesheet" href="../../view/Naturaleza/galery/galery.css?v=<?= $cssTime ?>">
 
 
-<!-- ===== Hero (ríos) ===== -->
-<section class="seccion_img" aria-label="Portada ríos de Arbeláez">
-  <div class="hero_panel">
-    <h1>Ríos y quebradas de Arbeláez</h1>
-    <p>Explora el Sumapaz, sus afluentes y quebradas: naturaleza viva para caminar, contemplar y cuidar.</p>
-  </div>
-</section>
+
 
 <!-- ===== Directorio ===== -->
 <section class="section_restos" aria-labelledby="rios-title">
@@ -178,6 +172,13 @@ $jsTime = filemtime('../../view/Naturaleza/galery/galery.js');   // ejemplo: '..
       </div>
     </article>
 
+  </div>
+</section>
+<!-- ===== Hero (ríos) ===== -->
+<section class="seccion_img" aria-label="Portada ríos de Arbeláez">
+  <div class="hero_panel">
+    <h1>Ríos y quebradas de Arbeláez</h1>
+    <p>Explora el Sumapaz, sus afluentes y quebradas: naturaleza viva para caminar, contemplar y cuidar.</p>
   </div>
 </section>
 
