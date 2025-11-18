@@ -12,9 +12,9 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     <!-- Bloque principal: info + imagen -->
     <div class="tourburger__hero">
       <div class="tourburger__text">
-        <h2 class="tourburger__title">1er TourBurger Arbeláez</h2>
+        1er<h2 class="tourburger__title"> TourBurger Arbeláez</h2>
         <p class="tourburger__subtitle">
-          Ruta gastronómica de hamburguesas Arbelaences
+          Ruta gastronómica de hamburguesas Arbelaences.
         </p>
         <p class="tourburger__dates">
           Del <strong>16</strong> al <strong>28 de diciembre</strong>
