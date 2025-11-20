@@ -219,7 +219,7 @@ $jsTime = filemtime('../../view/gastronomia/seccion/restaurante.js');   // ejemp
       </ul>
 
       <div class="resto_meta">
-        <a class="resto_btn" href="https://wa.me/573112595302?text=Hola%20vengo%20desde%20la%20web%20de%20El%20Fogón%20del%20Triángulo" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="resto_btn" href="https://wa.me/573144506914?text=Hola%20vengo%20desde%20la%20web%20de%20El%20Fogón%20del%20Triángulo" target="_blank" rel="noopener">WhatsApp</a>
         <a class="resto_btn" href="../../view/gastronomia/El_Fogon_del_Triangulo/index.php">Ver más</a>
       </div>
 

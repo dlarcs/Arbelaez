@@ -21,7 +21,7 @@ $cssTime = filemtime('../../../view/gastronomia/El_Fogon_del_Triangulo/bout_us/a
 			  Ven a disfrutar un ambiente vibrante y acogedor, donde cada detalle está hecho para compartir y vivir momentos inolvidables.
 			  <br>Te esperamos. Pedidos y reservas:
 			  <a href="https://wa.me/573144506914?text=Hola%20vengo%20desde%20la%20web%20de%20El%20Asadero%20El%20Fogón%20del%20Triángulo"
-			     target="_blank" rel="noopener noreferrer">3112595302</a>
+			     target="_blank" rel="noopener noreferrer">3144506914</a>
 			</p>
 
 			<ul class="bullets">
