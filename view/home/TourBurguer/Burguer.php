@@ -114,36 +114,6 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
       <article
         class="tourburger-card"
         data-image="../../view/gastronomia/La_Marranada/img/especial5.jpg"
-        data-image-alt="TourBurger de Café & Burger Parque"
-      >
-        <h3 class="tourburger-card__name">Café & Burger Alvaro</h3>
-        <p class="tourburger-card__details">
-          Al frente del parque principal — TourBurger con sabor artesanal y toques de café.
-        </p>
-        <div class="tourburger-card__actions">
-          <a
-            href="https://wa.me/573007778899?text=Hola%2C%20quiero%20probar%20la%20TourBurger"
-            class="btn btn--primary"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Contacto
-          </a>
-          <a
-            href="https://maps.app.goo.gl/xxxxxxxx"
-            class="btn btn--ghost"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Cómo llegar
-          </a>
-        </div>
-      </article>
-
-      <!-- CARD 4 -->
-      <article
-        class="tourburger-card"
-        data-image="../../view/gastronomia/La_Marranada/img/especial5.jpg"
         data-image-alt="TourBurger de Huerto"
       >
         <h3 class="tourburger-card__name">Huerto</h3>
@@ -236,7 +206,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         data-image="../../view/gastronomia/La_Marranada/img/especial5.jpg"
         data-image-alt="TourBurger de Hamburguesas"
       >
-        <h3 class="tourburger-card__name">Hamburguesas</h3>
+        <h3 class="tourburger-card__name">Totumazo</h3>
         <p class="tourburger-card__details">
           Tradición hamburguesera — TourBurger con sabor clásico y generoso.
         </p>
@@ -266,7 +236,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         data-image="../../view/gastronomia/La_Marranada/img/especial5.jpg"
         data-image-alt="TourBurger de Casa Campestre"
       >
-        <h3 class="tourburger-card__name">Casa Campestre</h3>
+        <h3 class="tourburger-card__name">Deli pollo</h3>
         <p class="tourburger-card__details">
           Entorno natural — TourBurger para disfrutar en un ambiente campestre.
         </p>
@@ -350,6 +320,9 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
             La organización se reserva el derecho de modificar estos términos
             por causas de fuerza mayor, informándolo previamente en los
             canales oficiales.
+          </li>
+          <li>
+            Seguirnos en nuestras redes sociales. Facebook, Instagram y Tiktok
           </li>
         </ol>
       </div>
