@@ -7,8 +7,12 @@
 }
 .body_Casa_Kandu {
 	padding: 0;
-	margin: 0;
-background-color: red;
+ margin: 0;
+ min-height: 100vh;
+ background-image: url("../../view/alojamiento/Casa_Kandu/img/fondo.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
 }
 .container_Casa_Kandu {
 	padding:  0 ;
@@ -19,7 +23,7 @@ background-color: red;
 	flex-direction: column;
 	object-fit: cover;
 	overflow: hidden;
-	background-color: red;
+
 
 }
 

@@ -179,7 +179,7 @@
       "Alojamiento Casa Kandu",
       "Casa Kandu Cundinamarca",
       "Casa Kandu turismo",
-      "Casa Kandu naturaleza",
+      "Casa Kandu naturaleza"
     ]
   }
   </script>
