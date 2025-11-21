@@ -189,7 +189,7 @@
   <?php include "../../../view/alojamiento/Casa_Kandu/menu/menu.php" ?>
   <div class="container_Casa_Kandu">
     <?php include "../../../view/alojamiento/Casa_Kandu/title/title.php" ?>
-    <?php include "../../../view/alojamiento/Casa_Kandu/slider/slider.php" ?>
+    <?php include "../../view/alojamiento/Casa_Kandu/slider/slider.php" ?>
     <?php include "../../../view/alojamiento/Casa_Kandu/galery/productos.php" ?>
     <?php include "../../../view/alojamiento/Casa_Kandu/bout_us/about.php" ?>
     <?php include "../../../view/alojamiento/Casa_Kandu/maps/maps.php"?>
