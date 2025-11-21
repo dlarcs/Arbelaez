@@ -19,7 +19,7 @@
 	object-fit: cover;
 	overflow: hidden;
 	background-image: url("../../view/alojamiento/Casa_Kandu/img/fondo.png");
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 
