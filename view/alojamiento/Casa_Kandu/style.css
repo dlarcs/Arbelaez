@@ -4,21 +4,23 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: inherit;
+
+	box-sizing: inherit;
+	box-sizing: border-box;
 }
 .body_Casa_Kandu {
-padding: 0;
+ padding: 0;
  margin: 0;
  min-height: 100vh;
- background-color: yellow;
+ background-image: url("../../view/alojamiento/Casa_Kandu/img/fondo1.png");
+ background-position: center;
+ background-repeat: repeat;
+ background-size: cover;
 }
 .container_Casa_Kandu {
 	padding:  0 ;
 	margin: 0;
-
-
 }
-
-
 /* Botón flotante WhatsApp (abajo-derecha) */
 .whatsapp-fab{
   position: fixed;
