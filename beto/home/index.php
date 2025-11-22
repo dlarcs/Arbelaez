@@ -9,7 +9,7 @@
   <link rel="canonical" href="https://www.grupo5g.com/">
 
   <!-- CSS (cache-busting robusto) -->
-  <link rel="stylesheet" href="beto/home/style.css?<?php echo filemtime('beto/home/style.css'); ?>">
+  <link rel="stylesheet" href="../beto/home/style.css?<?php echo filemtime('../beto/home/style.css'); ?>">
 
   <!-- Fuente -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
