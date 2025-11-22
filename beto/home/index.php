@@ -9,7 +9,7 @@
   <link rel="canonical" href="https://www.grupo5g.com/">
 
   <!-- CSS (cache-busting robusto) -->
-  <link rel="stylesheet" href="../../view/home/style.css?<?php echo filemtime('../../view/home/style.css'); ?>">
+  <link rel="stylesheet" href="beto/home/style.css?<?php echo filemtime('beto/home/style.css'); ?>">
 
   <!-- Fuente -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -74,7 +74,7 @@
 </head>
 
 <body class="body_home">
-  <?php include "../../beto/global/menu/menu.php" ?>
+  <?php include "beto/global/menu/menu.php" ?>
 
   <div class="container_home">
     <!-- Secciones sugeridas para estudio de diseño -->
