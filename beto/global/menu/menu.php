@@ -7,9 +7,9 @@ $jsTime  = filemtime('../../beto/global/menu/menu.js');
 <header class="site-header">
   <!-- Marca -->
   <a href="#" class="brand">
-     <img class="brand__mark" src="../../beto/global/img/GRUPOGRAFI.png" alt=""> 
+     <img class="brand__mark" src="../../beto/global/img/GRUPOGRAFI.png" alt="">
     <span class="brand__text">
-      <span class="brand__name">Design Glow</span>
+      <span class="brand__name">Grupo 5G</span>
       <span class="brand__tagline">Señalización · Impresión · Branding</span>
     </span>
   </a>
