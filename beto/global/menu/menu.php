@@ -1,8 +1,8 @@
 <?php
-$cssTime = filemtime('beto/global/menu/menu.css');
-$jsTime  = filemtime('beto/global/menu/menu.js');
+$cssTime = filemtime('../beto/global/menu/menu.css');
+$jsTime  = filemtime('../beto/global/menu/menu.js');
 ?>
-<link rel="stylesheet" href="beto/global/menu/menu.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../beto/global/menu/menu.css?v=<?= $cssTime ?>">
 
 <header class="site-header">
   <!-- Marca -->
@@ -97,4 +97,4 @@ $jsTime  = filemtime('beto/global/menu/menu.js');
   </nav>
 </header>
 
-<script src="beto/global/menu/menu.js?v=<?= $jsTime ?>" type="text/javascript"></script>
+<script src="../beto/global/menu/menu.js?v=<?= $jsTime ?>" type="text/javascript"></script>
