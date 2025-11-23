@@ -75,10 +75,10 @@
 
 <body class="body_home">
   <?php include "../../beto/global/menu/menu.php" ?>
+  <?php include "../../beto/home/slider/slider.php" ?>
 
   <div class="container_home">
     <!-- Secciones sugeridas para estudio de diseño -->
-    <?php include "../../beto/home/slider/slider.php" ?>
   </div>
 </body>
 </html>
