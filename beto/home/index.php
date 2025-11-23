@@ -79,6 +79,7 @@
 
   <div class="container_home">
     <!-- Secciones sugeridas para estudio de diseño -->
+    <?php include "../../beto/home/hero/hero.php" ?>
   </div>
 </body>
 </html>
