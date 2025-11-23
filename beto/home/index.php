@@ -78,6 +78,7 @@
 
   <div class="container_home">
     <!-- Secciones sugeridas para estudio de diseño -->
+    <?php include "../../beto/home/slider/slider.php" ?>
   </div>
 </body>
 </html>
