@@ -4,20 +4,25 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: inherit;
-	box-sizing: border-box;
 }
-.body_Casa_Kandu {
- padding: 0;
- margin: 0;
-}
-.container_Casa_Kandu {
-	padding:  0 ;
+.body_Casa_Kandu  {
+	padding: 0;
 	margin: 0;
 
+}
+.container_Casa_Kandu  {
+	padding:  0 ;
+	margin: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+	object-fit: cover;
+	overflow: hidden;
+	background-color: #fafafa;
 }
+
+
 /* Botón flotante WhatsApp (abajo-derecha) */
 .whatsapp-fab{
   position: fixed;
