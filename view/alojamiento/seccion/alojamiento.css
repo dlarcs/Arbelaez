@@ -6,11 +6,13 @@
   --muted: #6b7280;
   --border: #e5e7eb;
   --brand: #005548;
+  --accent: #fbd160;
 
   /* Layout & efectos */
   --radius: 14px;
+  --radius-sm: 10px;
   --shadow: 0 10px 24px rgba(0, 0, 0, .06);
-  --shadow-hover: 0 14px 32px rgba(0, 0, 0, .10);
+  --shadow-hover: 0 16px 40px rgba(0, 0, 0, .14);
 
   /* Espaciado fluido */
   --gap: clamp(.9rem, 1vw + .6rem, 1.25rem);
@@ -20,17 +22,18 @@
   color-scheme: light dark;
 }
 
+/* ===== Sección alojamiento ===== */
 .seccion_alojamiento {
   box-sizing: border-box;
   padding: var(--pad);
   margin-inline: auto;
-  margin-block: 3rem;         /* separa de lo anterior/siguiente */
+  margin-block: 3rem;
   display: grid;
-  grid-template-columns: 1fr; /* Mobile: 1 columna */
+  grid-template-columns: 1fr;
   gap: var(--gap);
-  width: min(100%, var(--container-max)); /* evita overflow de 100vw + padding */
+  width: min(100%, var(--container-max));
   color: var(--text);
-  background: transparent;
+  align-items: stretch;
 }
 
 /* Tablet */
@@ -56,9 +59,10 @@
 
 /* ===== Tarjeta ===== */
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: .75rem;
+  gap: .85rem;
   height: 100%;
   background: var(--card);
   border: 1px solid var(--border);
@@ -66,22 +70,45 @@
   box-shadow: var(--shadow);
   padding: var(--pad);
   color: var(--text);
-  transition: box-shadow .25s ease, transform .25s ease, border-color .25s ease;
-  will-change: transform;
+  transition:
+    box-shadow .25s ease,
+    transform .25s ease,
+    border-color .25s ease,
+    background-color .25s ease;
+  will-change: transform, box-shadow;
+}
+
+/* Pequeña línea decorativa arriba de la card */
+.card::before {
+  content: "";
+  position: absolute;
+  inset-inline: 1.1rem;
+  top: .85rem;
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--brand), var(--accent));
+  opacity: .1;
+  pointer-events: none;
+}
+
+/* Ajuste para que el contenido no se solape con la línea decorativa */
+.card > *:first-child {
+  margin-top: .35rem;
 }
 
 .card:hover {
-  transform: translateY(-2px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-hover);
-  border-color: color-mix(in srgb, var(--border), var(--brand) 20%);
+  border-color: color-mix(in srgb, var(--border), var(--brand) 25%);
+  background-color: #ffffff;
 }
 
 .card:focus-within {
-  outline: 3px solid color-mix(in srgb, var(--brand), white 60%);
-  outline-offset: 2px;
+  outline: 3px solid color-mix(in srgb, var(--brand), #ffffff 60%);
+  outline-offset: 3px;
 }
 
-/* ===== Título (tu HTML usa h2.card-title) ===== */
+/* ===== Título ===== */
 .card-title {
   font-size: clamp(1.05rem, 2.6vw, 1.45rem);
   line-height: 1.25;
@@ -96,7 +123,57 @@
 .card-title a:hover,
 .card-title a:focus-visible {
   text-decoration: underline;
-  text-underline-offset: 2px;
+  text-underline-offset: 3px;
+}
+
+/* ===== Imagen dentro de cada card ===== */
+.seccion_alojamiento .media {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  background: #e9ecef;
+  position: relative;
+}
+
+.seccion_alojamiento .media a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Imagen con ligero zoom al hover */
+.seccion_alojamiento .media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition:
+    transform .4s ease,
+    opacity .35s ease;
+  opacity: 1;
+}
+
+/* Zoom cuando se pasa por encima de la card */
+.card:hover .media img {
+  transform: scale(1.03);
+}
+
+/* Si tu JS agrega .is-ready al cargar */
+.seccion_alojamiento .media img.is-ready {
+  opacity: 1;
+}
+
+/* Fallback si el navegador no soporta aspect-ratio */
+@supports not (aspect-ratio: 1) {
+  .seccion_alojamiento .media {
+    height: 0;
+    padding-top: 56.25%;
+  }
+  .seccion_alojamiento .media img {
+    position: absolute;
+    inset: 0;
+  }
 }
 
 /* ===== Meta (píldoras) ===== */
@@ -104,7 +181,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: .5rem;
-  margin: .25rem 0;
+  margin: .1rem 0 .25rem;
   padding: 0;
   list-style: none;
 }
@@ -115,16 +192,19 @@
   gap: .4rem;
   border: 1px solid var(--border);
   border-radius: 999px;
-  padding: .35rem .6rem;
-  font-size: .95rem;
+  padding: .35rem .7rem;
+  font-size: .92rem;
   color: var(--muted);
   background: #fafafa;
   white-space: nowrap;
-  transition: border-color .2s ease, background-color .2s ease;
+  transition:
+    border-color .2s ease,
+    background-color .2s ease,
+    transform .2s ease;
 }
 
 .pill a {
-  color: var(--brand);
+  color: inherit;
   text-decoration: none;
 }
 
@@ -134,81 +214,79 @@
 }
 
 .pill:focus-within {
-  outline: 2px solid color-mix(in srgb, var(--brand), white 40%);
+  outline: 2px solid color-mix(in srgb, var(--brand), #ffffff 40%);
   outline-offset: 2px;
-  background: #fff;
+  background: #ffffff;
+}
+
+/* Pequeño “bounce” cuando pasas el cursor */
+.card:hover .pill {
+  transform: translateY(-1px);
 }
 
 /* ===== Descripción ===== */
 .descripcion {
-  margin: 0;
+  margin: .15rem 0 0;
   color: var(--text);
   line-height: 1.6;
   font-size: clamp(.95rem, 2.2vw, 1rem);
 }
 
-/* ===== Imagen dentro de cada card ===== */
-.seccion_alojamiento .media {
-  width: 100%;
-  aspect-ratio: 16 / 9;     /* adapta altura automáticamente */
-  overflow: hidden;
-  border-radius: var(--radius);
-  background: #e9ecef;      /* placeholder mientras carga */
-  position: relative;
-}
-
-/* Fade-in sutil (si tu JS agrega .is-ready al cargar) */
-.seccion_alojamiento .media img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;         /* recorta sin deformar */
-  display: block;
-  transition: opacity .35s ease;
-  opacity: 1;                /* valor por defecto sin JS */
-}
-
-.seccion_alojamiento .media img.is-ready {
-  opacity: 1;
-}
-
-/* Fallback si el navegador no soporta aspect-ratio */
-@supports not (aspect-ratio: 1) {
-  .seccion_alojamiento .media {
-    height: 0;
-    padding-top: 56.25%;     /* 16:9 */
+/* Un poco más de respiración en móvil */
+@media (max-width: 480px) {
+  .seccion_alojamiento {
+    margin-block: 2rem;
+    padding-inline: .75rem;
   }
-  .seccion_alojamiento .media img {
-    position: absolute;
-    inset: 0;
+
+  .card {
+    padding: .9rem .9rem 1rem;
+  }
+
+  .meta {
+    gap: .35rem;
+  }
+
+  .pill {
+    font-size: .9rem;
+    padding: .3rem .6rem;
   }
 }
 
 /* ===== Modo oscuro ===== */
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #0f172a;
-    --card: #111827;
+    --bg: #020617;
+    --card: #020617;
     --text: #e5e7eb;
     --muted: #cbd5e1;
-    --border: #1f2937;
-    --shadow: 0 8px 20px rgba(0, 0, 0, .35);
-    --shadow-hover: 0 10px 28px rgba(0, 0, 0, .45);
+    --border: #1e293b;
+    --shadow: 0 14px 32px rgba(0, 0, 0, .7);
+    --shadow-hover: 0 18px 45px rgba(0, 0, 0, .85);
   }
 
-  .pill {
-    background: white;
+  .seccion_alojamiento {
+    background: radial-gradient(circle at top, #0b1120 0, #020617 55%, #000000 100%);
   }
 
-  .seccion_alojamiento .media {
-    background: #0b1220;
+  .card {
+    background: radial-gradient(circle at top, #020617 0, #020617 60%, #000000 100%);
   }
 
   .card:hover {
-    border-color: color-mix(in srgb, var(--border), var(--brand) 35%);
+    border-color: color-mix(in srgb, var(--border), var(--brand) 40%);
+  }
+
+  .pill {
+    background: #020617;
+  }
+
+  .seccion_alojamiento .media {
+    background: #020617;
   }
 }
 
-/* ===== Accesibilidad ===== */
+/* ===== Accesibilidad / reduce motion ===== */
 @media (prefers-reduced-motion: reduce) {
   * {
     animation: none !important;
