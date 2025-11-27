@@ -11,8 +11,7 @@
 
 	background-image: url("../../../view/alojamiento/Casa_Kandu/img/fondo1.png");
 	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-repeat: repeat;
 }
 .container_Casa_Kandu  {
 	padding:  0 ;
