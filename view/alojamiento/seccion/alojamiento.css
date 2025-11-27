@@ -1,6 +1,6 @@
 :root {
   /* Colores base */
-  --bg: #fafafa;
+  --bg: red;
   --card: #fafafa;
   --text: #111827;
   --muted: #6b7280;
@@ -34,7 +34,6 @@
   width: min(100%, var(--container-max));
   color: var(--text);
   align-items: stretch;
-  background-color: red;
 }
 
 /* Tablet */
