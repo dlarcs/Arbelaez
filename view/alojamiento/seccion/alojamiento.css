@@ -253,39 +253,6 @@
   }
 }
 
-/* ===== Modo oscuro ===== */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #020617;
-    --card: #020617;
-    --text: #e5e7eb;
-    --muted: #cbd5e1;
-    --border: #1e293b;
-    --shadow: 0 14px 32px rgba(0, 0, 0, .7);
-    --shadow-hover: 0 18px 45px rgba(0, 0, 0, .85);
-  }
-
-  .seccion_alojamiento {
-    background: radial-gradient(circle at top, #0b1120 0, #020617 55%, #000000 100%);
-  }
-
-  .card {
-    background: radial-gradient(circle at top, #020617 0, #020617 60%, #000000 100%);
-  }
-
-  .card:hover {
-    border-color: color-mix(in srgb, var(--border), var(--brand) 40%);
-  }
-
-  .pill {
-    background: #020617;
-  }
-
-  .seccion_alojamiento .media {
-    background: #020617;
-  }
-}
-
 /* ===== Accesibilidad / reduce motion ===== */
 @media (prefers-reduced-motion: reduce) {
   * {
