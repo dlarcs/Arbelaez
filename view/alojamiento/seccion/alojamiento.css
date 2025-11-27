@@ -33,7 +33,7 @@
   width: min(100%, var(--container-max));
   color: var(--text);
   align-items: stretch;
-  background: blue;
+  background: transparent;
 }
 
 /* Tablet */
