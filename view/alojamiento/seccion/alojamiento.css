@@ -27,7 +27,6 @@
   box-sizing: border-box;
   padding: var(--pad);
   margin-inline: auto;
-  margin-block: 3rem;
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--gap);
