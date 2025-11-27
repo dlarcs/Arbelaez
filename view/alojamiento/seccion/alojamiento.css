@@ -1,7 +1,7 @@
 :root {
   /* Colores base */
   --bg: #f7f7fb;
-  --card: #ffffff;
+  --card: #fafafa;
   --text: #111827;
   --muted: #6b7280;
   --border: #e5e7eb;
@@ -100,11 +100,11 @@
   transform: translateY(-3px);
   box-shadow: var(--shadow-hover);
   border-color: color-mix(in srgb, var(--border), var(--brand) 25%);
-  background-color: #ffffff;
+  background-color: #fafafa;
 }
 
 .card:focus-within {
-  outline: 3px solid color-mix(in srgb, var(--brand), #ffffff 60%);
+  outline: 3px solid color-mix(in srgb, var(--brand), #fafafa 60%);
   outline-offset: 3px;
 }
 
@@ -214,9 +214,9 @@
 }
 
 .pill:focus-within {
-  outline: 2px solid color-mix(in srgb, var(--brand), #ffffff 40%);
+  outline: 2px solid color-mix(in srgb, var(--brand), #fafafa 40%);
   outline-offset: 2px;
-  background: #ffffff;
+  background: #fafafa;
 }
 
 /* Pequeño “bounce” cuando pasas el cursor */
