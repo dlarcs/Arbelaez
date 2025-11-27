@@ -19,8 +19,6 @@
 	object-fit: cover;
 	overflow: hidden;
 }
-
-
 /* Botón flotante WhatsApp (abajo-derecha) */
 .whatsapp-fab{
   position: fixed;
