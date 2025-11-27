@@ -5,13 +5,13 @@
 	padding: 0;
 	box-sizing: inherit;
 }
-.body_Casa_Kandu  {
+.body_kapaLuna {
 	padding: 0;
 	margin: 0;
-background-color: red;
+	background: linear-gradient( to bottom, rgba(251, 209, 96, 0) 0%, rgba(251, 209, 96, 1) 10%, rgba(251, 209, 96, 1) 90%, rgba(0, 0, 0, .5) 100%);
 }
-.container_Casa_Kandu  {
-	padding:  0 ;
+.container_kapaLuna {
+	padding:  0;
 	margin: 0;
 	display: flex;
 	justify-content: center;
