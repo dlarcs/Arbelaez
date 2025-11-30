@@ -30,7 +30,7 @@ $jsTime = filemtime('../../view/Naturaleza/galery/galery.js');   // ejemplo: '..
       <a href="https://maps.app.goo.gl/MvTLAF2zd8WK1ibV6" class="resto_link" target="_blank" rel="noopener">
         <figure class="resto_media">
           <img class="resto_cover"
-               src="../img/sumapaz.jpg"
+               src="../../view/Naturaleza/img/img2.jpg"
                alt="Panorámica del Río Sumapaz en la provincia del Sumapaz"
                loading="lazy" decoding="async">
         </figure>
@@ -54,7 +54,7 @@ $jsTime = filemtime('../../view/Naturaleza/galery/galery.js');   // ejemplo: '..
       <a href="https://maps.app.goo.gl/GumVXTtkiHcAKDFMA" class="resto_link" target="_blank" rel="noopener">
         <figure class="resto_media">
           <img class="resto_cover"
-               src="../img/cuja.jpg"
+               src="../../view/Naturaleza/img/img1.jpg"
                alt="Aguas del Río Cuja entre montañas cerca de Arbeláez"
                loading="lazy" decoding="async">
         </figure>
@@ -78,7 +78,7 @@ $jsTime = filemtime('../../view/Naturaleza/galery/galery.js');   // ejemplo: '..
       <a href="https://maps.app.goo.gl/7a9AGSbKWoA7QLuX6" class="resto_link" target="_blank" rel="noopener">
         <figure class="resto_media">
           <img class="resto_cover"
-               src="../img/rionegr Arb.jpg"
+               src="../../view/Naturaleza/img/img3.jpg"
                alt="Orilla arbolada del Río Negro en zona rural de Arbeláez"
                loading="lazy" decoding="async">
         </figure>
@@ -102,7 +102,7 @@ $jsTime = filemtime('../../view/Naturaleza/galery/galery.js');   // ejemplo: '..
       <a href="https://maps.app.goo.gl/8EaA36d6p7pdfotW9" class="resto_link" target="_blank" rel="noopener">
         <figure class="resto_media">
           <img class="resto_cover"
-               src="../img/q-naranjos.jpg"
+               src="../../view/Naturaleza/img/img4.jpg"
                alt="Quebrada Los Naranjos, aguas claras entre roca y bosque"
                loading="lazy" decoding="async">
         </figure>
