@@ -11,7 +11,7 @@
 
 /* ===== Hero ===== */
 .seccion_img{
-  background-image: url("../../view/Naturaleza/img/images.jpeg");
+  background-image: url("../../../view/Naturaleza/img/images.jpeg");
   background-color: transparent;
   background-position:center;
   background-repeat:no-repeat;          /* mejor que repeat para foto */

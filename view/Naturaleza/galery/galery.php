@@ -123,7 +123,7 @@ $jsTime = filemtime('../../view/Naturaleza/galery/galery.js');   // ejemplo: '..
       <a href="#" class="resto_link">
         <figure class="resto_media">
           <img class="resto_cover"
-               src="../img/q-gallega.jpg"
+               src="../../view/Naturaleza/img/img4.jpg"
                alt="Quebrada La Gallega en zona rural de Arbeláez"
                loading="lazy" decoding="async">
         </figure>
@@ -141,7 +141,7 @@ $jsTime = filemtime('../../view/Naturaleza/galery/galery.js');   // ejemplo: '..
       <a href="#" class="resto_link">
         <figure class="resto_media">
           <img class="resto_cover"
-               src="../img/q-honda.jpg"
+               src="../../view/Naturaleza/img/img4.jpg"
                alt="Quebrada La Honda con vegetación ribereña"
                loading="lazy" decoding="async">
         </figure>
@@ -159,7 +159,7 @@ $jsTime = filemtime('../../view/Naturaleza/galery/galery.js');   // ejemplo: '..
       <a href="#" class="resto_link">
         <figure class="resto_media">
           <img class="resto_cover"
-               src="../img/q-lejia.jpg"
+               src="../../view/Naturaleza/img/img4.jpg"
                alt="Quebrada La Lejía con rocas y vegetación"
                loading="lazy" decoding="async">
         </figure>
