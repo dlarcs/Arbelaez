@@ -28,7 +28,6 @@
   overflow: hidden;
 }
 /*Flecha*/
-
 .scroll-indicator {
   position: fixed;
   left: 50%;
@@ -56,38 +55,27 @@
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-/* Flecha tipo chevron */
+/* Flecha hacia abajo (palito + punta) */
 .scroll-indicator__arrow {
-  width: 14px;
-  height: 14px;
   position: relative;
-}
-
-.scroll-indicator__arrow::before,
-.scroll-indicator__arrow::after {
-  content: "";
-  position: absolute;
-  width: 10px;
-  height: 2px;
-  background: #111827;
+  width: 2px;          /* grosor del palito */
+  height: 16px;        /* largo del palito */
+  background: #111827; /* color de la flecha */
   border-radius: 999px;
 }
 
-.scroll-indicator__arrow::before {
-  transform: rotate(45deg) translate(2px, 2px);
-}
-
+/* Punta de la flecha */
 .scroll-indicator__arrow::after {
-  transform: rotate(-45deg) translate(-2px, 2px);
-}
-
-
-.scroll-indicator__arrow::before {
-  transform: rotate(45deg) translate(2px, 2px);
-}
-
-.scroll-indicator__arrow::after {
-  transform: rotate(-45deg) translate(-2px, 2px);
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px; /* baja un poquito la punta */
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid #111827; /* color de la punta */
 }
 
 /* Hover */
