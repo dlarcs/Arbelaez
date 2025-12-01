@@ -81,6 +81,15 @@
   transform: rotate(-45deg) translate(-2px, 2px);
 }
 
+
+.scroll-indicator__arrow::before {
+  transform: rotate(45deg) translate(2px, 2px);
+}
+
+.scroll-indicator__arrow::after {
+  transform: rotate(-45deg) translate(-2px, 2px);
+}
+
 /* Hover */
 .scroll-indicator__circle:hover {
   transform: translateY(-2px);
