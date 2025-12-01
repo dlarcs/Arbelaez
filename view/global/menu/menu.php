@@ -29,7 +29,6 @@ $cssTime = filemtime('../../view/global/menu/menu.css'); // ejemplo: '../Home/5.
   <!-- Navegación -->
   <nav id="site-nav" class="nav" role="navigation" aria-label="Navegación principal">
     <!-- Botón cerrar dentro del panel -->
-    <label for="nav-toggle" class="close-nav" aria-label="Cerrar menú">×</label>
 
     <ul class="nav-list">
       <li><a href="../../view/home/index.php">Inicio</a></li>
@@ -39,9 +38,3 @@ $cssTime = filemtime('../../view/global/menu/menu.css'); // ejemplo: '../Home/5.
     </ul>
   </nav>
 </header>
-
-
-	<!-- Recuerda colocar un id="main" en tu contenedor principal -->
-	<main id="main">
-	  <!-- contenido -->
-	</main>
