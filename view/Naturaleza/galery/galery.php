@@ -1,12 +1,8 @@
 <?php
-$cssTime = filemtime('../../view/Naturaleza/galery/galery.css'); // ejemplo: '../Home/5.Video/video.css'
-$jsTime = filemtime('../../view/Naturaleza/galery/galery.js');   // ejemplo: '../Home/5.Video/video.js'
+$cssTime = filemtime('../../view/Naturaleza/galery/galery.css'); 
+$jsTime = filemtime('../../view/Naturaleza/galery/galery.js');
 ?>
 <link rel="stylesheet" href="../../view/Naturaleza/galery/galery.css?v=<?= $cssTime ?>">
-
-
-
-
 <!-- ===== Directorio ===== -->
 <section class="section_restos" aria-labelledby="rios-title">
   <header class="section_head">
