@@ -1,18 +1,4 @@
-/* ===== Reset mínimo y base tipográfica ===== */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-}
 
 /* Listas y enlaces */
 ul {
@@ -48,9 +34,9 @@ a {
   position: absolute;
   left: -999px;
   top: 0;
-  background: #ffffff;
+  background: #fafafa;
   color: #111827;
-  padding: .55rem .9rem;
+  padding: 1rem .9rem;
   border-radius: .6rem;
   box-shadow: var(--shadow-1);
   z-index: 10002;
