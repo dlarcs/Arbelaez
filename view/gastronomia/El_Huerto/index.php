@@ -1,6 +1,4 @@
-<?php
-$cssTime = filemtime('../../../view/gastronomia/El_Huerto/style.css'); // ejemplo: '../Home/5.Video/video.css'
-?>
+
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 <head>
@@ -108,7 +106,6 @@ pizza del huerto
 	<!-- Rendimiento -->
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="preload" as="image" href="https://www.arbelaez.com.co/media/El_Huerto/hero-gastronomia.webp">
-	<link rel="stylesheet" href="../../../view/gastronomia/El_Huerto/style.css?v=<?= $cssTime ?>">
 
 	<!-- Datos estructurados Restaurant -->
 	<script type="application/ld+json">
@@ -141,8 +138,12 @@ pizza del huerto
 </head>
 
 <body class="body_De_Huerto">
-	<?php include "../../../view/gastronomia/El_Huerto/menu/menu.php" ?>
+	<?php
+	$cssTime = filemtime('../../../view/gastronomia/El_Huerto/style.css'); // ejemplo: '../Home/5.Video/video.css'
+	?>
+	<link rel="stylesheet" href="../../../view/gastronomia/El_Huerto/style.css?v=<?= $cssTime ?>">
 
+	<?php include "../../../view/gastronomia/El_Huerto/menu/menu.php" ?>
 	<div class="container_Del_Huerto" id="restaurant">
 		<?php include "../../../view/gastronomia/El_Huerto/title/title.php" ?>
 		<?php include "../../../view/gastronomia/El_Huerto/slider/slider.php" ?>
