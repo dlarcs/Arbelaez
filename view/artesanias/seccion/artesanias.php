@@ -40,7 +40,7 @@ $cssTime = filemtime('../../view/artesanias/seccion/artesanias.css'); // ejemplo
          <a class="cursiva-inglesa" href="../../view/artesanias/Almacen_Religioso/index.php">Almacen Religioso y Artesanal divino Niño Jesús</a>
        </div>
        <a href="../../view/artesanias/Almacen_Religioso/index.php" class="box_product" aria-label="Ver: Artesanías">
-         <img loading="lazy" src="../../view/artesanias/Almacen_Religioso/img/religioso20.jpg" alt="Artesanías y manualidades locales">
+         <img loading="lazy" src="../../view/artesanias/img/entrada_Religioso.jpg" alt="Artesanías y manualidades locales">
          <div class="shade_box_product"><h2>Artesanías</h2></div>
        </a>
        <div class="texto">
