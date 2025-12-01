@@ -114,6 +114,25 @@ $jsTime = filemtime('../../view/gastronomia/seccion/restaurante.js');   // ejemp
       'wa_phone'     => '573144506914',
       'wa_label'     => 'WhatsApp',
     ],
+		[
+      'name'         => 'Del Huerto',
+      'slug'         => 'Pizzeria del Huerto',
+      'img'          => '../../view/gastronomia/El_Huerto/img/logo.jpg',
+      'img_alt'      => 'Logo de la pizzeria del Huerto',
+      'zone'         => 'Pueblo', // aquí lo pongo como Vereda para que el filtro tenga sentido
+      'schema'       => 'Restaurant',
+      'location'     => 'En Pueblo',
+      'desc'         => 'Colores, cultura y sazón de nuestra tierra. Comida artesanal, pizzeria y comida de calidad',
+      'servesCuisine'=> 'Comida artesanal',
+      'features'     => [
+        'Fines de semana y festivos 10:30 am – 21:30 pm',
+        'Vista panorámica',
+      ],
+      'openingHours' => 'Mo-Su 05:00-21:00',
+      'priceRange'   => '$$',
+      'wa_phone'     => '573194963554',
+      'wa_label'     => 'WhatsApp',
+    ],
   ];
   ?>
 

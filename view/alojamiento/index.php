@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Alojamiento</title>
-      <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
     <!-- Favicons -->
     <link rel="icon" type="image/png" sizes="32x32" href="../../view/home/img/logo_pw.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../view/home/img/logo_pw.png">
