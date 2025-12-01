@@ -4,7 +4,7 @@ if (indicator) {
   // Scroll suave al hacer click
   indicator.addEventListener('click', () => {
     window.scrollBy({
-      top: window.innerHeight * 3300,
+      top: window.innerHeight * 100,
       behavior: 'smooth'
     });
   });
