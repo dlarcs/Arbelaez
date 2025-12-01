@@ -1,7 +1,7 @@
 <?php
-$cssTime = filemtime('../../../view/gastronomia/El_Huerto360/menu/menu.css'); // ejemplo: '../Home/5.Video/video.css'
+$cssTime = filemtime('../../../view/gastronomia/El_Huerto/menu/menu.css'); // ejemplo: '../Home/5.Video/video.css'
 ?>
-	<link rel="stylesheet" href="../../../view/gastronomia/El_Huerto360/menu/menu.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../../view/gastronomia/El_Huerto/menu/menu.css?v=<?= $cssTime ?>">
 	<!-- ===== HEADER PRINCIPAL DE LA PÁGINA ===== -->
 	<!-- HEADER -->
 	<header class="site-header">
