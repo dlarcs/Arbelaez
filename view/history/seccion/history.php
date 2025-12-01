@@ -1,6 +1,5 @@
 <?php
 $cssPath = '../../view/history/seccion/history.css';
-$cssTime = @filemtime($cssPath) ?: time();
 ?>
 <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

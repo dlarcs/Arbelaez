@@ -13,9 +13,9 @@
   </head>
     <body class="body_history">
       <?php
-      $cssTime = filemtime('../../view/artesanias/style.css');
+      $cssTime = filemtime('../../view/history/style.css');
       ?>
-      <link rel="stylesheet" href="../../view/artesanias/style.css?v=<?= $cssTime ?>">
+      <link rel="stylesheet" href="../../view/history/style.css?v=<?= $cssTime ?>">
       <?php include "../../view/global/menu/menu.php" ?>
       <div class="content_history">
         <?php include "../../view/history/seccion/history.php" ?>
