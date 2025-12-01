@@ -7,7 +7,6 @@
       <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
     <link rel="stylesheet" href="../../view/Parroquia/style.css">
   </head>
-
   <body class="body_Parroquia">
     <?php include "../../view/global/menu/menu.php" ?>
 
