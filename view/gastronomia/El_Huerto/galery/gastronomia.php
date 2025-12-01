@@ -13,98 +13,142 @@ $jsTime  = @filemtime($jsPath)  ?: time();
   <!-- Filtros -->
   <div class="categories_food_gallery" role="tablist" aria-label="Filtrar por categoría">
     <ul>
-      <li class="filter_items active" data-filter="all" role="tab" aria-selected="true" tabindex="0">Todos</li>
-      <li class="filter_items" data-filter="Volcanes" role="tab" aria-selected="false" tabindex="0">Volcanes</li>
-      <li class="filter_items" data-filter="Parrilla" role="tab" aria-selected="false" tabindex="0">Parrilla</li>
-      <li class="filter_items" data-filter="postres"  role="tab" aria-selected="false" tabindex="0">Postres</li>
-      <li class="filter_items" data-filter="cocteles" role="tab" aria-selected="false" tabindex="0">Cócteles</li>
+      <li class="filter_items active"
+          data-filter="all"
+          role="tab"
+          aria-selected="true"
+          tabindex="0">
+        Todos
+      </li>
+
+      <li class="filter_items"
+          data-filter="Pizza"
+          role="tab"
+          aria-selected="false"
+          tabindex="0">
+        Pizza
+      </li>
+
+      <li class="filter_items"
+          data-filter="Hamburguesas"
+          role="tab"
+          aria-selected="false"
+          tabindex="0">
+        Hamburguesas
+      </li>
+
+      <li class="filter_items"
+          data-filter="General"
+          role="tab"
+          aria-selected="false"
+          tabindex="0">
+        General
+      </li>
     </ul>
   </div>
 
   <!-- Contenedor de platos -->
   <div class="food_gallery_container">
 
-    <!-- Volcanes -->
-    <div class="food_card Volcanes">
-      <img src="../../../view/gastronomia/El_Huerto360/img/volcan.jpg" alt="Volcán de chocolate" loading="lazy" decoding="async" fetchpriority="low">
+    <!-- ===== PIZZAS (pizza.jpg a pizza6.jpg) ===== -->
+    <div class="food_card Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza.jpg"
+           alt="Pizza artesanal Del Huerto"
+           loading="lazy"
+           decoding="async">
+      <div class="overlay_food_card">
+        <div class="food_info">
+          <!-- Aquí puedes poner texto corto si quieres -->
+        </div>
+      </div>
+    </div>
+
+    <div class="food_card Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza2.jpg"
+           alt="Pizza del Huerto con vegetales frescos"
+           loading="lazy"
+           decoding="async">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
 
-    <div class="food_card Volcanes">
-      <img src="../../../view/gastronomia/El_Huerto360/img/volcan2.jpg" alt="Volcán de chocolate con helado" loading="lazy" decoding="async">
+    <div class="food_card Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza3.jpg"
+           alt="Pizza artesanal recién horneada"
+           loading="lazy"
+           decoding="async">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
 
-    <div class="food_card Volcanes">
-      <img src="../../../view/gastronomia/El_Huerto360/img/volcan3.jpg" alt="Volcán con salsa y topping" loading="lazy" decoding="async" fetchpriority="low">
+    <div class="food_card Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza4.jpg"
+           alt="Pizza Del Huerto con queso y tomate"
+           loading="lazy"
+           decoding="async">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
 
-    <!-- Parrilla -->
-    <div class="food_card Parrilla">
-      <img src="../../../view/gastronomia/El_Huerto360/img/parrilla.jpg" alt="Parrilla mixta" loading="lazy" decoding="async" fetchpriority="low">
+    <div class="food_card Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza5.jpg"
+           alt="Porción de pizza servida en mesa"
+           loading="lazy"
+           decoding="async">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
 
-    <div class="food_card Parrilla">
-      <img src="../../../view/gastronomia/El_Huerto360/img/parrilla1.jpg" alt="Asado a la parrilla" loading="lazy" decoding="async" fetchpriority="low">
+    <div class="food_card Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza6.jpg"
+           alt="Pizza especial de la casa"
+           loading="lazy"
+           decoding="async">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
 
-    <!-- Postres -->
-    <div class="food_card postres">
-      <img src="../../../view/gastronomia/El_Huerto360/img/postres.jpg" alt="Postre artesanal" loading="lazy" decoding="async" fetchpriority="low">
+
+    <!-- ===== HAMBURGUESAS (burger.jpg a burger3.jpg) ===== -->
+    <div class="food_card Hamburguesas">
+      <img src="../../../view/gastronomia/El_Huerto/img/burger.jpg"
+           alt="Hamburguesa artesanal Del Huerto"
+           loading="lazy"
+           decoding="async">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
 
-    <div class="food_card postres">
-      <img src="../../../view/gastronomia/El_Huerto360/img/postres1.jpg" alt="Postre con chocolate" loading="lazy" decoding="async" fetchpriority="low">
+    <div class="food_card Hamburguesas">
+      <img src="../../../view/gastronomia/El_Huerto/img/burger2.jpg"
+           alt="Hamburguesa con papas y salsas"
+           loading="lazy"
+           decoding="async">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
 
-    <!-- Cócteles -->
-    <div class="food_card cocteles">
-      <img src="../../../view/gastronomia/El_Huerto360/img/coctel.jpg" alt="Cóctel" loading="lazy" decoding="async" fetchpriority="low">
+    <div class="food_card Hamburguesas">
+      <img src="../../../view/gastronomia/El_Huerto/img/burger3.jpg"
+           alt="Hamburguesa doble carne Del Huerto"
+           loading="lazy"
+           decoding="async">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
-    <div class="food_card cocteles">
-      <img src="../../../view/gastronomia/El_Huerto360/img/coctel1.jpg" alt="Cóctel frutal" loading="lazy" decoding="async" fetchpriority="low">
+
+
+    <!-- ===== GENERAL (general.jpg a general2.jpg) ===== -->
+    <div class="food_card General">
+      <img src="../../../view/gastronomia/El_Huerto/img/general.jpg"
+           alt="Plato general de la carta Del Huerto"
+           loading="lazy"
+           decoding="async">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
-    <div class="food_card cocteles">
-      <img src="../../../view/gastronomia/El_Huerto360/img/coctel2.jpg" alt="Cóctel con hierbabuena" loading="lazy" decoding="async" fetchpriority="low">
-      <div class="overlay_food_card"><div class="food_info"></div></div>
-    </div>
-    <div class="food_card cocteles">
-      <img src="../../../view/gastronomia/El_Huerto360/img/coctel3.jpg" alt="Cóctel tropical" loading="lazy" decoding="async" fetchpriority="low">
-      <div class="overlay_food_card"><div class="food_info"></div></div>
-    </div>
-    <div class="food_card cocteles">
-      <img src="../../../view/gastronomia/El_Huerto360/img/coctel4.jpg" alt="Cóctel cítrico" loading="lazy" decoding="async" fetchpriority="low">
-      <div class="overlay_food_card"><div class="food_info"></div></div>
-    </div>
-    <div class="food_card cocteles">
-      <img src="../../../view/gastronomia/El_Huerto360/img/coctel5.jpg" alt="Cóctel con frutos rojos" loading="lazy" decoding="async" fetchpriority="low">
-      <div class="overlay_food_card"><div class="food_info"></div></div>
-    </div>
-    <div class="food_card cocteles">
-      <img src="../../../view/gastronomia/El_Huerto360/img/coctel6.jpg" alt="Cóctel refrescante" loading="lazy" decoding="async" fetchpriority="low">
-      <div class="overlay_food_card"><div class="food_info"></div></div>
-    </div>
-    <div class="food_card cocteles">
-      <img src="../../../view/gastronomia/El_Huerto360/img/coctel7.jpg" alt="Cóctel con hielo frappé" loading="lazy" decoding="async" fetchpriority="low">
-      <div class="overlay_food_card"><div class="food_info"></div></div>
-    </div>
-    <div class="food_card cocteles">
-      <img src="../../../view/gastronomia/El_Huerto360/img/coctel8.jpg" alt="Cóctel de autor" loading="lazy" decoding="async" fetchpriority="low">
-      <div class="overlay_food_card"><div class="food_info"></div></div>
-    </div>
-    <div class="food_card cocteles">
-      <img src="../../../view/gastronomia/El_Huerto360/img/coctel9.jpg" alt="Cóctel con garnish" loading="lazy" decoding="async" fetchpriority="low">
+
+    <div class="food_card General">
+      <img src="../../../view/gastronomia/El_Huerto/img/general2.jpg"
+           alt="Variedad de platos Del Huerto"
+           loading="lazy"
+           decoding="async">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
 
   </div>
 </section>
+
 
 <script src="<?= $jsPath ?>?v=<?= $jsTime ?>" defer></script>
