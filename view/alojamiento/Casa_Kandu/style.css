@@ -30,29 +30,43 @@
   width:100px;
   height:100vh;
 
-  background:
-    /* brillo/sombra vertical del “palo” */
-    linear-gradient(90deg,
-      rgba(255,255,255,.35) 0%,
-      rgba(255,255,255,0) 35%,
-      rgba(0,0,0,.05) 70%,
-      rgba(0,0,0,.14) 100%),
+	background:
+	  /* brillo/sombra vertical (cilindro) */
+	  linear-gradient(90deg,
+	    rgba(0,0,0,.22) 0%,
+	    rgba(0,0,0,.12) 10%,
+	    rgba(255,255,255,.35) 32%,
+	    rgba(255,255,255,.10) 50%,
+	    rgba(0,0,0,.10) 72%,
+	    rgba(0,0,0,.22) 100%
+	  ),
 
-    /* nudos del bambú (anillos repetidos) */
-    repeating-linear-gradient(to bottom,
-      rgba(0,0,0,0)   0px,
-      rgba(0,0,0,0)  62px,
-      rgba(0,0,0,.22) 62px,
-      rgba(255,255,255,.25) 66px,
-      rgba(0,0,0,.18) 70px,
-      rgba(0,0,0,0)  74px,
-      rgba(0,0,0,0) 120px
-    ),
+	  /* nudos (anillos) */
+	  repeating-linear-gradient(to bottom,
+	    rgba(0,0,0,0)    0px,
+	    rgba(0,0,0,0)   62px,
+	    rgba(110,85,40,.35) 62px,
+	    rgba(255,255,255,.22) 66px,
+	    rgba(90,70,35,.28) 70px,
+	    rgba(0,0,0,0)   74px,
+	    rgba(0,0,0,0)  120px
+	  ),
 
-    /* color base del bambú */
-    linear-gradient(180deg, #bfe67b 0%, #7fb74f 55%, #5a8c35 100%);
+	  /* color base: bambú seco */
+	  linear-gradient(180deg,
+	    #f3e2b8 0%,
+	    #e2c98f 45%,
+	    #caa564 100%
+	  );
 
-  box-shadow:-8px 0 24px rgba(0,0,0,.10);
+	/* sombra izquierda y derecha (y un glow suave) */
+	box-shadow:
+	  inset 10px 0 18px rgba(255,255,255,.25), /* brillo borde izq */
+	  inset -12px 0 22px rgba(0,0,0,.22),      /* sombra borde der */
+	  -10px 0 22px rgba(0,0,0,.14),            /* sombra externa izq */
+	  8px 0 18px rgba(0,0,0,.08);              /* sombra externa der */
+
+	border-radius: 999px;
   pointer-events:none;
   z-index:0;
 }
