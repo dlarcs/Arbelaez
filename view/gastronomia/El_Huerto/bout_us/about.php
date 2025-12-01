@@ -3,10 +3,10 @@ $cssTime = filemtime('../../../view/gastronomia/El_Huerto/bout_us/about.css');
 ?>
 	<link rel="stylesheet" href="../../../view/gastronomia/El_Huerto/bout_us/about.css?v=<?= $cssTime ?>">
 
-	<main id="about_kapaLuna" class="wrap">
+	<main id="about_El_Huerto" class="wrap">
 		<article class="card" itemscope itemtype="https://schema.org/LocalBusiness">
 			<figure class="hero">
-				<img src="../../../view/gastronomia/El_Huerto/menu/img/logo_kapaLuna.png" alt="El_Huerto°" itemprop="image" loading="lazy">
+				<img src="../../../view/gastronomia/El_Huerto/menu/img/logo_El_Huerto.png" alt="El_Huerto°" itemprop="image" loading="lazy">
 				<figcaption>Vive el sabor local</figcaption>
 			</figure>
 

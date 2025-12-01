@@ -1,8 +1,8 @@
 <?php
-$cssTime = filemtime('../../../view/gastronomia/kapaLuna360/footer/footer.css');
+$cssTime = filemtime('../../../view/gastronomia/El_Huerto/footer/footer.css');
 // $jsTime = filemtime('../../../');
 ?>
-	<link rel="stylesheet" href="../../../view/gastronomia/kapaLuna360/footer/footer.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../../view/gastronomia/El_Huerto/footer/footer.css?v=<?= $cssTime ?>">
 	<section class="seccion_footer">
 		<div class="footer_logo">
 			<a href="../../../view/home/index.php"><img class="logo_menu" src="../../../view/global/img/logo.png" alt="Logo"></a>
@@ -12,7 +12,7 @@ $cssTime = filemtime('../../../view/gastronomia/kapaLuna360/footer/footer.css');
 			<div class="footer_social" aria-label="Redes sociales">
 				<ul class="socials">
 					<li>
-						<a href="https://www.instagram.com/kapaluna360/ " target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+						<a href="https://www.instagram.com/El_Huerto/ " target="_blank" rel="noopener noreferrer" aria-label="Instagram">
 							<ion-icon name="logo-instagram"></ion-icon><span class="sr-only">Instagram</span>
 						</a>
 					</li>
@@ -23,7 +23,7 @@ $cssTime = filemtime('../../../view/gastronomia/kapaLuna360/footer/footer.css');
 					</li>
 
 					<li>
-						<a href="https://www.tiktok.com/search?q=kapaluna360&t=1757266584549" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+						<a href="https://www.tiktok.com/search?q=El_Huerto&t=1757266584549" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
 							<ion-icon name="logo-tiktok"></ion-icon><span class="sr-only">TikTok</span>
 						</a>
 					</li>

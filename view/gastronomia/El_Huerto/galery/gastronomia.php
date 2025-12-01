@@ -1,12 +1,12 @@
 <?php
-$cssPath = '../../../view/gastronomia/kapaLuna360/galery/gastronomia.css';
-$jsPath  = '../../../view/gastronomia/kapaLuna360/galery/gastronomia.js';
+$cssPath = '../../../view/gastronomia/El_Huerto/galery/gastronomia.css';
+$jsPath  = '../../../view/gastronomia/El_Huerto/galery/gastronomia.js';
 $cssTime = @filemtime($cssPath) ?: time();
 $jsTime  = @filemtime($jsPath)  ?: time();
 ?>
 <link rel="stylesheet" href="<?= $cssPath ?>?v=<?= $cssTime ?>">
 
-<section class="section_food_gallery" id="galery_kapaLuna">
+<section class="section_food_gallery" id="galery_El_Huerto">
   <!-- Título principal -->
   <h1>Nuestra Gastronomía</h1>
 
@@ -26,81 +26,81 @@ $jsTime  = @filemtime($jsPath)  ?: time();
 
     <!-- Volcanes -->
     <div class="food_card Volcanes">
-      <img src="../../../view/gastronomia/kapaLuna360/img/volcan.jpg" alt="Volcán de chocolate" loading="lazy" decoding="async" fetchpriority="low">
+      <img src="../../../view/gastronomia/El_Huerto360/img/volcan.jpg" alt="Volcán de chocolate" loading="lazy" decoding="async" fetchpriority="low">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
 
     <div class="food_card Volcanes">
-      <img src="../../../view/gastronomia/kapaLuna360/img/volcan2.jpg" alt="Volcán de chocolate con helado" loading="lazy" decoding="async">
+      <img src="../../../view/gastronomia/El_Huerto360/img/volcan2.jpg" alt="Volcán de chocolate con helado" loading="lazy" decoding="async">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
 
     <div class="food_card Volcanes">
-      <img src="../../../view/gastronomia/kapaLuna360/img/volcan3.jpg" alt="Volcán con salsa y topping" loading="lazy" decoding="async" fetchpriority="low">
+      <img src="../../../view/gastronomia/El_Huerto360/img/volcan3.jpg" alt="Volcán con salsa y topping" loading="lazy" decoding="async" fetchpriority="low">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
 
     <!-- Parrilla -->
     <div class="food_card Parrilla">
-      <img src="../../../view/gastronomia/kapaLuna360/img/parrilla.jpg" alt="Parrilla mixta" loading="lazy" decoding="async" fetchpriority="low">
+      <img src="../../../view/gastronomia/El_Huerto360/img/parrilla.jpg" alt="Parrilla mixta" loading="lazy" decoding="async" fetchpriority="low">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
 
     <div class="food_card Parrilla">
-      <img src="../../../view/gastronomia/kapaLuna360/img/parrilla1.jpg" alt="Asado a la parrilla" loading="lazy" decoding="async" fetchpriority="low">
+      <img src="../../../view/gastronomia/El_Huerto360/img/parrilla1.jpg" alt="Asado a la parrilla" loading="lazy" decoding="async" fetchpriority="low">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
 
     <!-- Postres -->
     <div class="food_card postres">
-      <img src="../../../view/gastronomia/kapaLuna360/img/postres.jpg" alt="Postre artesanal" loading="lazy" decoding="async" fetchpriority="low">
+      <img src="../../../view/gastronomia/El_Huerto360/img/postres.jpg" alt="Postre artesanal" loading="lazy" decoding="async" fetchpriority="low">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
 
     <div class="food_card postres">
-      <img src="../../../view/gastronomia/kapaLuna360/img/postres1.jpg" alt="Postre con chocolate" loading="lazy" decoding="async" fetchpriority="low">
+      <img src="../../../view/gastronomia/El_Huerto360/img/postres1.jpg" alt="Postre con chocolate" loading="lazy" decoding="async" fetchpriority="low">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
 
     <!-- Cócteles -->
     <div class="food_card cocteles">
-      <img src="../../../view/gastronomia/kapaLuna360/img/coctel.jpg" alt="Cóctel" loading="lazy" decoding="async" fetchpriority="low">
+      <img src="../../../view/gastronomia/El_Huerto360/img/coctel.jpg" alt="Cóctel" loading="lazy" decoding="async" fetchpriority="low">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
     <div class="food_card cocteles">
-      <img src="../../../view/gastronomia/kapaLuna360/img/coctel1.jpg" alt="Cóctel frutal" loading="lazy" decoding="async" fetchpriority="low">
+      <img src="../../../view/gastronomia/El_Huerto360/img/coctel1.jpg" alt="Cóctel frutal" loading="lazy" decoding="async" fetchpriority="low">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
     <div class="food_card cocteles">
-      <img src="../../../view/gastronomia/kapaLuna360/img/coctel2.jpg" alt="Cóctel con hierbabuena" loading="lazy" decoding="async" fetchpriority="low">
+      <img src="../../../view/gastronomia/El_Huerto360/img/coctel2.jpg" alt="Cóctel con hierbabuena" loading="lazy" decoding="async" fetchpriority="low">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
     <div class="food_card cocteles">
-      <img src="../../../view/gastronomia/kapaLuna360/img/coctel3.jpg" alt="Cóctel tropical" loading="lazy" decoding="async" fetchpriority="low">
+      <img src="../../../view/gastronomia/El_Huerto360/img/coctel3.jpg" alt="Cóctel tropical" loading="lazy" decoding="async" fetchpriority="low">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
     <div class="food_card cocteles">
-      <img src="../../../view/gastronomia/kapaLuna360/img/coctel4.jpg" alt="Cóctel cítrico" loading="lazy" decoding="async" fetchpriority="low">
+      <img src="../../../view/gastronomia/El_Huerto360/img/coctel4.jpg" alt="Cóctel cítrico" loading="lazy" decoding="async" fetchpriority="low">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
     <div class="food_card cocteles">
-      <img src="../../../view/gastronomia/kapaLuna360/img/coctel5.jpg" alt="Cóctel con frutos rojos" loading="lazy" decoding="async" fetchpriority="low">
+      <img src="../../../view/gastronomia/El_Huerto360/img/coctel5.jpg" alt="Cóctel con frutos rojos" loading="lazy" decoding="async" fetchpriority="low">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
     <div class="food_card cocteles">
-      <img src="../../../view/gastronomia/kapaLuna360/img/coctel6.jpg" alt="Cóctel refrescante" loading="lazy" decoding="async" fetchpriority="low">
+      <img src="../../../view/gastronomia/El_Huerto360/img/coctel6.jpg" alt="Cóctel refrescante" loading="lazy" decoding="async" fetchpriority="low">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
     <div class="food_card cocteles">
-      <img src="../../../view/gastronomia/kapaLuna360/img/coctel7.jpg" alt="Cóctel con hielo frappé" loading="lazy" decoding="async" fetchpriority="low">
+      <img src="../../../view/gastronomia/El_Huerto360/img/coctel7.jpg" alt="Cóctel con hielo frappé" loading="lazy" decoding="async" fetchpriority="low">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
     <div class="food_card cocteles">
-      <img src="../../../view/gastronomia/kapaLuna360/img/coctel8.jpg" alt="Cóctel de autor" loading="lazy" decoding="async" fetchpriority="low">
+      <img src="../../../view/gastronomia/El_Huerto360/img/coctel8.jpg" alt="Cóctel de autor" loading="lazy" decoding="async" fetchpriority="low">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
     <div class="food_card cocteles">
-      <img src="../../../view/gastronomia/kapaLuna360/img/coctel9.jpg" alt="Cóctel con garnish" loading="lazy" decoding="async" fetchpriority="low">
+      <img src="../../../view/gastronomia/El_Huerto360/img/coctel9.jpg" alt="Cóctel con garnish" loading="lazy" decoding="async" fetchpriority="low">
       <div class="overlay_food_card"><div class="food_info"></div></div>
     </div>
 
