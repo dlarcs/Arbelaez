@@ -54,7 +54,7 @@ a {
   top: 0;
   z-index: 10001;
   width: 100%;
-  padding: .75rem var(--header-pad-x);
+  padding: 1rem var(--header-pad-x);
   display: flex;
   align-items: center;
   justify-content: space-between;
