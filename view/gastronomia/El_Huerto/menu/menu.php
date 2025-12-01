@@ -7,9 +7,9 @@ $cssTime = filemtime('../../../view/gastronomia/kapaLuna360/menu/menu.css'); // 
 	<header class="site-header">
 		<!-- Marca / logo -->
 		<a class="brand_menu" href="../../../view/home/index.php" aria-label="Inicio">
-			<h1 class="brand-text">kapaLuna360°</h1>
+			<h1 class="brand-text">Del Huerto</h1>
 
-			<!-- <img src="../../../view/gastronomia/kapaLuna360°/menu/img/logo_kapaLuna.png" alt="" class="brand-logo"> -->
+			<!-- <img src="../../../view/gastronomia/Del Huerto/menu/img/logo_kapaLuna.png" alt="" class="brand-logo"> -->
 
 		</a>
 
