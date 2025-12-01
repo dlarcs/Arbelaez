@@ -23,7 +23,7 @@
         <?php include "../../view/gastronomia/seccion/slider/slider.php" ?>
         <?php include "../../view/gastronomia/seccion/restaurante.php" ?>
         <?php include "../../view/global/footer/footer.php" ?>
-      </div>
+      </div> 
 
       <section class="scroll-indicator" aria-label="Hay más contenido abajo">
         <span class="scroll-indicator__circle">

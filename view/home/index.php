@@ -71,8 +71,7 @@
   $jsTime = filemtime('../../view/home/app.js');   // ejemplo: '../Home/5.Video/video.js'
   ?>
   <link rel="stylesheet" href="../../view/home/app.css?v=<?= $cssTime ?>">
-
-      <?php include "../../view/global/menu/menu.php" ?>
+     <?php include "../../view/global/menu/menu.php" ?>
    <div class="container_home">
      <?php include "../../view/home/TourBurguer/Burguer.php" ?>
      <?php include "../../view/home/slider/slider.php" ?>
