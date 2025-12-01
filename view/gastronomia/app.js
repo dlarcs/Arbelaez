@@ -11,7 +11,7 @@ if (indicator) {
 
   // Ocultar al hacer scroll
   window.addEventListener('scroll', () => {
-    if (window.scrollY > 250) {
+    if (window.scrollY > 550) {
       indicator.classList.add('hidden');
     } else {
       indicator.classList.remove('hidden');
