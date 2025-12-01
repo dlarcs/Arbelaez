@@ -15,9 +15,9 @@
 }
 
 .tourburger {
-  padding:  1rem;
+  padding: 2rem 1rem;
   min-width: 95vw;
-  margin: 2rem auto;
+  margin: 1rem auto;
   background: radial-gradient(circle at top, #171717, #020202 55%);
   color: var(--tourburger-text);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
