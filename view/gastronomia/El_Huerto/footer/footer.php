@@ -11,7 +11,7 @@ $cssTime = filemtime('../../../view/gastronomia/El_Huerto/footer/footer.css');
 		<div class="footer_container">
 			<div class="footer_social" aria-label="Redes sociales">
 				<ul class="socials">
-					<li>
+					<!-- <li>
 						<a href="https://www.instagram.com/El_Huerto/ " target="_blank" rel="noopener noreferrer" aria-label="Instagram">
 							<ion-icon name="logo-instagram"></ion-icon><span class="sr-only">Instagram</span>
 						</a>
@@ -26,7 +26,7 @@ $cssTime = filemtime('../../../view/gastronomia/El_Huerto/footer/footer.css');
 						<a href="https://www.tiktok.com/search?q=El_Huerto&t=1757266584549" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
 							<ion-icon name="logo-tiktok"></ion-icon><span class="sr-only">TikTok</span>
 						</a>
-					</li>
+					</li> --> pendiente
 
 				</ul>
 			</div>
