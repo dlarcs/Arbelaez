@@ -104,4 +104,4 @@ $jsTime = filemtime('../../../view/gastronomia/Pablos_Restaurant/galery/gastrono
 			<div class="food_card Lugar" data-filter="Lugar"><img src="../../../view/gastronomia/Pablos_Restaurant/img/lugar11.jpeg" alt="Pablos Restaurant — Lugar 11" width="1200" height="800" loading="lazy" decoding="async"></div>
 	  </div>
 	</section>
-	<script src="<?php echo '../../../view/gastronomia/Pablos_Restaurant/galery/gastronomia.js?v=' . filemtime('../../view/gastronomia/seccion/gastronomia.js'); ?>" type="text/javascript"></script>
+	<script src="<?php echo '../../../view/gastronomia/Pablos_Restaurant/galery/gastronomia.js?v=' . filemtime('../../../view/gastronomia/seccion/gastronomia.js'); ?>" type="text/javascript"></script>

@@ -77,4 +77,4 @@ $jsTime = filemtime('../../../view/gastronomia/La_Marranada/galery/gastronomia.j
 			  </div>
 	</section>
 
-	<script src="<?php echo '../../../view/gastronomia/La_Marranada/galery/gastronomia.js?v=' . filemtime('../../view/gastronomia/seccion/gastronomia.js'); ?>" type="text/javascript"></script>
+	<script src="<?php echo '../../../view/gastronomia/La_Marranada/galery/gastronomia.js?v=' . filemtime('../../../view/gastronomia/seccion/gastronomia.js'); ?>" type="text/javascript"></script>

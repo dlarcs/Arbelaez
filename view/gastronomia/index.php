@@ -15,6 +15,9 @@
     <body class="body_gastronomia">
       <?php
       $cssTime = filemtime('../../view/gastronomia/style.css');
+      $jsTime = filemtime('../../view/gastronomia/app.js');   // ejemplo: '../Home/5.Video/video.js'
+
+
       ?>
       <link rel="stylesheet" href="../../view/gastronomia/style.css?v=<?= $cssTime ?>">
       <?php include "../../view/global/menu/menu.php" ?>
@@ -23,5 +26,13 @@
         <?php include "../../view/gastronomia/seccion/restaurante.php" ?>
         <?php include "../../view/global/footer/footer.php" ?>
       </div>
+
+      <section class="scroll-indicator" aria-label="Hay más contenido abajo">
+        <span class="scroll-indicator__circle">
+          <span class="scroll-indicator__arrow"></span>
+        </span>
+      </section>
+
   </body>
 </html>
+<script src="<?php echo '../../view/gastronomia/app.js?v=' . filemtime('../../view/gastronomia/app.js'); ?>" type="text/javascript"></script>

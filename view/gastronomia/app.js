@@ -1,0 +1,20 @@
+const indicator = document.querySelector('.scroll-indicator');
+
+if (indicator) {
+  // Scroll suave al hacer click
+  indicator.addEventListener('click', () => {
+    window.scrollBy({
+      top: window.innerHeight * 0.8,
+      behavior: 'smooth'
+    });
+  });
+
+  // Ocultar al hacer scroll
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 80) {
+      indicator.classList.add('hidden');
+    } else {
+      indicator.classList.remove('hidden');
+    }
+  });
+}
