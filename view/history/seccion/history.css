@@ -1,27 +1,47 @@
-/* ===== Sección historia ===== */
+/* ================================
+   HISTORIA & COSTUMBRES
+   ================================ */
+
 .section_history{
-  position:relative;
-  padding:3rem;
-  margin:3rem 0;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:start;
-  gap:2.5rem;
-  overflow:hidden;
+  /* Variables locales para esta sección */
+  --history-accent: #AF854F;
+  --history-dark: #020617;
+  --history-green: #005548;
+  --history-bg: #f7f2ea;
+
+  position: relative;
+  padding: clamp(2.5rem, 4vw, 4rem) clamp(1.5rem, 4vw, 3rem);
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2rem, 3vw, 3rem);
+  box-sizing: border-box;
+  font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-/* Título general */
+/* Títulos generales de los bloques */
 .section_history h1{
-  position:relative;
-  font-size:clamp(24px, 2.4vw, 42px);
-  font-weight:800;
-  letter-spacing:.08em;
-  text-align:center;
-  color:#AF854F;
-  padding:2rem;
-  text-transform:uppercase;
-  margin:0 auto 2rem;
+  position: relative;
+  font-size: clamp(24px, 2.4vw, 36px);
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-align: center;
+  color: var(--history-accent);
+  text-transform: uppercase;
+  margin: 0 auto clamp(1.5rem, 2.5vw, 2.5rem);
+}
+
+/* Pequeña línea decorativa bajo el título */
+.section_history h1::after{
+  content:"";
+  display:block;
+  width:72px;
+  height:3px;
+  margin:.75rem auto 0;
+  border-radius:999px;
+  background: var(--history-accent);
+  opacity:.4;
 }
 
 /* Contenedor interno */
@@ -29,136 +49,275 @@
   width:100%;
   min-width:300px;
   box-sizing:border-box;
-  margin:1rem auto;
+  margin:0 auto;
 }
 
-/* Lista de tarjetas */
+/* Lista de tarjetas (grid) */
 .box_history{
   position:relative;
   width:100%;
   display:grid;
   grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
   gap:18px;
-  background-color:#000;
-  padding:1rem;
-  border-radius:10px;
+  padding:clamp(1.1rem, 2vw, 1.6rem);
+  border-radius:18px;
+
+  background:
+    radial-gradient(circle at top, rgba(255,255,255,.08) 0, transparent 55%),
+    radial-gradient(circle at bottom, rgba(175,133,79,.25) 0, transparent 55%),
+    linear-gradient(145deg, #020617, #0b1524);
+  box-shadow:0 18px 45px rgba(0,0,0,.35);
 }
 
-/* Tarjeta */
+/* Tarjeta de historia */
 .history{
   position:relative;
   padding:1.25rem;
-  border-radius:12px;
-  background:linear-gradient(to bottom, rgba(235,255,235,.4) 0%, rgba(0,85,72,1) 100%);
-  color:#fffd;
+  border-radius:14px;
+  background:linear-gradient(
+    145deg,
+    rgba(255,255,255,.10),
+    rgba(0,85,72,.80)
+  );
+  color:#f9fafb;
   display:flex;
   flex-direction:column;
   gap:12px;
-  box-shadow:0 2px 12px rgba(0,0,0,.15);
-  transition:transform .25s ease, box-shadow .25s ease, background-color .25s ease, color .25s ease;
+  box-shadow:0 2px 12px rgba(0,0,0,.25);
+  transform:translateY(0);
+  transition:
+    transform .25s ease,
+    box-shadow .25s ease,
+    background .25s ease,
+    color .25s ease,
+    border-color .25s ease;
+  border:1px solid rgba(148,163,184,.35);
 }
 .history:hover{
-  box-shadow:0 6px 24px rgba(0,0,0,.2);
-  transform:translateY(-2px);
+  box-shadow:0 10px 28px rgba(0,0,0,.5);
+  transform:translateY(-3px);
   cursor:pointer;
+  background:linear-gradient(
+    150deg,
+    rgba(255,255,255,.16),
+    rgba(0,85,72,1)
+  );
 }
-.history:active{ transform:translateY(0) scale(1.01) }
+.history:active{
+  transform:translateY(0) scale(1.01);
+}
 
-/* Texto e imagen dentro de la tarjeta */
+/* Texto dentro de la tarjeta */
 .history p{
-  font-size:clamp(14px, 1.6vw, 18px);
-  line-height:1.5;
+  font-size:clamp(14px, 1.6vw, 17px);
+  line-height:1.6;
   margin:0;
   text-align:left;
+  color:#e5e7eb;
 }
+.history strong{
+  color:#fde68a;
+  font-weight:600;
+}
+
+/* Imagen dentro de la tarjeta */
 .history img{
   width:100%;
   height:220px;
   object-fit:cover;
   border-radius:10px;
+  border:1px solid rgba(148,163,184,.7);
+  box-shadow:0 6px 20px rgba(15,23,42,.75);
+  filter:saturate(1.05) contrast(1.03);
 }
 
-/* Separador entre contenedores (solo después del primero) */
+/* Separador entre bloques Historia / Costumbres */
+.container_history + .container_history{
+  margin-top:clamp(2.5rem, 3vw, 3rem);
+}
 .container_history + .container_history::before{
   content:"";
   display:block;
-  width:72px;
+  width:96px;
   height:4px;
-  margin:.25rem auto .75rem;
-  border-radius:2px;
-  background:#AF854F;
-  opacity:.25;
+  margin:0 auto 1.5rem;
+  border-radius:999px;
+  background:var(--history-accent);
+  opacity:.5;
 }
 
-/* ===== Sección imagen ===== */
+/* ================================
+   SECCIÓN IMAGEN / POSTAL
+   ================================ */
+
 .seccion_imagen{
+  position:relative;
   width:100%;
-  height:100vh;
-  max-width:3000px;
-  margin:20px 0;
-  font-size:16px;
-  font-family:'Poppins', sans-serif;
-  z-index:1;
+  max-width:1200px;
+  margin:clamp(2.5rem, 4vw, 4rem) auto 3rem;
+  font-family:'Poppins', system-ui, sans-serif;
+  box-sizing:border-box;
 }
+
+/* Contenedor de la imagen con efecto “postal” */
 .imagen{
+  position:relative;
+  width:100%;
+  min-height: clamp(320px, 55vh, 520px);
+  border-radius:20px;
+  overflow:hidden;
+
   background-image:url("../../view/history/img/pueblo.jpg");
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
-  background-color: red;
-  height:100%;
-  width:100%;
-  box-shadow:0 4px 30px rgba(0,0,0,.1);
-  display:flex;
-  justify-content:center;
+  box-shadow:0 24px 60px rgba(0,0,0,.40);
 
   /* Fade superior/inferior */
-  --fade:2%;
-  -webkit-mask-image:linear-gradient(to bottom, transparent 0, black var(--fade), black calc(100% - var(--fade)), transparent 100%);
+  --fade: 2%;
+  -webkit-mask-image:linear-gradient(
+    to bottom,
+    transparent 0,
+    black var(--fade),
+    black calc(100% - var(--fade)),
+    transparent 100%
+  );
   -webkit-mask-repeat:no-repeat;
   -webkit-mask-size:cover;
-          mask-image:linear-gradient(to bottom, transparent 0, black var(--fade), black calc(100% - var(--fade)), transparent 100%);
+          mask-image:linear-gradient(
+    to bottom,
+    transparent 0,
+    black var(--fade),
+    black calc(100% - var(--fade)),
+    transparent 100%
+  );
   mask-repeat:no-repeat;
   mask-size:cover;
 }
 
+/* Capa oscura para mejorar legibilidad del texto */
+.imagen::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(15,23,42,.78),
+      rgba(15,23,42,.55),
+      rgba(15,23,42,.85)
+    );
+}
+
+/* Tarjeta de texto sobre la imagen */
 .text_imagen{
   position:relative;
-  min-width:300px;
+  z-index:1;
   width:100%;
-  height:60%;
-  background:rgba(255,255,255,.15);
-  backdrop-filter:blur(10px);
-  -webkit-backdrop-filter:blur(10px);
-  padding:3rem 1rem;
-  color:#fff;
-  margin:auto;
+  height:100%;
+  box-sizing:border-box;
+
   display:flex;
   flex-direction:column;
   align-items:center;
   justify-content:center;
-  box-sizing:border-box;
+
+  padding:clamp(2rem, 3vw, 3.2rem) clamp(1.5rem, 3vw, 2.5rem);
+  color:#f9fafb;
 }
-.text_imagen button{
-  padding:1rem;
-  border-radius:5px;
-  background-color:#fffd;
+
+/* Contenido centrado y con ancho máximo */
+.text_imagen > *{
+  max-width:640px;
 }
+
+/* Título */
 .text_imagen h1{
-  font-size:clamp(2.25em, 1em + 2.5vw, 3em);
+  font-size:clamp(1.9rem, 1.4rem + 1.8vw, 2.6rem);
   position:relative;
   text-align:center;
-  padding:1rem;
+  padding:0 0 1rem;
   margin:0;
 }
+
+/* Detalle decorativo bajo el título */
+.text_imagen h1::after{
+  content:"";
+  display:block;
+  width:68px;
+  height:3px;
+  margin:.75rem auto 0;
+  border-radius:999px;
+  background:#facc15;
+  opacity:.85;
+}
+
+/* Párrafo */
 .text_imagen p{
-  font-size:clamp(1.125em, .75em + 1vw, 1.5em);
-  padding:1rem;
-  margin:0;
+  font-size:clamp(1.05rem, .9rem + .6vw, 1.3rem);
+  padding:0;
+  margin:1rem 0 1.75rem;
+  text-align:center;
+  color:#e5e7eb;
+}
+
+/* Enlace y botón */
+.text_imagen a{
+  text-decoration:none;
+}
+
+.text_imagen button{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:.4rem;
+  padding:.85rem 1.6rem;
+  border-radius:999px;
+  border:none;
+  font-size:.95rem;
+  font-weight:600;
+  letter-spacing:.03em;
+  text-transform:uppercase;
+  background:#f97316;
+  color:#111827;
+  box-shadow:0 10px 30px rgba(15,23,42,.6);
+  cursor:pointer;
+  transition:
+    transform .18s ease,
+    box-shadow .18s ease,
+    background .18s ease,
+    color .18s ease;
+}
+.text_imagen button:hover{
+  background:#fb923c;
+  transform:translateY(-1px);
+  box-shadow:0 18px 40px rgba(15,23,42,.8);
+}
+.text_imagen button:active{
+  transform:translateY(1px) scale(.99);
+  box-shadow:0 8px 24px rgba(15,23,42,.75);
 }
 
 /* Respeto preferencias de movimiento */
 @media (prefers-reduced-motion:reduce){
   .history{ transition:none }
-  .history:hover{ transform:none }
+  .history:hover{ transform:none; box-shadow:0 2px 12px rgba(0,0,0,.25); }
+  .text_imagen button{ transition:none }
+}
+
+/* Ajustes responsive */
+@media (max-width: 768px){
+  .section_history{
+    padding:2.3rem 1.2rem;
+  }
+  .box_history{
+    gap:14px;
+    border-radius:16px;
+  }
+  .history img{
+    height:200px;
+  }
+  .seccion_imagen{
+    margin:2rem auto 2.5rem;
+  }
 }
