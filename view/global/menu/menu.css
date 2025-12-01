@@ -356,19 +356,3 @@ body:has(#nav-toggle:checked) {
     background: rgba(255, 255, 255, 0.2);
   }
 }
-/* Animación para ocultar/mostrar el header al hacer scroll */
-.site-header {
-  transition: transform .25s ease, box-shadow .25s ease;
-}
-
-/* Cuando el usuario baja, escondemos el header hacia arriba */
-.site-header.is-hidden {
-  transform: translateY(-100%);
-  box-shadow: none;
-}
-
-/* (Opcional pero muy recomendado)
-   Deja espacio arriba para que el contenido no salte */
-#main {
-  padding-top: 70px; /* Ajusta según la altura de tu header real */
-}
