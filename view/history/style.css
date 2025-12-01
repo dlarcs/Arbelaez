@@ -11,9 +11,8 @@
   background: linear-gradient(to bottom, rgba(255,255,255,.25), rgba(255,255,255,0) 40%),
    conic-gradient(
      from 200deg at 100% 0%,
-     #8A5B30 100%,
-     #BFA050 0%
-
+     #BFA050 0%,
+     #8A5B30 100%
    );
 }
 .content_history{
