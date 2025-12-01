@@ -9,7 +9,7 @@ $jsTime = filemtime('');   // ejemplo: '../Home/5.Video/video.js'
 			<img src="../../../view/gastronomia/El_Huerto/title/img/logo_kapaLuna.png" alt="El_Huerto° logo" class="logo" width="64" height="64" loading="lazy">
 			<div class="brand">
 				<strong class="brand-name">Del Huerto</strong>
-				<span class="brand-tag">Gastro-Bar</span>
+				<span class="brand-tag">Pizzeria Artesanal</span>
 			</div>
 		</div>
 	</section>
