@@ -30,7 +30,7 @@ $jsTime = filemtime('../../../view/alojamiento/Cachorros_LyC/galery/productos.js
 			<div class="food_card Vista"><img src="../../../view/alojamiento/Cachorros_LyC/img/vista5.jpg" alt="Vista 6" width="1200" height="800" loading="lazy" decoding="async"></div>
 
 	    <!-- ===== Lugar (3) ===== -->
-	    <div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/Lugar.jpg" alt="Lugar 1" width="1200" height="800" loading="lazy" decoding="async"></div>
+	    <div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/lugar.jpg" alt="Lugar 1" width="1200" height="800" loading="lazy" decoding="async"></div>
 	    <div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/lugar1.jpg" alt="Lugar 2" width="1200" height="800" loading="lazy" decoding="async"></div>
 	    <div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/lugar2.jpg" alt="Lugar 3" width="1200" height="800" loading="lazy" decoding="async"></div>
 			<div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/lugar3.jpg" alt="Lugar 4" width="1200" height="800" loading="lazy" decoding="async"></div>
