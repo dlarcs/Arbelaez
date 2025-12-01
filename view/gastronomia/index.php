@@ -16,8 +16,6 @@
       <?php
       $cssTime = filemtime('../../view/gastronomia/style.css');
       $jsTime = filemtime('../../view/gastronomia/app.js');   // ejemplo: '../Home/5.Video/video.js'
-
-
       ?>
       <link rel="stylesheet" href="../../view/gastronomia/style.css?v=<?= $cssTime ?>">
       <?php include "../../view/global/menu/menu.php" ?>
