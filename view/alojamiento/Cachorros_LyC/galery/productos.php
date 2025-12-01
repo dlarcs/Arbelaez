@@ -31,15 +31,15 @@ $jsTime = filemtime('../../../view/alojamiento/Cachorros_LyC/galery/productos.js
 
 	    <!-- ===== Lugar (3) ===== -->
 	    <div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/Lugar.jpg" alt="Lugar 1" width="1200" height="800" loading="lazy" decoding="async"></div>
-	    <div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/Lugar1.jpg" alt="Lugar 2" width="1200" height="800" loading="lazy" decoding="async"></div>
-	    <div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/Lugar2.jpg" alt="Lugar 3" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/Lugar3.jpg" alt="Lugar 4" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/Lugar4.jpg" alt="Lugar 5" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/Lugar5.jpg" alt="Lugar 6" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/Lugar6.jpg" alt="Lugar 7" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/Lugar7.jpg" alt="Lugar 8" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/Lugar8.jpg" alt="Lugar 9" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/Lugar9.jpg" alt="Lugar 10" width="1200" height="800" loading="lazy" decoding="async"></div>
+	    <div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/lugar1.jpg" alt="Lugar 2" width="1200" height="800" loading="lazy" decoding="async"></div>
+	    <div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/lugar2.jpg" alt="Lugar 3" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/lugar3.jpg" alt="Lugar 4" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/lugar4.jpg" alt="Lugar 5" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/lugar5.jpg" alt="Lugar 6" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/lugar6.jpg" alt="Lugar 7" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/lugar7.jpg" alt="Lugar 8" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/lugar8.jpg" alt="Lugar 9" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Lugar"><img src="../../../view/alojamiento/Cachorros_LyC/img/lugar9.jpg" alt="Lugar 10" width="1200" height="800" loading="lazy" decoding="async"></div>
 
 	    <!-- ===== Bebidas (3) ===== -->
 			<div class="food_card Bebidas"><img src="../../../view/alojamiento/Cachorros_LyC/img/trago.jpg" alt="Bebidas" width="1200" height="800" loading="lazy" decoding="async"></div>

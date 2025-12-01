@@ -2,16 +2,23 @@
 <html lang="es" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Arbeláez Turismo – Naturaleza, gastronomía y alojamiento en Cundinamarca</title>
+  <title>Arbeláez Turismo – Naturaleza, artesanías, gastronomía y alojamiento en Cundinamarca</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Idioma y robots -->
+  <meta name="language" content="es-CO">
+  <meta name="robots" content="index,follow">
 
   <!-- Canonical -->
   <link rel="canonical" href="https://www.arbelaez.com.co/">
 
   <!-- CSS (cache-busting robusto) -->
-  <link rel="stylesheet" href="../../view/home/style.css?<?php echo filemtime('../../view/home/style.css'); ?>">
+  <?php $cssTime = filemtime('../../view/home/style.css'); ?>
+  <link rel="stylesheet" href="../../view/home/style.css?v=<?= $cssTime ?>">
 
-  <!-- Fuente -->
+  <!-- Fuente: optimizada con preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
   <!-- Favicons -->
@@ -23,7 +30,7 @@
 
   <!-- Meta SEO -->
   <meta name="description" content="Arbeláez Turismo: guía local con qué hacer, dónde comer y dónde dormir en Arbeláez, Cundinamarca. Naturaleza, gastronomía, alojamientos rurales y planes cerca de Bogotá.">
-  <meta name="keywords" content="Arbeláez turismo, Arbelaez turismo, Arbeláez Cundinamarca, Arbelaez Cundinamarca, turismo Arbeláez, qué hacer en Arbeláez, lugares para visitar Arbeláez, alojamiento Arbeláez, hoteles Arbeláez, hostales Arbeláez, casas campestres Arbeláez, fincas turísticas Arbeláez, cabañas Arbeláez, restaurantes Arbeláez, comida típica Arbeláez, gastronomía Arbeláez, artesanías Arbeláez, miradores Arbeláez, cascadas Arbeláez, ríos Arbeláez, senderismo Arbeláez, caminatas ecológicas Arbeláez, rutas naturales Arbeláez, naturaleza Arbeláez, plan familiar Arbeláez, plan en pareja Arbeláez, plan con amigos Arbeláez, fotos Arbeláez, Instagram Arbeláez, TikTok Arbeláez, Facebook Arbeláez, mapa Arbeláez, cómo llegar a Arbeláez, clima Arbeláez, ferias y fiestas Arbeláez, tradición Arbeláez, cultura Arbeláez, café de origen Arbeláez, región cafetera Arbeláez, ecoturismo Arbeláez, turismo sostenible Arbeláez, turismo de naturaleza Arbeláez, turismo cultural Arbeláez, turismo rural Arbeláez, glamping Arbeláez, camping Arbeláez, zonas verdes Arbeláez, avistamiento de aves Arbeláez, bicicleta Arbeláez, deportes de aventura Arbeláez, plan fin de semana Arbeláez, escapada desde Bogotá, cerca de Bogotá, sur de Cundinamarca, parques Arbeláez, iglesia Arbeláez, historia Arbeláez, hospedaje económico Arbeláez, alojamiento familiar Arbeláez, alojamiento tranquilo Arbeláez, BBQ Arbeláez, paisaje montañoso Arbeláez, aire puro Arbeláez, plan romántico Arbeláez, retiro de descanso Arbeláez, experiencias locales Arbeláez, guías turísticos Arbeláez, transporte Arbeláez, artes y cultura Arbeláez, productos típicos Arbeláez, rutas gastronómicas Arbeláez, cafés Arbeláez, panaderías Arbeláez, postres Arbeláez, comida casera Arbeláez, música y tradición Arbeláez, fotografía de paisaje Arbeláez, amaneceres Arbeláez, atardeceres Arbeláez, cielos estrellados Arbeláez, turismo de proximidad Arbeláez, slow travel Arbeláez, vivir Arbeláez, descubre Arbeláez, arbelaez.com.co, guía de Arbeláez, turismo Cundinamarca, naturaleza Cundinamarca, gastronomía Cundinamarca, alojamiento Cundinamarca, experiencias Arbeláez, planes Arbeláez, fin de semana Arbeláez, vacaciones Arbeláez, puente festivo Arbeláez, rutas rurales Arbeláez, miradores Cundinamarca, cascadas Cundinamarca, artesanías Cundinamarca, cultura Cundinamarca, destinos cerca de Bogotá, viajar por Colombia, turismo local Colombia, turismo responsable Arbeláez, turismo comunitario Arbeláez, plan económico Arbeláez, plan premium Arbeláez, agenda Arbeláez, eventos Arbeláez, mapa turístico Arbeláez, cómo llegar a Arbeláez desde Bogotá, taxis Arbeláez, buses Arbeláez, hospedaje con encanto Arbeláez, casa campestre Arbeláez, finca turística Arbeláez, cabaña rural Arbeláez, restaurante típico Arbeláez, café especial Arbeláez, panadería artesanal Arbeláez, artesano local Arbeláez, parques naturales Arbeláez, rutas de agua Arbeláez, bienestar y relax Arbeláez">
+  <meta name="keywords" content="Arbeláez turismo, Arbelaez turismo, Arbeláez Cundinamarca, Arbelaez Cundinamarca, turismo Arbeláez, pueblo Arbeláez, viajar a Arbeláez, qué hacer en Arbeláez, planes en Arbeláez, lugares Arbeláez, sitios turísticos Arbeláez, destinos Arbeláez, fin de semana Arbeláez, escapada Arbeláez, cerca de Bogotá, pueblos cerca de Bogotá, turismo cerca de Bogotá, sur de Cundinamarca, turismo Cundinamarca, destinos Cundinamarca, naturaleza Arbeláez, turismo de naturaleza, turismo rural, turismo ecológico, ecoturismo Arbeláez, turismo sostenible, turismo comunitario, turismo local, rutas rurales Arbeláez, senderismo Arbeláez, caminatas ecológicas, rutas de montaña, cascadas Arbeláez, ríos Arbeláez, pozos naturales Arbeláez, miradores Arbeláez, paisajes Arbeláez, cielos estrellados Arbeláez, amaneceres Arbeláez, atardeceres Arbeláez, fotografía de paisaje, avistamiento de aves, bicicleta Arbeláez, cicloturismo Arbeláez, camping Arbeláez, glamping Arbeláez, zonas verdes Arbeláez, plan familiar Arbeláez, plan en pareja Arbeláez, plan con amigos Arbeláez, planes económicos Arbeláez, planes premium Arbeláez, escapada romántica, retiro de descanso, bienestar y relax, alojamiento Arbeláez, hoteles Arbeláez, hostales Arbeláez, fincas turísticas Arbeláez, casas campestres Arbeláez, cabañas Arbeláez, hospedaje económico Arbeláez, alojamiento familiar Arbeláez, alojamiento rural Arbeláez, alojamiento con piscina, alojamiento con bbq, alojamiento pet friendly, restaurantes Arbeláez, gastronomía Arbeláez, comida típica Arbeláez, comida casera Arbeláez, parrilla Arbeláez, pizzería Arbeláez, postres Arbeláez, cafés Arbeláez, café especial Arbeláez, panadería artesanal Arbeláez, rutas gastronómicas, bares Arbeláez, cocteles Arbeláez, artesanías Arbeláez, artesanos locales, productos típicos Arbeláez, mercados locales Arbeláez, ferias y fiestas Arbeláez, eventos Arbeláez, cultura Arbeláez, tradición Arbeláez, música en vivo Arbeláez, historia Arbeláez, iglesia Arbeláez, parque principal Arbeláez, plaza de mercado Arbeláez, experiencias locales, guías turísticos Arbeláez, tours en Arbeláez, planes guiados Arbeláez, rutas en carro Arbeláez, rutas en moto Arbeláez, transporte a Arbeláez, cómo llegar a Arbeláez, buses a Arbeláez, taxis Arbeláez, mapa Arbeláez, mapa turístico Arbeláez, clima Arbeláez, tiempo en Arbeláez, puente festivo Arbeláez, vacaciones Arbeláez, viajar por Colombia, turismo de proximidad, rutas de agua Arbeláez, charcos Arbeláez, cascadas Cundinamarca, miradores Cundinamarca, turismo de aventura, deportes de aventura, canyoning Arbeláez, rappel Arbeláez, caminatas de un día, day trip desde Bogotá, escapada de ciudad, aire puro Arbeláez, vivir en Arbeláez, guía de Arbeláez, arbelaez turismo web, arbelaez.com.co, Arbeláez Turismo Facebook, Arbeláez Turismo Instagram, Arbeláez Turismo TikTok, turismo en veredas Arbeláez, veredas de Arbeláez, naturaleza Cundinamarca, gastronomía Cundinamarca, alojamiento Cundinamarca, planes con niños Arbeláez, planes con mascotas Arbeláez, fotografía Arbeláez, Instagram Arbeláez, TikTok Arbeláez, Facebook Arbeláez Turismo, guía digital Arbeláez, portal turístico Arbeláez, experiencias Arbeláez, turismo responsable Arbeláez, turismo seguro Arbeláez, respira naturaleza Arbeláez, descubre Arbeláez, visita Arbeláez, conoce Arbeláez, Arbeláez tourism, Arbelaez tourism, Arbeláez Cundinamarca, Arbelaez Cundinamarca, tourism in Arbeláez, Arbeláez town, travel to Arbeláez, things to do in Arbeláez, plans in Arbeláez, places in Arbeláez, tourist spots Arbeláez, destinations Arbeláez, Arbeláez weekend trip, Arbeláez getaway, near Bogotá, towns near Bogotá, tourism near Bogotá, south Cundinamarca, Cundinamarca tourism, Cundinamarca destinations, Arbeláez nature, nature tourism, rural tourism, eco tourism, Arbeláez ecotourism, sustainable tourism, community tourism, local tourism, rural routes Arbeláez, hiking Arbeláez, eco walks, mountain routes, Arbeláez waterfalls, Arbeláez rivers, natural pools Arbeláez, Arbeláez viewpoints, Arbeláez landscapes, starry skies Arbeláez, Arbeláez sunrises, Arbeláez sunsets, landscape photography, birdwatching, cycling Arbeláez, Arbeláez cycle tourism, camping Arbeláez, glamping Arbeláez, green areas Arbeláez, family plan Arbeláez, couple plan Arbeláez, friends plan Arbeláez, budget plans Arbeláez, premium plans Arbeláez, romantic getaway, rest retreat, wellness and relaxation, Arbeláez accommodation, Arbeláez hotels, Arbeláez hostels, tourist farms Arbeláez, country houses Arbeláez, cabins Arbeláez, affordable lodging Arbeláez, family accommodation Arbeláez, rural lodging Arbeláez, accommodation with pool, accommodation with BBQ, pet friendly accommodation, Arbeláez restaurants, Arbeláez gastronomy, typical food Arbeláez, homemade food Arbeláez, grill Arbeláez, pizza Arbeláez, desserts Arbeláez, cafés Arbeláez, specialty coffee Arbeláez, artisan bakery Arbeláez, food routes, Arbeláez bars, Arbeláez cocktails, Arbeláez handicrafts, local artisans, typical products Arbeláez, local markets Arbeláez, festivals and fairs Arbeláez, Arbeláez events, Arbeláez culture, Arbeláez tradition, live music Arbeláez, Arbeláez history, Arbeláez church, Arbeláez main square, Arbeláez farmers market, local experiences, tour guides Arbeláez, tours in Arbeláez, guided plans Arbeláez, car routes Arbeláez, motorbike routes Arbeláez, transport to Arbeláez, how to get to Arbeláez, buses to Arbeláez, taxis Arbeláez, Arbeláez map, Arbeláez tourist map, Arbeláez weather, Arbeláez forecast, holiday weekend Arbeláez, Arbeláez vacations, travel Colombia, proximity tourism, water routes Arbeláez, natural swimming holes Arbeláez, Cundinamarca waterfalls, Cundinamarca viewpoints, adventure tourism, adventure sports, canyoning Arbeláez, rappelling Arbeláez, day hikes, day trip from Bogotá, city escape, fresh air Arbeláez, living in Arbeláez, Arbeláez guide, Arbeláez tourism website, arbelaez.com.co, Arbeláez Turismo Facebook, Arbeláez Turismo Instagram, Arbeláez Turismo TikTok, tourism in Arbeláez veredas, Arbeláez veredas, Cundinamarca nature, Cundinamarca gastronomy, Cundinamarca accommodation, plans with kids Arbeláez, plans with pets Arbeláez, Arbeláez photography, Arbeláez Instagram, Arbeláez TikTok, Arbeláez Turismo Facebook, Arbeláez digital guide, Arbeláez tourist portal, Arbeláez experiences, responsible tourism Arbeláez, safe tourism Arbeláez, breathe nature Arbeláez, discover Arbeláez, visit Arbeláez, explore Arbeláez">
 
   <!-- Open Graph -->
   <meta property="og:locale" content="es_CO">
@@ -33,54 +40,47 @@
   <meta property="og:url" content="https://www.arbelaez.com.co/">
   <meta property="og:image" content="https://www.arbelaez.com.co/view/home/img/og-1200x630.jpg">
 
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Arbeláez Turismo – Naturaleza, gastronomía y alojamiento">
-  <meta name="twitter:description" content="Guía local para disfrutar Arbeláez, Cundinamarca: qué hacer, dónde comer y dónde dormir.">
-  <meta name="twitter:image" content="https://www.arbelaez.com.co/view/home/img/og-1200x630.jpg">
 
-  <!-- Social profiles (ajusta los @ si son distintos) -->
-  <link rel="me" href="https://instagram.com/arbelaezturismo">
-  <link rel="me" href="https://www.tiktok.com/@arbelaezturismo">
-  <link rel="me" href="https://www.facebook.com/arbelaezturismo">
+  <!-- Perfiles sociales reales -->
+  <link rel="me" href="https://www.facebook.com/profile.php?id=61580302286594">
+  <link rel="me" href="https://www.instagram.com/arbelaez_turismo/">
+  <link rel="me" href="https://www.tiktok.com/@arbelaez_turismo">
 
-  <!-- Datos estructurados: WebSite + Organization con redes -->
+  <!-- Datos estructurados: WebSite + Organization con redes oficiales -->
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebSite",
-      "name": "Arbeláez Turismo",
-      "url": "https://www.arbelaez.com.co/",
-      "inLanguage": "es-CO"
-    },
-    {
-      "@type": "Organization",
-      "name": "Arbeláez Turismo",
-      "url": "https://www.arbelaez.com.co/",
-      "sameAs": [
-        "https://instagram.com/arbelaez_turismo",
-        "https://www.tiktok.com/@arbelaez_turismo",
-        "https://www.facebook.com/arbelaez_turismo"
-      ]
-    }
-  ]
-}
-</script>
-
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "Arbeláez Turismo",
+        "url": "https://www.arbelaez.com.co/",
+        "inLanguage": "es-CO"
+      },
+      {
+        "@type": "Organization",
+        "name": "Arbeláez Turismo",
+        "url": "https://www.arbelaez.com.co/",
+        "sameAs": [
+          "https://www.facebook.com/profile.php?id=61580302286594",
+          "https://www.instagram.com/arbelaez_turismo/",
+          "https://www.tiktok.com/@arbelaez_turismo"
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 
 <body class="body_home">
-      <?php include "../../view/global/menu/menu.php" ?>
-   <div class="container_home">
-     <?php include "../../view/home/TourBurguer/Burguer.php" ?>
-     <?php include "../../view/home/slider/slider.php" ?>
-     <?php include "../../view/home/places/places.php" ?>
-     <?php include "../../view/home/imagen/imagen.php" ?>
-     <?php include "../../view/home/maps/maps.php" ?>
-     <?php include "../../view/global/footer/footer.php"?>
+  <?php include "../../view/global/menu/menu.php" ?>
+  <div class="container_home">
+    <?php include "../../view/home/slider/slider.php" ?>
+    <?php include "../../view/home/places/places.php" ?>
+    <?php include "../../view/home/TourBurguer/Burguer.php" ?>
+    <?php include "../../view/home/imagen/imagen.php" ?>
+    <?php include "../../view/home/maps/maps.php" ?>
+    <?php include "../../view/global/footer/footer.php"?>
   </div>
 </body>
-
 </html>
