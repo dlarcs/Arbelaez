@@ -4,14 +4,14 @@ if (indicator) {
   // Scroll suave al hacer click
   indicator.addEventListener('click', () => {
     window.scrollBy({
-      top: window.innerHeight * 3500,
+      top: window.innerHeight * 3300,
       behavior: 'smooth'
     });
   });
 
   // Ocultar al hacer scroll
   window.addEventListener('scroll', () => {
-    if (window.scrollY > 3500) {
+    if (window.scrollY > 3300) {
       indicator.classList.add('hidden');
     } else {
       indicator.classList.remove('hidden');
