@@ -14,13 +14,15 @@ a {
 
 /* ===== Tokens (ajusta si ya tienes design system global) ===== */
 :root {
-  --brand: #005548;
-  --brand-2: #224335;
-  --ink: #0b1b16;
-  --fg-on-brand: #fdfdfd;
 
-  --glass-top: rgba(11, 27, 22, 0.78);
-  --glass-bot: rgba(0, 85, 72, 0.98);
+  --brand: #005548;
+  --brand-2: #2f6048;
+  --ink: #0b1b16;
+  --fg-on-brand: #fafafa;
+  --glass-top: rgba(235,255,235,0.45);
+  --glass-bot: rgba(0,85,72,1);
+
+  --fg-on-brand: #fdfdfd;
 
   --shadow-1: 0 10px 24px rgba(0, 0, 0, .16);
   --radius-pill: 999px;
