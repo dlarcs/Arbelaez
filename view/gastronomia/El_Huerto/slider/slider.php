@@ -1,14 +1,14 @@
 <?php
-$cssTime = filemtime('../../../view/gastronomia/kapaLuna360/slider/slider.css');
-$jsTime = filemtime('../../../view/gastronomia/kapaLuna360/slider/slider.js');
+$cssTime = filemtime('../../../view/gastronomia/El_Huerto/slider/slider.css');
+$jsTime = filemtime('../../../view/gastronomia/El_Huerto/slider/slider.js');
 ?>
-	<link rel="stylesheet" href="../../../view/gastronomia/kapaLuna360/slider/slider.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../../view/gastronomia/El_Huerto/slider/slider.css?v=<?= $cssTime ?>">
 	<section class="slider" aria-role description="carrusel" aria-label="Galería destacada">
 		<div class="slider__viewport" tabindex="0">
 			<div class="slider__track" id="slider-track">
 				<!-- Slide 1 -->
 				<article class="slide is-current" aria-role description="slide" aria-label="1 de 4">
-					<img src="../../../view/gastronomia/kapaLuna360/img/lugar.jpg" alt="Montañas al amanecer" />
+					<img src="../../../view/gastronomia/El_Huerto/img/pizza6.jpg" alt="Montañas al amanecer" />
 					<div class="slide__caption">
 						<!-- <h2>Dios es Amor</h2>
            <p>Descubre el amor que transforma vidas.</p> -->
@@ -16,7 +16,7 @@ $jsTime = filemtime('../../../view/gastronomia/kapaLuna360/slider/slider.js');
 				</article>
 				<!-- Slide 2 -->
 				<article class="slide" aria-role description="slide" aria-label="2 de 4">
-					<img src="../../../view/gastronomia/kapaLuna360/img/lugar2.jpg" alt="Bosque con luz dorada" />
+					<img src="../../../view/gastronomia/El_Huerto/img/pizza1.jpg" alt="Bosque con luz dorada" />
 					<div class="slide__caption">
 						<!-- <h2>Una Familia de Fe</h2>
            <p>Aquí siempre encontrarás un lugar para ti.</p> -->
@@ -24,7 +24,7 @@ $jsTime = filemtime('../../../view/gastronomia/kapaLuna360/slider/slider.js');
 				</article>
 				<!-- Slide 3 -->
 				<article class="slide" aria-role description="slide" aria-label="3 de 4">
-					<img src="../../../view/gastronomia/kapaLuna360/img/lugar3.jpg" alt="Lago tranquilo" />
+					<img src="../../../view/gastronomia/El_Huerto/img/pizza2.jpg" alt="Lago tranquilo" />
 					<div class="slide__caption">
 						<!-- <h2>La Esperanza Vive</h2>
            <p>Cristo es la luz en medio de la oscuridad.</p> -->
@@ -32,7 +32,7 @@ $jsTime = filemtime('../../../view/gastronomia/kapaLuna360/slider/slider.js');
 				</article>
 				<!-- Slide 4 -->
 				<article class="slide" aria-role description="slide" aria-label="4 de 4">
-					<img src="../../../view/gastronomia/kapaLuna360/img/parrilla.jpg" alt="Carretera hacia el horizonte" />
+					<img src="../../../view/gastronomia/El_Huerto/img/pizza4.jpg" alt="Carretera hacia el horizonte" />
 					<div class="slide__caption">
 						<!-- <h2>Fortaleza en la Oración</h2>
            <p>Habla con Dios, Él siempre escucha.</p> -->
@@ -54,4 +54,4 @@ $jsTime = filemtime('../../../view/gastronomia/kapaLuna360/slider/slider.js');
 		</div>
 	</section>
 
-	<script src="../../../view/gastronomia/kapaLuna360/slider/slider.js?v=<?= $jsTime ?>" type="text/javascript"></script>
+	<script src="../../../view/gastronomia/El_Huerto/slider/slider.js?v=<?= $jsTime ?>" type="text/javascript"></script>

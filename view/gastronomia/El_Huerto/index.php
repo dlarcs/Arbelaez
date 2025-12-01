@@ -39,7 +39,7 @@
 	<meta name="twitter:image" content="https://www.arbelaez.com.co/media/El_Huerto/og-1200x630.jpg">
 
 	<!-- Icono / tema -->
-	<link rel="icon" href="../../../view/gastronomia/El_Huerto/menu/img/logo_DelHuerto.png" type="image/png">
+	<link rel="icon" href="../../../view/gastronomia/El_Huerto/img/logo.jpg" type="image/png">
 	<link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/El_Huerto/apple-touch-icon.png">
 	<meta name="theme-color" content="#005548">
 
@@ -61,13 +61,12 @@
 		      "addressRegion": "Cundinamarca",
 		      "addressCountry": "CO"
 		    },
-		    "servesCuisine": ["Parrilla","Cocina colombiana","Postres","Cócteles"],
+		    "servesCuisine": ["Pizzeria","Lasaña","Postres","Cócteles","Cafe"],
 		    "priceRange": "$$",
 		    "telephone": "+57 3024229260",
 		    "acceptsReservations": True,
 		    "openingHours": ["Mo-Su 12:00-22:00"]
 		  }
-
 	</script>
 </head>
 
@@ -86,7 +85,7 @@
 	<!-- Botón WhatsApp con tu imagen (ponlo antes de </body>) -->
 
 	<a class="whatsapp-fab"
-		href="https://wa.me/573024229260?text=Hola%20vengo%20desde%20la%20web%20de%20El_Huerto%C2%B0"
+		href="https://wa.me/573194963554?text=Hola%20vengo%20desde%20la%20web%20de%20Del_Huerto%C2%B0"
 		target="_blank" rel="noopener"
 		aria-label="Chatear por WhatsApp" >
 		<img src="../../../view/gastronomia/El_Huerto/img/img_whatsApp.png"
