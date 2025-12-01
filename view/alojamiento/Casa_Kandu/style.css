@@ -19,14 +19,7 @@
 	object-fit: cover;
 	overflow: hidden;
 }
-/* Contenedor (o body) */
-.body_Casa_Kandu{
-  background:#fff;
-  min-height:100vh;
-  position:relative;
-  padding-right:100px; /* para que el contenido no quede debajo del bambú */
-  overflow:hidden;
-}
+
 
 /* Bambú a la derecha */
 .body_Casa_Kandu::after{
