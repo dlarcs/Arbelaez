@@ -5,10 +5,15 @@
       <title>Naturaleza Rios y Quebradas</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
-    <link rel="stylesheet" href="../../view/Naturaleza/style.css">
   </head>
 
   <body class="body_Naturaleza">
+    <?php
+    $cssTime = filemtime('../../view/Naturaleza/style.css'); // ejemplo: '../Home/5.Video/video.css'
+    ?>
+    <link rel="stylesheet" href="../../view/Naturaleza/style.css?v=<?= $cssTime ?>">
+
+
     <?php include "../../view/global/menu/menu.php" ?>
     <div class="container_Naturaleza">
       <?php include "../../view/Naturaleza/galery/galery.php" ?>
@@ -16,4 +21,5 @@
       <?php include "../../view/global/footer/footer.php" ?>
     </div>
 </body>
+
 </html>
