@@ -5,7 +5,7 @@ $cssTime = filemtime('../../../view/alojamiento/IsraHousSuites/menu/menu.css'); 
 	<!-- ===== HEADER PRINCIPAL DE LA PÁGINA ===== -->
 	<header class="site-header">
 		<a class="brand_menu" href="../../../view/home/index.php" aria-label="Inicio">
-			<h1 class="brand-text">IsraHousSuites</h1>
+			<h1 class="brand-text">IsraHouseSuites</h1>
      </a>
 
 		<input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>

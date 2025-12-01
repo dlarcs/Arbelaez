@@ -7,7 +7,7 @@ $cssTime = filemtime('../../../view/alojamiento/IsraHousSuites/title/title.css')
 		<div class="branding">
 			<img src="../../../view/alojamiento/IsraHousSuites/img/exterior.jpeg" alt="kalu logo" class="logo" width="64" height="64" loading="lazy">
 			<div class="brand">
-				<strong class="brand-name">IsraHousSuites</strong>
+				<strong class="brand-name">IsraHoueSuites</strong>
 				<span class="brand-tag">Alojamiento</span>
 			</div>
 		</div>

@@ -8,7 +8,7 @@
 	<!-- Básicos -->
 	<title>Del Huerto – Pizzería Artesanal en Arbeláez</title>
 	<meta name="description" content="Del Huerto es una pizzería artesanal en Arbeláez, Cundinamarca. Pizzas al horno, lasañas, hamburguesas, jugos naturales y postres, junto al parque principal y rodeados de naturaleza.">
-	<link rel="canonical" href="https://www.arbelaez.com.co/gastronomia/El_Huerto/">
+	<link rel="canonical" href="https://www.arbelaez.com.co/view/gastronomia/El_Huerto/index.php">
 	<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 
 	<!-- Idioma y geografía -->
@@ -91,7 +91,7 @@ pizza del huerto
 	<meta property="og:type" content="restaurant">
 	<meta property="og:title" content="Del Huerto – Pizzería Artesanal en Arbeláez">
 	<meta property="og:description" content="Pizzas artesanales al horno, lasañas, hamburguesas, jugos naturales y postres en un espacio rodeado de naturaleza junto al parque principal de Arbeláez.">
-	<meta property="og:url" content="https://www.arbelaez.com.co/gastronomia/El_Huerto/">
+	<meta property="og:url" content="https://www.arbelaez.com.co/view/gastronomia/El_Huerto/index.php">
 	<meta property="og:image" content="https://www.arbelaez.com.co/media/El_Huerto/og-1200x630.jpg">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="Del Huerto – Pizzería Artesanal en Arbeláez">
@@ -113,7 +113,7 @@ pizza del huerto
 	  "@context": "https://schema.org",
 	  "@type": "Restaurant",
 	  "name": "Del Huerto – Pizzería Artesanal",
-	  "url": "https://www.arbelaez.com.co/gastronomia/El_Huerto/",
+	  "url": "https://www.arbelaez.com.co/view/gastronomia/El_Huerto/index.php",
 	  "address": {
 	    "@type": "PostalAddress",
 	    "addressLocality": "Arbeláez",

@@ -6,7 +6,7 @@ $cssTime = filemtime('../../../view/alojamiento/IsraHousSuites/bout_us/about.css
 	<main id="about_IsraHousSuites" class="wrap">
 		<article class="card" itemscope itemtype="https://schema.org/LocalBusiness">
 			<figure class="hero">
-				<img src="../../../view/alojamiento/IsraHousSuites/img/exterior1.jpeg" alt="IsraHousSuites" itemprop="image" loading="lazy">
+				<img src="../../../view/alojamiento/IsraHousSuites/img/exterior1.jpeg" alt="IsraHouseSuites" itemprop="image" loading="lazy">
 				<figcaption>Alojamiento con rio</figcaption>
 			</figure>
 
@@ -25,7 +25,7 @@ $cssTime = filemtime('../../../view/alojamiento/IsraHousSuites/bout_us/about.css
 			      cocina completamente equipada y un área de parrilladas perfecta para compartir al aire libre,
 			      además de zona de parqueadero para mayor tranquilidad. <br>Ven a vivir una experiencia auténtica
 			      entre rios y aire puro.<br><br> <strong>¡Te esperamos!</strong> Para reservas o información, contáctanos al
-			      <a href="https://wa.me/573112274852?text=Hola%20vengo%20desde%20la%20web%20de%20Alojamiento%20IsraHousSuites"
+			      <a href="https://wa.me/573112274852?text=Hola%20vengo%20desde%20la%20web%20de%20Alojamiento%20IsraHouseSuites"
 			      target="_blank" rel="noopener"
 			      aria-label="Chatear por WhatsApp" itemprop="telephone">314&nbsp;341&nbsp;7111</a>.
 			    </p>
