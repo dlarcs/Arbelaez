@@ -8,11 +8,17 @@
   <!-- Canonical -->
   <link rel="canonical" href="https://www.arbelaez.com.co/">
 
+  <!-- CSS (cache-busting robusto) -->
+  <link rel="stylesheet" href="../../view/home/style.css?<?php echo filemtime('../../view/home/style.css'); ?>">
+
+  <!-- Fuente -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
   <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="../../view/home/img/logo_pw.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../../view/home/img/logo_pw.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../../view/home/img/logo_pw.png">
-  <link rel="mask-icon" href="../../view/home/img/logo_pw.png" color="#005548">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../view/home/img/icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../view/home/img/icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../view/home/img/icon.png">
+  <link rel="mask-icon" href="../../view/home/img/icon.png" color="#005548">
   <meta name="theme-color" content="#005548">
 
   <!-- Meta SEO -->
@@ -66,12 +72,7 @@
 </head>
 
 <body class="body_home">
-  <?php
-  $cssTime = filemtime('../../view/home/app.css');
-  $jsTime = filemtime('../../view/home/app.js');   // ejemplo: '../Home/5.Video/video.js'
-  ?>
-  <link rel="stylesheet" href="../../view/home/app.css?v=<?= $cssTime ?>">
-     <?php include "../../view/global/menu/menu.php" ?>
+      <?php include "../../view/global/menu/menu.php" ?>
    <div class="container_home">
      <?php include "../../view/home/TourBurguer/Burguer.php" ?>
      <?php include "../../view/home/slider/slider.php" ?>
@@ -80,12 +81,6 @@
      <?php include "../../view/home/maps/maps.php" ?>
      <?php include "../../view/global/footer/footer.php"?>
   </div>
-  <section class="scroll-indicator" aria-label="Hay más contenido abajo">
-    <span class="scroll-indicator__circle">
-      <span class="scroll-indicator__arrow"></span>
-    </span>
-  </section>
 </body>
 
 </html>
-<script src="<?php echo '../../view/home/app.js?v=' . filemtime('../../view/home/app.js'); ?>" type="text/javascript"></script>
