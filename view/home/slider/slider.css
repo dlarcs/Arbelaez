@@ -10,7 +10,7 @@
 
 /* ===== Slider ===== */
 .title_slider{
-  margin: 2rem auto;
+  margin: 2rem auto 1rem auto;
 }
 .slider{
   position:relative;
