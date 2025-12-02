@@ -22,7 +22,7 @@
 }
 
 /* Bambú a la derecha */
-.body_Casa_Kandu::after{
+.body_Los_Altos::after{
   content:"";
   position:fixed;       /* cámbialo a absolute si lo quieres solo dentro del contenedor */
   top:0;
@@ -72,7 +72,7 @@
 }
 
 /* Asegura que el contenido quede encima */
-.body_Casa_Kandu > *{
+.body_Los_Altos > *{
   position:relative;
   z-index:1;
 }
