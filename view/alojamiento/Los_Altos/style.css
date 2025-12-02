@@ -29,6 +29,8 @@
 	width:100px;
 	height:100vh;
 
+  transform: rotate(-1deg);
+
   background:
     /* Redondez (cilindro) */
     linear-gradient(90deg,
