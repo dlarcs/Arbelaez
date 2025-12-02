@@ -6,7 +6,7 @@ $cssTime = filemtime('../../view/Juntanza_de_Mujeres/bout_us/about.css');
 	<main id="about_Juntanza_de_Mujeres" class="wrap">
 		<article class="card" itemscope itemtype="https://schema.org/LocalBusiness">
 			<figure class="hero">
-				<img src="../../view/view/Juntanza_de_Mujeres/menu/img/logo_Juntanza_de_Mujeres.png" alt="Juntanza_de_Mujeres°" itemprop="image" loading="lazy">
+				<img src="../../view/Juntanza_de_Mujeres/img/logo.jpeg" alt="Juntanza_de_Mujeres°" itemprop="image" loading="lazy">
 				<figcaption>Vive el sabor local</figcaption>
 			</figure>
 

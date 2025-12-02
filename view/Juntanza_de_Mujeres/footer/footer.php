@@ -17,16 +17,12 @@ $cssTime = filemtime('../../view/Juntanza_de_Mujeres/footer/footer.css');
 						</a>
 					</li>
 					<li>
-						<a href="https://www.facebook.com/JuntanzadeMujeres" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+						<a href="https://www.facebook.com/profile.php?id=61556921907581" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
 							<ion-icon name="logo-facebook"></ion-icon><span class="sr-only">Facebook</span>
 						</a>
 					</li>
 
-					<li>
-						<a href="https://www.tiktok.com/search?q=Juntanza_de_Mujeres&t=1757266584549" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
-							<ion-icon name="logo-tiktok"></ion-icon><span class="sr-only">TikTok</span>
-						</a>
-					</li>
+
 
 				</ul>
 			</div>
