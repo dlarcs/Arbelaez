@@ -10,9 +10,9 @@
 	margin: 0;
 	background:
     linear-gradient(to left,
-      #6A0DAD 0,        /* purple */
-      #6A0DAD 100px,    /* strip width */
-      #ffffff 100px,    /* rest is white */
+      #C63507 0,
+      #C63507 100px,
+      #ffffff 100px,
       #ffffff 100%
     );
 }
