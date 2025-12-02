@@ -18,7 +18,7 @@ $jsTime  = filemtime('../../beto/home/slider/slider.js');
         <article class="home-slide is-active" data-index="0">
           <a href="/corte-acrilico" class="home-slide__media">
             <!-- AJUSTA las rutas de las imágenes -->
-            <img src="../../view/home/slider/img/corte-acrilico.jpg"
+            <img src="../../beto/img/fondo.png"
                  alt="Corte láser y avisos en acrílico" loading="lazy">
           </a>
           <div class="home-slide__overlay">
