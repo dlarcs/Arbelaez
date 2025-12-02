@@ -10,8 +10,7 @@
   margin: auto;
   border-radius: 50%;
 
-  background: radial-gradient(circle at top left, rgba(34, 211, 238, 0.14), rgba(15, 23, 42, 0.98));
-  border: 1px solid rgba(148, 163, 184, 0.7);
+background-color: red; border: 1px solid rgba(148, 163, 184, 0.7);
   box-shadow: 0 26px 80px rgba(15, 23, 42, 0.95);
   isolation: isolate;
 }
