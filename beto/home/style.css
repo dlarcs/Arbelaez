@@ -73,6 +73,7 @@ html {
   z-index: 1;
   padding: 2rem 1rem;
   width: min(1200px, 100% - 2rem);
+  margin: auto;
 
   display: flex;
   flex-direction: column;
