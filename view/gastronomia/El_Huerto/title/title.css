@@ -26,9 +26,10 @@
 .brand-name {
 	font-size: 1.25rem;
 	letter-spacing: .3px;
+	color: #fafafa;
 }
 .brand-tag {
-	color: #6b7280;
+	color: #fafafa;
 	/* gris suave para subtítulo */
 	font-size: .95rem;
 }
