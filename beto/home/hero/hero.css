@@ -1,4 +1,4 @@
-/* ===== Hero principal (Home) ===== */
+/* ===== Hero principal (Home) — estilo “Glass / Spotlight” ===== */
 
 .hero-home{
   position: relative;
@@ -8,59 +8,111 @@
   align-items: center;
   gap: 1.5rem;
   margin: auto;
-  border: 1px solid rgba(148, 163, 184, 0.7);
-  box-shadow: 0 26px 80px rgba(15, 23, 42, 0.95);
+
+  border-radius: 22px;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(10, 14, 24, .72);
+
+  box-shadow:
+    0 28px 90px rgba(0,0,0,.55),
+    inset 0 1px 0 rgba(255,255,255,.10);
+
   isolation: isolate;
 }
 
-/* Capa de imagen de fondo: aquí pones TU imagen */
+/* Imagen de fondo */
 .hero-home__media{
   position: absolute;
   inset: 0;
-  z-index: -2;
-  background-image: url("../../../beto/img/fondo.png"); /* <-- CAMBIA ESTA RUTA */
+  z-index: -3;
+
+  background-image: url("../../../beto/img/fondo.png");
   background-size: cover;
   background-position: center;
-  opacity: 0.55;
-  filter: saturate(1.15) contrast(1.05) brightness(0.9);
+
+  opacity: .85;
+  filter: saturate(1.05) contrast(1.08) brightness(.75);
+  transform: scale(1.03);
 }
 
-/* Gradiente oscuro para leer bien el texto */
+/* Capas: viñeta + “spotlight” + degradado lateral */
 .hero-home::before{
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
+  content:"";
+  position:absolute;
+  inset:-1px;
+  z-index:-2;
+
   background:
-    linear-gradient(circle at 0% 0%, rgba(15, 118, 110, 0.2), transparent 55%),
-    linear-gradient(
-      120deg,
-      rgba(15, 23, 42, 0.96) 0%,
-      rgba(15, 23, 42, 0.88) 45%,
-      rgba(15, 23, 42, 0.6) 100%
-    );
+    /* spotlight suave */
+    radial-gradient(900px 520px at 18% 22%, rgba(255,255,255,.14), transparent 60%),
+    /* glow de marca */
+    radial-gradient(700px 500px at 92% 18%, rgba(251,209,96,.16), transparent 62%),
+    radial-gradient(820px 560px at 18% 92%, rgba(34,211,238,.10), transparent 66%),
+    /* degradado para legibilidad */
+    linear-gradient(90deg,
+      rgba(8,10,18,.92) 0%,
+      rgba(8,10,18,.78) 48%,
+      rgba(8,10,18,.52) 100%
+    ),
+    /* viñeta */
+    radial-gradient(120% 120% at 50% 50%, transparent 40%, rgba(0,0,0,.55) 100%);
 }
 
-/* Contenido de texto */
+/* Textura sutil (arte / grano) */
+.hero-home::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  pointer-events:none;
+  opacity:.18;
 
+  background:
+    repeating-linear-gradient(
+      135deg,
+      rgba(255,255,255,.06) 0px,
+      rgba(255,255,255,.06) 2px,
+      rgba(0,0,0,.00) 2px,
+      rgba(0,0,0,.00) 10px
+    );
+  mix-blend-mode: overlay;
+}
+
+/* Contenido */
 .hero-home__content{
   position: relative;
-  max-width: 620px;
+  max-width: 680px;
 }
 
+/* Eyebrow */
 .hero-home__eyebrow{
-  font-size: 0.78rem;
-  letter-spacing: 0.16em;
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+
+  font-size: .78rem;
+  letter-spacing: .18em;
   text-transform: uppercase;
-  color: var(--text-muted);
-  margin-bottom: 0.4rem;
+  color: rgba(255,255,255,.72);
+  margin-bottom: .55rem;
 }
 
+.hero-home__eyebrow::before{
+  content:"";
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: radial-gradient(circle at 30% 30%, var(--accent), var(--accent-warm));
+  box-shadow: 0 0 0 3px rgba(251,209,96,.18);
+}
+
+/* Título */
 .hero-home__title{
-  font-size: clamp(1.9rem, 3.4vw, 2.6rem);
-  line-height: 1.15;
-  font-weight: 600;
-  margin-bottom: 0.7rem;
+  font-size: clamp(2rem, 3.8vw, 3rem);
+  line-height: 1.08;
+  font-weight: 650;
+  margin-bottom: .75rem;
+  color: rgba(255,255,255,.92);
 }
 
 .hero-home__title span{
@@ -70,100 +122,92 @@
   color: transparent;
 }
 
+/* Texto */
 .hero-home__text{
-  font-size: 0.98rem;
-  line-height: 1.8;
-  color: var(--text-muted);
-  max-width: 34rem;
+  font-size: 1rem;
+  line-height: 1.85;
+  color: rgba(255,255,255,.70);
+  max-width: 38rem;
   margin-bottom: 1.2rem;
 }
 
-/* Botones / acciones */
-
+/* Acciones */
 .hero-home__actions{
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem;
+  gap: .75rem;
   align-items: center;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.1rem;
 }
 
-/* El principal ya usa .btn-cta */
-
+/* Botón secundario (más “glass”) */
 .hero-home__cta-secondary{
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.65rem 1.3rem;
-  border-radius: 10px;
-  border: 1px solid rgba(148, 163, 184, 0.7);
-  background: rgba(15, 23, 42, 0.85);
-  color: var(--text-main);
+  padding: .72rem 1.35rem;
+
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.16);
+
+  background: rgba(255,255,255,.06);
+  backdrop-filter: blur(10px);
+
+  color: rgba(255,255,255,.88);
   text-decoration: none;
-  font-size: 0.9rem;
-  font-weight: 500;
-  letter-spacing: 0.08em;
+
+  font-size: .9rem;
+  font-weight: 600;
+  letter-spacing: .10em;
   text-transform: uppercase;
+
   cursor: pointer;
-  transition: background 0.18s ease-out, color 0.18s ease-out, border-color 0.18s ease-out, transform 0.18s ease-out, box-shadow 0.18s ease-out;
+  transition: transform .18s ease, border-color .18s ease, background .18s ease, box-shadow .18s ease;
 }
 
 .hero-home__cta-secondary:hover{
-  background: radial-gradient(circle at center, rgba(34, 211, 238, 0.2), rgba(15, 23, 42, 0.96));
-  border-color: var(--accent);
+  background: rgba(255,255,255,.10);
+  border-color: rgba(251,209,96,.60);
   transform: translateY(-1px);
-  box-shadow: 0 16px 40px rgba(15, 23, 42, 1);
+  box-shadow: 0 18px 50px rgba(0,0,0,.55);
 }
 
-/* Meta de servicios abajo del hero */
-
+/* Meta */
 .hero-home__meta{
   display: flex;
   flex-wrap: wrap;
-  gap: 0.6rem;
-  font-size: 0.8rem;
-  color: var(--text-muted);
+  gap: .65rem;
+  font-size: .82rem;
+  color: rgba(255,255,255,.62);
 }
 
 .hero-home__meta span{
   position: relative;
-  padding-left: 0.9rem;
+  padding-left: 1rem;
 }
 
 .hero-home__meta span::before{
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 0.38rem;
-  height: 0.38rem;
-  border-radius: 10px;
-  background: radial-gradient(circle at 0 0, var(--accent), var(--accent-warm));
+  content:"";
+  position:absolute;
+  left:0;
+  top:50%;
+  width:.42rem;
+  height:.42rem;
+  border-radius: 999px;
+  transform: translateY(-50%);
+  background: radial-gradient(circle at 30% 30%, var(--accent), var(--accent-warm));
 }
 
-/* ===== Responsivo hero ===== */
-
+/* Responsive */
 @media (max-width: 768px){
-  .hero-home{
-    padding: 1.6rem 1.3rem 1.8rem;
-  }
-
-  .hero-home__text{
-    font-size: 0.92rem;
-  }
-
-  .hero-home__actions{
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .hero-home__cta-secondary{
-    justify-content: center;
-  }
+  .hero-home{ padding: 1.6rem 1.3rem 1.8rem; }
+  .hero-home__actions{ flex-direction: column; align-items: stretch; }
 }
 
 @media (min-width: 960px){
   .hero-home{
-    grid-template-columns: minmax(0, 1.1fr);
-    min-height: clamp(360px, 55vh, 520px);
+    padding: 3.2rem 3rem;
+    grid-template-columns: minmax(0, 1fr);
+    min-height: clamp(380px, 56vh, 560px);
   }
 }
