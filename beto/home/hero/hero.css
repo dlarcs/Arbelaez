@@ -25,21 +25,7 @@
   filter: saturate(1.15) contrast(1.05) brightness(0.9);
 }
 
-/* Gradiente oscuro para leer bien el texto */
-.hero-home::before{
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  background:
-    linear-gradient(circle at 0% 0%, rgba(15, 118, 110, 0.2), transparent 55%),
-    linear-gradient(
-      120deg,
-      rgba(15, 23, 42, 0.96) 0%,
-      rgba(15, 23, 42, 0.88) 45%,
-      rgba(15, 23, 42, 0.6) 100%
-    );
-}
+
 
 /* Contenido de texto */
 
