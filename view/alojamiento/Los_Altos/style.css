@@ -8,7 +8,6 @@
 .body_Los_Altos {
 	padding: 0;
 	margin: 0;
-	background:#fafafa;
 }
 .container_Los_Altos {
 	padding:  0 ;
@@ -20,19 +19,15 @@
 	object-fit: cover;
 	overflow: hidden;
 }
-/* Bambú a la derecha */
-
 
 /* Tronco de palma a la derecha */
 .body_Los_Altos::after{
   content:"";
-  position:fixed;;     /* cámbialo a absolute si lo quieres dentro del contenedor */
-  top:-40px;
-  right:-12px;
-  width:120px;
-  height:115vh;
-  pointer-events:none;
-  z-index:0;
+  position:fixed;     /* cámbialo a absolute si lo quieres dentro del contenedor */
+	top:0;
+	right:0;
+	width:100px;
+	height:100vh;
 
   transform: rotate(-1.5deg);
 
