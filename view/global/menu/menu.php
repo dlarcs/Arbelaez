@@ -10,7 +10,7 @@ $cssTime = filemtime('../../view/global/menu/menu.css'); // ejemplo: '../Home/5.
 
   <!-- Marca / logo -->
   <a class="brand_menu" href="../../view/home/index.php" aria-label="Inicio">
-    <h1 class="brand-text">Arbeláez Digital</h1>
+    <h1 class="brand-text">Arbeláez Cundinamarca</h1>
     <!-- <img src="../../../view/pages/kapaLuna360°/menu/img/logo_kapaLuna.png" alt="Arbeláez Turismo" class="brand-logo"> -->
   </a>
 
