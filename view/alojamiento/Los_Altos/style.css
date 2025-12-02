@@ -76,7 +76,7 @@
     ),
 
     /* “cicatrices” horizontales típicas de palma */
-    repeating-linear-gradient(to bottom,
+    repeating-linear-gradient(to left,
       rgba(0,0,0,0) 0px,
       rgba(0,0,0,0) 44px,
       rgba(70,40,20,.42) 44px,
