@@ -26,7 +26,7 @@
 /* Tronco de palma a la derecha */
 .body_Los_Altos::after{
   content:"";
-  position:relative;;     /* cámbialo a absolute si lo quieres dentro del contenedor */
+  position:absolute;     /* cámbialo a absolute si lo quieres dentro del contenedor */
   top:-40px;
   right:-12px;
   width:120px;
