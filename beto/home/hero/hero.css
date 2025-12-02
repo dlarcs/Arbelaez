@@ -109,7 +109,8 @@
 }
 
 .hero-home__cta-secondary:hover{
-background-color: red; border-color: var(--accent);
+  background: radial-gradient(circle at center, rgba(34, 211, 238, 0.2), rgba(15, 23, 42, 0.96));
+  border-color: var(--accent);
   transform: translateY(-1px);
   box-shadow: 0 16px 40px rgba(15, 23, 42, 1);
 }
@@ -138,7 +139,6 @@ background-color: red; border-color: var(--accent);
   height: 0.38rem;
   border-radius: 10px;
   transform: translateY(-50%);
-  background: radial-gradient(circle at 0 0, var(--accent), var(--accent-warm));
 }
 
 /* ===== Responsivo hero ===== */
