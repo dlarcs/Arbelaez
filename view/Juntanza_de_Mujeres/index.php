@@ -1,100 +1,148 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<!-- Básicos -->
-	<title>Asociación Juntanza – Emprendimiento y apoyo a mujeres en Arbeláez</title>
-	<meta name="description" content="Asociación Juntanza en Arbeláez (Cundinamarca): red de mujeres emprendedoras que se reúne para crear actividades, formarse, apoyarse y fortalecer la economía de cada emprendimiento.">
-	<link rel="canonical" href="https://www.arbelaez.com.co/view/Juntanza_de_Mujeres/">
-	<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+  <!-- Language & robots -->
+  <meta name="language" content="es-CO">
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 
-	<!-- Idioma y geografía -->
-	<meta name="language" content="es-CO">
-	<meta itemprop="addressLocality" content="Arbeláez, Cundinamarca">
-	<meta name="geo.region" content="CO-CUN">
-	<meta name="geo.placename" content="Arbeláez">
+  <!-- Básicos -->
+  <title>Asociación Juntanza – Emprendimiento y apoyo a mujeres en Arbeláez</title>
+  <meta name="description" content="Asociación Juntanza en Arbeláez (Cundinamarca): red de mujeres emprendedoras que se reúne para crear actividades, formarse, apoyarse y fortalecer la economía de cada emprendimiento.">
 
-	<!-- Palabras clave (no crítico para Google, útil para otros motores) -->
-	<meta name="keywords" content="Asociación Juntanza, Asociación Juntanza de Mujeres, Juntanza de Mujeres Arbeláez, asociación de mujeres Arbeláez, asociación de mujeres Cundinamarca, emprendimiento femenino, mujeres emprendedoras, apoyo a mujeres emprendedoras, red de mujeres emprendedoras, comunidad de mujeres, empoderamiento femenino, economía de las mujeres, fortalecimiento económico, capacitación para mujeres, formación para emprendedoras, talleres para mujeres, talleres de emprendimiento, mentoría para emprendedoras, acompañamiento empresarial, asesoría para emprendimientos, apoyo a pequeños negocios, microemprendimientos, emprendimientos locales, economía local Arbeláez, iniciativas comunitarias, proyectos sociales, asociación sin ánimo de lucro, organización social de mujeres, emprendimiento social, liderazgo femenino, liderazgo comunitario, mujeres líderes, redes de apoyo femenino, cooperación entre mujeres, trabajo en equipo mujeres, eventos para emprendedoras, ferias de emprendimiento, feria artesanal, productos artesanales, artesanías Arbeláez, artesanías Cundinamarca, emprendimiento artesanal, manualidades y artesanías, productos hechos a mano, emprendimientos de artesanas, gastronomía local emprendimientos, emprendimientos de comida, emprendimientos de repostería, emprendimientos de cafetería, emprendimientos rurales, mujeres rurales emprendedoras, mujeres campesinas emprendedoras, economía solidaria, asociatividad, cooperativismo, alianzas para emprender, networking para mujeres, actividades comunitarias, reuniones de emprendedoras, encuentros de mujeres, círculos de apoyo, bienestar y desarrollo, desarrollo comunitario, desarrollo sostenible local, inclusión económica, independencia financiera mujeres, finanzas para emprendedoras, educación financiera mujeres, marketing para emprendedoras, ventas para emprendimientos, promoción de emprendimientos, visibilidad de emprendimientos, vitrina de emprendimientos, emprendimientos en Arbeláez, emprendimientos en Cundinamarca, emprendimientos en Colombia, mujeres empresarias, pequeñas empresarias, inspiración para emprender, historias de emprendimiento, capacitación en oficios, habilidades para emprender, autonomía económica, igualdad de oportunidades, equidad de género, derechos de las mujeres, fortalecimiento familiar, apoyo a madres emprendedoras, emprendimiento para madres, emprendimientos sostenibles, emprendimientos ecológicos, emprendimientos con impacto, voluntariado comunitario, apoyo institucional, programas para mujeres, formación en liderazgo, emprendimiento y comunidad, unión de mujeres, apoyo al talento femenino,
-Juntanza Association, Juntanza Women’s Association, Juntanza Women Arbeláez, women’s association Arbeláez, women’s association Cundinamarca, women entrepreneurship, women entrepreneurs, support for women entrepreneurs, women entrepreneurs network, women support network, women empowerment, economic empowerment for women, women’s economic development, business training for women, entrepreneurship training, workshops for women, entrepreneurship workshops, mentoring for women entrepreneurs, business mentoring, business coaching for women, small business support, microbusiness support, local entrepreneurship, local economy Arbeláez, community initiatives, social projects, non-profit women organization, women-led nonprofit, social entrepreneurship, women leadership, community leadership, women leaders, peer support for women, collaboration among women, women collaboration network, events for women entrepreneurs, entrepreneurship fairs, artisan fair, handmade products, local crafts Arbeláez, local crafts Cundinamarca, craft entrepreneurship, handmade crafts business, artisan entrepreneurs, women artisans, food entrepreneurship, women-owned food business, bakery entrepreneurship, coffee shop entrepreneurship, rural entrepreneurship, rural women entrepreneurs, women farmers entrepreneurship, solidarity economy, association model, cooperatives for women, women business alliances, women networking, community activities, entrepreneur meetups, women gatherings, women circles, wellbeing and development, community development, local sustainable development, economic inclusion, women financial independence, finance for entrepreneurs, financial education for women, marketing for women entrepreneurs, sales for small businesses, business promotion, entrepreneurship visibility, showcase for entrepreneurs, entrepreneurship in Arbeláez, entrepreneurship in Cundinamarca, entrepreneurship in Colombia, women business owners, women-led small businesses, inspiration to start a business, entrepreneurship stories, skills training, entrepreneurial skills, economic autonomy, equal opportunities, gender equality, women’s rights, women economic resilience, family empowerment, support for moms in business, mom entrepreneurship, sustainable businesses, eco-friendly entrepreneurship, impact-driven business, community volunteering, institutional support, programs for women, leadership training, entrepreneurship and community, women unity, supporting women talent">
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.arbelaez.com.co/view/Juntanza_de_Mujeres/">
 
-	<!-- Open Graph / Twitter -->
-	<meta property="og:locale" content="es_CO">
-	<meta property="og:type" content="website">
-	<meta property="og:site_name" content="Arbeláez Turismo">
-	<meta property="og:title" content="Asociación Juntanza – Apoyo a mujeres emprendedoras en Arbeláez">
-	<meta property="og:description" content="Red de mujeres emprendedoras que se reúne para crear actividades, capacitarse y fortalecer la economía de cada emprendimiento.">
-	<meta property="og:url" content="https://www.arbelaez.com.co/view/Juntanza_de_Mujeres/">
-	<meta property="og:image" content="https://www.arbelaez.com.co/media/Juntanza_de_Mujeres/og-1200x630.jpg">
+  <!-- Idioma y geografía -->
+  <meta itemprop="addressLocality" content="Arbeláez, Cundinamarca">
+  <meta name="geo.region" content="CO-CUN">
+  <meta name="geo.placename" content="Arbeláez">
 
+  <!-- CSS + JS (cache-busting robusto) -->
+  <?php
+    $cssPath = '../../view/Juntanza_de_Mujeres/style.css';
+    $jsPath  = '../../view/Juntanza_de_Mujeres/app.js'; // si tu JS tiene otro nombre, cámbialo aquí
 
-	<!-- Icono / tema -->
-	<link rel="icon" href="../../view/Juntanza_de_Mujeres/img/logo.jpeg" type="image/png">
-	<link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/Juntanza_de_Mujeres/apple-touch-icon.png">
-	<meta name="theme-color" content="#005548">
+    $cssTime = file_exists($cssPath) ? filemtime($cssPath) : time();
+    $jsTime  = file_exists($jsPath)  ? filemtime($jsPath)  : time();
+  ?>
+  <link rel="stylesheet" href="../../view/Juntanza_de_Mujeres/style.css?v=<?= $cssTime ?>">
+  <?php if (file_exists($jsPath)) : ?>
+    <script src="../../view/Juntanza_de_Mujeres/app.js?v=<?= $jsTime ?>" defer></script>
+  <?php endif; ?>
 
-	<!-- Rendimiento -->
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="preload" as="image" href="https://www.arbelaez.com.co/media/Juntanza_de_Mujeres/hero-view.webp">
-	<link rel="stylesheet" href="../../view/Juntanza_de_Mujeres/style.css">
+  <!-- Font: optimized -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-	<!-- Datos estructurados (Organización/ONG) -->
-	<script type="application/ld+json">
-	{
-	  "@context": "https://schema.org",
-	  "@type": "NGO",
-	  "name": "Asociación Juntanza",
-	  "alternateName": "Juntanza de Mujeres",
-	  "description": "Asociación de mujeres emprendedoras que se reúne para realizar actividades, capacitarse, apoyarse y fortalecer la economía de cada emprendimiento en Arbeláez, Cundinamarca.",
-	  "url": "https://www.arbelaez.com.co/view/Juntanza_de_Mujeres/",
-	  "logo": "https://www.arbelaez.com.co/view/Juntanza_de_Mujeres/menu/img/logo_Juntanza_de_Mujeres.png",
-	  "telephone": "+57 3024229260",
-	  "areaServed": "Arbeláez, Cundinamarca, Colombia",
-	  "address": {
-	    "@type": "PostalAddress",
-	    "addressLocality": "Arbeláez",
-	    "addressRegion": "Cundinamarca",
-	    "addressCountry": "CO"
-	  },
-	  "contactPoint": [{
-	    "@type": "ContactPoint",
-	    "telephone": "+57 3024229260",
-	    "contactType": "information",
-	    "areaServed": "CO",
-	    "availableLanguage": ["es", "en"]
-	  }],
-	  "knowsAbout": [
-	    "Emprendimiento femenino",
-	    "Economía solidaria",
-	    "Capacitación",
-	    "Redes de apoyo",
-	    "Desarrollo comunitario"
-	  ]
-	}
-	</script>
+  <!-- Rendimiento -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="https://www.arbelaez.com.co/media/Juntanza_de_Mujeres/hero-view.webp">
+
+  <!-- Favicons / tema -->
+  <link rel="icon" type="image/png" sizes="32x32" href="../../view/Juntanza_de_Mujeres/img/logo.jpeg">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../view/Juntanza_de_Mujeres/img/logo.jpeg">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../view/Juntanza_de_Mujeres/img/logo.jpeg">
+  <link rel="mask-icon" href="../../view/Juntanza_de_Mujeres/img/logo.jpeg" color="#005548">
+  <meta name="theme-color" content="#005548">
+
+  <!-- Meta keywords (útil para otros motores) -->
+  <meta name="keywords" content="Asociación Juntanza, Asociación Juntanza de Mujeres, Juntanza de Mujeres Arbeláez, asociación de mujeres Arbeláez, asociación de mujeres Cundinamarca, emprendimiento femenino, mujeres emprendedoras, apoyo a mujeres emprendedoras, red de mujeres emprendedoras, comunidad de mujeres, empoderamiento femenino, economía de las mujeres, fortalecimiento económico, capacitación para mujeres, formación para emprendedoras, talleres para mujeres, talleres de emprendimiento, mentoría para emprendedoras, acompañamiento empresarial, asesoría para emprendimientos, apoyo a pequeños negocios, microemprendimientos, emprendimientos locales, economía local Arbeláez, iniciativas comunitarias, proyectos sociales, asociación sin ánimo de lucro, organización social de mujeres, emprendimiento social, liderazgo femenino, redes de apoyo femenino, ferias de emprendimiento, productos artesanales, artesanías Cundinamarca, emprendimientos rurales, mujeres rurales emprendedoras, economía solidaria, asociatividad, cooperativismo, alianzas para emprender, networking para mujeres, actividades comunitarias, encuentros de mujeres, inclusión económica, independencia financiera mujeres, educación financiera mujeres, marketing para emprendedoras, promoción de emprendimientos, visibilidad de emprendimientos, vitrina de emprendimientos, mujeres empresarias, emprendimientos sostenibles, emprendimientos con impacto,
+Juntanza Association, Juntanza Women’s Association, women entrepreneurship, women entrepreneurs, women empowerment, economic empowerment for women, business training for women, entrepreneurship workshops, mentoring for women entrepreneurs, small business support, local entrepreneurship, community initiatives, non-profit women organization, women leadership, women networking, entrepreneurship fairs, handmade products, rural women entrepreneurs, solidarity economy, economic inclusion, women financial independence, financial education for women, marketing for women entrepreneurs, business promotion, showcase for entrepreneurs">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Arbeláez Turismo">
+  <meta property="og:title" content="Asociación Juntanza – Apoyo a mujeres emprendedoras en Arbeláez">
+  <meta property="og:description" content="Red de mujeres emprendedoras que se reúne para crear actividades, capacitarse y fortalecer la economía de cada emprendimiento.">
+  <meta property="og:url" content="https://www.arbelaez.com.co/view/Juntanza_de_Mujeres/">
+  <meta property="og:image" content="https://www.arbelaez.com.co/media/Juntanza_de_Mujeres/og-1200x630.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Asociación Juntanza – Mujeres emprendedoras en Arbeláez">
+  <meta name="twitter:description" content="Actividades, talleres y apoyo para impulsar emprendimientos liderados por mujeres en Arbeláez, Cundinamarca.">
+  <meta name="twitter:image" content="https://www.arbelaez.com.co/media/Juntanza_de_Mujeres/og-1200x630.jpg">
+
+  <!-- Social profiles (si Juntanza tiene redes propias, las cambiamos aquí) -->
+  <link rel="me" href="https://www.facebook.com/profile.php?id=61580302286594">
+  <link rel="me" href="https://www.instagram.com/arbelaez_turismo/">
+  <link rel="me" href="https://www.tiktok.com/@arbelaez_turismo">
+
+  <!-- Structured data: WebPage + NGO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "Asociación Juntanza de Mujeres",
+        "url": "https://www.arbelaez.com.co/view/Juntanza_de_Mujeres/",
+        "inLanguage": "es-CO",
+        "description": "Asociación de mujeres emprendedoras que se reúne para realizar actividades, capacitarse, apoyarse y fortalecer la economía de cada emprendimiento en Arbeláez, Cundinamarca."
+      },
+      {
+        "@type": "NGO",
+        "name": "Asociación Juntanza",
+        "alternateName": "Juntanza de Mujeres",
+        "url": "https://www.arbelaez.com.co/view/Juntanza_de_Mujeres/",
+        "telephone": "+57 3024229260",
+        "areaServed": "Arbeláez, Cundinamarca, Colombia",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Arbeláez",
+          "addressRegion": "Cundinamarca",
+          "addressCountry": "CO"
+        },
+        "contactPoint": [{
+          "@type": "ContactPoint",
+          "telephone": "+57 3024229260",
+          "contactType": "information",
+          "areaServed": "CO",
+          "availableLanguage": ["es", "en"]
+        }],
+        "knowsAbout": [
+          "Emprendimiento femenino",
+          "Economía solidaria",
+          "Capacitación",
+          "Redes de apoyo",
+          "Desarrollo comunitario"
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 
 <body class="body_Juntanza_de_Mujeres">
-	<?php include "../../view/Juntanza_de_Mujeres/menu/menu.php" ?>
+  <?php include "../../view/Juntanza_de_Mujeres/menu/menu.php" ?>
 
-	<div class="container_Juntanza_de_Mujeres">
-		<?php include "../../view/Juntanza_de_Mujeres/title/title.php" ?>
-		<?php include "../../view/Juntanza_de_Mujeres/slider/slider.php" ?>
-		<?php include "../../view/Juntanza_de_Mujeres/galery/seccion.php" ?>
-		<?php include "../../view/Juntanza_de_Mujeres/bout_us/about.php" ?>
-		<?php include "../../view/Juntanza_de_Mujeres/maps/maps.php"?>
-	</div>
+  <div class="container_Juntanza_de_Mujeres">
+    <?php include "../../view/Juntanza_de_Mujeres/title/title.php" ?>
+    <?php include "../../view/Juntanza_de_Mujeres/slider/slider.php" ?>
+    <?php include "../../view/Juntanza_de_Mujeres/galery/seccion.php" ?>
+    <?php include "../../view/Juntanza_de_Mujeres/bout_us/about.php" ?>
+    <?php include "../../view/Juntanza_de_Mujeres/maps/maps.php"?>
+  </div>
 
-	<?php include "../../view/Juntanza_de_Mujeres/footer/footer.php" ?>
+  <?php include "../../view/Juntanza_de_Mujeres/footer/footer.php" ?>
 
-	<!-- Botón WhatsApp -->
-	<a class="whatsapp-fab"
-	   href="https://wa.me/573024229260?text=Hola%2C%20vengo%20desde%20la%20web%20de%20la%20Asociaci%C3%B3n%20Juntanza%20y%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n."
-	   target="_blank" rel="noopener"
-	   aria-label="Chatear por WhatsApp">
-		<img src="../../view/global/img/img_whatsApp.png" alt="Contactar por WhatsApp" decoding="async">
-	</a>
+  <!-- Botón WhatsApp -->
+  <a class="whatsapp-fab"
+     href="https://wa.me/573024229260?text=Hola%2C%20vengo%20desde%20la%20web%20de%20la%20Asociaci%C3%B3n%20Juntanza%20y%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n."
+     target="_blank" rel="noopener"
+     aria-label="Chatear por WhatsApp">
+    <img src="../../view/global/img/img_whatsApp.png" alt="Contactar por WhatsApp" decoding="async">
+  </a>
+
+  <!-- Indicador scroll (opcional, igual al estilo que usas en Gastronomía) -->
+  <section class="scroll-indicator" aria-label="Más contenido abajo">
+    <span class="scroll-indicator__circle">
+      <span class="scroll-indicator__arrow"></span>
+    </span>
+  </section>
 </body>
 </html>
