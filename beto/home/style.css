@@ -24,7 +24,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  overflow-y: auto;
+  overflow-y: none;
   scrollbar-gutter: stable both-edges;
 }
 
