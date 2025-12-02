@@ -27,7 +27,6 @@ $cssTime = filemtime('../../view/Juntanza_de_Mujeres/menu/menu.css'); // ejemplo
 				<li><a href="#galery_Juntanza_de_Mujeres">Galeria</a></li>
 				<li><a href="#about_Juntanza_de_Mujeres">Nosotros</a></li>
 				<li><a href="#ubicacion_Juntanza_de_Mujeres">Ubicación</a></li>
-				<li><a class="cta" href="../../view/gastronomia/index.php">Volver</a></li>
 			</ul>
 		</nav>
 	</header>
