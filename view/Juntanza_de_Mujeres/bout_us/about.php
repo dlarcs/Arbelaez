@@ -26,7 +26,7 @@ $cssTime = filemtime('../../view/Juntanza_de_Mujeres/bout_us/about.css');
 			    iniciativas que aportan al desarrollo social y económico. Si quieres conocer más, vincularte o apoyar nuestras
 			    iniciativas, escríbenos al
 			    <a
-			      href="https://wa.me/573014058594?text=Hola%20vengo%20desde%20la%20web%20de%20Juntanza_de_Mujeres%C2%B0"
+			      href="https://wa.me/573014058594?text=Hola%20vengo%20desde%20la%20web%20de%20Juntanza%20de%20Mujeres"
 			      target="_blank" rel="noopener noreferrer"
 			      aria-label="Chatear por WhatsApp con la Asociación Juntanza de Mujeres°">
 			      301&nbsp;405&nbsp;8594
