@@ -8,6 +8,32 @@
 .body_Del_Huerto {
 	padding: 0;
 	margin: 0;
+	background:
+	/* soft white fade at the bottom */
+	linear-gradient(180deg,
+		rgba(255,255,255,0) 0%,
+		rgba(255,255,255,0) 62%,
+		rgba(255,255,255,.55) 86%,
+		rgba(255,255,255,.92) 100%
+	),
+
+	/* “oven glow” (red/orange appetite) */
+	radial-gradient(980px 460px at 18% 14%, rgba(255, 98, 48, .28), transparent 62%),
+	radial-gradient(760px 380px at 86% 16%, rgba(255, 38, 84, .20), transparent 60%),
+	radial-gradient(980px 560px at 38% 88%, rgba(255, 160, 40, .1), transparent 66%),
+
+	/* subtle artisan texture */
+	repeating-linear-gradient(
+		135deg,
+		rgba(255,255,255,.035) 0px,
+		rgba(255,255,255,.035) 2px,
+		rgba(0,0,0,.035) 2px,
+		rgba(0,0,0,.035) 8px
+	),
+
+	/* warm dark base (black + deep red) */
+	radial-gradient(1200px 820px at 50% 0%, rgba(255, 94, 48, .08), transparent 100%),
+	linear-gradient(180deg, #09090b, #1a070a 55%, #110608);
 
 
 }
@@ -20,32 +46,6 @@
 	flex-direction: column;
 	object-fit: cover;
 	overflow: hidden;
-	background:
-  /* soft white fade at the bottom */
-  linear-gradient(180deg,
-    rgba(255,255,255,0) 0%,
-    rgba(255,255,255,0) 62%,
-    rgba(255,255,255,.55) 86%,
-    rgba(255,255,255,.92) 100%
-  ),
-
-  /* “oven glow” (red/orange appetite) */
-  radial-gradient(980px 460px at 18% 14%, rgba(255, 98, 48, .28), transparent 62%),
-  radial-gradient(760px 380px at 86% 16%, rgba(255, 38, 84, .20), transparent 60%),
-  radial-gradient(980px 560px at 38% 88%, rgba(255, 160, 40, .1), transparent 66%),
-
-  /* subtle artisan texture */
-  repeating-linear-gradient(
-    135deg,
-    rgba(255,255,255,.035) 0px,
-    rgba(255,255,255,.035) 2px,
-    rgba(0,0,0,.035) 2px,
-    rgba(0,0,0,.035) 8px
-  ),
-
-  /* warm dark base (black + deep red) */
-  radial-gradient(1200px 820px at 50% 0%, rgba(255, 94, 48, .08), transparent 100%),
-  linear-gradient(180deg, #09090b, #1a070a 55%, #110608);
 
 }
 
