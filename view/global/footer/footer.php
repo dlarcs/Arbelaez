@@ -74,7 +74,7 @@ $cssTime = filemtime('../../view/global/footer/footer.css');
       <div class="footer_col">
         <h3 class="footer_title">Asociaciones</h3>
         <ul class="footer_list">
-          <li><a href="#">Asociación Juntanza de Mujeres</a></li>
+          <li><a href="../../view/Juntanza_de_Mujeres/index.php">Asociación Juntanza de Mujeres</a></li>
         </ul>
       </div>
 
