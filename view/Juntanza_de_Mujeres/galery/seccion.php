@@ -32,6 +32,17 @@ $jsTime  = filemtime('../../view/Juntanza_de_Mujeres/galery/seccion.js');  // ej
         </div>
       </div>
     </div>
+    
+    <div class="food_card general">
+      <img src="../../view/Juntanza_de_Mujeres/img/general1.jpeg"
+           alt="Actividades y apoyo a emprendimientos en la Asociación Juntanza"
+           loading="lazy" decoding="async" fetchpriority="low">
+      <div class="overlay_food_card">
+        <div class="food_info">
+          <p>Apoyo a emprendimientos</p>
+        </div>
+      </div>
+    </div>
 
     <div class="food_card general">
       <img src="../../view/Juntanza_de_Mujeres/img/general2.jpeg"
@@ -57,6 +68,17 @@ $jsTime  = filemtime('../../view/Juntanza_de_Mujeres/galery/seccion.js');  // ej
     </div>
 
     <div class="food_card jabones">
+      <img src="../../view/Juntanza_de_Mujeres/img/jabones1.jpeg"
+           alt="Jabones artesanales elaborados por emprendedoras de la Asociación Juntanza"
+           loading="lazy" decoding="async" fetchpriority="low">
+      <div class="overlay_food_card">
+        <div class="food_info">
+          <p>Jabones artesanales</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="food_card jabones">
       <img src="../../view/Juntanza_de_Mujeres/img/jabones2.jpeg"
            alt="Productos de jabonería artesanal de la Asociación Juntanza"
            loading="lazy" decoding="async" fetchpriority="low">
@@ -71,6 +93,13 @@ $jsTime  = filemtime('../../view/Juntanza_de_Mujeres/galery/seccion.js');  // ej
     <div class="food_card vino">
       <img src="../../view/Juntanza_de_Mujeres/img/vino.jpeg"
            alt="Vino artesanal de emprendedoras de la Asociación Juntanza"
+           loading="lazy" decoding="async" fetchpriority="low">
+      <div class="overlay_food_card"><div class="food_info"><p>Vinos</p></div></div>
+    </div>
+
+    <div class="food_card vino">
+      <img src="../../view/Juntanza_de_Mujeres/img/vino1.jpeg"
+           alt="Vino artesanal - producto de emprendimiento femenino"
            loading="lazy" decoding="async" fetchpriority="low">
       <div class="overlay_food_card"><div class="food_info"><p>Vinos</p></div></div>
     </div>
