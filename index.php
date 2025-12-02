@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirigiendo...</title>
+    <title>Arbelaez.com.co Un lugar donde encontraras lo mejor de Arbeláez: artesanías, alogamiento y la mejor gastronomía</title>
 
     <!-- Meta refresh: Redirección automática si falla JS (tiempo 0) -->
     <meta http-equiv="refresh" content="0;url=view/home/index.php">
