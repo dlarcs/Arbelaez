@@ -134,11 +134,10 @@
   content: "";
   position: absolute;
   left: 0;
-  top: 50%;
   width: 0.38rem;
   height: 0.38rem;
   border-radius: 10px;
-  transform: translateY(-50%);
+  background: radial-gradient(circle at 0 0, var(--accent), var(--accent-warm));
 }
 
 /* ===== Responsivo hero ===== */
