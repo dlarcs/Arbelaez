@@ -21,7 +21,15 @@
 	object-fit: cover;
 	overflow: hidden;
 	background:
-  /* “oven glow” (more red/orange = appetite) */
+  /* soft white fade at the bottom */
+  linear-gradient(180deg,
+    rgba(255,255,255,0) 0%,
+    rgba(255,255,255,0) 62%,
+    rgba(255,255,255,.55) 86%,
+    rgba(255,255,255,.92) 100%
+  ),
+
+  /* “oven glow” (red/orange appetite) */
   radial-gradient(980px 460px at 18% 14%, rgba(255, 98, 48, .28), transparent 62%),
   radial-gradient(760px 380px at 86% 16%, rgba(255, 38, 84, .20), transparent 60%),
   radial-gradient(980px 560px at 38% 88%, rgba(255, 160, 40, .16), transparent 66%),
