@@ -44,7 +44,7 @@
   ),
 
   /* warm dark base (black + deep red) */
-  radial-gradient(1200px 820px at 50% 0%, rgba(255, 94, 48, .08), transparent 100%),
+  radial-gradient(1200px 820px at 50% 0%, rgba(255, 94, 48, .08), grey 100%),
   linear-gradient(180deg, #09090b, #1a070a 55%, #110608);
 
 }
