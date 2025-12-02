@@ -28,7 +28,9 @@
 	right:0;
 	width:100px;
 	height:100vh;
-
+	border-radius: 10%;
+  pointer-events:none;
+  z-index:0;
   transform: rotate(-1deg);
 
   background:
