@@ -9,28 +9,12 @@ $jsTime  = filemtime('../../view/Juntanza_de_Mujeres/galery/seccion.js');  // ej
   <h2 id="gallery-title">Asociación Juntanza de Mujeres</h2>
 
   <!-- Filtros -->
-  <div class="categories_food_gallery" role="tablist" aria-label="Filtrar galería">
+  <div class="categories_food_gallery">
     <ul>
-      <li role="presentation">
-        <button type="button" class="filter_items active" data-filter="all" role="tab" aria-selected="true">
-          Todos
-        </button>
-      </li>
-      <li role="presentation">
-        <button type="button" class="filter_items" data-filter="general" role="tab" aria-selected="false">
-          General
-        </button>
-      </li>
-      <li role="presentation">
-        <button type="button" class="filter_items" data-filter="jabones" role="tab" aria-selected="false">
-          Jabones
-        </button>
-      </li>
-      <li role="presentation">
-        <button type="button" class="filter_items" data-filter="vino" role="tab" aria-selected="false">
-          Vinos
-        </button>
-      </li>
+      <li class="filter_items active" data-filter="all">Todos</li>
+      <li class="filter_items" data-filter="vino">Vinos</li>
+      <li class="filter_items" data-filter="jabones">Jabones</li>
+      <li class="filter_items" data-filter="general">General</li>
     </ul>
   </div>
 
