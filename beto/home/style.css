@@ -24,7 +24,6 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  scrollbar-gutter: stable both-edges;
 }
 
 /* ===== Body / fondo general ===== */
