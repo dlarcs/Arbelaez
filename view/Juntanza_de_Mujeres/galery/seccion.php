@@ -32,7 +32,7 @@ $jsTime  = filemtime('../../view/Juntanza_de_Mujeres/galery/seccion.js');  // ej
         </div>
       </div>
     </div>
-    
+
     <div class="food_card general">
       <img src="../../view/Juntanza_de_Mujeres/img/general1.jpeg"
            alt="Actividades y apoyo a emprendimientos en la Asociación Juntanza"
@@ -57,7 +57,7 @@ $jsTime  = filemtime('../../view/Juntanza_de_Mujeres/galery/seccion.js');  // ej
 
     <!-- ===== Jabones ===== -->
     <div class="food_card jabones">
-      <img src="../../view/Juntanza_de_Mujeres/img/jabones.jpeg"
+      <img src="../../view/Juntanza_de_Mujeres/img/jabones3.jpeg"
            alt="Jabones artesanales elaborados por emprendedoras de la Asociación Juntanza"
            loading="lazy" decoding="async" fetchpriority="low">
       <div class="overlay_food_card">

@@ -12,7 +12,7 @@
 	display: grid;
 	gap: 1rem;
 	justify-items: center;
-	color: #fafafa;
+	color: #000;
 	/* si el fondo es oscuro */
 }
 
