@@ -137,7 +137,7 @@ pizza del huerto
 	</script>
 </head>
 
-<body class="body_De_Huerto">
+<body class="body_Del_Huerto">
 	<?php
 	$cssTime = filemtime('../../../view/gastronomia/El_Huerto/style.css'); // ejemplo: '../Home/5.Video/video.css'
 	?>
