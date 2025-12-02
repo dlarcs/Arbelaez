@@ -34,34 +34,6 @@
   pointer-events:none;
   z-index:0;
 
-  /* Silueta: tronco con estrechamientos y “nudos” */
-  clip-path: polygon(
-    58% 0%,
-    76% 0%,
-    82% 4%,
-    86% 10%,
-    84% 16%,
-    90% 24%,
-    86% 32%,
-    92% 42%,
-    88% 53%,
-    93% 65%,
-    90% 78%,
-    96% 92%,
-    92% 100%,
-    52% 100%,
-    40% 96%,
-    34% 86%,
-    37% 74%,
-    31% 62%,
-    35% 50%,
-    29% 38%,
-    33% 26%,
-    28% 14%,
-    34% 6%,
-    44% 2%
-  );
-
   transform: rotate(-1.5deg);
 
   background:
@@ -76,7 +48,7 @@
     ),
 
     /* “cicatrices” horizontales típicas de palma */
-    repeating-linear-gradient(to left,
+    repeating-linear-gradient(to bottom,
       rgba(0,0,0,0) 0px,
       rgba(0,0,0,0) 44px,
       rgba(70,40,20,.42) 44px,
