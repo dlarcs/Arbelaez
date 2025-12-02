@@ -24,6 +24,8 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  overflow-y: auto;
+  scrollbar-gutter: stable both-edges;
 }
 
 /* ===== Body / fondo general ===== */
