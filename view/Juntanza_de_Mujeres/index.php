@@ -132,7 +132,7 @@ Juntanza Association, Juntanza Women’s Association, women entrepreneurship, wo
 
   <!-- Botón WhatsApp -->
   <a class="whatsapp-fab"
-     href="https://wa.me/573024229260?text=Hola%2C%20vengo%20desde%20la%20web%20de%20la%20Asociaci%C3%B3n%20Juntanza%20y%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n."
+     href="https://wa.me/573014058594?text=Hola%2C%20vengo%20desde%20la%20web%20de%20la%20Asociaci%C3%B3n%20Juntanza%20y%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n."
      target="_blank" rel="noopener"
      aria-label="Chatear por WhatsApp">
     <img src="../../view/global/img/img_whatsApp.png" alt="Contactar por WhatsApp" decoding="async">
