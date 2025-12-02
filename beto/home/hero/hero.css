@@ -1,5 +1,15 @@
 /* ===== Hero principal (Home) ===== */
 
+.hero-home{
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+  margin: auto;
+  isolation: isolate;
+}
 
 /* Capa de imagen de fondo: aquí pones TU imagen */
 .hero-home__media{
