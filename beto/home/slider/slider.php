@@ -33,7 +33,7 @@ $jsTime  = filemtime('../../beto/home/slider/slider.js');
         <!-- Slide 2: Vinilos & Decoración -->
         <article class="home-slide" data-index="1">
           <a href="/vinilos-decorativos" class="home-slide__media">
-            <img src="../../view/home/slider/img/vinilos.jpg"
+            <img src="../../beto/img/fondo.png"
                  alt="Vinilos adhesivos y decoración de espacios" loading="lazy">
           </a>
           <div class="home-slide__overlay">
@@ -48,7 +48,7 @@ $jsTime  = filemtime('../../beto/home/slider/slider.js');
         <!-- Slide 3: Gran Formato & Exterior -->
         <article class="home-slide" data-index="2">
           <a href="/gran-formato" class="home-slide__media">
-            <img src="../../view/home/slider/img/gran-formato.jpg"
+            <img src="../../vbeto/img/fondo.png"
                  alt="Impresión gran formato, vallas y pendones" loading="lazy">
           </a>
           <div class="home-slide__overlay">
@@ -63,7 +63,7 @@ $jsTime  = filemtime('../../beto/home/slider/slider.js');
         <!-- Slide 4: Papelería & Promos -->
         <article class="home-slide" data-index="3">
           <a href="/papeleria-comercial" class="home-slide__media">
-            <img src="../../view/home/slider/img/papeleria.jpg"
+            <img src="../../beto/img/fondo.png"
                  alt="Papelería comercial, tarjetas y volantes" loading="lazy">
           </a>
           <div class="home-slide__overlay">
@@ -78,7 +78,7 @@ $jsTime  = filemtime('../../beto/home/slider/slider.js');
         <!-- Slide 5: Branding Vehicular -->
         <article class="home-slide" data-index="4">
           <a href="/branding-vehicular" class="home-slide__media">
-            <img src="../../view/home/slider/img/branding-carros.jpg"
+            <img src="../../beto/img/fondo.png"
                  alt="Branding para carros y rotulación vehicular" loading="lazy">
           </a>
           <div class="home-slide__overlay">
