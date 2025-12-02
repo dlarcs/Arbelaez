@@ -21,23 +21,24 @@
 	object-fit: cover;
 	overflow: hidden;
 	background:
-    /* “oven glow” */
-    radial-gradient(900px 420px at 15% 12%, rgba(255,170,90,.18), transparent 62%),
-    radial-gradient(720px 360px at 85% 18%, rgba(255,110,110,.14), transparent 60%),
-    radial-gradient(900px 520px at 35% 85%, rgba(60,180,130,.10), transparent 65%),
+  /* “oven glow” (more red/orange = appetite) */
+  radial-gradient(980px 460px at 18% 14%, rgba(255, 98, 48, .28), transparent 62%),
+  radial-gradient(760px 380px at 86% 16%, rgba(255, 38, 84, .20), transparent 60%),
+  radial-gradient(980px 560px at 38% 88%, rgba(255, 160, 40, .16), transparent 66%),
 
-    /* subtle artisan texture */
-    repeating-linear-gradient(
-      135deg,
-      rgba(255,255,255,.035) 0px,
-      rgba(255,255,255,.035) 2px,
-      rgba(0,0,0,.02) 2px,
-      rgba(0,0,0,.02) 8px
-    ),
+  /* subtle artisan texture */
+  repeating-linear-gradient(
+    135deg,
+    rgba(255,255,255,.035) 0px,
+    rgba(255,255,255,.035) 2px,
+    rgba(0,0,0,.035) 2px,
+    rgba(0,0,0,.035) 8px
+  ),
 
-    /* warm dark base */
-    radial-gradient(1200px 800px at 50% 0%, rgba(255,255,255,.05), transparent 70%),
-    linear-gradient(180deg, #0f0f10, #1a1310);
+  /* warm dark base (black + deep red) */
+  radial-gradient(1200px 820px at 50% 0%, rgba(255, 94, 48, .08), transparent 70%),
+  linear-gradient(180deg, #09090b, #1a070a 55%, #110608);
+
 }
 
 /* Botón flotante WhatsApp (abajo-derecha) */
