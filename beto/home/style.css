@@ -71,12 +71,11 @@ html {
 .container_home{
   position: relative;
   z-index: 1;
-  margin: 5.5rem auto 3.5rem;  /* espacio para el menú superior */
-  padding: clamp(1.5rem, 3vw, 2.75rem);
+  padding: 2rem 1rem;
 
   display: flex;
   flex-direction: column;
-  gap: clamp(1.5rem, 3vw, 2.5rem);
+  gap: 2rem;
 
   background: lightblue;
   border-radius: var(--radius-xl);
