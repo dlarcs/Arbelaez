@@ -78,11 +78,7 @@ html {
   flex-direction: column;
   gap: clamp(1.5rem, 3vw, 2.5rem);
 
-  background: linear-gradient(
-    135deg,
-    rgba(15, 23, 42, 0.96),
-    rgba(15, 23, 42, 0.88)
-  );
+  background: blue;
   border-radius: var(--radius-xl);
   border: 1px solid var(--panel-border);
   box-shadow: var(--shadow-soft);
