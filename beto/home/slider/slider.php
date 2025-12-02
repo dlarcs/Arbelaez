@@ -48,7 +48,7 @@ $jsTime  = filemtime('../../beto/home/slider/slider.js');
         <!-- Slide 3: Gran Formato & Exterior -->
         <article class="home-slide" data-index="2">
           <a href="/gran-formato" class="home-slide__media">
-            <img src="../../vbeto/img/fondo.png"
+            <img src="../../beto/img/fondo.png"
                  alt="Impresión gran formato, vallas y pendones" loading="lazy">
           </a>
           <div class="home-slide__overlay">
