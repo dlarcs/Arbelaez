@@ -3,7 +3,7 @@ $cssTime = filemtime('../../view/home/slider/slider.css');
 $jsTime  = filemtime('../../view/home/slider/slider.js');
 ?>
 <link rel="stylesheet" href="../../view/home/slider/slider.css?v=<?= $cssTime ?>">
-<h2>Arbeláez Digitalizada</h2>
+ <h2 class="title_slider">Arbeláez Digitalizada</h2>
 <section class="slider" aria-roledescription="carrusel" aria-label="Galería destacada">
 
 

@@ -9,6 +9,9 @@
 *::after{ box-sizing:border-box }
 
 /* ===== Slider ===== */
+.title_slider{
+  margin: 2rem auto;
+}
 .slider{
   position:relative;
   max-width: min(1100px, 96vw);
