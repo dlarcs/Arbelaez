@@ -53,5 +53,4 @@ $jsTime = filemtime('../../view/Juntanza_de_Mujeres/slider/slider.js');
 			<button class="dot" role="tab" aria-selected="false" aria-controls="slide-4" data-index="3"><span class="sr">Ir a la 4</span></button>
 		</div>
 	</section>
-
-	<script src="../../view/gastronomia/Juntanza_de_Mujeres/slider/slider.js?v=<?= $jsTime ?>" type="text/javascript"></script>
+	<script src="<?php echo '../../view/gastronomia/Juntanza_de_Mujeres/slider/slider.js?v=' . filemtime('../../view/gastronomia/Juntanza_de_Mujeres/slider/slider.js'); ?>" type="text/javascript"></script>

@@ -142,4 +142,4 @@ $jsTime  = filemtime('../../view/Juntanza_de_Mujeres/galery/seccion.js');  // ej
   </div>
 </section>
 
-<script src="<?php echo '../../view/Juntanza_de_Mujeres/galery/seccion.js?v=' . filemtime('../../../view/gastronomia/seccion/gastronomia.js'); ?>" type="text/javascript"></script>
+<script src="<?php echo '../../view/Juntanza_de_Mujeres/galery/seccion.js?v=' . filemtime('../../view/gastronomia/seccion/gastronomia.js'); ?>" type="text/javascript"></script>
