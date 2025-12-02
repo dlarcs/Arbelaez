@@ -25,7 +25,6 @@ html {
   padding: 0;
   box-sizing: inherit;
   width: min(1200px, 100% - 2rem);
-  display: flex;
 }
 
 /* ===== Body / fondo general ===== */
