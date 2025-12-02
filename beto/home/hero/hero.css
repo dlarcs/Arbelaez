@@ -18,10 +18,10 @@
   position: absolute;
   inset: 0;
   z-index: -2;
-background: red; background-size: cover;
+  background-image: url("../../../beto/img/fondo.png"); /* <-- CAMBIA ESTA RUTA */
+  background-size: cover;
   background-position: center;
   opacity: 0.55;
-  filter: saturate(1.15) contrast(1.05) brightness(0.9);
 }
 
 /* Gradiente oscuro para leer bien el texto */
