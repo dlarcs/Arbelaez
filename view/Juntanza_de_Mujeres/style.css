@@ -8,6 +8,13 @@
 .body_Juntanza_de_Mujeres {
 	padding: 0;
 	margin: 0;
+	background:
+    linear-gradient(to left,
+      #6A0DAD 0,        /* purple */
+      #6A0DAD 100px,    /* strip width */
+      #ffffff 100px,    /* rest is white */
+      #ffffff 100%
+    );
 }
 .container_Juntanza_de_Mujeres {
 	padding:  0 1rem 0 1rem;
