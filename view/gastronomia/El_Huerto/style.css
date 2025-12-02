@@ -32,7 +32,7 @@
   /* “oven glow” (red/orange appetite) */
   radial-gradient(980px 460px at 18% 14%, rgba(255, 98, 48, .28), transparent 62%),
   radial-gradient(760px 380px at 86% 16%, rgba(255, 38, 84, .20), transparent 60%),
-  radial-gradient(980px 560px at 38% 88%, rgba(255, 160, 40, .16), red 66%),
+  radial-gradient(980px 560px at 38% 88%, rgba(255, 160, 40, .1), transparent 66%),
 
   /* subtle artisan texture */
   repeating-linear-gradient(
