@@ -12,7 +12,6 @@ $bgImage = '../../../view/home/img/lugar5.jpg';
 <link rel="stylesheet" href="<?= $cssPath ?>?v=<?= $cssTime ?>">
 <div class="title_products">
   <h1>Origen y orgullo de mi tierra</h1>
-  <h2>Arbeláez Digitalizada</h2>
 
   <div class="info_product">
     <h2>Descubre Arbeláez a tu ritmo: historias, sabores y lugares que no sabías que existían.

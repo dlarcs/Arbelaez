@@ -5,6 +5,8 @@ $jsTime  = filemtime('../../view/home/slider/slider.js');
 <link rel="stylesheet" href="../../view/home/slider/slider.css?v=<?= $cssTime ?>">
 
 <section class="slider" aria-roledescription="carrusel" aria-label="Galería destacada">
+  <h2>Arbeláez Digitalizada</h2>
+
   <div class="slider__viewport" tabindex="0">
     <div class="slider__track" id="slider-track">
       <!-- Slide 1 -->
