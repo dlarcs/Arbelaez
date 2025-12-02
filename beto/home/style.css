@@ -80,7 +80,11 @@ html {
   flex-direction: column;
   gap: 2rem;
 
-  border-radius: var(--radius-xl);
+  background: linear-gradient(
+    135deg,
+    rgba(15, 23, 42, 0.96),
+    rgba(15, 23, 42, 0.88)
+  );  border-radius: var(--radius-xl);
   border: 1px solid var(--panel-border);
   box-shadow: var(--shadow-soft);
   backdrop-filter: blur(24px);
