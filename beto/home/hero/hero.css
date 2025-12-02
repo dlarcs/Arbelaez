@@ -4,7 +4,6 @@
   position: relative;
   overflow: hidden;
   border-radius: 18px;
-  padding: clamp(2rem, 4vw, 3.2rem);
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   align-items: center;
