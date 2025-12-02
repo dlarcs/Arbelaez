@@ -7,7 +7,7 @@
   border: 1px solid rgba(148, 163, 184, 0.55);
   background: radial-gradient(circle at top left, rgba(15, 118, 110, 0.26), rgba(15, 23, 42, 0.98));
   box-shadow: 0 22px 70px rgba(15, 23, 42, 0.95);
-  margin: 3rem;
+  margin: 2rem 1rem;
 }
 
 .home-slider__inner{
