@@ -22,6 +22,116 @@
 	background-color: #fafafa;
 }
 
+/* Contenedor (o body) */
+.palm-bg{
+  background:#fff;
+  min-height:100vh;
+  position:relative;
+  padding-right:160px; /* para que el contenido no quede debajo de la palma */
+  overflow:hidden;
+}
+
+/* TRONCO */
+.palm-bg::after{
+  content:"";
+  position:fixed; /* cámbialo a absolute si lo quieres solo dentro del contenedor */
+  right:0;
+  bottom:0;
+  width:100px;
+  height:100vh;
+  transform: skewX(-2deg);
+
+  background:
+    /* efecto cilindro (izq+der) */
+    linear-gradient(90deg,
+      rgba(0,0,0,.18) 0%,
+      rgba(255,255,255,.20) 18%,
+      rgba(255,255,255,.08) 40%,
+      rgba(0,0,0,.10) 70%,
+      rgba(0,0,0,.20) 100%
+    ),
+    /* “anillos” del tronco */
+    repeating-linear-gradient(to bottom,
+      rgba(0,0,0,0) 0px,
+      rgba(0,0,0,0) 34px,
+      rgba(90,65,35,.28) 34px,
+      rgba(255,255,255,.18) 38px,
+      rgba(90,65,35,.22) 42px,
+      rgba(0,0,0,0) 48px,
+      rgba(0,0,0,0) 88px
+    ),
+    /* color base (coco/palma) */
+    linear-gradient(180deg,
+      #e2c79a 0%,
+      #c79a60 55%,
+      #a87743 100%
+    );
+
+  border-radius:999px;
+  box-shadow:
+    inset 10px 0 18px rgba(255,255,255,.18), /* brillo izq */
+    inset -14px 0 24px rgba(0,0,0,.22),      /* sombra der */
+    -10px 0 26px rgba(0,0,0,.12),            /* sombra externa izq */
+    10px 0 22px rgba(0,0,0,.08);             /* sombra externa der */
+
+  pointer-events:none;
+  z-index:0;
+}
+
+/* HOJAS */
+.palm-bg::before{
+  content:"";
+  position:fixed;
+  right:-70px;
+  top:-40px;
+  width:320px;
+  height:260px;
+
+  background:
+    /* abanico principal (frondas) */
+    conic-gradient(from 205deg at 70% 85%,
+      rgba(0,0,0,0) 0 14deg,
+      rgba(22,122,63,.95) 14deg 26deg,
+      rgba(0,0,0,0) 26deg 38deg,
+      rgba(22,122,63,.95) 38deg 50deg,
+      rgba(0,0,0,0) 50deg 64deg,
+      rgba(22,122,63,.95) 64deg 78deg,
+      rgba(0,0,0,0) 78deg 92deg,
+      rgba(22,122,63,.95) 92deg 106deg,
+      rgba(0,0,0,0) 106deg 124deg,
+      rgba(22,122,63,.95) 124deg 140deg,
+      rgba(0,0,0,0) 140deg 360deg
+    ),
+    /* frondas secundarias para “volumen” */
+    conic-gradient(from 225deg at 62% 82%,
+      rgba(0,0,0,0) 0 18deg,
+      rgba(16,94,48,.70) 18deg 28deg,
+      rgba(0,0,0,0) 28deg 43deg,
+      rgba(16,94,48,.70) 43deg 52deg,
+      rgba(0,0,0,0) 52deg 360deg
+    ),
+    /* centro (copa) */
+    radial-gradient(circle at 68% 86%,
+      rgba(30,140,75,.95) 0 18px,
+      rgba(30,140,75,0) 19px
+    );
+
+  /* recorta el conjunto para que se vea como palma */
+  clip-path: ellipse(70% 55% at 70% 75%);
+
+  filter:
+    drop-shadow(-10px 10px 14px rgba(0,0,0,.12))
+    drop-shadow(6px 8px 10px rgba(0,0,0,.08));
+
+  pointer-events:none;
+  z-index:0;
+}
+
+/* Asegura que el contenido quede encima */
+.palm-bg > *{
+  position:relative;
+  z-index:1;
+}
 
 /* Botón flotante WhatsApp (abajo-derecha) */
 .whatsapp-fab{
