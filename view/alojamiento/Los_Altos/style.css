@@ -19,7 +19,6 @@
 	flex-direction: column;
 	object-fit: cover;
 	overflow: hidden;
-	background-color: #fafafa;
 }
 /* Bambú a la derecha */
 .body_Los_Altos::after{
