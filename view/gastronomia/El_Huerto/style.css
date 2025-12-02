@@ -5,13 +5,10 @@
 	padding: 0;
 	box-sizing: inherit;
 }
-/* Del Huerto — artisan pizza background using your existing structure */
-.body_Del_Huerto{
-  padding: 0;
-  margin: 0;
-
-  /* Base colours */
-  background:
+.body_Del_Huerto {
+	padding: 0;
+	margin: 0;
+	background:
     /* “oven glow” */
     radial-gradient(900px 420px at 15% 12%, rgba(255,170,90,.18), transparent 62%),
     radial-gradient(720px 360px at 85% 18%, rgba(255,110,110,.14), transparent 60%),
@@ -34,32 +31,16 @@
   background-repeat: no-repeat;
   min-height: 100dvh;
 }
-
-/* Container stays as your flex layout, plus a soft overlay to improve readability */
-.container_Del_Huerto{
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-  overflow: hidden;
-
-  /* Optional: readable layer on top of the background */
-  width: 100%;
-  min-height: 100dvh;
-  background: linear-gradient(180deg, rgba(0,0,0,.35), rgba(0,0,0,.15));
+.container_Del_Huerto {
+	padding:  0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	object-fit: cover;
+	overflow: hidden;
 }
-
-/* Optional: if you want “cover” behaviour, apply it to images/videos, not containers */
-.container_Del_Huerto img,
-.container_Del_Huerto video{
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
 
 /* Botón flotante WhatsApp (abajo-derecha) */
 .whatsapp-fab{
