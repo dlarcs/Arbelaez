@@ -101,7 +101,7 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
         </div>
       </article>
     </a> -->
-    <a href="../../" class="card_link">
+    <a href="../../view/Juntanza_de_Mujeres/index.php" class="card_link">
       <article class="galery_card_places">
         <p class="badge">Asociación Juntanza de Mujeres</p>
         <img
