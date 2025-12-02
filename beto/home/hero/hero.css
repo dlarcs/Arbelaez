@@ -2,7 +2,6 @@
 
 .hero-home{
   position: relative;
-  overflow: hidden;
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   align-items: center;
@@ -26,7 +25,6 @@
 
 .hero-home__content{
   position: relative;
-  max-width: 620px;
 }
 
 .hero-home__eyebrow{
