@@ -24,8 +24,6 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  overflow-y: none;
-  scrollbar-gutter: stable both-edges;
 }
 
 /* ===== Body / fondo general ===== */
@@ -74,6 +72,7 @@ html {
   position: relative;
   z-index: 1;
   padding: 2rem 1rem;
+  width: min(1200px, 100% - 2rem);
 
   display: flex;
   flex-direction: column;
