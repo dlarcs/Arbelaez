@@ -66,7 +66,7 @@
 	  -10px 0 22px rgba(0,0,0,.14),            /* sombra externa izq */
 	  8px 0 18px rgba(0,0,0,.08);              /* sombra externa der */
 
-	border-radius: 20%;
+	border-radius: 10%;
   pointer-events:none;
   z-index:0;
 }
