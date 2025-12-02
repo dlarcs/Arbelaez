@@ -1,10 +1,9 @@
 <?php
-$cssPath = '../../view/Juntanza_de_Mujeres/galery/seccion.css';
-$jsPath  = '../../view/Juntanza_de_Mujeres/galery/seccion.js';
-$cssTime = @filemtime($cssPath) ?: time();
-$jsTime  = @filemtime($jsPath)  ?: time();
+$cssTime = filemtime('../../view/Juntanza_de_Mujeres/galery/seccion.css'); // ejemplo: '../Home/5.Video/video.css'
+$jsTime = filemtime('../../view/Juntanza_de_Mujeres/galery/seccion.js');   // ejemplo: '../Home/5.Video/video.js'
 ?>
-<link rel="stylesheet" href="<?= $cssPath ?>?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../view/Juntanza_de_Mujeres/galery/seccion.css?v=<?= $cssTime ?>">
+
 
 <section class="section_food_gallery" id="galery_Juntanza_de_Mujeres" aria-labelledby="gallery-title">
   <!-- Título principal -->
@@ -132,4 +131,4 @@ $jsTime  = @filemtime($jsPath)  ?: time();
 </section>
 
 
-<script src="../../view/Juntanza_de_Mujeres/galery/seccion.js<?= $jsPath ?>?v=<?= $jsTime ?>" defer></script>
+<script src="<?php echo '../../view/Juntanza_de_Mujeres/galery/seccion.js?v=' . filemtime('../../view/Juntanza_de_Mujeres/galery/seccion.js'); ?>" type="text/javascript"></script>

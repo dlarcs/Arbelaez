@@ -163,4 +163,4 @@ $jsTime = filemtime('../../../view/gastronomia/El_Fogon_del_Triangulo/galery/gas
 
 	</section>
 
-	<script src="<?php echo '../../../view/gastronomia/El_Fogon_del_Triangulo/galery/gastronomia.js?v=' . filemtime('../../view/gastronomia/seccion/gastronomia.js'); ?>" type="text/javascript"></script>
+	<script src="<?php echo '../../../view/gastronomia/El_Fogon_del_Triangulo/galery/gastronomia.js?v=' . filemtime('../../../view/gastronomia/seccion/gastronomia.js'); ?>" type="text/javascript"></script>
