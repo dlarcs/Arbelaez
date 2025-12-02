@@ -59,6 +59,10 @@
 		#c97833 48%,
 		#8b4e22 100%
 	);
+	filter:
+	 drop-shadow(-12px 0 18px rgba(0,0,0,.16))
+	 drop-shadow( 10px 0 14px rgba(0,0,0,.10));
+}
 
 	/* sombra izquierda y derecha (y un glow suave) */
 	box-shadow:
