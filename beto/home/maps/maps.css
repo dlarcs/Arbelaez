@@ -32,7 +32,6 @@
 }
 .map-eyebrow::before{
   content:""; width:10px; height:10px; border-radius:999px;
-  background: radial-gradient(circle at 30% 30%, var(--accent), var(--accent-warm));
   box-shadow: 0 0 0 3px rgba(251,209,96,.18);
 }
 .map-title{
