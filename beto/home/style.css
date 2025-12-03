@@ -101,6 +101,7 @@ html {
   background-image: url("../../beto/global/img/GRUPOGRAFI.png");
   background-position: center;
   background-size: cover;
+  opacity: .5;
   -webkit-mask-composite: xor;
           mask-composite: exclude;
   opacity: 0.8;
