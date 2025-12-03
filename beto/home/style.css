@@ -34,7 +34,6 @@ html{ box-sizing:border-box; scroll-behavior:smooth; }
   background-size:cover;
   position:relative;
   opacity: .12;                 /* casi no se ve */
- filter: brightness(.45) contrast(1.1) saturate(.7);
 }
 
 /* Ligeras líneas diagonales (textura) */
