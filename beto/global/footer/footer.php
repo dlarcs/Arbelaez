@@ -18,6 +18,20 @@ $cssTime = filemtime('../../beto/global/footer/footer.css');
           Impresión, diseño y publicidad para tu negocio. Calidad, velocidad y buen acabado.
         </p>
 
+        <!-- Redes sociales -->
+        <div class="footer-social" aria-label="Redes sociales">
+          <a class="footer-social__btn" href="#" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3H13.5V9.2c0-.9.3-1.6 1.6-1.6h1.6V5.1c-.8-.1-1.7-.2-2.6-.2-2.6 0-4.3 1.6-4.3 4.5V11H7.1v3h2.7v8h3.7z"/></svg>
+          </a>
+          <a class="footer-social__btn" href="#" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm9 2h-9A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.6-2.2a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2z"/></svg>
+          </a>
+          <a class="footer-social__btn" href="#" target="_blank" rel="noopener" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 3c.4 2.7 2.2 4.6 4.9 4.9V11c-1.8 0-3.4-.6-4.9-1.6v6.2c0 3.1-2.5 5.6-5.6 5.6S3.8 18.7 3.8 15.6 6.3 10 9.4 10c.4 0 .8 0 1.2.1v3.1c-.4-.2-.8-.3-1.2-.3-1.4 0-2.6 1.2-2.6 2.6s1.2 2.6 2.6 2.6 2.6-1.2 2.6-2.6V3H15z"/></svg>
+          </a>
+        </div>
+
+        <!-- CTA -->
         <div class="footer-cta">
           <a class="footer-chip"
              target="_blank" rel="noopener"
@@ -66,7 +80,7 @@ $cssTime = filemtime('../../beto/global/footer/footer.css');
       <p class="footer-copy">© <span id="y"></span> Grupo 5G. Todos los derechos reservados.</p>
 
       <div class="footer-mini">
-        <span class="footer-muted">Ricaurte, Bogotá, Cundinamarca · Colombia</span>
+        <span class="footer-muted">Arbeláez, Cundinamarca · Colombia</span>
         <span class="footer-dot">•</span>
         <a class="footer-link" href="/terminos/">Términos</a>
         <a class="footer-link" href="/privacidad/">Privacidad</a>
@@ -76,6 +90,4 @@ $cssTime = filemtime('../../beto/global/footer/footer.css');
   </div>
 </footer>
 
-<script>
-  document.getElementById('y').textContent = new Date().getFullYear();
-</script>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
