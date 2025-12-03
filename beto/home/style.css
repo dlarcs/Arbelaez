@@ -1,184 +1,195 @@
-:root{
-  --bg-main:#020617;
-  --bg-alt:#020617;
-  --panel-bg:rgba(15,23,42,.92);
-  --panel-border:rgba(148,163,184,.4);
-  --accent:#00f6d2;
-  --accent-warm:#f97316;
-  --text-main:#f9fafb;
-  --text-muted:#9ca3af;
-  --radius-xl:24px;
-  --radius-lg:18px;
-  --shadow-soft:0 24px 80px rgba(15,23,42,.9);
+:root {
+  --bg-main: #020617;              /* fondo general */
+  --bg-alt: #020617;
+  --panel-bg: rgba(15, 23, 42, 0.92);
+  --panel-border: rgba(148, 163, 184, 0.4);
+  --accent: #00f6d2;               /* acento tipo neón */
+  --accent-warm: #f97316;          /* acento secundario */
+  --text-main: #f9fafb;
+  --text-muted: #9ca3af;
+  --radius-xl: 24px;
+  --radius-lg: 18px;
+  --shadow-soft: 0 24px 80px rgba(15, 23, 42, 0.9);
 }
 
 /* Reset base */
-html{ box-sizing:border-box; scroll-behavior:smooth; }
-*,*::before,*::after{ margin:0; padding:0; box-sizing:inherit; }
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
 
 /* ===== Body / fondo general ===== */
+
 .body_home{
-  margin: 0;                 /* FIX: no usar margin:auto aquí */
   overflow-x: hidden;
   padding: 2rem 1rem;
   font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: var(--text-main);
+  margin: auto;
 
-  display:flex;
-  flex-direction:column;
-  align-items:stretch;
-  justify-content:flex-start;
 
-  background-image:url("../../beto/global/img/GRUPOGRAFI.png");
-  background-position:center;
-  background-size:cover;
-  position:relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+
+  /* Fondo tipo estudio creativo */
+  background:
+    radial-gradient(circle at 0% 0%, rgba(56, 189, 248, 0.18), transparent 55%),
+    radial-gradient(circle at 100% 100%, rgba(244, 63, 94, 0.22), transparent 50%),
+    linear-gradient(135deg, #020617 0%, #020617 60%, #020617 100%);
+  position: relative;
 }
 
-/* Ligeras líneas diagonales (textura) */
-.body_home::before{
-  content:"";
-  position:fixed;
-  inset:0;
-  pointer-events:none;
-  background-image:repeating-linear-gradient(
-    -45deg,
-    rgba(148,163,184,.06) 0,
-    rgba(148,163,184,.06) 1px,
-    transparent 1px,
-    transparent 14px
+/* Ligeras líneas diagonales, como textura */
+.body_home::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: repeating-linear-gradient(
+      -45deg,
+      rgba(148, 163, 184, 0.06) 0,
+      rgba(148, 163, 184, 0.06) 1px,
+      transparent 1px,
+      transparent 14px
   );
-  opacity:.7;
-  mix-blend-mode:soft-light;
-  z-index:-1;
+  opacity: 0.7;
+  mix-blend-mode: soft-light;
+  z-index: -1;
 }
 
 /* ===== Contenedor principal ===== */
+
 .container_home{
-  position:relative;
-  z-index:1;
-  width:100%;
-  max-width: 1200px;         /* opcional: se ve más pro centrado */
-  margin: 0 auto;            /* centrado real */
+  position: relative;
+  z-index: 1;
+  width: 100%;
   padding: 2rem 1rem;
+  margin: auto;
 
-  display:flex;
-  flex-direction:column;
-  gap:2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 
-  background: linear-gradient(135deg, rgba(15,23,42,.96), rgba(15,23,42,.88));
-  border-radius: var(--radius-xl);
+  background: linear-gradient(
+    135deg,
+    rgba(15, 23, 42, 0.96),
+    rgba(15, 23, 42, 0.88)
+  );  border-radius: var(--radius-xl);
   border: 1px solid var(--panel-border);
   box-shadow: var(--shadow-soft);
   backdrop-filter: blur(24px);
-  isolation: isolate;        /* ayuda a la capa ::before */
 }
 
-/* Línea de luz (borde degradado) */
-.container_home::before{
-  content:"";
-  position:absolute;
-  inset:0;
-  border-radius:inherit;
+/* Línea de luz superior del panel */
+.container_home::before {
+  content: "";
+  position: absolute;
+  inset: 0;
   padding: 1px;
-  pointer-events:none;
-
-  background: linear-gradient(90deg, rgba(34,211,238,.55), rgba(249,115,22,.35));
-
-  -webkit-mask:
-    linear-gradient(#000 0 0) content-box,
-    linear-gradient(#000 0 0);
+  background-image: url("../../beto/global/img/GRUPOGRAFI.png");
+  background-position: center;
+  background-size: cover;
   -webkit-mask-composite: xor;
           mask-composite: exclude;
+  opacity: 0.8;
+  overflow: hidden;
 
-  opacity:.8;
 }
 
-/* Contenido interno */
+/* Contenido interno (por si tienes secciones apiladas) */
 .container_home > section,
-.container_home > div{
+.container_home > div {
   border-radius: var(--radius-lg);
   padding: clamp(1rem, 2vw, 1.75rem);
-  background: radial-gradient(circle at top left, rgba(15,118,110,.16), transparent 55%);
-  border: 1px solid rgba(51,65,85,.7);
+  background: radial-gradient(circle at top left, rgba(15, 118, 110, 0.16), transparent 55%);
+  border: 1px solid rgba(51, 65, 85, 0.7);
 }
 
-/* Imágenes */
+/* Imágenes generales dentro del home */
 .container_home img{
-  max-width:100%;
-  display:block;
-  border-radius:16px;
-  object-fit:cover;
+  max-width: 100%;
+  display: block;
+  border-radius: 16px;
+  object-fit: cover;
 }
 
-/* Tipografías */
+/* Textos principales genéricos (por si no tienes estilos aún) */
 .container_home h1,
 .container_home h2{
-  font-weight:600;
-  letter-spacing:.06em;
-  text-transform:uppercase;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .container_home h1{
   font-size: clamp(1.6rem, 3vw, 2.2rem);
-  margin-bottom:.4rem;
+  margin-bottom: 0.4rem;
 }
 
 .container_home h2{
   font-size: clamp(1.1rem, 2.4vw, 1.5rem);
-  margin-bottom:.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .container_home p{
-  font-size:.95rem;
-  line-height:1.7;
+  font-size: 0.95rem;
+  line-height: 1.7;
   color: var(--text-muted);
 }
 
-/* Botón CTA */
+/* Botones genéricos, por si luego los usas para cotizar / WhatsApp */
 .btn-cta{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  gap:.4rem;
-
-  padding:.7rem 1.4rem;
-  border-radius:999px;
-  border:none;
-  cursor:pointer;
-
-  font-size:.9rem;
-  font-weight:500;
-  letter-spacing:.08em;
-  text-transform:uppercase;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.7rem 1.4rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 
   background: linear-gradient(135deg, var(--accent), var(--accent-warm));
   color: #020617;
-  box-shadow: 0 14px 35px rgba(8,47,73,.7);
-  transition: transform .18s ease-out, box-shadow .18s ease-out, filter .18s ease-out;
+  box-shadow: 0 14px 35px rgba(8, 47, 73, 0.7);
+  transition: transform 0.18s ease-out, box-shadow 0.18s ease-out, filter 0.18s ease-out;
 }
 
 .btn-cta:hover{
   transform: translateY(-1px) scale(1.01);
-  box-shadow: 0 18px 45px rgba(15,23,42,.95);
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.95);
   filter: brightness(1.05);
 }
 
 /* ===== Responsivo ===== */
-@media (max-width: 768px){
-  .body_home{ padding: 1.25rem 1rem; }
 
+@media (max-width: 768px){
   .container_home{
-    margin: 4.5rem auto 2.5rem;
+    margin: 4.5rem 1rem 2.5rem;
     padding: 1.25rem;
   }
 
   .container_home > section,
-  .container_home > div{
+  .container_home > div {
     padding: 1rem;
   }
 }
 
 @media (min-width: 1200px){
-  .container_home{ margin-top: 6rem; }
+  .container_home{
+    margin-top: 6rem;
+  }
 }
