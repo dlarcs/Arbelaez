@@ -31,14 +31,12 @@ html {
 .body_home{
   overflow-x: hidden;
   padding: 2rem 1rem;
-  font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: var(--text-main);
   margin: auto;
 
   margin: 0;                 /* FIX: no usar margin:auto aquí */
   overflow-x: hidden;
   padding: 2rem 1rem;
-  font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: var(--text-main);
 
   display:flex;
@@ -54,7 +52,7 @@ html {
 
     background-position:
       0% 0%,
-      100% 100%,
+      100vw 100vw,
       center,
       center;
 
