@@ -15,10 +15,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
   <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="../../view/home/img/icon.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../../view/home/img/icon.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../../view/home/img/icon.png">
-  <link rel="mask-icon" href="../../view/home/img/icon.png" color="#111827">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../beto/global/img/GRUPOGRAFI.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../beto/global/img/GRUPOGRAFI.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../beto/global/img/GRUPOGRAFI.png">
+  <link rel="mask-icon" href="../../beto/global/img/GRUPOGRAFI.png" color="#111827">
   <meta name="theme-color" content="#111827">
 
   <!-- Meta SEO -->
@@ -60,7 +60,7 @@
       "@type": "Organization",
       "name": "Grupo 5G",
       "url": "https://www.grupo5g.com/",
-      "logo": "https://www.grupo5g.com/view/home/img/icon.png",
+      "logo": "https://www.grupo5g.com/beto/global/img/GRUPOGRAFI.png",
       "sameAs": [
         "https://instagram.com/grupo5g",
         "https://www.tiktok.com/@grupo5g",
