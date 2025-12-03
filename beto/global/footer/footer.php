@@ -80,7 +80,7 @@ $cssTime = filemtime('../../beto/global/footer/footer.css');
       <p class="footer-copy">© <span id="y"></span> Grupo 5G. Todos los derechos reservados.</p>
 
       <div class="footer-mini">
-        <span class="footer-muted">Arbeláez, Cundinamarca · Colombia</span>
+        <span class="footer-muted">Ricaurte · Bogotá · Cundinamarca · Colombia</span>
         <span class="footer-dot">•</span>
         <a class="footer-link" href="/terminos/">Términos</a>
         <a class="footer-link" href="/privacidad/">Privacidad</a>
