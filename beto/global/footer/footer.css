@@ -20,6 +20,38 @@
     0 28px 90px rgba(0,0,0,.55),
     inset 0 1px 0 rgba(255,255,255,.10);
 }
+.footer-social{
+  display: flex;
+  gap: .55rem;
+  margin: .2rem 0 1rem;
+}
+
+.footer-social__btn{
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(255,255,255,.06);
+  color: rgba(255,255,255,.88);
+  text-decoration: none;
+
+  transition: transform .18s ease, border-color .18s ease, background .18s ease;
+}
+
+.footer-social__btn svg{
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.footer-social__btn:hover{
+  transform: translateY(-1px);
+  border-color: rgba(251,209,96,.60);
+  background: rgba(255,255,255,.10);
+}
 
 /* glow */
 .site-footer::before{
