@@ -99,7 +99,6 @@ html {
 .container_home > div {
   border-radius: var(--radius-lg);
   padding: clamp(1rem, 2vw, 1.75rem);
-  background: radial-gradient(circle at top left, rgba(15, 118, 110, 0.16), transparent 55%);
   border: 1px solid rgba(51, 65, 85, 0.7);
 }
 
