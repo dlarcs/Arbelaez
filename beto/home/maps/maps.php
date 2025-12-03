@@ -13,7 +13,7 @@ $cssTime = filemtime('../../beto/home/maps/maps.css');
     <div class="map-frame" role="region" aria-label="Mapa de Google">
       <!-- Pega aquí tu iframe de Google Maps -->
       <iframe
-        src="TU_LINK_EMBED_DE_GOOGLE_MAPS"
+        src="https://maps.app.goo.gl/rzmXcSMqgXMySY4y8"
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
         allowfullscreen>
