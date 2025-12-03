@@ -107,9 +107,7 @@ html {
   position: absolute;
   inset: 0;
   padding: 1px;
-  background-image: url("../../beto/global/img/GRUPOGRAFI.png");
-  background-position: center;
-  background-size: cover;
+
   -webkit-mask-composite: xor;
           mask-composite: exclude;
   opacity: 0.8;
