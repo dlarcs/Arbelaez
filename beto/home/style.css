@@ -33,7 +33,7 @@ html{ box-sizing:border-box; scroll-behavior:smooth; }
   background-position:center;
   background-size:cover;
   position:relative;
-  opacity: .12;                 /* casi no se ve */
+  opacity: .8;                 /* casi no se ve */
 }
 
 /* Ligeras líneas diagonales (textura) */
