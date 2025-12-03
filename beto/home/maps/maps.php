@@ -19,9 +19,10 @@ $cssTime = filemtime('../../beto/home/maps/maps.css');
       <a class="map-btn map-btn--primary" href="https://maps.app.goo.gl/rzmXcSMqgXMySY4y8" target="_blank" rel="noopener">
         Abrir en Maps
       </a>
-      <a class="map-btn map-btn--ghost" href="" target="_blank" rel="noopener">
-        Contactar WhatsApp
-      </a>
+      <a href="https://wa.me/573222302394?text=%C2%A1Bienvenido(a)%20a%20Grupo%205G!%20%C2%BFEn%20qu%C3%A9%20podemos%20colaborarte%3F"
+   target="_blank" rel="noopener">
+  Escríbenos por WhatsApp
+</a>
     </div>
   </div>
 </section>
