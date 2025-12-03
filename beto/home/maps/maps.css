@@ -13,6 +13,7 @@
 .map-section::before{
   content:"";
   position:absolute;
+  border-radius: 22px;
   inset:-1px;
   z-index:-1;
   background:
