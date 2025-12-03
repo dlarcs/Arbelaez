@@ -80,7 +80,8 @@
   <div class="container_home">
     <!-- Secciones sugeridas para estudio de diseño -->
     <?php include "../../beto/home/hero/hero.php" ?>
-    <?php include "../../beto/home/maps/maps.php" ?>
   </div>
+  <?php include "../../beto/home/maps/maps.php" ?>
+
 </body>
 </html>
