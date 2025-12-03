@@ -177,3 +177,9 @@
 @media (max-width: 900px){
   .topic-card{ grid-column: span 12; }
 }
+.topics-grid--4 .topic-card{ grid-column: span 6; }     /* 2x2 en desktop */
+.topics-grid--4 .topic-card--accent{ grid-column: span 6; } /* ya no ocupa 12 */
+
+@media (max-width: 900px){
+  .topics-grid--4 .topic-card{ grid-column: span 12; }  /* 1 por fila en móvil */
+}

@@ -7,14 +7,14 @@ $cssTime = filemtime('../../beto/home/hero/hero.css');
   <header class="home-topics__head">
     <p class="home-topics__eyebrow">Servicios</p>
     <h2 class="home-topics__title" id="topics-title">Explora por categoría</h2>
-    <p class="home-topics__sub">5 páginas con todo organizado para que encuentres rápido lo que necesitas.</p>
+    <p class="home-topics__sub">Todo organizado en 4 páginas para que cotices más rápido.</p>
   </header>
 
-  <div class="topics-grid">
+  <div class="topics-grid topics-grid--4">
     <a class="topic-card" href="/servicios/gran-formato/">
       <div class="topic-card__icon">GF</div>
       <h3 class="topic-card__title">Gran formato & exteriores</h3>
-      <p class="topic-card__text">Publicidad y piezas grandes listas para calle, vitrinas y eventos.</p>
+      <p class="topic-card__text">Piezas grandes para calle, vitrinas, eventos y marcas visibles.</p>
       <ul class="topic-card__list">
         <li>Impresión gran formato</li>
         <li>Pendones · Panaflex</li>
@@ -25,8 +25,8 @@ $cssTime = filemtime('../../beto/home/hero/hero.css');
 
     <a class="topic-card" href="/servicios/vinilos-y-plotter/">
       <div class="topic-card__icon">VP</div>
-      <h3 class="topic-card__title">Vinilos & plotter</h3>
-      <p class="topic-card__text">Corte exacto, adhesivos y acabados para interiores o exteriores.</p>
+      <h3 class="topic-card__title">Vinilos, plotter & frosted</h3>
+      <p class="topic-card__text">Adhesivos, corte preciso y acabados para interior o exterior.</p>
       <ul class="topic-card__list">
         <li>Vinilos adhesivos</li>
         <li>Plotter de corte</li>
@@ -38,34 +38,22 @@ $cssTime = filemtime('../../beto/home/hero/hero.css');
     <a class="topic-card" href="/servicios/senalizacion-y-avisos/">
       <div class="topic-card__icon">SA</div>
       <h3 class="topic-card__title">Señalización & avisos</h3>
-      <p class="topic-card__text">Señales, avisos y piezas para puntos de venta y espacios.</p>
+      <p class="topic-card__text">Avisos, señalética y piezas para punto de venta.</p>
       <ul class="topic-card__list">
         <li>Avisos en acrílico</li>
         <li>Señalización</li>
-        <li>Habladores · Tropezones</li>
+        <li>Habladores · Tropezones · Neonflex</li>
       </ul>
       <span class="topic-card__cta">Ver página →</span>
     </a>
 
-    <a class="topic-card" href="/servicios/papeleria/">
-      <div class="topic-card__icon">PC</div>
-      <h3 class="topic-card__title">Papelería & comerciales</h3>
-      <p class="topic-card__text">Impresos para tu marca: presentación, ventas y comunicación.</p>
+    <a class="topic-card topic-card--accent" href="/servicios/papeleria-y-branding/">
+      <div class="topic-card__icon">PB</div>
+      <h3 class="topic-card__title">Papelería, corte láser & branding</h3>
+      <p class="topic-card__text">Impresos comerciales + detalles premium + branding vehicular.</p>
       <ul class="topic-card__list">
-        <li>Tarjetas</li>
-        <li>Volantes</li>
-        <li>Papelería comercial</li>
-      </ul>
-      <span class="topic-card__cta">Ver página →</span>
-    </a>
-
-    <a class="topic-card topic-card--accent" href="/servicios/corte-laser-y-especiales/">
-      <div class="topic-card__icon">CL</div>
-      <h3 class="topic-card__title">Corte láser & especiales</h3>
-      <p class="topic-card__text">Producción y detalles premium para destacar tu negocio.</p>
-      <ul class="topic-card__list">
-        <li>Corte láser</li>
-        <li>Neonflex · Imanes · Retablos</li>
+        <li>Tarjetas · Volantes · Papelería comercial</li>
+        <li>Corte láser · Retablos · Imanes</li>
         <li>Branding para carros</li>
       </ul>
       <span class="topic-card__cta">Ver página →</span>
