@@ -21,11 +21,11 @@ $cssTime = filemtime('../../beto/home/maps/maps.css');
     </div>
 
     <div class="map-actions">
-      <a class="map-btn map-btn--primary" href="TU_LINK_DE_DIRECCIONES" target="_blank" rel="noopener">
+      <a class="map-btn map-btn--primary" href="https://maps.app.goo.gl/rzmXcSMqgXMySY4y8" target="_blank" rel="noopener">
         Abrir en Maps
       </a>
-      <a class="map-btn map-btn--ghost" href="TU_LINK_DE_UBICACION" target="_blank" rel="noopener">
-        Ver reseñas
+      <a class="map-btn map-btn--ghost" href="" target="_blank" rel="noopener">
+        Contactar WhatsApp
       </a>
     </div>
   </div>
