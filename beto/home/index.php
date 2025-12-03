@@ -82,6 +82,7 @@
     <?php include "../../beto/home/hero/hero.php" ?>
   </div>
   <?php include "../../beto/home/maps/maps.php" ?>
+  <?php include "../../beto/global/footer/footer.php" ?>
 
 </body>
 </html>
