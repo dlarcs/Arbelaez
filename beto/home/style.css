@@ -99,9 +99,13 @@ html {
   border-radius: inherit;
   padding: 1px;
   background-image: url("../../beto/global/img/GRUPOGRAFI.png");
+  background-position: center;
+  background-size: cover;
   -webkit-mask-composite: xor;
           mask-composite: exclude;
   opacity: 0.8;
+  overflow: hidden;
+
 }
 
 /* Contenido interno (por si tienes secciones apiladas) */
