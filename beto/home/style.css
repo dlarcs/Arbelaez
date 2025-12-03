@@ -92,19 +92,7 @@ html {
 }
 
 /* Línea de luz superior del panel */
-.container_home::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  padding: 1px;
-  background: linear-gradient(90deg, rgba(34, 211, 238, 0.55), rgba(249, 115, 22, 0.35));
-  -webkit-mask:
-    linear-gradient(#000 0 0) content-box,
-    linear-gradient(#000 0 0);
-  -webkit-mask-composite: xor;
-  opacity: 0.8;
-}
+
 
 /* Contenido interno (por si tienes secciones apiladas) */
 .container_home > section,
