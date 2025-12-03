@@ -2,85 +2,73 @@
 $cssTime = filemtime('../../beto/home/hero/hero.css');
 ?>
 <link rel="stylesheet" href="../../beto/home/hero/hero.css?v=<?= $cssTime ?>">
-<section class="hero-home" id="hero_home">
-  <!-- Capa de imagen de fondo (ajustas en CSS) -->
-  <div class="hero-home__media" aria-hidden="true"></div>
 
-  <div class="hero-home__content">
-    <p class="hero-home__eyebrow">
-      Estudio de diseño &amp; impresión
-    </p>
+<section class="home-topics" aria-labelledby="topics-title" id="servicios">
+  <header class="home-topics__head">
+    <p class="home-topics__eyebrow">Servicios</p>
+    <h2 class="home-topics__title" id="topics-title">Explora por categoría</h2>
+    <p class="home-topics__sub">5 páginas con todo organizado para que encuentres rápido lo que necesitas.</p>
+  </header>
 
-    <h1 class="hero-home__title">
-      Hacemos que tu marca <span>se vea tan bien</span> como suena.
-    </h1>
+  <div class="topics-grid">
+    <a class="topic-card" href="/servicios/gran-formato/">
+      <div class="topic-card__icon">GF</div>
+      <h3 class="topic-card__title">Gran formato & exteriores</h3>
+      <p class="topic-card__text">Publicidad y piezas grandes listas para calle, vitrinas y eventos.</p>
+      <ul class="topic-card__list">
+        <li>Impresión gran formato</li>
+        <li>Pendones · Panaflex</li>
+        <li>Vallas · Microperforado</li>
+      </ul>
+      <span class="topic-card__cta">Ver página →</span>
+    </a>
 
-    <p class="hero-home__text">
-      Corte láser, vinilos, gran formato, papelería y branding para vehículos,
-      todo alineado con tu identidad visual y listo para impresionar.
-    </p>
+    <a class="topic-card" href="/servicios/vinilos-y-plotter/">
+      <div class="topic-card__icon">VP</div>
+      <h3 class="topic-card__title">Vinilos & plotter</h3>
+      <p class="topic-card__text">Corte exacto, adhesivos y acabados para interiores o exteriores.</p>
+      <ul class="topic-card__list">
+        <li>Vinilos adhesivos</li>
+        <li>Plotter de corte</li>
+        <li>Frosted</li>
+      </ul>
+      <span class="topic-card__cta">Ver página →</span>
+    </a>
 
-    <div class="hero-home__actions">
-      <!-- Ajusta el número y el mensaje de WhatsApp -->
-      <a
-        href="https://wa.me/573000000000?text=Hola%20Grupo%205G%2C%20quiero%20cotizar%20un%20proyecto%20de%20dise%C3%B1o%20e%20impresi%C3%B3n."
-        class="btn-cta hero-home__cta-main"
-        target="_blank"
-        rel="noopener"
-      >
-        Cotizar por WhatsApp
-      </a>
+    <a class="topic-card" href="/servicios/senalizacion-y-avisos/">
+      <div class="topic-card__icon">SA</div>
+      <h3 class="topic-card__title">Señalización & avisos</h3>
+      <p class="topic-card__text">Señales, avisos y piezas para puntos de venta y espacios.</p>
+      <ul class="topic-card__list">
+        <li>Avisos en acrílico</li>
+        <li>Señalización</li>
+        <li>Habladores · Tropezones</li>
+      </ul>
+      <span class="topic-card__cta">Ver página →</span>
+    </a>
 
-      <a href="#portfolio" class="hero-home__cta-secondary">
-        Ver portafolio
-      </a>
-    </div>
+    <a class="topic-card" href="/servicios/papeleria/">
+      <div class="topic-card__icon">PC</div>
+      <h3 class="topic-card__title">Papelería & comerciales</h3>
+      <p class="topic-card__text">Impresos para tu marca: presentación, ventas y comunicación.</p>
+      <ul class="topic-card__list">
+        <li>Tarjetas</li>
+        <li>Volantes</li>
+        <li>Papelería comercial</li>
+      </ul>
+      <span class="topic-card__cta">Ver página →</span>
+    </a>
 
-    <div class="hero-home__meta">
-      <span>Impresión gran formato</span>
-      <span>Señalización &amp; acrílico</span>
-      <span>Branding vehicular</span>
-    </div>
-  </div>
-</section>
-<section class="hero-home" id="hero_home">
-  <!-- Capa de imagen de fondo (ajustas en CSS) -->
-  <div class="hero-home__media" aria-hidden="true"></div>
-
-  <div class="hero-home__content">
-    <p class="hero-home__eyebrow">
-      Estudio de diseño &amp; impresión
-    </p>
-
-    <h1 class="hero-home__title">
-      Hacemos que tu marca <span>se vea tan bien</span> como suena.
-    </h1>
-
-    <p class="hero-home__text">
-      Corte láser, vinilos, gran formato, papelería y branding para vehículos,
-      todo alineado con tu identidad visual y listo para impresionar.
-    </p>
-
-    <div class="hero-home__actions">
-      <!-- Ajusta el número y el mensaje de WhatsApp -->
-      <a
-        href="https://wa.me/573000000000?text=Hola%20Grupo%205G%2C%20quiero%20cotizar%20un%20proyecto%20de%20dise%C3%B1o%20e%20impresi%C3%B3n."
-        class="btn-cta hero-home__cta-main"
-        target="_blank"
-        rel="noopener"
-      >
-        Cotizar por WhatsApp
-      </a>
-
-      <a href="#portfolio" class="hero-home__cta-secondary">
-        Ver portafolio
-      </a>
-    </div>
-
-    <div class="hero-home__meta">
-      <span>Impresión gran formato</span>
-      <span>Señalización &amp; acrílico</span>
-      <span>Branding vehicular</span>
-    </div>
+    <a class="topic-card topic-card--accent" href="/servicios/corte-laser-y-especiales/">
+      <div class="topic-card__icon">CL</div>
+      <h3 class="topic-card__title">Corte láser & especiales</h3>
+      <p class="topic-card__text">Producción y detalles premium para destacar tu negocio.</p>
+      <ul class="topic-card__list">
+        <li>Corte láser</li>
+        <li>Neonflex · Imanes · Retablos</li>
+        <li>Branding para carros</li>
+      </ul>
+      <span class="topic-card__cta">Ver página →</span>
+    </a>
   </div>
 </section>
