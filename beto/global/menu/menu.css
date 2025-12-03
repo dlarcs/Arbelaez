@@ -21,6 +21,7 @@
 .site-header {
   position: sticky;
   top: 0;
+  width: 100%;
   margin: auto;
   overflow: hidden;
   z-index: 50;
@@ -282,7 +283,6 @@
   .site-header {
     padding: 0.6rem 2.5rem;
     justify-content: space-between;
-    overflow: hidden;
   }
 
   .nav-toggle {
