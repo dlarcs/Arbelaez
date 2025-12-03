@@ -96,12 +96,10 @@ html {
   content: "";
   position: absolute;
   inset: 0;
-  border-radius: inherit;
   padding: 1px;
   background-image: url("../../beto/global/img/GRUPOGRAFI.png");
   background-position: center;
   background-size: cover;
-  opacity: 1;
   -webkit-mask-composite: xor;
           mask-composite: exclude;
   opacity: 0.8;
