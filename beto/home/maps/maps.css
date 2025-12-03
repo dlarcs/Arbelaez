@@ -6,7 +6,6 @@
   border: 1px solid rgba(255,255,255,.12);
   background: rgba(10, 14, 24, .72);
   box-shadow: 0 28px 90px rgba(0,0,0,.55), inset 0 1px 0 rgba(255,255,255,.10);
-  overflow: hidden;
   isolation: isolate;
 }
 
