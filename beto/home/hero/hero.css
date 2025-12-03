@@ -12,6 +12,7 @@
 /* Capa de imagen de fondo: aquí pones TU imagen */
 .hero-home__media{
   position: absolute;
+  inset: 0;
   background-image: url("../../../beto/img/fondo.png"); /* <-- CAMBIA ESTA RUTA */
   background-size: cover;
   background-position: center;

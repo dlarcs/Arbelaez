@@ -92,13 +92,27 @@ html {
 }
 
 /* Línea de luz superior del panel */
-
+.container_home::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(90deg, rgba(34, 211, 238, 0.55), rgba(249, 115, 22, 0.35));
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  opacity: 0.8;
+}
 
 /* Contenido interno (por si tienes secciones apiladas) */
 .container_home > section,
 .container_home > div {
   border-radius: var(--radius-lg);
   padding: clamp(1rem, 2vw, 1.75rem);
+  background: radial-gradient(circle at top left, rgba(15, 118, 110, 0.16), transparent 55%);
   border: 1px solid rgba(51, 65, 85, 0.7);
 }
 
