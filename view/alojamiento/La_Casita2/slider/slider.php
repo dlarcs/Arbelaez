@@ -24,7 +24,7 @@ $jsTime = filemtime('../../../view/alojamiento/La_Casita2/slider/slider.js');
 				</article>
 				<!-- Slide 3 -->
 				<article class="slide" aria-role description="slide" aria-label="3 de 4">
-					<img src="../../../view/alojamiento/La_Casita2/img/general2.jpeg" alt="Artesanías" />
+					<img src="../../../view/alojamiento/La_Casita2/img/general2.jpg" alt="Artesanías" />
 					<div class="slide__caption">
 						<!-- <h2>La Esperanza Vive</h2>
            <p>Cristo es la luz en medio de la oscuridad.</p> -->
@@ -32,7 +32,7 @@ $jsTime = filemtime('../../../view/alojamiento/La_Casita2/slider/slider.js');
 				</article>
 				<!-- Slide 4 -->
 				<article class="slide" aria-role description="slide" aria-label="4 de 4">
-					<img src="../../view/alojamiento/La_Casita2/img/general3.jpeg" alt="Artesanías" />
+					<img src="../../../view/alojamiento/La_Casita2/img/general3.jpeg" alt="Artesanías" />
 					<div class="slide__caption">
 						<!-- <h2>Fortaleza en la Oración</h2>
            <p>Habla con Dios, Él siempre escucha.</p> -->
