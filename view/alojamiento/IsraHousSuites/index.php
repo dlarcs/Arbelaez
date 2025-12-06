@@ -78,17 +78,17 @@
 </head>
 
 <body class="body_IsraHouseSuite">
-  <?php include "../../../view/alojamiento/IsraHouseSuite/menu/menu.php" ?>
+  <?php include "../../../view/alojamiento/IsraHousSuite/menu/menu.php" ?>
 
   <div class="container_IsraHouseSuite">
-    <?php include "../../../view/alojamiento/IsraHouseSuite/title/title.php" ?>
-    <?php include "../../../view/alojamiento/IsraHouseSuite/slider/slider.php" ?>
-    <?php include "../../../view/alojamiento/IsraHouseSuite/galery/productos.php" ?>
-    <?php include "../../../view/alojamiento/IsraHouseSuite/bout_us/about.php" ?>
-    <?php include "../../../view/alojamiento/IsraHouseSuite/maps/maps.php"?>
+    <?php include "../../../view/alojamiento/IsraHousSuite/title/title.php" ?>
+    <?php include "../../../view/alojamiento/IsraHousSuite/slider/slider.php" ?>
+    <?php include "../../../view/alojamiento/IsraHousSuite/galery/productos.php" ?>
+    <?php include "../../../view/alojamiento/IsraHousSuites/bout_us/about.php" ?>
+    <?php include "../../../view/alojamiento/IsraHousSuite/maps/maps.php"?>
   </div>
 
-  <?php include "../../../view/alojamiento/IsraHouseSuite/footer/footer.php" ?>
+  <?php include "../../../view/alojamiento/IsraHousSuite/footer/footer.php" ?>
 
   <!-- Botón WhatsApp -->
   <a class="whatsapp-fab"
