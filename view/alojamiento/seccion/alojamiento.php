@@ -19,7 +19,7 @@ $lodgings = [
     'distance'  => '15 min 🚶',
     'reserve'   => ['type' => 'wa', 'phone' => '573102443297', 'label' => 'Reservas'],
     'category'  => 'Rural',
-    'desc'      => 'Alojamiento campestre para hasta 50 personas, con hermosa vista y acceso al río. Zonas comunes cómodas, cocina equipada, BBQ y parqueadero. A 15 minutos a pie del pueblo.'
+    'desc'      => 'Alojamiento campestre hasta 50 personas, con hermosa vista y acceso al río. Zonas comunes cómodas, cocina equipada, BBQ y parqueadero. A 15 minutos a pie del pueblo.'
   ],
   [
     'name'      => 'Cachorros L&C',
@@ -28,7 +28,7 @@ $lodgings = [
     'img_alt'   => 'Cachorros L&C – zona social',
     'map_url'   => '#', // TODO: reemplazar por link real de Google Maps
     'distance'  => '15 min 🚶',
-    'reserve'   => ['type' => 'wa', 'phone' => '573102443287', 'label' => '24 horas'],
+    'reserve'   => ['type' => 'wa', 'phone' => '573227011059', 'label' => '24 horas'],
     'category'  => 'Rural',
     'desc'      => 'Espacio para acampar, comer y disfrutar con amigos. Ambiente relajado y parqueadero disponible.'
   ],

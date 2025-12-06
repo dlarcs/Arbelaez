@@ -84,7 +84,7 @@
 
   <!-- Botón WhatsApp -->
   <a class="whatsapp-fab"
-     href="https://wa.me/573102443287?text=Hola%20vengo%20desde%20la%20web%20de%20Cachorros%20L%26C%20(Mirador%20y%20Camping)"
+     href="https://wa.me/573227011059?text=Hola%20vengo%20desde%20la%20web%20de%20Cachorros%20L%26C%20(Mirador%20y%20Camping)"
      target="_blank" rel="noopener"
      aria-label="Chatear por WhatsApp">
     <img src="../../../view/home/img/img_whatsApp.png" alt="Contactar a Cachorros L&amp;C por WhatsApp" decoding="async" loading="lazy" width="56" height="56">
