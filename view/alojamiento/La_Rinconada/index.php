@@ -92,7 +92,7 @@
 
   <!-- Botón WhatsApp -->
   <a class="whatsapp-fab"
-     href="https://wa.me/573143417111?text=Hola%20vengo%20desde%20la%20web%20del%20Alojamiento%20La%20Rinconada%20en%20Arbel%C3%A1ez"
+     href="https://wa.me/573024229260?text=Hola%20vengo%20desde%20la%20web%20del%20Alojamiento%20La%20Rinconada%20en%20Arbel%C3%A1ez"
      target="_blank" rel="noopener"
      aria-label="Chatear por WhatsApp">
     <img src="../../../view/home/img/img_whatsApp.png"
