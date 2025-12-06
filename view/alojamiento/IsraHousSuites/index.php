@@ -77,10 +77,10 @@
   </script>
 </head>
 
-<body class="body_IsraHouseSuite">
-  <?php include "../../../view/alojamiento/IsraHousSuite/menu/menu.php" ?>
+<body class="body_IsraHousSuites">
+  <?php include "../../../view/alojamiento/IsraHousSuites/menu/menu.php" ?>
 
-  <div class="container_IsraHouseSuite">
+  <div class="container_IsraHousSuites">
     <?php include "../../../view/alojamiento/IsraHousSuites/title/title.php" ?>
     <?php include "../../../view/alojamiento/IsraHousSuites/slider/slider.php" ?>
     <?php include "../../../view/alojamiento/IsraHousSuites/galery/productos.php" ?>
