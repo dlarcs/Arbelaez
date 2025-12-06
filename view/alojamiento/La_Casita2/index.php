@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Básicos -->
-  <title>Hotel La Casita N°2 – Alojamiento cómodo y accesible vía San Bernardo | Arbeláez</title>
+  <title>La Casita N°2 – Alojamiento cómodo y accesible vía San Bernardo | Arbeláez</title>
   <meta name="description" content="Hotel La Casita N°2 en Arbeláez (vía San Bernardo): un alojamiento hermoso, cómodo y accesible, ideal para descansar y disfrutar de la tranquilidad y la naturaleza de Cundinamarca.">
   <link rel="canonical" href="https://www.arbelaez.com.co/view/alojamiento/La_Casita2/index.php">
   <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
@@ -38,7 +38,7 @@
   <link rel="me" href="https://www.tiktok.com/@arbelaez_turismo">
 
   <!-- Icono / tema -->
-  <link rel="icon" href="../../../view/alojamiento/La_Casita2/img/general.jpg" type="image/jpeg">
+  <link rel="icon" href="../../../view/alojamiento/La_Casita2/img/logo.png" type="image/jpeg">
   <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/La_Casita2/apple-touch-icon.png">
   <meta name="theme-color" content="#005548">
 
