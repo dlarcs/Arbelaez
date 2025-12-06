@@ -52,7 +52,7 @@
 
   background:
     radial-gradient(circle at 50% 35px, #fff 0 32px, transparent 33px) repeat-y;
-  background-size: var(--cloudW) 110px;
+  background-size: darkblue 110px;
 
   filter: drop-shadow(-3px 0 3px rgba(0,0,0,.06));
   z-index:0;
@@ -73,7 +73,7 @@
   width: 60px;                 /* tamaño visible */
   height: 60px;
   border-radius: 50%;
-  background:  darkblue ;
+  background:  #fafafa ;
   box-shadow: 0 8px 20px rgba(0,0,0,.18);
   z-index: 1000;
   display: flex;
