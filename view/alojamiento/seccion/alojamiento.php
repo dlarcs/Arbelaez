@@ -39,7 +39,7 @@ $lodgings = [
     'img_alt'   => 'Turismo Hoy Vivo – casa rural accesible',
     'map_url'   => 'https://maps.app.goo.gl/f1chLdpw8PJSa8sh9',
     'distance'  => '5 min 🚶',
-    'reserve'   => ['type' => 'url', 'url' => 'https://www.airbnb.com.co/rooms/47158905', 'label' => 'Reservas'],
+    'reserve'   => ['type' => 'url', 'url' => 'https://www.airbnb.com.co/rooms/47158905', 'label' => 'Reservas airbnb'],
     'category'  => 'Rural',
     'desc'      => 'Casa rural accesible, en ambiente privado y seguro. Huerta orgánica y avistamiento de aves.'
   ],
