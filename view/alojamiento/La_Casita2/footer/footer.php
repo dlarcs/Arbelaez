@@ -12,8 +12,8 @@ $cssTime = filemtime('../../../view/alojamiento/La_Casita2/footer/footer.css');
 			<div class="footer_social" aria-label="Redes sociales">
 				<ul class="socials">
 					<li>
-						<a href="https://www.instagram.com/casakandu/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-							<ion-icon name="logo-Instagram"></ion-icon><span class="sr-only">Instagram</span>
+						<a href="https://www.facebook.com/hotellacasitaarbelaez" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+							<ion-icon name="logo-Facebook"></ion-icon><span class="sr-only">Facebook</span>
 						</a>
 					</li>
 				</ul>
