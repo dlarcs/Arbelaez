@@ -11,12 +11,12 @@ $cssTime = filemtime('../../../view/gastronomia/El_Huerto/footer/footer.css');
 		<div class="footer_container">
 			<div class="footer_social" aria-label="Redes sociales">
 				<ul class="socials">
-					<!-- <li>
-						<a href="https://www.instagram.com/El_Huerto/ " target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+					<li>
+						<a href="https://www.instagram.com/pizzeriaartesanal_delhuerto/ " target="_blank" rel="noopener noreferrer" aria-label="Instagram">
 							<ion-icon name="logo-instagram"></ion-icon><span class="sr-only">Instagram</span>
 						</a>
 					</li>
-					<li>
+				<!-- 	<li>
 						<a href="https://www.facebook.com/kapaluna.terraza.gastrobar" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
 							<ion-icon name="logo-facebook"></ion-icon><span class="sr-only">Facebook</span>
 						</a>
