@@ -76,6 +76,17 @@ $lodgings = [
     'category'  => 'Rural',
     'desc'      => 'Alojamiento campestre con espacios amplios, jacuzzi, zona de BBQ y ambiente familiar para descansar o compartir con amigos.'
   ],
+  [
+    'name'      => 'La Casita N°2',
+    'slug'      => 'view/alojamiento/La_Casita2',
+    'img'       => '../../view/alojamiento/Los_Altos/img/general11.jpg',
+    'img_alt'   => 'Los Altos – vista general',
+    'map_url'   => 'https://maps.app.goo.gl/8iXw4nfoL2ehs9ZR7',
+    'distance'  => '15 min 🚶',
+    'reserve'   => ['type' => 'wa', 'phone' => '573132120224', 'label' => 'Reservar'],
+    'category'  => 'Rural',
+    'desc'      => 'Alojamiento campestre con espacios amplios, jacuzzi, zona de BBQ y ambiente familiar para descansar o compartir con amigos.'
+  ],
 ];
 ?>
 
