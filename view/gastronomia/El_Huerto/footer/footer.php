@@ -26,7 +26,7 @@ $cssTime = filemtime('../../../view/gastronomia/El_Huerto/footer/footer.css');
 						<a href="https://www.tiktok.com/search?q=El_Huerto&t=1757266584549" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
 							<ion-icon name="logo-tiktok"></ion-icon><span class="sr-only">TikTok</span>
 						</a>
-					</li> --> pendiente
+					</li> --> 
 
 				</ul>
 			</div>
