@@ -35,7 +35,8 @@ $cssTime = filemtime('../../../view/alojamiento/La_Casita2/bout_us/about.css');
    <strong>¡Te esperamos!</strong> Para reservas o información, contáctanos por WhatsApp:
    <a href="https://wa.me/573103360964?text=Hola%20vengo%20desde%20la%20web%20del%20Hotel%20La%20Casita%20N%C2%B02%20en%20Arbel%C3%A1ez%20(v%C3%ADa%20San%20Bernardo)"
       target="_blank" rel="noopener"
-      aria-label="Chatear por WhatsApp" itemprop="telephone">311 225 06 33</a>.
+      aria-label="Chatear por WhatsApp" itemprop="telephone">310 336 0964
+		</a>.
  </p>
 
 	    </section>
