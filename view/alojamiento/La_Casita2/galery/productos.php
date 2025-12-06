@@ -23,7 +23,7 @@ $jsTime = filemtime('../../../view/alojamiento/La_Casita2/galery/productos.js');
 			<div class="food_card General"><img src="../../../view/alojamiento/La_Casita2/img/general.jpeg" alt="General 1" width="1200" height="800" loading="lazy" decoding="async"></div>
 			<div class="food_card General"><img src="../../../view/alojamiento/La_Casita2/img/general1.jpeg" alt="General 2" width="1200" height="800" loading="lazy" decoding="async"></div>
 			<div class="food_card General"><img src="../../../view/alojamiento/La_Casita2/img/general2.jpg" alt="General 3" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card General"><img src="../../../view/alojamiento/La_Casita2/img/general3.jpg" alt="General 3" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card General"><img src="../../../view/alojamiento/La_Casita2/img/general3.jpeg" alt="General 3" width="1200" height="800" loading="lazy" decoding="async"></div>
 
 			<!-- ===== Habitaciones (6) ===== -->
 			<div class="food_card Habitaciones"><img src="../../../view/alojamiento/La_Casita2/img/habitacion1.jpeg" alt="Habitaciones 1" width="1200" height="800" loading="lazy" decoding="async"></div>
