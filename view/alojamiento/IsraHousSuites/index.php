@@ -40,8 +40,8 @@
   <!-- Rendimiento -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="image" href="https://www.arbelaez.com.co/view/alojamiento/IsraHouseSuite/img/exterior.jpeg">
-  <?php $cssTime = filemtime('../../../view/alojamiento/IsraHouseSuite/style.css'); ?>
-  <link rel="stylesheet" href="../../../view/alojamiento/IsraHouseSuite/style.css?v=<?= $cssTime ?>">
+  <?php $cssTime = filemtime('../../../view/alojamiento/IsraHousSuites/style.css'); ?>
+  <link rel="stylesheet" href="../../../view/alojamiento/IsraHousSuites/style.css?v=<?= $cssTime ?>">
 
   <!-- Datos estructurados: Alojamiento -->
   <script type="application/ld+json">
