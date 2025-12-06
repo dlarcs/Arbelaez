@@ -21,7 +21,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         </p>
         <p class="tourburger__description">
           Visita los locales aliados, pide la <strong>TourBurger</strong>,
-          completa tu tarjetón y participa por increíbles premios.
+          completa tu tarjetón y participa por Pasadia + Psicina + Almuerzo + bebinas para dos personas
         </p>
 
         <div class="tourburger__cta">
@@ -70,7 +70,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
             Contacto
           </a>
           <a
-            href="https://maps.app.goo.gl/6jA4Quw4p3FkPY8Y8"
+            href="https://maps.app.goo.gl/nTFZHiv39HS4dnwn8"
             class="btn btn--ghost"
             target="_blank"
             rel="noopener noreferrer"
@@ -92,7 +92,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         </p>
         <div class="tourburger-card__actions">
           <a
-            href="https://wa.me/573024229260?text=Hola%2C%20quiero%20reservar%20para%20el%20TourBurger"
+            href="https://wa.me/573123804104?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
             class="btn btn--primary"
             target="_blank"
             rel="noopener noreferrer"
@@ -122,7 +122,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         </p>
         <div class="tourburger-card__actions">
           <a
-            href="https://wa.me/573007778899?text=Hola%2C%20quiero%20probar%20la%20TourBurger"
+            href="https://wa.me/573123804104?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
             class="btn btn--primary"
             target="_blank"
             rel="noopener noreferrer"
@@ -130,7 +130,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
             Contacto
           </a>
           <a
-            href="https://maps.app.goo.gl/xxxxxxxx"
+            href="https://maps.app.goo.gl/pvRUNEBFycEitzmF7"
             class="btn btn--ghost"
             target="_blank"
             rel="noopener noreferrer"
@@ -146,13 +146,13 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         data-image="../../view/gastronomia/La_Marranada/img/especial5.jpg"
         data-image-alt="TourBurger de La Marranada"
       >
-        <h3 class="tourburger-card__name">La marranada</h3>
+        <h3 class="tourburger-card__name">La Marranada Campestre</h3>
         <p class="tourburger-card__details">
           Sabor contundente — TourBurger con recetas inspiradas en la casa.
         </p>
         <div class="tourburger-card__actions">
           <a
-            href="https://wa.me/573007778899?text=Hola%2C%20quiero%20probar%20la%20TourBurger"
+            href="https://wa.me/573123804104?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
             class="btn btn--primary"
             target="_blank"
             rel="noopener noreferrer"
@@ -160,7 +160,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
             Contacto
           </a>
           <a
-            href="https://maps.app.goo.gl/xxxxxxxx"
+            href="https://maps.app.goo.gl/e5wFcoDBmMACpPAe6"
             class="btn btn--ghost"
             target="_blank"
             rel="noopener noreferrer"
@@ -182,7 +182,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         </p>
         <div class="tourburger-card__actions">
           <a
-            href="https://wa.me/573007778899?text=Hola%2C%20quiero%20probar%20la%20TourBurger"
+            href="https://wa.me/573123804104?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
             class="btn btn--primary"
             target="_blank"
             rel="noopener noreferrer"
@@ -190,7 +190,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
             Contacto
           </a>
           <a
-            href="https://maps.app.goo.gl/xxxxxxxx"
+            href="https://maps.app.goo.gl/41QQ4FCvsKua8N1K7"
             class="btn btn--ghost"
             target="_blank"
             rel="noopener noreferrer"
@@ -206,13 +206,13 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         data-image="../../view/gastronomia/La_Marranada/img/especial5.jpg"
         data-image-alt="TourBurger de Casa Campestre"
       >
-        <h3 class="tourburger-card__name">Deli pollo</h3>
+        <h3 class="tourburger-card__name">Casa Campestre Comidas Parrilla Bar</h3>
         <p class="tourburger-card__details">
           Entorno natural — TourBurger para disfrutar en un ambiente campestre.
         </p>
         <div class="tourburger-card__actions">
           <a
-            href="https://wa.me/573007778899?text=Hola%2C%20quiero%20probar%20la%20TourBurger"
+            href="https://wa.me/573123804104?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
             class="btn btn--primary"
             target="_blank"
             rel="noopener noreferrer"
@@ -220,7 +220,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
             Contacto
           </a>
           <a
-            href="https://maps.app.goo.gl/xxxxxxxx"
+            href="https://maps.app.goo.gl/eLECkCAz2VHhvc2s8"
             class="btn btn--ghost"
             target="_blank"
             rel="noopener noreferrer"
