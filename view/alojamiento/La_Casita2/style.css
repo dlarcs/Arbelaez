@@ -5,10 +5,7 @@
 	padding: 0;
 	box-sizing: inherit;
 }
-.body_La_Casita2 {
-	padding: 0;
-	margin: 0;
-}
+
 .container_La_Casita2 {
 	padding:  0 ;
 	margin: 0;
@@ -19,87 +16,50 @@
 	object-fit: cover;
 	overflow: hidden;
 }
-/* Franja azul cielo a la derecha */
-.body_La_Casita2::after{
-  content:"";
-  position:fixed;         /* usa absolute si la quieres solo dentro del contenedor */
-  top:0;
-  right:0;
-  width:100px;
-  height:100vh;
-
-  background: linear-gradient(180deg,
-    #bfe9ff 0%,
-    #7fd3ff 50%,
-    #bfe9ff 100%
-  );
-
-  box-shadow:
-    -10px 0 18px rgba(0,0,0,.12);  /* sombra suave hacia el contenido */
-
-  border-radius: 0;       /* franja recta */
-  pointer-events:none;
-  z-index:0;
-}
-
-/* Asegura que el contenido quede encima */
-.body_La_Casita2 > *{
+.body_La_Casita2{
+  margin:0;
+  padding:0;
+  background:#fafafa;
   position:relative;
-  z-index:1;
+  overflow-x:hidden;
+
+  /* ajusta tamaños aquí */
+  --stripe: 140px;
+  --cloudW: 70px;
 }
 
-
-/* Bambú a la derecha */
-.body_La_Casita2::after{
+/* Franja azul cielo */
+.body_La_Casita2::before{
   content:"";
-  position:fixed;       /* cámbialo a absolute si lo quieres solo dentro del contenedor */
+  position:fixed;
   top:0;
   right:0;
-  width:100px;
+  width:var(--stripe);
   height:100vh;
-
-	background:
-	  /* brillo/sombra vertical (cilindro) */
-	  linear-gradient(90deg,
-	    rgba(0,0,0,.22) 0%,
-	    rgba(0,0,0,.12) 10%,
-	    rgba(255,255,255,.35) 32%,
-	    rgba(255,255,255,.10) 50%,
-	    rgba(0,0,0,.10) 72%,
-	    rgba(0,0,0,.22) 100%
-	  ),
-
-	  /* nudos (anillos) */
-	  repeating-linear-gradient(to bottom,
-	    rgba(0,0,0,0)    0px,
-	    rgba(0,0,0,0)   62px,
-	    rgba(110,85,40,.35) 62px,
-	    rgba(255,255,255,.22) 66px,
-	    rgba(90,70,35,.28) 70px,
-	    rgba(0,0,0,0)   74px,
-	    rgba(0,0,0,0)  120px
-	  ),
-
-	  /* color base: bambú seco */
-	  linear-gradient(180deg,
-	    #f3e2b8 0%,
-	    #e2c98f 45%,
-	    #caa564 100%
-	  );
-
-	/* sombra izquierda y derecha (y un glow suave) */
-	box-shadow:
-	  inset 10px 0 18px rgba(255,255,255,.25), /* brillo borde izq */
-	  inset -12px 0 22px rgba(0,0,0,.22),      /* sombra borde der */
-	  -10px 0 22px rgba(0,0,0,.14),            /* sombra externa izq */
-	  8px 0 18px rgba(0,0,0,.08);              /* sombra externa der */
-
-	border-radius: 10%;
-  pointer-events:none;
+  background: linear-gradient(180deg,#bfe9ff 0%, #87cefa 55%, #bfe9ff 100%);
   z-index:0;
+  pointer-events:none;
 }
 
-/* Asegura que el contenido quede encima */
+/* Borde tipo nube (blanco sobre la franja) */
+.body_La_Casita2::after{
+  content:"";
+  position:fixed;
+  top:0;
+  right: calc(var(--stripe) - (var(--cloudW) / 2));
+  width:var(--cloudW);
+  height:100vh;
+
+  background:
+    radial-gradient(circle at 50% 35px, #fff 0 32px, transparent 33px) repeat-y;
+  background-size: var(--cloudW) 110px;
+
+  filter: drop-shadow(-3px 0 3px rgba(0,0,0,.06));
+  z-index:0;
+  pointer-events:none;
+}
+
+/* Asegura que tu contenido quede encima */
 .body_La_Casita2 > *{
   position:relative;
   z-index:1;
