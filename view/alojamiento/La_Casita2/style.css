@@ -19,10 +19,38 @@
 	object-fit: cover;
 	overflow: hidden;
 }
+/* Franja azul cielo a la derecha */
+.body_La_Casita2::after{
+  content:"";
+  position:fixed;         /* usa absolute si la quieres solo dentro del contenedor */
+  top:0;
+  right:0;
+  width:100px;
+  height:100vh;
+
+  background: linear-gradient(180deg,
+    #bfe9ff 0%,
+    #7fd3ff 50%,
+    #bfe9ff 100%
+  );
+
+  box-shadow:
+    -10px 0 18px rgba(0,0,0,.12);  /* sombra suave hacia el contenido */
+
+  border-radius: 0;       /* franja recta */
+  pointer-events:none;
+  z-index:0;
+}
+
+/* Asegura que el contenido quede encima */
+.body_La_Casita2 > *{
+  position:relative;
+  z-index:1;
+}
 
 
 /* Bambú a la derecha */
-.body_Casa_Kandu::after{
+.body_La_Casita2::after{
   content:"";
   position:fixed;       /* cámbialo a absolute si lo quieres solo dentro del contenedor */
   top:0;
@@ -72,7 +100,7 @@
 }
 
 /* Asegura que el contenido quede encima */
-.body_Casa_Kandu > *{
+.body_La_Casita2 > *{
   position:relative;
   z-index:1;
 }
