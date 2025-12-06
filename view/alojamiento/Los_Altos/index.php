@@ -91,7 +91,7 @@
 
   <!-- Botón WhatsApp -->
   <a class="whatsapp-fab"
-     href="https://wa.me/573112250633?text=Hola%20vengo%20desde%20la%20web%20del%20Alojamiento%20Los%20Altos%20en%20Arbel%C3%A9ez"
+     href="https://wa.me/573132120224?text=Hola%20vengo%20desde%20la%20web%20del%20Alojamiento%20Los%20Altos%20en%20Arbel%C3%A9ez"
      target="_blank" rel="noopener"
      aria-label="Chatear por WhatsApp">
     <img src="../../../view/home/img/img_whatsApp.png" alt="Contactar a Los Altos en Arbeláez por WhatsApp" decoding="async" loading="lazy" width="56" height="56">
