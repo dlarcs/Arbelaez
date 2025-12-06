@@ -78,7 +78,7 @@ $lodgings = [
   ],
   [
     'name'      => 'La Casita N°2',
-    'slug'      => 'view/alojamiento/La_Casita2',
+    'slug'      => 'La_Casita2',
     'img'       => '../../view/alojamiento/La_Casita2/img/general2.jpg',
     'img_alt'   => 'Los Altos – vista general',
     'map_url'   => 'https://maps.app.goo.gl/8iXw4nfoL2ehs9ZR7',
