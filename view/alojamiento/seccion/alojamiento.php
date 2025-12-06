@@ -82,7 +82,7 @@ $lodgings = [
     'img'       => '../../view/alojamiento/La_Casita2/img/general2.jpg',
     'img_alt'   => 'Los Altos – vista general',
     'map_url'   => 'https://maps.app.goo.gl/8iXw4nfoL2ehs9ZR7',
-    'distance'  => '15 min 🚶',
+    'distance'  => '7 min 🚶',
     'reserve'   => ['type' => 'wa', 'phone' => '573103360964', 'label' => 'Reservar'],
     'category'  => 'Rural',
     'desc'      => 'Alojamiento comodo y accesible, en el pueblo de arbelaez, la mejor opción 24 horas.'
