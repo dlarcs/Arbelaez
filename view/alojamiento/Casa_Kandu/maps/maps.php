@@ -8,7 +8,7 @@ $cssTime = filemtime('../../../view/alojamiento/Casa_Kandu/maps/maps.css'); // e
 				<h1>¡CÓMO LLEGAR!</h1>
 
 				<div class="map_frame">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3978.743459333901!2d-74.42632692502325!3d4.270027995703895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNMKwMTYnMTIuMSJOIDc0wrAyNScyNS41Ilc!5e0!3m2!1ses-419!2sco!4v1760759851049!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.6999034242633!2d-74.41852802951871!3d4.259183788075959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f1da005b80a91%3A0xbceffdc2458da5b1!2sCasa%20Kand%C3%BA!5e0!3m2!1ses!2sco!4v1764997876457!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 		</div>
 	</section>
