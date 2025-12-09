@@ -132,7 +132,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <div class="tourburger-card__actions">
         <a
-          href="https://wa.me/573123804104?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
+          href="https://wa.me/573007804430?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
           class="btn btn--primary"
           target="_blank"
           rel="noopener noreferrer"
@@ -140,7 +140,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           Contacto
         </a>
         <a
-          href="https://maps.app.goo.gl/wbGNcZNAbQ9SudKQ9"
+          href="https://maps.app.goo.gl/yuyCaQezn3Bpi61K8"
           class="btn btn--ghost"
           target="_blank"
           rel="noopener noreferrer"
@@ -181,7 +181,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <div class="tourburger-card__actions">
         <a
-          href="https://wa.me/573123804104?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
+          href="https://wa.me/573022514381?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
           class="btn btn--primary"
           target="_blank"
           rel="noopener noreferrer"
@@ -189,7 +189,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           Contacto
         </a>
         <a
-          href="https://maps.app.goo.gl/e5wFcoDBmMACpPAe6"
+          href="https://maps.app.goo.gl/jRqys8D7fyELAsMe7"
           class="btn btn--ghost"
           target="_blank"
           rel="noopener noreferrer"
@@ -230,7 +230,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <div class="tourburger-card__actions">
         <a
-          href="https://wa.me/573123804104?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
+          href="https://wa.me/573135891912?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
           class="btn btn--primary"
           target="_blank"
           rel="noopener noreferrer"
@@ -279,7 +279,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <div class="tourburger-card__actions">
         <a
-          href="https://wa.me/573123804104?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
+          href="https://wa.me/573203152118?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
           class="btn btn--primary"
           target="_blank"
           rel="noopener noreferrer"
@@ -287,7 +287,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           Contacto
         </a>
         <a
-          href="https://maps.app.goo.gl/pvRUNEBFycEitzmF7"
+          href="https://maps.app.goo.gl/6GE2QeRhSgLK4LH17"
           class="btn btn--ghost"
           target="_blank"
           rel="noopener noreferrer"
@@ -328,7 +328,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <div class="tourburger-card__actions">
         <a
-          href="https://wa.me/573123804104?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
+          href="https://wa.me/573142605461?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
           class="btn btn--primary"
           target="_blank"
           rel="noopener noreferrer"
@@ -336,7 +336,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           Contacto
         </a>
         <a
-          href="https://maps.app.goo.gl/jiPfUVsbSsJwzUwG7"
+          href="https://maps.app.goo.gl/h4yWGonAx5eRba6R9"
           class="btn btn--ghost"
           target="_blank"
           rel="noopener noreferrer"
@@ -377,7 +377,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <div class="tourburger-card__actions">
         <a
-          href="https://wa.me/573123804104?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
+          href="https://wa.me/573176184453?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
           class="btn btn--primary"
           target="_blank"
           rel="noopener noreferrer"
@@ -385,7 +385,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           Contacto
         </a>
         <a
-          href="https://maps.app.goo.gl/eLECkCAz2VHhvc2s8"
+          href="https://maps.app.goo.gl/XTWVkx4Mxcqw4xBJ9"
           class="btn btn--ghost"
           target="_blank"
           rel="noopener noreferrer"
@@ -425,7 +425,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <div class="tourburger-card__actions">
         <a
-          href="https://wa.me/573123804104?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
+          href="https://wa.me/573504633485?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
           class="btn btn--primary"
           target="_blank"
           rel="noopener noreferrer"
@@ -433,7 +433,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           Contacto
         </a>
         <a
-          href="https://maps.app.goo.gl/eLECkCAz2VHhvc2s8"
+          href="https://maps.app.goo.gl/LvPQYGNJ4pBBEEB5A"
           class="btn btn--ghost"
           target="_blank"
           rel="noopener noreferrer"
