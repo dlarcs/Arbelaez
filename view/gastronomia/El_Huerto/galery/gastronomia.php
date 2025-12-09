@@ -220,37 +220,37 @@ $jsTime  = filemtime('../../../view/gastronomia/El_Huerto/galery/gastronomia.js'
 
     <!-- ===== POSTRES (postres.jpg a postres5.jpg) ===== -->
     <div class="food_card Postres" data-filter="Postres">
-      <img src="../../../view/gastronomia/El_Huerto/img/postres.jpg"
+      <img src="../../../view/gastronomia/El_Huerto/img/postre.jpg"
            alt="Pizzería El Huerto — Postre"
            width="1200" height="800" loading="lazy" decoding="async">
     </div>
 
     <div class="food_card Postres" data-filter="Postres">
-      <img src="../../../view/gastronomia/El_Huerto/img/postres1.jpg"
+      <img src="../../../view/gastronomia/El_Huerto/img/postre1.jpg"
            alt="Pizzería El Huerto — Postre 1"
            width="1200" height="800" loading="lazy" decoding="async">
     </div>
 
     <div class="food_card Postres" data-filter="Postres">
-      <img src="../../../view/gastronomia/El_Huerto/img/postres2.jpg"
+      <img src="../../../view/gastronomia/El_Huerto/img/postre2.jpg"
            alt="Pizzería El Huerto — Postre 2"
            width="1200" height="800" loading="lazy" decoding="async">
     </div>
 
     <div class="food_card Postres" data-filter="Postres">
-      <img src="../../../view/gastronomia/El_Huerto/img/postres3.jpg"
+      <img src="../../../view/gastronomia/El_Huerto/img/postre3.jpg"
            alt="Pizzería El Huerto — Postre 3"
            width="1200" height="800" loading="lazy" decoding="async">
     </div>
 
     <div class="food_card Postres" data-filter="Postres">
-      <img src="../../../view/gastronomia/El_Huerto/img/postres4.jpg"
+      <img src="../../../view/gastronomia/El_Huerto/img/postre4.jpg"
            alt="Pizzería El Huerto — Postre 4"
            width="1200" height="800" loading="lazy" decoding="async">
     </div>
 
     <div class="food_card Postres" data-filter="Postres">
-      <img src="../../../view/gastronomia/El_Huerto/img/postres5.jpg"
+      <img src="../../../view/gastronomia/El_Huerto/img/postre5.jpg"
            alt="Pizzería El Huerto — Postre 5"
            width="1200" height="800" loading="lazy" decoding="async">
     </div>
