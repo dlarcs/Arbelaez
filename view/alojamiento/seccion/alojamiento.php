@@ -63,7 +63,7 @@ $lodgings = [
     'distance'  => '15 min 🚶',
     'reserve'   => ['type' => 'wa', 'phone' => '573112250633', 'label' => 'Reservar'],
     'category'  => 'Rural',
-    'desc'      => '12 huéspedes, 3 habitaciones y un miniglamping, 4 camas dobles y 4 camas sencillas, tres baños y dos duchasAmbiente familiar, cálido y tranquilo para desconectar y respirar aire puro. Zona BBQ y espacios amplios para compartir.'
+    'desc'      => '12 húerpedes, 3 habitaciones y un miniglamping, 4 camas dobles y 4 camas sencillas, dos baños con ducha privado y un baño social: Ambiente familiar, cálido y tranquilo para desconectar y respirar aire puro. Zona BBQ y espacios amplios para compartir.'
   ],
   [
     'name'      => 'Los Altos',
