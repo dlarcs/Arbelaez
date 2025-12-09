@@ -155,7 +155,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
       class="tourburger-card"
       data-image="../../view/home/TourBurguer/img/general.png"
       data-image-alt="TourBurger de La Marranada Campestre"
-    >
+     >
       <figure class="tourburger-card__thumb">
         <img
           src="../../view/home/TourBurguer/img/general.png"
@@ -204,7 +204,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
       class="tourburger-card"
       data-image="../../view/home/TourBurguer/img/totumazo2.jpeg"
       data-image-alt="TourBurger de Totumazo 2"
-    >
+     >
       <figure class="tourburger-card__thumb">
         <img
           src="../../view/home/TourBurguer/img/totumazo2.jpeg"
@@ -253,7 +253,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
       class="tourburger-card"
       data-image="../../view/home/TourBurguer/img/general.png"
       data-image-alt="TourBurger de Del Huerto"
-    >
+     >
       <figure class="tourburger-card__thumb">
         <img
           src="../../view/home/TourBurguer/img/general.png"
@@ -302,7 +302,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
       class="tourburger-card"
       data-image="../../view/home/TourBurguer/img/general.png"
       data-image-alt="TourBurger de Pimienta Gastro-Bar"
-    >
+     >
       <figure class="tourburger-card__thumb">
         <img
           src="../../view/home/TourBurguer/img/general.png"
@@ -394,16 +394,16 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         </a>
       </div>
     </article>
-    <!-- CARD 7 – La moza -->
+    <!-- CARD 8 – La moza -->
     <article
       class="tourburger-card"
       data-image="../../view/home/TourBurguer/img/general.png"
-      data-image-alt="TourBurger de Don Cipro"
+      data-image-alt="TourBurger de La moza"
     >
       <figure class="tourburger-card__thumb">
         <img
           src="../../view/home/TourBurguer/img/general.png"
-          alt="TourBurger de Don Cipro"
+          alt="TourBurger de La moza"
           loading="lazy"
           decoding="async"
         >
