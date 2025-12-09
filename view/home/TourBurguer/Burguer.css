@@ -259,6 +259,78 @@
 
 /* RESPONSIVE */
 
+@media (min-width: 768px) {
+  .tourburger {
+    padding: 4rem 1.5rem 5rem;
+  }
+
+  .tourburger__hero {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 639.98px) {
+  .tourburger__hero {
+    text-align: center;
+  }
+
+  .tourburger__text {
+    text-align: center;
+  }
+
+  .tourburger-card__actions {
+    justify-content: center;
+  }
+
+  .tourburger-modal__dialog {
+    margin: 6vh 1rem;
+  }
+}
+/* =========================
+   TOURBURGER – CARDS EXTRA
+========================= */
+
+/* Mini-foto dentro de la tarjeta */
+.tourburger-card__thumb {
+  margin: -0.25rem -0.25rem 0.75rem;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--tourburger-border);
+}
+
+.tourburger-card__thumb img {
+  display: block;
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+/* Bloque de hamburguesa (nombre + ingredientes) */
+.tourburger-card__burger {
+  font-size: 0.85rem;
+  color: var(--tourburger-muted);
+  border-top: 1px dashed #374151;
+  padding-top: 0.5rem;
+}
+
+.tourburger-card__burger-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0 0 0.15rem;
+  color: var(--tourburger-accent);
+}
+
+.tourburger-card__burger-ingredients {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* En móvil las imágenes un poco más bajas */
+@media (max-width: 640px) {
+  .tourburger-card__thumb img {
+    height: 150px;
+  }
+}
 /* =========================
    TOURBURGER – LAYOUT PC
    1ª columna: 3 filas
