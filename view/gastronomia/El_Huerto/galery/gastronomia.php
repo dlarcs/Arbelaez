@@ -35,7 +35,7 @@ $jsTime  = filemtime('../../../view/gastronomia/El_Huerto/galery/gastronomia.js'
 
     <div class="food_card Pizza">
       <img src="../../../view/gastronomia/El_Huerto/img/pizza3.jpg" alt="Pizza artesanal recién horneada" loading="lazy" decoding="async">
-      <div class="overlay_food_card"><div class="food_info"></div></div>
+      <div class="overlay_food_card"><div class="food_info"></div>fsddfgdf</div>
     </div>
 
     <div class="food_card Pizza">
