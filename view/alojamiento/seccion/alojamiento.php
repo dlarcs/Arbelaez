@@ -19,7 +19,7 @@ $lodgings = [
     'distance'  => '15 min 🚶',
     'reserve'   => ['type' => 'wa', 'phone' => '573102443297', 'label' => 'Reservas'],
     'category'  => 'Rural',
-    'desc'      => 'Alojamiento campestre hasta 50 personas, con hermosa vista y acceso al río. Zonas comunes cómodas, cocina equipada, BBQ y parqueadero. A 15 minutos a pie del pueblo.'
+    'desc'      => '35 huéspedes, 6 habitaciones, 40 camas y 9 baños correcto, alojamiento con hermosa vista y acceso al río. Zonas comunes cómodas, cocina equipada, BBQ y parqueadero. A 15 minutos a pie del pueblo.'
   ],
   [
     'name'      => 'Cachorros L&C',
@@ -30,7 +30,7 @@ $lodgings = [
     'distance'  => '15 min 🚶',
     'reserve'   => ['type' => 'wa', 'phone' => '573227011059', 'label' => '24 horas'],
     'category'  => 'Rural',
-    'desc'      => 'Espacio para acampar, comer y disfrutar con amigos. Ambiente relajado y parqueadero disponible.'
+    'desc'      => 'Espacio para acampar, llevar camping. Ambiente relajado y carne asada fines de semana, disfruta con amigos, parqueadero disponible.'
   ],
   [
     'name'      => 'Turismo Hoy Vivo',
@@ -52,7 +52,7 @@ $lodgings = [
     'distance'  => '5 min 🚶',
     'reserve'   => ['type' => 'wa', 'phone' => '573007804430', 'label' => 'Reservas'],
     'category'  => 'Rural',
-    'desc'      => 'Alojamiento hasta para 44 personas, finca campestre con piscina y jacuzzi, rodeado de naturaleza. Ideal para descansar o celebrar en familia. A 10 min del pueblo'
+    'desc'      => '42 huéspedes, primera cabaña 6 habitaciones, tres baños, cocina, sala comedor, segunda cabaña 3 habitaciones 1 baño, cocina, sala comedor: finca campestre con piscina y jacuzzi, rodeado de naturaleza. Ideal para descansar o celebrar en familia. A 10 min del pueblo'
   ],
   [
     'name'      => 'Casa Kandu',
