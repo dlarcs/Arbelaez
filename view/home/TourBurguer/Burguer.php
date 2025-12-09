@@ -153,12 +153,12 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     <!-- CARD 3 – La Marranada Campestre -->
     <article
       class="tourburger-card"
-      data-image="../../view/home/TourBurguer/img/La_Marranada.jpg"
+      data-image="../../view/home/TourBurguer/img/general.png"
       data-image-alt="TourBurger de La Marranada Campestre"
     >
       <figure class="tourburger-card__thumb">
         <img
-          src="../../view/gastronomia/La_Marranada/img/especial5.jpg"
+          src="../../view/home/TourBurguer/img/general.png"
           alt="TourBurger de La Marranada Campestre"
           loading="lazy"
           decoding="async"
@@ -251,12 +251,12 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     <!-- CARD 5 – Del Huerto -->
     <article
       class="tourburger-card"
-      data-image="../../view/gastronomia/El_Huerto/img/burger.jpg"
+      data-image="../../view/home/TourBurguer/img/general.png"
       data-image-alt="TourBurger de Del Huerto"
     >
       <figure class="tourburger-card__thumb">
         <img
-          src="../../view/gastronomia/El_Huerto/img/burger.jpg"
+          src="../../view/home/TourBurguer/img/general.png"
           alt="TourBurger de Del Huerto"
           loading="lazy"
           decoding="async"
@@ -300,12 +300,12 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     <!-- CARD 6 – Pimienta Gastro-Bar -->
     <article
       class="tourburger-card"
-      data-image="../../view/gastronomia/Pimienta_GastroBar/img/burger.jpg"
+      data-image="../../view/home/TourBurguer/img/general.png"
       data-image-alt="TourBurger de Pimienta Gastro-Bar"
     >
       <figure class="tourburger-card__thumb">
         <img
-          src="../../view/gastronomia/Pimienta_GastroBar/img/burger.jpg"
+          src="../../view/home/TourBurguer/img/general.png"
           alt="TourBurger de Pimienta Gastro-Bar"
           loading="lazy"
           decoding="async"
@@ -349,12 +349,12 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     <!-- CARD 7 – Don Cipro -->
     <article
       class="tourburger-card"
-      data-image="../../view/gastronomia/Don_Cipro/img/burger.jpg"
+      data-image="../../view/home/TourBurguer/img/general.png"
       data-image-alt="TourBurger de Don Cipro"
     >
       <figure class="tourburger-card__thumb">
         <img
-          src="../../view/gastronomia/Don_Cipro/img/burger.jpg"
+          src="../../view/home/TourBurguer/img/general.png"
           alt="TourBurger de Don Cipro"
           loading="lazy"
           decoding="async"
@@ -394,7 +394,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         </a>
       </div>
     </article>
-    <!-- CARD 7 – Don Cipro -->
+    <!-- CARD 7 – La moza -->
     <article
       class="tourburger-card"
       data-image="../../view/gastronomia/Don_Cipro/img/burger.jpg"
@@ -416,7 +416,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <div class="tourburger-card__burger">
         <h4 class="tourburger-card__burger-name">
-          TourBurger Don Cipro
+          TourBurger Doble Moza
         </h4>
         <p class="tourburger-card__burger-ingredients">
           Carne de res, queso, tocineta, vegetales frescos y salsa secreta de la casa.
