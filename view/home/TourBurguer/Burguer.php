@@ -125,7 +125,8 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           TourBurger KapaLuna 360°
         </h4>
         <p class="tourburger-card__burger-ingredients">
-          Pan brioche, carne a la parrilla, queso doble, cebolla grille y salsa especial de la casa.
+          Pan tipo brioche, Carne artesanal, Queso cheddar, Queso Philadelphia rosa, Costilla a la barbacoa,
+          Cebolla crunchy, Salsa de la casa
         </p>
       </div>
 
@@ -335,7 +336,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           Contacto
         </a>
         <a
-          href="https://maps.app.goo.gl/eLECkCAz2VHhvc2s8"
+          href="https://maps.app.goo.gl/jiPfUVsbSsJwzUwG7"
           class="btn btn--ghost"
           target="_blank"
           rel="noopener noreferrer"
