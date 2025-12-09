@@ -58,7 +58,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     >
       <figure class="tourburger-card__thumb">
         <img
-          src="../../view/gastronomia/kalu/img/especial10.jpg"
+          src="../../view/home/TourBurguer/img/kalu.jpeg"
           alt="TourBurger de Kalú Café Resto-Bar"
           loading="lazy"
           decoding="async"
@@ -108,7 +108,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     >
       <figure class="tourburger-card__thumb">
         <img
-          src="../../view/gastronomia/kapaLuna360/img/ESLOGAN.jpg"
+          src="../../view/home/TourBurguer/img/KapaLuna.jpeg"
           alt="TourBurger parrillera de KapaLuna 360°"
           loading="lazy"
           decoding="async"
@@ -202,12 +202,12 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     <!-- CARD 4 – Totumazo 2 -->
     <article
       class="tourburger-card"
-      data-image="../../view/gastronomia/Totumazo_2/img/burger.jpg"
+      data-image="../../view/home/TourBurguer/img/totumazo2.jpeg"
       data-image-alt="TourBurger de Totumazo 2"
     >
       <figure class="tourburger-card__thumb">
         <img
-          src="../../view/gastronomia/Totumazo_2/img/burger.jpg"
+          src="../../view/home/TourBurguer/img/totumazo2.jpeg"
           alt="TourBurger de Totumazo 2"
           loading="lazy"
           decoding="async"
@@ -362,6 +362,54 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
       </figure>
 
       <h3 class="tourburger-card__name">Don Cipro</h3>
+      <p class="tourburger-card__details">
+        Sabor local — TourBurger perfecta para cerrar el recorrido con broche de oro.
+      </p>
+
+      <div class="tourburger-card__burger">
+        <h4 class="tourburger-card__burger-name">
+          TourBurger Don Cipro
+        </h4>
+        <p class="tourburger-card__burger-ingredients">
+          Carne de res, queso, tocineta, vegetales frescos y salsa secreta de la casa.
+        </p>
+      </div>
+
+      <div class="tourburger-card__actions">
+        <a
+          href="https://wa.me/573123804104?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
+          class="btn btn--primary"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Contacto
+        </a>
+        <a
+          href="https://maps.app.goo.gl/eLECkCAz2VHhvc2s8"
+          class="btn btn--ghost"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Cómo llegar
+        </a>
+      </div>
+    </article>
+    <!-- CARD 7 – Don Cipro -->
+    <article
+      class="tourburger-card"
+      data-image="../../view/gastronomia/Don_Cipro/img/burger.jpg"
+      data-image-alt="TourBurger de Don Cipro"
+    >
+      <figure class="tourburger-card__thumb">
+        <img
+          src="../../view/gastronomia/Don_Cipro/img/burger.jpg"
+          alt="TourBurger de Don Cipro"
+          loading="lazy"
+          decoding="async"
+        >
+      </figure>
+
+      <h3 class="tourburger-card__name">La Moza Gastro-Bar</h3>
       <p class="tourburger-card__details">
         Sabor local — TourBurger perfecta para cerrar el recorrido con broche de oro.
       </p>
