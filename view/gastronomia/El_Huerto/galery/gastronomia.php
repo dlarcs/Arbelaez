@@ -4,8 +4,8 @@ $jsTime  = filemtime('../../../view/gastronomia/El_Huerto/galery/gastronomia.js'
 ?>
 <link rel="stylesheet" href="../../../view/gastronomia/El_Huerto/galery/gastronomia.css?v=<?= $cssTime ?>">
 
-<section class="section_food_gallery" id="galery_El_Huerto">
 
+<section class="section_food_gallery" id="galery_El_Huerto">
   <!-- Título principal -->
   <h1>Nuestra Gastronomía</h1>
 
@@ -15,6 +15,7 @@ $jsTime  = filemtime('../../../view/gastronomia/El_Huerto/galery/gastronomia.js'
       <li class="filter_items active" data-filter="all">Todos</li>
       <li class="filter_items" data-filter="Pizza">Pizza</li>
       <li class="filter_items" data-filter="Hamburguesas">Hamburguesas</li>
+      <li class="filter_items" data-filter="Postres">Postres</li>
       <li class="filter_items" data-filter="General">General</li>
     </ul>
   </div>
@@ -22,62 +23,236 @@ $jsTime  = filemtime('../../../view/gastronomia/El_Huerto/galery/gastronomia.js'
   <!-- ===== Contenedor de platos ===== -->
   <div class="food_gallery_container">
 
-    <!-- ===== PIZZAS (pizza.jpg a pizza6.jpg) ===== -->
-    <div class="food_card Pizza">
-      <img src="../../../view/gastronomia/El_Huerto/img/pizza.jpg" alt="Pizza artesanal Del Huerto" loading="lazy" decoding="async">
-      <div class="overlay_food_card"><div class="food_info"></div></div>
+    <!-- ===== PIZZAS (pizza.jpg a pizza17.jpg) ===== -->
+    <div class="food_card Pizza" data-filter="Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza.jpg"
+           alt="Pizzería El Huerto — Pizza"
+           width="1200" height="800" loading="lazy" decoding="async">
     </div>
 
-    <div class="food_card Pizza">
-      <img src="../../../view/gastronomia/El_Huerto/img/pizza2.jpg" alt="Pizza del Huerto con vegetales frescos" loading="lazy" decoding="async">
-      <div class="overlay_food_card"><div class="food_info"></div></div>
+    <div class="food_card Pizza" data-filter="Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza1.jpg"
+           alt="Pizzería El Huerto — Pizza 1"
+           width="1200" height="800" loading="lazy" decoding="async">
     </div>
 
-    <div class="food_card Pizza">
-      <img src="../../../view/gastronomia/El_Huerto/img/pizza3.jpg" alt="Pizza artesanal recién horneada" loading="lazy" decoding="async">
-      <div class="overlay_food_card"><div class="food_info"></div>fsddfgdf</div>
+    <div class="food_card Pizza" data-filter="Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza2.jpg"
+           alt="Pizzería El Huerto — Pizza 2"
+           width="1200" height="800" loading="lazy" decoding="async">
     </div>
 
-    <div class="food_card Pizza">
-      <img src="../../../view/gastronomia/El_Huerto/img/pizza4.jpg" alt="Pizza Del Huerto con queso y tomate" loading="lazy" decoding="async">
-      <div class="overlay_food_card"><div class="food_info"></div></div>
+    <div class="food_card Pizza" data-filter="Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza3.jpg"
+           alt="Pizzería El Huerto — Pizza 3"
+           width="1200" height="800" loading="lazy" decoding="async">
     </div>
 
-    <div class="food_card Pizza">
-      <img src="../../../view/gastronomia/El_Huerto/img/pizza5.jpg" alt="Porción de pizza servida en mesa" loading="lazy" decoding="async">
-      <div class="overlay_food_card"><div class="food_info"></div></div>
+    <div class="food_card Pizza" data-filter="Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza4.jpg"
+           alt="Pizzería El Huerto — Pizza 4"
+           width="1200" height="800" loading="lazy" decoding="async">
     </div>
 
-    <div class="food_card Pizza">
-      <img src="../../../view/gastronomia/El_Huerto/img/pizza6.jpg" alt="Pizza especial de la casa" loading="lazy" decoding="async">
-      <div class="overlay_food_card"><div class="food_info"></div></div>
+    <div class="food_card Pizza" data-filter="Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza5.jpg"
+           alt="Pizzería El Huerto — Pizza 5"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card Pizza" data-filter="Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza6.jpg"
+           alt="Pizzería El Huerto — Pizza 6"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card Pizza" data-filter="Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza7.jpg"
+           alt="Pizzería El Huerto — Pizza 7"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card Pizza" data-filter="Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza8.jpg"
+           alt="Pizzería El Huerto — Pizza 8"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card Pizza" data-filter="Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza9.jpg"
+           alt="Pizzería El Huerto — Pizza 9"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card Pizza" data-filter="Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza10.jpg"
+           alt="Pizzería El Huerto — Pizza 10"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card Pizza" data-filter="Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza11.jpg"
+           alt="Pizzería El Huerto — Pizza 11"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card Pizza" data-filter="Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza12.jpg"
+           alt="Pizzería El Huerto — Pizza 12"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card Pizza" data-filter="Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza13.jpg"
+           alt="Pizzería El Huerto — Pizza 13"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card Pizza" data-filter="Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza14.jpg"
+           alt="Pizzería El Huerto — Pizza 14"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card Pizza" data-filter="Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza15.jpg"
+           alt="Pizzería El Huerto — Pizza 15"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card Pizza" data-filter="Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza16.jpg"
+           alt="Pizzería El Huerto — Pizza 16"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card Pizza" data-filter="Pizza">
+      <img src="../../../view/gastronomia/El_Huerto/img/pizza17.jpg"
+           alt="Pizzería El Huerto — Pizza 17"
+           width="1200" height="800" loading="lazy" decoding="async">
     </div>
 
     <!-- ===== HAMBURGUESAS (burger.jpg a burger3.jpg) ===== -->
-    <div class="food_card Hamburguesas">
-      <img src="../../../view/gastronomia/El_Huerto/img/burger.jpg" alt="Hamburguesa artesanal Del Huerto" loading="lazy" decoding="async">
-      <div class="overlay_food_card"><div class="food_info"></div></div>
+    <div class="food_card Hamburguesas" data-filter="Hamburguesas">
+      <img src="../../../view/gastronomia/El_Huerto/img/burger.jpg"
+           alt="Pizzería El Huerto — Hamburguesa"
+           width="1200" height="800" loading="lazy" decoding="async">
     </div>
 
-    <div class="food_card Hamburguesas">
-      <img src="../../../view/gastronomia/El_Huerto/img/burger2.jpg" alt="Hamburguesa con papas y salsas" loading="lazy" decoding="async">
-      <div class="overlay_food_card"><div class="food_info"></div></div>
+    <div class="food_card Hamburguesas" data-filter="Hamburguesas">
+      <img src="../../../view/gastronomia/El_Huerto/img/burger2.jpg"
+           alt="Pizzería El Huerto — Hamburguesa 2"
+           width="1200" height="800" loading="lazy" decoding="async">
     </div>
 
-    <div class="food_card Hamburguesas">
-      <img src="../../../view/gastronomia/El_Huerto/img/burger3.jpg" alt="Hamburguesa doble carne Del Huerto" loading="lazy" decoding="async">
-      <div class="overlay_food_card"><div class="food_info"></div></div>
+    <div class="food_card Hamburguesas" data-filter="Hamburguesas">
+      <img src="../../../view/gastronomia/El_Huerto/img/burger3.jpg"
+           alt="Pizzería El Huerto — Hamburguesa 3"
+           width="1200" height="800" loading="lazy" decoding="async">
     </div>
 
-    <!-- ===== GENERAL (general.jpg a general2.jpg) ===== -->
-    <div class="food_card General">
-      <img src="../../../view/gastronomia/El_Huerto/img/general.jpg" alt="Plato general de la carta Del Huerto" loading="lazy" decoding="async">
-      <div class="overlay_food_card"><div class="food_info"></div></div>
+    <!-- ===== GENERAL (general.jpg a general10.jpg) ===== -->
+    <div class="food_card General" data-filter="General">
+      <img src="../../../view/gastronomia/El_Huerto/img/general.jpg"
+           alt="Pizzería El Huerto — General"
+           width="1200" height="800" loading="lazy" decoding="async">
     </div>
 
-    <div class="food_card General">
-      <img src="../../../view/gastronomia/El_Huerto/img/general2.jpg" alt="Variedad de platos Del Huerto" loading="lazy" decoding="async">
-      <div class="overlay_food_card"><div class="food_info"></div></div>
+    <div class="food_card General" data-filter="General">
+      <img src="../../../view/gastronomia/El_Huerto/img/general1.jpg"
+           alt="Pizzería El Huerto — General 1"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card General" data-filter="General">
+      <img src="../../../view/gastronomia/El_Huerto/img/general2.jpg"
+           alt="Pizzería El Huerto — General 2"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card General" data-filter="General">
+      <img src="../../../view/gastronomia/El_Huerto/img/general3.jpg"
+           alt="Pizzería El Huerto — General 3"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card General" data-filter="General">
+      <img src="../../../view/gastronomia/El_Huerto/img/general4.jpg"
+           alt="Pizzería El Huerto — General 4"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card General" data-filter="General">
+      <img src="../../../view/gastronomia/El_Huerto/img/general5.jpg"
+           alt="Pizzería El Huerto — General 5"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card General" data-filter="General">
+      <img src="../../../view/gastronomia/El_Huerto/img/general6.jpg"
+           alt="Pizzería El Huerto — General 6"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card General" data-filter="General">
+      <img src="../../../view/gastronomia/El_Huerto/img/general7.jpg"
+           alt="Pizzería El Huerto — General 7"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card General" data-filter="General">
+      <img src="../../../view/gastronomia/El_Huerto/img/general8.jpg"
+           alt="Pizzería El Huerto — General 8"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card General" data-filter="General">
+      <img src="../../../view/gastronomia/El_Huerto/img/general9.jpg"
+           alt="Pizzería El Huerto — General 9"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card General" data-filter="General">
+      <img src="../../../view/gastronomia/El_Huerto/img/general10.jpg"
+           alt="Pizzería El Huerto — General 10"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <!-- ===== POSTRES (postres.jpg a postres5.jpg) ===== -->
+    <div class="food_card Postres" data-filter="Postres">
+      <img src="../../../view/gastronomia/El_Huerto/img/postres.jpg"
+           alt="Pizzería El Huerto — Postre"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card Postres" data-filter="Postres">
+      <img src="../../../view/gastronomia/El_Huerto/img/postres1.jpg"
+           alt="Pizzería El Huerto — Postre 1"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card Postres" data-filter="Postres">
+      <img src="../../../view/gastronomia/El_Huerto/img/postres2.jpg"
+           alt="Pizzería El Huerto — Postre 2"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card Postres" data-filter="Postres">
+      <img src="../../../view/gastronomia/El_Huerto/img/postres3.jpg"
+           alt="Pizzería El Huerto — Postre 3"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card Postres" data-filter="Postres">
+      <img src="../../../view/gastronomia/El_Huerto/img/postres4.jpg"
+           alt="Pizzería El Huerto — Postre 4"
+           width="1200" height="800" loading="lazy" decoding="async">
+    </div>
+
+    <div class="food_card Postres" data-filter="Postres">
+      <img src="../../../view/gastronomia/El_Huerto/img/postres5.jpg"
+           alt="Pizzería El Huerto — Postre 5"
+           width="1200" height="800" loading="lazy" decoding="async">
     </div>
 
   </div>

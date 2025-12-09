@@ -16,8 +16,8 @@ $jsTime = filemtime('../../../view/gastronomia/Pablos_Restaurant/galery/gastrono
 	      <li class="filter_items" data-filter="Ensalada">Ensalada</li>
 				<li class="filter_items" data-filter="Especial">Especial</li>
 	      <li class="filter_items" data-filter="Jugo">Jugos</li>
-				 <li class="filter_items" data-filter="Sopas">Sopas</li>
-				  <li class="filter_items" data-filter="Lugar">Lugar</li>
+				<li class="filter_items" data-filter="Sopas">Sopas</li>
+				<li class="filter_items" data-filter="Lugar">Lugar</li>
 	    </ul>
 	  </div>
 
