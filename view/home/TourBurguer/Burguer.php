@@ -67,7 +67,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <h3 class="tourburger-card__name">Kalú Café Resto-Bar</h3>
       <p class="tourburger-card__details">
-        Arbeláez, Cundinamarca — Ambiente familiar y hamburguesa TourBurger Kalú.
+        Al lado de la capilla, en la parte de atras del parque verde.
       </p>
 
       <!-- 🍔 Info de la hamburguesa -->
@@ -117,7 +117,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <h3 class="tourburger-card__name">KapaLuna 360°</h3>
       <p class="tourburger-card__details">
-        Arbeláez, Cundinamarca — Vista panorámica y TourBurger parrillera.
+        Cuadra y media de la alcaldía.
       </p>
 
       <div class="tourburger-card__burger">
@@ -216,7 +216,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <h3 class="tourburger-card__name">Totumazo 2</h3>
       <p class="tourburger-card__details">
-        Tradición hamburguesera — TourBurger con sabor clásico y generoso.
+        Plaza de mercado segundo piso
       </p>
 
       <div class="tourburger-card__burger">
@@ -238,7 +238,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           Contacto
         </a>
         <a
-          href="https://maps.app.goo.gl/41QQ4FCvsKua8N1K7"
+          href="https://maps.app.goo.gl/vFRPVwwSx248vo2z5"
           class="btn btn--ghost"
           target="_blank"
           rel="noopener noreferrer"
@@ -265,7 +265,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <h3 class="tourburger-card__name">Del Huerto</h3>
       <p class="tourburger-card__details">
-        Frente al parque principal — TourBurger con ingredientes frescos y locales.
+        Costado del parque principal
       </p>
 
       <div class="tourburger-card__burger">
@@ -314,7 +314,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <h3 class="tourburger-card__name">Pimienta Gastro-Bar</h3>
       <p class="tourburger-card__details">
-        Entorno natural — TourBurger para disfrutar en un ambiente campestre.
+        Villa Olimpica
       </p>
 
       <div class="tourburger-card__burger">
@@ -363,7 +363,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <h3 class="tourburger-card__name">Don Cipro</h3>
       <p class="tourburger-card__details">
-        Sabor local — TourBurger perfecta para cerrar el recorrido con broche de oro.
+        Casa de colores, esquina del parque verde.
       </p>
 
       <div class="tourburger-card__burger">
@@ -411,7 +411,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <h3 class="tourburger-card__name">La Moza Gastro-Bar</h3>
       <p class="tourburger-card__details">
-        Sabor local — TourBurger perfecta para cerrar el recorrido con broche de oro.
+        Entrada de Arbeláez-Fusagasugá
       </p>
 
       <div class="tourburger-card__burger">

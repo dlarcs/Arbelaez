@@ -328,7 +328,7 @@
 /* En móvil las imágenes un poco más bajas */
 @media (max-width: 640px) {
   .tourburger-card__thumb img {
-    height: 150px;
+    height: 300px;
   }
 }
 /* =========================
