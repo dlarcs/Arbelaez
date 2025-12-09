@@ -41,7 +41,7 @@ $lodgings = [
     'distance'  => '5 min 🚶',
     'reserve'   => ['type' => 'url', 'url' => 'https://www.airbnb.com.co/rooms/47158905', 'label' => 'airbnb'],
     'category'  => 'Rural',
-    'desc'      => 'Casa rural accesible, en ambiente privado y seguro. Huerta orgánica y avistamiento de aves.'
+    'desc'      => '6 huéspedes, 3 habitaciones, 5 camas, 2 baños: Casa rural accesible, en ambiente privado y seguro. Huerta orgánica y avistamiento de aves.'
   ],
   [
     'name'      => 'La Rinconada',
@@ -52,7 +52,7 @@ $lodgings = [
     'distance'  => '5 min 🚶',
     'reserve'   => ['type' => 'wa', 'phone' => '573007804430', 'label' => 'Reservas'],
     'category'  => 'Rural',
-    'desc'      => 'Alojamiento campestre con piscina y jacuzzi, rodeado de naturaleza. Ideal para descansar o celebrar en familia.'
+    'desc'      => 'Alojamiento hasta para 44 personas, finca campestre con piscina y jacuzzi, rodeado de naturaleza. Ideal para descansar o celebrar en familia. A 10 min del pueblo'
   ],
   [
     'name'      => 'Casa Kandu',
@@ -63,7 +63,7 @@ $lodgings = [
     'distance'  => '15 min 🚶',
     'reserve'   => ['type' => 'wa', 'phone' => '573112250633', 'label' => 'Reservar'],
     'category'  => 'Rural',
-    'desc'      => 'Ambiente familiar, cálido y tranquilo para desconectar y respirar aire puro. Zona BBQ y espacios amplios para compartir.'
+    'desc'      => '12 huéspedes, 3 habitaciones y un miniglamping, 4 camas dobles y 4 camas sencillas, tres baños y dos duchasAmbiente familiar, cálido y tranquilo para desconectar y respirar aire puro. Zona BBQ y espacios amplios para compartir.'
   ],
   [
     'name'      => 'Los Altos',
