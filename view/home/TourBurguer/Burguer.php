@@ -345,54 +345,6 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         </a>
       </div>
     </article>
-    <!-- CARD 8 – La moza -->
-    <article
-      class="tourburger-card"
-      data-image="../../view/home/TourBurguer/img/general.png"
-      data-image-alt="TourBurger de La moza"
-     >
-      <figure class="tourburger-card__thumb">
-        <img
-          src="../../view/home/TourBurguer/img/general.png"
-          alt="TourBurger de La moza"
-          loading="lazy"
-          decoding="async"
-        >
-      </figure>
-
-      <h3 class="tourburger-card__name">La Moza Gastro-Bar</h3>
-      <p class="tourburger-card__details">
-        Sabor local — TourBurger perfecta para cerrar el recorrido con broche de oro.
-      </p>
-
-      <div class="tourburger-card__burger">
-        <h4 class="tourburger-card__burger-name">
-          TourBurger Doble Moza
-        </h4>
-        <p class="tourburger-card__burger-ingredients">
-          Carne de res, queso, tocineta, vegetales frescos y salsa secreta de la casa.
-        </p>
-      </div>
-
-      <div class="tourburger-card__actions">
-        <a
-          href="https://wa.me/573123804104?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
-          class="btn btn--primary"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Contacto
-        </a>
-        <a
-          href="https://maps.app.goo.gl/eLECkCAz2VHhvc2s8"
-          class="btn btn--ghost"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Cómo llegar
-        </a>
-      </div>
-    </article>
 
     <!-- CARD 7 – Don Cipro -->
     <article
@@ -442,7 +394,54 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         </a>
       </div>
     </article>
+    <!-- CARD 8 – La moza -->
+    <article
+      class="tourburger-card"
+      data-image="../../view/home/TourBurguer/img/general.png"
+      data-image-alt="TourBurger de La moza"
+     >
+      <figure class="tourburger-card__thumb">
+        <img
+          src="../../view/home/TourBurguer/img/general.png"
+          alt="TourBurger de La moza"
+          loading="lazy"
+          decoding="async"
+        >
+      </figure>
 
+      <h3 class="tourburger-card__name">La Moza Gastro-Bar</h3>
+      <p class="tourburger-card__details">
+        Sabor local — TourBurger perfecta para cerrar el recorrido con broche de oro.
+      </p>
+
+      <div class="tourburger-card__burger">
+        <h4 class="tourburger-card__burger-name">
+          TourBurger Doble Moza
+        </h4>
+        <p class="tourburger-card__burger-ingredients">
+          Carne de res, queso, tocineta, vegetales frescos y salsa secreta de la casa.
+        </p>
+      </div>
+
+      <div class="tourburger-card__actions">
+        <a
+          href="https://wa.me/573123804104?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
+          class="btn btn--primary"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Contacto
+        </a>
+        <a
+          href="https://maps.app.goo.gl/eLECkCAz2VHhvc2s8"
+          class="btn btn--ghost"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Cómo llegar
+        </a>
+      </div>
+    </article>
   </div>
 
 
