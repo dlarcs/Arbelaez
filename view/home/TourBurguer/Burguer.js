@@ -52,8 +52,9 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!imgSrc) return;
 
       const triggers = card.querySelectorAll(
-        ".tourburger-card__name, .tourburger-card__details"
-      );
+  ".tourburger-card__name, .tourburger-card__details, .tourburger-card__thumb"
+);
+
 
       triggers.forEach((trigger) => {
         trigger.addEventListener("click", () => {

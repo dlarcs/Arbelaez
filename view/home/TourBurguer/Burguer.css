@@ -286,3 +286,48 @@
     margin: 6vh 1rem;
   }
 }
+/* =========================
+   TOURBURGER – CARDS EXTRA
+========================= */
+
+/* Mini-foto dentro de la tarjeta */
+.tourburger-card__thumb {
+  margin: -0.25rem -0.25rem 0.75rem;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--tourburger-border);
+}
+
+.tourburger-card__thumb img {
+  display: block;
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+/* Bloque de hamburguesa (nombre + ingredientes) */
+.tourburger-card__burger {
+  font-size: 0.85rem;
+  color: var(--tourburger-muted);
+  border-top: 1px dashed #374151;
+  padding-top: 0.5rem;
+}
+
+.tourburger-card__burger-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0 0 0.15rem;
+  color: var(--tourburger-accent);
+}
+
+.tourburger-card__burger-ingredients {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* En móvil las imágenes un poco más bajas */
+@media (max-width: 640px) {
+  .tourburger-card__thumb img {
+    height: 150px;
+  }
+}
