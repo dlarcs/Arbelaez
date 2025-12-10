@@ -78,7 +78,7 @@ $lodgings = [
     'desc'      => 'Alojamiento comodo y accesible, en el pueblo de arbelaez, la mejor opción 24 horas.'
   ],
   [
-    'name'      => 'Kiyari',
+    'name'      => 'Casa Kiyari',
     'slug'      => 'Casa_Kiyari',
     'img'       => '../../view/alojamiento/Casa_Kiyari/img/general.jpeg',
     'img_alt'   => 'Casa Kiyari – vista general',
