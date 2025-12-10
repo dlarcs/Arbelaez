@@ -86,7 +86,7 @@ $lodgings = [
     'distance'  => '20 min 🚶',
     'reserve'   => ['type' => 'wa', 'phone' => '573016677095', 'label' => 'Reservar'],
     'category'  => 'Rural',
-    'desc'      => 'Alojamiento comodo y accesible, con caminata ecologica.'
+    'desc'      => ' 6 huéspedes, 1 habitación con  cama doble, dos habitaciones con camas sencillas y 2 baños, para acampar 15 personas 6 carpas bajo techo, traer carpa:Alojamiento comodo y accesible, con caminata ecologica.'
   ],
   [
     'name'      => 'IsraHousSuites',
