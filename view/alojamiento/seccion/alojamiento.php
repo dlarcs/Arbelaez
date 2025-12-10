@@ -80,7 +80,7 @@ $lodgings = [
   [
     'name'      => 'Kiyari',
     'slug'      => 'Casa_Kiyari',
-    'img'       => '../../view/alojamiento/Casa_Kiyari/img/general2.jpg',
+    'img'       => '../../view/alojamiento/Casa_Kiyari/img/logo.jpeg',
     'img_alt'   => 'Casa Kiyari – vista general',
     'map_url'   => 'https://maps.app.goo.gl/2vw5ETNGfCsFp78LA',
     'distance'  => '20 min 🚶',
