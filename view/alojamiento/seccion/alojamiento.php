@@ -10,17 +10,7 @@ function wa_link($phoneInt, $alojamiento) {
 
 // ====== Configuración de alojamientos (agrega/edita aquí) ======
 $lodgings = [
-  [
-    'name'      => 'IsraHousSuites',
-    'slug'      => 'IsraHousSuites',
-    'img'       => '../../view/alojamiento/img/isaraHouse.jpeg',
-    'img_alt'   => 'IsraHousSuites – vista del alojamiento',
-    'map_url'   => 'https://maps.app.goo.gl/5K3pzDrMt5Bnyfb16',
-    'distance'  => '15 min 🚶',
-    'reserve'   => ['type' => 'wa', 'phone' => '573102443297', 'label' => 'Reservas'],
-    'category'  => 'Rural',
-    'desc'      => '35 huéspedes, 6 habitaciones, 40 camas y 9 baños, alojamiento con hermosa vista y acceso al río. Zonas comunes cómodas, cocina equipada, BBQ y parqueadero. A 15 minutos a pie del pueblo.'
-  ],
+
   [
     'name'      => 'Cachorros L&C',
     'slug'      => 'Cachorros_LyC',
@@ -97,6 +87,17 @@ $lodgings = [
     'reserve'   => ['type' => 'wa', 'phone' => '573016677095', 'label' => 'Reservar'],
     'category'  => 'Rural',
     'desc'      => 'Alojamiento comodo y accesible, con caminata ecologica.'
+  ],
+  [
+    'name'      => 'IsraHousSuites',
+    'slug'      => 'IsraHousSuites',
+    'img'       => '../../view/alojamiento/img/isaraHouse.jpeg',
+    'img_alt'   => 'IsraHousSuites – vista del alojamiento',
+    'map_url'   => 'https://maps.app.goo.gl/5K3pzDrMt5Bnyfb16',
+    'distance'  => '15 min 🚶',
+    'reserve'   => ['type' => 'wa', 'phone' => '573102443297', 'label' => 'Reservas'],
+    'category'  => 'Rural',
+    'desc'      => '35 huéspedes, 6 habitaciones, 40 camas y 9 baños, alojamiento con hermosa vista y acceso al río. Zonas comunes cómodas, cocina equipada, BBQ y parqueadero. A 15 minutos a pie del pueblo.'
   ],
 ];
 ?>
