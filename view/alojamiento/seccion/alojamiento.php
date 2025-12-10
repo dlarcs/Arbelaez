@@ -19,7 +19,7 @@ $lodgings = [
     'distance'  => '15 min 🚶',
     'reserve'   => ['type' => 'wa', 'phone' => '573102443297', 'label' => 'Reservas'],
     'category'  => 'Rural',
-    'desc'      => '35 huéspedes, 6 habitaciones, 40 camas y 9 baños correcto, alojamiento con hermosa vista y acceso al río. Zonas comunes cómodas, cocina equipada, BBQ y parqueadero. A 15 minutos a pie del pueblo.'
+    'desc'      => '35 huéspedes, 6 habitaciones, 40 camas y 9 baños, alojamiento con hermosa vista y acceso al río. Zonas comunes cómodas, cocina equipada, BBQ y parqueadero. A 15 minutos a pie del pueblo.'
   ],
   [
     'name'      => 'Cachorros L&C',
@@ -80,12 +80,23 @@ $lodgings = [
     'name'      => 'La Casita N°2',
     'slug'      => 'La_Casita2',
     'img'       => '../../view/alojamiento/La_Casita2/img/general2.jpg',
-    'img_alt'   => 'Los Altos – vista general',
+    'img_alt'   => 'La Casita – vista general',
     'map_url'   => 'https://maps.app.goo.gl/8iXw4nfoL2ehs9ZR7',
     'distance'  => '7 min 🚶',
     'reserve'   => ['type' => 'wa', 'phone' => '573103360964', 'label' => 'Reservar'],
     'category'  => 'Rural',
     'desc'      => 'Alojamiento comodo y accesible, en el pueblo de arbelaez, la mejor opción 24 horas.'
+  ],
+  [
+    'name'      => 'Kiyari',
+    'slug'      => 'Casa_Kiyari',
+    'img'       => '../../view/alojamiento/Casa_Kiyari/img/general2.jpg',
+    'img_alt'   => 'Casa Kiyari – vista general',
+    'map_url'   => 'https://maps.app.goo.gl/2vw5ETNGfCsFp78LA',
+    'distance'  => '20 min 🚶',
+    'reserve'   => ['type' => 'wa', 'phone' => '573016677095', 'label' => 'Reservar'],
+    'category'  => 'Rural',
+    'desc'      => 'Alojamiento comodo y accesible, con caminata ecologica.'
   ],
 ];
 ?>

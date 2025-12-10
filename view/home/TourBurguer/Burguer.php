@@ -76,7 +76,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           TourBurger Reno Arbeláez 2025
         </h4>
         <p class="tourburger-card__burger-ingredients">
-          Pan artesanal, carne de res, queso, tocineta, vegetales frescos y salsas de la casa.
+          •⁠  ⁠Pan finas hierbas, 150 gramos de carne artesanal, ⁠Lechuga crespa, ⁠tomate, Queso fundid, Cebolla crispy, Salsa de café y tocineta caramelizada.
         </p>
       </div>
 
