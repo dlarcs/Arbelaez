@@ -73,7 +73,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
       <!-- 🍔 Info de la hamburguesa -->
       <div class="tourburger-card__burger">
         <h4 class="tourburger-card__burger-name">
-          TourBurger Kalú
+          TourBurger Reno Arbeláez 2025
         </h4>
         <p class="tourburger-card__burger-ingredients">
           Pan artesanal, carne de res, queso, tocineta, vegetales frescos y salsas de la casa.
@@ -122,7 +122,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <div class="tourburger-card__burger">
         <h4 class="tourburger-card__burger-name">
-          TourBurger KapaLuna 360°
+          TourBurger La Pelotera Arbeláez 2025
         </h4>
         <p class="tourburger-card__burger-ingredients">
           Pan tipo brioche, Carne artesanal, Queso cheddar, Queso Philadelphia rosa, Costilla a la barbacoa,
@@ -221,7 +221,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <div class="tourburger-card__burger">
         <h4 class="tourburger-card__burger-name">
-          TourBurger Totumazo 2
+          TourBurger Sipote Arbeláez 2025
         </h4>
         <p class="tourburger-card__burger-ingredients">
           Carne de res, queso cheddar, tomate, lechuga, cebolla y salsa tártara.
@@ -368,7 +368,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <div class="tourburger-card__burger">
         <h4 class="tourburger-card__burger-name">
-          TourBurger Don Cipro
+          TourBurger Campechana Arbeláez 2025
         </h4>
         <p class="tourburger-card__burger-ingredients">
           Carne de res, queso, tocineta, vegetales frescos y salsa secreta de la casa.
@@ -416,7 +416,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <div class="tourburger-card__burger">
         <h4 class="tourburger-card__burger-name">
-          TourBurger Doble Moza
+          TourBurger Doble Moza Arbeláez 2025
         </h4>
         <p class="tourburger-card__burger-ingredients">
           Carne de res, queso, tocineta, vegetales frescos y salsa secreta de la casa.
