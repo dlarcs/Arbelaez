@@ -94,9 +94,7 @@
   width: 100vw;
 	height: 80vh;
   margin: 0 auto;
-  padding: 1rem;
 	display: flex;
-	background-color: red;
 }
 
 .video-container iframe {
