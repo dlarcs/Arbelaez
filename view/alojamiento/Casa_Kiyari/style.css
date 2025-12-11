@@ -19,60 +19,80 @@
 .body_Casa_Kiyari{
   margin:0;
   padding:0;
-  background:#fdf7ef;           /* Fondo cálido, tipo crema */
   position:relative;
   overflow-x:hidden;
+  min-height:100vh;
 
-  /* ajusta tamaños aquí */
-  --stripe: 140px;
-  --cloudW: 70px;
+  /* Paleta Kiyari (del logo) */
+  --kiyari-purple: #14002a;
+  --kiyari-purple-soft: #2a0745;
+  --kiyari-orange: #ff5e00;
+  --kiyari-orange-soft: #ffe1c2;
+  --kiyari-lime: #c7ff34;
 
-  /* Colores tomados del logo */
-  --kiyari-purple: #1a0624;     /* morado oscuro contorno */
-  --kiyari-orange-light: #ff8a2a;
-  --kiyari-orange-dark: #d85a00;
-  --kiyari-lime: #c7ff34;       /* verde texto / hojas */
+  /* Fondo crema con toques naranja/verde muy suaves */
+  background:
+    radial-gradient(circle at 0 0,
+      rgba(199,255,52,.18) 0 40%, transparent 60%),
+    radial-gradient(circle at 100% 100%,
+      rgba(255,94,0,.20) 0 45%, transparent 65%),
+    linear-gradient(180deg,#fff9f2 0,#ffe9d1 40%,#fff9f2 100%);
 }
 
-/* Franja lateral estilo “vitrina Kiyari” */
+/* Panel lateral morado con silueta geométrica (recuerda al marco del logo) */
 .body_Casa_Kiyari::before{
   content:"";
   position:fixed;
   top:0;
   right:0;
-  width:var(--stripe);
   height:100vh;
-  background:
-    linear-gradient(
-      180deg,
-      var(--kiyari-orange-light) 0%,
-      var(--kiyari-orange-dark) 55%,
-      var(--kiyari-orange-light) 100%
-    );
+  width:min(26vw,320px);
+  background:linear-gradient(
+    180deg,
+    var(--kiyari-purple) 0%,
+    var(--kiyari-purple-soft) 50%,
+    var(--kiyari-purple) 100%
+  );
+  clip-path: polygon(
+    22% 0,
+    100% 0,
+    100% 100%,
+    22% 100%,
+    0 82%,
+    9% 50%,
+    0 18%
+  );
   z-index:0;
   pointer-events:none;
 }
 
-/* Borde tipo nube con morado del logo y un brillito verde */
+/* Motivo interno con círculos verde/naranja tipo hojas + luna */
 .body_Casa_Kiyari::after{
   content:"";
   position:fixed;
-  top:0;
-  right: calc(var(--stripe) - (var(--cloudW) / 2));
-  width:var(--cloudW);
-  height:100vh;
+  top:8vh;
+  right:1.8rem;
+  height:84vh;
+  width:min(20vw,260px);
 
-  /* círculos morados con un halo verde sutil */
   background:
-    radial-gradient(circle at 50% 40px, var(--kiyari-purple) 0 14px, transparent 32px) repeat-y;
-  background-size: var(--cloudW) 110px;
-
-  filter: drop-shadow(-3px 0 4px rgba(0,0,0,.18));
+    radial-gradient(circle at 50% 10%,
+      var(--kiyari-lime) 0 26%, transparent 28%),
+    radial-gradient(circle at 15% 45%,
+      var(--kiyari-orange) 0 22%, transparent 24%),
+    radial-gradient(circle at 85% 45%,
+      var(--kiyari-orange) 0 22%, transparent 24%),
+    radial-gradient(circle at 50% 80%,
+      var(--kiyari-lime) 0 26%, transparent 28%),
+    radial-gradient(circle at 50% 92%,
+      var(--kiyari-purple) 0 16%, transparent 20%);
+  border-radius: 40px;
+  box-shadow: -8px 0 18px rgba(0,0,0,.25);
   z-index:0;
   pointer-events:none;
 }
 
-/* Contenido por encima */
+/* Contenido siempre por encima del diseño */
 .body_Casa_Kiyari > *{
   position:relative;
   z-index:1;
