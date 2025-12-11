@@ -103,12 +103,12 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     <!-- CARD 2 – KapaLuna 360° -->
     <article
       class="tourburger-card"
-      data-image="../../view/home/TourBurguer/img/kapaluna.jpeg"
+      data-image="../../view/home/TourBurguer/img/kapaluna0.jpeg"
       data-image-alt="TourBurger parrillera de KapaLuna 360°"
     >
       <figure class="tourburger-card__thumb">
         <img
-          src="../../view/home/TourBurguer/img/kapaluna.jpeg"
+          src="../../view/home/TourBurguer/img/kapaluna0.jpeg"
           alt="TourBurger parrillera de KapaLuna 360°"
           loading="lazy"
           decoding="async"
