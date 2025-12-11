@@ -2,6 +2,15 @@
 $cssTime = filemtime('../../../view/alojamiento/Casa_Kiyari/bout_us/about.css');
 ?>
 	<link rel="stylesheet" href="../../../view/alojamiento/Casa_Kiyari/bout_us/about.css?v=<?= $cssTime ?>">
+	<div class="video-container">
+	  <iframe
+	    src="../../../view/alojamiento/Casa_Kiyari/bout_us/video.mp4"
+	    title="Video de ejemplo"
+	    frameborder="0"
+	    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+	    allowfullscreen>
+	  </iframe>
+	</div>
 
 	<main id="about_Casa_Kiyari" class="wrap">
 	  <article class="card" itemscope itemtype="https://schema.org/LodgingBusiness">
