@@ -40,28 +40,6 @@
 }
 
 
-
-/* Motivo interno con círculos verde/naranja tipo hojas + luna */
-.body_Casa_Kiyari::after{
-  content:"";
-  position:fixed;
-  top:8vh;
-  right:1.8rem;
-  height:84vh;
-  width:min(20vw,260px);
-  border-radius: 40px;
-  box-shadow: -8px 0 18px rgba(0,0,0,.25);
-  z-index:0;
-  pointer-events:none;
-}
-
-/* Contenido siempre por encima del diseño */
-.body_Casa_Kiyari > *{
-  position:relative;
-  z-index:1;
-}
-
-
 /* Botón flotante WhatsApp (abajo-derecha) */
 .whatsapp-fab{
   position: fixed;
