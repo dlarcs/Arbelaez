@@ -74,18 +74,6 @@
   right:1.8rem;
   height:84vh;
   width:min(20vw,260px);
-
-  background:
-    radial-gradient(circle at 50% 10%,
-      var(--kiyari-lime) 0 26%, transparent 28%),
-    radial-gradient(circle at 15% 45%,
-      var(--kiyari-orange) 0 22%, transparent 24%),
-    radial-gradient(circle at 85% 45%,
-      var(--kiyari-orange) 0 22%, transparent 24%),
-    radial-gradient(circle at 50% 80%,
-      var(--kiyari-lime) 0 26%, transparent 28%),
-    radial-gradient(circle at 50% 92%,
-      var(--kiyari-purple) 0 16%, transparent 20%);
   border-radius: 40px;
   box-shadow: -8px 0 18px rgba(0,0,0,.25);
   z-index:0;
