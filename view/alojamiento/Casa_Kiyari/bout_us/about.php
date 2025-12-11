@@ -12,6 +12,16 @@ $cssTime = filemtime('../../../view/alojamiento/Casa_Kiyari/bout_us/about.css');
 	  </iframe>
 
 	</div>
+	<div class="video-container">
+		<iframe
+			src="../../../view/alojamiento/Casa_Kiyari/bout_us/video1.mp4"
+			title="Video de ejemplo"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			allowfullscreen>
+		</iframe>
+
+	</div>
 
 
 	<main id="about_Casa_Kiyari" class="wrap">
@@ -64,13 +74,3 @@ $cssTime = filemtime('../../../view/alojamiento/Casa_Kiyari/bout_us/about.css');
 
 	  </article>
 	</main>
-	<div class="video-container">
-		<iframe
-			src="../../../view/alojamiento/Casa_Kiyari/bout_us/video1.mp4"
-			title="Video de ejemplo"
-			frameborder="0"
-			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-			allowfullscreen>
-		</iframe>
-
-	</div>
