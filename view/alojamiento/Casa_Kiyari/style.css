@@ -39,32 +39,7 @@
     linear-gradient(180deg,#fff9f2 0,#ffe9d1 40%,#fff9f2 100%);
 }
 
-/* Panel lateral morado con silueta geométrica (recuerda al marco del logo) */
-.body_Casa_Kiyari::before{
-  content:"";
-  position:fixed;
-  top:0;
-  right:0;
-  height:100vh;
-  width:min(26vw,320px);
-  background:linear-gradient(
-    180deg,
-    var(--kiyari-purple) 0%,
-    var(--kiyari-purple-soft) 50%,
-    var(--kiyari-purple) 100%
-  );
-  clip-path: polygon(
-    22% 0,
-    100% 0,
-    100% 100%,
-    22% 100%,
-    0 82%,
-    9% 50%,
-    0 18%
-  );
-  z-index:0;
-  pointer-events:none;
-}
+
 
 /* Motivo interno con círculos verde/naranja tipo hojas + luna */
 .body_Casa_Kiyari::after{
