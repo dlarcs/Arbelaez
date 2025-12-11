@@ -89,19 +89,45 @@
 	}
 }
 /*video*/
-.video-container {
-  position: relative;
-  width: 100vw;
-	height: 60vh;
-  margin: 0 auto;
-	display: flex;
+/* Contenedor de los dos videos */
+.videos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+  padding: 0 1rem;
 }
 
+/* Cada video */
+.video-container {
+  position: relative;
+  flex: 1 1 500px;      /* 2 columnas en escritorio, 1 en pantallas pequeñas */
+  aspect-ratio: 16 / 9; /* mantiene proporción de video */
+  overflow: hidden;
+  border-radius: 16px;
+  background: #000;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+}
+
+/* El iframe ocupa todo el contenedor */
 .video-container iframe {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
   border: 0;
-	margin: auto;
+}
+
+/* Ajuste extra para móviles */
+@media (max-width: 768px) {
+  .videos-grid {
+    flex-direction: column;
+  }
+
+  .video-container {
+    flex: 1 1 100%;
+  }
 }
