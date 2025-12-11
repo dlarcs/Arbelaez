@@ -363,7 +363,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <h3 class="tourburger-card__name">Don Cipro</h3>
       <p class="tourburger-card__details">
-        Casa de colores, esquina del parque verde.
+        Ubicado en la casa de los pájaros segundo piso al frente del parque Gómez Otero
       </p>
 
       <div class="tourburger-card__burger">
