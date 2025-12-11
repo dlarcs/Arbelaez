@@ -116,8 +116,8 @@ $jsTime = filemtime('../../view/gastronomia/seccion/restaurante.js');   // ejemp
     ],
 		[
       'name'         => 'Del Huerto',
-      'slug'         => 'El_Huerto',
-      'img'          => '../../view/gastronomia/El_Huerto/img/logo.jpg',
+      'slug'         => 'Del_Huerto',
+      'img'          => '../../view/gastronomia/Del_Huerto/img/logo.jpg',
       'img_alt'      => 'Logo de la pizzeria del Huerto',
       'zone'         => 'Pueblo', // aquí lo pongo como Pueblo para que el filtro tenga sentido
       'schema'       => 'Restaurant',
