@@ -19,16 +19,22 @@
 .body_Casa_Kiyari{
   margin:0;
   padding:0;
-  background:#fafafa;
+  background:#fdf7ef;           /* Fondo cálido, tipo crema */
   position:relative;
   overflow-x:hidden;
 
   /* ajusta tamaños aquí */
   --stripe: 140px;
   --cloudW: 70px;
+
+  /* Colores tomados del logo */
+  --kiyari-purple: #1a0624;     /* morado oscuro contorno */
+  --kiyari-orange-light: #ff8a2a;
+  --kiyari-orange-dark: #d85a00;
+  --kiyari-lime: #c7ff34;       /* verde texto / hojas */
 }
 
-/* Franja azul cielo */
+/* Franja lateral estilo “vitrina Kiyari” */
 .body_Casa_Kiyari::before{
   content:"";
   position:fixed;
@@ -36,12 +42,18 @@
   right:0;
   width:var(--stripe);
   height:100vh;
-  background: linear-gradient(180deg,#bfe9ff 0%, #87cefa 55%, #bfe9ff 100%);
+  background:
+    linear-gradient(
+      180deg,
+      var(--kiyari-orange-light) 0%,
+      var(--kiyari-orange-dark) 55%,
+      var(--kiyari-orange-light) 100%
+    );
   z-index:0;
   pointer-events:none;
 }
 
-/* Borde tipo nube (blanco sobre la franja) */
+/* Borde tipo nube con morado del logo y un brillito verde */
 .body_Casa_Kiyari::after{
   content:"";
   position:fixed;
@@ -50,20 +62,22 @@
   width:var(--cloudW);
   height:100vh;
 
+  /* círculos morados con un halo verde sutil */
   background:
-    radial-gradient(circle at 50% 40px, darkblue 0 10px, transparent 33px) repeat-y;
+    radial-gradient(circle at 50% 40px, var(--kiyari-purple) 0 14px, transparent 32px) repeat-y;
   background-size: var(--cloudW) 110px;
 
-  filter: drop-shadow(-3px 0 3px rgba(0,0,0,.06));
+  filter: drop-shadow(-3px 0 4px rgba(0,0,0,.18));
   z-index:0;
   pointer-events:none;
 }
 
-/* Asegura que tu contenido quede encima */
+/* Contenido por encima */
 .body_Casa_Kiyari > *{
   position:relative;
   z-index:1;
 }
+
 
 /* Botón flotante WhatsApp (abajo-derecha) */
 .whatsapp-fab{
