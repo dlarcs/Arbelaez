@@ -1,12 +1,12 @@
 <?php
-$cssTime = filemtime('../../../view/gastronomia/El_Huerto/bout_us/about.css');
+$cssTime = filemtime('../../../view/gastronomia/Del_Huerto/bout_us/about.css');
 ?>
-	<link rel="stylesheet" href="../../../view/gastronomia/El_Huerto/bout_us/about.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../../view/gastronomia/Del_Huerto/bout_us/about.css?v=<?= $cssTime ?>">
 
-	<main id="about_El_Huerto" class="wrap">
+	<main id="about_Del_Huerto" class="wrap">
 		<article class="card" itemscope itemtype="https://schema.org/LocalBusiness">
 			<figure class="hero">
-				<img src="../../../view/gastronomia/El_Huerto/img/logo.jpg" alt="El_Huerto°" itemprop="image" loading="lazy">
+				<img src="../../../view/gastronomia/Del_Huerto/img/logo.jpg" alt="Del_Huerto°" itemprop="image" loading="lazy">
 				<figcaption>Vive el sabor local</figcaption>
 			</figure>
 
@@ -35,7 +35,7 @@ $cssTime = filemtime('../../../view/gastronomia/El_Huerto/bout_us/about.css');
 		    Atendemos con cercanía y pasión por lo que hacemos. Para pedidos, reservas o información,
 		    escríbenos al
 		    <a
-		      href="https://wa.me/573194963554?text=Hola%20vengo%20desde%20la%20web%20de%20El_Huerto"
+		      href="https://wa.me/573194963554?text=Hola%20vengo%20desde%20la%20web%20de%20Del_Huerto"
 		      target="_blank"
 		      rel="noopener noreferrer"
 		      aria-label="Chatear por WhatsApp con El Huerto">

@@ -8,7 +8,7 @@
 	<!-- Básicos -->
 	<title>Del Huerto – Pizzería Artesanal en Arbeláez</title>
 	<meta name="description" content="Del Huerto es una pizzería artesanal en Arbeláez, Cundinamarca. Pizzas al horno, lasañas, hamburguesas, jugos naturales y postres, junto al parque principal y rodeados de naturaleza.">
-	<link rel="canonical" href="https://www.arbelaez.com.co/view/gastronomia/El_Huerto/index.php">
+	<link rel="canonical" href="https://www.arbelaez.com.co/view/gastronomia/Del_Huerto/index.php">
 	<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 
 	<!-- Idioma y geografía -->
@@ -91,21 +91,21 @@ pizza del huerto
 	<meta property="og:type" content="restaurant">
 	<meta property="og:title" content="Del Huerto – Pizzería Artesanal en Arbeláez">
 	<meta property="og:description" content="Pizzas artesanales al horno, lasañas, hamburguesas, jugos naturales y postres en un espacio rodeado de naturaleza junto al parque principal de Arbeláez.">
-	<meta property="og:url" content="https://www.arbelaez.com.co/view/gastronomia/El_Huerto/index.php">
-	<meta property="og:image" content="https://www.arbelaez.com.co/media/El_Huerto/og-1200x630.jpg">
+	<meta property="og:url" content="https://www.arbelaez.com.co/view/gastronomia/Del_Huerto/index.php">
+	<meta property="og:image" content="https://www.arbelaez.com.co/media/Del_Huerto/og-1200x630.jpg">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="Del Huerto – Pizzería Artesanal en Arbeláez">
 	<meta name="twitter:description" content="La mejor pizza artesanal de Arbeláez, con lasaña, hamburguesas, jugos y postres en un ambiente natural junto al parque principal.">
-	<meta name="twitter:image" content="https://www.arbelaez.com.co/media/El_Huerto/og-1200x630.jpg">
+	<meta name="twitter:image" content="https://www.arbelaez.com.co/media/Del_Huerto/og-1200x630.jpg">
 
 	<!-- Icono / tema -->
-	<link rel="icon" href="../../../view/gastronomia/El_Huerto/img/logo.jpg" type="image/png">
-	<link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/El_Huerto/apple-touch-icon.png">
+	<link rel="icon" href="../../../view/gastronomia/Del_Huerto/img/logo.jpg" type="image/png">
+	<link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/Del_Huerto/apple-touch-icon.png">
 	<meta name="theme-color" content="#005548">
 
 	<!-- Rendimiento -->
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="preload" as="image" href="https://www.arbelaez.com.co/media/El_Huerto/hero-gastronomia.webp">
+	<link rel="preload" as="image" href="https://www.arbelaez.com.co/media/Del_Huerto/hero-gastronomia.webp">
 
 	<!-- Datos estructurados Restaurant -->
 	<script type="application/ld+json">
@@ -113,7 +113,7 @@ pizza del huerto
 	  "@context": "https://schema.org",
 	  "@type": "Restaurant",
 	  "name": "Del Huerto – Pizzería Artesanal",
-	  "url": "https://www.arbelaez.com.co/view/gastronomia/El_Huerto/index.php",
+	  "url": "https://www.arbelaez.com.co/view/gastronomia/Del_Huerto/index.php",
 	  "address": {
 	    "@type": "PostalAddress",
 	    "addressLocality": "Arbeláez",
@@ -139,25 +139,25 @@ pizza del huerto
 
 <body class="body_Del_Huerto">
 	<?php
-	$cssTime = filemtime('../../../view/gastronomia/El_Huerto/style.css'); // ejemplo: '../Home/5.Video/video.css'
+	$cssTime = filemtime('../../../view/gastronomia/Del_Huerto/style.css'); // ejemplo: '../Home/5.Video/video.css'
 	?>
-	<link rel="stylesheet" href="../../../view/gastronomia/El_Huerto/style.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../../view/gastronomia/Del_Huerto/style.css?v=<?= $cssTime ?>">
 
-	<?php include "../../../view/gastronomia/El_Huerto/menu/menu.php" ?>
+	<?php include "../../../view/gastronomia/Del_Huerto/menu/menu.php" ?>
 	<div class="container_Del_Huerto" id="restaurant">
-		<?php include "../../../view/gastronomia/El_Huerto/title/title.php" ?>
-		<?php include "../../../view/gastronomia/El_Huerto/slider/slider.php" ?>
-		<?php include "../../../view/gastronomia/El_Huerto/download/download.php" ?>
-		<?php include "../../../view/gastronomia/El_Huerto/galery/gastronomia.php" ?>
-		<?php include "../../../view/gastronomia/El_Huerto/bout_us/about.php" ?>
-		<?php include "../../../view/gastronomia/El_Huerto/maps/maps.php" ?>
+		<?php include "../../../view/gastronomia/Del_Huerto/title/title.php" ?>
+		<?php include "../../../view/gastronomia/Del_Huerto/slider/slider.php" ?>
+		<?php include "../../../view/gastronomia/Del_Huerto/download/download.php" ?>
+		<?php include "../../../view/gastronomia/Del_Huerto/galery/gastronomia.php" ?>
+		<?php include "../../../view/gastronomia/Del_Huerto/bout_us/about.php" ?>
+		<?php include "../../../view/gastronomia/Del_Huerto/maps/maps.php" ?>
 	</div>
 
-	<?php include "../../../view/gastronomia/El_Huerto/footer/footer.php" ?>
+	<?php include "../../../view/gastronomia/Del_Huerto/footer/footer.php" ?>
 
 	<!-- Botón WhatsApp con tu imagen -->
 	<a class="whatsapp-fab"
-	   href="https://wa.me/573194963554?text=Hola%20vengo%20desde%20la%20web%20de%20Del_Huerto%C2%B0"
+	   href="https://wa.me/573194963554?text=Hola%20vengo%20desde%20la%20web%20de%20DDel_Huerto%C2%B0"
 	   target="_blank"
 	   rel="noopener"
 	   aria-label="Chatear por WhatsApp">

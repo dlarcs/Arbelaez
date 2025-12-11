@@ -1,8 +1,8 @@
 <?php
-$cssTime = filemtime('../../../view/gastronomia/El_Huerto/footer/footer.css');
+$cssTime = filemtime('../../../view/gastronomia/Del_Huerto/footer/footer.css');
 // $jsTime = filemtime('../../../');
 ?>
-	<link rel="stylesheet" href="../../../view/gastronomia/El_Huerto/footer/footer.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../../view/gastronomia/Del_Huerto/footer/footer.css?v=<?= $cssTime ?>">
 	<section class="seccion_footer">
 		<div class="footer_logo">
 			<a href="../../../view/home/index.php"><img class="logo_menu" src="../../../view/global/img/logo.png" alt="Logo"></a>
@@ -23,10 +23,10 @@ $cssTime = filemtime('../../../view/gastronomia/El_Huerto/footer/footer.css');
 					</li>
 
 					<li>
-						<a href="https://www.tiktok.com/search?q=El_Huerto&t=1757266584549" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+						<a href="https://www.tiktok.com/search?q=Del_Huerto&t=1757266584549" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
 							<ion-icon name="logo-tiktok"></ion-icon><span class="sr-only">TikTok</span>
 						</a>
-					</li> --> 
+					</li> -->
 
 				</ul>
 			</div>
