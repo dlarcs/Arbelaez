@@ -21,7 +21,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         </p>
         <p class="tourburger__description">
           Visita los locales aliados, pide la <strong>TourBurger</strong>,
-          completa tu tarjetón y participa por Pasadia + Psicina + Almuerzo + bebinas para dos personas
+          completa tu tarjetón y participa por Pasadia + Jacuzzi + Psicina + Almuerzo + bebinas para dos personas.
         </p>
 
         <div class="tourburger__cta">
