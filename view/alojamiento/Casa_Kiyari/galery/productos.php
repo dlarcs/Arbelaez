@@ -24,9 +24,9 @@ $jsTime = filemtime('../../../view/alojamiento/Casa_Kiyari/galery/productos.js')
 			<div class="food_card General"><img src="../../../view/alojamiento/Casa_Kiyari/img/general1.jpeg" alt="General 2" width="1200" height="800" loading="lazy" decoding="async"></div>
 
 			<!-- ===== Rio (6) ===== -->
-			<div class="food_card Rio"><img src="../../../view/alojamiento/Casa_Kiyari/img/Rio1.jpeg" alt="Rio 1" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Rio"><img src="../../../view/alojamiento/Casa_Kiyari/img/Rio2.jpeg" alt="Rio 2" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Rio"><img src="../../../view/alojamiento/Casa_Kiyari/img/Rio3.jpeg" alt="Rio 3" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Rio"><img src="../../../view/alojamiento/Casa_Kiyari/img/rio.jpeg" alt="Rio 1" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Rio"><img src="../../../view/alojamiento/Casa_Kiyari/img/rio1.jpeg" alt="Rio 2" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Rio"><img src="../../../view/alojamiento/Casa_Kiyari/img/rio2.jpeg" alt="Rio 3" width="1200" height="800" loading="lazy" decoding="async"></div>
 
 	  </div>
 	</section>
