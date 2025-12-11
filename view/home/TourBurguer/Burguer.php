@@ -487,8 +487,8 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
             un tarjetón válido por participante.
           </li>
           <li>
-            Los premios consisten en pasadía, piscina y almuerzo para dos personas,
-            según las condiciones informadas en las redes de
+            Los premios consisten en pasadía, jacuzzi, piscina y almuerzo para dos personas,
+            esto puede variar dependiendo del premio 1 o premio 2.
             <strong>@arbelaez_turismo</strong>.
           </li>
           <li>
