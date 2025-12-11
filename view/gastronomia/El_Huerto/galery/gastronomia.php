@@ -206,11 +206,6 @@ $jsTime  = filemtime('../../../view/gastronomia/El_Huerto/galery/gastronomia.js'
            width="1200" height="800" loading="lazy" decoding="async">
     </div>
 
-    <div class="food_card General" data-filter="General">
-      <img src="../../../view/gastronomia/El_Huerto/img/general9.jpg"
-           alt="Pizzería El Huerto — General 9"
-           width="1200" height="800" loading="lazy" decoding="async">
-    </div>
 
     <div class="food_card General" data-filter="General">
       <img src="../../../view/gastronomia/El_Huerto/img/general10.jpg"
