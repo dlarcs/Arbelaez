@@ -23,13 +23,6 @@
   overflow-x:hidden;
   min-height:100vh;
 
-  /* Paleta Kiyari (del logo) */
-  --kiyari-purple: #14002a;
-  --kiyari-purple-soft: #2a0745;
-  --kiyari-orange: #ff5e00;
-  --kiyari-orange-soft: #ffe1c2;
-  --kiyari-lime: #c7ff34;
-
   /* Fondo crema con toques naranja/verde muy suaves */
   background:
     radial-gradient(circle at 0 0,
