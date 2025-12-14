@@ -17,11 +17,11 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           Ruta gastronómica de hamburguesas Arbelaences.
         </p>
         <p class="tourburger__dates">
-          Del <strong>16</strong> al <strong>28 de diciembre</strong>
+          Del <strong>14</strong> al <strong>28 de diciembre</strong>
         </p>
         <p class="tourburger__description">
           Visita los locales aliados, pide la <strong>TourBurger</strong>,
-          completa tu tarjetón y participa por Pasadia + Jacuzzi + Psicina + Almuerzo + bebinas para dos personas.
+          completa tu tarjetón y participa por Pasadia + Jacuzzi + Psicina + Almuerzo + bebidas para dos personas.
         </p>
 
         <div class="tourburger__cta">
