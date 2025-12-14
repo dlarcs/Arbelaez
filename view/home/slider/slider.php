@@ -14,7 +14,7 @@ $jsTime  = filemtime('../../view/home/slider/slider.js');
         <img src="../../view/home/TourBurguer/img/tour2.png" alt="Montañas al amanecer">
         <div class="slide__caption">
           <h2>Del 14-28 Diciembre 2025</h2>
-          <a href="tourburger"><p>Para mas información da click aqui</p></a>
+          <a href="#tourburger"><p>Para mas información da click aqui</p></a>
         </div>
       </article>
 
