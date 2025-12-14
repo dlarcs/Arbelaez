@@ -50,7 +50,6 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
       data-image => ruta de la imagen que quieres mostrar en el hero al hacer clic
       data-image-alt => texto alternativo para esa imagen
     -->
-
     <!-- CARD 1 – Kalú Café Resto-Bar -->
     <article
       class="tourburger-card"
@@ -68,7 +67,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <h3 class="tourburger-card__name">Kalú Café Resto-Bar</h3>
       <p class="tourburger-card__details">
-        Al lado de la capilla, en la parte de atras del parque verde.
+        Al lado de la casa de cafe, al lado de la capilla, cerca al parque verde.
       </p>
 
       <!-- 🍔 Info de la hamburguesa -->
@@ -118,7 +117,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <h3 class="tourburger-card__name">KapaLuna 360°</h3>
       <p class="tourburger-card__details">
-        Cuadra y media de la alcaldía.
+        Cuadra y media arriba de la alcaldía.
       </p>
 
       <div class="tourburger-card__burger">
@@ -168,7 +167,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <h3 class="tourburger-card__name">La Marranada Campestre</h3>
       <p class="tourburger-card__details">
-        Sabor contundente — TourBurger con recetas inspiradas en la casa.
+       En el arenal, san antonio.
       </p>
 
       <div class="tourburger-card__burger">
@@ -266,7 +265,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <h3 class="tourburger-card__name">Del Huerto</h3>
       <p class="tourburger-card__details">
-        Costado del parque principal
+        Costado del parque principal, frente a la alcaldía.
       </p>
 
       <div class="tourburger-card__burger">
