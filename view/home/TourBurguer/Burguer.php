@@ -22,7 +22,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         <p class="tourburger__description">
           Visita los locales aliados, pide la <strong>TourBurger</strong>,
           completa tu FICHA y participa por Pasadia + Jacuzzi + Psicina + Almuerzo + bebidas para dos personas.
-          ENTREGA TU FICHA EN LAS URNAS DE CUALQUIER DE LOS LOCALES GASTRONOMICOS PARTICIPANTES EN EL TOURBURGUER ARBELAEZ 2025
+          ENTREGA TU FICHA EN LA URNA DE CUALQUIERA DE LOS LOCALES GASTRONÓMICOS PARTICIPANTES DEL TOUR BURGER ARBELÁEZ 2025.
         </p>
 
         <div class="tourburger__cta">
