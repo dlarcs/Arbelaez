@@ -398,12 +398,12 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     <!-- CARD 8 – La moza -->
     <article
       class="tourburger-card"
-      data-image="../../view/home/TourBurguer/img/general.png"
+      data-image="../../view/home/TourBurguer/img/moza.jpeg"
       data-image-alt="TourBurger de La moza"
      >
       <figure class="tourburger-card__thumb">
         <img
-          src="../../view/home/TourBurguer/img/general.png"
+          src="../../view/home/TourBurguer/img/moza.jpeg"
           alt="TourBurger de La moza"
           loading="lazy"
           decoding="async"
