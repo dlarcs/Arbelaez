@@ -88,17 +88,17 @@ $lodgings = [
     'category'  => 'Rural',
     'desc'      => ' 6 huéspedes, 1 habitación con  cama doble, dos habitaciones con camas sencillas y 2 baños, para acampar 15 personas 6 carpas bajo techo, traer carpa:Alojamiento comodo y accesible, con caminata ecologica.'
   ],
-  [
-    'name'      => 'IsraHousSuites',
-    'slug'      => 'IsraHousSuites',
-    'img'       => '../../view/alojamiento/img/isaraHouse.jpeg',
-    'img_alt'   => 'IsraHousSuites – vista del alojamiento',
-    'map_url'   => 'https://maps.app.goo.gl/5K3pzDrMt5Bnyfb16',
-    'distance'  => '15 min 🚶',
-    'reserve'   => ['type' => 'wa', 'phone' => '573102443297', 'label' => 'Reservas'],
-    'category'  => 'Rural',
-    'desc'      => '35 huéspedes, 6 habitaciones, 40 camas y 9 baños, alojamiento con hermosa vista y acceso al río. Zonas comunes cómodas, cocina equipada, BBQ y parqueadero. A 15 minutos a pie del pueblo.'
-  ],
+  // [
+  //   'name'      => 'IsraHousSuites',
+  //   'slug'      => 'IsraHousSuites',
+  //   'img'       => '../../view/alojamiento/img/isaraHouse.jpeg',
+  //   'img_alt'   => 'IsraHousSuites – vista del alojamiento',
+  //   'map_url'   => 'https://maps.app.goo.gl/5K3pzDrMt5Bnyfb16',
+  //   'distance'  => '15 min 🚶',
+  //   'reserve'   => ['type' => 'wa', 'phone' => '573102443297', 'label' => 'Reservas'],
+  //   'category'  => 'Rural',
+  //   'desc'      => '35 huéspedes, 6 habitaciones, 40 camas y 9 baños, alojamiento con hermosa vista y acceso al río. Zonas comunes cómodas, cocina equipada, BBQ y parqueadero. A 15 minutos a pie del pueblo.'
+  // ],
 ];
 ?>
 
