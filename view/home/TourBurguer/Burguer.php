@@ -18,10 +18,10 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         </p>
         <p class="tourburger__dates">
           Del <strong>14</strong> al <strong>28 de diciembre</strong>
-        </p>
+        </p>c
         <p class="tourburger__description">
           Visita los locales aliados, pide la <strong>TourBurger</strong>,
-          completa tu FICHA y participa por Pasadia + Jacuzzi + Psicina + Almuerzo + bebidas para dos personas.
+          completa tu FICHA y participa por Pasadia + Jacuzzi + Psicina + Almuerzo + bebidas para dos personas. <br> <br>
           ENTREGA TU FICHA EN LA URNA DE CUALQUIERA DE LOS LOCALES GASTRONÓMICOS PARTICIPANTES DEL TOUR BURGER ARBELÁEZ 2025.
         </p>
 
@@ -172,7 +172,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <div class="tourburger-card__burger">
         <h4 class="tourburger-card__burger-name">
-          TourBurger La Marranada
+          TourBurger SorpresaBurger Arbeláez 2025
         </h4>
         <p class="tourburger-card__burger-ingredients">
           Carne de cerdo, queso fundido, chicharrón crocante, guacamole y salsa de la casa.
@@ -270,10 +270,10 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <div class="tourburger-card__burger">
         <h4 class="tourburger-card__burger-name">
-          TourBurger Del Huerto
+          TourBurger La Diablada Arbeláez 2025
         </h4>
         <p class="tourburger-card__burger-ingredients">
-          Carne de res, vegetales salteados, queso, hojas verdes y salsa de la casa.
+          200 GMS de carne, pan artesanal, cebolla caramelizada ,tomate, lechuga, tocineta, queso y salsas de la casa
         </p>
       </div>
 
@@ -319,10 +319,10 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <div class="tourburger-card__burger">
         <h4 class="tourburger-card__burger-name">
-          TourBurger Pimienta
+          TourBurger Golden Queen Arbeláez 2025
         </h4>
         <p class="tourburger-card__burger-ingredients">
-          Carne de res, mix de pimientas, queso, cebolla caramelizada y salsa especial.
+          Carne de artesanal, mix de salsas especiales, queso, cebolla caramelizada.
         </p>
       </div>
 
@@ -371,7 +371,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           TourBurger Campechana Arbeláez 2025
         </h4>
         <p class="tourburger-card__burger-ingredients">
-          Carne de res, queso, tocineta, vegetales frescos y salsa secreta de la casa.
+        cebolla y tomate grilleth queso mosarela carne artesanal.
         </p>
       </div>
 
@@ -416,7 +416,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <div class="tourburger-card__burger">
         <h4 class="tourburger-card__burger-name">
-          TourBurger Doble Moza Arbeláez 2025
+          TourBurger La Doble Moza Arbeláez 2025
         </h4>
         <p class="tourburger-card__burger-ingredients">
           Carne de res, queso, tocineta, vegetales frescos y salsa secreta de la casa.
