@@ -18,7 +18,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         </p>
         <p class="tourburger__dates">
           Del <strong>14</strong> al <strong>28 de diciembre</strong>
-        </p>c
+        </p>
         <p class="tourburger__description">
           Visita los locales aliados, pide la <strong>TourBurger</strong>,
           completa tu FICHA y participa por Pasadia + Jacuzzi + Psicina + Almuerzo + bebidas para dos personas. <br> <br>
