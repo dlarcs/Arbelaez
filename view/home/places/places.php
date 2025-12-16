@@ -28,7 +28,7 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       <article class="galery_card_places">
         <p class="badge">Alojamiento</p>
         <img
-          src="../../view/alojamiento/IsraHousSuites/img/exterior.jpeg"
+          src="../../view/alojamiento/Cachorros_LyC/img/trago.jpg"
           alt="Opciones de alojamiento para descansar en Arbeláez"
           loading="lazy" decoding="async" width="800" height="533">
         <div class="overlay_places" aria-hidden="true">
