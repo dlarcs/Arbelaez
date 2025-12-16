@@ -41,7 +41,7 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       <article class="galery_card_places">
         <p class="badge">Gastronomía</p>
         <img
-          src="../../view/gastronomia/kapaLuna360/img/coctel9.jpg"
+          src="../../view/gastronomia/Pablos_Restaurant/img/especial17.jpg"
           alt="Gastronomía local: cocteles y platos típicos"
           loading="lazy" decoding="async" width="800" height="533">
         <div class="overlay_places" aria-hidden="true">
