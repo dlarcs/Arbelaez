@@ -411,7 +411,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <h3 class="tourburger-card__name">La Moza Gastro-Bar</h3>
       <p class="tourburger-card__details">
-        Entrada de Arbeláez-Fusagasugá
+        Entrada de Arbeláez-Fusagasugá Turín
       </p>
 
       <div class="tourburger-card__burger">
@@ -438,7 +438,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           target="_blank"
           rel="noopener noreferrer"
         >
-          Cómo llegar
+          Cómo llegar - 6pm-10pm
         </a>
       </div>
     </article>
