@@ -13,7 +13,7 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       <article class="galery_card_places">
         <p class="badge">Artesanías</p>
         <img
-          src="../../view/artesanias/Artesanias_Martha_E/img/manillas2.jpeg"
+          src="../../view/artesanias/Almacen_Religioso/img/artesanias16.jpg"
           alt="Artesanías y recuerdos hechos a mano"
           loading="lazy" decoding="async" width="800" height="533">
         <div class="overlay_places" aria-hidden="true">
