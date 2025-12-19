@@ -11,7 +11,7 @@ $jsTime  = filemtime('../../view/home/slider/slider.js');
     <div class="slider__track" id="slider-track">
       <!-- Slide 1 -->
       <article id="slide-1" class="slide is-current" aria-roledescription="slide" aria-label="1 de 4">
-        <img src="../../view/home/TourBurguer/img/tour2.png" alt="Montañas al amanecer">
+        <img src="../../view/home/TourBurguer/img/general2.png" alt="Montañas al amanecer">
         <div class="slide__caption">
           <h2>Del 14-28 Diciembre 2025</h2>
           <a href="#tourburger"><p>Para mas información da click aqui</p></a>

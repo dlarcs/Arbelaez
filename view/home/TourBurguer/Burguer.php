@@ -79,7 +79,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           TourBurger Reno Arbeláez 2025
         </h4>
         <p class="tourburger-card__burger-ingredients">
-          •⁠  ⁠Pan finas hierbas, 150 gramos de carne artesanal, ⁠Lechuga crespa, ⁠tomate, Queso fundid, Cebolla crispy, Salsa de café y tocineta caramelizada.
+          •⁠  ⁠Pan finas hierbas, 150 gramos de carne artesanal, ⁠Lechuga crespa, ⁠tomate, Queso fundido, Cebolla crispy, Salsa de café y tocineta caramelizada.
         </p>
       </div>
 
@@ -145,7 +145,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           Contacto
         </a>
         <a
-          href="https://maps.app.goo.gl/yuyCaQezn3Bpi61K8"
+          href="https://maps.app.goo.gl/BtYSKSDfX7KqJEPc7"
           class="btn btn--ghost"
           target="_blank"
           rel="noopener noreferrer"
@@ -183,7 +183,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           TourBurger SorpresaBurger Arbeláez 2025
         </h4>
         <p class="tourburger-card__burger-ingredients">
-          Carne de cerdo, queso fundido, chicharrón crocante, guacamole y salsa de la casa.
+          Carne de cerdo, queso fundido, chicharrón crocante y salsa de la casa.
         </p>
       </div>
 
