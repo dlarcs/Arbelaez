@@ -67,7 +67,10 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <h3 class="tourburger-card__name">Kalú Café Resto-Bar</h3>
       <p class="tourburger-card__details">
-        Al lado de la casa de cafe, al lado de la capilla, cerca al parque verde.
+        Al lado de la casa de cafe, al lado de la capilla, cerca al parque verde. <br>
+        Lunes a viernes de 5:00pm a 10:00pm,
+        Sabado a domingo y festivos de 4:00pm a 10:00pm
+
       </p>
 
       <!-- 🍔 Info de la hamburguesa -->
@@ -117,7 +120,9 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <h3 class="tourburger-card__name">KapaLuna 360°</h3>
       <p class="tourburger-card__details">
-        Cuadra y media arriba de la alcaldía.
+        Cuadra y media arriba de la alcaldía. <br>
+        Lunes a Viernes 4:00 pm – 10:00 pm,
+       Sábados, domingos y festivos 11:00 am – 10:00 pm
       </p>
 
       <div class="tourburger-card__burger">
@@ -167,7 +172,10 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <h3 class="tourburger-card__name">La Marranada Campestre</h3>
       <p class="tourburger-card__details">
-       En el arenal, san antonio.
+       En el arenal, San Antonio. <br>
+       Viernes 5:00 pm – 9:00 pm,
+       Sábado 12:00 pm – 9:00 pm,
+       Domingo 7:00 am – 5:00 pm
       </p>
 
       <div class="tourburger-card__burger">
@@ -214,9 +222,10 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         >
       </figure>
 
-      <h3 class="tourburger-card__name">Totumazo 2</h3>
+      <h3 class="tourburger-card__name">Totumazo</h3>
       <p class="tourburger-card__details">
-        Plaza de mercado segundo piso
+        Costado de la iglesia principla <br>
+        Domingo a Domingo 5:00pm a 9:00pm
       </p>
 
       <div class="tourburger-card__burger">
@@ -238,7 +247,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           Contacto
         </a>
         <a
-          href="https://maps.app.goo.gl/vFRPVwwSx248vo2z5"
+          href="https://maps.app.goo.gl/fYryXu8p8s1PJCi47"
           class="btn btn--ghost"
           target="_blank"
           rel="noopener noreferrer"
@@ -287,7 +296,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           Contacto
         </a>
         <a
-          href="https://maps.app.goo.gl/6GE2QeRhSgLK4LH17"
+          href="https://maps.app.goo.gl/466ghbcaFLJteyF36"
           class="btn btn--ghost"
           target="_blank"
           rel="noopener noreferrer"
@@ -336,7 +345,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           Contacto
         </a>
         <a
-          href="https://maps.app.goo.gl/h4yWGonAx5eRba6R9"
+          href="https://maps.app.goo.gl/kHvFtC4FhJ8jTyZy8"
           class="btn btn--ghost"
           target="_blank"
           rel="noopener noreferrer"
@@ -363,7 +372,9 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <h3 class="tourburger-card__name">Don Cipro</h3>
       <p class="tourburger-card__details">
-        Ubicado en la casa de los pájaros segundo piso al frente del parque Gómez Otero
+        Ubicado en la casa de los pájaros segundo piso al frente del parque Gómez Otero <br>
+        Entre semana 6:00pm - 10:00pm. <br>
+        Fines de semana 4:00pm - 10:00pm.
       </p>
 
       <div class="tourburger-card__burger">
@@ -419,7 +430,8 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           TourBurger La Doble Moza Arbeláez 2025
         </h4>
         <p class="tourburger-card__burger-ingredients">
-          Carne de res, queso, tocineta, vegetales frescos y salsa secreta de la casa.
+          Carne de res, queso, tocineta, vegetales frescos y salsa secreta de la casa. <br>
+          De 6:00pm-10:00pm
         </p>
       </div>
 
@@ -438,7 +450,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           target="_blank"
           rel="noopener noreferrer"
         >
-          Cómo llegar - 6pm-10pm
+          Cómo llegar
         </a>
       </div>
     </article>
