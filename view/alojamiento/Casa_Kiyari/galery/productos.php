@@ -51,7 +51,6 @@ $jsTime = filemtime('../../../view/alojamiento/Casa_Kiyari/galery/productos.js')
 	    <div class="food_card Meditacion"><img src="../../../view/alojamiento/Casa_Kiyari/img/meditacion4.jpg" alt="Meditación 5" width="1200" height="800" loading="lazy" decoding="async"></div>
 	    <div class="food_card Meditacion"><img src="../../../view/alojamiento/Casa_Kiyari/img/meditacion5.jpg" alt="Meditación 6" width="1200" height="800" loading="lazy" decoding="async"></div>
 	    <div class="food_card Meditacion"><img src="../../../view/alojamiento/Casa_Kiyari/img/meditacion6.jpg" alt="Meditación 7" width="1200" height="800" loading="lazy" decoding="async"></div>
-	    <div class="food_card Meditacion"><img src="../../../view/alojamiento/Casa_Kiyari/img/meditacion7.jpg" alt="Meditación 8" width="1200" height="800" loading="lazy" decoding="async"></div>
 
 	    <!-- ===== Río (rio.jpg + rio1.jpg ... rio8.jpg) ===== -->
 	    <div class="food_card Rio"><img src="../../../view/alojamiento/Casa_Kiyari/img/rio.jpg"  alt="Río 1" width="1200" height="800" loading="lazy" decoding="async"></div>
@@ -78,7 +77,7 @@ $jsTime = filemtime('../../../view/alojamiento/Casa_Kiyari/galery/productos.js')
 	    <div class="food_card Testimonio"><img src="../../../view/alojamiento/Casa_Kiyari/img/testimonio10.jpg" alt="Testimonio 11" width="1200" height="800" loading="lazy" decoding="async"></div>
 	    <div class="food_card Testimonio"><img src="../../../view/alojamiento/Casa_Kiyari/img/testimonio11.jpg" alt="Testimonio 12" width="1200" height="800" loading="lazy" decoding="async"></div>
 
-	   
+
 	  </div>
 	</section>
 
