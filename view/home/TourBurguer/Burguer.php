@@ -251,12 +251,12 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     <!-- CARD 5 – Del Huerto -->
     <article
       class="tourburger-card"
-      data-image="../../view/home/TourBurguer/img/huerto.jpeg"
+      data-image="../../view/home/TourBurguer/img/huerto1.jpeg"
       data-image-alt="TourBurger de Del Huerto"
      >
       <figure class="tourburger-card__thumb">
         <img
-          src="../../view/home/TourBurguer/img/huerto.jpeg"
+          src="../../view/home/TourBurguer/img/huerto1.jpeg"
           alt="TourBurger de Del Huerto"
           loading="lazy"
           decoding="async"
