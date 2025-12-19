@@ -445,7 +445,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           Contacto
         </a>
         <a
-          href="https://maps.app.goo.gl/LvPQYGNJ4pBBEEB5A"
+          href="https://maps.app.goo.gl/XfkTbM82ypzCw23F6"
           class="btn btn--ghost"
           target="_blank"
           rel="noopener noreferrer"
