@@ -38,7 +38,7 @@
   <link rel="me" href="https://www.tiktok.com/@arbelaez_turismo">
 
   <!-- Icono / tema -->
-  <link rel="icon" href="../../../view/alojamiento/Casa_Kiyari/img/logo.jpeg" type="image/png">
+  <link rel="icon" href="../../../view/alojamiento/Casa_Kiyari/img/logo.jpg" type="image/png">
   <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/Casa_Kiyari/apple-touch-icon.png">
   <meta name="theme-color" content="#005548">
 
