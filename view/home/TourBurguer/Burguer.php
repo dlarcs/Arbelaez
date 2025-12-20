@@ -288,7 +288,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <div class="tourburger-card__actions">
         <a
-          href="https://wa.me/573203152118?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
+          href="https://wa.me/573194963554?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
           class="btn btn--primary"
           target="_blank"
           rel="noopener noreferrer"
