@@ -62,45 +62,6 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
         </div>
       </article>
     </a>
-
-    <!-- <a href="../../view/portafolio/index.php" class="card_link">
-      <article class="galery_card_places">
-        <p class="badge">Turismo</p>
-        <img
-          src="../../view/home/img/pavoreal.jpeg"
-          alt="Turismo y experiencias de aventura"
-          loading="lazy" decoding="async" width="800" height="533">
-        <div class="overlay_places" aria-hidden="true">
-          <div class="card_info_places"><h3>Atrévete a explorar</h3></div>
-        </div>
-      </article>
-    </a> -->
-
-    <!-- <a href="../../view/portafolio/index.php" class="card_link">
-      <article class="galery_card_places">
-        <p class="badge">Alcaldía</p>
-        <img
-          src="../../view/home/img/lugar3.jpg"
-          alt="Información oficial y proyectos de la Alcaldía"
-          loading="lazy" decoding="async" width="800" height="533">
-        <div class="overlay_places" aria-hidden="true">
-          <div class="card_info_places"><h3>Conoce proyectos y servicios</h3></div>
-        </div>
-      </article>
-    </a> -->
-
-    <!-- <a href="../../view/Parroquia/index.php" class="card_link">
-      <article class="galery_card_places">
-        <p class="badge">Parroquia </p>
-        <img
-          src="../../view/home/img/lugar2.jpg"
-          alt="Parroquia Inmaculada Concepción de Arbeláez"
-          loading="lazy" decoding="async" width="800" height="533">
-        <div class="overlay_places" aria-hidden="true">
-          <div class="card_info_places"><h3>Historia y comunidad</h3></div>
-        </div>
-      </article>
-    </a> -->
     <a href="../../view/Juntanza_de_Mujeres/index.php" class="card_link">
       <article class="galery_card_places">
         <p class="badge">Asociación Juntanza de Mujeres</p>
@@ -113,5 +74,18 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
         </div>
       </article>
     </a>
+    <a href="../../view/festividades/index.php" class="card_link">
+      <article class="galery_card_places">
+        <p class="badge">Festividades</p>
+        <img
+          src="../../view/festividades/la_diablada/IMG_3463.JPG"
+          alt="Asociación de juntanza de mujeres"
+          loading="lazy" decoding="async" width="800" height="533">
+        <div class="overlay_places" aria-hidden="true">
+          <div class="card_info_places"><h3>Tradiciones</h3></div>
+        </div>
+      </article>
+    </a>
+
   </div>
 </section>
