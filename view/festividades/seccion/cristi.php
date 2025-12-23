@@ -24,9 +24,9 @@
       'location'     => '21 junio',
       'desc'         => 'Es una tradición centenaria de gran fervor, fe y arte que une a la comunidad urbana y rural, destacada por la elaboración de coloridos tapetes de aserrín y flores en las calles por donde pasa la procesión del Santísimo, mostrando la identidad cultural y religiosa del pueblo, con gran participación de familias, colegios, instituciones y la administración local. ',
       'features'     => [
-        'Por las calles de Arbeláez',
-        'Desde las 6am',
-        'Sábados, domingos y festivos 11:00 am – 10:00 pm',
+        // 'Por las calles de Arbeláez',
+        // 'Desde las 6am',
+        // 'Sábados, domingos y festivos 11:00 am – 10:00 pm',
       ],
       // 'openingHours' => 'Mo-Fr 16:00-22:00, Sa-Su 11:00-22:00',
       // 'priceRange'   => '$$',
