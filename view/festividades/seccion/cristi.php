@@ -1,231 +1,119 @@
 
 	<link rel="stylesheet" href="../../view/festividades/seccion/cristi.css?v=<?= $cssTime ?>">
 	<!-- ===== Directorio ===== -->
-  <?php
-  // Ajusta estas rutas a donde tengas el CSS y JS de restaurantes
-  $cssTime = filemtime('../../view/festividades/seccion/cristi.css');
-  $jsTime  = filemtime('../../view/festividades/seccion/cristi.js');
+	<?php
+	// =========================
+	//  Festividades - Sección
+	// =========================
 
-  // Helper para WhatsApp
-  function wa_link_resto($phoneInt, $restoName) {
-    $texto = "Hola, vengo desde la web de " . $restoName;
-    return "https://wa.me/{$phoneInt}?text=" . rawurlencode($texto);
-  }
+	$cssPath = __DIR__ . '/cristi.css';
+	$cssTime = file_exists($cssPath) ? filemtime($cssPath) : time();
 
-  // ====== Configuración de restaurantes ======
-  $restos = [
-    [
-      'name'         => 'Corpus Christi',
-       'slug'         => 'home',
-      'img'          => '../../view/festividades/img_christi/christi12.jpeg',
-      'img_alt'      => 'Corpus_Christi',
-      // 'zone'         => 'Pueblo', // para el filtro (Pueblo / Pueblo)
-      'schema'       => 'Festividades',
-      'location'     => '21 junio',
-      'desc'         => 'Es una tradición centenaria de gran fervor, fe y arte que une a la comunidad urbana y rural, destacada por la elaboración de coloridos tapetes de aserrín y flores en las calles por donde pasa la procesión del Santísimo, mostrando la identidad cultural y religiosa del pueblo, con gran participación de familias, colegios, instituciones y la administración local. ',
-      'features'     => [
-        'Por las calles de Arbeláez',
-        'Desde las 6am',
-        'Sábados, domingos y festivos 11:00 am – 10:00 pm',
-      ],
-      'openingHours' => 'Mo-Fr 16:00-22:00, Sa-Su 11:00-22:00',
-      'priceRange'   => '$$',
-      'wa_phone'     => '573024229260',
-      'wa_label'     => 'WhatsApp',
-    ],
-    [
-      'name'         => 'La diablada',
-      'slug'         => 'home',
-      'img'          => '../../view/festividades/la_diablada/IMG_3455.JPG',
-      'img_alt'      => 'Kalú Café: origen Sumapaz, arte, sabor y conexión',
-      'zone'         => 'Pueblo',
-      'schema'       => 'CafeOrCoffeeShop',
-      'location'     => 'En el pueblo',
-      'desc'         => 'Es una tradicional celebración cultural y religiosa que se realiza durante la novena de Navidad (16 al 24 de diciembre), donde danzantes con elaborados trajes y máscaras de diablos recorren las calles en un evento festivo, mezclando elementos indígenas y católicos, representando una lucha entre el bien y el mal en el marco del festival decembrino del municipio, siendo un fuerte símbolo de identidad local. ',
-      'servesCuisine'=> '',
-      'features'     => [
-        'Almuerzos 12:00 m – 3:00 pm',
-        'Comida rápida y café 5:00 pm – 10:00 pm',
-      ],
-      'openingHours' => 'Mo-Su 09:00-22:00',
-      'priceRange'   => '$–$$',
-      'wa_phone'     => '573123804104',
-      'wa_label'     => 'WhatsApp',
-    ],
-  //   [
-  //     'name'         => "Pablo's Restaurant",
-  //     'slug'         => 'Pablos_Restaurant',
-  //     'img'          => '../../view/gastronomia/img/pablos.jpg',
-  //     'img_alt'      => "Pablo’s Restaurant: tradición y sabor en el parque principal",
-  //     'zone'         => 'Pueblo',
-  //     'schema'       => 'Restaurant',
-  //     'location'     => 'En el pueblo',
-  //     'desc'         => "Desde 1982, Pablo's Restaurant es un clásico de Arbeláez: cocina familiar, sabores tradicionales y un servicio cálido que hace sentir a todos como en casa.",
-  //     'servesCuisine'=> 'Cocina colombiana y platos típicos',
-  //     'features'     => [
-  //       'Especialidades de la casa',
-  //       'Lun a Dom 7:00 am – 4:00 pm',
-  //     ],
-  //     'openingHours' => 'Mo-Su 07:00-16:00',
-  //     'priceRange'   => '',
-  //     'wa_phone'     => '573203969152',
-  //     'wa_label'     => 'WhatsApp',
-  //   ],
-  //   [
-  //     'name'         => 'La Marranada Campestre',
-  //     'slug'         => 'La_Marranada',
-  //     'img'          => '../../view/gastronomia/img/logo_lamarranada.jpeg',
-  //     'img_alt'      => 'La Marranada Campestre: tradición, sabor y ambiente familiar',
-  //     'zone'         => 'Vereda',
-  //     'schema'       => 'Restaurant',
-  //     'location'     => 'En vereda',
-  //     'desc'         => 'La tradición del cerdo convertida en arte: cortes jugosos, sabores intensos y un ambiente campestre para disfrutar entre familia y amigos.',
-  //     'servesCuisine'=> '',
-  //     'features'     => [
-  //       'Viernes 5:00 pm – 9:00 pm',
-  //       'Sábado 12:00 pm – 9:00 pm',
-  //       'Domingo 7:00 am – 5:00 pm',
-  //     ],
-  //     'openingHours' => 'Fr 17:00-21:00, Sa 12:00-21:00, Su 07:00-17:00',
-  //     'priceRange'   => '',
-  //     'wa_phone'     => '3022514381',
-  //     'wa_label'     => 'WhatsApp',
-  //   ],
-  //   [
-  //     'name'         => 'El Fogón del Triángulo',
-  //     'slug'         => 'El_Fogon_del_Triangulo',
-  //     'img'          => '../../view/gastronomia/El_Fogon_del_Triangulo/img/logo.png',
-  //     'img_alt'      => 'El Fogón del Triángulo: tradición, color y sabor en cada plato',
-  //     'zone'         => 'Pueblo', // aquí lo pongo como Pueblo para que el filtro tenga sentido
-  //     'schema'       => 'Restaurant',
-  //     'location'     => 'En Pueblo',
-  //     'desc'         => 'Colores, cultura y sazón de nuestra tierra. Comida típica hecha con amor, naturaleza alrededor y una vista que enamora.',
-  //     'servesCuisine'=> 'Comida típica, asados y platos campesinos',
-  //     'features'     => [
-  //       'Fines de semana y festivos 8:30 am – 5:30 pm',
-  //       'Vista panorámica',
-  //     ],
-  //     'openingHours' => 'Mo-Su 08:00-18:00',
-  //     'priceRange'   => '$$',
-  //     'wa_phone'     => '573144506914',
-  //     'wa_label'     => 'WhatsApp',
-  //   ],
-	// 	// [
-  //   //   'name'         => 'Del Huerto',
-  //   //   'slug'         => 'Del_Huerto',
-  //   //   'img'          => '../../view/gastronomia/Del_Huerto/img/logo.jpg',
-  //   //   'img_alt'      => 'Logo de la pizzeria del Huerto',
-  //   //   'zone'         => 'Pueblo', // aquí lo pongo como Pueblo para que el filtro tenga sentido
-  //   //   'schema'       => 'Restaurant',
-  //   //   'location'     => 'En Pueblo',
-  //   //   'desc'         => 'Colores, cultura y sazón de nuestra tierra. Comida artesanal, pizzeria y comida de calidad',
-  //   //   'servesCuisine'=> 'Comida artesanal',
-  //   //   'features'     => [
-  //   //     'Fines de semana y festivos 10:30 am – 21:30 pm',
-  //   //     'Vista panorámica',
-  //   //   ],
-  //   //   'openingHours' => 'Mo-Su 05:00-21:00',
-  //   //   'priceRange'   => '$$',
-  //   //   'wa_phone'     => '573194963554',
-  //   //   'wa_label'     => 'WhatsApp',
-  //   // ],
-  ];
-  ?>
+	// ====== Configuración de festividades ======
+	$festividades = [
+	  [
+	    'name'     => 'Corpus Christi',
+	    'slug'     => 'corpus-christi',
+	    'img'      => '../../view/festividades/img_christi/christi12.jpeg',
+	    'img_alt'  => 'Corpus Christi en Arbeláez: tapetes de aserrín y procesión',
+	    'zone'     => 'Pueblo',
+	    'schema'   => 'Event',
+	    'date'     => '21 de junio',
+	    'place'    => 'Centro del pueblo',
+	    'desc'     => 'Tradición centenaria de gran fervor, fe y arte que une a la comunidad urbana y rural. Se destacan los tapetes de aserrín y flores en las calles por donde pasa la procesión del Santísimo, con participación de familias, colegios, instituciones y administración local.',
+	    'features' => ['Tapetes de aserrín', 'Procesión', 'Participación comunitaria'],
+	  ],
+	  [
+	    'name'     => 'La Diablada',
+	    'slug'     => 'la-diablada',
+	    'img'      => '../../view/festividades/la_diablada/IMG_3455.JPG',
+	    'img_alt'  => 'La Diablada en Arbeláez: tradición cultural decembrina',
+	    'zone'     => 'Pueblo',
+	    'schema'   => 'Event',
+	    'date'     => '16 al 24 de diciembre',
+	    'place'    => 'Calles del pueblo',
+	    'desc'     => 'Celebración cultural y religiosa durante la novena de Navidad. Danzantes con trajes y máscaras recorren las calles en un evento festivo que mezcla elementos indígenas y católicos, representando la lucha entre el bien y el mal y siendo un símbolo de identidad local.',
+	    'features' => ['Danzas', 'Máscaras y trajes', 'Recorridos por el pueblo'],
+	  ],
+	];
+	?>
 
-  <link rel="stylesheet" href="../../view/gastronomia/seccion/restaurantes.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../view/festividades/seccion/cristi.css?v=<?= $cssTime ?>">
 
-  <section class="section_restos" aria-labelledby="restos-title">
-    <header class="section_head">
-      <h1 id="restos-title">Festividades y cultura Arbelaence</h1>
-      <p class="section_sub">
+	<section class="section_restos" aria-labelledby="fest-title">
+	  <header class="section_head">
+	    <h1 id="fest-title">Festividades y cultura arbelaense</h1>
+	    <p class="section_sub">
+	      Conoce nuestras tradiciones: fechas, lugares y detalles principales.
+	    </p>
+	  </header>
 
-      </p>
-    </header>
+	  <div class="restos_grid">
+	    <?php foreach ($festividades as $it):
 
-    <!-- Filtros -->
-    <!-- <nav class="restos_filters" role="toolbar" aria-label="Filtrar por tipo de restaurante">
-      <button class="filter_btn is-active" data-filter="all" aria-pressed="true">Todos</button>
-      <button class="filter_btn" data-filter="Pueblo" aria-pressed="false">Pueblo</button>
-      <button class="filter_btn" data-filter="Vereda" aria-pressed="false">Vereda</button>
-    </nav> -->
+	      $name   = htmlspecialchars($it['name'] ?? '', ENT_QUOTES, 'UTF-8');
+	      $slug   = htmlspecialchars($it['slug'] ?? '', ENT_QUOTES, 'UTF-8');
+	      $img    = htmlspecialchars($it['img'] ?? '', ENT_QUOTES, 'UTF-8');
+	      $imgAlt = htmlspecialchars($it['img_alt'] ?? '', ENT_QUOTES, 'UTF-8');
+	      $zone   = htmlspecialchars($it['zone'] ?? 'all', ENT_QUOTES, 'UTF-8');
+	      $schema = htmlspecialchars($it['schema'] ?? 'Event', ENT_QUOTES, 'UTF-8');
+	      $date   = htmlspecialchars($it['date'] ?? '', ENT_QUOTES, 'UTF-8');
+	      $place  = htmlspecialchars($it['place'] ?? '', ENT_QUOTES, 'UTF-8');
+	      $desc   = htmlspecialchars($it['desc'] ?? '', ENT_QUOTES, 'UTF-8');
 
-    <!-- Grid -->
-    <div class="restos_grid">
-      <?php foreach ($restos as $it):
-        $name     = htmlspecialchars($it['name'], ENT_QUOTES, 'UTF-8');
-        $slug     = htmlspecialchars($it['slug'], ENT_QUOTES, 'UTF-8');
-        $img      = htmlspecialchars($it['img'], ENT_QUOTES, 'UTF-8');
-        $imgAlt   = htmlspecialchars($it['img_alt'], ENT_QUOTES, 'UTF-8');
-        $zone     = htmlspecialchars($it['zone'], ENT_QUOTES, 'UTF-8');
-        $schema   = htmlspecialchars($it['schema'], ENT_QUOTES, 'UTF-8');
-        $location = htmlspecialchars($it['location'], ENT_QUOTES, 'UTF-8');
-        $desc     = htmlspecialchars($it['desc'], ENT_QUOTES, 'UTF-8');
-        $serves   = htmlspecialchars($it['servesCuisine'], ENT_QUOTES, 'UTF-8');
-        $hours    = htmlspecialchars($it['openingHours'], ENT_QUOTES, 'UTF-8');
-        $price    = htmlspecialchars($it['priceRange'], ENT_QUOTES, 'UTF-8');
+	      $features = $it['features'] ?? [];
+	      if (!is_array($features)) $features = [];
 
-        $detailHref = "../../view/gastronomia/{$slug}/index.php";
-        $detailHref = htmlspecialchars($detailHref, ENT_QUOTES, 'UTF-8');
+	      $detailHref = "../../view/festividades/{$slug}/index.php";
+	      $detailHref = htmlspecialchars($detailHref, ENT_QUOTES, 'UTF-8');
+	    ?>
+	      <article class="resto_card <?= $zone ?>" itemscope itemtype="https://schema.org/<?= $schema ?>">
+	        <div class="resto_colorband" aria-hidden="true"></div>
 
-        $waUrl   = wa_link_resto($it['wa_phone'], $it['name']);
-        $waUrl   = htmlspecialchars($waUrl, ENT_QUOTES, 'UTF-8');
-        $waLabel = htmlspecialchars($it['wa_label'], ENT_QUOTES, 'UTF-8');
-      ?>
-      <article class="resto_card <?= $zone ?>" itemscope itemtype="https://schema.org/<?= $schema ?>">
-        <div class="resto_colorband" aria-hidden="true"></div>
+	        <!-- La imagen sigue siendo el link al detalle -->
+	        <a href="<?= $detailHref ?>" class="resto_link">
+	          <figure class="resto_media">
+	            <img class="resto_cover"
+	                 src="<?= $img ?>"
+	                 alt="<?= $imgAlt ?>"
+	                 loading="lazy"
+	                 decoding="async" />
+	          </figure>
+	        </a>
 
-        <a href="<?= $detailHref ?>" class="resto_link">
-          <figure class="resto_media">
-            <img class="resto_cover"
-                 src="<?= $img ?>"
-                 alt="<?= $imgAlt ?>"
-                 loading="lazy"
-                 decoding="async" />
-          </figure>
-        </a>
+	        <div class="resto_body">
+	          <header class="resto_header">
+	            <!-- Si quieres que el título también sea clickeable, descomenta el <a> -->
+	            <h3 class="resto_name" itemprop="name">
+	              <a href="<?= $detailHref ?>" class="resto_link" style="text-decoration:none; color:inherit;">
+	                <?= $name ?>
+	              </a>
+	            </h3>
+	          </header>
 
-        <div class="resto_body">
-          <header class="resto_header">
-            <h3 class="resto_name" itemprop="name"><?= $name ?></h3>
-          </header>
+	          <?php if ($date): ?>
+	            <p class="resto_location"><strong>Fecha:</strong> <span itemprop="startDate"><?= $date ?></span></p>
+	          <?php endif; ?>
 
-          <p class="resto_location" itemprop="address"><?= $location ?></p>
-          <p class="resto_desc" itemprop="description"><?= $desc ?></p>
+	          <?php if ($place): ?>
+	            <p class="resto_location"><strong>Lugar:</strong> <span itemprop="location"><?= $place ?></span></p>
+	          <?php endif; ?>
 
-          <ul class="resto_features">
-            <?php if ($serves): ?>
-              <li itemprop="servesCuisine"><?= $serves ?></li>
-            <?php endif; ?>
+	          <p class="resto_desc" itemprop="description"><?= $desc ?></p>
 
-            <?php foreach ($it['features'] as $feat): ?>
-              <li><?= htmlspecialchars($feat, ENT_QUOTES, 'UTF-8') ?></li>
-            <?php endforeach; ?>
-          </ul>
+	          <?php if (!empty($features)): ?>
+	            <ul class="resto_features">
+	              <?php foreach ($features as $feat): ?>
+	                <li><?= htmlspecialchars($feat, ENT_QUOTES, 'UTF-8') ?></li>
+	              <?php endforeach; ?>
+	            </ul>
+	          <?php endif; ?>
+	        </div>
+	      </article>
+	    <?php endforeach; ?>
+	  </div>
+	</section>
 
-          <div class="resto_meta">
-            <a class="resto_btn"
-               href="<?= $waUrl ?>"
-               target="_blank"
-               rel="noopener">
-              <?= $waLabel ?>
-            </a>
-            <a class="resto_btn"
-               href="<?= $detailHref ?>">
-              Ver más
-            </a>
-          </div>
-
-          <?php if ($hours): ?>
-            <meta itemprop="openingHours" content="<?= $hours ?>">
-          <?php endif; ?>
-          <?php if ($price): ?>
-            <meta itemprop="priceRange" content="<?= $price ?>">
-          <?php endif; ?>
-        </div>
-      </article>
-      <?php endforeach; ?>
-    </div>
-  </section>
 
 
 	<script src="../../view/festividades/seccion/cristi.css?v=<?= $jsTime ?>" type="text/javascript"></script>
