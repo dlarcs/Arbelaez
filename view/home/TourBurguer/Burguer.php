@@ -215,7 +215,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
      >
       <figure class="tourburger-card__thumb">
         <img
-          src="../../view/home/TourBurguer/img/totumazo2.jpeg"
+          src="../../view/home/TourBurguer/img/totumazo.JPG"
           alt="TourBurger de Totumazo 2"
           loading="lazy"
           decoding="async"
