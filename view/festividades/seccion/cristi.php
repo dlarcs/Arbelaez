@@ -16,7 +16,7 @@
   $restos = [
     [
       'name'         => 'Corpus Christi',
-      // 'slug'         => 'kapaLuna360',
+       'slug'         => 'home',
       'img'          => '../../view/festividades/img_christi/christi12.jpeg',
       'img_alt'      => 'Corpus_Christi',
       // 'zone'         => 'Pueblo', // para el filtro (Pueblo / Pueblo)
@@ -34,23 +34,23 @@
       'wa_label'     => 'WhatsApp',
     ],
     [
-      'name'         => 'Kalú',
-      'slug'         => 'kalu',
+      'name'         => 'La diablada',
+      'slug'         => 'home',
       'img'          => '../../view/festividades/la_diablada/IMG_3455.JPG',
       'img_alt'      => 'Kalú Café: origen Sumapaz, arte, sabor y conexión',
       'zone'         => 'Pueblo',
       'schema'       => 'CafeOrCoffeeShop',
       'location'     => 'En el pueblo',
-      'desc'         => 'En Kalú cada taza y cada plato cuentan una historia. Café de origen Sumapaz, arte local y sabores únicos en un espacio para conversar y disfrutar tranquilo.',
+      'desc'         => 'Es una tradicional celebración cultural y religiosa que se realiza durante la novena de Navidad (16 al 24 de diciembre), donde danzantes con elaborados trajes y máscaras de diablos recorren las calles en un evento festivo, mezclando elementos indígenas y católicos, representando una lucha entre el bien y el mal en el marco del festival decembrino del municipio, siendo un fuerte símbolo de identidad local. ',
       'servesCuisine'=> '',
       'features'     => [
-        'Almuerzos 12:00 m – 3:00 pm',
-        'Comida rápida y café 5:00 pm – 10:00 pm',
+        // 'Almuerzos 12:00 m – 3:00 pm',
+        // 'Comida rápida y café 5:00 pm – 10:00 pm',
       ],
-      'openingHours' => 'Mo-Su 09:00-22:00',
-      'priceRange'   => '$–$$',
-      'wa_phone'     => '573123804104',
-      'wa_label'     => 'WhatsApp',
+      // 'openingHours' => 'Mo-Su 09:00-22:00',
+      // 'priceRange'   => '$–$$',
+      // 'wa_phone'     => '573123804104',
+      // 'wa_label'     => 'WhatsApp',
     ],
   //   [
   //     'name'         => "Pablo's Restaurant",
