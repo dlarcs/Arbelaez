@@ -158,12 +158,12 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     <!-- CARD 3 – La Marranada Campestre -->
     <article
       class="tourburger-card"
-      data-image="../../view/home/TourBurguer/img/general.png"
+      data-image="../../view/home/TourBurguer/img/La_Marranada.jpg"
       data-image-alt="TourBurger de La Marranada Campestre"
      >
       <figure class="tourburger-card__thumb">
         <img
-          src="../../view/home/TourBurguer/img/general.png"
+          src="../../view/home/TourBurguer/img/La_Marranada.jpg"
           alt="TourBurger de La Marranada Campestre"
           loading="lazy"
           decoding="async"
@@ -210,7 +210,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     <!-- CARD 4 – Totumazo 2 -->
     <article
       class="tourburger-card"
-      data-image="../../view/home/TourBurguer/img/totumazo2.jpeg"
+      data-image="../../view/home/TourBurguer/img/totumazo.JPG"
       data-image-alt="TourBurger de Totumazo 2"
      >
       <figure class="tourburger-card__thumb">
@@ -309,12 +309,12 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     <!-- CARD 6 – Pimienta Gastro-Bar -->
     <article
       class="tourburger-card"
-      data-image="../../view/home/TourBurguer/img/general.png"
+      data-image="../../view/home/TourBurguer/img/pimienta.JPG"
       data-image-alt="TourBurger de Pimienta Gastro-Bar"
      >
       <figure class="tourburger-card__thumb">
         <img
-          src="../../view/home/TourBurguer/img/general.png"
+          src="../../view/home/TourBurguer/img/pimienta.JPG"
           alt="TourBurger de Pimienta Gastro-Bar"
           loading="lazy"
           decoding="async"
@@ -323,7 +323,8 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
 
       <h3 class="tourburger-card__name">Pimienta Gastro-Bar</h3>
       <p class="tourburger-card__details">
-        Villa Olimpica
+        Villa Olimpica <br>
+        De 5:00pm a 10:00pm lunes a viernes.
       </p>
 
       <div class="tourburger-card__burger">
