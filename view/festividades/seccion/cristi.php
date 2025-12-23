@@ -23,7 +23,7 @@
       'schema'       => 'Festividades',
       'location'     => '21 junio',
       'desc'         => 'Es una tradición centenaria de gran fervor, fe y arte que une a la comunidad urbana y rural, destacada por la elaboración de coloridos tapetes de aserrín y flores en las calles por donde pasa la procesión del Santísimo, mostrando la identidad cultural y religiosa del pueblo, con gran participación de familias, colegios, instituciones y la administración local. ',
-      'features'     => [
+      // 'features'     => [
         // 'Por las calles de Arbeláez',
         // 'Desde las 6am',
         // 'Sábados, domingos y festivos 11:00 am – 10:00 pm',
@@ -43,7 +43,7 @@
       'location'     => 'En el pueblo',
       'desc'         => 'Es una tradicional celebración cultural y religiosa que se realiza durante la novena de Navidad (16 al 24 de diciembre), donde danzantes con elaborados trajes y máscaras de diablos recorren las calles en un evento festivo, mezclando elementos indígenas y católicos, representando una lucha entre el bien y el mal en el marco del festival decembrino del municipio, siendo un fuerte símbolo de identidad local. ',
       'servesCuisine'=> '',
-      'features'     => [
+      // 'features'     => [
         // 'Almuerzos 12:00 m – 3:00 pm',
         // 'Comida rápida y café 5:00 pm – 10:00 pm',
       ],
