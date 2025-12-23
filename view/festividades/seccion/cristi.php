@@ -40,7 +40,7 @@
       'img_alt'      => 'Kalú Café: origen Sumapaz, arte, sabor y conexión',
       'zone'         => 'Pueblo',
       'schema'       => 'CafeOrCoffeeShop',
-      'location'     => 'En el pueblo',
+      'location'     => '15 al 24 diciembre',
       'desc'         => 'Es una tradicional celebración cultural y religiosa que se realiza durante la novena de Navidad (16 al 24 de diciembre), donde danzantes con elaborados trajes y máscaras de diablos recorren las calles en un evento festivo, mezclando elementos indígenas y católicos, representando una lucha entre el bien y el mal en el marco del festival decembrino del municipio, siendo un fuerte símbolo de identidad local. ',
       'servesCuisine'=> '',
       // 'features'     => [
