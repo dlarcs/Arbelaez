@@ -38,7 +38,8 @@
   inset: 0;
   width: 100%;
   height: auto;
-  object-fit: cover;          /* que siempre “llene” */
+  object-fit: cover;
+  background-position: top;        /* que siempre “llene” */
   z-index: 0;
 }
 

@@ -1,0 +1,181 @@
+/* =========================
+   FICHA — SIMPLE & ELEGANTE (LIMPIO + RESPONSIVE)
+========================= */
+:root{
+  --bg:#f4f6f8;
+  --card:#fff;
+  --ink:#101828;
+  --muted:#667085;
+  --border:rgba(16,24,40,.10);
+  --shadow:0 18px 40px rgba(16,24,40,.10);
+  --radius:16px;
+  --primary:#0b6cff;
+  --primaryHover:#0a5fe0;
+  --wa:#25D366;
+}
+
+/* Si ya tienes body global, puedes omitir esto */
+body{
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.section_food_gallery{ padding: 18px 12px; }
+
+/* ===== Ficha ===== */
+.ficha{
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  max-width: 720px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.ficha__header{ padding: 18px 18px 10px; }
+
+.ficha__title{
+  margin: 0;
+  font-size: 1.25rem;
+  letter-spacing: .2px;
+}
+
+.ficha__subtitle{
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: .95rem;
+}
+
+.ficha__media{
+  margin: 0;
+  border-block: 1px solid var(--border);
+  background: #fafafa;
+}
+
+.ficha__media img{
+  width: 100%;
+  display: block;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.ficha__body{ padding: 16px 18px 18px; }
+
+.ficha__desc{
+  margin: 0 0 14px;
+  color: #1f2937;
+}
+
+/* ===== Botón ancho completo ===== */
+.btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: transform .08s ease, box-shadow .15s ease, background .15s ease;
+  user-select: none;
+}
+
+.btn__icon{
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.btn--primary{
+  background: var(--primary);
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(11,108,255,.22);
+}
+
+.btn--primary:hover{ background: var(--primaryHover); }
+.btn:active{ transform: translateY(1px); }
+
+/* =========================
+   BOTONES REDONDOS (MÁS PEQUEÑOS) + RESPONSIVE
+   - PC: 4
+   - Tablet: 3 (y baja a 2 si no cabe)
+   - Móvil: 1
+========================= */
+.social{
+  --s: 36px;              /* tamaño de cada botón */
+  --gap: 10px;
+
+  margin-top: 12px;
+  display: grid;
+  gap: var(--gap);
+  grid-template-columns: repeat(4, var(--s));
+  justify-content: space-between;
+}
+
+/* Tablet: 3 */
+@media (max-width: 900px){
+  .social{
+    grid-template-columns: repeat(3, var(--s));
+    justify-content: start;
+  }
+}
+
+/* Tablet / móvil grande: 2 */
+@media (max-width: 640px){
+  .social{
+    grid-template-columns: repeat(2, var(--s));
+  }
+}
+
+/* Móvil: 1 */
+@media (max-width: 420px){
+  .social{
+    grid-template-columns: repeat(1, var(--s));
+  }
+}
+
+.social__btn{
+  width: var(--s);
+  height: var(--s);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: #f2f4f7;
+  border: 1px solid var(--border);
+  color: #344054;
+  text-decoration: none;
+  transition: transform .08s ease, background .15s ease;
+}
+
+.social__btn svg{
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.social__btn:hover{ background: #eaeef3; }
+.social__btn:active{ transform: translateY(1px); }
+
+.social__btn--wa{
+  background: rgba(37,211,102,.14);
+  color: #0f5132;
+  border-color: rgba(37,211,102,.28);
+}
+
+.social__btn--wa:hover{
+  background: rgba(37,211,102,.20);
+}
+
+.ficha__note{
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: .85rem;
+}

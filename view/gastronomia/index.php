@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Gastronomy in Arbeláez – Restaurants, Local Food & Coffee in Cundinamarca</title>
+  <title>Gastronomía en Arbeláez - Gastronomy in Arbeláez – Restaurants</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Language & robots -->
