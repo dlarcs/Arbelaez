@@ -14,53 +14,51 @@
   --wa:#25D366;
 }
 
-/* Si ya tienes body global, puedes omitir esto */
-body{
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 20px;
-  background: var(--bg);
-  color: var(--ink);
+
+.section_food_gallery{
+  padding:1rem;
+  display: grid;
+  gap: 18px;
+
+  /* PC: 3 por fila */
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: start;
 }
 
-.section_food_gallery{ padding: 18px 12px; }
+/* Tablet: 2 por fila (opcional pero recomendado) */
+@media (max-width: 980px){
+  .section_food_gallery{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
 
-/* ===== Ficha ===== */
+/* Móvil: 1 por fila */
+@media (max-width: 520px){
+  .section_food_gallery{
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== Ficha (ajustes para grid) ===== */
 .ficha{
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  max-width: 720px;
-  margin: 20px auto;
   overflow: hidden;
-}
+  padding: 1rem;
 
-.ficha__header{ padding: 18px 18px 10px; }
-
-.ficha__title{
+  /* quita el max-width y el auto-center para que funcione el grid */
+  max-width: none;
   margin: 0;
-  font-size: 1.25rem;
-  letter-spacing: .2px;
 }
 
-.ficha__subtitle{
-  margin: 4px 0 0;
-  color: var(--muted);
-  font-size: .95rem;
-}
-
-.ficha__media{
-  margin: 0;
-  border-block: 1px solid var(--border);
-  background: #fafafa;
-}
-
+/* Imagen (corrección: debe ser 100% para que no se dañe en grid) */
 .ficha__media img{
   width: 100%;
+  height: auto;
   display: block;
-  aspect-ratio: 16/9;
+  aspect-ratio: 10/5;
   object-fit: cover;
 }
 
