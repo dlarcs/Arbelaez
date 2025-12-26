@@ -1,5 +1,5 @@
 <?php
-$cssTime = filemtime('../../view/Emprendimientos/seccion/Emprendimientos.css');
+$cssTime = filemtime('../../view/emprendimientos/seccion/emprendimientos.css');
 $jsTime  = filemtime('../../view/Emprendimientos/seccion/Emprendimientos.js'); // ✅ JS real
 
 // Helper WhatsApp (mensaje dinámico por emprendimiento)
@@ -68,7 +68,7 @@ $emprendimientos = [
 ];
 ?>
 
-<link rel="stylesheet" href="../../view/Emprendimientos/seccion/Emprendimientos.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../../view/emprendimientos/seccion/emprendimientos.css?v=<?= $cssTime ?>">
 
 <section class="seccion_Emprendimientos">
   <?php foreach ($emprendimientos as $it):
@@ -134,5 +134,3 @@ $emprendimientos = [
   </article>
   <?php endforeach; ?>
 </section>
-
-<script src="../../view/Emprendimientos/seccion/Emprendimientos.js?v=<?= $jsTime ?>" type="text/javascript"></script>
