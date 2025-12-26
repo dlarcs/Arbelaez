@@ -109,6 +109,8 @@
 .video-container{
   position: relative;
   flex: 1 1 550px;     /* 2 columnas en escritorio, 1 en pantallas pequeñas */
+	aspect-ratio: 1 / 2; /* mantiene proporción de video */
+
   height: 60vh;        /* ✅ desktop */
   width: 100%;
   overflow: hidden;
