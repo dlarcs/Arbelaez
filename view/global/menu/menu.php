@@ -32,7 +32,7 @@ $cssTime = filemtime('../../view/global/menu/menu.css'); // ejemplo: '../Home/5.
 
     <ul class="nav-list">
       <li><a href="../../view/home/index.php">Inicio</a></li>
-      <li><a href="../../view/galery/index.php">Galería</a></li>
+      <!-- <li><a href="../../view/galery/index.php">Galería</a></li> -->
       <li><a href="../../view/history/index.php">Historia</a></li>
       <!-- <li><a href="../../">Ferias</a></li> -->
     </ul>
