@@ -24,8 +24,6 @@ $cssTime = filemtime('../../../view/alojamiento/Casa_Kiyari/bout_us/about.css');
   </div>
 </div>
 
-
-
 	<main id="about_Casa_Kiyari" class="wrap">
 	  <article class="card" itemscope itemtype="https://schema.org/LodgingBusiness">
 	    <figure class="hero">
