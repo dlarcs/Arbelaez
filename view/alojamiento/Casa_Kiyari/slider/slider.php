@@ -16,7 +16,7 @@ $jsTime = filemtime('../../../view/alojamiento/Casa_Kiyari/slider/slider.js');
 				</article>
 				<!-- Slide 2 -->
 				<article class="slide" aria-role description="slide" aria-label="2 de 4">
-					<img src="../../../view/alojamiento/Casa_Kiyari/img/general1.jpeg" alt="Artesanías" />
+					<img src="../../../view/alojamiento/Casa_Kiyari/img/general1.jpg" alt="Artesanías" />
 					<div class="slide__caption">
 						<!-- <h2>Una Familia de Fe</h2>
            <p>Aquí siempre encontrarás un lugar para ti.</p> -->
@@ -24,7 +24,7 @@ $jsTime = filemtime('../../../view/alojamiento/Casa_Kiyari/slider/slider.js');
 				</article>
 				<!-- Slide 3 -->
 				<article class="slide" aria-role description="slide" aria-label="3 de 4">
-					<img src="../../../view/alojamiento/Casa_Kiyari/img/rio.jpeg" alt="Artesanías" />
+					<img src="../../../view/alojamiento/Casa_Kiyari/img/rio.jpg" alt="Artesanías" />
 					<div class="slide__caption">
 						<!-- <h2>La Esperanza Vive</h2>
            <p>Cristo es la luz en medio de la oscuridad.</p> -->
@@ -32,7 +32,7 @@ $jsTime = filemtime('../../../view/alojamiento/Casa_Kiyari/slider/slider.js');
 				</article>
 				<!-- Slide 4 -->
 				<article class="slide" aria-role description="slide" aria-label="4 de 4">
-					<img src="../../../view/alojamiento/Casa_Kiyari/img/rio1.jpeg" alt="Artesanías" />
+					<img src="../../../view/alojamiento/Casa_Kiyari/img/rio1.jpg" alt="Artesanías" />
 					<div class="slide__caption">
 						<!-- <h2>Fortaleza en la Oración</h2>
            <p>Habla con Dios, Él siempre escucha.</p> -->
