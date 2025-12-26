@@ -5,16 +5,6 @@ $cssTime = filemtime('../../../view/alojamiento/Casa_Kiyari/bout_us/about.css');
 	<div class="videos-grid">
   <div class="video-container">
     <iframe
-      src="../../../view/alojamiento/Casa_Kiyari/bout_us/video.mp4"
-      title="Video de ejemplo 1"
-      frameborder="0"
-      allow="autoplay; encrypted-media"
-      allowfullscreen>
-    </iframe>
-  </div>
-
-  <div class="video-container">
-    <iframe
       src="../../../view/alojamiento/Casa_Kiyari/bout_us/video1.mp4"
       title="Video de ejemplo 2"
       frameborder="0"
