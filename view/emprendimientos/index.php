@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Emprendimientos en Arbeláez –</title>
+  <title>Emprendimientos en Arbeláez </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Language & robots -->

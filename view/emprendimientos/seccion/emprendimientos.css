@@ -1,4 +1,4 @@
-:root {
+:root{
   /* Colores base */
   --bg: transparent;
   --card: #fafafa;
@@ -11,123 +11,153 @@
   /* Layout & efectos */
   --radius: 14px;
   --radius-sm: 10px;
-  --shadow: 0 10px 24px rgba(0, 0, 0, .06);
-  --shadow-hover: 0 16px 40px rgba(0, 0, 0, .14);
+  --shadow: 0 10px 24px rgba(0,0,0,.06);
+  --shadow-hover: 0 16px 40px rgba(0,0,0,.14);
+
+  /* Fallbacks (por si clamp no está soportado) */
+  --gap: 1.1rem;
+  --pad: 1.1rem;
 
   /* Espaciado fluido */
   --gap: clamp(.9rem, 1vw + .6rem, 1.25rem);
   --pad: clamp(1rem, 1.2vw + .6rem, 1.25rem);
+
   --container-max: 1200px;
 
-  color-scheme: light dark;
+  /* Si no quieres modo oscuro automático, bórralo o déjalo en light */
+  color-scheme: light;
 }
 
-/* ===== Sección alojamiento ===== */
-.seccion_alojamiento {
+*,
+*::before,
+*::after{
   box-sizing: border-box;
+}
+
+/* ===== Sección Emprendimientos ===== */
+/* Alias: si aún tienes .seccion_alojamiento en alguna vista, seguirá funcionando */
+.seccion_Emprendimientos,
+.seccion_alojamiento{
   padding: var(--pad);
   margin-inline: auto;
+
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--gap);
-  width: min(100%, var(--container-max));
+
+  width: 100%;
+  max-width: var(--container-max);
+
   color: var(--text);
   align-items: stretch;
   background: transparent;
 }
 
 /* Tablet */
-@media (min-width: 640px) {
-  .seccion_alojamiento {
+@media (min-width: 640px){
+  .seccion_Emprendimientos,
+  .seccion_alojamiento{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 /* Desktop */
-@media (min-width: 1024px) {
-  .seccion_alojamiento {
+@media (min-width: 1024px){
+  .seccion_Emprendimientos,
+  .seccion_alojamiento{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
 /* XL */
-@media (min-width: 1440px) {
-  .seccion_alojamiento {
+@media (min-width: 1440px){
+  .seccion_Emprendimientos,
+  .seccion_alojamiento{
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 
 /* ===== Tarjeta ===== */
-.card {
+.card{
   position: relative;
   display: flex;
   flex-direction: column;
   gap: .85rem;
   height: 100%;
+
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
+
   padding: var(--pad);
   color: var(--text);
-  transition:
-    box-shadow .25s ease,
-    transform .25s ease,
-    border-color .25s ease,
-    background-color .25s ease;
+
+  transition: box-shadow .25s ease, transform .25s ease, border-color .25s ease, background-color .25s ease;
   will-change: transform, box-shadow;
 }
 
-/* Pequeña línea decorativa arriba de la card */
-.card::before {
-  content: "";
+/* Línea decorativa */
+.card::before{
+  content:"";
   position: absolute;
-  inset-inline: 1.1rem;
+  left: 1.1rem;
+  right: 1.1rem;
   top: .85rem;
   height: 3px;
   border-radius: 999px;
   background: linear-gradient(90deg, var(--brand), var(--accent));
-  opacity: .1;
+  opacity: .12;
   pointer-events: none;
 }
 
-/* Ajuste para que el contenido no se solape con la línea decorativa */
-.card > *:first-child {
+.card > *:first-child{
   margin-top: .35rem;
 }
 
-.card:hover {
+.card:hover{
   transform: translateY(-3px);
   box-shadow: var(--shadow-hover);
-  border-color: color-mix(in srgb, var(--border), var(--brand) 25%);
   background-color: #fafafa;
+
+  /* Fallback simple (si color-mix no está soportado) */
+  border-color: rgba(0, 85, 72, .25);
 }
 
-.card:focus-within {
-  outline: 3px solid color-mix(in srgb, var(--brand), #fafafa 60%);
+/* Si el navegador soporta color-mix, usa el efecto bonito */
+@supports (color: color-mix(in srgb, white, black)){
+  .card:hover{
+    border-color: color-mix(in srgb, var(--border), var(--brand) 25%);
+  }
+}
+
+.card:focus-within{
+  outline: 3px solid rgba(0, 85, 72, .25);
   outline-offset: 3px;
 }
 
 /* ===== Título ===== */
-.card-title {
-  font-size: clamp(1.05rem, 2.6vw, 1.45rem);
-  line-height: 1.25;
+.card-title{
   margin: 0;
+  line-height: 1.25;
+  font-size: 1.2rem; /* fallback */
+  font-size: clamp(1.05rem, 2.6vw, 1.45rem);
 }
 
-.card-title a {
+.card-title a{
   color: inherit;
   text-decoration: none;
 }
 
 .card-title a:hover,
-.card-title a:focus-visible {
+.card-title a:focus-visible{
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
-/* ===== Imagen dentro de cada card ===== */
-.seccion_alojamiento .media {
+/* ===== Imagen ===== */
+.seccion_Emprendimientos .media,
+.seccion_alojamiento .media{
   width: 100%;
   aspect-ratio: 16 / 9;
   overflow: hidden;
@@ -136,48 +166,43 @@
   position: relative;
 }
 
-.seccion_alojamiento .media a {
+.seccion_Emprendimientos .media a,
+.seccion_alojamiento .media a{
   display: block;
   width: 100%;
   height: 100%;
 }
 
-/* Imagen con ligero zoom al hover */
-.seccion_alojamiento .media img {
+.seccion_Emprendimientos .media img,
+.seccion_alojamiento .media img{
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
-  transition:
-    transform .4s ease,
-    opacity .35s ease;
+  transition: transform .4s ease, opacity .35s ease;
   opacity: 1;
 }
 
-/* Zoom cuando se pasa por encima de la card */
-.card:hover .media img {
+.card:hover .media img{
   transform: scale(1.03);
 }
 
-/* Si tu JS agrega .is-ready al cargar */
-.seccion_alojamiento .media img.is-ready {
-  opacity: 1;
-}
-
-/* Fallback si el navegador no soporta aspect-ratio */
-@supports not (aspect-ratio: 1) {
-  .seccion_alojamiento .media {
+/* Fallback si no soporta aspect-ratio */
+@supports not (aspect-ratio: 1){
+  .seccion_Emprendimientos .media,
+  .seccion_alojamiento .media{
     height: 0;
     padding-top: 56.25%;
   }
-  .seccion_alojamiento .media img {
+  .seccion_Emprendimientos .media img,
+  .seccion_alojamiento .media img{
     position: absolute;
     inset: 0;
   }
 }
 
 /* ===== Meta (píldoras) ===== */
-.meta {
+.meta{
   display: flex;
   flex-wrap: wrap;
   gap: .5rem;
@@ -186,76 +211,76 @@
   list-style: none;
 }
 
-.pill {
+.pill{
   display: inline-flex;
   align-items: center;
   gap: .4rem;
+
   border: 1px solid var(--border);
   border-radius: 999px;
   padding: .35rem .7rem;
   font-size: .92rem;
   color: var(--muted);
+
   background: #fafafa;
   white-space: nowrap;
-  transition:
-    border-color .2s ease,
-    background-color .2s ease,
-    transform .2s ease;
+  transition: border-color .2s ease, background-color .2s ease, transform .2s ease;
 }
 
-.pill a {
+.pill a{
   color: inherit;
   text-decoration: none;
 }
 
 .pill a:hover,
-.pill a:focus-visible {
+.pill a:focus-visible{
   text-decoration: underline;
 }
 
-.pill:focus-within {
-  outline: 2px solid color-mix(in srgb, var(--brand), #fafafa 40%);
+.pill:focus-within{
+  outline: 2px solid rgba(0, 85, 72, .25);
   outline-offset: 2px;
   background: #fafafa;
 }
 
-/* Pequeño “bounce” cuando pasas el cursor */
-.card:hover .pill {
+.card:hover .pill{
   transform: translateY(-1px);
 }
 
 /* ===== Descripción ===== */
-.descripcion {
+.descripcion{
   margin: .15rem 0 0;
   color: var(--text);
   line-height: 1.6;
+  font-size: 1rem; /* fallback */
   font-size: clamp(.95rem, 2.2vw, 1rem);
 }
 
-/* Un poco más de respiración en móvil */
-@media (max-width: 480px) {
-  .seccion_alojamiento {
+/* Móvil */
+@media (max-width: 480px){
+  .seccion_Emprendimientos,
+  .seccion_alojamiento{
     margin-block: 2rem;
     padding-inline: .75rem;
   }
 
-  .card {
+  .card{
     padding: .9rem .9rem 1rem;
   }
 
-  .meta {
+  .meta{
     gap: .35rem;
   }
 
-  .pill {
+  .pill{
     font-size: .9rem;
     padding: .3rem .6rem;
   }
 }
 
-/* ===== Accesibilidad / reduce motion ===== */
-@media (prefers-reduced-motion: reduce) {
-  * {
+/* Reduce motion */
+@media (prefers-reduced-motion: reduce){
+  *{
     animation: none !important;
     transition: none !important;
   }
