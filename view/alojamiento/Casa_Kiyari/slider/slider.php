@@ -24,7 +24,7 @@ $jsTime = filemtime('../../../view/alojamiento/Casa_Kiyari/slider/slider.js');
 				</article>
 				<!-- Slide 3 -->
 				<article class="slide" aria-role description="slide" aria-label="3 de 4">
-					<img src="../../../view/alojamiento/Casa_Kiyari/img/rio.jpg" alt="Artesanías" />
+					<img src="../../../view/alojamiento/Casa_Kiyari/img/meditacion5.jpg" alt="Artesanías" />
 					<div class="slide__caption">
 						<!-- <h2>La Esperanza Vive</h2>
            <p>Cristo es la luz en medio de la oscuridad.</p> -->
@@ -32,7 +32,7 @@ $jsTime = filemtime('../../../view/alojamiento/Casa_Kiyari/slider/slider.js');
 				</article>
 				<!-- Slide 4 -->
 				<article class="slide" aria-role description="slide" aria-label="4 de 4">
-					<img src="../../../view/alojamiento/Casa_Kiyari/img/rio1.jpg" alt="Artesanías" />
+					<img src="../../../view/alojamiento/Casa_Kiyari/img/testimonio5.jpg" alt="Artesanías" />
 					<div class="slide__caption">
 						<!-- <h2>Fortaleza en la Oración</h2>
            <p>Habla con Dios, Él siempre escucha.</p> -->
