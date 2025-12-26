@@ -8,7 +8,7 @@ $jsTime = filemtime('../../../view/alojamiento/Casa_Kiyari/slider/slider.js');
 			<div class="slider__track" id="slider-track">
 				<!-- Slide 1 -->
 				<article class="slide is-current" aria-role description="slide" aria-label="1 de 4">
-					<img src="../../../view/alojamiento/Casa_Kiyari/img/general7.jpg" alt="Artesanías" />
+					<img src="../../../view/alojamiento/Casa_Kiyari/img/rio8.jpg" alt="Artesanías" />
 					<div class="slide__caption">
 						<!-- <h2>Dios es Amor</h2>
            <p>Descubre el amor que transforma vidas.</p> -->
