@@ -88,50 +88,62 @@
 		grid-template-columns: 1fr;
 	}
 }
-/*video*/
-/* Contenedor de los dos videos */
-.videos-grid {
+/* =========================
+   VIDEOS
+========================= */
+
+/* Contenedor de los videos */
+.videos-grid{
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   justify-content: center;
   align-items: stretch;
-  max-width: 1200px;
 
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 /* Cada video */
-
-
-.video-container {
+.video-container{
   position: relative;
-  flex: 1 1 550px;      /* 2 columnas en escritorio, 1 en pantallas pequeñas */
-  aspect-ratio: 1 / 2; /* mantiene proporción de video */
+  flex: 1 1 550px;     /* 2 columnas en escritorio, 1 en pantallas pequeñas */
+  height: 60vh;        /* ✅ desktop */
+  width: 100%;
   overflow: hidden;
-	height: 60vh;
-	width: 100vw;
+
   border-radius: 16px;
   background: #000;
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 18px 40px rgba(0,0,0,.35);
 }
 
-/* El iframe ocupa todo el contenedor */
-.video-container iframe {
+/* El iframe ocupa todo el contenedor (desktop) */
+.video-container iframe{
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 0;
+
   width: 100%;
   height: 100%;
   border: 0;
-	overflow-x: none;
 }
 
-/* Ajuste extra para móviles */
-@media (max-width: 768px) {
-  .videos-grid {
+/* Móvil */
+@media (max-width: 768px){
+  .videos-grid{
     flex-direction: column;
   }
 
-  .video-container {
+  .video-container{
     flex: 1 1 100%;
+    height: 80vh;      /* ✅ móvil */
+  }
+
+  /* ✅ “Zoom” del video a 200vw, centrado y recortado */
+  .video-container iframe{
+    width: 200vw;      /* ✅ 200vw en móvil */
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
