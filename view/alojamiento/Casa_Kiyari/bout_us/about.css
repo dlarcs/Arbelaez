@@ -108,7 +108,7 @@
 .video-container{
   position: relative;
 
-  height: 60vh;        /* ✅ desktop */
+  height: 50vh;        /* ✅ desktop */
   width: 100%;
   overflow: hidden;
 
