@@ -26,6 +26,21 @@ $cssTime = filemtime('../../../view/artesanias/Artesanas_Veredas/galery/arte.css
 	    "tiktok" => "https://tiktok.com/@tu-cuenta",
 	    "whatsapp" => "57XXXXXXXXXX"
 	  ],
+		[
+	    "name" => "Nombre del Emprendimiento",
+	    "place" => "Vereda X • Arbeláez",
+	    "img" => "logo-o-imagen.jpg",
+	    "img_alt" => "Logo del emprendimiento",
+
+	    "desc" => "Escribe aquí una descripción corta (50–120 palabras) sobre el emprendimiento, qué hacen, materiales, productos, y por qué es especial.",
+
+	    "pdf" => "documento.pdf",
+
+	    "facebook" => "https://facebook.com/tu-pagina",
+	    "instagram" => "https://instagram.com/tu-cuenta",
+	    "tiktok" => "https://tiktok.com/@tu-cuenta",
+	    "whatsapp" => "57XXXXXXXXXX"
+	  ],
 	];
 	?>
 
