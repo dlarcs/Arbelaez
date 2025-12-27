@@ -64,14 +64,5 @@
     <?php include "../../../view/artesanias/Artesanas_Veredas/maps/maps.php"?>
   </div>
   <?php include "../../../view/artesanias/Artesanas_Veredas/footer/footer.php" ?>
-
-  <!-- Botón WhatsApp -->
-  <a class="whatsapp-fab"
-     href="https://wa.me/573143417111?text=Hola%20vengo%20desde%20la%20web%20de%20Artesan%C3%ADas%20Martha%20E%20en%20Arbel%C3%A1ez"
-     target="_blank" rel="noopener"
-     aria-label="Chatear por WhatsApp">
-    <img src="../../../view/home/img/img_whatsApp.png" alt="Contactar Artesanías Veredas. por WhatsApp" decoding="async" loading="lazy" width="56" height="56">
-  </a>
-
 </body>
 </html>
