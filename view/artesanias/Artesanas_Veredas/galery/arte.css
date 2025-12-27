@@ -1,35 +1,107 @@
-/* ===== GRID MODERADO (auto-fit) ===== */
+/* =========================
+   FICHAS — LIMPIO + RESPONSIVE (OPTIMIZADO)
+   Grid: PC 4 | Tablet 3 | Mobile 2
+========================= */
+
+:root{
+  --bg: transparent;
+  --card:#fff;
+  --ink:#101828;
+  --muted:#667085;
+  --border: rgba(16,24,40,.10);
+  --shadow: 0 18px 40px rgba(16,24,40,.10);
+  --radius: 16px;
+
+  --pdf:#0b6cff;
+  --pdfHover:#0a5fe0;
+
+  --wa:#25D366;
+}
+
+/* ===== Grid (container) ===== */
 .section_food_gallery{
-  --container: 1200px;
-  --cardMax: 420px;             /* card no se estira infinito */
-  --cardMin: 280px;             /* ancho mínimo razonable */
-  --gap: clamp(14px, 2vw, 20px);
+  --container: 1400px;
+  --gap: clamp(12px, 1.6vw, 18px);
 
   width: min(100%, var(--container));
-  margin: 0 auto;               /* centra la sección */
+  margin: 0 auto;
   padding: clamp(12px, 2vw, 18px);
+
   display: grid;
   gap: var(--gap);
 
-  /* Se adapta solo: 1, 2, 3 columnas según espacio */
-  grid-template-columns: repeat(auto-fit, minmax(min(var(--cardMin), 100%), 1fr));
+  /* PC: 4 por fila */
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   align-items: start;
-  justify-items: center;        /* centra cada card */
+
+  background: var(--bg);
+  box-sizing: border-box;
 }
 
-/* ===== CARD MODERADA ===== */
+/* Tablet: 3 por fila */
+@media (max-width: 1024px){
+  .section_food_gallery{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* Celular: 2 por fila */
+@media (max-width: 640px){
+  .section_food_gallery{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* ===== Card ===== */
 .ficha{
   width: 100%;
-  max-width: var(--cardMax);    /* ✅ evita cards gigantes */
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   overflow: hidden;
-  padding: clamp(.85rem, 1.5vw, 1rem);
+  padding: clamp(.85rem, 1.2vw, 1rem);
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  gap: .65rem;
+
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
 }
 
-/* Imagen consistente */
+.ficha:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 22px 46px rgba(16,24,40,.14);
+  border-color: rgba(16,24,40,.16);
+}
+
+/* ===== Header ===== */
+.ficha__header{
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+  margin: 0;
+}
+
+.ficha__title{
+  margin: 0;
+  font-size: clamp(1.02rem, 1.1vw + .6rem, 1.18rem);
+  line-height: 1.2;
+  color: var(--ink);
+}
+
+.ficha__place{
+  margin: 0;
+  font-size: clamp(.88rem, .9vw + .4rem, .95rem);
+  color: var(--muted);
+}
+
+/* ===== Media ===== */
+.ficha__media{
+  margin: 0;
+}
+
 .ficha__media img{
   width: 100%;
   height: auto;
@@ -39,14 +111,129 @@
   border-radius: 12px;
 }
 
-/* Texto moderado */
-.ficha__title{
-  font-size: clamp(1.05rem, 2.2vw, 1.2rem);
-}
-.ficha__place{
-  font-size: clamp(.9rem, 2vw, .95rem);
-}
+/* ===== Description ===== */
 .ficha__desc{
-  font-size: clamp(.95rem, 2vw, 1rem);
-  line-height: 1.6;
+  margin: 0;
+  color: var(--ink);
+  opacity: .92;
+  line-height: 1.55;
+  font-size: clamp(.92rem, .8vw + .5rem, .98rem);
+}
+
+/* ===== Button (PDF) ===== */
+.btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid transparent;
+
+  user-select: none;
+  transition: transform .08s ease, box-shadow .18s ease, background .18s ease;
+}
+
+.btn__icon{
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.btn--pdf{
+  background: var(--pdf);
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(11,108,255,.22);
+}
+
+.btn--pdf:hover{ background: var(--pdfHover); }
+.btn:active{ transform: translateY(1px); }
+
+/* ===== Social row ===== */
+.social--row{
+  margin-top: .25rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+}
+
+.social__btn{
+  width: 40px;
+  height: 40px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 999px;
+  background: #f2f4f7;
+  border: 1px solid var(--border);
+
+  color: #344054;
+  text-decoration: none;
+
+  transition: transform .12s ease, background .18s ease;
+}
+
+.social__btn svg{
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.social__btn:hover{
+  background: #eaeef3;
+  transform: translateY(-1px);
+}
+
+/* WhatsApp estilo */
+.social__btn--wa{
+  background: rgba(37,211,102,.14);
+  color: #0f5132;
+  border-color: rgba(37,211,102,.28);
+}
+
+.social__btn--wa:hover{
+  background: rgba(37,211,102,.20);
+}
+
+/* WhatsApp más grande */
+.social__btn--waBig{
+  width: 52px;
+  height: 52px;
+}
+
+.social__btn--waBig svg{
+  width: 22px;
+  height: 22px;
+}
+
+/* ===== Ajustes finos para pantallas pequeñas ===== */
+@media (max-width: 420px){
+  .social--row{
+    gap: 8px;
+  }
+  .social__btn{
+    width: 38px;
+    height: 38px;
+  }
+  .social__btn--waBig{
+    width: 46px;
+    height: 46px;
+  }
+}
+
+/* ===== Accesibilidad ===== */
+@media (prefers-reduced-motion: reduce){
+  *{
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
 }
