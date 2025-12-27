@@ -237,3 +237,40 @@
     scroll-behavior: auto !important;
   }
 }
+/* ===== "Leer más" en móvil (2 líneas) ===== */
+@media (max-width: 640px){
+  .ficha__desc{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;   /* ✅ 2 renglones */
+    overflow: hidden;
+  }
+
+  /* cuando está expandido */
+  .ficha__desc.is-expanded{
+    display: block;
+    -webkit-line-clamp: unset;
+    overflow: visible;
+  }
+
+  .desc-toggle{
+    display: none; /* por defecto oculto, JS lo muestra si hace falta */
+    margin-top: .35rem;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--pdf);
+    font-weight: 700;
+    cursor: pointer;
+    text-align: left;
+  }
+
+  .desc-toggle:hover{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .desc-toggle.is-visible{
+    display: inline-block;
+  }
+}
