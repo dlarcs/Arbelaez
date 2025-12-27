@@ -2,7 +2,6 @@
 $cssTime = filemtime('../../../view/artesanias/Artesanas_Veredas/galery/arte.css'); // ejemplo: '../Home/5.Video/video.css'
 ?>
 	<link rel="stylesheet" href="../../../view/artesanias/Artesanas_Veredas/galery/arte.css?v=<?= $cssTime ?>">
-	<!-- ====== ARTESANAS / FICHA ====== -->
 	<?php
 	$cssTime = filemtime('../../../view/artesanias/Artesanas_Veredas/galery/arte.css');
 
@@ -17,16 +16,11 @@ $cssTime = filemtime('../../../view/artesanias/Artesanas_Veredas/galery/arte.css
 	    "place" => "Vereda X • Arbeláez",
 	    "img" => "logo-o-imagen.jpg",
 	    "img_alt" => "Logo del emprendimiento",
-	    "facebook" => "https://facebook.com/tu-pagina",
-	    "instagram" => "https://instagram.com/tu-cuenta",
-	    "tiktok" => "https://tiktok.com/@tu-cuenta",
-	    "whatsapp" => "57XXXXXXXXXX"
-	  ],
-	  [
-	    "name" => "Otro Emprendimiento",
-	    "place" => "Vereda Y • Arbeláez",
-	    "img" => "logo-o-imagen2.jpg",
-	    "img_alt" => "Logo del emprendimiento",
+
+	    "desc" => "Escribe aquí una descripción corta (50–120 palabras) sobre el emprendimiento, qué hacen, materiales, productos, y por qué es especial.",
+
+	    "pdf" => "documento.pdf",
+
 	    "facebook" => "https://facebook.com/tu-pagina",
 	    "instagram" => "https://instagram.com/tu-cuenta",
 	    "tiktok" => "https://tiktok.com/@tu-cuenta",
@@ -39,10 +33,12 @@ $cssTime = filemtime('../../../view/artesanias/Artesanas_Veredas/galery/arte.css
 
 	<section class="section_food_gallery" id="producto_Artesanas_Veredas">
 	  <?php foreach($items as $it):
-	    $name = htmlspecialchars($it["name"], ENT_QUOTES, "UTF-8");
+	    $name  = htmlspecialchars($it["name"], ENT_QUOTES, "UTF-8");
 	    $place = htmlspecialchars($it["place"], ENT_QUOTES, "UTF-8");
-	    $img = htmlspecialchars($it["img"], ENT_QUOTES, "UTF-8");
-	    $alt = htmlspecialchars($it["img_alt"], ENT_QUOTES, "UTF-8");
+	    $img   = htmlspecialchars($it["img"], ENT_QUOTES, "UTF-8");
+	    $alt   = htmlspecialchars($it["img_alt"], ENT_QUOTES, "UTF-8");
+	    $desc  = htmlspecialchars($it["desc"], ENT_QUOTES, "UTF-8");
+	    $pdf   = htmlspecialchars($it["pdf"], ENT_QUOTES, "UTF-8");
 
 	    $fb = htmlspecialchars($it["facebook"], ENT_QUOTES, "UTF-8");
 	    $ig = htmlspecialchars($it["instagram"], ENT_QUOTES, "UTF-8");
@@ -59,13 +55,25 @@ $cssTime = filemtime('../../../view/artesanias/Artesanas_Veredas/galery/arte.css
 	        <p class="ficha__place">📍 <?= $place ?></p>
 	      </header>
 
-	      <!-- 3) Logo o imagen -->
+	      <!-- 3) Imagen -->
 	      <figure class="ficha__media">
 	        <img src="<?= $img ?>" alt="<?= $alt ?>" loading="lazy" decoding="async">
 	      </figure>
 
+	      <!-- ✅ Descripción (después de la imagen) -->
+	      <p class="ficha__desc"><?= $desc ?></p>
+
+	      <!-- ✅ Botón azul PDF -->
+	      <a class="btn btn--pdf" href="<?= $pdf ?>" download>
+	        <svg viewBox="0 0 24 24" aria-hidden="true" class="btn__icon">
+	          <path d="M12 3a1 1 0 0 1 1 1v9.59l2.3-2.3a1 1 0 1 1 1.4 1.42l-4.01 4a1 1 0 0 1-1.4 0l-4.01-4a1 1 0 1 1 1.4-1.42L11 13.59V4a1 1 0 0 1 1-1zM5 19a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1z"/>
+	        </svg>
+	        Descargar PDF
+	      </a>
+
 	      <!-- 4) Redes en fila + WhatsApp -->
 	      <nav class="social social--row" aria-label="Redes y contacto">
+
 	        <a class="social__btn" href="<?= $fb ?>" target="_blank" rel="noopener" aria-label="Facebook">
 	          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8.5V7a1 1 0 0 1 1-1h2V3h-2.5A3.5 3.5 0 0 0 11 6.5V8.5H9v3h2V21h3v-9.5h2.5l.5-3H14z"/></svg>
 	        </a>
@@ -79,10 +87,12 @@ $cssTime = filemtime('../../../view/artesanias/Artesanas_Veredas/galery/arte.css
 	        </a>
 
 	        <?php if($waUrl): ?>
-	        <a class="social__btn social__btn--wa" href="<?= $waUrl ?>" target="_blank" rel="noopener" aria-label="WhatsApp">
-	          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.7 13.7L3 21l4.4-1.2A9 9 0 1 0 12 3zm0 2a7 7 0 0 1 0 14 7 7 0 0 1-3.5-.9l-.4-.2-2.6.7.7-2.5-.2-.4A7 7 0 0 1 12 5zm3.9 9.5c-.2-.1-1.2-.6-1.4-.7-.2-.1-.4-.1-.5.1l-.5.7c-.1.2-.3.2-.5.1-.2-.1-.9-.3-1.7-1.1-.6-.5-1-1.2-1.1-1.4-.1-.2 0-.4.1-.5l.4-.4c.1-.1.1-.2.2-.3.1-.1 0-.2 0-.4l-.7-1.6c-.2-.4-.4-.3-.5-.3h-.4c-.1 0-.3.1-.4.2-.2.2-.7.7-.7 1.8 0 1 .7 2.1.8 2.2.1.1 1.4 2.2 3.4 3 .5.2.9.3 1.2.4.5.1.9.1 1.2.1.4 0 1.2-.5 1.3-1 .2-.5.2-.9.1-1 0-.1-.2-.2-.4-.3z"/></svg>
-	        </a>
+	          <!-- ✅ WhatsApp más grande -->
+	          <a class="social__btn social__btn--wa social__btn--waBig" href="<?= $waUrl ?>" target="_blank" rel="noopener" aria-label="WhatsApp">
+	            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.7 13.7L3 21l4.4-1.2A9 9 0 1 0 12 3zm0 2a7 7 0 0 1 0 14 7 7 0 0 1-3.5-.9l-.4-.2-2.6.7.7-2.5-.2-.4A7 7 0 0 1 12 5zm3.9 9.5c-.2-.1-1.2-.6-1.4-.7-.2-.1-.4-.1-.5.1l-.5.7c-.1.2-.3.2-.5.1-.2-.1-.9-.3-1.7-1.1-.6-.5-1-1.2-1.1-1.4-.1-.2 0-.4.1-.5l.4-.4c.1-.1.1-.2.2-.3.1-.1 0-.2 0-.4l-.7-1.6c-.2-.4-.4-.3-.5-.3h-.4c-.1 0-.3.1-.4.2-.2.2-.7.7-.7 1.8 0 1 .7 2.1.8 2.2.1.1 1.4 2.2 3.4 3 .5.2.9.3 1.2.4.5.1.9.1 1.2.1.4 0 1.2-.5 1.3-1 .2-.5.2-.9.1-1 0-.1-.2-.2-.4-.3z"/></svg>
+	          </a>
 	        <?php endif; ?>
+
 	      </nav>
 
 	    </article>

@@ -259,3 +259,60 @@
   color: var(--muted);
   font-size: .85rem;
 }
+.ficha__desc{
+  margin: .75rem 0 .9rem;
+  color: #1f2937;
+  line-height: 1.6;
+  font-size: .98rem;
+}
+
+/* Botón azul para PDF */
+.btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: transform .08s ease, box-shadow .15s ease, background .15s ease;
+}
+
+.btn__icon{
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.btn--pdf{
+  background: #0b6cff;
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(11,108,255,.22);
+}
+
+.btn--pdf:hover{ background: #0a5fe0; }
+.btn:active{ transform: translateY(1px); }
+
+/* Redes en fila */
+.social--row{
+  margin-top: .9rem;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+/* Botón WA más grande */
+.social__btn--waBig{
+  width: 52px;
+  height: 52px;
+}
+
+.social__btn--waBig svg{
+  width: 22px;
+  height: 22px;
+}
