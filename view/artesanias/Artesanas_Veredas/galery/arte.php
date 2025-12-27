@@ -128,3 +128,49 @@ $items = [
     </article>
   <?php endforeach; ?>
 </section>
+<script>
+(function(){
+  function setupReadMore(){
+    const descs = document.querySelectorAll(".ficha__desc");
+
+    descs.forEach(desc => {
+      // Evita duplicar botón
+      let btn = desc.nextElementSibling;
+      const already = btn && btn.classList && btn.classList.contains("desc-toggle");
+
+      if (!already){
+        btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "desc-toggle";
+        btn.textContent = "Leer más";
+        btn.setAttribute("aria-expanded", "false");
+        desc.insertAdjacentElement("afterend", btn);
+
+        btn.addEventListener("click", () => {
+          const expanded = desc.classList.toggle("is-expanded");
+          btn.textContent = expanded ? "Ocultar" : "Leer más";
+          btn.setAttribute("aria-expanded", expanded ? "true" : "false");
+        });
+      }
+
+      // Si el texto NO se corta, no mostramos el botón
+      // (Solo funciona si está colapsado)
+      desc.classList.remove("is-expanded");
+      btn.textContent = "Leer más";
+      btn.setAttribute("aria-expanded", "false");
+
+      // Espera layout/paint para medir bien
+      requestAnimationFrame(() => {
+        const needsToggle = desc.scrollHeight > desc.clientHeight + 1;
+        btn.classList.toggle("is-visible", needsToggle);
+      });
+    });
+  }
+
+  window.addEventListener("load", setupReadMore);
+  window.addEventListener("resize", () => {
+    clearTimeout(window.__rmT);
+    window.__rmT = setTimeout(setupReadMore, 150);
+  });
+})();
+</script>

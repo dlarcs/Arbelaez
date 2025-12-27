@@ -237,40 +237,48 @@
     scroll-behavior: auto !important;
   }
 }
-/* ===== "Leer más" en móvil (2 líneas) ===== */
-@media (max-width: 640px){
-  .ficha__desc{
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;   /* ✅ 2 renglones */
-    overflow: hidden;
-  }
+/* =========================
+   DESC: 2 líneas + Leer más/Ocultar
+========================= */
+.ficha__desc{
+  margin: 0;
+  color: var(--ink);
+  opacity: .92;
+  line-height: 1.55;
+  font-size: clamp(.92rem, .8vw + .5rem, .98rem);
 
-  /* cuando está expandido */
-  .ficha__desc.is-expanded{
-    display: block;
-    -webkit-line-clamp: unset;
-    overflow: visible;
-  }
+  /* ✅ 2 líneas SIEMPRE */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
 
-  .desc-toggle{
-    display: none; /* por defecto oculto, JS lo muestra si hace falta */
-    margin-top: .35rem;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    color: var(--pdf);
-    font-weight: 700;
-    cursor: pointer;
-    text-align: left;
-  }
+/* ✅ Expandido */
+.ficha__desc.is-expanded{
+  display: block;
+  -webkit-line-clamp: unset;
+  overflow: visible;
+}
 
-  .desc-toggle:hover{
-    text-decoration: underline;
-    text-underline-offset: 3px;
-  }
+/* Botón Leer más / Ocultar */
+.desc-toggle{
+  display: none;               /* oculto por defecto */
+  margin-top: .35rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--pdf);
+  font-weight: 800;
+  cursor: pointer;
+  text-align: left;
+}
 
-  .desc-toggle.is-visible{
-    display: inline-block;
-  }
+.desc-toggle.is-visible{
+  display: inline-block;       /* se muestra solo si hace falta */
+}
+
+.desc-toggle:hover{
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
