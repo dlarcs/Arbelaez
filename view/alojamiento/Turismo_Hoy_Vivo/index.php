@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Básicos -->
-  <title>Turismo Hoy Vivo – Casa Rural Accesible (Privada) | Descanso y aves en Arbeláez</title>
+  <title>Turismo Hoy Vivo – Casa Rural Accesible | Descanso y aves en Arbeláez</title>
   <meta name="description" content="Turismo Hoy Vivo – Casa Rural Accesible en Arbeláez (Cundinamarca): alojamiento privado y accesible para personas con discapacidad (y para todos), ideal para descansar de la ciudad, rodeado de naturaleza y avistamiento de aves.">
   <link rel="canonical" href="https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/">
   <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">

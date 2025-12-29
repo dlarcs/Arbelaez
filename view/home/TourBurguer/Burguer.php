@@ -371,7 +371,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         >
       </figure>
 
-      <h3 class="tourburger-card__name">Don Cipro</h3>
+      <h3 class="tourburger-card__name">Don Ciprio</h3>
       <p class="tourburger-card__details">
         Ubicado en la casa de los pájaros segundo piso al frente del parque Gómez Otero <br>
         Entre semana 6:00pm - 10:00pm. <br>
