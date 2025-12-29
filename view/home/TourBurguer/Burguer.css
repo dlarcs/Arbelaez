@@ -1,387 +1,325 @@
 /* =========================
-   TOURBURGER SECTION
+   TOURBURGER — Clean + Responsive
 ========================= */
 
-:root {
-  --tourburger-bg: #050505;
-  --tourburger-card-bg: #101010;
-  --tourburger-border: #2a2a2a;
-  --tourburger-accent: #ffb74d;
-  --tourburger-accent-strong: #ff9800;
-  --tourburger-text: #f9fafb;
-  --tourburger-muted: #9ca3af;
-  --tourburger-radius: 18px;
-  --tourburger-shadow: 0 18px 45px rgba(0, 0, 0, 0.4);
+:root{
+  --tb-bg:#050505;
+  --tb-card:#101010;
+  --tb-border:#2a2a2a;
+  --tb-accent:#ffb74d;
+  --tb-accent-strong:#ff9800;
+  --tb-text:#f9fafb;
+  --tb-muted:#9ca3af;
+
+  --tb-radius:18px;
+  --tb-shadow:0 18px 45px rgba(0,0,0,.40);
+  --tb-shadow-card:0 12px 28px rgba(0,0,0,.45);
 }
 
-.tourburger {
-  padding: 2rem;
-  min-width: 95vw;
-  margin: 0rem auto;
+/* ===== Section wrapper ===== */
+.tourburger{
+  width: 100%;
+  margin: 0;
+  padding: clamp(18px, 3vw, 42px);
   background: radial-gradient(circle at top, #171717, #020202 55%);
-  color: var(--tourburger-text);
+  color: var(--tb-text);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  box-sizing: border-box;
 }
 
-.tourburger__inner {
-  max-width: 1120px;
+.tourburger__inner{
+  width: min(1120px, 100%);
   margin: 0 auto;
 }
 
-/* HERO */
-
-.tourburger__hero {
+/* ===== Hero ===== */
+.tourburger__hero{
   display: grid;
-  gap: 2.5rem;
+  gap: clamp(18px, 3vw, 40px);
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: clamp(20px, 3vw, 48px);
 }
 
-.tourburger__text {
-  text-align: left;
-}
+.tourburger__text{ text-align: left; }
 
-.tourburger__title {
-  font-size: clamp(2rem, 3vw, 2.6rem);
-  letter-spacing: 0.08em;
+.tourburger__title{
+  margin: 0 0 .35rem 0;
+  font-size: clamp(1.55rem, 2.6vw, 2.6rem);
+  letter-spacing: .08em;
   text-transform: uppercase;
-  margin-bottom: 0.25rem;
 }
 
-.tourburger__subtitle {
-  font-size: 0.95rem;
-  color: var(--tourburger-muted);
-  margin-bottom: 0.75rem;
+.tourburger__subtitle{
+  margin: 0 0 .8rem 0;
+  font-size: .95rem;
+  color: var(--tb-muted);
 }
 
-.tourburger__dates {
+.tourburger__dates{
+  margin: 0 0 .8rem 0;
   font-size: 1.05rem;
-  font-weight: 600;
-  color: var(--tourburger-accent);
-  margin-bottom: 0.75rem;
+  font-weight: 650;
+  color: var(--tb-accent);
 }
 
-.tourburger__description {
-  font-size: 0.97rem;
-  line-height: 1.6;
-  color: var(--tourburger-muted);
-  max-width: 34rem;
+.tourburger__description{
+  margin: 0;
+  font-size: .97rem;
+  line-height: 1.65;
+  color: var(--tb-muted);
+  max-width: 38rem;
 }
 
-.tourburger__cta {
-  margin-top: 1.5rem;
-}
+.tourburger__cta{ margin-top: 1.2rem; }
 
-/* Imagen */
-
-.tourburger__image-wrapper {
+/* ===== Hero image ===== */
+.tourburger__image-wrapper{
   margin: 0;
   border-radius: 28px;
-  padding: 0.5rem;
-  max-height: 45vh;        /* 🔹 límite del contenedor */
+  padding: .5rem;
   background: radial-gradient(circle at top, #ffb74d22, #000);
-  box-shadow: var(--tourburger-shadow);
-  overflow: hidden;         /* 🔹 recorta si algo se pasa */
+  box-shadow: var(--tb-shadow);
+  overflow: hidden;
 }
 
-.tourburger__image {
+.tourburger__image{
   display: block;
   width: 100%;
   height: auto;
-  max-height: 100%;         /* 🔹 la imagen nunca supera 30vh */
   border-radius: 24px;
-  object-fit: fill;
-  transition: opacity 0.25s ease;
+  object-fit: cover;
+  transition: opacity .22s ease;
 }
 
-
-/* Locales */
-
-.tourburger__places {
+/* ===== Places grid =====
+   Mobile: 2 cols, then 3/4/5 */
+.tourburger__places{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
+  gap: clamp(.75rem, 2vw, 1.25rem);
+  grid-template-columns: repeat(2, minmax(0, 1fr)); /* ✅ móvil: 2 */
 }
 
-.tourburger-card {
-  background: linear-gradient(145deg, var(--tourburger-card-bg), #050505);
-  border-radius: var(--tourburger-radius);
-  padding: 1.25rem 1.3rem 1.1rem;
-  border: 1px solid var(--tourburger-border);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
+@media (max-width: 359px){
+  .tourburger__places{ grid-template-columns: 1fr; }
+}
+
+@media (min-width: 768px){
+  .tourburger__hero{
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  }
+  .tourburger__places{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1100px){
+  .tourburger__places{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1400px){
+  .tourburger__places{
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+/* ===== Card ===== */
+.tourburger-card{
+  background: linear-gradient(145deg, var(--tb-card), #050505);
+  border-radius: var(--tb-radius);
+  border: 1px solid var(--tb-border);
+  box-shadow: var(--tb-shadow-card);
+  padding: 1.1rem 1.1rem 1rem;
   display: flex;
   flex-direction: column;
-  gap: 0.7rem;
+  gap: .7rem;
+  min-width: 0;
+  transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
 }
 
-.tourburger-card__name {
+.tourburger-card:hover{
+  transform: translateY(-2px);
+  border-color: rgba(255,255,255,.18);
+}
+
+.tourburger-card__name{
+  margin: 0;
   font-size: 1rem;
-  font-weight: 600;
-}
-
-.tourburger-card__details {
-  font-size: 0.9rem;
-  color: var(--tourburger-muted);
-}
-
-/* Para que se note que son clicables */
-.tourburger-card__name,
-.tourburger-card__details {
+  font-weight: 650;
   cursor: pointer;
 }
 
-.tourburger-card__actions {
-  margin-top: 0.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
+.tourburger-card__details{
+  margin: 0;
+  font-size: .9rem;
+  color: var(--tb-muted);
+  line-height: 1.45;
+  cursor: pointer;
 }
 
-/* Botones genéricos */
+/* ===== Thumb (sin height fija gigante) ===== */
+.tourburger-card__thumb{
+  margin: -0.25rem -0.25rem .7rem;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--tb-border);
+  cursor: pointer;
+}
 
-.btn {
+.tourburger-card__thumb img{
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;   /* ✅ consistente y liviano */
+  height: auto;
+  object-fit: cover;
+}
+
+/* si quieres más alta en móvil */
+@media (max-width: 640px){
+  .tourburger-card__thumb img{ aspect-ratio: 4 / 3; }
+}
+
+/* ===== Burger info ===== */
+.tourburger-card__burger{
+  border-top: 1px dashed rgba(148,163,184,.35);
+  padding-top: .55rem;
+  color: var(--tb-muted);
+  font-size: .88rem;
+}
+
+.tourburger-card__burger-name{
+  margin: 0 0 .2rem 0;
+  font-size: .92rem;
+  font-weight: 700;
+  color: var(--tb-accent);
+}
+
+.tourburger-card__burger-ingredients{
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* ===== Buttons ===== */
+.tourburger-card__actions{
+  margin-top: .35rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+}
+
+.btn{
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.55rem 1.1rem;
+  padding: .55rem 1.05rem;
   border-radius: 999px;
-  font-size: 0.85rem;
-  font-weight: 600;
+  font-size: .85rem;
+  font-weight: 650;
   border: 1px solid transparent;
   cursor: pointer;
   text-decoration: none;
-  transition:
-    background-color 0.18s ease,
-    color 0.18s ease,
-    transform 0.12s ease,
-    box-shadow 0.18s ease;
   white-space: nowrap;
+  transition: background-color .18s ease, color .18s ease, transform .12s ease, box-shadow .18s ease;
 }
 
-.btn:focus-visible {
-  outline: 2px solid var(--tourburger-accent-strong);
+.btn:focus-visible{
+  outline: 2px solid var(--tb-accent-strong);
   outline-offset: 2px;
 }
 
-.btn--primary {
-  background: linear-gradient(135deg, var(--tourburger-accent-strong), var(--tourburger-accent));
+.btn--primary{
+  background: linear-gradient(135deg, var(--tb-accent-strong), var(--tb-accent));
   color: #111827;
-  box-shadow: 0 10px 20px rgba(255, 152, 0, 0.35);
+  box-shadow: 0 10px 20px rgba(255,152,0,.35);
 }
+.btn--primary:hover{ transform: translateY(-1px); }
 
-.btn--primary:hover {
-  background: linear-gradient(135deg, #ffc46b, var(--tourburger-accent-strong));
-  transform: translateY(-1px);
-}
-
-.btn--outline {
+.btn--outline{
   background: transparent;
-  border-color: var(--tourburger-accent);
-  color: var(--tourburger-accent);
+  border-color: var(--tb-accent);
+  color: var(--tb-accent);
 }
-
-.btn--outline:hover {
-  background: rgba(255, 183, 77, 0.12);
+.btn--outline:hover{
+  background: rgba(255,183,77,.12);
   transform: translateY(-1px);
 }
 
-.btn--ghost {
-  background: rgba(31, 41, 55, 0.8);
-  color: var(--tourburger-text);
-  border-color: rgba(55, 65, 81, 0.9);
+.btn--ghost{
+  background: rgba(31,41,55,.8);
+  color: var(--tb-text);
+  border-color: rgba(55,65,81,.9);
 }
-
-.btn--ghost:hover {
-  background: rgba(55, 65, 81, 0.95);
+.btn--ghost:hover{
+  background: rgba(55,65,81,.95);
   transform: translateY(-1px);
 }
 
-/* MODAL */
-
-.tourburger-modal {
+/* ===== Modal ===== */
+.tourburger-modal{
   position: fixed;
   inset: 0;
   display: none;
   z-index: 60;
 }
+.tourburger-modal.is-open{ display: block; }
 
-.tourburger-modal.is-open {
-  display: block;
-}
-
-.tourburger-modal__overlay {
+.tourburger-modal__overlay{
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0,0,0,.65);
   backdrop-filter: blur(3px);
 }
 
-.tourburger-modal__dialog {
+.tourburger-modal__dialog{
   position: relative;
-  max-width: 640px;
-  margin: 20rem auto;
+  width: min(640px, calc(100% - 2rem));
+  margin: 8vh auto;
   background: #050505;
   border-radius: 18px;
-  padding: 1.5rem 1.5rem 1.3rem;
-  border: 1px solid var(--tourburger-border);
-  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.7);
+  padding: 1.4rem 1.4rem 1.2rem;
+  border: 1px solid var(--tb-border);
+  box-shadow: 0 24px 60px rgba(0,0,0,.7);
   z-index: 61;
-  max-height: 92vh;
+  max-height: 84vh;
   overflow: auto;
 }
 
-.tourburger-modal__title {
+.tourburger-modal__title{
+  margin: 0 0 .85rem 0;
   font-size: 1.1rem;
-  margin-bottom: 0.9rem;
 }
 
-.tourburger-modal__content {
-  font-size: 0.9rem;
-  color: var(--tourburger-muted);
+.tourburger-modal__content{
+  font-size: .92rem;
+  color: var(--tb-muted);
 }
 
-.tourburger-modal__content ol {
-  margin-left: 1.1rem;
+.tourburger-modal__content ol{
+  margin: 0 0 0 1.1rem;
   display: grid;
-  gap: 0.4rem;
+  gap: .45rem;
 }
 
-.tourburger-modal__close {
+.tourburger-modal__close{
   position: absolute;
-  top: 0.4rem;
-  right: 0.6rem;
+  top: .4rem;
+  right: .6rem;
   border: none;
   background: transparent;
-  color: var(--tourburger-muted);
-  font-size: 1.5rem;
+  color: var(--tb-muted);
+  font-size: 1.6rem;
   cursor: pointer;
 }
 
-/* RESPONSIVE */
-
-@media (min-width: 768px) {
-  .tourburger {
-    padding: 4rem 1.5rem 5rem;
-  }
-
-  .tourburger__hero {
-    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
-  }
+/* ===== Mobile alignment tweaks ===== */
+@media (max-width: 639.98px){
+  .tourburger__text{ text-align: center; }
+  .tourburger-card__actions{ justify-content: center; }
 }
 
-@media (max-width: 639.98px) {
-  .tourburger__hero {
-    text-align: center;
-  }
-
-  .tourburger__text {
-    text-align: center;
-  }
-
-  .tourburger-card__actions {
-    justify-content: center;
-  }
-
-  .tourburger-modal__dialog {
-    margin: 6vh 1rem;
-  }
-}
-/* =========================
-   TOURBURGER – CARDS EXTRA
-========================= */
-
-/* Mini-foto dentro de la tarjeta */
-.tourburger-card__thumb {
-  margin: -0.25rem -0.25rem 0.75rem;
-  border-radius: 14px;
-  overflow: hidden;
-  border: 1px solid var(--tourburger-border);
-}
-
-.tourburger-card__thumb img {
-  display: block;
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-}
-
-/* Bloque de hamburguesa (nombre + ingredientes) */
-.tourburger-card__burger {
-  font-size: 0.85rem;
-  color: var(--tourburger-muted);
-  border-top: 1px dashed #374151;
-  padding-top: 0.5rem;
-}
-
-.tourburger-card__burger-name {
-  font-size: 0.9rem;
-  font-weight: 600;
-  margin: 0 0 0.15rem;
-  color: var(--tourburger-accent);
-}
-
-.tourburger-card__burger-ingredients {
-  margin: 0;
-  line-height: 1.5;
-}
-
-/* En móvil las imágenes un poco más bajas */
-@media (max-width: 640px) {
-  .tourburger-card__thumb img {
-    height: 300px;
-  }
-}
-/* =========================
-   TOURBURGER – LAYOUT PC
-   1ª columna: 3 filas
-   2ª columna: 4 filas
-========================= */
-
-@media (min-width: 1024px) {
-  .tourburger__places {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1.25rem;
-  }
-
-  .tourburger-card {
-    height: 100%;
-  }
-
-  /* Columna 1: 3 tarjetas */
-  .tourburger-card:nth-child(1) {
-    grid-column: 1;
-    grid-row: 1;
-  }
-
-  .tourburger-card:nth-child(2) {
-    grid-column: 1;
-    grid-row: 2;
-  }
-
-  .tourburger-card:nth-child(3) {
-    grid-column: 1;
-    grid-row: 3;
-  }
-
-  /* Columna 2: 4 tarjetas */
-  .tourburger-card:nth-child(4) {
-    grid-column: 2;
-    grid-row: 1;
-  }
-
-  .tourburger-card:nth-child(5) {
-    grid-column: 2;
-    grid-row: 2;
-  }
-
-  .tourburger-card:nth-child(6) {
-    grid-column: 2;
-    grid-row: 3;
-  }
-
-  .tourburger-card:nth-child(7) {
-    grid-column: 2;
-    grid-row: 4;
-  }
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce){
+  .tourburger-card,
+  .tourburger__image{ transition: none; }
 }
