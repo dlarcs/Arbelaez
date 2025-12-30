@@ -34,7 +34,6 @@ $items = [
     "pdf" => "pdf/catalogo-joyas-luz.pdf",
     "facebook" => "https://facebook.com/tu-pagina",
     "instagram" => "https://instagram.com/tu-cuenta",
-    "tiktok" => "https://tiktok.com/@tu-cuenta",
     "whatsapp" => "57XXXXXXXXXX"
   ],
 
@@ -47,7 +46,6 @@ $items = [
     "pdf" => "pdf/catalogo-cafe-santa-barbara.pdf",
     "facebook" => "https://facebook.com/tu-pagina",
     "instagram" => "https://instagram.com/tu-cuenta",
-    "tiktok" => "https://tiktok.com/@tu-cuenta",
     "whatsapp" => "57XXXXXXXXXX"
   ],
 
@@ -60,7 +58,6 @@ $items = [
     "pdf" => "pdf/catalogo-Artesana-munos.pdf",
     "facebook" => "https://facebook.com/tu-pagina",
     "instagram" => "https://instagram.com/tu-cuenta",
-    "tiktok" => "https://tiktok.com/@tu-cuenta",
     "whatsapp" => "57XXXXXXXXXX"
   ],
 
@@ -113,9 +110,9 @@ $items = [
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm10 2H7a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm-5 3.5A4.5 4.5 0 1 1 7.5 13 4.5 4.5 0 0 1 12 8.5zm0 2A2.5 2.5 0 1 0 14.5 13 2.5 2.5 0 0 0 12 10.5zM17.8 6.2a1 1 0 1 1-1 1 1 1 0 0 1 1-1z"/></svg>
         </a>
 
-        <a class="social__btn" href="<?= $tt ?>" target="_blank" rel="noopener" aria-label="TikTok">
+        <!-- <a class="social__btn" href="<?= $tt ?>" target="_blank" rel="noopener" aria-label="TikTok">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v10.2a3.8 3.8 0 1 1-2-3.3V6.1c2.2 2.8 4.8 3.9 7 4V7.9c-1.9-.2-3.7-1.2-5-2.7V21h-2v-3.1A5.8 5.8 0 1 1 14 12v-1.8a3.8 3.8 0 1 0 0 3z"/></svg>
-        </a>
+        </a> -->
 
         <?php if($waUrl): ?>
           <a class="social__btn social__btn--wa social__btn--waBig" href="<?= $waUrl ?>" target="_blank" rel="noopener" aria-label="WhatsApp">
