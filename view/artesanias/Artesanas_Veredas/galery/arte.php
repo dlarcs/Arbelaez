@@ -20,7 +20,8 @@ $items = [
     "desc" => "Elaboro figuras en cerámica utilitarias, y realizó talleres de conexión con la arcilla
        Siendo la arcilla un instrumento de sanación ",
     "pdf" => "../../../view/artesanias/Artesanas_Veredas/pdf/hichytamanosdetijera.pdf",
-    "facebook" => "https://facebook.com/tu-pagina",
+    "facebook" => "https://www.facebook.com/hichyta.manos.tierra",
+    "instagram" => "https://www.instagram.com/hichyta2022/",
     "whatsapp" => "573143964516"
   ],
 
