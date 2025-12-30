@@ -40,11 +40,6 @@
   <meta property="og:url" content="https://www.arbelaez.com.co/history/">
   <meta property="og:image" content="https://www.arbelaez.com.co/view/home/img/og-1200x630.jpg">
 
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="History of Arbeláez – Culture & Heritage">
-  <meta name="twitter:description" content="Learn about Arbeláez’s origins, traditions and heritage in Cundinamarca — a town near Bogotá.">
-  <meta name="twitter:image" content="https://www.arbelaez.com.co/view/home/img/og-1200x630.jpg">
 
   <!-- Social profiles (official) -->
   <link rel="me" href="https://www.facebook.com/profile.php?id=61580302286594">
@@ -55,10 +50,10 @@
 </head>
 
 <body class="body_history">
-  <?php include "../../../view/artesanias/Artesanas_Veredas/menu/menu.php" ?>
+  <?php include "../../view/artesanias/Artesanas_Veredas/menu/menu.php" ?>
   <div class="container_history">
-    <?php include "../../../view/history/seccion/history.php"?>
+    <?php include "../../view/history/seccion/history.php"?>
   </div>
-  <?php include "../../../view/artesanias/Artesanas_Veredas/footer/footer.php" ?>
+  <?php include "../../view/artesanias/Artesanas_Veredas/footer/footer.php" ?>
 </body>
 </html>
