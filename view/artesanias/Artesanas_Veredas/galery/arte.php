@@ -15,8 +15,8 @@ $items = [
   [
     "name" => "Hichyta Manos de la Tierra",
     "place" => "Vereda San Miguel bajo - Arbeláez • Cundinamarca",
-    "img" => "img/artesanias-geminis.jpg",
-    "img_alt" => "Artesanías Géminis - joyas en acero y cuero",
+    "img" => "../../../view/artesanias/Artesanas_Veredas/img/Hichyta.png",
+    "img_alt" => "Hichyta Manos de la Tierra",
     "desc" => "Elaboro figuras en cerámica utilitarias, y realizó talleres de conexión con la arcilla
        Siendo la arcilla un instrumento de sanación ",
     "pdf" => "../../../view/artesanias/Artesanas_Veredas/pdf/hichytamanosdetijera.pdf",
@@ -25,7 +25,7 @@ $items = [
   ],
 
   [
-    "name" => "JOYAS LUZ",
+    "name" => "Artesana",
     "place" => "Arbeláez • Cundinamarca",
     "img" => "img/joyas-luz.jpg",
     "img_alt" => "Joyas Luz - joyería y detalles",
@@ -38,7 +38,7 @@ $items = [
   ],
 
   [
-    "name" => "Café Santa Bárbara",
+    "name" => "Artesana",
     "place" => "Arbeláez • Cundinamarca",
     "img" => "../../../view/artesanias/Artesanas_Veredas/img/CaafeSantaBarbara.png",
     "img_alt" => "Café Santa Bárbara - café local",
@@ -51,12 +51,12 @@ $items = [
   ],
 
   [
-    "name" => "HICHYTA – Manos de la Tierra",
+    "name" => "Artesana",
     "place" => "Veredas de Arbeláez • Cundinamarca",
     "img" => "img/hichyta-manos-de-la-tierra.jpg",
-    "img_alt" => "HICHYTA - muñecos hechos a mano",
-    "desc" => "HICHYTA “Manos de la Tierra” crea muñecos artesanales hechos a mano, llenos de identidad y detalle. Cada pieza es única y puede personalizarse con colores, accesorios o temáticas especiales. Perfectos para regalo, decoración o para coleccionar artesanía local con historia.",
-    "pdf" => "pdf/catalogo-hichyta-munos.pdf",
+    "img_alt" => "Artesana- muñecos hechos a mano",
+    "desc" => "Artesana “Manos de la Tierra” crea muñecos artesanales hechos a mano, llenos de identidad y detalle. Cada pieza es única y puede personalizarse con colores, accesorios o temáticas especiales. Perfectos para regalo, decoración o para coleccionar artesanía local con historia.",
+    "pdf" => "pdf/catalogo-Artesana-munos.pdf",
     "facebook" => "https://facebook.com/tu-pagina",
     "instagram" => "https://instagram.com/tu-cuenta",
     "tiktok" => "https://tiktok.com/@tu-cuenta",
