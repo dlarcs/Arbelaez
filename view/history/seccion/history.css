@@ -112,7 +112,10 @@
   gap:18px;
   padding:clamp(1.1rem, 2vw, 1.6rem);
   border-radius: var(--radius2);
-
+  background:
+    radial-gradient(circle at top, rgba(255,255,255,.10) 0, transparent 55%),
+    radial-gradient(circle at bottom, rgba(175,133,79,.24) 0, transparent 55%),
+    linear-gradient(145deg, #020617, #0b1524);
 
   box-shadow: var(--shadow);
   border: 1px solid rgba(255,255,255,.08);
