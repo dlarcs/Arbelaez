@@ -38,12 +38,12 @@ $cssTime = filemtime('../../view/global/footer/footer.css');
       <div class="footer_col">
         <h3 class="footer_title">Alojamiento</h3>
         <ul class="footer_list">
-          <li><a href="../../view/alojamiento/Los_Altos/index.php">Los Altos</a></li>
+          <!-- <li><a href="../../view/alojamiento/Los_Altos/index.php">Los Altos</a></li> -->
           <li><a href="../../view/alojamiento/Casa_Kandu/index.php">Casa Kandu</a></li>
           <li><a href="../../view/alojamiento/La_Rinconada/index.php">La Rinconada</a></li>
           <li><a href="../../view/alojamiento/Turismo_Hoy_Vivo/index.php">Turismo Hoy Vivo</a></li>
           <li><a href="../../view/alojamiento/Cachorros_LyC/index.php">Cachorros L&C</a></li>
-          <li><a href="../../view/alojamiento/IsraHousSuites/index.php">Isra House Suite</a></li>
+          <!-- <li><a href="../../view/alojamiento/IsraHousSuites/index.php">Isra House Suite</a></li> -->
 
         </ul>
       </div>
