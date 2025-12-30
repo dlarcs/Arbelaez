@@ -52,16 +52,17 @@
   <link rel="me" href="https://www.tiktok.com/@arbelaez_turismo">
 
   <!-- Structured data: WebPage + Organization -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebPage",
-        "name": "History of Arbeláez",
-        "url": "https://www.arbelaez.com.co/history/",
-        "inLanguage": "en"
-      },
-      {
-        "@type": "Organization",
-        "name": "Arbeláez Turismo",
+</head>
+
+<body class="body_Artesanas_Veredas">
+  <?php include "../../../view/artesanias/Artesanas_Veredas/menu/menu.php" ?>
+  <div class="container_Artesanas_Veredas">
+    <?php include "../../../view/artesanias/Artesanas_Veredas/title/title.php" ?>
+    <?php include "../../../view/artesanias/Artesanas_Veredas/slider/slider.php" ?>
+    <?php include "../../../view/artesanias/Artesanas_Veredas/galery/arte.php" ?>
+    <?php include "../../../view/artesanias/Artesanas_Veredas/bout_us/about.php" ?>
+    <?php include "../../../view/artesanias/Artesanas_Veredas/maps/maps.php"?>
+  </div>
+  <?php include "../../../view/artesanias/Artesanas_Veredas/footer/footer.php" ?>
+</body>
+</html>

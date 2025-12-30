@@ -41,7 +41,7 @@ $items = [
   [
     "name" => "Café Santa Bárbara",
     "place" => "Arbeláez • Cundinamarca",
-    "img" => "img/cafe-santa-barbara.jpg",
+    "img" => "../../../view/artesanias/Artesanas_Veredas/img/CaafeSantaBarbara.png",
     "img_alt" => "Café Santa Bárbara - café local",
     "desc" => "Café Santa Bárbara ofrece una experiencia de sabor local: café de calidad, aromas intensos y productos ideales para compartir. Un lugar perfecto para hacer una pausa, disfrutar una bebida caliente y apoyar el emprendimiento del municipio. Pregunta por sus presentaciones y opciones para llevar.",
     "pdf" => "pdf/catalogo-cafe-santa-barbara.pdf",
