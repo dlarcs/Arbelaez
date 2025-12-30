@@ -20,7 +20,7 @@ $jsTime = filemtime('../../../view/artesanias/Artesanas_Veredas/slider/slider.js
 					<div class="slide__caption">
 						<!-- <h2>Una Familia de Fe</h2>
            <p>Aquí siempre encontrarás un lugar para ti.</p> -->
-					</div>
+					</div> 
 				</article>
 				<!-- Slide 3 -->
 				<article class="slide" aria-role description="slide" aria-label="3 de 4">
