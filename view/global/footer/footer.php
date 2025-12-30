@@ -10,7 +10,6 @@ $cssTime = filemtime('../../view/global/footer/footer.css');
     </a>
     <h2>ARBELÁEZ CUNDINAMARCA</h2>
   </div>
-
   <div class="footer_container">
     <nav class="footer_grid" aria-label="Mapa del sitio">
       <!-- Columna: Inicio -->
@@ -48,7 +47,6 @@ $cssTime = filemtime('../../view/global/footer/footer.css');
           <!-- <li><a href="../../view/alojamiento/IsraHousSuites/index.php">Isra House Suite</a></li> -->
         </ul>
       </div>
-
       <!-- Columna: Gastronomía (5) -->
       <div class="footer_col">
         <h3 class="footer_title">Gastronomía</h3>
