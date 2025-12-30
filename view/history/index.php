@@ -54,14 +54,10 @@
   <!-- Structured data: WebPage + Organization -->
 </head>
 
-<body class="body_Artesanas_Veredas">
+<body class="body_history">
   <?php include "../../../view/artesanias/Artesanas_Veredas/menu/menu.php" ?>
-  <div class="container_Artesanas_Veredas">
-    <?php include "../../../view/artesanias/Artesanas_Veredas/title/title.php" ?>
-    <?php include "../../../view/artesanias/Artesanas_Veredas/slider/slider.php" ?>
-    <?php include "../../../view/artesanias/Artesanas_Veredas/galery/arte.php" ?>
-    <?php include "../../../view/artesanias/Artesanas_Veredas/bout_us/about.php" ?>
-    <?php include "../../../view/artesanias/Artesanas_Veredas/maps/maps.php"?>
+  <div class="container_history">
+    <?php include "../../../view/history/seccion/history.php"?>
   </div>
   <?php include "../../../view/artesanias/Artesanas_Veredas/footer/footer.php" ?>
 </body>
