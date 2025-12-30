@@ -13,16 +13,15 @@ function wa_link($phoneInt, $name){
 $items = [
 
   [
-    "name" => "Artesanías Géminis",
-    "place" => "Arbeláez • Cundinamarca",
+    "name" => "Hichyta Manos de la Tierra",
+    "place" => "Vereda San Miguel bajo - Arbeláez • Cundinamarca",
     "img" => "img/artesanias-geminis.jpg",
     "img_alt" => "Artesanías Géminis - joyas en acero y cuero",
-    "desc" => "Artesanías Géminis crea joyas hechas a mano: aretes, manillas y collares con diseños únicos en acero y cuero. Piezas resistentes, modernas y perfectas para regalar o complementar tu estilo. Puedes elegir modelos listos o pedir combinaciones personalizadas según tu gusto.",
-    "pdf" => "pdf/catalogo-artesanias-geminis.pdf",
+    "desc" => "Elaboro figuras en cerámica utilitarias, y realizó talleres de conexión con la arcilla
+       Siendo la arcilla un instrumento de sanación ",
+    "pdf" => "../../../view/artesanias/Artesanas_Veredas/pdf/hichytamanosdetijera.pdf",
     "facebook" => "https://facebook.com/tu-pagina",
-    "instagram" => "https://instagram.com/tu-cuenta",
-    "tiktok" => "https://tiktok.com/@tu-cuenta",
-    "whatsapp" => "57XXXXXXXXXX"
+    "whatsapp" => "573143964516"
   ],
 
   [
