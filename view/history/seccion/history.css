@@ -1,16 +1,23 @@
 /* ================================
-   HISTORIA & COSTUMBRES
-   ================================ */
+   HISTORIA & COSTUMBRES — PREMIUM
+================================ */
 
 .section_history{
-  /* Variables locales para esta sección */
   --history-accent: #AF854F;
   --history-dark: #020617;
   --history-green: #005548;
-  --history-bg: #f7f2ea;
+
+  --ink: #0b1220;
+  --muted: rgba(255,255,255,.82);
+  --muted2: rgba(255,255,255,.70);
+
+  --radius: 18px;
+  --radius2: 22px;
+  --border: rgba(148,163,184,.28);
+  --shadow: 0 18px 45px rgba(0,0,0,.35);
 
   position: relative;
-  padding: clamp(2.5rem, 4vw, 4rem) clamp(1.5rem, 4vw, 3rem);
+  padding: clamp(2.5rem, 4vw, 4rem) clamp(1.2rem, 4vw, 3rem);
   margin: 0 auto;
   max-width: 1200px;
   display: flex;
@@ -20,7 +27,7 @@
   font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-/* Títulos generales de los bloques */
+/* Títulos */
 .section_history h1{
   position: relative;
   font-size: clamp(24px, 2.4vw, 36px);
@@ -29,10 +36,9 @@
   text-align: center;
   color: var(--history-accent);
   text-transform: uppercase;
-  margin: 0 auto clamp(1.5rem, 2.5vw, 2.5rem);
+  margin: 0 auto clamp(1.1rem, 2.5vw, 2.2rem);
 }
 
-/* Pequeña línea decorativa bajo el título */
 .section_history h1::after{
   content:"";
   display:block;
@@ -41,10 +47,10 @@
   margin:.75rem auto 0;
   border-radius:999px;
   background: var(--history-accent);
-  opacity:.4;
+  opacity:.45;
 }
 
-/* Contenedor interno */
+/* Contenedor */
 .container_history{
   width:100%;
   min-width:300px;
@@ -52,88 +58,170 @@
   margin:0 auto;
 }
 
-/* Lista de tarjetas (grid) */
+/* ================================
+   DATOS RÁPIDOS (nuevo)
+================================ */
+.history_facts{
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0 auto 14px;
+  padding: 12px;
+  border-radius: var(--radius);
+  border: 1px solid rgba(15,23,42,.12);
+  background: rgba(255,255,255,.10);
+  backdrop-filter: blur(8px);
+}
+
+.fact{
+  border-radius: 14px;
+  padding: 10px 10px;
+  border: 1px solid rgba(255,255,255,.10);
+  background: linear-gradient(145deg, rgba(255,255,255,.08), rgba(0,85,72,.18));
+  color: #fff;
+  min-height: 58px;
+}
+
+.fact_label{
+  display:block;
+  font-size: .72rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: rgba(255,255,255,.72);
+}
+
+.fact_value{
+  display:block;
+  font-size: .98rem;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+/* ================================
+   GRID DE TARJETAS
+================================ */
 .box_history{
   position:relative;
   width:100%;
   display:grid;
-  grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
+  grid-template-columns:repeat(auto-fit, minmax(270px,1fr));
   gap:18px;
   padding:clamp(1.1rem, 2vw, 1.6rem);
-  border-radius:18px;
+  border-radius: var(--radius2);
 
   background:
-    radial-gradient(circle at top, rgba(255,255,255,.08) 0, transparent 55%),
-    radial-gradient(circle at bottom, rgba(175,133,79,.25) 0, transparent 55%),
+    radial-gradient(circle at top, rgba(255,255,255,.10) 0, transparent 55%),
+    radial-gradient(circle at bottom, rgba(175,133,79,.24) 0, transparent 55%),
     linear-gradient(145deg, #020617, #0b1524);
-  box-shadow:0 18px 45px rgba(0,0,0,.35);
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(255,255,255,.08);
 }
 
-/* Tarjeta de historia */
+/* Variante costumbres (más cálida y menos “pesada”) */
+.box_history--customs{
+  background:
+    radial-gradient(circle at top, rgba(250,204,21,.10) 0, transparent 55%),
+    radial-gradient(circle at bottom, rgba(0,85,72,.18) 0, transparent 55%),
+    linear-gradient(145deg, #071225, #081a2a);
+}
+
+/* ================================
+   TARJETA
+================================ */
 .history{
   position:relative;
-  padding:1.25rem;
-  border-radius:14px;
-  background:linear-gradient(
-    145deg,
-    rgba(255,255,255,.10),
-    rgba(0,85,72,.80)
-  );
-  color:#f9fafb;
+  padding: 1.1rem;
+  border-radius: 16px;
+  background: linear-gradient(150deg, rgba(255,255,255,.10), rgba(0,85,72,.92));
+  color: #f9fafb;
   display:flex;
   flex-direction:column;
-  gap:12px;
-  box-shadow:0 2px 12px rgba(0,0,0,.25);
-  transform:translateY(0);
-  transition:
-    transform .25s ease,
-    box-shadow .25s ease,
-    background .25s ease,
-    color .25s ease,
-    border-color .25s ease;
-  border:1px solid rgba(148,163,184,.35);
-}
-.history:hover{
-  box-shadow:0 10px 28px rgba(0,0,0,.5);
-  transform:translateY(-3px);
-  cursor:pointer;
-  background:linear-gradient(
-    150deg,
-    rgba(255,255,255,.16),
-    rgba(0,85,72,1)
-  );
-}
-.history:active{
-  transform:translateY(0) scale(1.01);
+  gap: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,.25);
+  transform: translateY(0);
+  transition: transform .22s ease, box-shadow .22s ease, background .22s ease, border-color .22s ease;
+  border: 1px solid var(--border);
 }
 
-/* Texto dentro de la tarjeta */
-.history p{
-  font-size:clamp(14px, 1.6vw, 17px);
-  line-height:1.6;
-  margin:0;
-  text-align:left;
-  color:#e5e7eb;
+.history:hover{
+  box-shadow: 0 14px 34px rgba(0,0,0,.52);
+  transform: translateY(-3px);
+  cursor:pointer;
+  background: linear-gradient(150deg, rgba(255,255,255,.14), rgba(0,85,72,1));
 }
+
+.history:active{
+  transform: translateY(0) scale(1.01);
+}
+
+.history:focus-within{
+  outline: 2px solid rgba(250,204,21,.55);
+  outline-offset: 3px;
+}
+
+/* Badge superior */
+.history_badge{
+  align-self: flex-start;
+  display: inline-flex;
+  padding: 7px 10px;
+  border-radius: 999px;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  background: rgba(0,0,0,.22);
+  border: 1px solid rgba(255,255,255,.14);
+  color: rgba(255,255,255,.90);
+}
+
+/* Título del card */
+.history h3{
+  margin: 0;
+  font-size: 1.05rem;
+  letter-spacing: -.01em;
+  line-height: 1.2;
+  color: #fff;
+}
+
+/* Texto del card */
+.history p{
+  font-size: clamp(14px, 1.4vw, 16px);
+  line-height: 1.6;
+  margin: 0;
+  text-align: left;
+  color: rgba(255,255,255,.86);
+}
+
 .history strong{
   color:#fde68a;
-  font-weight:600;
+  font-weight:700;
 }
 
-/* Imagen dentro de la tarjeta */
+/* Imagen */
 .history img{
   width:100%;
-  height:220px;
-  object-fit:cover;
-  border-radius:10px;
-  border:1px solid rgba(148,163,184,.7);
-  box-shadow:0 6px 20px rgba(15,23,42,.75);
-  filter:saturate(1.05) contrast(1.03);
+  aspect-ratio: 16 / 10;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid rgba(148,163,184,.65);
+  box-shadow: 0 10px 26px rgba(0,0,0,.45);
+  filter: saturate(1.03) contrast(1.04);
 }
 
-/* Separador entre bloques Historia / Costumbres */
+/* Tarjetas solo texto (costumbres) */
+.history.is_text img{ display:none; }
+.history.is_text{
+  background: linear-gradient(150deg, rgba(255,255,255,.10), rgba(175,133,79,.22));
+  border-color: rgba(250,204,21,.18);
+}
+.history.is_text:hover{
+  background: linear-gradient(150deg, rgba(255,255,255,.14), rgba(175,133,79,.28));
+}
+
+/* Separador entre bloques */
 .container_history + .container_history{
-  margin-top:clamp(2.5rem, 3vw, 3rem);
+  margin-top: clamp(2.2rem, 3vw, 3rem);
 }
 .container_history + .container_history::before{
   content:"";
@@ -142,105 +230,76 @@
   height:4px;
   margin:0 auto 1.5rem;
   border-radius:999px;
-  background:var(--history-accent);
-  opacity:.5;
+  background: var(--history-accent);
+  opacity:.55;
 }
 
 /* ================================
    SECCIÓN IMAGEN / POSTAL
-   ================================ */
-
+================================ */
 .seccion_imagen{
   position:relative;
   width:100%;
   max-width:1200px;
-  margin:clamp(2.5rem, 4vw, 4rem) auto 3rem;
+  margin: clamp(2.5rem, 4vw, 4rem) auto 3rem;
   font-family:'Poppins', system-ui, sans-serif;
   box-sizing:border-box;
 }
 
-/* Contenedor de la imagen con efecto “postal” */
 .imagen{
   position:relative;
   width:100%;
   min-height: clamp(320px, 55vh, 520px);
-  border-radius:20px;
+  border-radius: 22px;
   overflow:hidden;
 
   background-image:url("../../view/history/img/pueblo.jpg");
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
-  box-shadow:0 24px 60px rgba(0,0,0,.40);
+  box-shadow: 0 24px 60px rgba(0,0,0,.40);
 
-  /* Fade superior/inferior */
   --fade: 2%;
-  -webkit-mask-image:linear-gradient(
-    to bottom,
-    transparent 0,
-    black var(--fade),
-    black calc(100% - var(--fade)),
-    transparent 100%
-  );
+  -webkit-mask-image:linear-gradient(to bottom, transparent 0, black var(--fade), black calc(100% - var(--fade)), transparent 100%);
   -webkit-mask-repeat:no-repeat;
   -webkit-mask-size:cover;
-          mask-image:linear-gradient(
-    to bottom,
-    transparent 0,
-    black var(--fade),
-    black calc(100% - var(--fade)),
-    transparent 100%
-  );
+          mask-image:linear-gradient(to bottom, transparent 0, black var(--fade), black calc(100% - var(--fade)), transparent 100%);
   mask-repeat:no-repeat;
   mask-size:cover;
 }
 
-/* Capa oscura para mejorar legibilidad del texto */
 .imagen::before{
   content:"";
   position:absolute;
   inset:0;
-  background:
-    linear-gradient(
-      135deg,
-      rgba(15,23,42,.78),
-      rgba(15,23,42,.55),
-      rgba(15,23,42,.85)
-    );
+  background: linear-gradient(135deg, rgba(15,23,42,.78), rgba(15,23,42,.52), rgba(15,23,42,.86));
 }
 
-/* Tarjeta de texto sobre la imagen */
 .text_imagen{
   position:relative;
   z-index:1;
   width:100%;
   height:100%;
-  box-sizing:border-box;
-
   display:flex;
   flex-direction:column;
   align-items:center;
   justify-content:center;
-
-  padding:clamp(2rem, 3vw, 3.2rem) clamp(1.5rem, 3vw, 2.5rem);
+  padding: clamp(2rem, 3vw, 3.2rem) clamp(1.2rem, 3vw, 2.5rem);
   color:#f9fafb;
-}
-
-/* Contenido centrado y con ancho máximo */
-.text_imagen > *{
-  max-width:640px;
-}
-
-/* Título */
-.text_imagen h1{
-  font-size:clamp(1.9rem, 1.4rem + 1.8vw, 2.6rem);
-  position:relative;
+  box-sizing:border-box;
   text-align:center;
-  padding:0 0 1rem;
-  margin:0;
 }
 
-/* Detalle decorativo bajo el título */
+.text_imagen > *{ max-width: 700px; }
+
+.text_imagen h1{
+  font-size: clamp(1.75rem, 1.2rem + 2vw, 2.6rem);
+  margin:0;
+  line-height:1.05;
+  letter-spacing:-.01em;
+  padding:0 0 1rem;
+}
+
 .text_imagen h1::after{
   content:"";
   display:block;
@@ -249,22 +308,16 @@
   margin:.75rem auto 0;
   border-radius:999px;
   background:#facc15;
-  opacity:.85;
+  opacity:.88;
 }
 
-/* Párrafo */
 .text_imagen p{
-  font-size:clamp(1.05rem, .9rem + .6vw, 1.3rem);
-  padding:0;
-  margin:1rem 0 1.75rem;
-  text-align:center;
-  color:#e5e7eb;
+  font-size: clamp(1.02rem, .9rem + .6vw, 1.25rem);
+  margin: 1rem 0 1.65rem;
+  color: rgba(255,255,255,.86);
 }
 
-/* Enlace y botón */
-.text_imagen a{
-  text-decoration:none;
-}
+.text_imagen a{ text-decoration:none; }
 
 .text_imagen button{
   display:inline-flex;
@@ -275,19 +328,16 @@
   border-radius:999px;
   border:none;
   font-size:.95rem;
-  font-weight:600;
-  letter-spacing:.03em;
+  font-weight:800;
+  letter-spacing:.06em;
   text-transform:uppercase;
   background:#f97316;
   color:#111827;
   box-shadow:0 10px 30px rgba(15,23,42,.6);
   cursor:pointer;
-  transition:
-    transform .18s ease,
-    box-shadow .18s ease,
-    background .18s ease,
-    color .18s ease;
+  transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
 }
+
 .text_imagen button:hover{
   background:#fb923c;
   transform:translateY(-1px);
@@ -298,26 +348,22 @@
   box-shadow:0 8px 24px rgba(15,23,42,.75);
 }
 
-/* Respeto preferencias de movimiento */
+/* Motion reduce */
 @media (prefers-reduced-motion:reduce){
-  .history{ transition:none }
-  .history:hover{ transform:none; box-shadow:0 2px 12px rgba(0,0,0,.25); }
-  .text_imagen button{ transition:none }
+  .history, .text_imagen button{ transition:none }
+  .history:hover{ transform:none; }
 }
 
-/* Ajustes responsive */
+/* Responsive */
+@media (max-width: 980px){
+  .history_facts{ grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
 @media (max-width: 768px){
-  .section_history{
-    padding:2.3rem 1.2rem;
-  }
-  .box_history{
-    gap:14px;
-    border-radius:16px;
-  }
-  .history img{
-    height:200px;
-  }
-  .seccion_imagen{
-    margin:2rem auto 2.5rem;
-  }
+  .section_history{ padding:2.3rem 1.1rem; }
+  .box_history{ gap:14px; border-radius:16px; }
+  .seccion_imagen{ margin:2rem auto 2.5rem; }
+}
+@media (max-width: 520px){
+  .history_facts{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .history{ padding: 1rem; }
 }
