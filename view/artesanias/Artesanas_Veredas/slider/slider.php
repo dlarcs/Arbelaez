@@ -8,7 +8,7 @@ $jsTime = filemtime('../../../view/artesanias/Artesanas_Veredas/slider/slider.js
 			<div class="slider__track" id="slider-track">
 				<!-- Slide 1 -->
 				<article class="slide is-current" aria-role description="slide" aria-label="1 de 4">
-					<img src="../../../view/artesanias/Artesanas_Veredas/img/lugar.jpeg" alt="Artesanías" />
+					<img src="../../../view/artesanias/Artesanas_Veredas/img/slider1.jpeg" alt="Artesanías" />
 					<div class="slide__caption">
 						<!-- <h2>Dios es Amor</h2>
            <p>Descubre el amor que transforma vidas.</p> -->
@@ -16,7 +16,7 @@ $jsTime = filemtime('../../../view/artesanias/Artesanas_Veredas/slider/slider.js
 				</article>
 				<!-- Slide 2 -->
 				<article class="slide" aria-role description="slide" aria-label="2 de 4">
-					<img src="../../../view/artesanias/Artesanas_Veredas/img/lamparas3.jpeg" alt="Artesanías" />
+					<img src="../../../view/artesanias/Artesanas_Veredas/img/slider2.jpeg" alt="Artesanías" />
 					<div class="slide__caption">
 						<!-- <h2>Una Familia de Fe</h2>
            <p>Aquí siempre encontrarás un lugar para ti.</p> -->
@@ -24,7 +24,7 @@ $jsTime = filemtime('../../../view/artesanias/Artesanas_Veredas/slider/slider.js
 				</article>
 				<!-- Slide 3 -->
 				<article class="slide" aria-role description="slide" aria-label="3 de 4">
-					<img src="../../../view/artesanias/Artesanas_Veredas/img/lugar10.jpeg" alt="Artesanías" />
+					<img src="../../../view/artesanias/Artesanas_Veredas/img/slider3.jpeg" alt="Artesanías" />
 					<div class="slide__caption">
 						<!-- <h2>La Esperanza Vive</h2>
            <p>Cristo es la luz en medio de la oscuridad.</p> -->
@@ -32,7 +32,7 @@ $jsTime = filemtime('../../../view/artesanias/Artesanas_Veredas/slider/slider.js
 				</article>
 				<!-- Slide 4 -->
 				<article class="slide" aria-role description="slide" aria-label="4 de 4">
-					<img src="../../../view/artesanias/Artesanas_Veredas/img/lugar1.jpeg" alt="Artesanías" />
+					<img src="../../../view/artesanias/Artesanas_Veredas/img/slider4.jpeg" alt="Artesanías" />
 					<div class="slide__caption">
 						<!-- <h2>Fortaleza en la Oración</h2>
            <p>Habla con Dios, Él siempre escucha.</p> -->
