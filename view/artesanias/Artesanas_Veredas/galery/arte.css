@@ -101,11 +101,12 @@
 .ficha__media{
   margin: 0;
   padding: 1rem;
+  background-color: red;
+
 }
 
 .ficha__media img{
   width: 100%;
-  background-color: red;
   height: auto;
   display: block;
   aspect-ratio: 16/9;
