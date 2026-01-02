@@ -31,7 +31,7 @@ $jsTime  = file_exists($jsFile)  ? filemtime($jsFile)  : time();
           src="../../view/artesanias/Artesanias_Martha_E/img/lugar.jpeg"
           alt="Artesanías Martha E. en Arbeláez"
         >
-        <div class="shade_box_product"><h2>Artesanías</h2></div>
+        <!-- <div class="shade_box_product"><h2>Artesanías</h2></div> -->
       </a>
 
       <div class="texto">
@@ -57,7 +57,7 @@ $jsTime  = file_exists($jsFile)  ? filemtime($jsFile)  : time();
           src="../../view/artesanias/img/entrada_Religioso.jpg"
           alt="Entrada del Almacén Religioso y Artesanal"
         >
-        <div class="shade_box_product"><h2>Artesanías</h2></div>
+        <!-- <div class="shade_box_product"><h2>Artesanías</h2></div> -->
       </a>
 
       <div class="texto">
@@ -82,7 +82,7 @@ $jsTime  = file_exists($jsFile)  ? filemtime($jsFile)  : time();
           src="../../view/artesanias/Artesanas_Veredas/img/portada.png"
           alt="Entrada del Almacén Religioso y Artesanal"
         >
-        <div class="shade_box_product"><h2>Artesanías</h2></div>
+        <!-- <div class="shade_box_product"><h2>Artesanías</h2></div> -->
       </a>
 
       <div class="texto">
