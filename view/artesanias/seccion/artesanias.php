@@ -84,9 +84,8 @@ $jsTime  = file_exists($jsFile)  ? filemtime($jsFile)  : time();
         >
         <!-- <div class="shade_box_product"><h2>Artesanías</h2></div> -->
       </a>
-
       <div class="texto">
-        <h3>Artesanías en Veredas</h3>
+        <h3>Artesanas</h3>
         <p>El propósito de estas artesanías es mostrar el arte y la naturaleza al mundo</p>
       </div>
     </article>
