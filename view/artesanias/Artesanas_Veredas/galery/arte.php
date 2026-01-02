@@ -15,7 +15,7 @@ $items = [
   [
     "name" => "Hichyta Manos de la Tierra",
     "place" => "Vereda San Miguel bajo - Arbeláez • Cundinamarca",
-    "img" => "../../../view/artesanias/Artesanas_Veredas/img/Hichyta.png",
+    "img" => "../../../view/artesanias/Artesanas_Veredas/img/Hichyta.jpg",
     "img_alt" => "Hichyta Manos de la Tierra",
     "desc" => "Elaboro figuras en cerámica utilitarias, y realizó talleres de conexión con la arcilla
        Siendo la arcilla un instrumento de sanación ",
