@@ -109,7 +109,6 @@
   height: auto;
   margin: 5rem;
   display: block;
-  aspect-ratio: 16/9;
   object-fit: cover;
   border-radius: 12px;
 }
