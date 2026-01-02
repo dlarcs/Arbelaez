@@ -100,11 +100,12 @@
 /* ===== Media ===== */
 .ficha__media{
   margin: 0;
-  padding: 5rem;
+  padding: 1rem;
 }
 
 .ficha__media img{
   width: 100%;
+  padding: 1rem;
   height: auto;
   display: block;
   aspect-ratio: 16/9;
