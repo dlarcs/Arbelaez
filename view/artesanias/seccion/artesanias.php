@@ -79,15 +79,15 @@ $jsTime  = file_exists($jsFile)  ? filemtime($jsFile)  : time();
         <img
           loading="lazy"
           decoding="async"
-          src="../../view/artesanias/img/entrada_Religioso.jpg"
+          src="../../view/artesanias/Artesanas_Veredas/img/portada.png"
           alt="Entrada del Almacén Religioso y Artesanal"
         >
         <div class="shade_box_product"><h2>Artesanías</h2></div>
       </a>
 
       <div class="texto">
-        <h3>Artesanías de todo tipo</h3>
-        <p>El propósito de estas artesanías es mostrar el arte y la naturaleza a los clientes</p>
+        <h3>Artesanías en Veredas</h3>
+        <p>El propósito de estas artesanías es mostrar el arte y la naturaleza al mundo</p>
       </div>
     </article>
 
