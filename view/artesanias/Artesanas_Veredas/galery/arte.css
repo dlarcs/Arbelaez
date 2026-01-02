@@ -107,7 +107,7 @@
 .ficha__media img{
   width: 100%;
   height: auto;
-  margin: 5rem;
+  margin: 1rem;
   display: block;
   object-fit: cover;
   border-radius: 12px;
