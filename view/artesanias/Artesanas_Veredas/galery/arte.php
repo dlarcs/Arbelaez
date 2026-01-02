@@ -17,8 +17,7 @@ $items = [
     "place" => "Vereda San Miguel bajo - Arbeláez • Cundinamarca",
     "img" => "../../../view/artesanias/Artesanas_Veredas/img/Hichyta.jpg",
     "img_alt" => "Hichyta Manos de la Tierra",
-    "desc" => "Elaboro figuras en cerámica utilitarias, y realizó talleres de conexión con la arcilla
-       Siendo la arcilla un instrumento de sanación ",
+    "desc" => "Elaboró figuras en cerámica  y realizó talleres de conexión con la arcilla. Siendo la arcilla un instrumento de sanación",
     "pdf" => "../../../view/artesanias/Artesanas_Veredas/pdf/hichytamanosdetijera.pdf",
     "facebook" => "https://www.facebook.com/hichyta.manos.tierra",
     "instagram" => "https://www.instagram.com/hichyta2022/",
