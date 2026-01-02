@@ -107,6 +107,7 @@
 .ficha__media img{
   width: 100%;
   height: auto;
+  margin: 5rem;
   display: block;
   aspect-ratio: 16/9;
   object-fit: cover;
