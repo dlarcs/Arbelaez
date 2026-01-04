@@ -25,15 +25,15 @@ $items = [
   ],
 
   [
-    "name" => "Artesana",
+    "name" => "Artesanías Géminis",
     "place" => "Arbeláez • Cundinamarca",
-    "img" => "img/joyas-luz.jpg",
-    "img_alt" => "Joyas Luz - joyería y detalles",
+    "img" => "../../../view/artesanias/Artesanas_Veredas/img/artesanias_geminis.jpeg",
+    "img_alt" => "Artesanías Géminis. trabajando con amor",
     "desc" => "En Joyas Luz encuentras joyería para toda ocasión: piezas elegantes y delicadas para uso diario o eventos especiales. Manejan variedad de estilos y opciones para regalo, con atención cercana y recomendaciones según tu preferencia. Ideal si buscas un detalle bonito, con buen gusto y a buen precio.",
     "pdf" => "pdf/catalogo-joyas-luz.pdf",
-    "facebook" => "https://facebook.com/tu-pagina",
-    "instagram" => "https://instagram.com/tu-cuenta",
-    "whatsapp" => "57XXXXXXXXXX"
+    "facebook" => "https://www.facebook.com/profile.php?id=100063611706936",
+    "instagram" => "https://www.instagram.com/artegeminis/",
+    "whatsapp" => "573123737368"
   ],
 
   [
