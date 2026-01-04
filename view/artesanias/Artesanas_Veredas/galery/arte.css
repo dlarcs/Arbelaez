@@ -37,6 +37,24 @@
   background: var(--bg);
   box-sizing: border-box;
 }
+.section_food_gallery{
+  /* ...lo que ya tienes... */
+  --media-ratio: 4 / 3;          /* PC */
+}
+
+/* Tablet */
+@media (max-width: 1024px){
+  .section_food_gallery{
+    --media-ratio: 1 / 1;        /* cuadrada */
+  }
+}
+
+/* Celular */
+@media (max-width: 640px){
+  .section_food_gallery{
+    --media-ratio: 4 / 5;        /* un poquito más alta */
+  }
+}
 
 /* Tablet: 3 por fila */
 @media (max-width: 1024px){
@@ -97,21 +115,28 @@
   color: var(--muted);
 }
 
-/* ===== Media ===== */
+/* ===== Media (MISMA PROPORCIÓN PARA TODAS) ===== */
 .ficha__media{
   margin: 0;
-  padding: 1rem;
+  padding: 0;                 /* quita el padding que te deformaba alturas */
+  width: 100%;
 
+  aspect-ratio: var(--media-ratio);
+  border-radius: 12px;
+  overflow: hidden;
+
+  background: #f2f4f7;        /* bonito mientras carga */
 }
 
 .ficha__media img{
   width: 100%;
-  height: auto;
-  margin: .5rem;
+  height: 100%;               /* ✅ ahora sí mismo alto */
   display: block;
-  object-fit: cover;
-  border-radius: 12px;
+  object-fit: cover;          /* recorta sin deformar */
+  margin: 0;                  /* quita margin que te descuadraba */
+  border-radius: 0;           /* el radio lo maneja el contenedor */
 }
+
 
 /* ===== Description ===== */
 .ficha__desc{
