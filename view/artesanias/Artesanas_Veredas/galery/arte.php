@@ -29,7 +29,7 @@ $items = [
     "place" => "Arbeláez • Cundinamarca",
     "img" => "../../../view/artesanias/Artesanas_Veredas/img/artesanias_geminis.jpeg",
     "img_alt" => "Artesanías Géminis. trabajando con amor",
-    "desc" => "En Joyas Luz encuentras joyería para toda ocasión: piezas elegantes y delicadas para uso diario o eventos especiales. Manejan variedad de estilos y opciones para regalo, con atención cercana y recomendaciones según tu preferencia. Ideal si buscas un detalle bonito, con buen gusto y a buen precio.",
+    "desc" => "Joyas en acero hechas con amor y dedicación, pensadas para acompañarte cada día. Diseños lindos, resistentes y de excelente material, perfectos para regalar o consentirte. Encuéntranos en las ferias de Arbeláez, donde cada pieza brilla con estilo y significado",
     "pdf" => "pdf/catalogo-joyas-luz.pdf",
     "facebook" => "https://www.facebook.com/profile.php?id=100063611706936",
     "instagram" => "https://www.instagram.com/artegeminis/",
