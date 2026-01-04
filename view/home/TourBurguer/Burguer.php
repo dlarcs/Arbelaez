@@ -209,7 +209,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     </article>
 
     <!-- CARD 4 – Totumazo 2 -->
-    <article
+    <!-- <article
       class="tourburger-card"
       data-image="../../view/home/TourBurguer/img/totumazo.JPG"
       data-image-alt="TourBurger de Totumazo 2"
@@ -256,7 +256,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
           Cómo llegar
         </a>
       </div>
-    </article>
+    </article> -->
 
     <!-- CARD 5 – Del Huerto -->
     <article
