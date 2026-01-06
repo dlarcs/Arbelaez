@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Básicos -->
-  <title>Don Ciprio – Restaurante mexicano | La Campechana</title>
-  <meta name="description" content="El Fogón del Triángulo: restaurante con sazón en Arbeláez, Cundinamarca. Especialistas en carnes y parrilla, ambiente familiar, ideal para compartir en pareja o con amigos. Comida casera con sabor colombiano, postres y cócteles.">
+  <title>Don Ciprio – Comida mexicana, café y lectura | Arbeláez</title>
+  <meta name="description" content="Don Ciprio: restaurante de comida mexicana en Arbeláez, Cundinamarca. Un lugar tranquilo con objetos tradicionales, ambiente de lectura y café. Ideal para compartir en pareja o con amigos: tacos, burritos, nachos, postres y bebidas.">
   <link rel="canonical" href="https://www.arbelaez.com.co/gastronomia/Don_Ciprio/">
   <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 
@@ -16,19 +16,20 @@
   <meta name="geo.region" content="CO-CUN">
   <meta name="geo.placename" content="Arbeláez">
 
-  <!-- Palabras clave -->
-  <meta name="keywords" content="El Fogón del Triángulo, restaurante con sazón, Arbeláez, Cundinamarca, carnes a la parrilla, parrillada, carne a la brasa, restaurante familiar, plan en pareja, plan con amigos, asados, lomo a la parrilla, churrasco, punta de anca, costillas BBQ, chorizo artesanal, morcilla, cortes de res, cortes de cerdo, pollo a la parrilla, mazorca asada, yuca frita, papas criollas, arepa, chimichurri, ají casero, ensaladas frescas, comida casera, comida típica, gastronomía colombiana, almuerzos, menú del día, sopa del día, ajiaco, sancocho, bandeja, cazuela, entradas, guacamole, empanadas, papas chorreadas, postres artesanales, volcán de chocolate, flan de caramelo, tres leches, café de origen, bebidas frías, jugos naturales, cócteles, micheladas, mojitos, piña colada, margarita, cervezas, vinos, licores, celebración de cumpleaños, aniversarios, reuniones familiares, eventos empresariales, reservas restaurante, terraza, vista al paisaje, ambiente campestre, música suave, atención amable, pet friendly, pago con tarjeta, parqueadero, take away, domicilios, mejor restaurante en Arbeláez, dónde comer en Arbeláez, restaurante para grupos, gastronomía Arbeláez, plan romántico, cena especial, fin de semana, turismo en Arbeláez, parrilla en Cundinamarca, restaurante recomendado, sazón colombiana, sazón casera, sabores locales, recetas tradicionales, atención rápida, porciones generosas, relación calidad precio, cocina abierta, chef parrillero, brasa, carbón, ahumado, maridaje, carta de vinos, bar, gastrobar, experiencia gastronómica, destino gastronómico, almuerzos ejecutivos, servicio para llevar, menú infantil, juegos de mesa, foto spot, instagrammable, comida para compartir, picada, tablas de carnes, horarios extendidos, ambiente acogedor, seguridad, higiene, buenas reseñas, clientes felices">
+  <!-- Palabras clave (enfocadas a Don Ciprio + comida mexicana + café) -->
+  <meta name="keywords" content="Don Ciprio, restaurante mexicano en Arbeláez, comida mexicana Arbeláez, gastronomía Arbeláez, café en Arbeláez, lugar para leer Arbeláez, ambiente tranquilo, objetos tradicionales, tacos, burritos, quesadillas, nachos, enchiladas, chilaquiles, guacamole, salsas mexicanas, totopos, cocteles, micheladas, margaritas, postres, plan en pareja, plan con amigos, turismo en Arbeláez, Cundinamarca">
 
   <!-- Open Graph / Twitter -->
   <meta property="og:locale" content="es_CO">
   <meta property="og:type" content="restaurant">
-  <meta property="og:title" content="El Fogón del Triángulo – Parrilla y carnes con sazón en Arbeláez">
-  <meta property="og:description" content="Carnes a la parrilla con verdadero sabor colombiano. Ambiente familiar, perfecto para parejas y amigos. Postres y cócteles.">
+  <meta property="og:title" content="Don Ciprio – Comida mexicana, café y lectura en Arbeláez">
+  <meta property="og:description" content="Comida mexicana en un ambiente tranquilo, con objetos tradicionales, café y espacio ideal para leer y compartir.">
   <meta property="og:url" content="https://www.arbelaez.com.co/gastronomia/Don_Ciprio/">
   <meta property="og:image" content="https://www.arbelaez.com.co/media/Don_Ciprio/og-1200x630.jpg">
+
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="El Fogón del Triángulo – Parrilla y carnes con sazón en Arbeláez">
-  <meta name="twitter:description" content="Restaurante familiar en Arbeláez. Carnes a la parrilla, comida casera, postres y cócteles. Ideal para compartir.">
+  <meta name="twitter:title" content="Don Ciprio – Comida mexicana, café y lectura en Arbeláez">
+  <meta name="twitter:description" content="Un lugar tranquilo para comer mexicano, tomar café y leer. Objetos tradicionales y ambiente acogedor.">
   <meta name="twitter:image" content="https://www.arbelaez.com.co/media/Don_Ciprio/og-1200x630.jpg">
 
   <!-- Icono / tema -->
@@ -46,16 +47,16 @@
   {
     "@context": "https://schema.org",
     "@type": "Restaurant",
-    "name": "El Fogón del Triángulo",
-    "description": "Restaurante con sazón en Arbeláez, especializado en carnes a la parrilla y comida casera. Ambiente familiar, perfecto para compartir en pareja o con amigos.",
-    "url": "https://www.arbelaez.com.co/view/gastronomia/Don_Ciprio/index.php#restaurant",
+    "name": "Don Ciprio",
+    "description": "Restaurante de comida mexicana en Arbeláez, con objetos tradicionales, ambiente tranquilo de lectura y café. Ideal para compartir en pareja o con amigos.",
+    "url": "https://www.arbelaez.com.co/gastronomia/Don_Ciprio/#restaurant",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Arbeláez",
       "addressRegion": "Cundinamarca",
       "addressCountry": "CO"
     },
-    "servesCuisine": ["Parrilla","Cocina colombiana","Postres","Cócteles"],
+    "servesCuisine": ["Comida mexicana","Café","Postres","Cócteles"],
     "priceRange": "$$",
     "telephone": "+57 3024229260",
     "acceptsReservations": true,
@@ -63,6 +64,7 @@
   }
   </script>
 </head>
+
 
 <body class="body_Don_Ciprio">
   <?php include "../../../view/gastronomia/Don_Ciprio/menu/menu.php" ?>
@@ -78,10 +80,11 @@
 
   <!-- Botón WhatsApp -->
   <a class="whatsapp-fab"
-     href="https://wa.me/573144506914?text=Hola%20vengo%20desde%20la%20web%20de%20El%20Asadero%20El%20Fogón%20del%20Triángulo"
+     href="https://wa.me/573144506914?text=Hola%20vengo%20desde%20la%20web%20de%20Don%20Ciprio%20y%20quiero%20m%C3%A1s%20informaci%C3%B3n"
      target="_blank" rel="noopener"
      aria-label="Chatear por WhatsApp">
     <img src="../../../view/home/img/img_whatsApp.png" alt="Contactar por WhatsApp" decoding="async">
   </a>
+
 </body>
 </html>

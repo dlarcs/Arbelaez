@@ -37,7 +37,7 @@ $items = [
   ],
 
   [
-    "name" => "Artesana",
+    "name" => "Café santa bárbara el vino de los dioses",
     "place" => "Arbeláez • Cundinamarca",
     "img" => "../../../view/artesanias/Artesanas_Veredas/img/CaafeSantaBarbara.png",
     "img_alt" => "Café Santa Bárbara - café local",
