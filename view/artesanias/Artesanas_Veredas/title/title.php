@@ -5,10 +5,10 @@ $cssTime = filemtime('../../../view/artesanias/Artesanas_Veredas/title/title.css
 	<!-- title -->
 	<section class="site">
 		<div class="branding">
-			<img src="../../../view/artesanias/Artesanas_Veredas/img/lamparas4.jpeg" alt="Logo Artesanías Martha E" class="logo" width="64" height="64" loading="lazy">
+			<img src="../../../view/artesanias/Artesanas_Veredas/img/portada.png" alt="Logo Artesanías Martha E" class="logo" width="64" height="64" loading="lazy">
 			<div class="brand">
-				<strong class="brand-name">Artesanías de las veredas</strong>
-				<span class="brand-tag">Artesanías</span>
+				<strong class="brand-name">Artesanas de las veredas</strong>
+				<span class="brand-tag">Arbeláez</span>
 			</div>
 		</div>
 	</section>
