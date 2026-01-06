@@ -48,18 +48,6 @@ $items = [
     "whatsapp" => "57XXXXXXXXXX"
   ],
 
-  [
-    "name" => "Artesana",
-    "place" => "Veredas de Arbeláez • Cundinamarca",
-    "img" => "img/hichyta-manos-de-la-tierra.jpg",
-    "img_alt" => "Artesana- muñecos hechos a mano",
-    "desc" => "Artesana “Manos de la Tierra” crea muñecos artesanales hechos a mano, llenos de identidad y detalle. Cada pieza es única y puede personalizarse con colores, accesorios o temáticas especiales. Perfectos para regalo, decoración o para coleccionar artesanía local con historia.",
-    "pdf" => "pdf/catalogo-Artesana-munos.pdf",
-    "facebook" => "https://facebook.com/tu-pagina",
-    "instagram" => "https://instagram.com/tu-cuenta",
-    "whatsapp" => "57XXXXXXXXXX"
-  ],
-
 ];
 ?>
 
