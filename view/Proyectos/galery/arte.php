@@ -24,7 +24,7 @@ $items = [
   ],
 
   [
-    "name"     => "Arbeláez se llena de color (por etapas)",
+    "name"     => "Arbeláez se llena de color",
     "dirigido" => "Propietarios de casas y negocios de Arbeláez (prioridad participantes de arbelaez.com.co), voluntarios, artistas, diseñadora y comunidad en general.",
     "place"    => "Arbeláez • casco urbano y veredas (según etapas y selección)",
     "img"      => "../../view/Proyectos/img/color.png",
