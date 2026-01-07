@@ -27,8 +27,8 @@
   <!-- Rendimiento -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="image" href="https://www.arbelaez.com.co/media/Artesanas_Veredas/hero-artesanias.webp">
-  <?php $cssTime = filemtime('../view/Proyectos/style.css'); ?>
-  <link rel="stylesheet" href="../view/Proyectos/style.css?v=<?= $cssTime ?>">
+  <?php $cssTime = filemtime('../../view/Proyectos/style.css'); ?>
+  <link rel="stylesheet" href="../../view/Proyectos/style.css?v=<?= $cssTime ?>">
 
   <!-- Datos estructurados: Store -->
   <script type="application/ld+json">
@@ -57,12 +57,12 @@
 <body class="body_Artesanas_Veredas">
   <?php include "../../view/Proyectos/menu/menu.php" ?>
   <div class="container_Artesanas_Veredas">
-    <?php include "../view/Proyectos/title/title.php" ?>
-    <?php include "../view/Proyectos/slider/slider.php" ?>
-    <?php include "../view/Proyectos/galery/arte.php" ?>
-    <?php include "../view/Proyectos/bout_us/about.php" ?>
-    <?php include "../view/Proyectos/maps/maps.php"?>
+    <?php include "../../view/Proyectos/title/title.php" ?>
+    <?php include "../../view/Proyectos/slider/slider.php" ?>
+    <?php include "../../view/Proyectos/galery/arte.php" ?>
+    <?php include "../../view/Proyectos/bout_us/about.php" ?>
+    <?php include "../../view/Proyectos/maps/maps.php"?>
   </div>
-  <?php include "../view/Proyectos/footer/footer.php" ?>
+  <?php include "../../view/Proyectos/footer/footer.php" ?>
 </body>
 </html>

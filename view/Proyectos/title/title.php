@@ -1,7 +1,7 @@
 <?php
 $cssTime = filemtime('../view/Proyectos/title/title.css'); // ejemplo: '../Home/5.Video/video.css'
 ?>
-	<link rel="stylesheet" href="../view/Proyectos/title/title.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../view/Proyectos/title/title.css?v=<?= $cssTime ?>">
 	<!-- title -->
 	<section class="site">
 		<div class="branding">
