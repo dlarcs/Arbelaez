@@ -1,13 +1,13 @@
 <?php
-$cssTime = filemtime('../../../view/artesanias/Artesanas_Veredas/menu/menu.css'); // ejemplo: '../Home/5.Video/video.css'
+$cssTime = filemtime('../../view/Proyectos/menu/menu.css'); // ejemplo: '../Home/5.Video/video.css'
 ?>
-	<link rel="stylesheet" href="../../../view/artesanias/Artesanas_Veredas/menu/menu.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../view/Proyectos/menu/menu.css?v=<?= $cssTime ?>">
 	<!-- ===== HEADER PRINCIPAL DE LA PÁGINA ===== -->
 	<!-- HEADER -->
 	<header class="site-header">
 		<!-- Marca / logo -->
 		<a class="brand_menu" href="../../../view/home/index.php" aria-label="Inicio">
-			<h1 class="brand-text">Artesanías en Veredas</h1>
+			<h1 class="brand-text">Proyectos</h1>
 
 			<!-- <img src="../../../view/gastronomia/huerto/menu/img/logo_huerto.png" alt="" class="brand-logo"> -->
 
