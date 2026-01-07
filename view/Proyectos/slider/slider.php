@@ -24,7 +24,7 @@ $jsTime = filemtime('../../view/Proyectos/slider/slider.js');
 				</article>
 				<!-- Slide 3 -->
 				<article class="slide" aria-role description="slide" aria-label="3 de 4">
-					<img src="../../view/Proyectos/img/tour.jpeg" alt="Artesanías" />
+					<img src="../../view/Proyectos/img/objeto.png" alt="Artesanías" />
 					<div class="slide__caption">
 						<!-- <h2>La Esperanza Vive</h2>
            <p>Cristo es la luz en medio de la oscuridad.</p> -->
