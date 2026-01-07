@@ -44,11 +44,12 @@ $items = [
   ],
   [
     "name"     => "Objeto turistico",
-    "dirigido" => "Crear piezas turisticas en material resistente, colocarlas en diferentes lugares estrategicos del pueblo para mayor impacto",
+    "dirigido" => "Turistas",
     "place"    => "Arbeláez • Cundinamarca (agenda cultural, rutas y experiencias)",
     "img"      => "../../view/Proyectos/img/objeto.png",
-    "img_alt"  => "Alianzas con colegios, universidades y empresas - turismo cultural",
-    "desc"     => "Estrategia para atraer grupos organizados a Arbeláez mediante experiencias: recorridos turísticos, actividades culturales, ferias, gastronomía local, talleres con artesanas y jornadas de voluntariado. La meta es generar flujo constante de visitantes y oportunidades para los emprendimientos del municipio.",
+    "img_alt"  => "Turistas",
+    "desc"     => "Crear piezas turísticas en material resistente para instalar en puntos estratégicos de Arbeláez y generar un mayor impacto visual.
+Estos atractivos invitan a tomarse fotos, recorrer el pueblo y descubrir su cultura, gastronomía y naturaleza. ",
     "pdf"      => "../../view/Proyectos/pdf/alianzas-colegios-universidades-empresas.pdf",
   ],
 ];
