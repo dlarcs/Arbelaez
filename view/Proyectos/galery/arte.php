@@ -34,6 +34,15 @@ $items = [
   ],
 
   [
+    "name"     => "Colegios, universidades y/o empresas",
+    "dirigido" => "Colegios, universidades (especialmente de Fusagasugá) y empresas para salidas pedagógicas, bienestar, voluntariado, integración y turismo cultural.",
+    "place"    => "Arbeláez • Cundinamarca (agenda cultural, rutas y experiencias)",
+    "img"      => "../../view/Proyectos/img/actividades.png",
+    "img_alt"  => "Alianzas con colegios, universidades y empresas - turismo cultural",
+    "desc"     => "Estrategia para atraer grupos organizados a Arbeláez mediante experiencias: recorridos turísticos, actividades culturales, ferias, gastronomía local, talleres con artesanas y jornadas de voluntariado. La meta es generar flujo constante de visitantes y oportunidades para los emprendimientos del municipio.",
+    "pdf"      => "../../view/Proyectos/pdf/alianzas-colegios-universidades-empresas.pdf",
+  ],
+  [
     "name"     => "Visitas y alianzas con colegios, universidades y empresas",
     "dirigido" => "Colegios, universidades (especialmente de Fusagasugá) y empresas para salidas pedagógicas, bienestar, voluntariado, integración y turismo cultural.",
     "place"    => "Arbeláez • Cundinamarca (agenda cultural, rutas y experiencias)",
@@ -42,7 +51,6 @@ $items = [
     "desc"     => "Estrategia para atraer grupos organizados a Arbeláez mediante experiencias: recorridos turísticos, actividades culturales, ferias, gastronomía local, talleres con artesanas y jornadas de voluntariado. La meta es generar flujo constante de visitantes y oportunidades para los emprendimientos del municipio.",
     "pdf"      => "../../view/Proyectos/pdf/alianzas-colegios-universidades-empresas.pdf",
   ],
-
 ];
 ?>
 
