@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Básicos -->
-  <title>Actividades en Arbeláez</title>
-  <meta name="description" content="Artesanías Veredas. en Arbeláez (Cundinamarca): artesanías únicas y de calidad, piezas seleccionadas, regalos y decoración. Encuentra artesanías locales y también turcas y de otros lugares.">
+  <title>Actividades Turísticas en Arbeláez</title>
+  <meta name="description" content="Página para promover el turismo de Arbeláez (Cundinamarca) a través de actividades y proyectos que visibilizan lo mejor del municipio: cultura, gastronomía, naturaleza, emprendimientos y experiencias locales.">
   <link rel="canonical" href="https://www.arbelaez.com.co/view/Proyectos/index.php">
   <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 
@@ -16,30 +16,29 @@
   <meta name="geo.region" content="CO-CUN">
   <meta name="geo.placename" content="Arbeláez">
 
-  <!-- Palabras clave (100) ES + EN -->
-  <meta name="keywords" content="Artesanías Veredas, Martha E Arbeláez, tienda de artesanías, artesanías Arbeláez, artesanías Cundinamarca, artesanías únicas, piezas únicas, productos únicos, artesanías de calidad, calidad premium, regalos con estilo, regalos originales, recuerdos Arbeláez, souvenirs Arbeláez, regalos Arbeláez, detalles para regalar, decoración artesanal, decoración hogar, decoración rústica, decoración boho, estilo bohemio, estilo natural, estilo orgánico, hechos a mano, hecho a mano Colombia, artesanía colombiana, arte local, cultura local, tradición, patrimonio, talento local, compra local, apoya lo local, emprendimiento local, tienda en Arbeláez, centro de Arbeláez, cerca al parque, catálogo de artesanías, atención personalizada, empaque de regalo, tarjetas de regalo, pedidos especiales, colecciones de temporada, feria artesanal, mercado local, turismo cultural, turismo creativo, ruta artesanal, artesanías turcas, artesanía turca, productos turcos, regalos turcos, decoración turca, lámparas turcas, lámparas artesanales, lámparas decorativas, mosaico turco, mosaicos decorativos, vidrio decorado, arte en vidrio, platos decorativos, cerámica, cerámica artesanal, vajillas artesanales, tazas, platos pintados, jarrones, figuras decorativas, madera, talla en madera, esculturas, portavelas, portallaves, portarretratos, macramé, tejidos, crochet, bordado, lana, algodón, cestería, canastos, bisutería, joyería artesanal, collares, aretes, pulseras, cuero, marroquinería, carteras, monederos, cinturones, accesorios, productos importados, piezas seleccionadas, artesanías de otros lugares, artesanías internacionales, regalos para ella, regalos para él, regalos para niños, regalos para hogar, recuerdos Colombia, souvenirs Colombia, fin de semana Arbeláez, visita Arbeláez, turismo Arbeláez, Arbelaez tourism, craft store, handicraft shop, artisan store, handmade gifts, unique crafts, quality crafts, premium gifts, Turkish gifts, Turkish crafts, Turkish lamps, mosaic lamp, home decor, gift shop, souvenirs near Bogotá, Arbeláez travel guide">
+  <!-- Keywords ES + EN (turismo / actividades / experiencias) -->
+  <meta name="keywords" content="Turismo Arbeláez, actividades Arbeláez, proyectos Arbeláez, eventos Arbeláez, Arbeláez Cundinamarca, qué hacer en Arbeláez, plan en Arbeláez, fin de semana Arbeláez, visita Arbeláez, turismo cerca de Bogotá, turismo Cundinamarca, naturaleza Arbeláez, miradores Arbeláez, rutas Arbeláez, gastronomía Arbeláez, emprendimientos Arbeláez, cultura Arbeláez, artesanías Arbeláez, experiencia local, rutas turísticas, turismo cultural, turismo gastronómico, turismo de naturaleza, turismo comunitario, actividades para familias, actividades para parejas, actividades para grupos, colegios en Arbeláez, universidades en Arbeláez, empresas en Arbeláez, integración empresarial, voluntariado Arbeláez, fotografía turística, puntos instagrameables, monumentos Arbeláez, murales Arbeláez, Arbeláez se llena de color, TourBurger Arbeláez, ferias Arbeláez, mercados locales, agenda cultural Arbeláez, turismo sostenible, turismo responsable, discover Arbelaez, Arbelaez tourism, things to do in Arbelaez, Arbelaez activities, visit Arbelaez, cultural tourism, food tourism, nature tourism, local experiences, weekend trip Colombia">
 
   <!-- Icono / tema -->
-  <link rel="icon" href="../view/Proyectos/img/color.png" type="image/jpeg">
-  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/Artesanas_Veredas/apple-touch-icon.png">
+  <link rel="icon" href="https://www.arbelaez.com.co/media/turismo/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/turismo/apple-touch-icon.png">
   <meta name="theme-color" content="#005548">
 
   <!-- Rendimiento -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="image" href="https://www.arbelaez.com.co/media/Artesanas_Veredas/hero-artesanias.webp">
+  <link rel="preload" as="image" href="https://www.arbelaez.com.co/media/turismo/hero-arbelaez.webp">
+
   <?php $cssTime = filemtime('../../view/Proyectos/style.css'); ?>
   <link rel="stylesheet" href="../../view/Proyectos/style.css?v=<?= $cssTime ?>">
 
-  <!-- Datos estructurados: Store -->
+  <!-- Datos estructurados: TouristInformationCenter -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Store",
-    "name": "Artesanías Veredas.",
-    "image": "https://www.arbelaez.com.co/media/Artesanas_Veredas/og-1200x630.jpg",
+    "@type": "TouristInformationCenter",
+    "name": "Actividades Turísticas en Arbeláez",
+    "image": "https://www.arbelaez.com.co/media/turismo/og-1200x630.jpg",
     "url": "https://www.arbelaez.com.co/view/Proyectos/index.php",
-    "telephone": "+57 3024229260",
-    "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Arbeláez",
@@ -47,15 +46,14 @@
       "addressCountry": "CO"
     },
     "areaServed": "Arbeláez, Cundinamarca",
-    "description": "Almacén de artesanías únicas y de calidad, con piezas locales y también turcas y de otros lugares. Regalos, decoración y recuerdos para llevarte lo mejor de Arbeláez.",
-    "acceptsReservations": false,
-    "paymentAccepted": "Cash, Transfer"
+    "description": "Página para promover el turismo de Arbeláez mediante actividades y proyectos que visibilizan la cultura, la gastronomía, la naturaleza y el talento local. Aquí encontrarás iniciativas actuales y futuras para mostrar lo lindo y el potencial del municipio."
   }
   </script>
 </head>
 
 <body class="body_Artesanas_Veredas">
   <?php include "../../view/Proyectos/menu/menu.php" ?>
+
   <div class="container_Artesanas_Veredas">
     <?php include "../../view/Proyectos/title/title.php" ?>
     <?php include "../../view/Proyectos/slider/slider.php" ?>
@@ -63,6 +61,7 @@
     <?php include "../../view/Proyectos/bout_us/about.php" ?>
     <?php include "../../view/Proyectos/maps/maps.php"?>
   </div>
+
   <?php include "../../view/Proyectos/footer/footer.php" ?>
 </body>
 </html>
