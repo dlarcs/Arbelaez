@@ -32,7 +32,7 @@ $jsTime = filemtime('../../view/Proyectos/slider/slider.js');
 				</article>
 				<!-- Slide 4 -->
 				<article class="slide" aria-role description="slide" aria-label="4 de 4">
-					<img src="../../view/Proyectos/img/slider4.jpeg" alt="Artesanías" />
+					<img src="../../view/Proyectos/img/tour.jpeg" alt="Artesanías" />
 					<div class="slide__caption">
 						<!-- <h2>Fortaleza en la Oración</h2>
            <p>Habla con Dios, Él siempre escucha.</p> -->
