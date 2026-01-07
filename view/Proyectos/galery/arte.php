@@ -14,7 +14,7 @@ $cssTime = filemtime('../../view/Proyectos/galery/arte.css');
 $items = [
 
   [
-    "name"     => "TourBurger Arbeláez",
+    "name"     => "TourBurger Arbeláez (proceso)",
     "dirigido" => "Visitantes, familias, jóvenes, amantes de la gastronomía y negocios participantes del TourBurger.",
     "place"    => "Arbeláez • Cundinamarca (rutas por los puntos participantes)",
     "img"      => "../../view/Proyectos/img/tour.jpeg",
