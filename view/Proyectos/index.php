@@ -55,7 +55,7 @@
 </head>
 
 <body class="body_Artesanas_Veredas">
-  <?php include "../../../view/Proyectos/menu/menu.php" ?>
+  <?php include "view/Proyectos/menu/menu.php" ?>
   <div class="container_Artesanas_Veredas">
     <?php include "../view/Proyectos/title/title.php" ?>
     <?php include "../view/Proyectos/slider/slider.php" ?>
