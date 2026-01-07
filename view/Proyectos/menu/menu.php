@@ -7,7 +7,7 @@ $cssTime = filemtime('../../view/Proyectos/menu/menu.css'); // ejemplo: '../Home
 	<header class="site-header">
 		<!-- Marca / logo -->
 		<a class="brand_menu" href="../../../view/home/index.php" aria-label="Inicio">
-			<h1 class="brand-text">Proyectos</h1>
+			<h1 class="brand-text">Proyectos futuros en Arbeláez</h1>
 
 			<!-- <img src="../../../view/gastronomia/huerto/menu/img/logo_huerto.png" alt="" class="brand-logo"> -->
 
