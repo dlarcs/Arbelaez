@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+.body_Artesanas_Veredas {
+	padding: 0;
+	margin: 0;
+
+}
+.container_Artesanas_Veredas {
+	padding:  0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	object-fit: cover;
+	overflow: hidden;
+	background-color: #fafafa;
+}

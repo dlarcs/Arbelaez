@@ -1,0 +1,217 @@
+/* =========================
+   FICHAS — LIMPIO + RESPONSIVE (OPTIMIZADO)
+   Grid: PC 4 | Tablet 3 | Mobile 2
+========================= */
+
+:root{
+  --bg: transparent;
+  --card:#fff;
+  --ink:#101828;
+  --muted:#667085;
+  --border: rgba(16,24,40,.10);
+  --shadow: 0 18px 40px rgba(16,24,40,.10);
+  --radius: 16px;
+
+  --pdf:#0b6cff;
+  --pdfHover:#0a5fe0;
+}
+
+/* ===== Grid (container) ===== */
+.section_food_gallery{
+  --container: 1400px;
+  --gap: clamp(12px, 1.6vw, 18px);
+
+  width: min(100%, var(--container));
+  margin: 0 auto;
+  padding: clamp(12px, 2vw, 18px);
+
+  display: grid;
+  gap: var(--gap);
+
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: start;
+
+  background: var(--bg);
+  box-sizing: border-box;
+
+  --media-ratio: 4 / 3; /* PC */
+}
+
+/* Tablet */
+@media (max-width: 1024px){
+  .section_food_gallery{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    --media-ratio: 1 / 1;
+  }
+}
+
+/* Celular */
+@media (max-width: 640px){
+  .section_food_gallery{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    --media-ratio: 4 / 5;
+  }
+}
+
+/* ===== Card ===== */
+.ficha{
+  width: 100%;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  padding: clamp(.85rem, 1.2vw, 1rem);
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  gap: .65rem;
+
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+
+.ficha:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 22px 46px rgba(16,24,40,.14);
+  border-color: rgba(16,24,40,.16);
+}
+
+/* ===== Header ===== */
+.ficha__header{
+  display: flex;
+  flex-direction: column;
+  gap: .35rem;
+  margin: 0;
+}
+
+.ficha__title{
+  margin: 0;
+  font-size: clamp(1.02rem, 1.1vw + .6rem, 1.18rem);
+  line-height: 1.2;
+  color: var(--ink);
+}
+
+.ficha__target{
+  margin: 0;
+  font-size: clamp(.88rem, .9vw + .35rem, .95rem);
+  color: var(--ink);
+  opacity: .88;
+}
+.ficha__target strong{ font-weight: 800; }
+
+.ficha__place{
+  margin: 0;
+  font-size: clamp(.88rem, .9vw + .4rem, .95rem);
+  color: var(--muted);
+}
+
+/* ===== Media (MISMA PROPORCIÓN PARA TODAS) ===== */
+.ficha__media{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  aspect-ratio: var(--media-ratio);
+  border-radius: 12px;
+  overflow: hidden;
+
+  background: #f2f4f7;
+}
+
+.ficha__media img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  margin: 0;
+  border-radius: 0;
+}
+
+/* =========================
+   DESC: 2 líneas + Leer más/Ocultar
+========================= */
+.ficha__desc{
+  margin: 0;
+  color: var(--ink);
+  opacity: .92;
+  line-height: 1.55;
+  font-size: clamp(.92rem, .8vw + .5rem, .98rem);
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+/* ✅ Expandido */
+.ficha__desc.is-expanded{
+  display: block;
+  -webkit-line-clamp: unset;
+  overflow: visible;
+}
+
+/* Botón Leer más / Ocultar */
+.desc-toggle{
+  display: none;
+  margin-top: .35rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--pdf);
+  font-weight: 800;
+  cursor: pointer;
+  text-align: left;
+}
+
+.desc-toggle.is-visible{
+  display: inline-block;
+}
+
+.desc-toggle:hover{
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ===== Button (PDF) ===== */
+.btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid transparent;
+
+  user-select: none;
+  transition: transform .08s ease, box-shadow .18s ease, background .18s ease;
+}
+
+.btn__icon{
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.btn--pdf{
+  background: var(--pdf);
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(11,108,255,.22);
+}
+
+.btn--pdf:hover{ background: var(--pdfHover); }
+.btn:active{ transform: translateY(1px); }
+
+/* ===== Accesibilidad ===== */
+@media (prefers-reduced-motion: reduce){
+  *{
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
