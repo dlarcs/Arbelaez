@@ -50,7 +50,7 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       </article>
     </a>
 
-    <a href="../../view/Naturaleza/index.php" class="card_link">
+    <!-- <a href="../../view/Naturaleza/index.php" class="card_link">
       <article class="galery_card_places">
         <p class="badge">Naturaleza</p>
         <img
@@ -61,7 +61,7 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
           <div class="card_info_places"><h3>Ríos, plantas y más</h3></div>
         </div>
       </article>
-    </a>
+    </a> -->
     <a href="../../view/Juntanza_de_Mujeres/index.php" class="card_link">
       <article class="galery_card_places">
         <p class="badge">Asociación Juntanza de Mujeres</p>
