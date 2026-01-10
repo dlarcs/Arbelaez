@@ -5,6 +5,16 @@ $jsTime = filemtime('../../../view/gastronomia/Don_Ciprio/galery/gastronomia.js'
 	<link rel="stylesheet" href="../../../view/gastronomia/Don_Ciprio/galery/gastronomia.css?v=<?= $cssTime ?>">
 	<!-- ===== Contenedor de platos ===== -->
 	<div class="food_gallery_container">
+		<h1>Nuestra Gastronomía</h1>
+
+		<div class="categories_food_gallery">
+		  <ul>
+		    <li class="filter_items active" data-filter="all">Todos</li>
+		    <li class="filter_items" data-filter="comida">Comida</li>
+		    <li class="filter_items" data-filter="general">General</li>
+		  </ul>
+		</div>
+
 
 	  <!-- ===== Almuerzos (comida.jpeg a comida8.jpeg) ===== -->
 	  <div class="food_card Almuerzos">
