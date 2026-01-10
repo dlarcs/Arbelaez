@@ -51,6 +51,7 @@ $cssTime = filemtime('../../view/global/footer/footer.css');
       <div class="footer_col">
         <h3 class="footer_title">Gastronomía</h3>
         <ul class="footer_list">
+          <li><a href="../../view/gastronomia/Don_Ciprio/index.php">Don Ciprio</a></li>
           <li><a href="../../view/gastronomia/El_Fogon_del_Triangulo/index.php">El Fogon del Triángulo</a></li>
           <li><a href="../../view/gastronomia/La_Marranada/index.php">La marranada Campestre</a></li>
           <li><a href="../../view/gastronomia/Pablos_Restaurant/index.php">Pablos Restaurant</a></li>
