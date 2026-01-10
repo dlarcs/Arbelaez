@@ -114,25 +114,25 @@ $jsTime = filemtime('../../view/gastronomia/seccion/restaurante.js');   // ejemp
       'wa_phone'     => '573144506914',
       'wa_label'     => 'WhatsApp',
     ],
-		// [
-    //   'name'         => 'Del Huerto',
-    //   'slug'         => 'Del_Huerto',
-    //   'img'          => '../../view/gastronomia/Del_Huerto/img/logo.jpg',
-    //   'img_alt'      => 'Logo de la pizzeria del Huerto',
-    //   'zone'         => 'Pueblo', // aquí lo pongo como Pueblo para que el filtro tenga sentido
-    //   'schema'       => 'Restaurant',
-    //   'location'     => 'En Pueblo',
-    //   'desc'         => 'Colores, cultura y sazón de nuestra tierra. Comida artesanal, pizzeria y comida de calidad',
-    //   'servesCuisine'=> 'Comida artesanal',
-    //   'features'     => [
-    //     'Fines de semana y festivos 10:30 am – 21:30 pm',
-    //     'Vista panorámica',
-    //   ],
-    //   'openingHours' => 'Mo-Su 05:00-21:00',
-    //   'priceRange'   => '$$',
-    //   'wa_phone'     => '573194963554',
-    //   'wa_label'     => 'WhatsApp',
-    // ],
+		[
+      'name'         => 'Don Ciprio',
+      'slug'         => 'Don_Ciprio',
+      'img'          => '../../view/gastronomia/Don_Ciprio/img/logo.png',
+      'img_alt'      => 'Restaurante mexicano',
+      'zone'         => 'Pueblo', // aquí lo pongo como Pueblo para que el filtro tenga sentido
+      'schema'       => 'Restaurant',
+      'location'     => 'En Pueblo',
+      'desc'         => 'Colores, cultura y sazón, comida mexicana, el unico lugar en Arbleáez.',
+      'servesCuisine'=> 'Comida mexicana',
+      'features'     => [
+        'Lunes a viernes 18:30 pm – 20:00 pm',
+        'Vista panorámica',
+      ],
+      'openingHours' => 'Mo-Su 18:00-22:00',
+      'priceRange'   => '$$',
+      'wa_phone'     => '573176184453',
+      'wa_label'     => 'WhatsApp',
+    ],
   ];
   ?>
 
