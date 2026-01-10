@@ -258,54 +258,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
       </div>
     </article> -->
 
-    <!-- CARD 5 – Del Huerto -->
-    <article
-      class="tourburger-card"
-      data-image="../../view/home/TourBurguer/img/huerto1.jpeg"
-      data-image-alt="TourBurger de Del Huerto"
-     >
-      <figure class="tourburger-card__thumb">
-        <img
-          src="../../view/home/TourBurguer/img/huerto1.jpeg"
-          alt="TourBurger de Del Huerto"
-          loading="lazy"
-          decoding="async"
-        >
-      </figure>
 
-      <h3 class="tourburger-card__name">Del Huerto</h3>
-      <p class="tourburger-card__details">
-        Costado del parque principal, frente a la alcaldía.
-      </p>
-
-      <div class="tourburger-card__burger">
-        <h4 class="tourburger-card__burger-name">
-          TourBurger La Diablada Arbeláez 2025
-        </h4>
-        <p class="tourburger-card__burger-ingredients">
-          200 GMS de carne, pan artesanal, cebolla caramelizada ,tomate, lechuga, tocineta, queso y salsas de la casa
-        </p>
-      </div>
-
-      <div class="tourburger-card__actions">
-        <a
-          href="https://wa.me/573194963554?text=Hola%2C%20quiero%20info%20del%20TourBurger%20Arbel%C3%A1ez"
-          class="btn btn--primary"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Contacto
-        </a>
-        <a
-          href="https://maps.app.goo.gl/466ghbcaFLJteyF36"
-          class="btn btn--ghost"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Cómo llegar
-        </a>
-      </div>
-    </article>
 
     <!-- CARD 6 – Pimienta Gastro-Bar -->
     <article
