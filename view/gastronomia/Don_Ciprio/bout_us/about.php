@@ -1,7 +1,7 @@
 <?php
 $cssTime = filemtime('../../../view/gastronomia/Don_Ciprio/bout_us/about.css');
 ?>
-	<link rel="stylesheet" href="../../../view/gastronomia/Don_Ciprio/img/logo.png?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../../view/gastronomia/Don_Ciprio/bout_us/about.css?v=<?= $cssTime ?>">
 
 	<main id="about_El_Fogon_triangulo" class="wrap">
 		<article class="card" itemscope itemtype="https://schema.org/LocalBusiness">
