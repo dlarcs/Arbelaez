@@ -126,7 +126,7 @@ $jsTime = filemtime('../../view/gastronomia/seccion/restaurante.js');   // ejemp
       'servesCuisine'=> 'Comida mexicana',
       'features'     => [
         'Lunes a viernes 18:30 pm – 20:00 pm',
-        'Vista panorámica',
+        'Lugar con historia',
       ],
       'openingHours' => 'Mo-Su 18:00-22:00',
       'priceRange'   => '$$',
