@@ -10,14 +10,15 @@ $cssTime = filemtime('../../../view/gastronomia/Don_Ciprio/footer/footer.css');
 		<div class="footer_container">
 			<div class="footer_social" aria-label="Redes sociales">
 				<ul class="socials">
+
 					<li>
-						<a href="https://www.facebook.com/profile.php?id=100057632397199" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-							<ion-icon name="logo-facebook"></ion-icon><span class="sr-only">Facebook</span>
+						<a href="https://www.instagram.com/donciprio/ " target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+							<ion-icon name="logo-instagram"></ion-icon><span class="sr-only">Instagram</span>
 						</a>
 					</li>
 					<li>
-						<a href="https://www.instagram.com/fogondeltriangulo/ " target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-							<ion-icon name="logo-instagram"></ion-icon><span class="sr-only">Instagram</span>
+						<a href="https://www.tiktok.com/@don.ciprio" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+							<ion-icon name="logo-tiktok"></ion-icon><span class="sr-only">tiktok</span>
 						</a>
 					</li>
 
