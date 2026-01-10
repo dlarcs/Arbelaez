@@ -58,7 +58,7 @@
     },
     "servesCuisine": ["Comida mexicana","Café","Postres","Cócteles"],
     "priceRange": "$$",
-    "telephone": "+57 3024229260",
+    "telephone": "+57 3176184453",
     "acceptsReservations": true,
     "openingHours": ["Mo-Su 12:00-22:00"]
   }
