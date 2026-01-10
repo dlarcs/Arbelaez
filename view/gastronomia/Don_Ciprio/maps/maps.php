@@ -2,7 +2,7 @@
 $cssTime = filemtime('../../../view/gastronomia/Don_Ciprio/maps/maps.css'); // ejemplo: '../Home/5.Video/video.css'
 ?>
 	<link rel="stylesheet" href="../../../view/gastronomia/Don_Ciprio/maps/maps.css?v=<?= $cssTime ?>">
-	<section id="ubicacion_El_Fogon_triangulo" class="seccion_maps">
+	<section id="ubicacion_Don_Ciprio" class="seccion_maps">
 		<div class="maps">
 			<div class="text_maps">
 				<h1>¡CÓMO LLEGAR!</h1>

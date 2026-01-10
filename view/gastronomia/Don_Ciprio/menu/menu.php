@@ -7,9 +7,9 @@ $cssTime = filemtime('../../../view/gastronomia/Don_Ciprio/menu/menu.css'); // e
 	<header class="site-header">
 		<!-- Marca / logo -->
 		<a class="brand_menu" href="../../../view/home/index.php" aria-label="Inicio">
-			<h1 class="brand-text">El Fogón del Triángulo</h1>
+			<h1 class="brand-text">Don Ciprio</h1>
 
-			<!-- <img src="../../../view/Don_Ciprio/menu/img/logo_El_Fogon_triangulo.png" alt="" class="brand-logo"> -->
+			<!-- <img src="../../../view/Don_Ciprio/menu/img/logo_Don_Ciprio.png" alt="" class="brand-logo"> -->
 
 		</a>
 
@@ -23,10 +23,10 @@ $cssTime = filemtime('../../../view/gastronomia/Don_Ciprio/menu/menu.css'); // e
 		<nav id="site-nav" class="nav">
 			<ul class="nav-list">
 				<li><a href="../../../view/home/index.php">Inicio</a></li>
-				<li><a href="#menu_El_Fogon_triangulo">Menu</a></li>
-				<li><a href="#galery_El_Fogon_triangulo">Galeria</a></li>
-				<li><a href="#about_El_Fogon_triangulo">Nosotros</a></li>
-				<li><a href="#ubicacion_El_Fogon_triangulo">Ubicación</a></li>
+				<li><a href="#menu_Don_Ciprio">Menu</a></li>
+				<li><a href="#galery_Don_Ciprio">Galeria</a></li>
+				<li><a href="#about_Don_Ciprio">Nosotros</a></li>
+				<li><a href="#ubicacion_Don_Ciprio">Ubicación</a></li>
 				<li><a class="cta" href="../../../view/gastronomia/index.php">Volver</a></li>
 			</ul>
 		</nav>

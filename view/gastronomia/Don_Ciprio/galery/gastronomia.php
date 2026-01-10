@@ -4,7 +4,7 @@ $jsTime = filemtime('../../../view/gastronomia/Don_Ciprio/galery/gastronomia.js'
 ?>
 	<link rel="stylesheet" href="../../../view/gastronomia/Don_Ciprio/galery/gastronomia.css?v=<?= $cssTime ?>">
 	<!-- ===== Contenedor de platos ===== -->
-	<section class="section_food_gallery" id="galery_El_Fogon_triangulo">
+	<section class="section_food_gallery" id="galery_Don_Ciprio">
 		<h1>Nuestra Gastronomía</h1>
 
 		<div class="categories_food_gallery">
