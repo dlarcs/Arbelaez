@@ -13,8 +13,10 @@ $jsTime = filemtime('../../../view/gastronomia/Don_Ciprio/galery/gastronomia.js'
 		<div class="categories_food_gallery">
 		  <ul>
 		    <li class="filter_items active" data-filter="all">Todos</li>
-		    <li class="filter_items" data-filter="comida">Comida</li>
-		    <li class="filter_items" data-filter="general">General</li>
+		    <li class="filter_items" data-filter="Almuerzos">Comida</li>
+		    <li class="filter_items" data-filter="Especiales">Especiales</li>
+				<li class="filter_items" data-filter="General">General</li>
+
 		  </ul>
 		</div>
 
