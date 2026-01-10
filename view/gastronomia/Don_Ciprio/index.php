@@ -80,7 +80,7 @@
 
   <!-- Botón WhatsApp -->
   <a class="whatsapp-fab"
-     href="https://wa.me/573144506914?text=Hola%20vengo%20desde%20la%20web%20de%20Don%20Ciprio%20y%20quiero%20m%C3%A1s%20informaci%C3%B3n"
+     href="https://wa.me/573176184453?text=Hola%20vengo%20desde%20la%20web%20de%20Don%20Ciprio%20y%20quiero%20m%C3%A1s%20informaci%C3%B3n"
      target="_blank" rel="noopener"
      aria-label="Chatear por WhatsApp">
     <img src="../../../view/home/img/img_whatsApp.png" alt="Contactar por WhatsApp" decoding="async">
