@@ -8,7 +8,7 @@
 	justify-content: center;
 	/* Fondo base */
 	background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
-  url("../../../../view/gastronomia/El_Fogon_del_Triangulo/img/especial3.jpg") 50% 55%/cover no-repeat;
+  url("../../../../view/gastronomia/Don_Ciprio/img/comida5.jpeg") 50% 55%/cover no-repeat;
 	--fade: 10%;
 	/* porcentaje del alto que se desvanece arriba y abajo */
 	-webkit-mask-image: linear-gradient(
@@ -50,6 +50,6 @@
 @media (max-width: 600px) {
 	.card_download {
 		background-image: linear-gradient(rgba(0, 0, 0, .4),
-    rgba(0, 0, 0, .4)), url("../../../../view/gastronomia/El_Fogon_del_Triangulo/img/especial3.jpg");
+    rgba(0, 0, 0, .4)), url("../../../../view/gastronomia/Don_Ciprio/img/comida5.jpeg");
 	}
 }
