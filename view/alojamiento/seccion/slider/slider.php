@@ -16,7 +16,7 @@ $jsTime = filemtime('../../view/alojamiento/seccion/slider/slider.js');
        </article>
        <!-- Slide 2 -->
        <article class="slide" aria-roledescription="slide" aria-label="2 de 4">
-         <img src="../../view/alojamiento/img/isaraHouse.jpeg"
+         <img src="../../view/alojamiento/Casa_Kiyari/img/meditacion.jpg"
               alt="Bosque con luz dorada" />
          <div class="slide__caption">
            <p>Explora los mejores lugares</p>
