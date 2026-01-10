@@ -11,24 +11,27 @@ $cssTime = filemtime('../../../view/gastronomia/Don_Ciprio/bout_us/about.css');
 			</figure>
 			<section class="content">
 				<h1 itemprop="name"> <br> Acerca de nosotros</h1>
-				<p class="lema" itemprop="slogan">Restaurante El Fogon del triangulo — tradición y sazón que abrazan el alma.</p>
+				<p class="lema" itemprop="slogan">Don Ciprio — auténtica comida mexicana, tradición y sabor en cada bocado.</p>
 
 				<p class="desc" itemprop="description">
-			  En <strong>El Fogón del Triángulo</strong> celebramos los sabores, los colores y las raíces de nuestra tierra:
-			  un lugar lleno de <strong>cultura, tradición y alegría</strong>, donde cada plato se comparte con el alma. <br>
-			  Aquí la comida une, las risas acompañan y el paisaje inspira. <br><br> Bajo el sol o las estrellas,
-			  disfrutarás de la mejor vista mientras saboreas recetas que cuentan historias. <br><br>
-			  Ven a disfrutar un ambiente vibrante y acogedor, donde cada detalle está hecho para compartir y vivir momentos inolvidables.
-			  <br>Te esperamos. Pedidos y reservas:
-			  <a href="https://wa.me/573144506914?text=Hola%20vengo%20desde%20la%20web%20de%20El%20Asadero%20El%20Fogón%20del%20Triángulo"
-			     target="_blank" rel="noopener noreferrer">3144506914</a>
-			</p>
+				  En <strong>Don Ciprio</strong> te invitamos a vivir una experiencia de <strong>comida mexicana</strong> con recetas llenas de tradición,
+				  sabores intensos y ese toque casero que se queda en la memoria. <br>
+				  Nuestro ambiente está inspirado en el encanto de lo clásico: un espacio decorado con <strong>antigüedades</strong> que le dan carácter,
+				  calidez y una historia en cada rincón. <br><br>
 
-			<ul class="bullets">
-			  <li>Sabores auténticos y recetas con historia</li>
-			  <li>Colores, cultura y tradición en cada plato</li>
-			  <li>La mejor vista para compartir y disfrutar</li>
-			</ul>
+				  Estamos ubicados en <strong>La Casa de los Pájaros</strong>, en la <strong>esquina del Parque Verde</strong>, un lugar perfecto para
+				  compartir, celebrar y disfrutar con amigos o familia. <br><br>
+
+				  Te esperamos. Pedidos y reservas:
+				  <a href="https://wa.me/573144506914?text=Hola%20vengo%20desde%20la%20web%20de%20Don%20Ciprio%20y%20quiero%20hacer%20una%20reserva%20o%20pedido"
+				     target="_blank" rel="noopener noreferrer">3144506914</a>
+				</p>
+
+				<ul class="bullets">
+				  <li>Recetas mexicanas auténticas y sabor tradicional</li>
+				  <li>Ambiente único con antigüedades y mucha personalidad</li>
+				  <li>Ubicación central: La Casa de los Pájaros, esquina del Parque Verde</li>
+				</ul>
 
 			</section>
 		</article>
