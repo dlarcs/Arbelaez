@@ -75,7 +75,7 @@ $lodgings = [
     'distance'  => '7 min 🚶',
     'reserve'   => ['type' => 'wa', 'phone' => '573103360964', 'label' => 'Reservar'],
     'category'  => 'Rural',
-    'desc'      => 'Alojamiento comodo y accesible, en el pueblo de arbelaez, la mejor opción 24 horas.'
+    'desc'      => '40 huéspedes, 14 habitaciones  en acomodación múltiple, cada habitación tiene su propio baño, la mejor opción 24 horas.'
   ],
   [
     'name'      => 'Casa Kiyari',
