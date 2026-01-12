@@ -1,22 +1,21 @@
-/* ===== Reset básico ===== */
+/* ===== Reset ===== */
 * { box-sizing: border-box; }
-
 ul { margin: 0; padding: 0; list-style: none; }
-
 a { text-decoration: none; color: inherit; }
 
 /* ===== Tokens ===== */
 :root{
-  --header-bg: #e7f2f1;        /* fondo claro */
-  --text: #000;               /* texto negro */
-  --hover: rgba(0, 0, 0, .06);
-  --border: rgba(0, 0, 0, .60);
+  --header-bg: #e7f2f1;
+  --text: #000;
+  --hover: rgba(0,0,0,.06);
+  --border: rgba(0,0,0,.55);
 
-  --primary-soft: #bfe9e1;     /* registrarse (claro) */
   --radius-pill: 999px;
+  --radius-md: 14px;
+  --shadow: 0 12px 26px rgba(0,0,0,.10);
 }
 
-/* ===== Link accesibilidad ===== */
+/* ===== Skip link ===== */
 .skip-link{
   position: absolute;
   left: -999px;
@@ -40,46 +39,36 @@ a { text-decoration: none; color: inherit; }
   padding: 0 clamp(16px, 3vw, 32px);
   display: flex;
   align-items: center;
-  gap: 24px;
+  justify-content: space-between;
+  gap: 16px;
   background: var(--header-bg);
 }
 
-/* ===== Marca / Logo ===== */
+/* ===== Brand ===== */
 .brand_menu{
   display: inline-flex;
   align-items: center;
   gap: 10px;
   color: var(--text);
-  font-weight: 700;
 }
 
-/* Texto "Logo" (si lo dejas) */
-.brand-text{
-  margin: 0;
-  font-size: 20px;
-  line-height: 1;
-  color: #000;
-}
-
-/* Imagen logo */
 .brand-logo{
-  width: 38px;          /* ajusta tamaño */
-  height: 38px;
-  object-fit: contain;  /* no se deforma */
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
   display: block;
 }
 
-/* ===== Navegación ===== */
+/* ===== Desktop Nav ===== */
 .nav{
-  flex: 1;
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
 }
 
 .nav-list{
   display: flex;
   align-items: center;
-  gap: 26px;
+  gap: 22px;
 }
 
 .nav-list > li > a,
@@ -89,7 +78,7 @@ a { text-decoration: none; color: inherit; }
   gap: 6px;
   padding: 8px 10px;
   border-radius: 12px;
-  color: #000;
+  color: var(--text);
   font-weight: 500;
   font-size: 15px;
 }
@@ -99,13 +88,11 @@ a { text-decoration: none; color: inherit; }
   background: var(--hover);
 }
 
-/* ===== Dropdown "Más" ===== */
+/* ===== Dropdown ===== */
 .dropdown details{ position: relative; }
-
 .dropdown summary{
   cursor: pointer;
   list-style: none;
-  color: #000;
 }
 .dropdown summary::-webkit-details-marker{ display: none; }
 
@@ -113,7 +100,6 @@ a { text-decoration: none; color: inherit; }
   display: inline-block;
   transform: translateY(1px);
   transition: transform .2s ease;
-  color: #000;
 }
 .dropdown details[open] .caret{ transform: rotate(180deg); }
 
@@ -123,10 +109,10 @@ a { text-decoration: none; color: inherit; }
   left: 0;
   min-width: 190px;
   background: #fff;
-  border: 1px solid rgba(0, 0, 0, .12);
-  border-radius: 14px;
+  border: 1px solid rgba(0,0,0,.12);
+  border-radius: var(--radius-md);
   padding: 8px;
-  box-shadow: 0 12px 26px rgba(0,0,0,.10);
+  box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
   gap: 2px;
@@ -137,39 +123,137 @@ a { text-decoration: none; color: inherit; }
   padding: 10px 12px;
   border-radius: 12px;
   font-size: 14px;
-  color: #000;
+  color: var(--text);
 }
-.dropdown-menu a:hover{
-  background: var(--hover);
+.dropdown-menu a:hover{ background: var(--hover); }
+
+/* ===== Burger (solo móvil) ===== */
+.burger{
+  width: 42px;
+  height: 36px;
+  display: none;              /* se activa en móvil */
+  position: relative;
+  cursor: pointer;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,.18);
+  background: rgba(255,255,255,.55);
 }
 
+/* 3 líneas */
+.burger::before,
+.burger::after{
+  content: "";
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  height: 2px;
+  border-radius: 999px;
+  background: #000;
+  transition: transform .25s ease, top .25s ease, opacity .25s ease;
+}
+.burger::before{ top: 12px; }
+.burger::after{ top: 22px; }
 
-/* ===== Focus ===== */
+/* línea del centro */
+.burger{
+  background:
+    linear-gradient(#000 0 0)
+    center 50% / calc(100% - 20px) 2px
+    no-repeat,
+    rgba(255,255,255,.55);
+}
+
+/* ===== Scrim ===== */
+.scrim{
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.45);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .25s ease;
+  z-index: 10000;
+}
+
+/* ===== Panel móvil ===== */
+@media (max-width: 860px){
+
+  /* mostrar burger */
+  .burger{ display: inline-block; }
+
+  /* esconder nav normal (se convierte en panel) */
+  .nav{
+    position: fixed;
+    inset: 0 0 0 auto;
+    width: min(82vw, 320px);
+    height: 100vh;
+    transform: translateX(110%);
+    transition: transform .3s ease;
+    background: #ffffff;
+    border-left: 1px solid rgba(0,0,0,.10);
+    box-shadow: var(--shadow);
+    padding: 78px 14px 18px;
+    z-index: 10001;
+  }
+
+  .nav-list{
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
+    width: 100%;
+  }
+
+  .nav-list > li > a,
+  .dropdown summary{
+    width: 100%;
+    padding: 12px 12px;
+    border-radius: 12px;
+    background: transparent;
+  }
+
+  .dropdown-menu{
+    position: static;
+    box-shadow: none;
+    border: 1px solid rgba(0,0,0,.10);
+    margin-top: 8px;
+  }
+}
+
+/* ===== Toggle abierto ===== */
+.nav-toggle:checked ~ .nav{
+  transform: translateX(0);
+}
+
+.nav-toggle:checked ~ .scrim{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Burger -> X */
+.nav-toggle:checked + .burger{
+  background: rgba(255,255,255,.55);
+}
+.nav-toggle:checked + .burger::before{
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+.nav-toggle:checked + .burger::after{
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+/* bloquear scroll (si el navegador lo soporta) */
+body:has(#nav-toggle:checked){ overflow: hidden; }
+
+/* ===== Focus visible ===== */
 .brand_menu:focus-visible,
 .nav-list a:focus-visible,
 .dropdown summary:focus-visible,
-.btn:focus-visible{
-  outline: 2px solid #1f2937;
+.burger:focus-visible{
+  outline: 2px solid #111827;
   outline-offset: 2px;
 }
 
-/* ===== Responsive ===== */
-@media (max-width: 860px){
-  .site-header{
-    height: auto;
-    padding: 12px 16px;
-    flex-wrap: wrap;
-    gap: 12px;
-  }
-
-  .nav{
-    flex: 1 1 100%;
-    order: 3;
-    overflow-x: auto;
-  }
-
-  .nav-list{ gap: 14px; }
-
-  .brand-text{ font-size: 18px; }
-  .brand-logo{ width: 34px; height: 34px; }
+/* ===== Reduced motion ===== */
+@media (prefers-reduced-motion: reduce){
+  .nav, .scrim, .burger::before, .burger::after{ transition: none; }
 }
