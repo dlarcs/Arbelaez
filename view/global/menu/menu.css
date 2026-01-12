@@ -57,15 +57,6 @@ a {
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-
-  background: linear-gradient(
-    135deg,
-    var(--glass-top) 0%,
-    var(--glass-bot) 70%
-  );
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: var(--shadow-1);
 }
 
 /* Marca */
