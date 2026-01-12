@@ -57,6 +57,10 @@ a {
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: var(--shadow-1);
 }
 
 /* Marca */
