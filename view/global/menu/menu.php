@@ -19,6 +19,8 @@ $cssTime = filemtime('../../view/global/menu/menu.css');
       <li><a href="../../view/home/index.php">Inicio</a></li>
       <li><a href="../../view/artesanias/index.php">Artesanías</a></li>
       <li><a href="../../view/alojamientos/index.php">Alojamientos</a></li>
+			<li><a href="../../view/gastronomia/index.php">Gastronomía</a></li>
+
 
       <li class="dropdown">
         <details>
