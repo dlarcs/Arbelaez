@@ -34,9 +34,5 @@ $cssTime = filemtime('../../view/global/menu/menu.css');
     </ul>
   </nav>
 
-  <!-- Botones derecha -->
-  <div class="header-actions">
-    <a class="btn btn-outline" href="../../view/auth/login.php">Entrar</a>
-    <a class="btn btn-solid" href="../../view/auth/register.php">Registrarse</a>
-  </div>
+
 </header>
