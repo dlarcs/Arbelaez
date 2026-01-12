@@ -8,7 +8,6 @@ $cssTime = filemtime('../../view/global/menu/menu.css');
 
   <!-- Marca / logo -->
   <a class="brand_menu" href="../../view/home/index.php" aria-label="Inicio">
-    <h1 class="brand-text">Logo</h1>
 
     <img src="../../view/global/img/logo.png" alt="Arbeláez" class="brand-logo">
 
