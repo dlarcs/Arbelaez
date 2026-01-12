@@ -19,7 +19,7 @@ a { text-decoration: none; color: inherit; }
   position: absolute;
   left: -999px;
   top: 0;
-  background: #fff;
+  background: #000;
   color: #111827;
   padding: .55rem .9rem;
   border-radius: .6rem;
