@@ -5,10 +5,10 @@ $cssTime = filemtime('../../view/global/menu/menu.css');
 
 <header class="site-header">
   <a href="#main" class="skip-link">Saltar al contenido principal</a>
-<h1>Arbelaez Cundinamarca</h1>
-  <a class="brand_menu" href="../../view/home/index.php" aria-label="Inicio">
+   <h1>Arbelaez Cundinamarca</h1>
+  <!-- <a class="brand_menu" href="../../view/home/index.php" aria-label="Inicio">
     <img src="../../view/global/img/logo.png" alt="Arbeláez" class="brand-logo">
-  </a>
+  </a> -->
 
   <!-- Toggle -->
   <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
