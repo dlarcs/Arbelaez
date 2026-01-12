@@ -7,7 +7,7 @@ a { text-decoration: none; color: inherit; }
 
 :root{
   --header-bg: #e7f2f1;      /* fondo claro como la imagen */
-  --text: #0b1b16;
+  --text: #000;
   --primary: #0b6b63;        /* botón Registrarse */
   --border: rgba(11, 27, 22, 0.55);
   --hover: rgba(11, 27, 22, 0.06);
