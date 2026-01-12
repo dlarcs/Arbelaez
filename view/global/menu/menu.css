@@ -15,7 +15,7 @@ a {
 :root {
   --brand-2: #224335;
   --ink: #0b1b16;
-  --fg-on-brand: #fdfdfd;
+  --fg-on-brand: #000;
 
   --glass-top: rgba(11, 27, 22, 0.78);
   --glass-bot: rgba(0, 85, 72, 0.98);
