@@ -7,17 +7,16 @@ a { text-decoration: none; color: inherit; }
 
 /* ===== Tokens ===== */
 :root{
-  --header-bg: #e7f2f1;   /* fondo claro */
-  --text: #000;          /* letra negra */
-  --hover: rgba(0, 0, 0, 0.06);
+  --header-bg: #e7f2f1;        /* fondo claro */
+  --text: #000;               /* texto negro */
+  --hover: rgba(0, 0, 0, .06);
+  --border: rgba(0, 0, 0, .60);
 
-  --primary-soft: #bfe9e1; /* botón Registrarse (claro para que se vea negro) */
-  --border: rgba(0, 0, 0, 0.60);
-
+  --primary-soft: #bfe9e1;     /* registrarse (claro) */
   --radius-pill: 999px;
 }
 
-/* ===== Link de accesibilidad ===== */
+/* ===== Link accesibilidad ===== */
 .skip-link{
   position: absolute;
   left: -999px;
@@ -45,7 +44,7 @@ a { text-decoration: none; color: inherit; }
   background: var(--header-bg);
 }
 
-/* ===== Marca ===== */
+/* ===== Marca / Logo ===== */
 .brand_menu{
   display: inline-flex;
   align-items: center;
@@ -53,24 +52,36 @@ a { text-decoration: none; color: inherit; }
   color: var(--text);
   font-weight: 700;
 }
+
+/* Texto "Logo" (si lo dejas) */
 .brand-text{
   margin: 0;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1;
-  color: var(--text);
+  color: #000;
 }
 
-/* ===== Navegación (centro) ===== */
+/* Imagen logo */
+.brand-logo{
+  width: 38px;          /* ajusta tamaño */
+  height: 38px;
+  object-fit: contain;  /* no se deforma */
+  display: block;
+}
+
+/* ===== Navegación ===== */
 .nav{
   flex: 1;
   display: flex;
   justify-content: flex-start;
 }
+
 .nav-list{
   display: flex;
   align-items: center;
   gap: 26px;
 }
+
 .nav-list > li > a,
 .dropdown summary{
   display: inline-flex;
@@ -78,10 +89,11 @@ a { text-decoration: none; color: inherit; }
   gap: 6px;
   padding: 8px 10px;
   border-radius: 12px;
-  color: var(--text);
+  color: #000;
   font-weight: 500;
   font-size: 15px;
 }
+
 .nav-list > li > a:hover,
 .dropdown summary:hover{
   background: var(--hover);
@@ -89,9 +101,11 @@ a { text-decoration: none; color: inherit; }
 
 /* ===== Dropdown "Más" ===== */
 .dropdown details{ position: relative; }
+
 .dropdown summary{
   cursor: pointer;
   list-style: none;
+  color: #000;
 }
 .dropdown summary::-webkit-details-marker{ display: none; }
 
@@ -99,6 +113,7 @@ a { text-decoration: none; color: inherit; }
   display: inline-block;
   transform: translateY(1px);
   transition: transform .2s ease;
+  color: #000;
 }
 .dropdown details[open] .caret{ transform: rotate(180deg); }
 
@@ -108,7 +123,7 @@ a { text-decoration: none; color: inherit; }
   left: 0;
   min-width: 190px;
   background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, .12);
   border-radius: 14px;
   padding: 8px;
   box-shadow: 0 12px 26px rgba(0,0,0,.10);
@@ -117,22 +132,24 @@ a { text-decoration: none; color: inherit; }
   gap: 2px;
   z-index: 10050;
 }
+
 .dropdown-menu a{
   padding: 10px 12px;
   border-radius: 12px;
   font-size: 14px;
-  color: var(--text);
+  color: #000;
 }
 .dropdown-menu a:hover{
   background: var(--hover);
 }
 
-/* ===== Acciones (derecha) ===== */
+/* ===== Botones derecha ===== */
 .header-actions{
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
 .btn{
   height: 34px;
   padding: 0 14px;
@@ -144,20 +161,22 @@ a { text-decoration: none; color: inherit; }
   font-size: 14px;
   white-space: nowrap;
   border: 1px solid transparent;
-  color: var(--text);
+  color: #000; /* texto negro */
 }
 
 /* Entrar */
 .btn-outline{
   background: transparent;
   border-color: var(--border);
+  color: #000;
 }
 .btn-outline:hover{ background: var(--hover); }
 
-/* Registrarse (texto negro) */
+/* Registrarse */
 .btn-solid{
   background: var(--primary-soft);
-  border-color: rgba(0,0,0,.15);
+  border: 1px solid rgba(0,0,0,.15);
+  color: #000;
 }
 .btn-solid:hover{ filter: brightness(.97); }
 
@@ -178,10 +197,15 @@ a { text-decoration: none; color: inherit; }
     flex-wrap: wrap;
     gap: 12px;
   }
+
   .nav{
     flex: 1 1 100%;
     order: 3;
     overflow-x: auto;
   }
+
   .nav-list{ gap: 14px; }
+
+  .brand-text{ font-size: 18px; }
+  .brand-logo{ width: 34px; height: 34px; }
 }
