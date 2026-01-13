@@ -1,6 +1,7 @@
 .post-header{
   background: var(--bg);
   padding: clamp(26px, 5vw, 54px) 0;
+  display: flex;
 }
 
 .post-header__inner{
