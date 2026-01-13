@@ -82,7 +82,7 @@
   .seccion_imagen::before{ display: none; }
 }
 :root{
-  --ink:#0b0b0b;
+  --ink:#fafafa;
   --muted:#2a2a2a;
   --card:#f7f7f7;
   --border:#111;
