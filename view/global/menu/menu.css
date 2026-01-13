@@ -222,7 +222,7 @@ a {
 
 .nav-list .cta {
   background: #2f4560;
-  color: #fdfdfd;
+  color: #000;
   font-weight: 600;
 }
 
@@ -320,7 +320,7 @@ body:has(#nav-toggle:checked) {
 
   .nav-list a:hover {
     background: rgba(255, 255, 255, 0.18);
-    color: #fdfdfd;
+    color: #000;
     transform: none;
   }
 
