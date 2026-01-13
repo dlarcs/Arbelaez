@@ -27,16 +27,10 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       </div>
 
       <nav class="post-share" aria-label="Compartir">
-    <!-- Copiar enlace (opcional) -->
-    <a class="post-share__btn" href="#" aria-label="Copiar enlace" title="Copiar enlace">
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M10.59 13.41a1 1 0 0 1 0-1.41l3.17-3.17a3 3 0 1 1 4.24 4.24l-1.59 1.59a3 3 0 0 1-4.24 0 .999.999 0 1 1 1.41-1.41 1 1 0 0 0 1.41 0l1.59-1.59a1 1 0 1 0-1.41-1.41l-3.17 3.17a1 1 0 0 1-1.41 0Z"/>
-        <path d="M13.41 10.59a1 1 0 0 1 0 1.41l-3.17 3.17a3 3 0 1 1-4.24-4.24l1.59-1.59a3 3 0 0 1 4.24 0 .999.999 0 1 1-1.41 1.41 1 1 0 0 0-1.41 0L7.42 12.34a1 1 0 1 0 1.41 1.41l3.17-3.17a1 1 0 0 1 1.41 0Z"/>
-      </svg>
-    </a>
+
 
     <!-- Facebook -->
-    <a class="post-share__btn" href="#" aria-label="Facebook" title="Facebook">
+    <a class="post-share__btn" href="https://www.facebook.com/profile.php?id=61580302286594" aria-label="Facebook" title="Facebook">
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <path d="M13.5 22v-8h2.7l.4-3H13.5V9.1c0-.87.24-1.47 1.5-1.47h1.6V4.95c-.28-.04-1.26-.12-2.4-.12-2.37 0-4 1.45-4 4.12V11H7.6v3h2.6v8h3.3Z"/>
       </svg>
