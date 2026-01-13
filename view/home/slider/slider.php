@@ -3,7 +3,6 @@ $cssTime = filemtime('../../view/home/slider/slider.css');
 $jsTime  = filemtime('../../view/home/slider/slider.js');
 ?>
 <link rel="stylesheet" href="../../view/home/slider/slider.css?v=<?= $cssTime ?>">
- <!-- <h2 class="title_slider">Arbeláez Digitalizada</h2> -->
 <section class="slider" aria-roledescription="carrusel" aria-label="Galería destacada">
 
 
@@ -67,5 +66,7 @@ $jsTime  = filemtime('../../view/home/slider/slider.js');
     </button>
   </div>
 </section>
+<h2 class="title_slider">Arbeláez Digitalizada</h2>
+
 
 <script src="../../view/home/slider/slider.js?v=<?= $jsTime ?>" type="text/javascript"></script>
