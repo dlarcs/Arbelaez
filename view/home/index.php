@@ -75,6 +75,7 @@
 <body class="body_home">
   <?php include "../../view/global/menu/menu.php" ?>
   <div class="container_home">
+    <?php include "../../view/home/intro/intro.php" ?>
     <?php include "../../view/home/slider/slider.php" ?>
     <?php include "../../view/home/places/places.php" ?>
     <?php include "../../view/home/TourBurguer/Burguer.php" ?>
