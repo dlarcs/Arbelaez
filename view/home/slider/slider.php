@@ -67,6 +67,8 @@ $jsTime  = filemtime('../../view/home/slider/slider.js');
   </div>
 </section>
 <h2 class="title_slider">Arbeláez Digitalizada</h2>
+<p>Arbeláez es un municipio andino de Cundinamarca, con raíces campesinas y una identidad marcada por la vida rural, las veredas y el trabajo comunitario. A lo largo del tiempo se fue consolidando como un pueblo de tradición agrícola, donde las familias han transmitido oficios, costumbres y formas de convivencia que se reflejan en su gastronomía, sus artesanías, sus celebraciones y su manera de recibir a los visitantes.
+Su historia también está ligada a la organización de la comunidad: la creación de asociaciones, iniciativas culturales y proyectos locales que buscan cuidar el territorio, fortalecer el sentido de pertenencia y abrir oportunidades para la gente del pueblo. Hoy Arbeláez combina esa herencia tradicional con nuevas propuestas de turismo y cultura, mostrando sus paisajes, su gente y sus experiencias como una “vitrina” para que más personas conozcan lo que el municipio ofrece.</p>
 
 
 <script src="../../view/home/slider/slider.js?v=<?= $jsTime ?>" type="text/javascript"></script>
