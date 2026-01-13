@@ -19,7 +19,7 @@ $jsTime  = filemtime('../../view/home/slider/slider.js');
 
       <!-- Slide 2 -->
       <article id="slide-2" class="slide" aria-roledescription="slide" aria-label="2 de 4">
-        <img src="../../view/home/img/flor2.jpg" alt="Bosque con luz dorada">
+        <img src="../../view/alojamiento/Casa_Kiyari/img/rio3.jpg" alt="Bosque con luz dorada">
         <div class="slide__caption">
           <h2>Explora</h2>
           <p>Paisajes y caminos por descubrir.</p>
