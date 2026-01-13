@@ -3,7 +3,7 @@ $cssPath = '../../view/home/intro/intro.css';
 $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
 
 ?>
-<link rel="../../view/home/intro/intro.css" href="<?= $cssPath ?>?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="<?= $cssPath ?>?v=<?= $cssTime ?>">
 
 <header class="post-header">
   <div class="post-header__inner">
