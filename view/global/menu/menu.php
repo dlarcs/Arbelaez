@@ -33,9 +33,9 @@ $cssTime = filemtime('../../view/global/menu/menu.css'); // ejemplo: '../Home/5.
     <ul class="nav-list">
       <li><a href="../../view/home/index.php">Inicio</a></li>
       <!-- <li><a href="../../view/galery/index.php">Galería</a></li> -->
-			<li><a href="../../view/history/index.php">Artesanías</a></li>
-			<li><a href="../../view/history/index.php">Alojamiento</a></li>
-      <li><a href="../../view/history/index.php">Gastronomía</a></li>
+			<li><a href="../../view/artesanias/index.php">Artesanías</a></li>
+			<li><a href="../../view/alojamiento/index.php">Alojamiento</a></li>
+      <li><a href="../../view/gastronomia/index.php">Gastronomía</a></li>
       <!-- <li><a href="../../">Ferias</a></li> -->
     </ul>
   </nav>
