@@ -2,7 +2,9 @@
   background: var(--bg);
   padding: clamp(26px, 5vw, 54px) 0;
   display: flex;
-  max-width: 90%;
+  white-space: normal;     /* permite saltos */
+  overflow-wrap: break-word; /* si hay palabras largas, las parte */
+  word-break: normal;
 }
 
 .post-header__inner{
