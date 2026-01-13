@@ -443,7 +443,8 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
         <ol>
           <li>
             La actividad es válida del <strong>16 al 28 de diciembre</strong> en
-            los locales aliados de Arbeláez, Cundinamarca.
+            los locales aliados de Arbeláez, Cundinamarca.<br>
+            Se extiende hasta el 25 de Enero del 2026
           </li>
           <li>
             Para participar en el sorteo, la persona debe completar el
