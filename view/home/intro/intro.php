@@ -14,7 +14,7 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       <div class="post-author">
         <img
           class="post-author__avatar"
-          src="../..view/home/img/logo_pw.png"
+          src="../../view/home/img/logo_pw.png"
           alt="Avatar del autor"
         />
         <div class="post-author__text">
