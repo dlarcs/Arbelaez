@@ -10,30 +10,32 @@ $bgImage = '../../../view/home/img/yoamoarbelaez1.jpeg';
 <link rel="preload" as="image" href="<?= $bgImage ?>">
 
 <link rel="stylesheet" href="<?= $cssPath ?>?v=<?= $cssTime ?>">
+
 <div class="title_products">
-  <h1>Origen y orgullo de mi tierra</h1>
+  <h1>Datos curiosos y tradiciones de Arbeláez</h1>
 
   <div class="info_product">
     <h2>
-      Descubre Arbeláez a tu ritmo: historias, sabores y lugares que no sabías que existían.
-      Conecta con negocios locales y encuentra experiencias hechas para ti. Entra y sorpréndete.
+      Arbeláez es un pueblo de clima agradable y paisaje andino, donde las veredas tienen un papel clave:
+      gran parte de la vida diaria, los cultivos y las historias familiares nacen y se sostienen en el campo.
     </h2>
 
     <h2>
-      Aquí empieza tu plan perfecto: dónde comer, qué visitar y a quién apoyar.
-      Reúne todo en un solo lugar y arma tu ruta por Arbeláez sin complicarte.
+      Una tradición muy común en los pueblos cundinamarqueses como Arbeláez es reunirse en el parque y
+      compartir conversación, anécdotas y “plan de tarde” con algo de comer, especialmente en fines de semana
+      y días festivos.
     </h2>
 
     <img src="../../view/global/img/logo.png" alt="Logo Arbelaez.com.co">
 
     <h2>
-      Un directorio vivo de lo nuestro: emprendedores, oficios y talentos que mueven a Arbeláez.
-      Explora sus perfiles, mira sus ofertas y contáctalos en pocos clics.
+      Los oficios locales también son parte de la identidad: emprendimientos de gastronomía, artesanías y servicios
+      que pasan de generación en generación y mantienen viva la cultura del “hecho en el pueblo”.
     </h2>
 
     <h2>
-      Arbeláez te espera con puertas abiertas: sabores, hospedajes y experiencias al aire libre.
-      En arbelaez.com.co todo está en un solo lugar para que planees sin perder tiempo.
+      En Arbeláez, la hospitalidad es una tradición: es común que los visitantes encuentren recomendaciones directas,
+      rutas sencillas para conocer lugares cercanos y negocios familiares donde te atienden como en casa.
     </h2>
   </div>
 </div>
