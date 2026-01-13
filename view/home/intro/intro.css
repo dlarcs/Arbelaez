@@ -1,5 +1,4 @@
 .post-header{
-  background: var(--bg);
   padding: clamp(26px, 5vw, 54px) 0;
   display: flex;
   white-space: normal;     /* permite saltos */
