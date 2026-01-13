@@ -131,7 +131,7 @@ a {
 }
 
 .burger:hover {
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, .4);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .4);
   transform: translateY(-1px);
 }
 
@@ -215,7 +215,7 @@ a {
 }
 
 .nav-list a:hover {
-  background: rgba(47, 96, 72, .95);
+  background: rgba(0, 0, 0, .95);
   color: #fffbcc;
   transform: translateX(2px);
 }
