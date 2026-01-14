@@ -25,12 +25,16 @@ $jsTime = filemtime('../../../view/alojamiento/Casa_Colibri/galery/productos.js'
 	    <div class="food_card General"><img src="../../../view/alojamiento/Casa_Colibri/img/finca2.jpeg" alt="General 3" width="1200" height="800" loading="lazy" decoding="async"></div>
 
 	    <!-- ===== Piscina  ===== -->
-	    <div class="food_card Piscina"><img src="../../../view/alojamiento/Casa_Colibri/img/piscina.jpeg" alt="Piscina 1" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Piscina"><img src="../../../view/alojamiento/Casa_Colibri/img/piscina.jpeg" alt="Piscina 1" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Piscina"><img src="../../../view/alojamiento/Casa_Colibri/img/piscina1.jpeg" alt="Piscina 1" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Piscina"><img src="../../../view/alojamiento/Casa_Colibri/img/piscina2.jpeg" alt="Piscina 1" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Piscina"><img src="../../../view/alojamiento/Casa_Colibri/img/piscina3.jpeg" alt="Piscina 1" width="1200" height="800" loading="lazy" decoding="async"></div>
 
 	    <!-- ===== Aposento  ===== -->
 	    <div class="food_card Aposento"><img src="../../../view/alojamiento/Casa_Colibri/img/aposento.jpeg" alt="Aposento" width="1200" height="800" loading="lazy" decoding="async"></div>
 	    <div class="food_card Aposento"><img src="../../../view/alojamiento/Casa_Colibri/img/aposento1.jpeg" alt="Aposento" width="1200" height="800" loading="lazy" decoding="async"></div>
 			<div class="food_card Aposento"><img src="../../../view/alojamiento/Casa_Colibri/img/aposento2.jpeg" alt="Aposento 3" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Aposento"><img src="../../../view/alojamiento/Casa_Colibri/img/aposento3.jpeg" alt="Aposento 3" width="1200" height="800" loading="lazy" decoding="async"></div>
 			<!-- ===== Exterior ===== -->
 			<div class="food_card Exterior"><img src="../../../view/alojamiento/Casa_Colibri/img/exterior.jpeg" alt="Piscina 1" width="1200" height="800" loading="lazy" decoding="async"></div>
 
