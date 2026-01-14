@@ -87,21 +87,8 @@ $lodgings = [
     'distance'  => '7 min 🚙 ',
     'reserve'   => ['type' => 'wa', 'phone' => '573118627750', 'label' => 'Reservar'],
     'category'  => 'Rural',
-    'desc'      => 'Piscina Privada Capacidad mínima 10 personas, Máxima 18 en camas individuales, Hasta 28 en camas compartidas, 3 habitaciones casa principal 2 baños
-2 habitaciónes casa externa 1 baño,
-Baño cambiador y ducha en el área de piscina,
-Sala,
-Comedor,
-Cocina integral con menaje,
-Hamacas,
-Parqueadero,
-WiFi,
-Kiosko,
-BBQ,
-Juegos de rana,
-Boli rana,
-Tejo,
-Juegos de mesa.'
+    'desc'      => 'Piscina Privada Capacidad mínima 10 personas, Máxima 18 en camas individuales, Hasta 28 en camas compartidas, 3 habitaciones casa principal 2 baños, 2 habitaciónes casa externa 1 baño, Baño cambiador y ducha en el área de piscina, Sala, Comedor, Cocina integral con menaje, Hamacas, Parqueadero,
+'
   ],
   // [
   //   'name'      => 'IsraHousSuites',
