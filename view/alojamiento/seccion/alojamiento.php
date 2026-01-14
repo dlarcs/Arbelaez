@@ -55,17 +55,7 @@ $lodgings = [
     'category'  => 'Rural',
     'desc'      => '12 húerpedes, 3 habitaciones y un miniglamping, 4 camas dobles y 4 camas sencillas, dos baños con ducha privado y un baño social: Ambiente familiar, cálido y tranquilo para desconectar y respirar aire puro. Zona BBQ y espacios amplios para compartir.'
   ],
-  // [
-  //   'name'      => 'Los Altos',
-  //   'slug'      => 'Los_Altos',
-  //   'img'       => '../../view/alojamiento/Los_Altos/img/general11.jpg',
-  //   'img_alt'   => 'Los Altos – vista general',
-  //   'map_url'   => 'https://maps.app.goo.gl/8iXw4nfoL2ehs9ZR7',
-  //   'distance'  => '15 min ',
-  //   'reserve'   => ['type' => 'wa', 'phone' => '573132120224', 'label' => 'Reservar'],
-  //   'category'  => 'Rural',
-  //   'desc'      => 'Alojamiento campestre con espacios amplios, jacuzzi, zona de BBQ y ambiente familiar para descansar o compartir con amigos.'
-  // ],
+
   [
     'name'      => 'La Casita N°2',
     'slug'      => 'La_Casita2',
@@ -87,6 +77,17 @@ $lodgings = [
     'reserve'   => ['type' => 'wa', 'phone' => '573016677095', 'label' => 'Reservar'],
     'category'  => 'Rural',
     'desc'      => ' 6 huéspedes, 1 habitación con  cama doble, dos habitaciones con camas sencillas y 2 baños, para acampar 15 personas 6 carpas bajo techo, traer carpa:Alojamiento comodo y accesible, con caminata ecologica.'
+  ],
+  [
+    'name'      => 'Casa Colibrí',
+    'slug'      => 'Casa_Colibri',
+    'img'       => '../../view/alojamiento/Casa_Colibri/img/psicina.jpeg',
+    'img_alt'   => 'Los Altos – vista general',
+    'map_url'   => 'https://maps.app.goo.gl/J2RYVwmVwmACdmRL7',
+    'distance'  => '20 min ',
+    'reserve'   => ['type' => 'wa', 'phone' => '573118627750', 'label' => 'Reservar'],
+    'category'  => 'Rural',
+    'desc'      => 'Alojamiento, finca con psicina, un hambiente lindo y comodo para estar en familia, amigos o pareja'
   ],
   // [
   //   'name'      => 'IsraHousSuites',
