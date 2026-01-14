@@ -23,13 +23,13 @@
 .brand {
 	display: flex;
 	flex-direction: column;
+	color: #fafafa;
 }
 .brand-name {
 	font-size: 1.25rem;
 	letter-spacing: .3px;
 }
 .brand-tag {
-	color: #6b7280;
 	/* gris suave para subtítulo */
 	font-size: .95rem;
 }
