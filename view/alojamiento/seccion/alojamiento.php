@@ -42,7 +42,7 @@ $lodgings = [
     'distance'  => '5 min 🚶',
     'reserve'   => ['type' => 'wa', 'phone' => '573007804430', 'label' => 'Reservas'],
     'category'  => 'Rural',
-    'desc'      => '42 huéspedes, primera cabaña 6 habitaciones, tres baños, cocina, sala comedor, segunda cabaña 3 habitaciones 1 baño, cocina, sala comedor: finca campestre con piscina y jacuzzi, rodeado de naturaleza. Ideal para descansar o celebrar en familia. A 10 min del pueblo'
+    'desc'      => 'Piscina pública: y alojamiento 42 huéspedes, primera cabaña 6 habitaciones, tres baños, cocina, sala comedor, segunda cabaña 3 habitaciones 1 baño, cocina, sala comedor: finca campestre con piscina y jacuzzi, rodeado de naturaleza. Ideal para descansar o celebrar en familia. A 10 min del pueblo'
   ],
   [
     'name'      => 'Casa Kandu',
@@ -84,10 +84,24 @@ $lodgings = [
     'img'       => '../../view/alojamiento/Casa_Colibri/img/psicina.jpeg',
     'img_alt'   => 'Los Altos – vista general',
     'map_url'   => 'https://maps.app.goo.gl/J2RYVwmVwmACdmRL7',
-    'distance'  => '20 min ',
+    'distance'  => '7 min 🚙 ',
     'reserve'   => ['type' => 'wa', 'phone' => '573118627750', 'label' => 'Reservar'],
     'category'  => 'Rural',
-    'desc'      => 'Alojamiento, finca con psicina, un hambiente lindo y comodo para estar en familia, amigos o pareja'
+    'desc'      => 'Piscina Privada Capacidad mínima 10 personas, Máxima 18 en camas individuales, Hasta 28 en camas compartidas, 3 habitaciones casa principal 2 baños
+2 habitaciónes casa externa 1 baño,
+Baño cambiador y ducha en el área de piscina,
+Sala,
+Comedor,
+Cocina integral con menaje,
+Hamacas,
+Parqueadero,
+WiFi,
+Kiosko,
+BBQ,
+Juegos de rana,
+Boli rana,
+Tejo,
+Juegos de mesa.'
   ],
   // [
   //   'name'      => 'IsraHousSuites',
