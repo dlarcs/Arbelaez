@@ -82,7 +82,7 @@ $lodgings = [
     'name'      => 'Casa Colibrí',
     'slug'      => 'Casa_Colibri',
     'img'       => '../../view/alojamiento/Casa_Colibri/img/psicina.jpeg',
-    'img_alt'   => 'Los Altos – vista general',
+    'img_alt'   => 'Casa Colibrí',
     'map_url'   => 'https://maps.app.goo.gl/J2RYVwmVwmACdmRL7',
     'distance'  => '7 min 🚙 ',
     'reserve'   => ['type' => 'wa', 'phone' => '573118627750', 'label' => 'Reservar'],
