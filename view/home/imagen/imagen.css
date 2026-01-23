@@ -10,7 +10,7 @@
   position: relative;
   height: auto;         /* alto de viewport dinámico, ideal en móviles */
   width: 100vw;
-  height: auto;
+  min-height: 50vh;
   display: grid;
   place-items: end center;    /* texto abajo centrado */
   overflow: clip;
