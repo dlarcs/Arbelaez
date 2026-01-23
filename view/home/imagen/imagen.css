@@ -10,9 +10,8 @@
   position: relative;
   height: auto;         /* alto de viewport dinámico, ideal en móviles */
   width: 100vw;
-  min-height: 40vh;
-  height: 90%;
-  display: grid;
+  object-fit: cover;   /* recorta sin deformar */
+  display: block;
   place-items: end center;    /* texto abajo centrado */
   overflow: clip;
   content-visibility: auto;
