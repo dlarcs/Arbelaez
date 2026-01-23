@@ -11,7 +11,7 @@
   height: auto;         /* alto de viewport dinámico, ideal en móviles */
   width: 100vw;
   min-height: 40vh;
-  height: 90vh;
+  height: 90%;
   display: grid;
   place-items: end center;    /* texto abajo centrado */
   overflow: clip;
