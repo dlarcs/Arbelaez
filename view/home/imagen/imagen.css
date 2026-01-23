@@ -1,11 +1,87 @@
 :root{
-  /* Hero / overlay */
-  --fade: 10%;
+  --fade: 12%;               /* zona superior e inferior que se desvanece */
   --brand: #005548;
-  --glass: rgba(0,85,72,.65);
+  --glass: rgba(0,85,72,.65); /* fondo del panel de texto */
   --text: #fafafa;
+}
 
-  /* Layout general */
+/* ===== Sección imagen (hero) ===== */
+.seccion_imagen{
+  position: relative;
+  height: auto;         /* alto de viewport dinámico, ideal en móviles */
+  width: 100vw;
+  height: 90vh;
+  display: grid;
+  place-items: end center;    /* texto abajo centrado */
+  overflow: clip;
+  content-visibility: auto;
+  contain-intrinsic-size: 1000px;
+   background: black; /* relleno de barras si sobran espacios */
+   overflow: hidden;
+
+   --fade: 10%;
+ 	/* porcentaje del alto que se desvanece arriba y abajo */
+ 	-webkit-mask-image: linear-gradient(
+     to bottom, transparent 0, black var(--fade), black calc(100% - var(--fade)), transparent 100%);
+ 	-webkit-mask-repeat: no-repeat;
+ 	-webkit-mask-size: cover;
+ 	mask-image: linear-gradient(
+     to bottom, transparent 0, black var(--fade), black calc(100% - var(--fade)), transparent 100%);
+ 	mask-repeat: no-repeat;
+ 	mask-size: cover;
+
+}
+
+/* Imagen de fondo (usa <img> del HTML) */
+.seccion_imagen > img{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  background-position: top;        /* que siempre “llene” */
+  z-index: 0;
+}
+
+/* Fallback: degradado para legibilidad si no hay mask */
+.seccion_imagen::before{
+  content:"";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0) 0,
+    rgba(0,0,0,.25) var(--fade),
+    rgba(0,0,0,.5) calc(100% - var(--fade)),
+    rgba(0,0,0,0) 100%
+  );
+  z-index: 1;
+}
+
+/* Si hay soporte de mask, usamos desvanecido más “limpio” sobre la imagen */
+@supports (mask-image: linear-gradient(black, transparent)){
+  .seccion_imagen > img{
+    -webkit-mask-image: linear-gradient(
+      to bottom,
+      transparent 0,
+      black var(--fade),
+      black calc(100% - var(--fade)),
+      transparent 100%
+    );
+    mask-image: linear-gradient(
+      to bottom,
+      transparent 0,
+      black var(--fade),
+      black calc(100% - var(--fade)),
+      transparent 100%
+    );
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+  }
+  .seccion_imagen::before{ display: none; }
+}
+:root{
   --ink:#0b0b0b;
   --muted:#2a2a2a;
   --card:#f7f7f7;
@@ -16,7 +92,6 @@
 
 *{ box-sizing:border-box; }
 
-/* ===== Bloque texto superior ===== */
 .title_products{
   width: min(var(--container), calc(100% - 40px));
   margin: 0 auto;
@@ -31,6 +106,8 @@
   line-height: 1.05;
   font-size: clamp(34px, 5vw, 56px);
   color: var(--ink);
+
+  /* para que baje a la siguiente línea si no cabe */
   white-space: normal;
   overflow-wrap: break-word;
 }
@@ -53,7 +130,9 @@
   color: var(--muted);
 }
 
-.info_product h2 + h2{ margin-top: 14px; }
+.info_product h2 + h2{
+  margin-top: 14px;
+}
 
 .info_product img{
   display: block;
@@ -63,118 +142,12 @@
   border-radius: 12px;
 }
 
-/* ===== Sección imagen (hero) ===== */
-.seccion_imagen{
-  position: relative;
-  width: 100%;
-  /* Altura estable en móvil + desktop */
-  min-height: 42svh;
-  height: 90svh;              /* objetivo */
-  height: 90dvh;              /* mejor soporte moderno */
-  overflow: hidden;
-  background: #000;
-  isolation: isolate;
-
-  display: grid;
-  place-items: end center;
-
-  /* Fade superior/inferior */
-  -webkit-mask-image: linear-gradient(
-    to bottom,
-    transparent 0,
-    black var(--fade),
-    black calc(100% - var(--fade)),
-    transparent 100%
-  );
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-size: 100% 100%;
-
-  mask-image: linear-gradient(
-    to bottom,
-    transparent 0,
-    black var(--fade),
-    black calc(100% - var(--fade)),
-    transparent 100%
-  );
-  mask-repeat: no-repeat;
-  mask-size: 100% 100%;
-}
-
-/* Imagen hero: ahora sí responsive (siempre llena) */
-.seccion_imagen > img{
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;              /* clave */
-  object-fit: cover;         /* clave */
-  object-position: top center;
-  z-index: 0;
-}
-
-/* Overlay de legibilidad (fallback y estética) */
-.seccion_imagen::before{
-  content:"";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: linear-gradient(
-    to bottom,
-    rgba(0,0,0,0) 0,
-    rgba(0,0,0,.18) var(--fade),
-    rgba(0,0,0,.55) calc(100% - var(--fade)),
-    rgba(0,0,0,0) 100%
-  );
-  z-index: 1;
-}
-
-/* Contenedor del texto */
-.imagen{
-  width: min(var(--container), calc(100% - 40px));
-  margin: 0 auto;
-  z-index: 2;
-  padding: clamp(14px, 2.6vw, 28px);
-}
-
-.text_imagen{
-  max-width: 62ch;
-  margin: 0 auto 12px;
-  padding: clamp(14px, 2.4vw, 22px);
-  border-radius: 16px;
-  color: var(--text);
-  display: flex;
-  background: var(--glass);
-  border: 1px solid rgba(255,255,255,.18);
-  box-shadow: 0 16px 40px rgba(0,0,0,.25);
-}
-
-@supports (backdrop-filter: blur(10px)){
-  .text_imagen{
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-  }
-}
-
-.text_imagen h1{
-  font-weight: 800;
-  line-height: 1.08;
-  letter-spacing: -0.02em;
-  margin: auto;
-  font-size: clamp(24px, 4vw, 44px);
-}
-
-/* Si el navegador soporta mask, puedes quitar el ::before si quieres “más limpio” */
-@supports (mask-image: linear-gradient(black, transparent)){
-  .seccion_imagen::before{ display: none; }
-}
-
 @media (max-width: 520px){
+  .info_product{
+    text-align: left;
+  }
   .info_product h2{
     font-size: 15px;
     line-height: 1.65;
-  }
-  .seccion_imagen{
-    min-height: 46svh;
-    height: 82svh;
-    height: 82dvh;
   }
 }
