@@ -137,6 +137,7 @@
 
 .text_imagen{
   max-width: 62ch;
+  display: flex;
   margin: 0 auto 12px;
   padding: clamp(14px, 2.4vw, 22px);
   border-radius: 16px;
@@ -158,6 +159,7 @@
   font-weight: 800;
   line-height: 1.08;
   letter-spacing: -0.02em;
+  margin: auto;
   font-size: clamp(24px, 4vw, 44px);
 }
 
