@@ -12,6 +12,7 @@
   width: 100vw;
   object-fit: cover;   /* recorta sin deformar */
   display: block;
+  min-height: 40vh;
   place-items: end center;    /* texto abajo centrado */
   overflow: clip;
   content-visibility: auto;
