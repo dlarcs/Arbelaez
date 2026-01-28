@@ -11,18 +11,9 @@ $cssTime = filemtime('../../view/home/maps/maps.css'); // ejemplo: '../Home/5.Vi
   </div>
 
 </section>
+
 <article id="slide-1" class="slide is-current" aria-roledescription="slide" aria-label="1 de 4">
-  <video
-    class="slide__media"
-    autoplay
-    muted
-    loop
-    playsinline
-    preload="metadata"
-    poster="../../view/home/video/VIDEO.mp4"
-  >
-    <!-- OJO: usa el nombre EXACTO del archivo (mayúsculas/minúsculas importan en hosting) -->
-    <source src="../../view/home/video/VIDEO.mp4" type="video/mp4">
-    Tu navegador no soporta video.
+  <video src="../../view/home/video/VIDEO.mp4" autoplay poster="posterimage.jpg">
+    <source src="../../view/home/video/VIDEO.mp4" type="video/">
   </video>
 </article>
