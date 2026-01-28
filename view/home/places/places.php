@@ -95,28 +95,32 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Tour Burger Arbeláez 2025</title>
+
   <style>
     :root{
       --bg-1:#140c08;
       --bg-2:#2a1510;
       --bg-3:#4a2214;
-      --ink:#ffffff;
+
+      --white:#ffffff;
+      --white-2:rgba(255,255,255,.86);
+
       --gold:#d7b46a;
-      --gold-2:#f2d29a;
-      --muted:rgba(255,255,255,.78);
-      --line:rgba(215,180,106,.55);
-      --card:rgba(0,0,0,.35);
+      --gold-soft:rgba(215,180,106,.55);
+
       --shadow: 0 20px 60px rgba(0,0,0,.55);
+      --glass: rgba(0,0,0,.22);
+      --border: rgba(215,180,106,.22);
     }
 
-    *{box-sizing:border-box}
+    *{ box-sizing:border-box; }
     body{
       margin:0;
       min-height:100svh;
       display:grid;
       place-items:center;
       padding:24px;
-      color:var(--ink);
+      color:var(--white);
       background:
         radial-gradient(1200px 700px at 20% 20%, rgba(215,180,106,.10), transparent 60%),
         radial-gradient(1000px 700px at 80% 30%, rgba(255,210,150,.08), transparent 60%),
@@ -133,7 +137,7 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       position:relative;
       overflow:hidden;
       box-shadow: var(--shadow);
-      border: 1px solid rgba(215,180,106,.22);
+      border: 1px solid var(--border);
       background:
         radial-gradient(1200px 900px at 50% 40%, rgba(255,210,150,.12), transparent 62%),
         radial-gradient(900px 700px at 20% 20%, rgba(215,180,106,.12), transparent 60%),
@@ -141,7 +145,7 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
         linear-gradient(145deg, var(--bg-1), var(--bg-2) 45%, var(--bg-3));
     }
 
-    /* bokeh + confetti (CSS only) */
+    /* bokeh */
     .poster::before{
       content:"";
       position:absolute; inset:-40px;
@@ -158,12 +162,13 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       pointer-events:none;
     }
 
+    /* vignette + glow */
     .poster::after{
       content:"";
       position:absolute; inset:0;
       background:
-        linear-gradient(180deg, rgba(0,0,0,.55), transparent 20%, transparent 70%, rgba(0,0,0,.65)),
-        radial-gradient(900px 500px at 50% 78%, rgba(215,180,106,.28), transparent 60%);
+        linear-gradient(180deg, rgba(0,0,0,.62), transparent 18%, transparent 72%, rgba(0,0,0,.70)),
+        radial-gradient(900px 520px at 50% 78%, rgba(215,180,106,.22), transparent 60%);
       pointer-events:none;
     }
 
@@ -174,7 +179,8 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       padding: clamp(22px, 3.2vw, 40px);
       display:flex;
       flex-direction:column;
-      gap: clamp(16px, 2.2vw, 22px);
+      justify-content: space-between; /* “justificado” vertical */
+      gap: clamp(14px, 2vw, 20px);
     }
 
     /* TOP TITLES */
@@ -183,21 +189,20 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       padding-top: clamp(4px, 1.2vw, 12px);
     }
     .hero .script{
-      font-family: ui-serif, Georgia, "Times New Roman", serif;
+      margin:0;
       font-style: italic;
       letter-spacing:.02em;
       font-size: clamp(44px, 6.2vw, 84px);
       line-height:1;
-      margin:0;
-      color: var(--gold-2);
+      color: var(--white);
       text-shadow: 0 10px 25px rgba(0,0,0,.55);
     }
     .hero .sub{
       margin: 10px 0 0;
       font-size: clamp(20px, 2.7vw, 36px);
-      letter-spacing:.10em;
+      letter-spacing:.12em;
       text-transform: uppercase;
-      color: #fff;
+      color: var(--white);
       text-shadow: 0 8px 18px rgba(0,0,0,.6);
     }
 
@@ -206,10 +211,10 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       display:flex;
       align-items:center;
       gap: 14px;
-      color: var(--gold);
+      color: var(--white);
       text-transform: uppercase;
       letter-spacing:.20em;
-      font-weight: 700;
+      font-weight: 800;
       font-size: clamp(14px, 1.6vw, 18px);
       opacity:.95;
     }
@@ -218,11 +223,11 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       content:"";
       height:1px;
       flex:1;
-      background: linear-gradient(90deg, transparent, var(--line), transparent);
+      background: linear-gradient(90deg, transparent, var(--gold-soft), transparent);
     }
     .rule span{
       padding: 8px 12px;
-      border: 1px solid rgba(215,180,106,.25);
+      border: 1px solid var(--border);
       border-radius: 999px;
       background: rgba(0,0,0,.18);
       backdrop-filter: blur(4px);
@@ -233,11 +238,11 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       display:grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 14px;
-      padding: 12px 0 2px;
+      padding: 8px 0 0;
     }
     .brand{
-      border: 1px solid rgba(215,180,106,.20);
-      background: rgba(0,0,0,.18);
+      border: 1px solid var(--border);
+      background: var(--glass);
       border-radius: 16px;
       padding: 14px 14px;
       min-height: 62px;
@@ -248,11 +253,13 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       box-shadow: 0 10px 25px rgba(0,0,0,.25);
     }
     .brand b{
+      color: var(--white);
       font-size: clamp(18px, 2.2vw, 28px);
       letter-spacing:.08em;
       text-transform: uppercase;
     }
     .brand em{
+      color: var(--white);
       font-style: italic;
       font-size: clamp(18px, 2.1vw, 28px);
       letter-spacing:.03em;
@@ -263,45 +270,65 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
       font-size: 12px;
       letter-spacing:.14em;
-      opacity:.8;
+      opacity:.9;
+      color: var(--white-2);
       text-transform: uppercase;
     }
 
-    /* WINNER TITLE */
-    .winner-title{
-      margin-top: 6px;
+    /* VIDEO CENTER */
+    .media{
+      display:flex;
+      justify-content:center;
+      padding: 6px 0 2px;
+    }
+    .media-frame{
+      width: min(740px, 100%);
+      aspect-ratio: 16 / 9;
+      border-radius: 18px;
+      overflow:hidden;
+      border: 1px solid var(--border);
+      background: rgba(0,0,0,.35);
+      box-shadow: 0 18px 45px rgba(0,0,0,.45);
+      position:relative;
+    }
+    .media-frame::before{
+      content:"";
+      position:absolute; inset:0;
+      background: radial-gradient(500px 220px at 50% 50%, rgba(215,180,106,.14), transparent 70%);
+      pointer-events:none;
+      z-index:2;
+    }
+    .media-frame video{
+      width:100%;
+      height:100%;
+      object-fit: cover;
+      display:block;
+      position:relative;
+      z-index:1;
     }
 
     /* PODIUM */
     .podium{
-      margin-top:auto;
       display:grid;
       grid-template-columns: 1fr 1.25fr 1fr;
       gap: clamp(10px, 2vw, 18px);
       align-items:end;
       padding-bottom: clamp(8px, 2vw, 18px);
     }
+    .award{ display:flex; align-items:center; justify-content:center; }
 
-    .award{
-      display:flex;
-      align-items:center;
-      justify-content:center;
-    }
-
-    /* Medal base */
     .medal{
       position:relative;
       width: 100%;
       max-width: 250px;
       border-radius: 26px;
       padding: 18px 16px 16px;
-      background: linear-gradient(180deg, rgba(0,0,0,.55), rgba(0,0,0,.28));
-      border: 1px solid rgba(215,180,106,.22);
+      background: linear-gradient(180deg, rgba(0,0,0,.62), rgba(0,0,0,.30));
+      border: 1px solid var(--border);
       box-shadow: 0 24px 60px rgba(0,0,0,.55);
       text-align:center;
     }
 
-    /* Different shapes */
     .medal--circle{
       aspect-ratio: 1 / 1;
       border-radius: 999px;
@@ -315,21 +342,19 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       padding: 22px 18px 18px;
       clip-path: polygon(10% 0%, 90% 0%, 100% 18%, 100% 70%, 50% 100%, 0% 70%, 0% 18%);
       background:
-        radial-gradient(140px 100px at 50% 25%, rgba(215,180,106,.16), transparent 65%),
-        linear-gradient(180deg, rgba(0,0,0,.62), rgba(0,0,0,.32));
+        radial-gradient(140px 100px at 50% 25%, rgba(215,180,106,.14), transparent 65%),
+        linear-gradient(180deg, rgba(0,0,0,.68), rgba(0,0,0,.34));
     }
 
-    /* Gold rim */
     .medal::before{
       content:"";
       position:absolute; inset:10px;
       border-radius: inherit;
-      border: 1px solid rgba(215,180,106,.34);
+      border: 1px solid rgba(255,255,255,.22); /* borde blanco suave */
       pointer-events:none;
     }
     .medal--shield::before{ inset:12px; }
 
-    /* Laurels (simple) */
     .laurel{
       display:flex;
       justify-content:center;
@@ -340,8 +365,8 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
     .leaf{
       width: 44px;
       height: 22px;
-      border: 2px solid rgba(215,180,106,.55);
-      border-color: rgba(215,180,106,.55) transparent transparent transparent;
+      border: 2px solid rgba(255,255,255,.55); /* laurel blanco */
+      border-color: rgba(255,255,255,.55) transparent transparent transparent;
       border-radius: 999px 999px 0 0;
       transform: rotate(-12deg);
     }
@@ -349,9 +374,9 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
 
     .place{
       font-size: clamp(36px, 4.5vw, 64px);
-      font-weight: 800;
+      font-weight: 900;
       letter-spacing:.02em;
-      color: var(--gold-2);
+      color: var(--white); /* números blancos */
       text-shadow: 0 10px 24px rgba(0,0,0,.55);
       line-height:1;
     }
@@ -359,55 +384,45 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
     .winner-name{
       margin: 10px 0 0;
       font-size: clamp(16px, 2.2vw, 26px);
-      color: #fff;
+      color: var(--white);
       letter-spacing:.03em;
-      font-family: ui-serif, Georgia, "Times New Roman", serif;
     }
-
-    .winner-name em{
-      font-style: italic;
-      color: var(--gold);
-    }
+    .winner-name em{ font-style: italic; color: var(--white); }
 
     .medal hr{
       border:0;
       height:1px;
-      background: linear-gradient(90deg, transparent, rgba(215,180,106,.45), transparent);
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,.35), transparent);
       margin: 10px auto;
       width: 70%;
       opacity:.9;
     }
 
-    /* Pedestal hint */
     .pedestal{
       margin-top: 14px;
       width: 88%;
       height: 14px;
       border-radius: 999px;
-      background: radial-gradient(circle at 50% 40%, rgba(215,180,106,.35), rgba(0,0,0,.35));
-      filter: blur(.2px);
+      background: radial-gradient(circle at 50% 40%, rgba(255,255,255,.18), rgba(0,0,0,.35));
       opacity:.9;
     }
 
     /* Responsive */
     @media (max-width: 860px){
       .participants{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .podium{ grid-template-columns: 1fr; align-items:stretch; }
-      .award{ justify-content:center; }
+      .podium{ grid-template-columns: 1fr; }
       .medal{ max-width: 420px; }
       .medal--circle{ max-width: 320px; }
       .medal--shield{ max-width: 420px; }
-    }
-
-    @media (prefers-reduced-motion: reduce){
-      *{ scroll-behavior:auto; }
+      .media-frame{ aspect-ratio: 4 / 3; }
     }
   </style>
 </head>
 
 <body>
-  <main class="poster" role="img" aria-label="Póster Tour Burger Arbeláez 2025 con participantes y ganadores">
+  <main class="poster" role="img" aria-label="Póster Tour Burger Arbeláez 2025 con participantes, video y ganadores">
     <div class="content">
+
       <header class="hero">
         <h1 class="script">Tour Burger</h1>
         <p class="sub">Arbeláez 2025</p>
@@ -417,27 +432,28 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
 
       <section class="participants" aria-label="Participantes">
         <div class="brand"><b>KALÚ</b></div>
-
-        <div class="brand">
-          <b>Kapaluna 360°</b>
-        </div>
-
-        <div class="brand">
-          <b>La Marranada Campestre</b>
-
-        </div>
-
+        <div class="brand"><b>Kapaluna 360°</b></div>
+        <div class="brand"><b>La Marranada</b><small>Campestre</small></div>
         <div class="brand"><em>Don Ciprio</em></div>
-
         <div class="brand"><b>La Moza</b></div>
+        <div class="brand"><b>Pimienta</b><small>Gastro Bar</small></div>
+      </section>
 
-        <div class="brand">
-          <b>Pimienta Gastro bar</b>
-
+      <!-- VIDEO CENTRADO (autoplay) -->
+      <section class="media" aria-label="Video central">
+        <div class="media-frame">
+          <video
+            src="media/tourburger.mp4"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+          ></video>
         </div>
       </section>
 
-      <div class="rule winner-title"><span>¡Ganador del Tour Burger Arbeláez 2025!</span></div>
+      <div class="rule"><span>¡Ganador del Tour Burger Arbeláez 2025!</span></div>
 
       <section class="podium" aria-label="Podio de ganadores">
         <!-- 3rd -->
@@ -463,7 +479,7 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
               <span class="leaf"></span><span class="leaf r"></span>
             </div>
             <hr>
-            <p class="winner-name"><b>DON CIPRIO</b></p>
+            <p class="winner-name"><em>Don Ciprio</em></p>
             <div class="pedestal" aria-hidden="true"></div>
           </div>
         </div>
@@ -483,6 +499,7 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
           </div>
         </div>
       </section>
+
     </div>
   </main>
 </body>
