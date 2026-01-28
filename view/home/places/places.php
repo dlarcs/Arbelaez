@@ -443,7 +443,7 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       <section class="media" aria-label="Video central">
         <div class="media-frame">
           <video
-            src="../../view/home/img/VIDEO.MP4"
+            src="../../view/home/img/GanadorTourBurger.mp4"
             autoplay
             muted
             loop
