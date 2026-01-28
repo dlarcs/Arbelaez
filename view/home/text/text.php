@@ -26,7 +26,7 @@ $cssTime = filemtime('../../view/home/text/text.css');
           </p>
         </div>
       </div>
-
+      <div class="rule"></div>
       <div class="row">
         <div class="step">
           <div class="num">03</div>
@@ -44,7 +44,7 @@ $cssTime = filemtime('../../view/home/text/text.css');
           </p>
         </div>
       </div>
-
+      <div class="rule"></div>
       <div class="row">
         <div class="step">
           <div class="num">05</div>
@@ -62,7 +62,7 @@ $cssTime = filemtime('../../view/home/text/text.css');
           </p>
         </div>
       </div>
-
+        <div class="rule"></div>
       <div class="row">
         <div class="step">
           <div class="num">07</div>
