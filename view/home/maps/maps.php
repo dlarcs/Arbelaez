@@ -1,6 +1,5 @@
 <?php
 $cssTime = filemtime('../../view/home/maps/maps.css'); // ejemplo: '../Home/5.Video/video.css'
-$jsTime = filemtime('../../');   // ejemplo: '../Home/5.Video/video.js'
 ?>
 <link rel="stylesheet" href="../../view/home/maps/maps.css?v=<?= $cssTime ?>">
 <section  class="seccion_maps">
@@ -25,5 +24,3 @@ $jsTime = filemtime('../../');   // ejemplo: '../Home/5.Video/video.js'
     Tu navegador no soporta video.
   </video>
 </article>
-
-<script src="../../?v=<?= $jsTime ?>" type="text/javascript"></script>

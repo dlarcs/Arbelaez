@@ -1,42 +1,21 @@
+/* ====== MAPS SECTION ====== */
 .seccion_maps{
   width: 100%;
   margin: 0;
   max-width: 3000px;
   font-size: 16px;
-  z-index: 1;
 }
 
 .maps{
   width: 100%;
   display: flex;
-  --fade: 10%;
-
-  -webkit-mask-image: linear-gradient(
-    to bottom,
-    transparent 0,
-    black var(--fade),
-    black calc(100% - var(--fade)),
-    transparent 100%
-  );
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-size: cover;
-
-  mask-image: linear-gradient(
-    to bottom,
-    transparent 0,
-    black var(--fade),
-    black calc(100% - var(--fade)),
-    transparent 100%
-  );
-  mask-repeat: no-repeat;
-  mask-size: cover;
+  justify-content: center;
 }
 
 .text_maps{
   width: 100%;
   padding: 2rem;
   color: #fafafa;
-  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,46 +25,47 @@
 
 .text_maps h1{
   margin: 0;
-  font-size: clamp(2.25em, 1em + 2.5vw, 3em);
+  font-size: clamp(2.25rem, 1rem + 2.5vw, 3rem);
   text-align: center;
-  color: #fafafa;
 }
 
-.maps__frame{
-  width: 90%;
-  max-width: 980px;
-  border-radius: 16px;
+.text_maps iframe{
+  width: min(900px, 90vw);
+  height: 400px;
+  border: 0;
+  display: block;
+  border-radius: 14px;
   overflow: hidden;
 }
 
-.maps__frame iframe{
-  width: 100%;
-  height: 420px;
-  border: 0;
-  display: block;
-}
+/* ====== VIDEO SLIDE (100vw x 80vh) ====== */
 
-/* VIDEO SLIDE 100vw x 70vh */
+/* Importante:
+   Esto fuerza el slide a ocupar TODO el ancho de la ventana
+   aunque esté dentro de un contenedor con padding/margenes. */
 .slide{
   width: 100vw;
-  height: 70vh;
+  height: 80vh;
   margin: 0;
 
   position: relative;
   overflow: hidden;
   background: #000;
 
-  /* evita “saltos” por barras de scroll */
+  /* “Full-bleed” (evita que el padding del padre lo recorte) */
   left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+  transform: translateX(-50%);
 }
 
+/* Centra el video y lo hace cover (como imagen) */
 .slide__media{
   width: 100%;
   height: 100%;
   display: block;
+
   object-fit: cover;
   object-position: center;
+
+  /* por si algún navegador “jode” con línea blanca */
+  background: #000;
 }
