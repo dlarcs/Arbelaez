@@ -433,10 +433,10 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       <section class="participants" aria-label="Participantes">
         <div class="brand"><b>KALÚ</b></div>
         <div class="brand"><b>Kapaluna 360°</b></div>
-        <div class="brand"><b>La Marranada</b><small>Campestre</small></div>
+        <div class="brand"><b>La Marranada Campestre</b></div>
         <div class="brand"><em>Don Ciprio</em></div>
         <div class="brand"><b>La Moza</b></div>
-        <div class="brand"><b>Pimienta</b><small>Gastro Bar</small></div>
+        <div class="brand"><b>Pimienta Gastro Bar</b></div>
       </section>
 
       <!-- VIDEO CENTRADO (autoplay) -->
@@ -470,7 +470,19 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
             </div>
           </div>
         </div>
-
+        <div class="award">
+          <div class="medal medal--circle" aria-label="Tercer lugar: Kalú">
+            <div>
+              <div class="place">3°</div>
+              <div class="laurel" aria-hidden="true">
+                <span class="leaf"></span><span class="leaf r"></span>
+              </div>
+              <hr>
+              <p class="winner-name"><b>KALÚ</b></p>
+              <div class="pedestal" aria-hidden="true"></div>
+            </div>
+          </div>
+        </div>
         <!-- 1st -->
         <div class="award">
           <div class="medal medal--shield" aria-label="Primer lugar: Don Ciprio">
@@ -479,7 +491,7 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
               <span class="leaf"></span><span class="leaf r"></span>
             </div>
             <hr>
-            <p class="winner-name"><em>Don Ciprio</em></p>
+            <p class="winner-name"><b>DON CIPRIO</b></p>
             <div class="pedestal" aria-hidden="true"></div>
           </div>
         </div>
