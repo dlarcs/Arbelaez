@@ -56,18 +56,3 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
   </div>
 
 </header>
-<article id="slide-1" class="slide is-current" aria-roledescription="slide" aria-label="1 de 4">
-  <video class="slide__media"
-         src="../../view/home/img/VIDEO.MP4"
-         autoplay
-         muted
-         loop
-         playsinline
-         preload="metadata">
-  </video>
-
-  <div class="slide__caption">
-    <h2>Ganador de la mejor hamburguesa de Arbeláez</h2>
-    <a href="#tourburger"><p>Don Ciprio</p></a>
-  </div>
-</article>
