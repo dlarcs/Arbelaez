@@ -1,65 +1,28 @@
-(() => {
-  const indicator = document.querySelector('.scroll-indicator');
-  if (!indicator) return;
+const indicator = document.querySelector('.scroll-indicator');
 
-  const mqReduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+if (indicator) {
+  // Cuántos vh quieres que baje al hacer click
+  const SCROLL_AMOUNT_VH = 80;   // 80vh
+  // A partir de qué punto (en vh) se esconde la flecha
+  const HIDE_AFTER_VH = 330;      // 60vh
 
-  // Config
-  const SCROLL_FRACTION = 0.85;     // baja 85% del alto visible
-  const HIDE_AFTER_VH = 280;        // se esconde después de 280vh
+  // Función auxiliar para convertir vh a píxeles
+  const vhToPx = (vh) => (window.innerHeight / 100) * vh;
 
-  let ticking = false;
-
-  const vhToPx = (vh) => (window.innerHeight * vh) / 100;
-
-  const getMaxScroll = () => {
-    const doc = document.documentElement;
-    return Math.max(0, doc.scrollHeight - window.innerHeight);
-  };
-
-  const updateVisibility = () => {
-    const maxScroll = getMaxScroll();
-    const canScroll = maxScroll > 8;
-
-    const hideAfterPx = vhToPx(HIDE_AFTER_VH);
-    const nearBottom = window.scrollY >= (maxScroll - 6);
-
-    const hidden = !canScroll || nearBottom || window.scrollY > hideAfterPx;
-
-    indicator.classList.toggle('is-hidden', hidden);
-    indicator.setAttribute('aria-hidden', String(hidden));
-    indicator.tabIndex = hidden ? -1 : 0;
-  };
-
-  const scrollDown = () => {
-    const amount = Math.round(window.innerHeight * SCROLL_FRACTION);
-    const target = Math.min(window.scrollY + amount, getMaxScroll());
-
-    window.scrollTo({
-      top: target,
-      behavior: mqReduce.matches ? 'auto' : 'smooth'
+  // Scroll suave al hacer click
+  indicator.addEventListener('click', () => {
+    window.scrollBy({
+      top: vhToPx(SCROLL_AMOUNT_VH), // baja 80vh
+      behavior: 'smooth'
     });
-  };
+  });
 
-  indicator.addEventListener('click', scrollDown);
-
+  // Ocultar al hacer scroll
   window.addEventListener('scroll', () => {
-    if (ticking) return;
-    ticking = true;
-    requestAnimationFrame(() => {
-      updateVisibility();
-      ticking = false;
-    });
-  }, { passive: true });
-
-  window.addEventListener('resize', updateVisibility);
-
-  // Compat: algunos navegadores usan addListener/removeListener
-  if (mqReduce.addEventListener) {
-    mqReduce.addEventListener('change', updateVisibility);
-  } else if (mqReduce.addListener) {
-    mqReduce.addListener(updateVisibility);
-  }
-
-  updateVisibility();
-})();
+    if (window.scrollY > vhToPx(HIDE_AFTER_VH)) { // si bajó más de 60vh
+      indicator.classList.add('hidden');
+    } else {
+      indicator.classList.remove('hidden');
+    }
+  });
+}
