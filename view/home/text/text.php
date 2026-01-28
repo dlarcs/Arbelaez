@@ -80,5 +80,6 @@ $cssTime = filemtime('../../view/home/text/text.css');
           </p>
         </div>
       </div>
+      <div class="rule"></div>
     </section>
   </body>
