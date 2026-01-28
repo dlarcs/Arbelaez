@@ -5,7 +5,7 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
 ?>
 <link rel="stylesheet" href="<?= $cssPath ?>?v=<?= $cssTime ?>">
 
-<video class="video_box"controls playsinline muted preload="metadata" poster="poster.jpg">
+<video controls playsinline muted preload="metadata" poster="poster.jpg">
   <source src="../../view/home/img/VIDEO.MP4" type="video/mp4">
   <source src="../../view/home/img/VIDEO.MP4" type="video/webm">
   Tu navegador no soporta video HTML5.
