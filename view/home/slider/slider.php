@@ -12,8 +12,8 @@ $jsTime  = filemtime('../../view/home/slider/slider.js');
       <article id="slide-1" class="slide is-current" aria-roledescription="slide" aria-label="1 de 4">
         <img src="../../view/home/img/tourganador.png" alt="Montañas al amanecer">
         <div class="slide__caption">
-          <h2>Hasta el 25 Enero 2026</h2>
-          <a href="#tourburger"><p>Para mas información da click aqui</p></a>
+          <h2>Ganador Tourburger Arbeláez 2025</h2>
+          <a href="#tourburger"><p>Don Ciprio, en la casa de los pajaros</p></a>
         </div>
       </article>
 
