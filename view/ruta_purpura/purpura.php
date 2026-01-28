@@ -1,5 +1,5 @@
 <?php
-$cssPath = '../view/ruta_purpura/purpura.css';
+$cssPath = '../../view/ruta_purpura/purpura.css';
 $cssTime = @filemtime($cssPath) ?: time();
 ?>
 <link rel="stylesheet" href="<?= $cssPath ?>?v=<?= $cssTime ?>">
