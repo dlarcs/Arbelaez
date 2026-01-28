@@ -18,9 +18,11 @@ $cssTime = filemtime('../../view/home/maps/maps.css'); // ejemplo: '../Home/5.Vi
     muted
     loop
     playsinline
-    preload="auto"
+    preload="metadata"
+    poster="../../view/home/img/ganador.png"
   >
-    <source src="../../../view/home/img/VIDEO.mp4" type="video/mp4">
+    <!-- OJO: usa el nombre EXACTO del archivo (mayúsculas/minúsculas importan en hosting) -->
+    <source src="../../view/home/video/VIDEO.mp4" type="video/mp4">
     Tu navegador no soporta video.
   </video>
 </article>
