@@ -139,6 +139,7 @@
 
 .text_imagen{
   max-width: 62ch;
+  text-align: center;
   margin: 0 auto 10px;
   padding: clamp(14px, 2.6vw, 22px);
   border-radius: 16px;
@@ -184,4 +185,17 @@
   .text_imagen{
     max-width: 44ch;
   }
+}
+/* video */
+.slide{
+  position: relative;
+  overflow: hidden;
+}
+
+.slide__media{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;   /* llena el espacio sin deformar */
+  object-position: center;
 }
