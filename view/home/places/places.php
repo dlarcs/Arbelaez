@@ -463,7 +463,7 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
               <span class="leaf"></span><span class="leaf r"></span>
             </div>
             <hr>
-            <p class="winner-name"><em>Don Ciprio</em></p>
+            <p class="winner-name">Don Ciprio </p>
             <div class="pedestal" aria-hidden="true"></div>
           </div>
         </div>
