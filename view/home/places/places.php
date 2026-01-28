@@ -98,11 +98,11 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
 
   <style>
     :root{
-      --bg-1:#140c08;
-      --bg-2:#2a1510;
-      --bg-3:#4a2214;
+      --bg-1:#07070A;
+      --bg-2:#12131A;
+      --bg-3:#1E202A;
 
-      --white:#ffffff;
+      --white:#FAFAFA;
       --white-2:rgba(255,255,255,.86);
 
       --gold:#d7b46a;
