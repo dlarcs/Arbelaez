@@ -36,6 +36,7 @@
 .scroll-indicator {
   position: fixed;
   left: 50%;
+  background-color: transparent
   bottom: 1.6rem;
   transform: translateX(-50%);
   z-index: 50;
