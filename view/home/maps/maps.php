@@ -19,7 +19,7 @@ $cssTime = filemtime('../../view/home/maps/maps.css'); // ejemplo: '../Home/5.Vi
     loop
     playsinline
     preload="metadata"
-    poster="../../view/home/img/ganador.png"
+    poster="../../view/home/video/VIDEO.mp4"
   >
     <!-- OJO: usa el nombre EXACTO del archivo (mayúsculas/minúsculas importan en hosting) -->
     <source src="../../view/home/video/VIDEO.mp4" type="video/mp4">
