@@ -80,15 +80,26 @@ iframe{
 
 }
 /* video */
+/* Slide a pantalla completa en ancho y 70vh de alto */
 .slide{
+  width: 100vw;
+  height: 70vh;
+  margin: 0;
   position: relative;
   overflow: hidden;
+  background: #000; /* mientras carga */
 }
 
+/* Video cubre todo sin deformar */
 .slide__media{
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: cover;   /* llena el espacio sin deformar */
-  object-position: center;
+  object-fit: cover;       /* llena el contenedor */
+  object-position: center; /* centra el recorte */
+}
+
+/* Opcional: suaviza render */
+.slide__media{
+  transform: translateZ(0);
 }
