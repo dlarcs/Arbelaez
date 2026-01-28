@@ -10,10 +10,10 @@ $jsTime  = filemtime('../../view/home/slider/slider.js');
     <div class="slider__track" id="slider-track">
       <!-- Slide 1 -->
       <article id="slide-1" class="slide is-current" aria-roledescription="slide" aria-label="1 de 4">
-        <img src="../../view/home/TourBurguer/img/general2.png" alt="Montañas al amanecer">
+        <img src="../../view/home/img/ganador.png" alt="Montañas al amanecer">
         <div class="slide__caption">
-          <h2>Hasta el 25 Enero 2026</h2>
-          <a href="#tourburger"><p>Para mas información da click aqui</p></a>
+          <h2>Ganador de la mejor hamburguesa de Arbeláez</h2>
+          <a href="#tourburger"><p>Don Ciprio</p></a>
         </div>
       </article>
 
