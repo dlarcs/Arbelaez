@@ -242,7 +242,7 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
     }
     .brand{
       border: 1px solid var(--border);
-      background: #4A1624;
+      background: #0D0706;
       border-radius: 16px;
       padding: 14px 14px;
       min-height: 62px;
