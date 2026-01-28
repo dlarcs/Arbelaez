@@ -423,8 +423,8 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
         </div>
 
         <div class="brand">
-          <b>La Marranada</b>
-          <small>Campestre</small>
+          <b>La Marranada Campestre</b>
+
         </div>
 
         <div class="brand"><em>Don Ciprio</em></div>
@@ -432,8 +432,8 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
         <div class="brand"><b>La Moza</b></div>
 
         <div class="brand">
-          <b>Pimienta</b>
-          <small>Gastro Bar</small>
+          <b>Pimienta Gastro bar</b>
+
         </div>
       </section>
 
