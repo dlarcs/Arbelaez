@@ -12,7 +12,6 @@ $bgImage = '../../../view/home/img/yoamoarbelaez1.jpeg';
 <link rel="stylesheet" href="<?= $cssPath ?>?v=<?= $cssTime ?>">
 
 <div class="title_products">
-  <h1>Datos curiosos y tradiciones de Arbeláez</h1>
 
   <div class="info_product">
     <h2>
