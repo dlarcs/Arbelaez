@@ -1,7 +1,7 @@
 video{
   width: 100%;
   max-width: 900px;   /* opcional */
-  height: auto;
+  min-height: 70vh;
   border-radius: 16px;
   display: block;
   margin: 0 auto;
