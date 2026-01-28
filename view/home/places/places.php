@@ -456,20 +456,20 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       <div class="rule"><span>¡Ganador del Tour Burger Arbeláez 2025!</span></div>
 
       <section class="podium" aria-label="Podio de ganadores">
-        <!-- 3rd -->
         <div class="award">
           <div class="medal medal--circle" aria-label="Tercer lugar: Kalú">
             <div>
-              <div class="place">2°</div>
+              <div class="place">3°</div>
               <div class="laurel" aria-hidden="true">
                 <span class="leaf"></span><span class="leaf r"></span>
               </div>
               <hr>
-              <p class="winner-name"><b>KAPALUNA 360°</b></p>
+              <p class="winner-name"><b>KALÚ</b></p>
               <div class="pedestal" aria-hidden="true"></div>
             </div>
           </div>
         </div>
+
         <div class="award">
           <div class="medal medal--circle" aria-label="Tercer lugar: Kalú">
             <div>
@@ -484,15 +484,16 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
           </div>
         </div>
 
+        <!-- 3rd -->
         <div class="award">
           <div class="medal medal--circle" aria-label="Tercer lugar: Kalú">
             <div>
-              <div class="place">3°</div>
+              <div class="place">2°</div>
               <div class="laurel" aria-hidden="true">
                 <span class="leaf"></span><span class="leaf r"></span>
               </div>
               <hr>
-              <p class="winner-name"><b>KALÚ</b></p>
+              <p class="winner-name"><b>KAPALUNA 360°</b></p>
               <div class="pedestal" aria-hidden="true"></div>
             </div>
           </div>
