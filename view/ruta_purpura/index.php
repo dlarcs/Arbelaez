@@ -12,9 +12,8 @@
     <?php include "../../view/global/menu/menu.php" ?>
 
     <div class="container_Radio">
-      <?php include "../../view/Radio/slider/slider.php" ?>
       <?php include "../../view/ruta_purpura/index.php" ?>
-      <?php include "../../view/Radio/footer/footer.php" ?>
+      <?php include "../../view/global/footer/footer.php" ?>
     </div>
 </body>
 </html>
