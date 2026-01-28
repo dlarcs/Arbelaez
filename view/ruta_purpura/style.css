@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+.body_Radio{
+  margin: 0;
+  background: linear-gradient(
+    to bottom,
+    rgb(252, 249, 255) 0%,
+    rgb(246, 238, 255) 45%,
+    rgb(237, 246, 248) 100%
+  );
+}
+.container_Radio{
+  padding:  0;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  object-fit: cover;
+  overflow: hidden;
+}
