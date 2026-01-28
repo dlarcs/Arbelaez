@@ -48,7 +48,7 @@
   height: 42px;
   border-radius: 999px;
   border: 1px solid rgba(17, 24, 39, 0.2);
-  background-color: transparent
+  background: rgba(255, 255, 255, 0.9);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,7 +64,7 @@
   position: relative;
   width: 2px;          /* grosor del palito */
   height: 16px;        /* largo del palito */
-  background: #111827; /* color de la flecha */
+  background-color: transparent;
   border-radius: 999px;
 }
 
