@@ -83,8 +83,8 @@
     <?php include "../../view/home/places/places.php" ?>
     <?php include "../../view/home/imagen/imagen.php" ?>
     <?php include "../../view/home/maps/maps.php" ?>
+    <?php include "../../view/home/video/video.php" ?>
     <?php include "../../view/global/footer/footer.php"?>
   </div>
-
 </body>
 </html>
