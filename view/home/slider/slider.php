@@ -10,12 +10,21 @@ $jsTime  = filemtime('../../view/home/slider/slider.js');
     <div class="slider__track" id="slider-track">
       <!-- Slide 1 -->
       <article id="slide-1" class="slide is-current" aria-roledescription="slide" aria-label="1 de 4">
-        <img src="../../view/home/img/ganador.png" alt="Montañas al amanecer">
-        <div class="slide__caption">
-          <h2>Ganador de la mejor hamburguesa de Arbeláez</h2>
-          <a href="#tourburger"><p>Don Ciprio</p></a>
-        </div>
-      </article>
+    <video class="slide__media"
+           src="../../view/home/img/VIDEO.MP4"
+           autoplay
+           muted
+           loop
+           playsinline
+           preload="metadata">
+    </video>
+
+    <div class="slide__caption">
+      <h2>Ganador de la mejor hamburguesa de Arbeláez</h2>
+      <a href="#tourburger"><p>Don Ciprio</p></a>
+    </div>
+  </article>
+
 
       <!-- Slide 2 -->
       <article id="slide-2" class="slide" aria-roledescription="slide" aria-label="2 de 4">
