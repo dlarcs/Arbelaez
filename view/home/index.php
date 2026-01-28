@@ -82,10 +82,11 @@
     <?php include "../../view/home/maps/maps.php" ?>
     <?php include "../../view/global/footer/footer.php"?>
   </div>
-  <button class="scroll-indicator" type="button" aria-label="Ver más contenido">
-  <span class="scroll-indicator__circle" aria-hidden="true">
-    <span class="scroll-indicator__arrow"></span>
-  </span>
-</button>
+
 </body>
+<button class="scroll-indicator" type="button" aria-label="Ver más contenido">
+<span class="scroll-indicator__circle" aria-hidden="true">
+  <span class="scroll-indicator__arrow"></span>
+</span>
+</button>
 </html>
