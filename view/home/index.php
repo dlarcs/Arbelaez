@@ -11,10 +11,13 @@
 
   <!-- Canonical -->
   <link rel="canonical" href="https://www.arbelaez.com.co/">
-
-  <!-- CSS (cache-busting robusto) -->
-  <?php $cssTime = filemtime('../../view/home/style.css'); ?>
+  <?php
+    $cssTime = filemtime('../../view/home/style.css');
+    $jsTime  = filemtime('../../view/home/style.js');
+  ?>
   <link rel="stylesheet" href="../../view/home/style.css?v=<?= $cssTime ?>">
+  <script src="../../view/home/style.js?v=<?= $jsTime ?>" defer></script>
+
 
   <!-- Fuente: optimizada con preconnect -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
