@@ -37,35 +37,3 @@
   border-radius: 14px;
   overflow: hidden;
 }
-
-/* ====== VIDEO SLIDE (100vw x 80vh) ====== */
-
-/* Importante:
-   Esto fuerza el slide a ocupar TODO el ancho de la ventana
-   aunque esté dentro de un contenedor con padding/margenes. */
-.slide{
-  width: 100vw;
-  height: 80vh;
-  margin: 0;
-
-  position: relative;
-  overflow: hidden;
-  background: #000;
-
-  /* “Full-bleed” (evita que el padding del padre lo recorte) */
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-/* Centra el video y lo hace cover (como imagen) */
-.slide__media{
-  width: 100%;
-  height: 100%;
-  display: block;
-
-  object-fit: cover;
-  object-position: center;
-
-  /* por si algún navegador “jode” con línea blanca */
-  background: #000;
-}

@@ -11,9 +11,3 @@ $cssTime = filemtime('../../view/home/maps/maps.css'); // ejemplo: '../Home/5.Vi
   </div>
 
 </section>
-
-<article id="slide-1" class="slide is-current" aria-roledescription="slide" aria-label="1 de 4">
-  <video src="../../view/home/video/VIDEO.mp4" autoplay poster="posterimage.jpg">
-    <source src="../../view/home/video/VIDEO.mp4" type="video/">
-  </video>
-</article>
