@@ -4,12 +4,12 @@
   max-width: 3000px;
   font-size: 16px;
   z-index: 1;
-  }
-.maps {
-  display: flex;
-  height: 100%;
+}
+
+.maps{
   width: 100%;
-  --fade: 10%; /* porcentaje del alto que se desvanece arriba y abajo */
+  display: flex;
+  --fade: 10%;
 
   -webkit-mask-image: linear-gradient(
     to bottom,
@@ -32,74 +32,60 @@
   mask-size: cover;
 }
 
-.maps a{
-  text-decoration: none;
-  margin: 1rem;
-}
-.maps button:hover{
-  transform: scale(1.03);
-  font-size: 1.01rem;
-  border: 1px solid green;
-}
-.maps button {
-  font-size: 1rem;
-  padding: 15px 30px;
-  border-radius: 16px;
-  background-color: #ffff;
-  border: 1px solid black;
-
-}
 .text_maps{
-  position: relative;
-  min-width: 280px;
   width: 100%;
-  height: 70%;
   padding: 2rem;
   color: #fafafa;
-  gap:1rem;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-sizing: border-box;
+  gap: 1rem;
+}
 
-}
-iframe{
-  width: 90%;
-}
 .text_maps h1{
+  margin: 0;
   font-size: clamp(2.25em, 1em + 2.5vw, 3em);
-  position: relative;
-  color: #fafafa;
   text-align: center;
-
+  color: #fafafa;
 }
-.text_maps p{
-  font-size: clamp(1.125em, 0.75em + 1vw, 1.5em);
 
+.maps__frame{
+  width: 90%;
+  max-width: 980px;
+  border-radius: 16px;
+  overflow: hidden;
 }
-/* video */
-/* Slide a pantalla completa en ancho y 70vh de alto */
+
+.maps__frame iframe{
+  width: 100%;
+  height: 420px;
+  border: 0;
+  display: block;
+}
+
+/* VIDEO SLIDE 100vw x 70vh */
 .slide{
   width: 100vw;
   height: 70vh;
   margin: 0;
+
   position: relative;
   overflow: hidden;
-  background: #000; /* mientras carga */
+  background: #000;
+
+  /* evita “saltos” por barras de scroll */
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 
-/* Video cubre todo sin deformar */
 .slide__media{
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: cover;       /* llena el contenedor */
-  object-position: center; /* centra el recorte */
-}
-
-/* Opcional: suaviza render */
-.slide__media{
-  transform: translateZ(0);
+  object-fit: cover;
+  object-position: center;
 }
