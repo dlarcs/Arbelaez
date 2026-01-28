@@ -460,16 +460,30 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
         <div class="award">
           <div class="medal medal--circle" aria-label="Tercer lugar: Kalú">
             <div>
-              <div class="place">3°</div>
+              <div class="place">2°</div>
               <div class="laurel" aria-hidden="true">
                 <span class="leaf"></span><span class="leaf r"></span>
               </div>
               <hr>
-              <p class="winner-name"><b>KALÚ</b></p>
+              <p class="winner-name"><b>KAPALUNA 360°</b></p>
               <div class="pedestal" aria-hidden="true"></div>
             </div>
           </div>
         </div>
+        <div class="award">
+          <div class="medal medal--circle" aria-label="Tercer lugar: Kalú">
+            <div>
+              <div class="place">1°</div>
+              <div class="laurel" aria-hidden="true">
+                <span class="leaf"></span><span class="leaf r"></span>
+              </div>
+              <hr>
+              <p class="winner-name"><b>DON CIPRIO</b></p>
+              <div class="pedestal" aria-hidden="true"></div>
+            </div>
+          </div>
+        </div>
+
         <div class="award">
           <div class="medal medal--circle" aria-label="Tercer lugar: Kalú">
             <div>
@@ -479,33 +493,6 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
               </div>
               <hr>
               <p class="winner-name"><b>KALÚ</b></p>
-              <div class="pedestal" aria-hidden="true"></div>
-            </div>
-          </div>
-        </div>
-        <!-- 1st -->
-        <div class="award">
-          <div class="medal medal--shield" aria-label="Primer lugar: Don Ciprio">
-            <div class="place">1°</div>
-            <div class="laurel" aria-hidden="true">
-              <span class="leaf"></span><span class="leaf r"></span>
-            </div>
-            <hr>
-            <p class="winner-name"><b>DON CIPRIO</b></p>
-            <div class="pedestal" aria-hidden="true"></div>
-          </div>
-        </div>
-
-        <!-- 2nd -->
-        <div class="award">
-          <div class="medal medal--circle" aria-label="Segundo lugar: Kapaluna 360°">
-            <div>
-              <div class="place">2°</div>
-              <div class="laurel" aria-hidden="true">
-                <span class="leaf"></span><span class="leaf r"></span>
-              </div>
-              <hr>
-              <p class="winner-name"><b>Kapaluna 360°</b></p>
               <div class="pedestal" aria-hidden="true"></div>
             </div>
           </div>
