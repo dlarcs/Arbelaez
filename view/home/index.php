@@ -78,7 +78,7 @@
     <?php include "../../view/home/intro/intro.php" ?>
     <?php include "../../view/home/slider/slider.php" ?>
     <?php include "../../view/home/places/places.php" ?>
-    <?php include "../view/home/activ/activ.php" ?>
+    <?php include "../../view/home/activ/activ.php" ?>
     <?php include "../../view/home/imagen/imagen.php" ?>
     <?php include "../../view/home/maps/maps.php" ?>
     <?php include "../../view/global/footer/footer.php"?>
