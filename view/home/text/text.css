@@ -64,7 +64,7 @@ h2{
   max-width: 48ch;
   font-size: 12px;
   line-height: 1.45;
-  color: var(--muted);
+  color: #fafafa;
 }
 
 /* Responsive */
