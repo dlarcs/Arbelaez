@@ -2,51 +2,51 @@
 $cssTime = filemtime('../../view/home/text/text.css');
 ?>
 	<link rel="stylesheet" href="../../view/home/text/text.css?v=<?= $cssTime ?>">
-<body>
+  <body>
+    <section class="section">
+      <h2>Medium length section heading goes here</h2>
 
-  <section class="wrap">
-      <h2>How we build things that last</h2>
+      <div class="rule"></div>
 
-      <div class="grid">
-        <article class="card">
-          <h3>Listen first, always</h3>
-          <p>We understand what you need before we start building.</p>
-        </article>
+      <div class="row row--top">
+        <div class="step">
+          <div class="num">01</div>
+          <p class="txt">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+            elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+            commodo diam libero vitae erat.
+          </p>
+        </div>
 
-        <article class="card">
-          <h3>Plan with precision</h3>
-          <p>Every decision gets mapped out and tested before execution.</p>
-        </article>
+        <div class="step">
+          <div class="num">02</div>
+          <p class="txt">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+            elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+            commodo diam libero vitae erat.
+          </p>
+        </div>
+      </div>
 
-        <article class="card">
-          <h3>Execute without compromise</h3>
-          <p>The work happens with attention to detail at every step.</p>
-        </article>
+      <div class="row">
+        <div class="step">
+          <div class="num">03</div>
+          <p class="txt">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+            elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+            commodo diam libero vitae erat.
+          </p>
+        </div>
 
-        <article class="card">
-          <h3>Measure what counts</h3>
-          <p>Results get tracked and refined until they hit the mark.</p>
-        </article>
-
-        <article class="card">
-          <h3>Support that stays</h3>
-          <p>We don’t disappear after launch. We’re here when you need us.</p>
-        </article>
-
-        <article class="card">
-          <h3>Adapt and improve</h3>
-          <p>Markets shift. We move with them and keep things moving forward.</p>
-        </article>
-
-        <article class="card">
-          <h3>Build the right way</h3>
-          <p>Clean code, solid foundations, work that stands the test of time.</p>
-        </article>
-
-        <article class="card">
-          <h3>Think beyond today</h3>
-          <p>We build for what’s next, not just what’s needed now.</p>
-        </article>
+        <div class="step">
+          <div class="num">04</div>
+          <p class="txt">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+            elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+            commodo diam libero vitae erat.
+          </p>
+        </div>
       </div>
     </section>
-</body>
+
+  </body>
