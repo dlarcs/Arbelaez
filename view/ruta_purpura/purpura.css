@@ -59,7 +59,7 @@ body{
 
 .thermo__bar{
   height: 10px;
-  width: 90%;
+  width: 90vw;
   border-radius: 999px;
   background: linear-gradient(90deg, var(--lvl-1), var(--lvl-2), var(--lvl-3), var(--lvl-4));
   box-shadow: 0 6px 18px rgba(0,0,0,.10);
