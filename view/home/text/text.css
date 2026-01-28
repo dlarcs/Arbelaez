@@ -3,6 +3,7 @@ body{
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
       color:var(--ink);
       background: #fafafa;
+      color: #fafafa;
     }
 :root{
      --ink:#111;
@@ -19,6 +20,7 @@ body{
 
 h2{
   margin: 0 0 26px;
+  color: #fafafa;
   font-size: clamp(24px, 3vw, 34px);
   line-height: 1.03;
   font-weight: 800;
