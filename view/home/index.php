@@ -81,7 +81,6 @@
     <?php include "../../view/home/intro/intro.php" ?>
     <?php include "../../view/home/slider/slider.php" ?>
     <?php include "../../view/home/places/places.php" ?>
-    <?php include "../../view/home/Rifa/rifa.php" ?>
     <?php include "../../view/home/video/video.php" ?>
     <?php include "../../view/home/imagen/imagen.php" ?>
     <?php include "../../view/home/text/text.php" ?>
