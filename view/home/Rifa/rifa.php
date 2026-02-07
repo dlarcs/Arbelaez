@@ -4,15 +4,6 @@ $jsTime  = filemtime('../../view/home/Rifa/rifa.js');
 ?>
 <link rel="stylesheet" href="../../view/home/Rifa/rifa.css?v=<?= $cssTime ?>">
 
-<!doctype html>
-<html lang="es">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Rifa Solidaria — Arbeláez se llena de color</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
 
   <header class="topbar" role="banner">
     <div class="container topbar__inner">
@@ -205,16 +196,6 @@ $jsTime  = filemtime('../../view/home/Rifa/rifa.js');
         </div>
       </div>
     </section>
-
-    <footer class="footer" role="contentinfo">
-      <div class="container footer__inner">
-        <p class="muted">Más info: visita <strong>arbelaez.com.co</strong> · Rifa solidaria — Arbeláez se llena de color</p>
-      </div>
-    </footer>
   </main>
-
-</body>
-</html>
-
 
 <script src="../../view/home/Rifa/rifa.js?v=<?= $jsTime ?>" type="text/javascript" ></script>
