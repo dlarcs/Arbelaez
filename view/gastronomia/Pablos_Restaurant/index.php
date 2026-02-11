@@ -24,12 +24,12 @@
 	<meta property="og:locale" content="es_CO">
 	<meta property="og:type" content="restaurant">
 	<meta property="og:title" content="Pablos_Restaurant  – Restaurante en Arbeláez">
-	<meta property="og:description" content="Arbeláez Cundinamarca, uno de los restaurantes mas antiguos de Arbeláex, sopas en Arbeláez, sancocho, gallina, picadas.">
+	<meta property="og:description" content="Arbeláez Cundinamarca, uno de los restaurantes mas antiguos de Arbeláez, sopas, sancocho, gallina, picadas.">
 	<meta property="og:url" content="https://www.arbelaez.com.co/gastronomia/Pablos_Restaurant/">
 	<meta property="og:image" content="https://www.arbelaez.com.co/media/Pablos_Restaurant/og-1200x630.jpg">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="Pablos_Restaurant  – Restaurante en Arbeláez">
-	<meta name="twitter:description" content="La mejor comida en Arbeláez: parrilla, volcanes, postres y cócteles.">
+	<meta name="twitter:description" content="La mejor comida en Arbeláez en desayunos, almuerzos, .">
 	<meta name="twitter:image" content="https://www.arbelaez.com.co/media/Pablos_Restaurant/og-1200x630.jpg">
 
 	<!-- Icono / tema -->

@@ -6,42 +6,22 @@
 
 	<!-- Básicos -->
 	<title>La Marranada Campestre</title>
-	<meta name="description" content="La_Marranada 360: restaurante en Arbeláez, Cundinamarca. Parrilla, volcanes, postres y cócteles artesanales. Perfecto para celebraciones, cumpleaños y planes en Arbeláez.">
-	<link rel="canonical" href="https://www.arbelaez.com.co/gastronomia/La_Marranada/">
-	<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+	<meta name="description" content="La Marranada Campestre: restaurante campestre en la vereda San Antonio, cerca al Arenal (Arbeláez, Cundinamarca). Comida de cerdo, sopas, pescado frito, hamburguesas, patacones y comidas rápidas. Disfruta de una vista hermosa, tranquilidad y ambiente familiar en un pueblo acogedor.">
 
-	<!-- Idioma y geografía -->
-	<meta name="language" content="es-CO">
-	<meta itemprop="addressLocality" content="Arbeláez, Cundinamarca">
-	<meta name="geo.region" content="CO-CUN">
-	<meta name="geo.placename" content="Arbeláez">
-
-
-	<!-- Palabras clave (no crítico para Google, útil para otros motores) -->
-	<meta name="keywords" content="mejor restaurante en Arbeláez, restaurante Arbeláez,
-  la mejor comida en Arbeláez, qué hacer en Arbeláez, celebraciones en Arbeláez,
-  cumpleaños en Arbeláez, aniversarios Arbeláez, cenas románticas Arbeláez,
-  parrilla en Arbeláez, volcanes dulces, postres artesanales Arbeláez,
-  cócteles en Arbeláez, comida típica Cundinamarca, restaurante familiar Arbeláez,
-  restaurante para grupos Arbeláez, reservas restaurante Arbeláez, gastronomía Arbeláez,
-  dónde comer en Arbeláez, planes en Arbeláez, restaurante con terraza Arbeláez">
+	<!-- Palabras clave -->
+	<meta name="keywords" content="restaurante campestre en Arbeláez, La Marranada Campestre, vereda San Antonio Arbeláez, cerca al Arenal Arbeláez, dónde comer en Arbeláez, comida de cerdo Arbeláez, platos de cerdo Arbeláez, sopas en Arbeláez, caldo Arbeláez, pescado frito Arbeláez, hamburguesas en Arbeláez, patacones en Arbeláez, comidas rápidas en Arbeláez, comida rápida Arbeláez, restaurante familiar Arbeláez, restaurante con vista Arbeláez, vista y tranquilidad Arbeláez, turismo gastronómico Arbeláez, comida típica Cundinamarca, planes en Arbeláez, qué hacer en Arbeláez">
 
 	<!-- Open Graph / Twitter -->
 	<meta property="og:locale" content="es_CO">
 	<meta property="og:type" content="restaurant">
-	<meta property="og:title" content="La_Marranada  – Restaurante en Arbeláez">
-	<meta property="og:description" content="Parrilla, volcanes, postres y cócteles. Perfecto para celebraciones y planes en Arbeláez.">
+	<meta property="og:title" content="La Marranada Campestre — Restaurante campestre en Arbeláez">
+	<meta property="og:description" content="Restaurante campestre en la vereda San Antonio, cerca al Arenal. Cerdo, sopas, pescado frito, hamburguesas, patacones y comidas rápidas. Vista, tranquilidad y ambiente familiar en Arbeláez.">
 	<meta property="og:url" content="https://www.arbelaez.com.co/gastronomia/La_Marranada/">
 	<meta property="og:image" content="https://www.arbelaez.com.co/media/La_Marranada/og-1200x630.jpg">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="La_Marranada  – Restaurante en Arbeláez">
-	<meta name="twitter:description" content="La mejor comida en Arbeláez: parrilla, volcanes, postres y cócteles.">
+	<meta name="twitter:title" content="La Marranada Campestre — Restaurante campestre en Arbeláez">
+	<meta name="twitter:description" content="Cerdo, sopas, pescado frito, hamburguesas, patacones y comidas rápidas. Vista y tranquilidad en la vereda San Antonio, cerca al Arenal.">
 	<meta name="twitter:image" content="https://www.arbelaez.com.co/media/La_Marranada/og-1200x630.jpg">
-
-	<!-- Icono / tema -->
-	<link rel="icon" href="../../../view/gastronomia/img/logo_lamarranada.jpeg" type="image/png">
-	<link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/La_Marranada/apple-touch-icon.png">
-	<meta name="theme-color" content="#005548">
 
 	<!-- Rendimiento -->
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
