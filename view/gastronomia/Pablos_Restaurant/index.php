@@ -24,7 +24,7 @@
 	<meta property="og:locale" content="es_CO">
 	<meta property="og:type" content="restaurant">
 	<meta property="og:title" content="Pablos_Restaurant  – Restaurante en Arbeláez">
-	<meta property="og:description" content="Parrilla, volcanes, postres y cócteles. Perfecto para celebraciones y planes en Arbeláez.">
+	<meta property="og:description" content="Arbeláez Cundinamarca, uno de los restaurantes mas antiguos de Arbeláex, sopas en Arbeláez, sancocho, gallina, picadas.">
 	<meta property="og:url" content="https://www.arbelaez.com.co/gastronomia/Pablos_Restaurant/">
 	<meta property="og:image" content="https://www.arbelaez.com.co/media/Pablos_Restaurant/og-1200x630.jpg">
 	<meta name="twitter:card" content="summary_large_image">
