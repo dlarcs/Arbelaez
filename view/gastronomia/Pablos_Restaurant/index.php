@@ -6,7 +6,7 @@
 
 	<!-- Básicos -->
 	<title>Pablo's Restaurant</title>
-	<meta name="description" content="Pablos_Restaurant: restaurante en Arbeláez, Cundinamarca. Parrilla, volcanes, postres y cócteles artesanales. Perfecto para celebraciones, cumpleaños y planes en Arbeláez.">
+	<meta name="description" content="Pablos_Restaurant: restaurante en Arbeláez, Desayunos, almuerzos, picadas, ensaladas, gallina y un buen ambiente. Cundinamarca.Perfecto para celebraciones, cumpleaños y planes en Arbeláez.">
 	<link rel="canonical" href="https://www.arbelaez.com.co/gastronomia/Pablos_Restaurant/">
 	<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 
