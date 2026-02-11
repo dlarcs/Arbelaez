@@ -17,14 +17,9 @@
 	<meta name="geo.placename" content="Arbeláez">
 
 
-	<!-- Palabras clave (no crítico para Google, útil para otros motores) -->
-	<meta name="keywords" content="mejor restaurante en Arbeláez, restaurante Arbeláez,
-  la mejor comida en Arbeláez, qué hacer en Arbeláez, celebraciones en Arbeláez,
-  cumpleaños en Arbeláez, aniversarios Arbeláez, cenas románticas Arbeláez,
-  parrilla en Arbeláez, volcanes dulces, postres artesanales Arbeláez,
-  cócteles en Arbeláez, comida típica Cundinamarca, restaurante familiar Arbeláez,
-  restaurante para grupos Arbeláez, reservas restaurante Arbeláez, gastronomía Arbeláez,
-  dónde comer en Arbeláez, planes en Arbeláez, restaurante con terraza Arbeláez">
+	<!-- Palabras clave (SEO) -->
+	<meta name="keywords" content="almuerzos caseros en Arbeláez, restaurante en Arbeláez, comida casera Arbeláez, menú del día Arbeláez, corrientazo Arbeláez, almuerzo ejecutivo Arbeláez, sopas y seco Arbeláez, comida típica en Arbeláez, comida típica Cundinamarca, restaurante familiar Arbeláez, dónde almorzar en Arbeláez, dónde comer en Arbeláez, comidas rápidas en Arbeláez, comida rápida Arbeláez, hamburguesas Arbeláez, salchipapas Arbeláez, perros calientes Arbeláez, papas a la francesa Arbeláez, para llevar Arbeláez, domicilios Arbeláez, restaurante para grupos Arbeláez, reservas restaurante Arbeláez, gastronomía Arbeláez, qué hacer en Arbeláez, planes en Arbeláez">
+  ">
 
 	<!-- Open Graph / Twitter -->
 	<meta property="og:locale" content="es_CO">
