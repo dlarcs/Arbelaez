@@ -48,7 +48,7 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
           <div class="card_info_places"><h3>Disfruta lo mejor de Arbeláez</h3></div>
         </div>
       </article>
-    </a>
+     </a>
 
     <!-- <a href="../../view/Naturaleza/index.php" class="card_link">
       <article class="galery_card_places">
