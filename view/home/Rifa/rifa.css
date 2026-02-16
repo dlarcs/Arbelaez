@@ -1,7 +1,17 @@
 /* ================================
    Arbeláez se llena de color — Slider + Parallax
-   (solo HTML/CSS/JS, sin dependencias)
+   Responsive móvil + tablet + escritorio
 ================================ */
+
+/* Reset suave */
+*,
+*::before,
+*::after{ box-sizing: border-box; }
+
+html, body{
+  height: 100%;
+  margin: 0;
+}
 
 :root{
   --bg0:#07151a;
@@ -25,26 +35,35 @@
   --slideY: 0px;
 }
 
-
-
 .page{
-  min-height:100%;
-  padding: clamp(16px, 3vw, 40px);
-  display:grid;
-  place-items:center;
+  min-height: 100dvh;
+  width: 100%;
+  padding: clamp(14px, 3vw, 40px);
+  display: grid;
+  place-items: center;
   gap: 16px;
-  min-width: 300px;
+  /* ✅ evita scroll horizontal por min-width */
+  min-width: 0;
 }
 
 .px-slider{
   width: min(1100px, 100%);
+  margin-inline: auto;
   position: relative;
   border-radius: calc(var(--radius) + 10px);
-  overflow: clip;
+  overflow: hidden; /* fallback */
   box-shadow: var(--shadow);
   border: 1px solid rgba(255,255,255,.10);
   background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
-  isolation:isolate;
+  isolation: isolate;
+
+  /* ✅ mejor gesto en móvil */
+  touch-action: pan-y pinch-zoom;
+}
+
+/* si el navegador soporta overflow: clip */
+@supports (overflow: clip){
+  .px-slider{ overflow: clip; }
 }
 
 .px-bg{
@@ -80,13 +99,13 @@
 }
 .px-photo.is-fading{ opacity:.25; }
 
-/* blobs */
+/* blobs (✅ ahora con clamp para responsive) */
 .px-blob{
   position:absolute;
-  width: 520px;
-  height: 520px;
+  width: clamp(260px, 40vw, 520px);
+  height: clamp(260px, 40vw, 520px);
   border-radius: 999px;
-  filter: blur(40px);
+  filter: blur(clamp(26px, 4vw, 40px));
   opacity:.75;
   z-index:1;
 
@@ -95,19 +114,22 @@
   transition: transform 180ms ease;
 }
 .blob-a{
-  left:-180px; top:-220px;
+  left: clamp(-220px, -18vw, -180px);
+  top:  clamp(-260px, -18vw, -220px);
   background: radial-gradient(circle at 30% 30%, rgba(96,165,250,.9), transparent 60%),
               radial-gradient(circle at 60% 60%, rgba(52,211,153,.7), transparent 55%);
 }
 .blob-b{
-  right:-240px; top:-140px;
+  right: clamp(-280px, -22vw, -240px);
+  top:   clamp(-200px, -16vw, -140px);
   background: radial-gradient(circle at 40% 40%, rgba(52,211,153,.85), transparent 60%),
               radial-gradient(circle at 60% 65%, rgba(96,165,250,.65), transparent 55%);
   transform: translate3d(calc(var(--mx) * -.06), calc(var(--my) * .06), 0)
              translate3d(0, calc(var(--scrollY) * .04), 0);
 }
 .blob-c{
-  left: 20%; bottom:-320px;
+  left: 20%;
+  bottom: clamp(-360px, -24vw, -320px);
   background: radial-gradient(circle at 40% 30%, rgba(167,139,250,.55), transparent 60%),
               radial-gradient(circle at 60% 70%, rgba(96,165,250,.55), transparent 55%);
   opacity:.55;
@@ -122,7 +144,7 @@
   background-image:
     linear-gradient(rgba(255,255,255,.06) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255,255,255,.06) 1px, transparent 1px);
-  background-size: 46px 46px;
+  background-size: clamp(34px, 4.5vw, 46px) clamp(34px, 4.5vw, 46px);
   transform: translate3d(calc(var(--mx) * .02), calc(var(--my) * .02), 0)
              translate3d(0, calc(var(--scrollY) * .03), 0);
   transition: transform 180ms ease;
@@ -131,7 +153,7 @@
 .px-head{
   position:relative;
   z-index:1;
-  padding: clamp(18px, 3vw, 28px);
+  padding: clamp(16px, 3vw, 28px);
   padding-bottom: 8px;
   text-align:center;
 }
@@ -151,7 +173,7 @@
 
 .px-title{
   margin: 10px 0 6px;
-  font-size: clamp(28px, 3.2vw, 46px);
+  font-size: clamp(26px, 3.2vw, 46px);
   line-height:1.08;
   text-shadow: 0 12px 28px rgba(0,0,0,.35);
   transform: translate3d(calc(var(--slideX) * .06), calc(var(--slideY) * .06), 0);
@@ -170,7 +192,7 @@
 .px-frame{
   position:relative;
   z-index:1;
-  padding: 14px clamp(14px, 2.4vw, 22px) 18px;
+  padding: 14px clamp(12px, 2.4vw, 22px) 18px;
 }
 
 .px-viewport{
@@ -190,7 +212,7 @@
 
 .px-slide{
   min-width:100%;
-  padding: clamp(14px, 2.4vw, 22px);
+  padding: clamp(12px, 2.2vw, 22px);
 }
 
 .slide-card{
@@ -201,9 +223,12 @@
   box-shadow: 0 18px 50px rgba(0,0,0,.25);
   transform: translate3d(calc(var(--slideX) * .05), calc(var(--slideY) * .05), 0);
   transition: transform 180ms ease;
+
+  /* ✅ evita que contenido “estire” raro en móviles */
+  min-width: 0;
 }
 
-/* Imagen dentro del card (puedes dejarla o quitarla) */
+/* Imagen dentro del card */
 .slide-media{
   margin:0 0 12px;
   border-radius: 16px;
@@ -212,7 +237,7 @@
 }
 .slide-media img{
   width:100%;
-  height: clamp(150px, 22vw, 240px);
+  height: clamp(160px, 24vw, 240px);
   object-fit: cover;
   display:block;
 }
@@ -275,6 +300,7 @@
   border-radius: 16px;
   background: rgba(0,0,0,.14);
   padding: 12px;
+  min-width: 0;
 }
 .col-title{
   font-weight: 700;
@@ -301,6 +327,7 @@
   text-decoration:none;
   font-weight: 700;
   transition: transform 160ms ease, filter 160ms ease;
+  min-height: 44px; /* ✅ tap friendly */
 }
 .btn:hover{ transform: translateY(-2px); filter: brightness(1.05); }
 .btn:active{ transform: translateY(0px); }
@@ -320,6 +347,7 @@
   line-height:1.35;
 }
 
+/* Controls */
 .px-controls{
   display:flex;
   align-items:center;
@@ -353,6 +381,7 @@
   align-items:center;
   justify-content:center;
   flex: 1;
+  min-width: 0;
 }
 .dot{
   width: 10px;
@@ -392,10 +421,53 @@
   padding: 6px 0 0;
 }
 
-/* Responsive */
+/* =========================
+   Responsive breakpoints
+========================= */
+
+/* Tablet */
+@media (max-width: 1024px){
+  .px-sub{ max-width: 60ch; }
+}
+
+/* Mobile / Tablet pequeño */
 @media (max-width: 760px){
   .two-cols{ grid-template-columns: 1fr; }
   .nav-btn{ width: 42px; height: 42px; }
+  .px-title{ font-size: clamp(24px, 6vw, 34px); }
+  .px-sub{ font-size: 14px; }
+  .slide-media img{ height: clamp(150px, 36vw, 210px); }
+}
+
+/* Móvil pequeño (mejor UX de controles) */
+@media (max-width: 520px){
+  .px-head{ text-align: left; }
+  .px-sub{ margin-inline: 0; }
+
+  .px-controls{
+    display:grid;
+    grid-template-columns: 44px 1fr 44px;
+    align-items:center;
+    gap: 10px;
+  }
+
+  .dots{
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-inline: 6px;
+  }
+
+  /* ✅ dots más fáciles de tocar */
+  .dot{
+    width: 12px;
+    height: 12px;
+  }
+  .dot[aria-selected="true"]{ width: 28px; }
+
+  /* ✅ suaviza un poco efectos en móviles */
+  .px-grid{ opacity: .16; }
+  .px-blob{ opacity: .62; }
 }
 
 /* Reduced motion */

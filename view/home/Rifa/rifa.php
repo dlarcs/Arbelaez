@@ -3,16 +3,11 @@ $cssTime = filemtime('../../view/home/Rifa/rifa.css');
 $jsTime  = filemtime('../../view/home/Rifa/rifa.js');
 ?>
 <link rel="stylesheet" href="../../view/home/Rifa/rifa.css?v=<?= $cssTime ?>">
-<!-- ================================
-     Arbeláez se llena de color — Slider + Parallax (6 slides)
-     HTML listo para copiar y pegar
-================================ -->
 <main class="page" id="rifa">
   <section class="px-slider" id="pxSlider" aria-label="Slider informativo: Arbeláez se llena de color">
 
     <!-- Parallax background layers -->
     <div class="px-bg" aria-hidden="true">
-      <!-- ✅ Fondo dinámico (cambia por slide) -->
       <span class="px-photo" id="pxPhoto" aria-hidden="true"></span>
 
       <span class="px-blob blob-a"></span>
@@ -34,7 +29,7 @@ $jsTime  = filemtime('../../view/home/Rifa/rifa.js');
         <div class="px-track" id="pxTrack">
 
           <!-- Slide 1 -->
-          <article class="px-slide is-active" data-slide aria-label="1 de 6">
+          <article class="px-slide is-active" data-slide aria-label="1 de 5">
             <div class="slide-card">
               <figure class="slide-media">
                 <img src="../../view/home/Rifa/img/img.png" alt="Negocios coloridos en Arbeláez">
@@ -56,7 +51,7 @@ $jsTime  = filemtime('../../view/home/Rifa/rifa.js');
           </article>
 
           <!-- Slide 2 -->
-          <article class="px-slide" data-slide aria-label="2 de 6">
+          <article class="px-slide" data-slide aria-label="2 de 5">
             <div class="slide-card">
               <figure class="slide-media">
                 <img src="../../view/home/Rifa/img/img1.png" alt="Rifa solidaria en Arbeláez">
@@ -87,7 +82,7 @@ $jsTime  = filemtime('../../view/home/Rifa/rifa.js');
           </article>
 
           <!-- Slide 3 -->
-          <article class="px-slide" data-slide aria-label="3 de 6">
+          <article class="px-slide" data-slide aria-label="3 de 5">
             <div class="slide-card">
               <figure class="slide-media">
                 <img src="../../view/home/Rifa/img/img2.png" alt="Fechas de sorteo y boletas">
@@ -104,7 +99,7 @@ $jsTime  = filemtime('../../view/home/Rifa/rifa.js');
           </article>
 
           <!-- Slide 4 -->
-          <article class="px-slide" data-slide aria-label="4 de 6">
+          <article class="px-slide" data-slide aria-label="4 de 5">
             <div class="slide-card">
               <figure class="slide-media">
                 <img src="../../view/home/Rifa/img/img3.png" alt="Premios de la rifa">
@@ -125,8 +120,8 @@ $jsTime  = filemtime('../../view/home/Rifa/rifa.js');
             </div>
           </article>
 
-          <!-- Slide 6 -->
-          <article class="px-slide" data-slide aria-label="6 de 6">
+          <!-- Slide 5 -->
+          <article class="px-slide" data-slide aria-label="5 de 5">
             <div class="slide-card">
               <figure class="slide-media">
                 <img src="../../view/home/Rifa/img/img5.png" alt="Apoya la iniciativa y participa">
@@ -154,9 +149,7 @@ $jsTime  = filemtime('../../view/home/Rifa/rifa.js');
       <div class="px-controls">
         <button class="nav-btn" id="btnPrev" type="button" aria-label="Anterior">‹</button>
 
-        <div class="dots" id="pxDots" role="tablist" aria-label="Indicadores">
-          <!-- JS inserta los dots -->
-        </div>
+        <div class="dots" id="pxDots" role="tablist" aria-label="Indicadores"></div>
 
         <button class="nav-btn" id="btnNext" type="button" aria-label="Siguiente">›</button>
       </div>
@@ -166,10 +159,5 @@ $jsTime  = filemtime('../../view/home/Rifa/rifa.js');
       </div>
     </div>
   </section>
-
 </main>
-
-
-
-
 <script src="../../view/home/Rifa/rifa.js?v=<?= $jsTime ?>" type="text/javascript" ></script>

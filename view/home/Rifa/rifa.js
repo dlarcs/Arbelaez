@@ -3,6 +3,7 @@
    + Fondo dinámico por slide
    + LOOP
    + Autoplay exacto (cuando termina el tiempo)
+   (responsive + touch friendly)
 ========================================== */
 
 console.log("✅ PARALLAX / SLIDER CARGÓ");
@@ -29,8 +30,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // Autoplay (sin setInterval): sincroniza barra + cambio exacto
   const AUTOPLAY_MS = 6500;
   let rafAuto = 0;
-  let autoElapsed = 0;   // ms acumulados
-  let autoT0 = 0;        // último timestamp
+  let autoElapsed = 0;
+  let autoT0 = 0;
 
   // Build dots
   const dots = slides.map((_, i) => {
@@ -105,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (i > last){
       index = 0;
-      applyTransform(false);   // salto sin “viaje largo”
+      applyTransform(false);
       restartAutoplay();
       return;
     }
@@ -138,7 +139,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   /* ==========================
      Autoplay exacto + progress
-     (la slide cambia cuando p llega a 1)
   =========================== */
   function setProgress(p){
     if (!bar) return;
@@ -155,7 +155,6 @@ document.addEventListener("DOMContentLoaded", () => {
   function tickAutoplay(t){
     if (!autoT0) autoT0 = t;
 
-    // Si está en hover, congelamos el tiempo (no suma elapsed)
     if (isHover){
       autoT0 = t;
       rafAuto = requestAnimationFrame(tickAutoplay);
@@ -172,8 +171,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (autoElapsed >= AUTOPLAY_MS){
       autoElapsed = 0;
       setProgress(0);
-      next(); // ✅ cambia justo al terminar el tiempo
-      // next() llama restartAutoplay() y eso reinicia el timer, así que salimos
+      next(); // cambia justo al terminar el tiempo
       return;
     }
 
@@ -221,7 +219,7 @@ document.addEventListener("DOMContentLoaded", () => {
     dragging = false;
 
     const dx = currentX - startX;
-    const TH = Math.max(60, slideW * 0.12);
+    const TH = Math.max(56, slideW * 0.12);
 
     if (dx > TH) prev();
     else if (dx < -TH) next();
@@ -233,8 +231,9 @@ document.addEventListener("DOMContentLoaded", () => {
     applyTransform(true);
   });
 
-  // Parallax: mouse inside slider (suave)
+  // Parallax: mouse inside slider (✅ no en touch)
   let raf = 0;
+
   function setParallaxVars(clientX, clientY){
     const r = slider.getBoundingClientRect();
     const x = (clientX - r.left) / r.width;
@@ -254,6 +253,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   slider.addEventListener("pointermove", (e) => {
     if (reduceMotion) return;
+    if (e.pointerType === "touch") return; // ✅ clave para móvil
     cancelAnimationFrame(raf);
     raf = requestAnimationFrame(() => setParallaxVars(e.clientX, e.clientY));
   });
