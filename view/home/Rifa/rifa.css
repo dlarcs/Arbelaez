@@ -471,3 +471,63 @@
     transform: none !important;
   }
 }
+/* ==========================
+   ANDROID / TOUCH PATCH
+   (pégalo al final del CSS)
+========================== */
+
+/* Evita scroll horizontal por 1px raro en Android */
+html, body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* 100dvh puede causar saltos en Android: usa 100svh cuando exista */
+.page{
+  min-height: 100vh;
+}
+@supports (height: 100svh){
+  .page{ min-height: 100svh; }
+}
+
+/* Fuerza recorte consistente con border-radius en Android */
+.px-slider{
+  overflow: hidden;              /* más estable que clip en Android */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* Mejora rendering de capas con blur/transforms */
+.px-photo,
+.px-blob,
+.px-grid{
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+/* En pantallas táctiles: baja el "peso" visual para que no se rompa */
+@media (pointer: coarse){
+  /* reduce el blur que en Android se ve “cuadrado” */
+  .px-blob{
+    filter: blur(22px);
+    opacity: .55;
+  }
+
+  /* baja un poquito la grilla */
+  .px-grid{ opacity: .14; }
+
+  /* suaviza el movimiento del fondo */
+  .px-photo{
+    filter: saturate(1.02) contrast(1.02);
+  }
+}
+
+/* En Android muy pequeño, ajusta blobs para que no invadan el contenido */
+@media (max-width: 520px){
+  .blob-a{ left:-240px; top:-280px; }
+  .blob-b{ right:-320px; top:-220px; }
+  .blob-c{ left:10%; bottom:-380px; }
+}
