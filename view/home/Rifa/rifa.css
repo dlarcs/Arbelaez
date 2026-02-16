@@ -3,15 +3,6 @@
    Responsive móvil + tablet + escritorio
 ================================ */
 
-/* Reset suave */
-*,
-*::before,
-*::after{ box-sizing: border-box; }
-
-html, body{
-  height: 100%;
-  margin: 0;
-}
 
 :root{
   --bg0:#07151a;
