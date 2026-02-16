@@ -13,10 +13,10 @@
   <link rel="canonical" href="https://www.arbelaez.com.co/">
   <?php
     $cssTime = filemtime('../../view/home/style.css');
-    $jsTime  = filemtime('../../view/home/style.js');
+    $jsTime  = filemtime('../../view/home/app.js');
   ?>
   <link rel="stylesheet" href="../../view/home/style.css?v=<?= $cssTime ?>">
-  <script src="../../view/home/style.js?v=<?= $jsTime ?>" defer></script>
+  <script src="../../view/home/app.js?v=<?= $jsTime ?>" defer></script>
 
 
   <!-- Fuente: optimizada con preconnect -->
@@ -82,6 +82,7 @@
     <?php include "../../view/home/slider/slider.php" ?>
     <?php include "../../view/home/places/places.php" ?>
     <?php include "../../view/home/imagen/imagen.php" ?>
+    <?php include "../../view/home/Rifa/rifa.php" ?>
     <?php include "../../view/home/text/text.php" ?>
     <?php include "../../view/home/maps/maps.php" ?>
     <?php include "../../view/global/footer/footer.php"?>

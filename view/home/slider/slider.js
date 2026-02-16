@@ -1,125 +1,244 @@
-/**
- * Slider accesible y responsive
- * - Auto-play cada 10s
- * - Pausa al hover y al enfocar con teclado
- * - Navegación por flechas, puntos, teclado, y swipe táctil
- */
+(() => {
+  const sliderEl = document.getElementById("sliderMain");
+  const sliderBg = sliderEl.querySelector(".slider__bg");
+  const sliderDotsWrap = sliderEl.querySelector("[data-slider-dots]");
+  const sliderPrevBtn = sliderEl.querySelector("[data-slider-prev]");
+  const sliderNextBtn = sliderEl.querySelector("[data-slider-next]");
+  const sliderProgressBar = sliderEl.querySelector("[data-slider-progress]");
 
-class Slider {
-  constructor(root, {interval = 10000} = {}) {
-    this.root = root;
-    this.track = root.querySelector('.slider__track');
-    this.slides = Array.from(root.querySelectorAll('.slide'));
-    this.prevBtn = root.querySelector('.slider__btn--prev');
-    this.nextBtn = root.querySelector('.slider__btn--next');
-    this.dots = Array.from(root.querySelectorAll('.dot'));
-    this.viewport = root.querySelector('.slider__viewport');
+  // ✅ Slides (sin ghostText / ghostHref)
+  const sliderSlides = [
+    {
+      img: "../../view/home/img/lugar3.jpg",
+      badge: "Arbeláez, Cundinamarca • 2026",
+      titleTop: "Arbeláez se llena de",
+      titleAccent: "color",
+      desc:
+        "Iniciativa comunitaria para embellecer, dar identidad visual y aumentar la visibilidad de los negocios de Arbeláez mediante murales, pintura de fachadas y señalización.",
+      primaryText: "Conocer más",
+      primaryHref: "#rifa",
+    },
+    {
+      img: "../../view/home/img/lugar2.jpg",
+      badge: "Arbeláez, Cundinamarca • 2026",
+      titleTop: "Murales que cuentan",
+      titleAccent: "historias",
+      desc:
+        "Arte público para fortalecer la identidad del municipio y hacer que cada calle se sienta más viva y memorable. Proximamente arbelaez se llena de color",
+      primaryText: "Proximamente",
+      primaryHref: "#conocer",
+    },
+    {
+      img: "../../view/gastronomia/La_Marranada/img/especial7.jpg",
+      badge: "Arbeláez, Cundinamarca • 2026",
+      titleTop: "Gastronomía",
+      titleAccent: "Arbelaence",
+      desc:
+        "Gastronomía casera y sabores auténticos en Arbeláez, perfectos para compartir y recordar.",
+      primaryText: "Conocer más",
+      primaryHref: "../../view/gastronomia/index.php",
+    },
+    {
+      img: "../../view/artesanias/Artesanias_Martha_E/img/manillas2.jpeg",
+      badge: "Arbeláez, Cundinamarca • 2026",
+      titleTop: "Arte que",
+      titleAccent: "inspira",
+      desc:
+        "Arbeláez las artesanías no son solo objetos: son memoria y cultura viva, creadas con amor para acompañar la vida diaria.",
+      primaryText: "Conocer más",
+      primaryHref: "#conocer",
+    },
+    {
+      img: "../../view/alojamiento/Casa_Kiyari/img/general12.jpg",
+      badge: "Arbeláez, Cundinamarca • 2026",
+      titleTop: "Alojamientos con",
+      titleAccent: "estilo",
+      desc:
+        "Entre montañas y tranquilidad, encuentras el lugar ideal para recargar energía y crear recuerdos inolvidables.",
+      primaryText: "Conocer más",
+      primaryHref: "../../view/alojamiento/index.php",
+    },
+  ];
 
-    this.index = 0;
-    this.intervalTime = interval;
-    this.timer = null;
+  const sliderTitleEl = document.getElementById("sliderTitle");
+  const sliderBadgeEl = document.getElementById("sliderBadge");
+  const sliderDescEl = document.getElementById("sliderDesc");
+  const sliderPrimaryLink = document.getElementById("sliderBtnPrimary");
 
-    this.bind();
-    this.update();
-    this.play();
+  const sliderReducedMotion =
+    window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches;
 
-    // Observa redimensionamiento para fijar el ancho correcto (opcional con flex, pero útil en algunos layouts)
-    new ResizeObserver(() => this.goto(this.index, false)).observe(this.root);
+  let sliderIndex = 0;
+  let sliderTimer = null;
+
+  const SLIDER_AUTOPLAY_MS = 6500;
+  const SLIDER_TEXT_OUT_MS = sliderReducedMotion ? 0 : 260;
+  const SLIDER_AFTER_SWAP_MS = sliderReducedMotion ? 0 : 80;
+
+  // Preload
+  sliderSlides.forEach((s) => {
+    const img = new Image();
+    img.src = s.img;
+  });
+
+  function sliderSetText(slide) {
+    sliderBadgeEl.querySelector(".slider__badgeText").textContent = slide.badge;
+
+    sliderTitleEl.innerHTML = `
+      ${slide.titleTop}<br />
+      <span class="slider__titleGradient">${slide.titleAccent}</span>
+    `;
+
+    sliderDescEl.textContent = slide.desc;
+
+    sliderPrimaryLink.textContent = slide.primaryText;
+    sliderPrimaryLink.setAttribute("href", slide.primaryHref);
   }
 
-  bind(){
-    // Botones
-    this.prevBtn.addEventListener('click', () => this.prev());
-    this.nextBtn.addEventListener('click', () => this.next());
+  function sliderSetBg(slide) {
+    sliderBg.style.opacity = "0";
+    window.setTimeout(() => {
+      sliderBg.style.backgroundImage = `url("${slide.img}")`;
+      sliderBg.style.opacity = "1";
+    }, sliderReducedMotion ? 0 : 220);
+  }
 
-    // Puntos
-    this.dots.forEach(dot => {
-      dot.addEventListener('click', () => this.goto(+dot.dataset.index));
+  function sliderBuildDots() {
+    sliderDotsWrap.innerHTML = "";
+    sliderSlides.forEach((_, i) => {
+      const dot = document.createElement("button");
+      dot.className = "sliderDot";
+      dot.type = "button";
+      dot.setAttribute("role", "tab");
+      dot.setAttribute("aria-label", `Ir al slide ${i + 1}`);
+      dot.setAttribute(
+        "aria-selected",
+        i === sliderIndex ? "true" : "false"
+      );
+      dot.addEventListener("click", () => sliderGoTo(i, true));
+      sliderDotsWrap.appendChild(dot);
     });
-
-    // Teclado (cuando el viewport tiene foco)
-    this.viewport.addEventListener('keydown', (e) => {
-      if (e.key === 'ArrowLeft') this.prev();
-      if (e.key === 'ArrowRight') this.next();
-    });
-
-    // Hover / Focus: pausar
-    ['mouseenter','focusin'].forEach(ev => this.root.addEventListener(ev, () => this.pause()));
-    ['mouseleave','focusout'].forEach(ev => this.root.addEventListener(ev, () => this.play()));
-
-    // Swipe táctil
-    this.#bindTouch();
   }
 
-  play(){
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    this.clear();
-    this.timer = setInterval(() => this.next(), this.intervalTime);
-  }
-  pause(){ this.clear(); }
-  clear(){ if (this.timer) { clearInterval(this.timer); this.timer = null; } }
-
-  prev(){ this.goto((this.index - 1 + this.slides.length) % this.slides.length); }
-  next(){ this.goto((this.index + 1) % this.slides.length); }
-
-  goto(i, animate = true){
-    this.index = i;
-    const offset = -i * this.root.clientWidth;
-    if (!animate) this.track.style.transition = 'none';
-    this.track.style.transform = `translate3d(${offset}px,0,0)`;
-    // force reflow to re-enable transition later if it was disabled
-    if (!animate) requestAnimationFrame(() => (this.track.style.transition = ''));
-
-    // Estado visual
-    this.slides.forEach((s, idx) => s.classList.toggle('is-current', idx === i));
-    this.dots.forEach((d, idx) => d.classList.toggle('is-active', idx === i));
-    this.dots.forEach((d, idx) => {
-      d.setAttribute('aria-selected', String(idx === i));
-    });
+  function sliderSyncDots() {
+    const dots = sliderDotsWrap.querySelectorAll(".sliderDot");
+    dots.forEach((d, i) =>
+      d.setAttribute("aria-selected", i === sliderIndex ? "true" : "false")
+    );
   }
 
-  #bindTouch(){
-    let startX = 0, currentX = 0, isDown = false, startTime = 0;
+  function sliderGoTo(nextIndex, userAction = false) {
+    sliderIndex = (nextIndex + sliderSlides.length) % sliderSlides.length;
 
-    const onStart = (x) => { isDown = true; startX = currentX = x; startTime = Date.now(); this.pause(); };
-    const onMove  = (x) => {
-      if (!isDown) return;
-      currentX = x;
-      const dx = currentX - startX;
-      this.track.style.transition = 'none';
-      const base = -this.index * this.root.clientWidth;
-      this.track.style.transform = `translate3d(${base + dx}px,0,0)`;
-    };
-    const onEnd = () => {
-      if (!isDown) return;
-      isDown = false;
-      const dx = currentX - startX;
-      const dt = Date.now() - startTime;
-      const threshold = this.root.clientWidth * 0.18; // 18% del ancho o swipe rápido
-      const quick = dt < 250 && Math.abs(dx) > 30;
+    if (!sliderReducedMotion) sliderEl.classList.add("is-textOut");
 
-      this.track.style.transition = '';
-      if (dx > threshold || (dx > 0 && quick)) this.prev();
-      else if (dx < -threshold || (dx < 0 && quick)) this.next();
-      else this.goto(this.index); // volver
+    window.setTimeout(() => {
+      sliderSetText(sliderSlides[sliderIndex]);
+      sliderSetBg(sliderSlides[sliderIndex]);
+      sliderSyncDots();
 
-      this.play();
-    };
+      if (!sliderReducedMotion) {
+        sliderEl.classList.remove("is-moving");
+        void sliderEl.offsetWidth;
+        sliderEl.classList.add("is-moving");
+      }
 
-    // Eventos táctiles
-    this.root.addEventListener('touchstart', e => onStart(e.touches[0].clientX), {passive:true});
-    this.root.addEventListener('touchmove',  e => onMove(e.touches[0].clientX), {passive:true});
-    this.root.addEventListener('touchend', onEnd);
+      window.setTimeout(() => {
+        sliderEl.classList.remove("is-textOut");
+      }, SLIDER_AFTER_SWAP_MS);
 
-    // Eventos mouse (drag suave opcional)
-    this.root.addEventListener('mousedown', e => onStart(e.clientX));
-    window.addEventListener('mousemove', e => onMove(e.clientX));
-    window.addEventListener('mouseup', onEnd);
+      if (userAction) sliderRestartAutoplay();
+    }, SLIDER_TEXT_OUT_MS);
   }
-}
 
-// Inicializar
-window.addEventListener('DOMContentLoaded', () => {
-  const sliderEl = document.querySelector('.slider');
-  new Slider(sliderEl, { interval: 10000 }); // 10s
-});
+  function sliderNext(userAction = false) {
+    sliderGoTo(sliderIndex + 1, userAction);
+  }
+  function sliderPrev(userAction = false) {
+    sliderGoTo(sliderIndex - 1, userAction);
+  }
+
+  function sliderStartAutoplay() {
+    sliderStopAutoplay();
+    let start = performance.now();
+
+    sliderTimer = window.setInterval(() => {
+      sliderNext(false);
+      start = performance.now();
+    }, SLIDER_AUTOPLAY_MS);
+
+    if (sliderProgressBar) {
+      const tick = () => {
+        if (!sliderTimer) return;
+        const now = performance.now();
+        const pct = Math.min(100, ((now - start) / SLIDER_AUTOPLAY_MS) * 100);
+        sliderProgressBar.style.width = pct + "%";
+        requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+    }
+  }
+
+  function sliderStopAutoplay() {
+    if (sliderTimer) {
+      clearInterval(sliderTimer);
+      sliderTimer = null;
+    }
+    if (sliderProgressBar) sliderProgressBar.style.width = "0%";
+  }
+
+  function sliderRestartAutoplay() {
+    sliderStartAutoplay();
+  }
+
+  // Pause on hover
+  sliderEl.addEventListener("mouseenter", () => sliderStopAutoplay());
+  sliderEl.addEventListener("mouseleave", () => sliderStartAutoplay());
+
+  // Buttons
+  sliderNextBtn.addEventListener("click", () => sliderNext(true));
+  sliderPrevBtn.addEventListener("click", () => sliderPrev(true));
+
+  // Keyboard
+  window.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowRight") sliderNext(true);
+    if (e.key === "ArrowLeft") sliderPrev(true);
+  });
+
+  // Swipe (mobile)
+  let touchX = 0;
+  let touchY = 0;
+
+  sliderEl.addEventListener(
+    "touchstart",
+    (e) => {
+      const t = e.touches[0];
+      touchX = t.clientX;
+      touchY = t.clientY;
+    },
+    { passive: true }
+  );
+
+  sliderEl.addEventListener(
+    "touchend",
+    (e) => {
+      const t = e.changedTouches[0];
+      const dx = t.clientX - touchX;
+      const dy = t.clientY - touchY;
+
+      if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) {
+        if (dx < 0) sliderNext(true);
+        else sliderPrev(true);
+      }
+    },
+    { passive: true }
+  );
+
+  // Init
+  sliderBg.style.backgroundImage = `url("${sliderSlides[0].img}")`;
+  sliderSetText(sliderSlides[0]);
+  sliderBuildDots();
+
+  if (!sliderReducedMotion) sliderEl.classList.add("is-moving");
+  sliderStartAutoplay();
+})();

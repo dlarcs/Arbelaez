@@ -3,69 +3,52 @@ $cssTime = filemtime('../../view/home/slider/slider.css');
 $jsTime  = filemtime('../../view/home/slider/slider.js');
 ?>
 <link rel="stylesheet" href="../../view/home/slider/slider.css?v=<?= $cssTime ?>">
-<section class="slider" aria-roledescription="carrusel" aria-label="Galería destacada">
 
+<header class="slider" id="sliderMain" aria-roledescription="carrusel" aria-label="Slider principal">
+  <!-- Fondo (se actualiza por JS) -->
+  <div class="slider__bg" aria-hidden="true"></div>
 
-  <div class="slider__viewport" tabindex="0">
-    <div class="slider__track" id="slider-track">
-      <!-- Slide 1 -->
-      <article id="slide-1" class="slide is-current" aria-roledescription="slide" aria-label="1 de 4">
-        <img src="../../view/home/img/tourganador.png" alt="Montañas al amanecer">
-        <div class="slide__caption">
-          <h2>Don Ciprio</h2>
-          <a href="#tourburger"><p>Ubicación Casa de los Pajaros</p></a>
-        </div>
-      </article>
+  <!-- Overlay oscuro para legibilidad -->
+  <div class="slider__overlay" aria-hidden="true"></div>
 
-      <!-- Slide 2 -->
-      <article id="slide-2" class="slide" aria-roledescription="slide" aria-label="2 de 4">
-        <img src="../../view/alojamiento/Casa_Kiyari/img/rio3.jpg" alt="Bosque con luz dorada">
-        <div class="slide__caption">
-          <h2>Explora</h2>
-          <p>Paisajes y caminos por descubrir.</p>
-        </div>
-      </article>
+  <div class="slider__inner">
+    <div class="slider__badge" id="sliderBadge">
+      <span class="slider__badgeIcon" aria-hidden="true">📍</span>
+      <span class="slider__badgeText">Arbeláez, Cundinamarca • 2026</span>
+    </div>
 
-      <!-- Slide 3 -->
-      <article id="slide-3" class="slide" aria-roledescription="slide" aria-label="3 de 4">
-        <img src="../../view/home/img/lugar4.jpg" alt="Lago tranquilo">
-        <div class="slide__caption">
-          <h2>Respira</h2>
-          <p>Momentos de calma y conexión.</p>
-        </div>
-      </article>
+    <h1 class="slider__title" id="sliderTitle">
+      Arbeláez se llena de<br />
+      <span class="slider__titleGradient">color</span>
+    </h1>
 
-      <!-- Slide 4 -->
-      <article id="slide-4" class="slide" aria-roledescription="slide" aria-label="4 de 4">
-        <img src="../../view/home/img/flor1.jpg" alt="Carretera hacia el horizonte">
-        <div class="slide__caption">
-          <h2>Avanza</h2>
-          <p>Tu próxima aventura comienza aquí.</p>
-        </div>
-      </article>
+    <p class="slider__desc" id="sliderDesc">
+      Iniciativa comunitaria para embellecer, dar identidad visual y aumentar la visibilidad
+      de los negocios de Arbeláez mediante murales, pintura de fachadas y señalización.
+    </p>
+
+    <div class="slider__actions">
+      <a class="sliderBtn sliderBtn--primary" href="#conocer" id="sliderBtnPrimary">Conocer más</a>
+    </div>
+
+    <!-- Controles -->
+    <div class="slider__controls">
+      <button class="sliderNav sliderNav--prev" type="button" aria-label="Anterior" data-slider-prev>
+        <span aria-hidden="true">‹</span>
+      </button>
+
+      <div class="slider__dots" role="tablist" aria-label="Indicadores del slider" data-slider-dots></div>
+
+      <button class="sliderNav sliderNav--next" type="button" aria-label="Siguiente" data-slider-next>
+        <span aria-hidden="true">›</span>
+      </button>
     </div>
   </div>
 
-  <!-- Controles -->
-  <button class="slider__btn slider__btn--prev" type="button" aria-label="Anterior" data-dir="-1">‹</button>
-  <button class="slider__btn slider__btn--next" type="button" aria-label="Siguiente" data-dir="1">›</button>
-
-  <!-- Puntos -->
-  <div class="slider__dots" role="tablist" aria-label="Selector de diapositivas">
-    <button class="dot is-active" role="tab" aria-selected="true" aria-controls="slide-1" data-index="0">
-      <span class="sr">Ir a la 1</span>
-    </button>
-    <button class="dot" role="tab" aria-selected="false" aria-controls="slide-2" data-index="1">
-      <span class="sr">Ir a la 2</span>
-    </button>
-    <button class="dot" role="tab" aria-selected="false" aria-controls="slide-3" data-index="2">
-      <span class="sr">Ir a la 3</span>
-    </button>
-    <button class="dot" role="tab" aria-selected="false" aria-controls="slide-4" data-index="3">
-      <span class="sr">Ir a la 4</span>
-    </button>
+  <!-- Barra de progreso -->
+  <div class="slider__progress" aria-hidden="true">
+    <div class="slider__progressBar" data-slider-progress></div>
   </div>
-</section>
-
+</header>
 
 <script src="../../view/home/slider/slider.js?v=<?= $jsTime ?>" type="text/javascript"></script>

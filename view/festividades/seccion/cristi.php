@@ -11,6 +11,19 @@
 
 	// ====== Configuración de festividades ======
 	$festividades = [
+		[
+		  'name'     => 'Cumpleaños de Arbeláez',
+		  'slug'     => 'cumpleanos-arbelaez',
+		  'img'      => '../../view/home/img/lugar.jpg',
+		  'img_alt'  => 'Cumpleaños de Arbeláez: actos culturales y celebración en el parque principal',
+		  'zone'     => 'Pueblo',
+		  'schema'   => 'Event',
+		  'date'     => '16 de enero',
+		  'place'    => 'Parque principal y centro del pueblo',
+		  'desc'     => 'Celebración del aniversario municipal de Arbeláez, con actividades culturales, deportivas y turísticas para residentes y visitantes. Suele incluir presentaciones artísticas y verbena popular en el centro del pueblo.',
+		  'features' => ['Actos culturales', 'Actividades deportivas', 'Verbena popular'],
+		],
+
 	  [
 	    'name'     => 'Corpus Christi',
 	    'slug'     => 'corpus-christi',
@@ -42,7 +55,7 @@
 
 	<section class="section_restos" aria-labelledby="fest-title">
 	  <header class="section_head">
-	    <h1 id="fest-title">Festividades y cultura arbelaense</h1>
+	    <h1 id="fest-title">Festividades y cultura arbelaence</h1>
 	    <p class="section_sub">
 	      Conoce nuestras tradiciones: fechas, lugares y detalles principales.
 	    </p>
