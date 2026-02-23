@@ -117,7 +117,7 @@
     <?php include "../../view/insectos/seccion/insectos.php" ?>
 
     <!-- Mapa (ideal para “spots”/rutas de naturaleza) -->
-    <?php include "../../view/insectos/maps/maps.php" ?>
+    <?php include "../../view/insectos/text/text.php" ?>
 
     <?php include "../../view/global/footer/footer.php" ?>
   </div>
