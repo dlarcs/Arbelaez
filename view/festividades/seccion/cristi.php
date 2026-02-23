@@ -55,7 +55,7 @@
 
 	<section class="section_restos" aria-labelledby="fest-title">
 	  <header class="section_head">
-	    <h1 id="fest-title">Festividades y cultura arbelaence</h1>
+	    <h1 id="fest-title">Festividades y cultura Arbelaence</h1>
 	    <p class="section_sub">
 	      Conoce nuestras tradiciones: fechas, lugares y detalles principales.
 	    </p>
