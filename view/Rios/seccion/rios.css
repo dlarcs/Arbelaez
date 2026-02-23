@@ -1,0 +1,166 @@
+:root{
+  --bg: #F0EEE6;         /* fondo marfil */
+  --card: #ffffff;
+  --text: #2e4637;       /* verde oscuro del texto */
+  --muted: rgba(46,70,55,.72);
+  --stroke: rgba(0,0,0,.08);
+
+  --pill: #B5794B;       /* terracota */
+  --pillText: #fafafa;
+
+  --radius: 28px;
+  --shadow: 0 18px 50px rgba(0,0,0,.16);
+}
+
+.page{
+  width: 100vw;
+  margin: 0 auto;
+  padding: 10%;
+  box-sizing:border-box;
+  margin:0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.top{
+  padding: 8px 2px 18px;
+}
+.top h1{
+  margin: 0 0 6px;
+  font-size: clamp(1.6rem, 3.2vw, 2.4rem);
+  letter-spacing: .2px;
+}
+.top p{
+  margin: 0;
+  color: var(--muted);
+  max-width: 70ch;
+  line-height: 1.5;
+}
+
+/* ✅ GRID responsive: 1 / 2 / 3 */
+.grid{
+  display: grid;
+  gap: clamp(14px, 2vw, 22px);
+  grid-template-columns: 1fr;
+  margin-top: 18px;
+}
+@media (min-width: 780px){
+  .grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 1120px){
+  .grid{ grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+/* CARD */
+.card{
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--card);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--stroke);
+}
+
+/* Imagen */
+.card__media{
+  position: relative;
+  height: clamp(220px, 26vw, 320px);
+  background: var(--img) center/cover no-repeat;
+}
+
+/* Overlay para que el texto se lea */
+.card__media::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(180deg, rgba(0,0,0,.10) 0%,
+                           rgba(0,0,0,.30) 55%,
+                           rgba(0,0,0,.52) 100%);
+}
+
+/* Píldora categoría */
+.pill{
+  position:absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 2;
+  background: var(--pill);
+  color: var(--pillText);
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+  letter-spacing: .2px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.18);
+}
+
+/* Texto sobre la foto */
+.card__overlay{
+  position:absolute;
+  left: 18px;
+  right: 18px;
+  bottom: 18px;
+  z-index: 2;
+  color: #fff;
+}
+
+.card__title{
+  margin: 0 0 8px;
+  font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: clamp(2rem, 3.6vw, 3.1rem);
+  line-height: 1.02;
+  letter-spacing: .2px;
+  text-shadow: 0 12px 30px rgba(0,0,0,.35);
+}
+
+.card__meta{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(255,255,255,.86);
+  font-size: 1.05rem;
+}
+
+.meta__icon{
+  display:inline-grid;
+  place-items:center;
+  width: 24px;
+  height: 24px;
+  color: rgba(255,255,255,.92);
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,.25));
+}
+
+/* Cuerpo */
+.card__body{
+  padding: 26px 28px 26px;
+}
+
+.card__desc{
+  margin: 0 0 18px;
+  font-size: clamp(1.08rem, 1.2vw, 1.22rem);
+  line-height: 1.75;
+  color: rgba(46,70,55,.88);
+}
+
+/* Link "Cómo llegar" */
+.card__link{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  font-weight: 800;
+  color: var(--pill);
+  font-size: 1.12rem;
+}
+
+.link__icon{
+  display:inline-grid;
+  place-items:center;
+  width: 22px;
+  height: 22px;
+}
+
+.card__link:hover{
+  text-decorati

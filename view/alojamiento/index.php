@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Alojamiento - Accommodation in Arbeláez – Cabins, Country Stays, Pool & River Retreats</title>
+  <title>Alojamiento en Arbeláez- Accommodation in Arbeláez – Cabins, Country Stays, Pool & River Retreats</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Language & robots -->

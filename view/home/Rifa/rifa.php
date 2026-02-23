@@ -130,14 +130,17 @@ $jsTime  = filemtime('../../view/home/Rifa/rifa.js');
               <div class="slide-kicker">Participa</div>
               <h2 class="slide-title">Apoya el arte local y gana premios</h2>
               <ul class="slide-list">
-                <li>Compra tu boleta en negocios aliados</li>
+                <li>Compra tu boleta en negocios aliados: Haz lick en:</li>
+                <a href="../../view/gastronomia/kalu/index.php"><li>Kalu</li></a>
+                <a href="../../view/alojamiento/Cachorros_LyC/index.php"><li>Cachorros L&C</li></a>
+                <a href="../../view/gastronomia/Don_Ciprio/index.php"><li>Don Ciprio</li></a>
+                <a href="../../view/gastronomia/El_Fogon_del_Triangulo/index.php"><li>Fogon del triangulo</li></a>
                 <li>Ayudas a financiar <strong>murales</strong>, <strong>pintura</strong> y <strong>señalización</strong></li>
                 <li>Más color = más visibilidad para Arbeláez</li>
               </ul>
 
               <div class="cta">
-                <a class="btn" href="#conocer">Conocer más</a>
-                <a class="btn btn-ghost" href="#participar">Cómo participar</a>
+                <a class="btn" href="https://wa.me/573138846378?text=Hola%20quiero%20m%C3%A1s%20informaci%C3%B3n">Conocer más</a>
               </div>
             </div>
           </article>

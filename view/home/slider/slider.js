@@ -46,7 +46,7 @@
       desc:
         "Arbeláez las artesanías no son solo objetos: son memoria y cultura viva, creadas con amor para acompañar la vida diaria.",
       primaryText: "Conocer más",
-      primaryHref: "#conocer",
+      primaryHref: "../../view/artesanias/index.php",
     },
     {
       img: "../../view/alojamiento/Casa_Kiyari/img/general12.jpg",

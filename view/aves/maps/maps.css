@@ -1,0 +1,138 @@
+
+:root{
+  --eco-ink: #f5f3ed;     /* marfil para títulos */
+  --eco-muted: rgba(245,243,237,.80);
+
+  --radius: 26px;
+  --max: 1180px;
+}
+
+/* Sección */
+.eco{
+  width: 100%;
+  color: var(--eco-ink);
+  padding: 5%;
+  display: flex;
+  overflow: hidden; /* para que no se vean cosas fuera al animar */
+  background-color: black;
+}
+
+.eco__inner{
+  width: min(var(--max), 92vw);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.05fr .95fr;
+  gap: clamp(18px, 3vw, 36px);
+  align-items: center;
+}
+
+/* Responsive */
+@media (max-width: 900px){
+  .eco__inner{
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Texto */
+.eco__title{
+  margin: 0 0 18px;
+  font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: clamp(2.4rem, 4.8vw, 4.6rem);
+  line-height: 1.05;
+  letter-spacing: .2px;
+}
+
+.eco__p{
+  margin: 0 0 22px;
+  color: var(--eco-muted);
+  font-size: clamp(1.1rem, 1.5vw, 2rem);
+  line-height: 1.85;
+  max-width: 60ch;
+}
+
+.eco__note{
+  margin: 0;
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 12px;
+  align-items: start;
+  color: rgba(245,243,237,.72);
+  font-size: clamp(.98rem, 1.2vw, 1.1rem);
+  line-height: 1.65;
+}
+
+.eco__icon{
+  display: inline-grid;
+  place-items: center;
+  color: rgba(245,243,237,.85);
+  transform: translateY(2px);
+}
+
+/* Imagen */
+.eco__media{
+  margin: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,.30);
+  border: 1px solid rgba(255,255,255,.12);
+}
+
+.eco__img{
+  width: 100%;
+  height: clamp(320px, 40vw, 520px);
+  object-fit: cover;
+  display: block;
+
+  /* parallax controlado por JS */
+  --py: 0px;
+  transform: translate3d(0, var(--py), 0) scale(1.06);
+  will-change: transform;
+}
+
+/* ===== Animación “aparece de los lados” ===== */
+.js-reveal-left,
+.js-reveal-right{
+  opacity: 0;
+  transform: translate3d(0,0,0);
+  filter: blur(6px);
+  transition:
+    opacity .9s ease,
+    transform .9s ease,
+    filter .9s ease;
+}
+
+.js-reveal-left{
+  transform: translate3d(-60px, 0, 0);
+}
+
+.js-reveal-right{
+  transform: translate3d(60px, 0, 0);
+}
+.eco .js-reveal-right:not(.is-visible){
+  transition-delay: 0s;
+}
+/* Estado visible */
+.is-visible{
+  opacity: 1;
+  transform: translate3d(0,0,0);
+  filter: blur(0);
+}
+
+/* Stagger: imagen entra un pelín después */
+.eco .js-reveal-right{
+  transition-delay: .12s;
+}
+
+/* Accesibilidad */
+@media (prefers-reduced-motion: reduce){
+  .js-reveal-left, .js-reveal-right{
+    transition: none;
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+  .eco__img{
+    transform: none;
+  }
+}

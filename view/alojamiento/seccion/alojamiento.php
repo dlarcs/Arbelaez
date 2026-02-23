@@ -20,7 +20,7 @@ $lodgings = [
     'distance'  => '15 min 🚶',
     'reserve'   => ['type' => 'wa', 'phone' => '573227011059', 'label' => '24 horas'],
     'category'  => 'Rural',
-    'desc'      => 'Espacio para acampar, llevar camping. Ambiente relajado y carne asada fines de semana, disfruta con amigos, parqueadero disponible.'
+    'desc'      => 'Espacio para acampar, llevar carpa. Ambiente relajado y carne asada fines de semana, disfruta con amigos, parqueadero disponible.'
   ],
   [
     'name'      => 'Turismo Hoy Vivo',
