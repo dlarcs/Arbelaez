@@ -17,19 +17,9 @@
     $cssMain = '../../view/insectos/style.css';
     $cssTime = file_exists($cssMain) ? filemtime($cssMain) : time();
 
-    // CSS específico para la galería de insectos
-    $cssInsects = '../../view/insectos/seccion/insectos_gallery.css';
-    $cssInsectsTime = file_exists($cssInsects) ? filemtime($cssInsects) : time();
   ?>
   <link rel="stylesheet" href="../../view/insectos/style.css?v=<?= $cssTime ?>">
-  <link rel="stylesheet" href="../../view/insectos/seccion/insectos_gallery.css?v=<?= $cssInsectsTime ?>">
 
-  <!-- JS para galería / filtros / lightbox -->
-  <?php
-    $jsInsects = '../../view/insectos/seccion/insectos_gallery.js';
-    $jsInsectsTime = file_exists($jsInsects) ? filemtime($jsInsects) : time();
-  ?>
-  <script src="../../view/insectos/seccion/insectos_gallery.js?v=<?= $jsInsectsTime ?>" defer></script>
 
   <!-- Font: optimized -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -112,13 +102,8 @@
 
   <div class="container_insectos">
     <?php include "../../view/insectos/slider/slider.php" ?>
-
-    <!-- Sección dedicada a insectos (galería + filtros + lightbox) -->
     <?php include "../../view/insectos/seccion/insectos.php" ?>
-
-    <!-- Mapa (ideal para “spots”/rutas de naturaleza) -->
     <?php include "../../view/insectos/text/text.php" ?>
-
     <?php include "../../view/global/footer/footer.php" ?>
   </div>
 </body>

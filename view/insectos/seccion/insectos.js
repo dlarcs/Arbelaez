@@ -7,21 +7,21 @@ const INSECTS = [
   // Mariposas
   {
     id: 1,
-    name: "Mariposa monarca",
-    category: "Mariposas",
-    scientific: "Danaus plexippus",
-    photographer: "Nathalia Josa",
-    desc: "Reconocida por sus alas naranja y negro. Suele verse en jardines y bordes de camino con flores.",
-    img: "https://picsum.photos/seed/mariposa-monarca/1200/800"
+    name: "Esperanza verde",
+    category: "Grillo",
+    scientific: "Microcentrum sp.",
+    photographer: "Ana Grisales",
+    desc: "Es una mariposa tropical de presencia majestuosa, admirada por la armonía de sus formas y la elegancia serena de su vuelo, símbolo de belleza en los ecosistemas americanos.",
+    img: "../../view/insectos/img/grillo.jpeg"
   },
   {
     id: 2,
-    name: "Mariposa morpho azul",
+    name: "Mariposa malaquita",
     category: "Mariposas",
-    scientific: "Morpho menelaus",
-    photographer: "Diego Ramírez",
+    scientific: "Siproeta stelenes",
+    photographer: "Ana Grisales",
     desc: "Su azul iridiscente brilla con luz suave. Ideal para fotos en sombra abierta.",
-    img: "https://picsum.photos/seed/morpho-azul/1200/800"
+    img: "../../view/insectos/img/mariposa.jpeg"
   },
   {
     id: 3,
