@@ -38,7 +38,7 @@
   <!-- Open Graph -->
   <meta property="og:locale" content="es_CO">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Arbeláez Turismo – Naturaleza, gastronomía y alojamiento">
+  <meta property="og:title" content="Arbeláez Turismo – Naturaleza, artesanías, gastronomía, alojamiento en Cundinamarca, lugares turisticos">
   <meta property="og:description" content="Explora Arbeláez: planes de naturaleza, gastronomía local y alojamientos para todos los gustos.">
   <meta property="og:url" content="https://www.arbelaez.com.co/">
   <meta property="og:image" content="https://www.arbelaez.com.co/view/home/img/og-1200x630.jpg">

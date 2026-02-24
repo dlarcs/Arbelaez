@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Artesanías en Arbeláez - Handicrafts in Arbeláez – Local Artisans, Handmade Gifts & Cultural Crafts</title>
+  <title>Artesanías en Arbeláez - Handicrafts in Arbeláez</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Language & robots -->
@@ -35,7 +35,7 @@
   <!-- Open Graph -->
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Handicrafts in Arbeláez – Local Artisans & Handmade Gifts">
+  <meta property="og:title" content="Artesanías en Arbeláez - Handicrafts in Arbeláez">
   <meta property="og:description" content="Explore authentic crafts made by local artisans in Arbeláez. Unique souvenirs, handmade gifts and traditional products near Bogotá.">
   <meta property="og:url" content="https://www.arbelaez.com.co/artesanias/">
   <meta property="og:image" content="https://www.arbelaez.com.co/view/home/img/og-1200x630.jpg">

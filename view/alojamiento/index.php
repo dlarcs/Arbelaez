@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Alojamiento en Arbeláez- Accommodation in Arbeláez – Cabins, Country Stays, Pool & River Retreats</title>
+  <title>Alojamiento en Arbeláez - Accommodation in Arbeláez</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Language & robots -->
@@ -35,7 +35,7 @@
   <!-- Open Graph -->
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Accommodation in Arbeláez – River, Pool & Jacuzzi Stays">
+  <meta property="og:title" content="Alojamiento en Arbeláez - Accommodation in Arbeláez">
   <meta property="og:description" content="Explore comfortable and affordable stays in Arbeláez: riverside cabins, pool retreats, jacuzzi options, BBQ areas and nature views near Bogotá.">
   <meta property="og:url" content="https://www.arbelaez.com.co/alojamiento/">
   <meta property="og:image" content="https://www.arbelaez.com.co/view/home/img/og-1200x630.jpg">
