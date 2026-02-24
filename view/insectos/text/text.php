@@ -1,8 +1,8 @@
 <?php
-$cssTime = filemtime('../../view/Aves/text/text.css'); // ejemplo: '../Home/5.Video/video.css'
-$jsTime = filemtime('../../view/Aves/text/text.js');
+$cssTime = filemtime('../../view/insectos/text/text.css'); // ejemplo: '../Home/5.Video/video.css'
+$jsTime = filemtime('../../view/insectos/text/text.js');
 ?>
-<link rel="stylesheet" href="../../view/Aves/text/text.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../../view/insectos/text/text.css?v=<?= $cssTime ?>">
 <section class="eco" id="eco" aria-label="Explora con responsabilidad">
   <div class="eco__inner">
 
@@ -29,4 +29,4 @@ $jsTime = filemtime('../../view/Aves/text/text.js');
 
   </div>
 </section>
-<script src="../../view/Aves/text/text.js?v=<?= $jsTime ?>" type="text/javascript"></script>
+<script src="../../view/insectos/text/text.js?v=<?= $jsTime ?>" type="text/javascript"></script>
