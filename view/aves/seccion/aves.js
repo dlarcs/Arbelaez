@@ -10,7 +10,7 @@ const BIRDS = [
     name: "Colibrí garganta rubí",
     category: "Colibríes",
     scientific: "Archilochus colubris",
-    photographer: "Nathalia Josa",
+    photographer: "Ana Vela",
     desc: "Pequeño y veloz, suele verse visitando flores tubulares. Su vuelo estacionario es perfecto para observar detalles del plumaje.",
     img: "https://picsum.photos/seed/colibri-garganta-rubi/1200/800"
   },

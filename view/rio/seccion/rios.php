@@ -1,8 +1,8 @@
 <?php
-$cssTime = filemtime('../../view/Rios/seccion/rios.css');
-$jsTime = filemtime('../../view/Rios/seccion/rios.js');
+$cssTime = filemtime('../../view/rio/seccion/rio.css');
+$jsTime = filemtime('../../view/rio/seccion/rio.js');
 ?>
-<link rel="stylesheet" href="../../view/Rios/seccion/rios.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../../view/rio/seccion/rio.css?v=<?= $cssTime ?>">
 
 <main class="page">
     <header class="top">
@@ -114,4 +114,4 @@ $jsTime = filemtime('../../view/Rios/seccion/rios.js');
     </section>
   </main>
 
-<script src="../../view/Rios/seccion/rios.js?v=<?= $jsTime ?>" type="text/javascript"></script>
+<script src="../../view/rio/seccion/rio.js?v=<?= $jsTime ?>" type="text/javascript"></script>

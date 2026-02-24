@@ -45,7 +45,6 @@
   <!-- Redirect (fallback) -->
   <meta http-equiv="refresh" content="0;url=view/home/index.php">
 </head>
-
 <body>
   <script>
     window.location.replace('view/home/index.php');
