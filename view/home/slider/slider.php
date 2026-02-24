@@ -14,7 +14,9 @@ $jsTime  = filemtime('../../view/home/slider/slider.js');
   <div class="slider__inner">
     <div class="slider__badge" id="sliderBadge">
       <span class="slider__badgeIcon" aria-hidden="true">📍</span>
-      <span class="slider__badgeText">Arbeláez, Cundinamarca • 2026</span>
+      <a href="https://maps.app.goo.gl/rBTFjDPx4z9RRD479">
+        <span class="slider__badgeText">Arbeláez, Cundinamarca • 2026</span>
+       </a>
     </div>
 
     <h1 class="slider__title" id="sliderTitle">
