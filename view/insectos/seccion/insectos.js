@@ -12,7 +12,7 @@ const INSECTS = [
     scientific: "Microcentrum sp.",
     photographer: "Ana Grisales",
     desc: "Es una mariposa tropical de presencia majestuosa, admirada por la armonía de sus formas y la elegancia serena de su vuelo, símbolo de belleza en los ecosistemas americanos.",
-    img: "../../view/insectos/img/grillo.jpeg"
+    img: "../../view/insectos/img/grillo_Esperanza_verde.jpeg"
   },
   {
     id: 2,
@@ -21,25 +21,25 @@ const INSECTS = [
     scientific: "Siproeta stelenes",
     photographer: "Ana Grisales",
     desc: "Su azul iridiscente brilla con luz suave. Ideal para fotos en sombra abierta.",
-    img: "../../view/insectos/img/mariposa.jpeg"
+    img: "../../view/insectos/img/Mariposa_malaquita.jpeg"
   },
   {
     id: 3,
-    name: "Mariposa cola de golondrina",
+    name: "Mariposa búho",
     category: "Mariposas",
-    scientific: "Papilio machaon",
-    photographer: "Roberto Vargas",
-    desc: "Elegante y llamativa. Se posa en flores altas y zonas soleadas.",
-    img: "https://picsum.photos/seed/cola-golondrina/1200/800"
+    scientific: " Caligo memnon",
+    photographer: "Ana Grisales",
+    desc: "Grande y enigmática, vuela al atardecer y la noche. Sus alas presentan patrones que imitan corteza, pero destacan los grandes “ojos” en la parte posterior, diseñados para intimidar depredadores. Una especie imponente y fascinante de los bosques tropicales.",
+    img: "../../view/insectos/img/mariposabuho.jpeg"
   },
   {
     id: 4,
-    name: "Mariposa búho",
-    category: "Mariposas",
-    scientific: "Caligo memnon",
-    photographer: "María Fernanda López",
-    desc: "Presenta ‘ojos’ grandes en las alas, un patrón perfecto para macrofotografía.",
-    img: "https://picsum.photos/seed/mariposa-buho/1200/800"
+    name: "Polilla peluche",
+    category: "Polilla",
+    scientific: "Podalia orsilochus",
+    photographer: "Ana Grisales",
+    desc: "Pequeña y de apariencia esponjosa, destaca por su cuerpo cubierto de densos mechones y sus antenas plumosas. Su textura suave y su contraste de tonos la hacen muy llamativa a simple vista.",
+    img: "../../view/insectos/img/polilla_peluche.jpeg"
   },
   {
     id: 5,
