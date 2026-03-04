@@ -30,7 +30,7 @@ const INSECTS = [
     scientific: " Caligo memnon",
     photographer: "Ana Grisales",
     desc: "Grande y enigmática, vuela al atardecer y la noche. Sus alas presentan patrones que imitan corteza, pero destacan los grandes “ojos” en la parte posterior, diseñados para intimidar depredadores. Una especie imponente y fascinante de los bosques tropicales.",
-    img: "../../view/insectos/img/mariposabuho.jpeg"
+    img: "../../view/insectos/img/polilla_peluche.jpeg"
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const INSECTS = [
     scientific: "Podalia orsilochus",
     photographer: "Ana Grisales",
     desc: "Pequeña y de apariencia esponjosa, destaca por su cuerpo cubierto de densos mechones y sus antenas plumosas. Su textura suave y su contraste de tonos la hacen muy llamativa a simple vista.",
-    img: "../../view/insectos/img/polilla_peluche.jpeg"
+    img: "../../view/insectos/img/mariposabuho.jpeg"
   },
   {
     id: 5,
