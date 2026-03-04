@@ -43,12 +43,12 @@ const INSECTS = [
   },
   {
     id: 5,
-    name: "Mariposa cristal",
-    category: "Mariposas",
-    scientific: "Greta oto",
-    photographer: "Juan Sebastián Ríos",
-    desc: "Alas transparentes y delicadas. Se ve mejor con fondos oscuros y desenfocados.",
-    img: "https://picsum.photos/seed/mariposa-cristal/1200/800"
+    name: "Araña de seda dorada",
+    category: "Arácnido",
+    scientific: "Trichonephila clavipes",
+    photographer: "Ana Grisales",
+    desc: "Gran tejedora de telarañas orbiculares, reconocida por sus patas largas y delgadas y su abdomen alargado con puntos amarillos brillantes. Produce una seda resistente con tono dorado y suele encontrarse en jardines y zonas abiertas. Es inofensiva para las personas.",
+    img: "view/insectos/img/Araña_seda_dorada.jpeg"
   },
 
   // Escarabajos
