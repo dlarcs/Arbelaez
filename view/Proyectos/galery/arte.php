@@ -49,7 +49,17 @@ $items = [
     "img"      => "../../view/Proyectos/img/objeto.png",
     "img_alt"  => "Turistas",
     "desc"     => "Crear piezas turísticas en material resistente para instalar en puntos estratégicos de Arbeláez y generar un mayor impacto visual.
-Estos atractivos invitan a tomarse fotos, recorrer el pueblo y descubrir su cultura, gastronomía y naturaleza. ",
+                   Estos atractivos invitan a tomarse fotos, recorrer el pueblo y descubrir su cultura, gastronomía y naturaleza. ",
+    "pdf"      => "../../view/Proyectos/pdf/alianzas-colegios-universidades-empresas.pdf",
+  ],
+  [
+    "name"     => "Libro Arbelaez.com.co",
+    "dirigido" => "Turistas",
+    "place"    => "Arbeláez • Cundinamarca (agenda cultural, rutas y experiencias)",
+    "img"      => "../../view/Proyectos/img/libro_arbelaez.png",
+    "img_alt"  => "Turistas",
+    "desc"     => "Crear piezas turísticas en material resistente para instalar en puntos estratégicos de Arbeláez y generar un mayor impacto visual.
+                   Estos atractivos invitan a tomarse fotos, recorrer el pueblo y descubrir su cultura, gastronomía y naturaleza. ",
     "pdf"      => "../../view/Proyectos/pdf/alianzas-colegios-universidades-empresas.pdf",
   ],
 ];

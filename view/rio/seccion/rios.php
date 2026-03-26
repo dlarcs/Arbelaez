@@ -1,8 +1,8 @@
 <?php
-$cssTime = filemtime('../../view/rio/seccion/rio.css');
-$jsTime = filemtime('../../view/rio/seccion/rio.js');
+$cssTime = filemtime('../../view/rio/seccion/rios.css');
+$jsTime = filemtime('../../view/rio/seccion/rios.js');
 ?>
-<link rel="stylesheet" href="../../view/rio/seccion/rio.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../../view/rio/seccion/rios.css?v=<?= $cssTime ?>">
 
 <main class="page">
     <header class="top">
@@ -35,7 +35,7 @@ $jsTime = filemtime('../../view/rio/seccion/rio.js');
             Aguas frescas y paisaje verde para un plan tranquilo. Ideal para caminar, hacer fotos y descansar cerca del bosque.
           </p>
 
-          <a class="card__link" href="#mapa-la-lejia">
+          <a class="card__link" href="https://maps.app.goo.gl/gREdsmYF6EWgWDZv7">
             <span class="link__icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" width="18" height="18">
                 <path fill="currentColor" d="M12 2l3 7h7l-5.7 4.1L18.5 21 12 16.8 5.5 21l2.2-7.9L2 9h7z"/>
@@ -73,7 +73,7 @@ $jsTime = filemtime('../../view/rio/seccion/rio.js');
                 <path fill="currentColor" d="M12 2l3 7h7l-5.7 4.1L18.5 21 12 16.8 5.5 21l2.2-7.9L2 9h7z"/>
               </svg>
             </span>
-            <a href="https://maps.app.goo.gl/yrGrsXsqWnTR1HqH7">Cómo llegar</a>
+            <a href="https://maps.app.goo.gl/ZkpxvgDqtPhsqZdM8">Cómo llegar</a>
           </a>
         </div>
       </article>
@@ -83,7 +83,7 @@ $jsTime = filemtime('../../view/rio/seccion/rio.js');
         <div class="card__media">
           <span class="pill">Río</span>
           <div class="card__overlay">
-            <h2 class="card__title">Puente de Tenerife</h2>
+            <h2 class="card__title">Puente Colgante</h2>
             <p class="card__meta">
               <span class="meta__icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" width="18" height="18">
@@ -99,7 +99,7 @@ $jsTime = filemtime('../../view/rio/seccion/rio.js');
           <p class="card__desc">
             Un paso histórico rodeado de verde. Un lugar emblemático donde el agua acompaña el camino entre estructuras antiguas.
           </p>
-          <a class="card__link" href="#mapa-tenerife">
+          <a class="card__link" href="https://maps.app.goo.gl/jGjucvHzjyWFDGRQ6">
             <span class="link__icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" width="18" height="18">
                 <path fill="currentColor" d="M12 2l3 7h7l-5.7 4.1L18.5 21 12 16.8 5.5 21l2.2-7.9L2 9h7z"/>
@@ -114,4 +114,4 @@ $jsTime = filemtime('../../view/rio/seccion/rio.js');
     </section>
   </main>
 
-<script src="../../view/rio/seccion/rio.js?v=<?= $jsTime ?>" type="text/javascript"></script>
+<script src="../../view/rio/seccion/rios.js?v=<?= $jsTime ?>" type="text/javascript"></script>

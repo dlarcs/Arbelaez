@@ -1,12 +1,12 @@
 <?php
-$cssTime = filemtime('../../view/global/footer/footer.css');
+$cssTime = filemtime('../../view/rio/footer/footer.css');
 // $jsTime = filemtime('../../../');
 ?>
-<link rel="stylesheet" href="../../view/global/footer/footer.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../../view/rio/footer/footer.css?v=<?= $cssTime ?>">
 <section class="seccion_footer" aria-label="Pie de página">
   <div class="footer_logo">
     <a href="../../view/home/index.php" aria-label="Inicio">
-      <img class="logo_menu" src="../../view/global/img/logo.png" alt="Logo Arbeláez Turismo"> 
+      <!-- <img class="logo_menu" src="../../view/global/img/logo.png" alt="Logo Arbeláez Turismo"> -->
     </a>
     <h2>ARBELÁEZ CUNDINAMARCA</h2>
   </div>

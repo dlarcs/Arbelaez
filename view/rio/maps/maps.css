@@ -9,15 +9,15 @@
 
 /* Sección */
 .eco{
-  width: 100vw;
   color: var(--eco-ink);
-  padding: 10%;
+  padding: 5%;
   overflow: hidden; /* para que no se vean cosas fuera al animar */
+  background-color: black;
 }
 
 .eco__inner{
-  width: min(var(--max), 92vw);
   margin: 0 auto;
+  padding: 5%;
 
   display: grid;
   grid-template-columns: 1.05fr .95fr;

@@ -29,7 +29,7 @@
   <meta name="theme-color" content="#005548">
 
   <!-- Meta SEO (100 keywords EN) -->
-  <meta name="description" content="Explore rivers and streams in Arbeláez, Cundinamarca. Discover nature routes, refreshing water spots, scenic walks and peaceful places near Bogotá.">
+  <meta name="description" content="Explore rivers and streams in Arbeláez, que hacer, donde ir,  Cundinamarca. Discover nature routes, refreshing water spots, scenic walks and peaceful places near Bogotá.">
   <meta name="keywords" content="Arbeláez rivers, Arbelaez rivers, Arbeláez streams, Arbelaez streams, rivers and streams Arbeláez, water routes Arbeláez, nature Arbeláez, Arbeláez nature spots, natural water spots, river walks Arbeláez, stream walks Arbeláez, hiking near rivers, eco trails Arbeláez, nature trails, scenic walks, countryside walks, mountain water routes, freshwater streams, clear water spots, natural pools Arbeláez, swimming holes Arbeláez, natural ponds, river pools, calm river spots, family nature plan, couple nature plan, friends nature plan, weekend nature trip, day trip from Bogotá, near Bogotá nature, Cundinamarca nature, south Cundinamarca, outdoor activities Arbeláez, eco tourism Arbeláez, sustainable tourism, community tourism, local tourism, rural tourism, landscape photography, nature photography, birdwatching near rivers, flora and fauna, forest trails, green areas, peaceful places, relaxing nature, fresh air Arbeláez, picnic spots, riverside picnic, viewpoints near rivers, waterfall routes, small waterfalls, creek waterfalls, sound of water, river sounds, nature escape, digital detox, wellness in nature, safe nature trips, responsible travel, leave no trace, protect nature, guided nature walks, local guides, nature experiences, explore Arbeláez, discover Arbeláez, visit Arbeláez, Arbeláez travel guide, Arbeláez map, nature map Arbeláez, how to get to Arbeláez, nearby towns nature, nature close to Bogotá, weekend getaway, short hike routes, easy hikes, moderate hikes, family friendly trails, pet friendly trails, cycling routes Arbeláez, adventure routes, nature activities, river landscapes, stream landscapes, tropical Andean landscape, Cundinamarca rivers, Cundinamarca streams, rivers in Cundinamarca, best nature spots Arbeláez, top river spots Arbeláez, what to do Arbeláez nature, Arbeláez Turismo nature, arbelaez.com.co nature">
 
   <!-- Open Graph -->
@@ -81,10 +81,10 @@
   <?php include "../../view/global/menu/menu.php" ?>
 
   <div class="container_Rios">
-    <?php include "../../view/Rios/slider/slider.php" ?>
-    <?php include "../../view/Rios/seccion/rios.php" ?>
-    <?php include "../../view/Rios/maps/maps.php" ?>
-    <?php include "../../view/global/footer/footer.php" ?>
+    <?php include "../../view/rio/slider/slider.php" ?>
+    <?php include "../../view/rio/seccion/rios.php" ?>
+    <?php include "../../view/rio/maps/maps.php" ?>
+    <?php include "../../view/rio/footer/footer.php" ?>
   </div>
 </body>
 </html>

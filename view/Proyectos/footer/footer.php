@@ -1,11 +1,11 @@
 <?php
-$cssTime = filemtime('../../../view/Proyectos/footer/footer.css');
+$cssTime = filemtime('../../view/Proyectos/footer/footer.css');
 // $jsTime = filemtime('../../../');
 ?>
-	<link rel="stylesheet" href="../../../view/Proyectos/footer/footer.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../view/Proyectos/footer/footer.css?v=<?= $cssTime ?>">
 	<section class="seccion_footer">
 		<div class="footer_logo">
-			<a href="../../../view/home/index.php"><img class="logo_menu" src="../../../view/global/img/logo.png" alt="Logo"></a>
+			<a href="../../view/home/index.php"><img class="logo_menu" src="../../view/global/img/logo.png" alt="Logo"></a>
 			<h2>ARBELÁEZ CUNDINAMARCA</h2>
 		</div>
 		<div class="footer_container">
