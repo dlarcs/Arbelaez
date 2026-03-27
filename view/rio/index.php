@@ -13,8 +13,8 @@
   <link rel="canonical" href="https://www.arbelaez.com.co/Rios/rios-y-quebradas/">
 
   <!-- CSS (cache-busting robusto) -->
-  <?php $cssTime = filemtime('../../view/Rios/style.css'); ?>
-  <link rel="stylesheet" href="../../view/Rios/style.css?v=<?= $cssTime ?>">
+  <?php $cssTime = filemtime('../../view/rios/style.css'); ?>
+  <link rel="stylesheet" href="../../view/rios/style.css?v=<?= $cssTime ?>">
 
   <!-- Font: optimized -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
