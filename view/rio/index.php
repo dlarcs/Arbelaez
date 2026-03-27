@@ -15,7 +15,7 @@
   <!-- CSS (cache-busting robusto) -->
   <?php $cssTime = filemtime('../../view/rio/style.css'); ?>
   <link rel="stylesheet" href="../../view/rio/style.css?v=<?= $cssTime ?>">
-
+    
   <!-- Font: optimized -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

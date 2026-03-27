@@ -48,7 +48,7 @@ const INSECTS = [
     scientific: "Trichonephila clavipes",
     photographer: "Ana Grisales",
     desc: "Gran tejedora de telarañas orbiculares, reconocida por sus patas largas y delgadas y su abdomen alargado con puntos amarillos brillantes. Produce una seda resistente con tono dorado y suele encontrarse en jardines y zonas abiertas. Es inofensiva para las personas.",
-    img: "../../view/insectos/img/Araña_seda_dorada.jpeg"
+    img: "../../view/insectos/img/Arana_seda_dorada.jpeg"
   },
 
   // Escarabajos
