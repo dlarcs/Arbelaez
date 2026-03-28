@@ -42,7 +42,7 @@ $jsTime  = file_exists($jsFile)  ? filemtime($jsFile)  : time();
 
         <div class="acciones_producto">
           <a class="btn_accion btn_whatsapp"
-             href="https://wa.me/573000000000?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20Artesan%C3%ADas%20Martha%20E."
+             href="https://wa.me/573143417111?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20Artesan%C3%ADas%20Martha%20E."
              target="_blank"
              rel="noopener noreferrer"
              aria-label="Contactar por WhatsApp a Artesanías Martha E.">
@@ -78,7 +78,7 @@ $jsTime  = file_exists($jsFile)  ? filemtime($jsFile)  : time();
       </a>
 
       <div class="texto">
-        <h3>Artesanías religiosas y plantas</h3>
+        <h3>Artesanías religiosas, ceramicas, velas,  plantas</h3>
         <p>
           El propósito de estas artesanías es mantener viva la fe en cada corazón,
           fortaleciendo el espíritu y transmitiendo paz, amor y esperanza.
@@ -123,24 +123,8 @@ $jsTime  = file_exists($jsFile)  ? filemtime($jsFile)  : time();
       <div class="texto">
         <h3>Artesanas</h3>
         <p>
-          El propósito de estas artesanías es mostrar el arte y la naturaleza al mundo.
+          El propósito de estas artesanías es mostrar el arte y la naturaleza de ARBELÁEZ.
         </p>
-
-        <div class="acciones_producto">
-          <a class="btn_accion btn_whatsapp"
-             href="https://wa.me/573000000000?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20Artesan%C3%ADas%20en%20Veredas."
-             target="_blank"
-             rel="noopener noreferrer"
-             aria-label="Contactar por WhatsApp a Artesanías en Veredas">
-            WhatsApp
-          </a>
-
-          <a class="btn_accion btn_vermas"
-             href="../../view/artesanias/Artesanas_Veredas/index.php"
-             aria-label="Ver más sobre Artesanías en Veredas">
-            Ver más
-          </a>
-        </div>
       </div>
     </article>
 
