@@ -12,7 +12,8 @@ $jsTime = filemtime('../../view/rio/maps/maps.js');
       <p class="eco__p">
         Estos lugares son patrimonio natural de nuestra comunidad. Al visitarlos,
         comprométete a no dejar rastro, respetar la flora y fauna local, y
-        contribuir a la preservación de estos espacios para futuras generaciones.
+        contribuir a la preservación de estos espacios para futuras generaciones. <br>
+        -SE RECOMIENDA IR CON GUÍA O PERSONA QUE CONOZCA ADEMAS DE TENER PRECAUCIÓN CON LOS RÍOS.
       </p>
     </div>
 

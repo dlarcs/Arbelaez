@@ -9,7 +9,7 @@
   // ✅ Slides (sin ghostText / ghostHref)
   const sliderSlides = [
     {
-      img: "../../view/home/img/lugar3.jpg",
+      img: "../../view/home/img/parque_principal1.jpg",
       badge: "Arbeláez, Cundinamarca • 2026",
       titleTop: "Arbeláez se llena de",
       titleAccent: "color",

@@ -77,7 +77,7 @@
   display: grid;
   place-items: center;
   border-radius: 999px;
-  color: var(--icon);
+  color: #000;
   text-decoration: none;
   transition: transform .12s ease, background-color .12s ease, color .12s ease;
 }

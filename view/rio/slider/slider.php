@@ -9,7 +9,7 @@ $jsTime = filemtime('../../view/rio/slider/slider.js');
    <div class="hero__bg" id="heroBg"></div>
 
    <div class="hero__content">
-     <h1 class="parallax-text" data-parallax-text>Arbeláez • Ríos • Naturaleza</h1>
+     <h1 class="parallax-text" data-parallax-text>   Ríos • Quebradas • Puentes</h1>
    </div>
    <a href="#contenido" class="scroll-down" aria-label="Bajar para ver más contenido">
     <span class="scroll-down__arrow" aria-hidden="true"></span>

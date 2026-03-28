@@ -36,6 +36,10 @@ background-size: cover;
   background-position: center;
   background-size: cover;
 }
+.rio{
+  background-image: url('../../../view/home/img/rio.png');
+  background-size: cover;
+}
 .top{
   padding: 18px 16px 8px;
 }

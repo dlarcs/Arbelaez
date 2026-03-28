@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Rios y quebradas - Rivers & Streams in Arbeláez – Nature Spots, Walks & Water Routes</title>
+  <title>Rios, quebradas y puentes- Rivers & Streams in Arbeláez – Nature Spots, Walks & Water Routes</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Language & robots -->
@@ -15,7 +15,7 @@
   <!-- CSS (cache-busting robusto) -->
   <?php $cssTime = filemtime('../../view/rio/style.css'); ?>
   <link rel="stylesheet" href="../../view/rio/style.css?v=<?= $cssTime ?>">
-    
+
   <!-- Font: optimized -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
