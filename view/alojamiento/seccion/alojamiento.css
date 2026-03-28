@@ -260,32 +260,59 @@
     transition: none !important;
   }
 }
-/* ===== Botones de acción ===== */
-.card-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .65rem;
-  margin-top: auto;
-  padding-top: .35rem;
+/* ===== Buttons ===== */
+.acciones_producto{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.8rem;
+  margin-top:.2rem;
 }
 
-.card-actions .card-btn {
-  flex: 1 1 calc(50% - .35rem);
-  justify-content: center;
-  min-height: 44px;
-  padding: .7rem .95rem;
-  font-weight: 600;
-  text-decoration: none;
-  text-align: center;
+.btn_accion{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:46px;
+  padding:.82rem 1.3rem;
+  border-radius:999px;
+  text-decoration:none;
+  font-size:.95rem;
+  font-weight:700;
+  letter-spacing:.01em;
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease,
+    background-color .2s ease,
+    color .2s ease,
+    border-color .2s ease;
 }
 
-.card-actions .card-btn:hover,
-.card-actions .card-btn:focus-visible {
-  text-decoration: none;
+.btn_whatsapp{
+  background:var(--brand);
+  color:#fff;
+  border:1px solid transparent;
+  box-shadow:0 10px 24px rgba(11,90,79,.20);
 }
 
-@media (max-width: 480px) {
-  .card-actions .card-btn {
-    flex: 1 1 100%;
+.btn_vermas{
+  background:#fff;
+  color:var(--text);
+  border:1px solid rgba(23,33,43,.10);
+}
+
+@media (hover:hover) and (pointer:fine){
+  .btn_whatsapp:hover,
+  .btn_vermas:hover{
+    transform:translateY(-2px);
+  }
+
+  .btn_whatsapp:hover{
+    filter:brightness(.95);
+    box-shadow:0 14px 28px rgba(11,90,79,.26);
+  }
+
+  .btn_vermas:hover{
+    background:#f8f8f8;
+    border-color:rgba(200,169,107,.35);
   }
 }

@@ -4,7 +4,7 @@ $jsTime  = filemtime('../../view/alojamiento/seccion/alojamiento.js'); // <-- tu
 
 // Helper WhatsApp (mensaje dinámico por alojamiento)
 function wa_link($phoneInt, $alojamiento) {
-  $texto = "Hola, vengo desde la web de Alojamiento - $alojamiento";
+  $texto = "Hola, cómo estás? Vengo desde la web de arbelaez.com.co de la categoría de alojamientos, me gustaría hacer una reserva!  - $alojamiento";
   return "https://wa.me/{$phoneInt}?text=" . rawurlencode($texto);
 }
 
@@ -16,7 +16,7 @@ $lodgings = [
     'slug'      => 'Cachorros_LyC',
     'img'       => '../../view/alojamiento/Cachorros_LyC/img/trago1.jpg',
     'img_alt'   => 'Cachorros L&C – zona social',
-    'map_url'   => 'https://maps.app.goo.gl/xkrKdHVzuiz2aAg99',
+    'map_url'   => 'https://maps.app.goo.gl/xkrKdHVzuiz2aAg99', // TODO: reemplazar por link real de Google Maps
     'distance'  => '15 min 🚶',
     'reserve'   => ['type' => 'wa', 'phone' => '573227011059', 'label' => '24 horas'],
     'category'  => 'Rural',
@@ -65,7 +65,7 @@ $lodgings = [
     'distance'  => '7 min 🚶',
     'reserve'   => ['type' => 'wa', 'phone' => '573103360964', 'label' => 'Reservar'],
     'category'  => 'Rural',
-    'desc'      => '40 huéspedes, 14 habitaciones en acomodación múltiple, cada habitación tiene su propio baño, la mejor opción 24 horas.'
+    'desc'      => '40 huéspedes, 14 habitaciones  en acomodación múltiple, cada habitación tiene su propio baño, la mejor opción 24 horas.'
   ],
   [
     'name'      => 'Casa Kiyari',
@@ -76,7 +76,7 @@ $lodgings = [
     'distance'  => '20 min 🚶',
     'reserve'   => ['type' => 'wa', 'phone' => '573016677095', 'label' => 'Reservar'],
     'category'  => 'Rural',
-    'desc'      => '6 huéspedes, 1 habitación con cama doble, dos habitaciones con camas sencillas y 2 baños, para acampar 15 personas 6 carpas bajo techo, traer carpa: Alojamiento cómodo y accesible, con caminata ecológica.'
+    'desc'      => ' 6 huéspedes, 1 habitación con  cama doble, dos habitaciones con camas sencillas y 2 baños, para acampar 15 personas 6 carpas bajo techo, traer carpa:Alojamiento comodo y accesible, con caminata ecologica.'
   ],
   [
     'name'      => 'Casa Colibrí',
@@ -84,11 +84,23 @@ $lodgings = [
     'img'       => '../../view/alojamiento/Casa_Colibri/img/piscina3.jpeg',
     'img_alt'   => 'Casa Colibrí',
     'map_url'   => 'https://maps.app.goo.gl/J2RYVwmVwmACdmRL7',
-    'distance'  => '7 min 🚙',
+    'distance'  => '7 min 🚙 ',
     'reserve'   => ['type' => 'wa', 'phone' => '573118627750', 'label' => 'Reservar'],
     'category'  => 'Rural',
-    'desc'      => 'Piscina privada. Capacidad mínima 10 personas, máxima 18 en camas individuales, hasta 28 en camas compartidas, 3 habitaciones casa principal 2 baños, 2 habitaciones casa externa 1 baño, baño cambiador y ducha en el área de piscina, sala, comedor, cocina integral con menaje, hamacas, parqueadero.'
+    'desc'      => 'Piscina Privada Capacidad mínima 10 personas, Máxima 18 en camas individuales, Hasta 28 en camas compartidas, 3 habitaciones casa principal 2 baños, 2 habitaciónes casa externa 1 baño, Baño cambiador y ducha en el área de piscina, Sala, Comedor, Cocina integral con menaje, Hamacas, Parqueadero,
+'
   ],
+  // [
+  //   'name'      => 'IsraHousSuites',
+  //   'slug'      => 'IsraHousSuites',
+  //   'img'       => '../../view/alojamiento/img/isaraHouse.jpeg',
+  //   'img_alt'   => 'IsraHousSuites – vista del alojamiento',
+  //   'map_url'   => 'https://maps.app.goo.gl/5K3pzDrMt5Bnyfb16',
+  //   'distance'  => '15 min 🚶',
+  //   'reserve'   => ['type' => 'wa', 'phone' => '573102443297', 'label' => 'Reservas'],
+  //   'category'  => 'Rural',
+  //   'desc'      => '35 huéspedes, 6 habitaciones, 40 camas y 9 baños, alojamiento con hermosa vista y acceso al río. Zonas comunes cómodas, cocina equipada, BBQ y parqueadero. A 15 minutos a pie del pueblo.'
+  // ],
 ];
 ?>
 
@@ -96,6 +108,7 @@ $lodgings = [
 
 <section class="seccion_alojamiento">
   <?php foreach ($lodgings as $it):
+    // Sanitización básica
     $name = htmlspecialchars($it['name'], ENT_QUOTES, 'UTF-8');
     $slug = htmlspecialchars($it['slug'], ENT_QUOTES, 'UTF-8');
     $img  = htmlspecialchars($it['img'], ENT_QUOTES, 'UTF-8');
@@ -105,29 +118,9 @@ $lodgings = [
     $cat  = htmlspecialchars($it['category'], ENT_QUOTES, 'UTF-8');
     $desc = htmlspecialchars($it['desc'], ENT_QUOTES, 'UTF-8');
 
+    // Link principal a la ficha
     $detailHref = "../../view/alojamiento/{$slug}/index.php";
     $detailHref = htmlspecialchars($detailHref, ENT_QUOTES, 'UTF-8');
-
-    // Botón principal: WhatsApp si existe, si no usa el link de reserva
-    if ($it['reserve']['type'] === 'wa') {
-      $actionHref   = wa_link($it['reserve']['phone'], $it['name']);
-      $actionLabel  = 'WhatsApp';
-      $actionAria   = "Chatear por WhatsApp con {$it['name']}";
-      $actionTarget = '_blank';
-      $actionRel    = 'noopener noreferrer';
-    } else {
-      $actionHref   = $it['reserve']['url'];
-      $actionLabel  = 'Reservar';
-      $actionAria   = "Abrir reservas de {$it['name']}";
-      $actionTarget = '_blank';
-      $actionRel    = 'noopener noreferrer';
-    }
-
-    $actionHref  = htmlspecialchars($actionHref, ENT_QUOTES, 'UTF-8');
-    $actionLabel = htmlspecialchars($actionLabel, ENT_QUOTES, 'UTF-8');
-    $actionAria  = htmlspecialchars($actionAria, ENT_QUOTES, 'UTF-8');
-    $actionRel   = htmlspecialchars($actionRel, ENT_QUOTES, 'UTF-8');
-    $actionTarget= htmlspecialchars($actionTarget, ENT_QUOTES, 'UTF-8');
   ?>
   <article class="card" itemscope itemtype="https://schema.org/LodgingBusiness">
     <header>
@@ -177,26 +170,27 @@ $lodgings = [
 
     <p class="descripcion" itemprop="description"><?= $desc ?></p>
 
-    <div class="card-actions">
-      <a
-        class="pill card-btn"
-        href="<?= $actionHref ?>"
-        target="<?= $actionTarget ?>"
-        rel="<?= $actionRel ?>"
-        aria-label="<?= $actionAria ?>"
-      >
-        💬 <?= $actionLabel ?>
-      </a>
+<div class="acciones_producto">
 
-      <a
-        class="pill card-btn"
-        href="<?= $detailHref ?>"
-        rel="noopener"
-        aria-label="Ver más información de <?= $name ?>"
-      >
-        👀 Ver más
-      </a>
-    </div>
+
+  <?php if ($it['reserve']['type'] === 'wa'):
+    $wa = wa_link($it['reserve']['phone'], $it['name']);
+    $wa = htmlspecialchars($wa, ENT_QUOTES, 'UTF-8');
+  ?>
+    <a href="<?= $wa ?>" class="btn_accion btn_whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Chatear por WhatsApp con <?= $name ?>">
+      WhatsApp
+    </a>
+  <?php else:
+    $url = htmlspecialchars($it['reserve']['url'], ENT_QUOTES, 'UTF-8');
+  ?>
+    <a href="<?= $url ?>" class="btn_accion btn_whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Abrir Airbnb de <?= $name ?>">
+      Airbnb
+    </a>
+  <?php endif; ?>
+  <a href="<?= $detailHref ?>" class="btn_accion btn_vermas" rel="noopener" aria-label="Ver más sobre <?= $name ?>">
+    Ver más
+  </a>
+</div>
   </article>
   <?php endforeach; ?>
 </section>

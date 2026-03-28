@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- ✅ Título corto y claro -->
-  <title>Arbeláez Turismo | Cundinamarca | Qué Hacer, Dónde Comer y Dónde Dormir | Things to Do, Where to Eat & Stay</title>
+  <title>Arbeláez</title>
 
   <!-- ✅ Description (lo que se ve en Google) -->
   <meta name="description" content="Explora Arbeláez (Cundinamarca): alojamientos, gastronomía, artesanías, puntos turísticos, ríos y naturaleza (aves, insectos y plantas).">
 
   <!-- ✅ Este archivo es solo un puente: mejor NO indexarlo -->
-  <meta name="robots" content="noindex,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
-  <meta name="googlebot" content="noindex,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+  <meta name="robots" content="follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+  <meta name="googlebot" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 
   <!-- Canonical del dominio -->
   <link rel="canonical" href="https://www.arbelaez.com.co/">
