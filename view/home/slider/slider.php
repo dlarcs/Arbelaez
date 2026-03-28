@@ -17,8 +17,7 @@ $jsTime  = filemtime('../../view/home/slider/slider.js');
       <a href="https://maps.app.goo.gl/rBTFjDPx4z9RRD479">
         <span class="slider__badgeText">Arbeláez, Cundinamarca • 2026</span>
        </a>
-    </div>
-
+    </div> 
     <h1 class="slider__title" id="sliderTitle">
       Arbeláez se llena de<br />
       <span class="slider__titleGradient">color</span>
