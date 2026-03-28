@@ -260,3 +260,32 @@
     transition: none !important;
   }
 }
+/* ===== Botones de acción ===== */
+.card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem;
+  margin-top: auto;
+  padding-top: .35rem;
+}
+
+.card-actions .card-btn {
+  flex: 1 1 calc(50% - .35rem);
+  justify-content: center;
+  min-height: 44px;
+  padding: .7rem .95rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+}
+
+.card-actions .card-btn:hover,
+.card-actions .card-btn:focus-visible {
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .card-actions .card-btn {
+    flex: 1 1 100%;
+  }
+}
