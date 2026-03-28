@@ -1,262 +1,326 @@
-:root {
-  /* Colores base */
-  --bg: transparent;
-  --card: #fafafa;
-  --text: #111827;
-  --muted: #6b7280;
-  --border: #e5e7eb;
-  --brand: #005548;
-  --accent: #fbd160;
+:root{
+  --bg: #f7f4ee;
+  --surface: rgba(255,255,255,.72);
+  --card: #ffffff;
+  --text: #18212b;
+  --muted: #667085;
+  --border: rgba(24,33,43,.08);
 
-  /* Layout & efectos */
-  --radius: 14px;
-  --radius-sm: 10px;
-  --shadow: 0 10px 24px rgba(0, 0, 0, .06);
-  --shadow-hover: 0 16px 40px rgba(0, 0, 0, .14);
+  --brand: #0d5c50;
+  --brand-dark: #08453d;
+  --brand-soft: #e7f3f0;
 
-  /* Espaciado fluido */
-  --gap: clamp(.9rem, 1vw + .6rem, 1.25rem);
-  --pad: clamp(1rem, 1.2vw + .6rem, 1.25rem);
-  --container-max: 1200px;
+  --accent: #d4b06a;
+  --accent-soft: #f7f0e2;
 
-  color-scheme: light dark;
+  --radius: 22px;
+  --radius-sm: 16px;
+
+  --shadow: 0 14px 40px rgba(17, 24, 39, .08);
+  --shadow-hover: 0 22px 52px rgba(17, 24, 39, .13);
+
+  --gap: clamp(1rem, 1vw + .8rem, 1.35rem);
+  --pad: clamp(1rem, 1.1vw + .8rem, 1.25rem);
+  --container-max: 1280px;
 }
 
-/* ===== Sección alojamiento ===== */
-.seccion_alojamiento {
+/* ===== Base ===== */
+*,
+*::before,
+*::after{
   box-sizing: border-box;
-  padding: var(--pad);
+}
+
+/* ===== Sección ===== */
+.seccion_alojamiento{
+  width: min(100%, var(--container-max));
   margin-inline: auto;
+  padding: clamp(1rem, 2vw, 1.5rem);
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--gap);
-  width: min(100%, var(--container-max));
-  color: var(--text);
-  align-items: stretch;
-  background: transparent;
+  background:
+    radial-gradient(900px 420px at 0% 0%, rgba(13,92,80,.06), transparent 50%),
+    radial-gradient(700px 300px at 100% 0%, rgba(212,176,106,.10), transparent 45%),
+    linear-gradient(180deg, #fbf8f3 0%, #f5f1ea 100%);
+  border-radius: 28px;
 }
 
-/* Tablet */
-@media (min-width: 640px) {
-  .seccion_alojamiento {
+/* ===== Responsive grid ===== */
+@media (min-width: 680px){
+  .seccion_alojamiento{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
-/* Desktop */
-@media (min-width: 1024px) {
-  .seccion_alojamiento {
+@media (min-width: 1100px){
+  .seccion_alojamiento{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
-/* XL */
-@media (min-width: 1440px) {
-  .seccion_alojamiento {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-}
-
-/* ===== Tarjeta ===== */
-.card {
+/* ===== Card ===== */
+.card{
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: .85rem;
-  height: 100%;
-  background: var(--card);
+  background: linear-gradient(180deg, rgba(255,255,255,.96), rgba(255,255,255,1));
   border: 1px solid var(--border);
   border-radius: var(--radius);
+  overflow: hidden;
   box-shadow: var(--shadow);
-  padding: var(--pad);
-  color: var(--text);
   transition:
-    box-shadow .25s ease,
-    transform .25s ease,
-    border-color .25s ease,
-    background-color .25s ease;
-  will-change: transform, box-shadow;
+    transform .24s ease,
+    box-shadow .24s ease,
+    border-color .24s ease;
+  min-height: 100%;
 }
 
-/* Pequeña línea decorativa arriba de la card */
-.card::before {
+.card::before{
   content: "";
   position: absolute;
-  inset-inline: 1.1rem;
-  top: .85rem;
-  height: 3px;
-  border-radius: 999px;
-  background: linear-gradient(90deg, var(--brand), var(--accent));
-  opacity: .1;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    rgba(13,92,80,.14),
+    rgba(212,176,106,.14),
+    rgba(255,255,255,.5)
+  );
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.card:hover{
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+  border-color: rgba(13,92,80,.14);
+}
+
+.card:focus-within{
+  outline: 3px solid rgba(13,92,80,.16);
+  outline-offset: 4px;
+}
+
+/* ===== Media ===== */
+.media{
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: #e8ecea;
+}
+
+.media a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.media img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .6s ease;
+}
+
+.card:hover .media img{
+  transform: scale(1.05);
+}
+
+.media::after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.02), rgba(0,0,0,.10)),
+    radial-gradient(120% 100% at 50% 100%, transparent 35%, rgba(0,0,0,.12) 100%);
   pointer-events: none;
 }
 
-/* Ajuste para que el contenido no se solape con la línea decorativa */
-.card > *:first-child {
-  margin-top: .35rem;
+/* ===== Card body ===== */
+.card-body{
+  display: flex;
+  flex-direction: column;
+  gap: .95rem;
+  padding: 1.05rem 1.05rem 1.15rem;
+  height: 100%;
 }
 
-.card:hover {
-  transform: translateY(-3px);
-  box-shadow: var(--shadow-hover);
-  border-color: color-mix(in srgb, var(--border), var(--brand) 25%);
-  background-color: #fafafa;
+.card-top{
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
 }
 
-.card:focus-within {
-  outline: 3px solid color-mix(in srgb, var(--brand), #fafafa 60%);
-  outline-offset: 3px;
+.card-category{
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: .35rem .7rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: #8b6a2d;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .02em;
+  text-transform: uppercase;
 }
 
-/* ===== Título ===== */
-.card-title {
-  font-size: clamp(1.05rem, 2.6vw, 1.45rem);
-  line-height: 1.25;
+.card-title{
   margin: 0;
+  font-size: clamp(1.08rem, 2.1vw, 1.35rem);
+  line-height: 1.25;
+  font-weight: 800;
+  color: var(--text);
 }
 
-.card-title a {
+.card-title a{
   color: inherit;
   text-decoration: none;
 }
 
 .card-title a:hover,
-.card-title a:focus-visible {
+.card-title a:focus-visible{
   text-decoration: underline;
-  text-underline-offset: 3px;
+  text-underline-offset: 4px;
 }
 
-/* ===== Imagen dentro de cada card ===== */
-.seccion_alojamiento .media {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  overflow: hidden;
-  border-radius: var(--radius-sm);
-  background: #e9ecef;
-  position: relative;
-}
-
-.seccion_alojamiento .media a {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-/* Imagen con ligero zoom al hover */
-.seccion_alojamiento .media img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition:
-    transform .4s ease,
-    opacity .35s ease;
-  opacity: 1;
-}
-
-/* Zoom cuando se pasa por encima de la card */
-.card:hover .media img {
-  transform: scale(1.03);
-}
-
-/* Si tu JS agrega .is-ready al cargar */
-.seccion_alojamiento .media img.is-ready {
-  opacity: 1;
-}
-
-/* Fallback si el navegador no soporta aspect-ratio */
-@supports not (aspect-ratio: 1) {
-  .seccion_alojamiento .media {
-    height: 0;
-    padding-top: 56.25%;
-  }
-  .seccion_alojamiento .media img {
-    position: absolute;
-    inset: 0;
-  }
-}
-
-/* ===== Meta (píldoras) ===== */
-.meta {
+/* ===== Meta ===== */
+.meta{
   display: flex;
   flex-wrap: wrap;
   gap: .5rem;
-  margin: .1rem 0 .25rem;
+  margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.pill {
+.pill{
   display: inline-flex;
   align-items: center;
-  gap: .4rem;
-  border: 1px solid var(--border);
+  gap: .35rem;
+  padding: .42rem .72rem;
   border-radius: 999px;
-  padding: .35rem .7rem;
-  font-size: .92rem;
-  color: var(--muted);
   background: #fafafa;
-  white-space: nowrap;
-  transition:
-    border-color .2s ease,
-    background-color .2s ease,
-    transform .2s ease;
+  border: 1px solid rgba(24,33,43,.08);
+  color: var(--muted);
+  font-size: .88rem;
+  line-height: 1;
 }
 
-.pill a {
+.pill a,
+.pill span{
   color: inherit;
   text-decoration: none;
 }
 
 .pill a:hover,
-.pill a:focus-visible {
+.pill a:focus-visible{
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
-.pill:focus-within {
-  outline: 2px solid color-mix(in srgb, var(--brand), #fafafa 40%);
-  outline-offset: 2px;
-  background: #fafafa;
+/* ===== Description ===== */
+.descripcion{
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.68;
+  font-size: .97rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
-/* Pequeño “bounce” cuando pasas el cursor */
-.card:hover .pill {
-  transform: translateY(-1px);
+/* ===== Actions ===== */
+.card-actions{
+  display: flex;
+  gap: .75rem;
+  margin-top: auto;
+  padding-top: .2rem;
 }
 
-/* ===== Descripción ===== */
-.descripcion {
-  margin: .15rem 0 0;
+.btn-action{
+  flex: 1 1 0;
+  min-height: 46px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: .95rem;
+  font-weight: 700;
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease,
+    background-color .2s ease,
+    color .2s ease,
+    border-color .2s ease;
+}
+
+.btn-whatsapp{
+  background: linear-gradient(180deg, var(--brand), var(--brand-dark));
+  color: #fff;
+  border: 1px solid transparent;
+  box-shadow: 0 10px 24px rgba(13,92,80,.18);
+}
+
+.btn-more{
+  background: #fff;
   color: var(--text);
-  line-height: 1.6;
-  font-size: clamp(.95rem, 2.2vw, 1rem);
+  border: 1px solid rgba(24,33,43,.10);
 }
 
-/* Un poco más de respiración en móvil */
-@media (max-width: 480px) {
-  .seccion_alojamiento {
-    margin-block: 2rem;
-    padding-inline: .75rem;
+.btn-whatsapp:hover,
+.btn-more:hover{
+  transform: translateY(-2px);
+}
+
+.btn-whatsapp:hover{
+  box-shadow: 0 14px 28px rgba(13,92,80,.22);
+}
+
+.btn-more:hover{
+  background: #f9f7f2;
+  border-color: rgba(212,176,106,.35);
+}
+
+.btn-action:focus-visible{
+  outline: 3px solid rgba(13,92,80,.16);
+  outline-offset: 3px;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 560px){
+  .card-body{
+    padding: .95rem .95rem 1rem;
   }
 
-  .card {
-    padding: .9rem .9rem 1rem;
+  .card-actions{
+    flex-direction: column;
   }
 
-  .meta {
-    gap: .35rem;
+  .btn-action{
+    width: 100%;
   }
 
-  .pill {
-    font-size: .9rem;
-    padding: .3rem .6rem;
+  .descripcion{
+    -webkit-line-clamp: unset;
+    overflow: visible;
   }
 }
 
-/* ===== Accesibilidad / reduce motion ===== */
-@media (prefers-reduced-motion: reduce) {
-  * {
+/* ===== Reduce motion ===== */
+@media (prefers-reduced-motion: reduce){
+  *,
+  *::before,
+  *::after{
     animation: none !important;
     transition: none !important;
+    scroll-behavior: auto !important;
   }
 }
