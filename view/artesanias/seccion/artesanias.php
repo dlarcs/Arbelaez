@@ -86,7 +86,7 @@ $jsTime  = file_exists($jsFile)  ? filemtime($jsFile)  : time();
 
         <div class="acciones_producto">
           <a class="btn_accion btn_whatsapp"
-             href="https://wa.me/573000000000?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20el%20Almac%C3%A9n%20Religioso%20y%20Artesanal%20Divino%20Ni%C3%B1o%20Jes%C3%BAs."
+             href="https://wa.me/573132277099?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20el%20Almac%C3%A9n%20Religioso%20y%20Artesanal%20Divino%20Ni%C3%B1o%20Jes%C3%BAs."
              target="_blank"
              rel="noopener noreferrer"
              aria-label="Contactar por WhatsApp al Almacén Religioso y Artesanal Divino Niño Jesús">

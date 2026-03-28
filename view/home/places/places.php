@@ -17,6 +17,7 @@ $jsTime  = @filemtime($jsPath) ?: time(); // fallback si falta el archivo
         <a href="../../view/artesanias/index.php">Artesanías</a>
         <a href="../../view/gastronomia/index.php">Gastronomía</a>
         <a href="../../view/festividades/index.php">Festividades</a>
+        <a href="../../view/rio/index.php">Zonas de agua</a>
       </nav>
     </div>
   </header>
