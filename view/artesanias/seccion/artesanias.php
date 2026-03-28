@@ -125,6 +125,14 @@ $jsTime  = file_exists($jsFile)  ? filemtime($jsFile)  : time();
         <p>
           El propósito de estas artesanías es mostrar el arte y la naturaleza de ARBELÁEZ.
         </p>
+        <div class="acciones_producto">
+
+          <a class="btn_accion btn_vermas"
+             href="../../view/artesanias/Artesanas_Veredas/index.php"
+             aria-label="Ver más sobre el Almacén Religioso y Artesanal Divino Niño Jesús">
+            Ver más
+          </a>
+        </div>
       </div>
     </article>
 
