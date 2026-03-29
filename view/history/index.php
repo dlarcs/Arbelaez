@@ -54,6 +54,6 @@
   <div class="container_history">
     <?php include "../../view/history/seccion/history.php"?>
   </div>
-  <?php include "../../view/artesanias/Artesanas_Veredas/footer/footer.php" ?>
+  <?php include "../../view/global/footer/footer.php" ?>
 </body>
 </html>
