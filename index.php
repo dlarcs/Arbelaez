@@ -25,7 +25,7 @@
   <!-- Open Graph (si alguien comparte el dominio) -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Arbelaez.com.co">
-  <meta property="og:title" content="Arbeláez Turismo | Cundinamarca | Qué Hacer, Dónde Comer y Dónde Dormir, guía de lugares.">
+  <meta property="og:title" content="Arbeláez Turismo | Cundinamarca | ¿Qué hacer, dónde comer y dónde dormir? ">
   <meta property="og:description" content="Descubre Arbeláez: artesanías, gastronomía, alojamientos, puntos turísticos, ríos y naturaleza (aves, insectos y plantas). Guías, lugares y recomendaciones. | Discover Arbeláez: handicrafts, food, stays, landmarks, rivers and nature (birds, insects and plants). Guides, places and local recommendations.">
   <meta property="og:url" content="https://www.arbelaez.com.co/">
   <meta property="og:image" content="https://www.arbelaez.com.co/view/home/img/og-1200x630.jpg">
@@ -34,10 +34,10 @@
   <meta name="theme-color" content="#005548">
 
   <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="view/home/img/logo_pw.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="view/home/img/logo_pw.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="view/home/img/logo_pw.png">
-  <link rel="mask-icon" href="view/home/img/logo_pw.png" color="#005548">
+  <link rel="icon" type="image/png" sizes="32x32" href="view/home/img/parque_principal.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="view/home/img/parque_principal.jpg">
+  <link rel="apple-touch-icon" sizes="180x180" href="view/home/img/parque_principal.jpg">
+  <link rel="mask-icon" href="view/home/img/parque_principal.jpg" color="#005548">
 
   <!-- Manifest -->
   <link rel="manifest" href="/site.webmanifest">

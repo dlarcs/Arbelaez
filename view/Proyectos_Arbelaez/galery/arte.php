@@ -2,13 +2,13 @@
 /* =========================
    CSS cache-busting
 ========================= */
-$cssTime = filemtime('../../view/Proyectos/galery/arte.css');
+$cssTime = filemtime('../../view/Proyectos_Arbelaez/galery/arte.css');
 ?>
-<link rel="stylesheet" href="../../view/Proyectos/galery/arte.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../../view/Proyectos_Arbelaez/galery/arte.css?v=<?= $cssTime ?>">
 
 <?php
 /* =========================
-   DATA: Actividades / Proyectos
+   DATA: Actividades / Proyectos_Arbelaez
    Campos: titulo, dirigido, lugar, foto, pdf, descripcion
 ========================= */
 $items = [
@@ -17,55 +17,55 @@ $items = [
     "name"     => "TourBurger Arbeláez (proceso)",
     "dirigido" => "Visitantes, familias, jóvenes, amantes de la gastronomía y negocios participantes del TourBurger.",
     "place"    => "Arbeláez • Cundinamarca (rutas por los puntos participantes)",
-    "img"      => "../../view/Proyectos/img/tour.jpeg",
+    "img"      => "../../view/Proyectos_Arbelaez/img/tour.jpeg",
     "img_alt"  => "TourBurger Arbeláez - ruta gastronómica",
     "desc"     => "Ruta gastronómica para impulsar los negocios locales: las personas visitan varios puntos, prueban diferentes hamburguesas, sellan su “pasaporte” y votan por sus favoritas. El objetivo es aumentar el turismo, las ventas y la visibilidad de Arbeláez con una actividad divertida, familiar y de alto impacto.",
-    "pdf"      => "../../view/Proyectos/pdf/TourBurger.pdf",
+    "pdf"      => "../../view/Proyectos_Arbelaez/pdf/TourBurger.pdf",
   ],
 
   [
     "name"     => "Arbeláez se llena de color",
     "dirigido" => "Propietarios de casas y negocios de Arbeláez (prioridad participantes de arbelaez.com.co), voluntarios, artistas, diseñadora y comunidad en general.",
     "place"    => "Arbeláez • casco urbano y veredas (según etapas y selección)",
-    "img"      => "../../view/Proyectos/img/color.png",
+    "img"      => "../../view/Proyectos_Arbelaez/img/color.png",
     "img_alt"  => "Arbeláez se llena de color - murales y fachadas",
     "desc"     => "Proyecto por etapas para embellecer Arbeláez con murales y pintura de fachadas. Se realiza una rifa para recaudar fondos y cubrir materiales, mano de obra, diseñadora y artista. Pasos: base de datos de participantes, toma de medidas de fachadas, definición de si lleva mural o solo pintura, selección de paleta (8 colores) y temáticas (mínimo 8 temas), impresión de 1.000 boletas y entrega de premios (premio mayor: mural de 1 m² + pintura; y varios “secos” con premios aportados por negocios como almuerzos, pasadías y artesanías).",
-    "pdf"      => "../../view/Proyectos/pdf/arbelaez-se-llena-de-color.pdf",
+    "pdf"      => "../../view/Proyectos_Arbelaez/pdf/arbelaez-se-llena-de-color.pdf",
   ],
 
   [
     "name"     => "Colegios, universidades y/o empresas",
     "dirigido" => "Colegios, universidades (especialmente de Fusagasugá) y empresas para salidas pedagógicas, bienestar, voluntariado, integración y turismo cultural.",
     "place"    => "Arbeláez • Cundinamarca (agenda cultural, rutas y experiencias)",
-    "img"      => "../../view/Proyectos/img/actividades.png",
+    "img"      => "../../view/Proyectos_Arbelaez/img/actividades.png",
     "img_alt"  => "Alianzas con colegios, universidades y empresas - turismo cultural",
     "desc"     => "Estrategia para atraer grupos organizados a Arbeláez mediante experiencias: recorridos turísticos, actividades culturales, ferias, gastronomía local, talleres con artesanas y jornadas de voluntariado. La meta es generar flujo constante de visitantes y oportunidades para los emprendimientos del municipio.",
-    "pdf"      => "../../view/Proyectos/pdf/alianzas-colegios-universidades-empresas.pdf",
+    "pdf"      => "../../view/Proyectos_Arbelaez/pdf/alianzas-colegios-universidades-empresas.pdf",
   ],
   [
     "name"     => "Objeto turistico",
     "dirigido" => "Turistas",
     "place"    => "Arbeláez • Cundinamarca (agenda cultural, rutas y experiencias)",
-    "img"      => "../../view/Proyectos/img/objeto.png",
+    "img"      => "../../view/Proyectos_Arbelaez/img/objeto.png",
     "img_alt"  => "Turistas",
     "desc"     => "Crear piezas turísticas en material resistente para instalar en puntos estratégicos de Arbeláez y generar un mayor impacto visual.
                    Estos atractivos invitan a tomarse fotos, recorrer el pueblo y descubrir su cultura, gastronomía y naturaleza. ",
-    "pdf"      => "../../view/Proyectos/pdf/alianzas-colegios-universidades-empresas.pdf",
+    "pdf"      => "../../view/Proyectos_Arbelaez/pdf/alianzas-colegios-universidades-empresas.pdf",
   ],
   [
     "name"     => "Libro Arbelaez.com.co",
     "dirigido" => "Turistas",
     "place"    => "Arbeláez • Cundinamarca (agenda cultural, rutas y experiencias)",
-    "img"      => "../../view/Proyectos/img/libro_arbelaez.png",
+    "img"      => "../../view/Proyectos_Arbelaez/img/libro_arbelaez.png",
     "img_alt"  => "Turistas",
     "desc"     => "Crear piezas turísticas en material resistente para instalar en puntos estratégicos de Arbeláez y generar un mayor impacto visual.
                    Estos atractivos invitan a tomarse fotos, recorrer el pueblo y descubrir su cultura, gastronomía y naturaleza. ",
-    "pdf"      => "../../view/Proyectos/pdf/alianzas-colegios-universidades-empresas.pdf",
+    "pdf"      => "../../view/Proyectos_Arbelaez/pdf/alianzas-colegios-universidades-empresas.pdf",
   ],
 ];
 ?>
 
-<section class="section_food_gallery" id="proyectos_actividades">
+<section class="section_food_gallery" id="Proyectos_Arbelaez_actividades">
   <?php foreach($items as $it):
     $name     = htmlspecialchars($it["name"] ?? '', ENT_QUOTES, "UTF-8");
     $dirigido = htmlspecialchars($it["dirigido"] ?? '', ENT_QUOTES, "UTF-8");

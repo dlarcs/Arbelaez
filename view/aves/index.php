@@ -2,7 +2,7 @@
 <html lang="es" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Avistamiento de aves en Arbeláez – Birdwatching, especies, rutas y fotografía</title>
+  <title>Avistamiento de aves en Arbeláez – Birdwatching in Arbeláez</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Language & robots -->
@@ -67,14 +67,14 @@
   <!-- Open Graph -->
   <meta property="og:locale" content="es_CO">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Avistamiento de aves en Arbeláez – Rutas, especies y fotografía">
+  <meta property="og:title" content="Avistamiento de aves en Arbeláez – Birdwatching in Arbeláez">
   <meta property="og:description" content="Descubre el avistamiento de aves en Arbeláez: rutas, spots naturales, fotografía y una experiencia tranquila cerca de Bogotá.">
   <meta property="og:url" content="https://www.arbelaez.com.co/aves/avistamiento-de-aves/">
   <meta property="og:image" content="https://www.arbelaez.com.co/view/home/img/og-1200x630.jpg">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Avistamiento de aves en Arbeláez – Rutas y especies">
+  <meta name="twitter:title" content="Avistamiento de aves en Arbeláez – Birdwatching in Arbeláez">
   <meta name="twitter:description" content="Explora rutas de avistamiento de aves en Arbeláez y disfruta la aves en Cundinamarca, cerca de Bogotá.">
   <meta name="twitter:image" content="https://www.arbelaez.com.co/view/home/img/og-1200x630.jpg">
 
