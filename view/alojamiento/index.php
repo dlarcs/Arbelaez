@@ -22,9 +22,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
   <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="../../view/home/img/logo_pw.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../../view/home/img/logo_pw.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../../view/home/img/logo_pw.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../view/alojamiento/Turismo_Hoy_Vivo/img/Casa_rural1.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../view/alojamiento/Turismo_Hoy_Vivo/img/Casa_rural1.jpg">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../view/alojamiento/Turismo_Hoy_Vivo/img/Casa_rural1.jpg">
   <link rel="mask-icon" href="../../view/alojamiento/Turismo_Hoy_Vivo/img/Casa_rural1.jpg" color="#005548">
   <meta name="theme-color" content="#005548">
 
