@@ -23,7 +23,7 @@ $jsTime = filemtime('../../view/rio/seccion/rios.js');
                 <path fill="currentColor" d="M12 2c-3.9 0-7 3.1-7 7 0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/>
               </svg>
             </span>
-            Vía Fusagasuga Arbeláez
+            Vía Fusagasuga - Arbeláez
           </p>
         </div>
       </div>
@@ -119,7 +119,7 @@ $jsTime = filemtime('../../view/rio/seccion/rios.js');
                 <path fill="currentColor" d="M12 2c-3.9 0-7 3.1-7 7 0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/>
               </svg>
             </span>
-            Reserva natural de Arbeláez
+            Vía San Bernardo: entrada por la capilla.
           </p>
         </div>
       </div>
@@ -150,7 +150,7 @@ $jsTime = filemtime('../../view/rio/seccion/rios.js');
                 <path fill="currentColor" d="M12 2c-3.9 0-7 3.1-7 7 0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/>
               </svg>
             </span>
-            Reserva natural de Arbeláez, entrada por el Michu.
+            Vía Arbeláez - Fusagasuga: entrada por el Michu.
           </p>
         </div>
       </div>
@@ -170,9 +170,9 @@ $jsTime = filemtime('../../view/rio/seccion/rios.js');
       </div>
     </article>
 
-    <article class="card" style="--img:url('../../../view/rio/img/michu.png');">
+    <article class="card" style="--img:url('../../../view/rio/img/bocatoma1.jpg');">
       <div class="card__media">
-        <span class="pill">Puente</span>
+        <span class="pill">Bocatoma</span>
         <div class="card__overlay">
           <h2 class="card__title">Rio el Guavio</h2>
           <p class="card__meta">
@@ -181,14 +181,14 @@ $jsTime = filemtime('../../view/rio/seccion/rios.js');
                 <path fill="currentColor" d="M12 2c-3.9 0-7 3.1-7 7 0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/>
               </svg>
             </span>
-            Reserva natural de Arbeláez, entrada por el Michu.
+            Vía Santa Barbara: entrada por Granja Guayabos,
           </p>
         </div>
       </div>
 
       <div class="card__body">
         <p class="card__desc">
-          Una quebrada de ambiente natural y tranquilo, ideal para quienes disfrutan de los senderos, la vegetación y el sonido del agua. Un espacio perfecto para relajarse y vivir un plan ecológico.
+          La Bocatoma de Arbeláez, sobre el río Gauvio, ofrece un entorno sereno rodeado de naturaleza. Un lugar ideal para contemplar el agua, respirar aire puro y conectar con el paisaje
         </p>
         <a class="card__link" href="https://maps.app.goo.gl/ou248kUosKcpVBh76">
           <span class="link__icon" aria-hidden="true">
