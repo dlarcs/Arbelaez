@@ -1,55 +1,81 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html lang="es-CO" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Arbeláez Turismo – Naturaleza, artesanías, gastronomía y alojamiento en Cundinamarca</title>
+  <title>Arbeláez Turismo | Naturaleza, gastronomía, artesanías y alojamiento en Cundinamarca</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Idioma y robots -->
-  <meta name="language" content="es-CO">
-  <meta name="robots" content="index,follow">
-
-  <!-- Canonical -->
-  <link rel="canonical" href="https://www.arbelaez.com.co/">
   <?php
-    $cssTime = filemtime('../../view/home/style.css');
-    $jsTime  = filemtime('../../view/home/app.js');
+    $base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
+
+    $scheme  = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+    $host    = $_SERVER['HTTP_HOST'] ?? 'www.arbelaez.com.co';
+    $baseUrl = $scheme . '://' . $host;
+
+    $cssPath = '../../view/home/style.css';
+    $jsPath  = '../../view/home/app.js';
+
+    $cssFile = $base . '/view/home/style.css';
+    $jsFile  = $base . '/view/home/app.js';
+
+    $cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
+    $jsTime  = is_file($jsFile)  ? filemtime($jsFile)  : time();
+
+    $canonicalUrl = $baseUrl . '/';
+    $ogImage      = $baseUrl . '/view/home/img/og-1200x630.jpg';
+    $favicon      = $baseUrl . '/view/home/img/parque_principal1.jpg';
   ?>
-  <link rel="stylesheet" href="../../view/home/style.css?v=<?= $cssTime ?>">
-  <script src="../../view/home/app.js?v=<?= $jsTime ?>" defer></script>
 
-
-  <!-- Fuente: optimizada con preconnect -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
-  <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="../../view/home/img/parque_principal1.jpg">
-  <link rel="icon" type="image/png" sizes="16x16" href="../../view/home/img/parque_principal1.jpg">
-  <link rel="apple-touch-icon" sizes="180x180" href="../../view/home/img/parque_principal1.jpg">
-  <link rel="mask-icon" href="../../view/home/img/parque_principal1.jpg" color="#005548">
+  <!-- Basic SEO -->
+  <meta name="description" content="Descubre Arbeláez, Cundinamarca: naturaleza, gastronomía, artesanías, alojamiento rural y planes turísticos cerca de Bogotá.">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta name="language" content="es-CO">
+  <meta name="author" content="Arbeláez Turismo">
   <meta name="theme-color" content="#005548">
 
-  <!-- Meta SEO -->
-  <meta name="description" content="Arbeláez Turismo: Arbelaez, arbelaez, Arbeláez, arbeláez, arbelaez, arbelaez cundinamarca, arbeláez cundinamarca, arbelaez, Arbeláez, Arbelaez, guía local, qué hacer, dónde comer y dónde dormir en Arbeláez, Cundinamarca. Naturaleza, gastronomía, alojamientos rurales y planes cerca de Bogotá.">
-  <meta name="keywords" content="Arbeláez turismo, Arbelaez turismo, Arbeláez Cundinamarca, Arbelaez Cundinamarca, turismo Arbeláez, pueblo Arbeláez, viajar a Arbeláez, qué hacer en Arbeláez, planes en Arbeláez, lugares Arbeláez, sitios turísticos Arbeláez, destinos Arbeláez, fin de semana Arbeláez, escapada Arbeláez, cerca de Bogotá, pueblos cerca de Bogotá, turismo cerca de Bogotá, sur de Cundinamarca, turismo Cundinamarca, destinos Cundinamarca, naturaleza Arbeláez, turismo de naturaleza, turismo rural, turismo ecológico, ecoturismo Arbeláez, turismo sostenible, turismo comunitario, turismo local, rutas rurales Arbeláez, senderismo Arbeláez, caminatas ecológicas, rutas de montaña, cascadas Arbeláez, ríos Arbeláez, pozos naturales Arbeláez, miradores Arbeláez, paisajes Arbeláez, cielos estrellados Arbeláez, amaneceres Arbeláez, atardeceres Arbeláez, fotografía de paisaje, avistamiento de aves, bicicleta Arbeláez, cicloturismo Arbeláez, camping Arbeláez, glamping Arbeláez, zonas verdes Arbeláez, plan familiar Arbeláez, plan en pareja Arbeláez, plan con amigos Arbeláez, planes económicos Arbeláez, planes premium Arbeláez, escapada romántica, retiro de descanso, bienestar y relax, alojamiento Arbeláez, hoteles Arbeláez, hostales Arbeláez, fincas turísticas Arbeláez, casas campestres Arbeláez, cabañas Arbeláez, hospedaje económico Arbeláez, alojamiento familiar Arbeláez, alojamiento rural Arbeláez, alojamiento con piscina, alojamiento con bbq, alojamiento pet friendly, restaurantes Arbeláez, gastronomía Arbeláez, comida típica Arbeláez, comida casera Arbeláez, parrilla Arbeláez, pizzería Arbeláez, postres Arbeláez, cafés Arbeláez, café especial Arbeláez, panadería artesanal Arbeláez, rutas gastronómicas, bares Arbeláez, cocteles Arbeláez, artesanías Arbeláez, artesanos locales, productos típicos Arbeláez, mercados locales Arbeláez, ferias y fiestas Arbeláez, eventos Arbeláez, cultura Arbeláez, tradición Arbeláez, música en vivo Arbeláez, historia Arbeláez, iglesia Arbeláez, parque principal Arbeláez, plaza de mercado Arbeláez, experiencias locales, guías turísticos Arbeláez, tours en Arbeláez, planes guiados Arbeláez, rutas en carro Arbeláez, rutas en moto Arbeláez, transporte a Arbeláez, cómo llegar a Arbeláez, buses a Arbeláez, taxis Arbeláez, mapa Arbeláez, mapa turístico Arbeláez, clima Arbeláez, tiempo en Arbeláez, puente festivo Arbeláez, vacaciones Arbeláez, viajar por Colombia, turismo de proximidad, rutas de agua Arbeláez, charcos Arbeláez, cascadas Cundinamarca, miradores Cundinamarca, turismo de aventura, deportes de aventura, canyoning Arbeláez, rappel Arbeláez, caminatas de un día, day trip desde Bogotá, escapada de ciudad, aire puro Arbeláez, vivir en Arbeláez, guía de Arbeláez, arbelaez turismo web, arbelaez.com.co, Arbeláez Turismo Facebook, Arbeláez Turismo Instagram, Arbeláez Turismo TikTok, turismo en veredas Arbeláez, veredas de Arbeláez, naturaleza Cundinamarca, gastronomía Cundinamarca, alojamiento Cundinamarca, planes con niños Arbeláez, planes con mascotas Arbeláez, fotografía Arbeláez, Instagram Arbeláez, TikTok Arbeláez, Facebook Arbeláez Turismo, guía digital Arbeláez, portal turístico Arbeláez, experiencias Arbeláez, turismo responsable Arbeláez, turismo seguro Arbeláez, respira naturaleza Arbeláez, descubre Arbeláez, visita Arbeláez, conoce Arbeláez, Arbeláez tourism, Arbelaez tourism, Arbeláez Cundinamarca, Arbelaez Cundinamarca, tourism in Arbeláez, Arbeláez town, travel to Arbeláez, things to do in Arbeláez, plans in Arbeláez, places in Arbeláez, tourist spots Arbeláez, destinations Arbeláez, Arbeláez weekend trip, Arbeláez getaway, near Bogotá, towns near Bogotá, tourism near Bogotá, south Cundinamarca, Cundinamarca tourism, Cundinamarca destinations, Arbeláez nature, nature tourism, rural tourism, eco tourism, Arbeláez ecotourism, sustainable tourism, community tourism, local tourism, rural routes Arbeláez, hiking Arbeláez, eco walks, mountain routes, Arbeláez waterfalls, Arbeláez rivers, natural pools Arbeláez, Arbeláez viewpoints, Arbeláez landscapes, starry skies Arbeláez, Arbeláez sunrises, Arbeláez sunsets, landscape photography, birdwatching, cycling Arbeláez, Arbeláez cycle tourism, camping Arbeláez, glamping Arbeláez, green areas Arbeláez, family plan Arbeláez, couple plan Arbeláez, friends plan Arbeláez, budget plans Arbeláez, premium plans Arbeláez, romantic getaway, rest retreat, wellness and relaxation, Arbeláez accommodation, Arbeláez hotels, Arbeláez hostels, tourist farms Arbeláez, country houses Arbeláez, cabins Arbeláez, affordable lodging Arbeláez, family accommodation Arbeláez, rural lodging Arbeláez, accommodation with pool, accommodation with BBQ, pet friendly accommodation, Arbeláez restaurants, Arbeláez gastronomy, typical food Arbeláez, homemade food Arbeláez, grill Arbeláez, pizza Arbeláez, desserts Arbeláez, cafés Arbeláez, specialty coffee Arbeláez, artisan bakery Arbeláez, food routes, Arbeláez bars, Arbeláez cocktails, Arbeláez handicrafts, local artisans, typical products Arbeláez, local markets Arbeláez, festivals and fairs Arbeláez, Arbeláez events, Arbeláez culture, Arbeláez tradition, live music Arbeláez, Arbeláez history, Arbeláez church, Arbeláez main square, Arbeláez farmers market, local experiences, tour guides Arbeláez, tours in Arbeláez, guided plans Arbeláez, car routes Arbeláez, motorbike routes Arbeláez, transport to Arbeláez, how to get to Arbeláez, buses to Arbeláez, taxis Arbeláez, Arbeláez map, Arbeláez tourist map, Arbeláez weather, Arbeláez forecast, holiday weekend Arbeláez, Arbeláez vacations, travel Colombia, proximity tourism, water routes Arbeláez, natural swimming holes Arbeláez, Cundinamarca waterfalls, Cundinamarca viewpoints, adventure tourism, adventure sports, canyoning Arbeláez, rappelling Arbeláez, day hikes, day trip from Bogotá, city escape, fresh air Arbeláez, living in Arbeláez, Arbeláez guide, Arbeláez tourism website, arbelaez.com.co, Arbeláez Turismo Facebook, Arbeláez Turismo Instagram, Arbeláez Turismo TikTok, tourism in Arbeláez veredas, Arbeláez veredas, Cundinamarca nature, Cundinamarca gastronomy, Cundinamarca accommodation, plans with kids Arbeláez, plans with pets Arbeláez, Arbeláez photography, Arbeláez Instagram, Arbeláez TikTok, Arbeláez Turismo Facebook, Arbeláez digital guide, Arbeláez tourist portal, Arbeláez experiences, responsible tourism Arbeláez, safe tourism Arbeláez, breathe nature Arbeláez, discover Arbeláez, visit Arbeláez, explore Arbeláez">
+  <!-- Canonical -->
+  <link rel="canonical" href="<?= htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8') ?>">
+
+  <!-- Styles and scripts -->
+  <link rel="stylesheet" href="<?= $cssPath ?>?v=<?= $cssTime ?>">
+  <script src="<?= $jsPath ?>?v=<?= $jsTime ?>" defer></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="<?= htmlspecialchars($favicon, ENT_QUOTES, 'UTF-8') ?>">
+  <link rel="icon" type="image/png" sizes="16x16" href="<?= htmlspecialchars($favicon, ENT_QUOTES, 'UTF-8') ?>">
+  <link rel="apple-touch-icon" sizes="180x180" href="<?= htmlspecialchars($favicon, ENT_QUOTES, 'UTF-8') ?>">
+
+  <!-- Optional keywords -->
+  <meta name="keywords" content="Arbeláez Turismo, Arbeláez Cundinamarca, turismo en Arbeláez, qué hacer en Arbeláez, dónde comer en Arbeláez, dónde dormir en Arbeláez, naturaleza en Arbeláez, artesanías en Arbeláez, gastronomía en Arbeláez, alojamiento en Arbeláez, turismo cerca de Bogotá">
 
   <!-- Open Graph -->
   <meta property="og:locale" content="es_CO">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Arbeláez Turismo – Naturaleza, artesanías, gastronomía, alojamiento en Cundinamarca, lugares turisticos">
-  <meta property="og:description" content="Explora Arbeláez: planes de naturaleza, gastronomía local y alojamientos para todos los gustos.">
-  <meta property="og:url" content="https://www.arbelaez.com.co/">
-  <meta property="og:image" content="https://www.arbelaez.com.co/view/home/img/og-1200x630.jpg">
+  <meta property="og:site_name" content="Arbeláez Turismo">
+  <meta property="og:title" content="Arbeláez Turismo | Naturaleza, gastronomía, artesanías y alojamiento en Cundinamarca">
+  <meta property="og:description" content="Explora Arbeláez y encuentra planes de naturaleza, gastronomía local, artesanías y alojamientos rurales cerca de Bogotá.">
+  <meta property="og:url" content="<?= htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8') ?>">
+  <meta property="og:image" content="<?= htmlspecialchars($ogImage, ENT_QUOTES, 'UTF-8') ?>">
+  <meta property="og:image:alt" content="Paisaje turístico de Arbeláez, Cundinamarca">
 
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Arbeláez Turismo | Naturaleza, gastronomía, artesanías y alojamiento en Cundinamarca">
+  <meta name="twitter:description" content="Descubre qué hacer, dónde comer y dónde dormir en Arbeláez, Cundinamarca.">
+  <meta name="twitter:image" content="<?= htmlspecialchars($ogImage, ENT_QUOTES, 'UTF-8') ?>">
 
-  <!-- Perfiles sociales reales -->
-  <link rel="me" href="https://www.facebook.com/profile.php?id=61580302286594">
+  <!-- Social profiles -->
   <link rel="me" href="https://www.instagram.com/arbelaez_turismo/">
   <link rel="me" href="https://www.tiktok.com/@arbelaez_turismo">
+  <link rel="me" href="https://www.facebook.com/arbelaez_turismo">
 
-  <!-- Datos estructurados: WebSite + Organization con redes oficiales -->
+  <!-- Structured data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -57,17 +83,23 @@
       {
         "@type": "WebSite",
         "name": "Arbeláez Turismo",
-        "url": "https://www.arbelaez.com.co/",
-        "inLanguage": "es-CO"
+        "url": "<?= htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8') ?>",
+        "inLanguage": "es-CO",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "<?= htmlspecialchars($baseUrl, ENT_QUOTES, 'UTF-8') ?>/buscar?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
       },
       {
         "@type": "Organization",
         "name": "Arbeláez Turismo",
-        "url": "https://www.arbelaez.com.co/",
+        "url": "<?= htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8') ?>",
+        "logo": "<?= htmlspecialchars($favicon, ENT_QUOTES, 'UTF-8') ?>",
         "sameAs": [
-          "https://www.facebook.com/profile.php?id=61580302286594",
           "https://www.instagram.com/arbelaez_turismo/",
-          "https://www.tiktok.com/@arbelaez_turismo"
+          "https://www.tiktok.com/@arbelaez_turismo",
+          "https://www.facebook.com/arbelaez_turismo"
         ]
       }
     ]
@@ -76,16 +108,18 @@
 </head>
 
 <body class="body_home">
-  <?php include "../../view/global/menu/menu.php" ?>
-  <div class="container_home">
-    <?php include "../../view/home/slider/slider.php" ?>
-    <?php include "../../view/home/intro/intro.php" ?>
-    <?php include "../../view/home/places/places.php" ?>
-    <?php include "../../view/home/imagen/imagen.php" ?>
-    <?php include "../../view/home/Rifa/rifa.php" ?>
-    <?php include "../../view/home/text/text.php" ?>
-    <?php include "../../view/home/maps/maps.php" ?>
-    <?php include "../../view/global/footer/footer.php"?>
-  </div>
+  <?php include $base . "/view/global/menu/menu.php"; ?>
+
+  <main class="container_home">
+    <?php include $base . "/view/home/slider/slider.php"; ?>
+    <?php include $base . "/view/home/intro/intro.php"; ?>
+    <?php include $base . "/view/home/places/places.php"; ?>
+    <?php include $base . "/view/home/imagen/imagen.php"; ?>
+    <?php include $base . "/view/home/Rifa/rifa.php"; ?>
+    <?php include $base . "/view/home/text/text.php"; ?>
+    <?php include $base . "/view/home/maps/maps.php"; ?>
+  </main>
+
+  <?php include $base . "/view/global/footer/footer.php"; ?>
 </body>
 </html>

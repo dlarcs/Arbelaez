@@ -61,15 +61,14 @@ $jsTime  = @filemtime($jsPath) ?: time(); // fallback si falta el archivo
     </section>
   </a>
   <a href="../../view/rio/index.php">
-    <section class="cat rio" id="rio" data-parallax data-bg="500" data-fg="300">
+    <section class="cat rio" id="cultura" data-parallax data-bg="500" data-fg="300">
       <div class="cat__content">
-        <h2>Zonas de agua</h2>
-        <p>Ríos, pozos, quebradas y puentes</p>
+        <h2>Festividades</h2>
+        <p>Tradiciones, eventos, historia y experiencias.</p>
         <a class="btn" href="../../view/rio/index.php">Ver más</a>
       </div>
     </section>
   </a>
-
   </main>
 </section>
 
