@@ -172,7 +172,7 @@ $jsTime = filemtime('../../view/rio/seccion/rios.js');
 
     <article class="card" style="--img:url('../../../view/rio/img/bocatoma1.jpg');">
       <div class="card__media">
-        <span class="pill">Bocatoma</span>
+        <span class="pill">Puente</span>
         <div class="card__overlay">
           <h2 class="card__title">Rio el Guavio</h2>
           <p class="card__meta">
@@ -181,16 +181,16 @@ $jsTime = filemtime('../../view/rio/seccion/rios.js');
                 <path fill="currentColor" d="M12 2c-3.9 0-7 3.1-7 7 0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/>
               </svg>
             </span>
-            Vía Santa Barbara: entrada por Granja Guayabos,
+            Vía Santa Barbara: entrada por Granja Guayabos.
           </p>
         </div>
       </div>
 
       <div class="card__body">
         <p class="card__desc">
-          La Bocatoma de Arbeláez, sobre el río Gauvio, ofrece un entorno sereno rodeado de naturaleza. Un lugar ideal para contemplar el agua, respirar aire puro y conectar con el paisaje
+          Puente sobre el río Guavio, un rincón perfecto para disfrutar la naturaleza, escuchar el correr del agua y admirar la tranquilidad del paisaje.
         </p>
-        <a class="card__link" href="https://maps.app.goo.gl/ou248kUosKcpVBh76">
+        <a class="card__link" href="https://maps.app.goo.gl/aAd88PSHC4fQeffX8">
           <span class="link__icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" width="18" height="18">
               <path fill="currentColor" d="M12 2l3 7h7l-5.7 4.1L18.5 21 12 16.8 5.5 21l2.2-7.9L2 9h7z"/>
@@ -200,6 +200,38 @@ $jsTime = filemtime('../../view/rio/seccion/rios.js');
         </a>
       </div>
     </article>
+
+    <article class="card" style="--img:url('../../../view/rio/img/bocatoma1.jpg');">
+      <div class="card__media">
+        <span class="pill">Bocatoma</span>
+        <div class="card__overlay">
+          <h2 class="card__title">Rio el Guavio</h2>
+          <p class="card__meta">
+            <span class="meta__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18">
+                <path fill="currentColor" d="M12 2c-3.9 0-7 3.1-7 7 0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/>
+              </svg>
+            </span>
+            Vía Santa Barbara: entrada por Granja Guayabos.
+          </p>
+        </div>
+      </div>
+
+      <div class="card__body">
+        <p class="card__desc">
+          La Bocatoma de Arbeláez, sobre el río Gauvio, anteriormente, paseo de olla, hoy en día un lugar ideal para contemplar el agua, respirar aire puro y conectar con el paisaje.
+        </p>
+        <a class="card__link" href="https://maps.app.goo.gl/Zkof5s2Tr7QtdTZXA">
+          <span class="link__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="18" height="18">
+              <path fill="currentColor" d="M12 2l3 7h7l-5.7 4.1L18.5 21 12 16.8 5.5 21l2.2-7.9L2 9h7z"/>
+            </svg>
+          </span>
+          Cómo llegar
+        </a>
+      </div>
+    </article>
+
 
   </section>
 </main>
