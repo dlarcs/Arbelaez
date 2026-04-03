@@ -170,11 +170,11 @@ $jsTime = filemtime('../../view/rio/seccion/rios.js');
       </div>
     </article>
 
-    <article class="card" style="--img:url('../../../view/rio/img/bocatoma1.jpg');">
+    <article class="card" style="--img:url('../../../view/rio/img/puente_rio_guavio.jpg');">
       <div class="card__media">
         <span class="pill">Puente</span>
         <div class="card__overlay">
-          <h2 class="card__title">Rio el Guavio</h2>
+          <h2 class="card__title">Puente</h2>
           <p class="card__meta">
             <span class="meta__icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" width="18" height="18">
