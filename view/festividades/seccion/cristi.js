@@ -1,19 +1,19 @@
 const cardData = [
   {
     title: "Unlock Your Creative Flow",
-    image: "view/festividades/img_christi/christi.jpeg",
+    image: "../../view/festividades/img_christi/christi.jpeg",
   },
   {
     title: "Design Your Digital Future",
-    image: "view/festividades/img_christi/christi1.jpeg",
+    image: "../../view/festividades/img_christi/christi1.jpeg",
   },
   {
     title: "Build with Passion, Ship with Pride",
-    image: "view/festividades/img_christi/christi2.jpeg",
+    image: "../../view/festividades/img_christi/christi2.jpeg",
   },
   {
     title: "Think Big, Code Smart",
-    image: "view/festividades/img_christi/christi3.jpeg",
+    image: "../../view/festividades/img_christi/christi3.jpeg",
   },
 ];
 
