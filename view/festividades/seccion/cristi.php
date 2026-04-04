@@ -43,7 +43,7 @@ $jsTime  = filemtime('../../view/festividades/seccion/cristi.js');
     </div>
 
     <!-- Cumpleaños de Arbeláez -->
-    <div class="gallery-block">
+    <!-- <div class="gallery-block">
       <h2 class="gallery-title">Cumpleaños de Arbeláez</h2>
 
       <div class="marquee-wrapper" id="marqueeWrapperCumple">
@@ -55,7 +55,7 @@ $jsTime  = filemtime('../../view/festividades/seccion/cristi.js');
 
         <div class="fade-right"></div>
       </div>
-    </div>
+    </div> -->
   </div>
 </section>
 
