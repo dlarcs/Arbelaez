@@ -19,6 +19,58 @@ const galleriesData = {
       title: "Corpus Christi",
       image: "../../view/festividades/img_christi/christi3.jpeg",
     },
+    {
+      title: "Corpus Christi",
+      image: "../../view/festividades/img_christi/christi4.jpeg",
+    },
+    {
+      title: "Corpus Christi",
+      image: "../../view/festividades/img_christi/christi5.jpeg",
+    },
+    {
+      title: "Corpus Christi",
+      image: "../../view/festividades/img_christi/christi6.jpeg",
+    },
+    {
+      title: "Corpus Christi",
+      image: "../../view/festividades/img_christi/christi7.jpeg",
+    },
+    {
+      title: "Corpus Christi",
+      image: "../../view/festividades/img_christi/christi8.jpeg",
+    },
+    {
+      title: "Corpus Christi",
+      image: "../../view/festividades/img_christi/christi9.jpeg",
+    },
+    {
+      title: "Corpus Christi",
+      image: "../../view/festividades/img_christi/christi10.jpeg",
+    },
+    {
+      title: "Corpus Christi",
+      image: "../../view/festividades/img_christi/christi11.jpeg",
+    },
+    {
+      title: "Corpus Christi",
+      image: "../../view/festividades/img_christi/christi12.jpeg",
+    },
+    {
+      title: "Corpus Christi",
+      image: "../../view/festividades/img_christi/christi13.jpeg",
+    },
+    {
+      title: "Corpus Christi",
+      image: "../../view/festividades/img_christi/christi14.jpeg",
+    },
+    {
+      title: "Corpus Christi",
+      image: "../../view/festividades/img_christi/christi15.jpeg",
+    },
+    {
+      title: "Corpus Christi",
+      image: "../../view/festividades/img_christi/christi16.jpeg",
+    },
   ],
 
   diablada: [
