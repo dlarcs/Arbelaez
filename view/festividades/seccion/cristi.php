@@ -9,7 +9,7 @@ $jsTime  = filemtime('../../view/festividades/seccion/cristi.js');
   <div class="festivities-container">
     <h1 class="main-title">Festividades de Arbeláez</h1>
     <p class="main-subtitle">
-      Tradición, cultura y celebración en tres momentos especiales del municipio.
+      Tradición, cultura y celebración en momentos especiales del municipio.
     </p>
 
     <!-- Corpus Christi -->
