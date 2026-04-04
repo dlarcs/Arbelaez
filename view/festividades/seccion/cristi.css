@@ -1,19 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  background: #ffffff;
-  font-family: Arial, sans-serif;
-  color: #1f1f1f;
-}
 
 .festivities-section {
   width: 100%;
   padding: 4rem 1.5rem;
-  background: #ffffff;
+  background: black;
+  box-sizing: border-box;
+
 }
 
 .festivities-container {
