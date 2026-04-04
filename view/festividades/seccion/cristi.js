@@ -1,54 +1,139 @@
-const cardData = [
-  {
-    title: "Unlock Your Creative Flow",
-    image: "../../view/festividades/img_christi/christi.jpeg",
-  },
-  {
-    title: "Design Your Digital Future",
-    image: "../../view/festividades/img_christi/christi1.jpeg",
-  },
-  {
-    title: "Build with Passion, Ship with Pride",
-    image: "../../view/festividades/img_christi/christi2.jpeg",
-  },
-  {
-    title: "Think Big, Code Smart",
-    image: "../../view/festividades/img_christi/christi3.jpeg",
-  },
-];
+/* -----------------------------------------
+   Image data for each festive gallery
+----------------------------------------- */
+const galleriesData = {
+  corpus: [
+    {
+      title: "Corpus Christi",
+      image: "../../view/festividades/img_christi/christi.jpeg",
+    },
+    {
+      title: "Corpus Christi",
+      image: "../../view/festividades/img_christi/christi1.jpeg",
+    },
+    {
+      title: "Corpus Christi",
+      image: "../../view/festividades/img_christi/christi2.jpeg",
+    },
+    {
+      title: "Corpus Christi",
+      image: "../../view/festividades/img_christi/christi3.jpeg",
+    },
+  ],
 
-const marqueeWrapper = document.getElementById("marqueeWrapper");
-const marqueeInner = document.getElementById("marqueeInner");
-const marqueeTrack = document.getElementById("marqueeTrack");
+  diablada: [
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/img_diablada/diablada1.jpeg",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/img_diablada/diablada2.jpeg",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/img_diablada/diablada3.jpeg",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/img_diablada/diablada4.jpeg",
+    },
+  ],
 
-/* Duplicate the cards to create the infinite marquee effect */
-const allCards = [...cardData, ...cardData];
+  cumple: [
+    {
+      title: "Cumpleaños de Arbeláez",
+      image: "../../view/festividades/img_cumple/cumple1.jpeg",
+    },
+    {
+      title: "Cumpleaños de Arbeláez",
+      image: "../../view/festividades/img_cumple/cumple2.jpeg",
+    },
+    {
+      title: "Cumpleaños de Arbeláez",
+      image: "../../view/festividades/img_cumple/cumple3.jpeg",
+    },
+    {
+      title: "Cumpleaños de Arbeláez",
+      image: "../../view/festividades/img_cumple/cumple4.jpeg",
+    },
+  ],
+};
 
-allCards.forEach((card) => {
-  const cardEl = document.createElement("div");
-  cardEl.className = "card";
+/* -----------------------------------------
+   Reusable marquee builder
+----------------------------------------- */
+function initMarquee(config) {
+  const {
+    wrapperId,
+    innerId,
+    trackId,
+    cards,
+  } = config;
 
-  cardEl.innerHTML = `
-    <img src="${card.image}" alt="${card.title}">
-    <div class="card-overlay">
-      <p>${card.title}</p>
-    </div>
-  `;
+  const marqueeWrapper = document.getElementById(wrapperId);
+  const marqueeInner   = document.getElementById(innerId);
+  const marqueeTrack   = document.getElementById(trackId);
 
-  marqueeTrack.appendChild(cardEl);
-});
+  if (!marqueeWrapper || !marqueeInner || !marqueeTrack || !Array.isArray(cards) || !cards.length) {
+    return;
+  }
 
-/* Set the animation duration based on the number of original cards */
-marqueeInner.style.setProperty(
-  "--marquee-duration",
-  `${cardData.length * 2500}ms`
-);
+  /* Duplicate the cards so the marquee can loop continuously */
+  const allCards = [...cards, ...cards];
 
-/* Pause the animation on hover */
-marqueeWrapper.addEventListener("mouseenter", () => {
-  marqueeInner.style.animationPlayState = "paused";
-});
+  allCards.forEach((card) => {
+    const cardEl = document.createElement("div");
+    cardEl.className = "card";
 
-marqueeWrapper.addEventListener("mouseleave", () => {
-  marqueeInner.style.animationPlayState = "running";
+    cardEl.innerHTML = `
+      <img src="${card.image}" alt="${card.title}">
+      <div class="card-overlay">
+        <p>${card.title}</p>
+      </div>
+    `;
+
+    marqueeTrack.appendChild(cardEl);
+  });
+
+  /* Set a duration based on the number of original cards */
+  marqueeInner.style.setProperty(
+    "--marquee-duration",
+    `${cards.length * 2500}ms`
+  );
+
+  /* Pause on hover */
+  marqueeWrapper.addEventListener("mouseenter", () => {
+    marqueeInner.style.animationPlayState = "paused";
+  });
+
+  marqueeWrapper.addEventListener("mouseleave", () => {
+    marqueeInner.style.animationPlayState = "running";
+  });
+}
+
+/* -----------------------------------------
+   Initialise all marquees
+----------------------------------------- */
+document.addEventListener("DOMContentLoaded", () => {
+  initMarquee({
+    wrapperId: "marqueeWrapperCorpus",
+    innerId: "marqueeInnerCorpus",
+    trackId: "marqueeTrackCorpus",
+    cards: galleriesData.corpus,
+  });
+
+  initMarquee({
+    wrapperId: "marqueeWrapperDiablada",
+    innerId: "marqueeInnerDiablada",
+    trackId: "marqueeTrackDiablada",
+    cards: galleriesData.diablada,
+  });
+
+  initMarquee({
+    wrapperId: "marqueeWrapperCumple",
+    innerId: "marqueeInnerCumple",
+    trackId: "marqueeTrackCumple",
+    cards: galleriesData.cumple,
+  });
 });

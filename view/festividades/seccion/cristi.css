@@ -7,13 +7,53 @@
 body {
   background: #ffffff;
   font-family: Arial, sans-serif;
+  color: #1f1f1f;
+}
+
+.festivities-section {
+  width: 100%;
+  padding: 4rem 1.5rem;
+  background: #ffffff;
+}
+
+.festivities-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-title {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.75rem;
+  color: #111827;
+}
+
+.main-subtitle {
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #4b5563;
+}
+
+.gallery-block {
+  margin-bottom: 4rem;
+}
+
+.gallery-title {
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #111827;
 }
 
 .marquee-wrapper {
   position: relative;
   overflow: hidden;
   width: 100%;
-  max-width: 72rem;
   margin: 0 auto;
 }
 
@@ -35,12 +75,15 @@ body {
   margin: 0 1rem;
   position: relative;
   overflow: hidden;
+  border-radius: 18px;
   transition: transform 0.3s ease;
   flex-shrink: 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  background: #f5f5f5;
 }
 
 .card:hover {
-  transform: scale(0.9);
+  transform: scale(0.95);
 }
 
 .card img {
@@ -55,13 +98,13 @@ body {
   position: absolute;
   inset: 0;
   display: flex;
-  align-items: centre;
-  justify-content: centre;
+  align-items: center;
+  justify-content: center;
   padding: 1rem;
   opacity: 0;
   transition: opacity 0.3s ease;
   backdrop-filter: blur(8px);
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.25);
 }
 
 .card:hover .card-overlay {
@@ -72,7 +115,7 @@ body {
   color: #ffffff;
   font-size: 1.125rem;
   font-weight: 600;
-  text-align: centre;
+  text-align: center;
 }
 
 /* Side gradients */
@@ -98,8 +141,9 @@ body {
 }
 
 @media (min-width: 768px) {
+  .fade-left,
   .fade-right {
-    width: 10rem;
+    width: 8rem;
   }
 }
 
