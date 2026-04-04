@@ -7,6 +7,7 @@ $jsTime = filemtime('../../view/festividades/seccion/cristi.js');   // ejemplo: 
 
 
 <section>
+	<h1>Corpus Christi</h1>
 	<div class="marquee-wrapper" id="marqueeWrapper">
 		 <div class="fade-left"></div>
 
