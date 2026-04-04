@@ -1,81 +1,54 @@
-// Filtros por categoría + accesibilidad + teclado + URL ?cat=
-(function(){
-  const filterBar = document.querySelector('.restos_filters');
-  if (!filterBar) return;
+const cardData = [
+  {
+    title: "Unlock Your Creative Flow",
+    image: "view/festividades/img_christi/christi.jpeg",
+  },
+  {
+    title: "Design Your Digital Future",
+    image: "view/festividades/img_christi/christi1.jpeg",
+  },
+  {
+    title: "Build with Passion, Ship with Pride",
+    image: "view/festividades/img_christi/christi2.jpeg",
+  },
+  {
+    title: "Think Big, Code Smart",
+    image: "view/festividades/img_christi/christi3.jpeg",
+  },
+];
 
-  const buttons = Array.from(filterBar.querySelectorAll('.filter_btn'));
-  const cards = Array.from(document.querySelectorAll('.resto_card'));
+const marqueeWrapper = document.getElementById("marqueeWrapper");
+const marqueeInner = document.getElementById("marqueeInner");
+const marqueeTrack = document.getElementById("marqueeTrack");
 
-  // Aplica filtro
-  function applyFilter(filter){
-    buttons.forEach(b => {
-      const active = b.dataset.filter === filter || (filter === 'all' && b.dataset.filter === 'all');
-      b.classList.toggle('is-active', active);
-      b.setAttribute('aria-pressed', String(active));
-    });
+/* Duplicate the cards to create the infinite marquee effect */
+const allCards = [...cardData, ...cardData];
 
-    cards.forEach(card => {
-      const matches = card.classList.contains(filter);
-      const show = filter === 'all' || matches;
-      if (show){
-        if (card.hidden){
-          card.hidden = false;
-          // Animación de entrada
-          card.animate(
-            [{opacity: 0, transform:'translateY(6px)'}, {opacity: 1, transform:'translateY(0)'}],
-            {duration: 220, easing: 'ease-out'}
-          );
-        }
-      } else {
-        card.hidden = true;
-      }
-    });
-  }
+allCards.forEach((card) => {
+  const cardEl = document.createElement("div");
+  cardEl.className = "card";
 
-  // Click
-  filterBar.addEventListener('click', (e) => {
-    const btn = e.target.closest('.filter_btn');
-    if (!btn) return;
-    applyFilter(btn.dataset.filter);
-    // sincroniza URL (opcional)
-    const url = new URL(location.href);
-    if (btn.dataset.filter === 'all') url.searchParams.delete('cat');
-    else url.searchParams.set('cat', btn.dataset.filter);
-    history.replaceState({}, '', url);
-  });
+  cardEl.innerHTML = `
+    <img src="${card.image}" alt="${card.title}">
+    <div class="card-overlay">
+      <p>${card.title}</p>
+    </div>
+  `;
 
-  // Teclado: mover foco con flechas dentro del toolbar
-  filterBar.addEventListener('keydown', (e) => {
-    const current = document.activeElement;
-    const i = buttons.indexOf(current);
-    if (i === -1) return;
+  marqueeTrack.appendChild(cardEl);
+});
 
-    if (e.key === 'ArrowRight' || e.key === 'ArrowDown'){
-      e.preventDefault();
-      const next = buttons[(i + 1) % buttons.length];
-      next.focus();
-    }
-    if (e.key === 'ArrowLeft' || e.key === 'ArrowUp'){
-      e.preventDefault();
-      const prev = buttons[(i - 1 + buttons.length) % buttons.length];
-      prev.focus();
-    }
-    if (e.key === 'Home'){ e.preventDefault(); buttons[0].focus(); }
-    if (e.key === 'End'){ e.preventDefault(); buttons[buttons.length - 1].focus(); }
-    if (e.key === ' ' || e.key === 'Enter'){
-      e.preventDefault();
-      const btn = buttons[i];
-      applyFilter(btn.dataset.filter);
-      const url = new URL(location.href);
-      if (btn.dataset.filter === 'all') url.searchParams.delete('cat');
-      else url.searchParams.set('cat', btn.dataset.filter);
-      history.replaceState({}, '', url);
-    }
-  });
+/* Set the animation duration based on the number of original cards */
+marqueeInner.style.setProperty(
+  "--marquee-duration",
+  `${cardData.length * 2500}ms`
+);
 
-  // Lee ?cat= de la URL
-  const params = new URLSearchParams(location.search);
-  const initial = params.get('cat');
-  const valid = initial && buttons.some(b => b.dataset.filter === initial);
-  applyFilter(valid ? initial : 'all');
-})();
+/* Pause the animation on hover */
+marqueeWrapper.addEventListener("mouseenter", () => {
+  marqueeInner.style.animationPlayState = "paused";
+});
+
+marqueeWrapper.addEventListener("mouseleave", () => {
+  marqueeInner.style.animationPlayState = "running";
+});
