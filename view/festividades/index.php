@@ -79,7 +79,6 @@
   <?php include "../../view/global/menu/menu.php" ?>
 
   <div class="container_Corpus_Christi">
-    <?php include "../../view/festividades/seccion/slider/slider.php" ?>
     <?php include "../../view/festividades/seccion/cristi.php" ?>
     <?php include "../../view/global/footer/footer.php" ?>
   </div>

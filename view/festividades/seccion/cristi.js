@@ -24,19 +24,95 @@ const galleriesData = {
   diablada: [
     {
       title: "La Diablada",
-      image: "../../view/festividades/img_diablada/diablada1.jpeg",
+      image: "../../view/festividades/la_diablada/diablada.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/img_diablada/diablada2.jpeg",
+      image: "../../view/festividades/la_diablada/diablada1.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/img_diablada/diablada3.jpeg",
+      image: "../../view/festividades/la_diablada/diablada2.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/img_diablada/diablada4.jpeg",
+      image: "../../view/festividades/la_diablada/diablada3.JPG",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/la_diablada/diablada4.JPG",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/la_diablada/diablada5.JPG",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/la_diablada/diablada6.JPG",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/la_diablada/diablada7.JPG",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/la_diablada/diablada8.JPG",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/la_diablada/diablada9.JPG",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/la_diablada/diablada10.JPG",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/la_diablada/diablada11.JPG",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/la_diablada/diablada12.JPG",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/la_diablada/diablada13.JPG",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/la_diablada/diablada14.JPG",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/la_diablada/diablada15.JPG",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/la_diablada/diablada16.JPG",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/la_diablada/diablada17.JPG",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/la_diablada/diablada18.JPG",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/la_diablada/diablada19.JPG",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/la_diablada/diablada20.JPG",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/la_diablada/diablada21.JPG",
+    },
+    {
+      title: "La Diablada",
+      image: "../../view/festividades/la_diablada/diablada22.JPG",
     },
   ],
 
