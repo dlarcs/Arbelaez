@@ -95,11 +95,7 @@
   opacity: 0;
   transition: opacity 0.3s ease;
   backdrop-filter: blur(8px);
-  background: linear-gradient(
-  to bottom,
-  rgba(235, 255, 235, 0.4) 0%,
-  rgba(0, 85, 72, 1) 100%
-);
+  background: rgba(0, 0, 0, 0.15);
 }
 
 .card:hover .card-overlay {
@@ -107,7 +103,7 @@
 }
 
 .card-overlay p {
-  color: #ffffff;
+  color: #fafafa;
   font-size: 1.125rem;
   font-weight: 600;
   text-align: center;
@@ -126,13 +122,13 @@
 .fade-left {
   left: 0;
   width: 5rem;
-  background: linear-gradient(to right, #ffffff, transparent);
+  background: linear-gradient(to right, #fafafa, transparent);
 }
 
 .fade-right {
   right: 0;
   width: 5rem;
-  background: linear-gradient(to left, #ffffff, transparent);
+  background: linear-gradient(to left, #fafafa, transparent);
 }
 
 @media (min-width: 768px) {
