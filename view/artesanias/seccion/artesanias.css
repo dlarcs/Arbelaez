@@ -31,10 +31,6 @@
 .section_products{
   width:100%;
   padding:clamp(2rem, 4vw, 4rem) 1rem;
-  background:
-    radial-gradient(900px 500px at 10% 0%, rgba(11,90,79,.06), transparent 55%),
-    radial-gradient(700px 400px at 100% 0%, rgba(200,169,107,.10), transparent 55%),
-    linear-gradient(180deg, #fcfaf7 0%, #f6f1ea 100%);
   border-top:1px solid rgba(23,33,43,.05);
   border-bottom:1px solid rgba(23,33,43,.05);
 }
