@@ -11,7 +11,6 @@ $cssTime = filemtime('../../view/home/nosotros/nosotros.css'); // Example: '../H
 
     <div class="about-apps__wrapper">
         <div class="about-apps__glow"></div>
-
         <img
             class="about-apps__image"
             src="../../view/home/img/parque_principal.jpg"

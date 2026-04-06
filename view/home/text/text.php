@@ -5,6 +5,7 @@ $cssTime = filemtime('../../view/home/text/text.css');
 
   <body>
     <section class="section">
+			<div class="about-apps__glow"></div>
       <h2>Aprende de Arbeláez </h2>
 
       <div class="rule"></div>

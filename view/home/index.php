@@ -108,7 +108,6 @@
 </head>
 
 <body class="body_home">
-  <div class="about-apps__glow"></div>
   <?php include $base . "/view/global/menu/menu.php"; ?>
 
   <main class="container_home">
