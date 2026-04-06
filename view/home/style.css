@@ -32,3 +32,12 @@
   object-fit: cover;
   overflow: hidden;
 }
+.about-apps__glow {
+    width: 520px;
+    height: 520px;
+    border-radius: 50%;
+    position: absolute;
+    background: red;
+    filter: blur(300px);
+    z-index: -1;
+}
