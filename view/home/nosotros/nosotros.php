@@ -11,18 +11,20 @@ $cssTime = filemtime('../../view/home/nosotros/nosotros.css');
 
     <div class="about-apps__wrapper">
         <div class="about-apps__glow"></div>
-        <img
-            class="about-apps__image"
-            src="../../view/home/img/parque_principal.jpg"
-            alt="Proyecto turístico digital de Arbeláez"
-        />
-        <img
-            class="about-apps__image"
-            src="../../view/home/img/parque_principal1.jpg"
-            alt="Proyecto turístico digital de Arbeláez"
-        />
 
+        <div class="img_nosotros">
+          <img
+              class="about-apps__image"
+              src="../../view/home/img/parque_principal.jpg"
+              alt="Proyecto turístico digital de Arbeláez"
+          />
+          <img
+              class="about-apps__image"
+              src="../../view/home/img/parque_principal1.jpg"
+              alt="Proyecto turístico digital de Arbeláez"
+          />
 
+        </div>
         <div class="about-apps__content">
             <p class="about-apps__text">
                 Arbelaez.com.co conecta a visitantes y comunidad con los lugares, servicios y experiencias que hacen especial a Arbeláez, ayudando a que más personas descubran todo lo que este destino tiene para ofrecer.
