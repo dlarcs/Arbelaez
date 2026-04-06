@@ -14,7 +14,7 @@ $cssTime = filemtime('../../view/home/nosotros/nosotros.css'); // Example: '../H
 
         <img
             class="about-apps__image"
-            src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?q=80&w=830&h=844&auto=format&fit=crop"
+            src="../../view/home/img/parque_principal.jpg"
             alt="Proyecto turístico digital de Arbeláez"
         />
 
