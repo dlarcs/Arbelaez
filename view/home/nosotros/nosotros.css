@@ -41,7 +41,7 @@
     height: 520px;
     border-radius: 50%;
     position: absolute;
-    background: red;
+    background: #FBFFE1;
     filter: blur(300px);
     z-index: -1;
 }
