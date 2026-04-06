@@ -48,7 +48,7 @@
 .img_nosotros{
     justify-content: center;
     flex-direction: column;
-    background-color: red;
+    gap:1rem;
 }
 .about-apps__image {
     width: 100%;
