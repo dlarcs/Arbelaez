@@ -12,7 +12,7 @@
   <meta name="googlebot" content="noindex,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 
   <!-- Canonical del dominio principal -->
-  <link rel="canonical" href="arbelaez">
+  <link rel="canonical" href="https://www.arbelaez.com.co/">
 
   <!-- Redirección -->
   <meta http-equiv="refresh" content="0; url=https://www.arbelaez.com.co/view/home/index.php">
