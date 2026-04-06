@@ -19,7 +19,6 @@ $cssTime = filemtime('../../view/home/nosotros/nosotros.css'); // Example: '../H
         />
 
         <div class="about-apps__content">
-            <h2 class="about-apps__subtitle">Lo que ofrece arbelaez.com.co</h2>
             <p class="about-apps__text">
                 Arbelaez.com.co conecta a visitantes y comunidad con los lugares, servicios y experiencias que hacen especial a Arbeláez, ayudando a que más personas descubran todo lo que este destino tiene para ofrecer.
             </p>
@@ -32,7 +31,7 @@ $cssTime = filemtime('../../view/home/nosotros/nosotros.css'); // Example: '../H
                     <div>
                         <h3 class="feature-item__title">Promoción del turismo local</h3>
                         <p class="feature-item__text">
-                            Damos visibilidad a sitios turísticos, paisajes naturales, rutas, eventos y experiencias que invitan a conocer y disfrutar Arbeláez.
+                            Damos visibilidad a sitios turísticos, paisajes naturales, rutas, cultura y experiencias que invitan a conocer y disfrutar Arbeláez.
                         </p>
                     </div>
                 </div>
@@ -56,7 +55,7 @@ $cssTime = filemtime('../../view/home/nosotros/nosotros.css'); // Example: '../H
                     <div>
                         <h3 class="feature-item__title">Conexión con la comunidad</h3>
                         <p class="feature-item__text">
-                            El proyecto integra veredas, asociaciones, fundaciones y comunidades que contribuyen al crecimiento del municipio y fortalecen la identidad turística de Arbeláez.
+                            El proyecto integra alojamientos, artesanías, gastronomía, zonas de agua y cultura que hay en el municipio fortaleciendo la identidad turística de Arbeláez en digital.
                         </p>
                     </div>
                 </div>
