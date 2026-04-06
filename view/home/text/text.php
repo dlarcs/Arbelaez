@@ -32,7 +32,6 @@ $cssTime = filemtime('../../view/home/text/text.css');
       <div class="rule"></div>
       <div class="row">
         <div class="step">
-					<div class="text_glow"></div>
           <div class="num">03</div>
           <p class="txt">
             <strong>Gastronomía con sabor local.</strong> Aquí se come delicioso: opciones caseras, antojitos,
@@ -41,7 +40,6 @@ $cssTime = filemtime('../../view/home/text/text.css');
         </div>
 
         <div class="step">
-					<div class="text_glow"></div>
           <div class="num">04</div>
           <p class="txt">
             <strong>Tradición y cultura viva.</strong> En Arbeláez las costumbres se sienten: eventos, música,
@@ -72,7 +70,6 @@ $cssTime = filemtime('../../view/home/text/text.css');
         <div class="rule"></div>
       <div class="row">
         <div class="step">
-					<div class="text_glow"></div>
           <div class="num">07</div>
           <p class="txt">
             <strong>Turismo en el pueblo y en las veredas.</strong> No es solo el casco urbano: las veredas
@@ -81,7 +78,6 @@ $cssTime = filemtime('../../view/home/text/text.css');
         </div>
 
         <div class="step">
-					<div class="text_glow"></div>
           <div class="num">08</div>
           <p class="txt">
             <strong>Un destino para volver.</strong> Lo mejor es la energía: amable, tranquila y auténtica.

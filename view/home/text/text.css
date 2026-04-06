@@ -22,7 +22,7 @@ body{
     height: 520px;
     border-radius: 50%;
     position: absolute;
-    background: red;
+    background: black;
     filter: blur(300px);
     z-index: -1;
 }
