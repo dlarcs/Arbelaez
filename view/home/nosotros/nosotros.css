@@ -1,0 +1,126 @@
+
+.about-apps {
+    position: relative;
+    padding: 40px 16px;
+    overflow: hidden;
+}
+
+.about-apps__title {
+    font-size: 1.875rem;
+    font-weight: 600;
+    text-align: centre;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #0f172a;
+}
+
+.about-apps__intro {
+    font-size: 0.875rem;
+    color: #64748b;
+    text-align: center;
+    margin: 8px auto 0;
+    max-width: 28rem;
+    line-height: 1.6;
+}
+
+.about-apps__wrapper {
+    max-width: 56rem;
+    margin: 0 auto;
+    padding: 40px 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    position: relative;
+}
+
+.about-apps__glow {
+    width: 520px;
+    height: 520px;
+    border-radius: 50%;
+    position: absolute;
+    background: #FBFFE1;
+    filter: blur(300px);
+    z-index: -1;
+}
+
+.about-apps__image {
+    width: 100%;
+    max-width: 24rem;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+}
+
+.about-apps__content {
+    width: 100%;
+    max-width: 500px;
+}
+
+.about-apps__subtitle {
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #0f172a;
+}
+
+.about-apps__text {
+    font-size: 0.875rem;
+    color: #64748b;
+    margin-top: 8px;
+    line-height: 1.6;
+}
+
+.about-apps__features {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 24px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.feature-item__icon {
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    background: #eef2ff;
+    border: 1px solid #c7d2fe;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.feature-item__icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.feature-item__title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #475569;
+}
+
+.feature-item__text {
+    font-size: 0.875rem;
+    color: #64748b;
+    margin-top: 4px;
+    line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+    .about-apps__wrapper {
+        flex-direction: row;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
