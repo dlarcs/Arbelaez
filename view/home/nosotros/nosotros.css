@@ -8,7 +8,7 @@
 .about-apps__title {
     font-size: 1.875rem;
     font-weight: 600;
-    text-align: centre;
+    text-align: center;
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
@@ -41,7 +41,7 @@
     height: 520px;
     border-radius: 50%;
     position: absolute;
-    background: #FBFFE1;
+    background: red;
     filter: blur(300px);
     z-index: -1;
 }
