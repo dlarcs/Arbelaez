@@ -17,7 +17,7 @@
 
 .about-apps__intro {
     font-size: 0.875rem;
-    color: #64748b;
+    color: #fafafa;
     text-align: center;
     margin: 8px auto 0;
     max-width: 28rem;
@@ -67,7 +67,7 @@
 
 .about-apps__text {
     font-size: 0.875rem;
-    color: #64748b;
+    color: #fafafa;
     margin-top: 8px;
     line-height: 1.6;
 }
@@ -112,7 +112,7 @@
 
 .feature-item__text {
     font-size: 0.875rem;
-    color: #64748b;
+    color: #fafafa;
     margin-top: 4px;
     line-height: 1.5;
 }

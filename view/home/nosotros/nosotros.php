@@ -1,12 +1,12 @@
 <?php
-$cssTime = filemtime('../../view/home/nosotros/nosotros.css'); // ejemplo: '../Home/5.Video/video.css'
+$cssTime = filemtime('../../view/home/nosotros/nosotros.css'); // Example: '../Home/5.Video/video.css'
 ?>
 <link rel="stylesheet" href="../../view/home/nosotros/nosotros.css?v=<?= $cssTime ?>">
 
 <section class="about-apps">
-    <h1 class="about-apps__title">About our apps</h1>
+    <h1 class="about-apps__title">Sobre Arbelaez.com.co</h1>
     <p class="about-apps__intro">
-        A visual collection of our most recent works - each piece crafted with intention, emotion and style.
+        Una vitrina digital creada para mostrar lo mejor de Arbeláez, impulsando el turismo local y dando visibilidad a los emprendimientos, la naturaleza, la gastronomía, el alojamiento y las artesanías del municipio.
     </p>
 
     <div class="about-apps__wrapper">
@@ -15,44 +15,49 @@ $cssTime = filemtime('../../view/home/nosotros/nosotros.css'); // ejemplo: '../H
         <img
             class="about-apps__image"
             src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?q=80&w=830&h=844&auto=format&fit=crop"
-            alt="About our apps"
+            alt="Proyecto turístico digital de Arbeláez"
         />
 
         <div class="about-apps__content">
-            <h2 class="about-apps__subtitle">Our Latest features</h2>
+            <h2 class="about-apps__subtitle">Lo que ofrece nuestro proyecto</h2>
             <p class="about-apps__text">
-                Ship Beautiful Frontends Without the Overhead — Customizable, Scalable and Developer-Friendly UI
-                Components.
+                Arbelaez.com.co conecta a visitantes y comunidad con los lugares, servicios y experiencias que hacen especial a Arbeláez, ayudando a que más personas descubran todo lo que este destino tiene para ofrecer.
             </p>
 
             <div class="about-apps__features">
                 <div class="feature-item">
                     <div class="feature-item__icon">
-                        <img src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/aboutSection/flashEmoji.png" alt="Flash icon">
+                        <img src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/aboutSection/flashEmoji.png" alt="Turismo icon">
                     </div>
                     <div>
-                        <h3 class="feature-item__title">Lightning-Fast Performance</h3>
-                        <p class="feature-item__text">Built with speed — minimal load times and optimized.</p>
+                        <h3 class="feature-item__title">Promoción del turismo local</h3>
+                        <p class="feature-item__text">
+                            Damos visibilidad a sitios turísticos, paisajes naturales, rutas, eventos y experiencias que invitan a conocer y disfrutar Arbeláez.
+                        </p>
                     </div>
                 </div>
 
                 <div class="feature-item">
                     <div class="feature-item__icon">
-                        <img src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/aboutSection/colorsEmoji.png" alt="Colours icon">
+                        <img src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/aboutSection/colorsEmoji.png" alt="Emprendimientos icon">
                     </div>
                     <div>
-                        <h3 class="feature-item__title">Beautifully Designed Components</h3>
-                        <p class="feature-item__text">Modern, pixel-perfect UI components ready for any project.</p>
+                        <h3 class="feature-item__title">Apoyo a los emprendimientos</h3>
+                        <p class="feature-item__text">
+                            Cada negocio puede contar con su propio espacio para mostrar sus productos o servicios, incluyendo alojamiento, gastronomía, artesanías y mucho más.
+                        </p>
                     </div>
                 </div>
 
                 <div class="feature-item">
                     <div class="feature-item__icon">
-                        <img src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/aboutSection/puzzelEmoji.png" alt="Puzzle icon">
+                        <img src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/aboutSection/puzzelEmoji.png" alt="Comunidad icon">
                     </div>
                     <div>
-                        <h3 class="feature-item__title">Plug-and-Play Integration</h3>
-                        <p class="feature-item__text">Simple setup with support for React, Next.js and Tailwind css.</p>
+                        <h3 class="feature-item__title">Conexión con la comunidad</h3>
+                        <p class="feature-item__text">
+                            El proyecto integra veredas, asociaciones, fundaciones y comunidades que contribuyen al crecimiento del municipio y fortalecen la identidad turística de Arbeláez.
+                        </p>
                     </div>
                 </div>
             </div>
