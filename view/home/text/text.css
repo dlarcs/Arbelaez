@@ -17,7 +17,7 @@ body{
   margin: 0 auto;
   padding: 56px 44px;
 }
-.about-apps__glow {
+.text_glow {
     width: 520px;
     height: 520px;
     border-radius: 50%;
