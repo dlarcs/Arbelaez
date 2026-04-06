@@ -19,7 +19,7 @@ $cssTime = filemtime('../../view/home/nosotros/nosotros.css'); // Example: '../H
         />
 
         <div class="about-apps__content">
-            <h2 class="about-apps__subtitle">Lo que ofrece nuestro proyecto</h2>
+            <h2 class="about-apps__subtitle">Lo que ofrece arbelaez.com.co</h2>
             <p class="about-apps__text">
                 Arbelaez.com.co conecta a visitantes y comunidad con los lugares, servicios y experiencias que hacen especial a Arbeláez, ayudando a que más personas descubran todo lo que este destino tiene para ofrecer.
             </p>
