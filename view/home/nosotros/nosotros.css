@@ -48,7 +48,6 @@
 .img_nosotros{
     justify-content: center;
     flex-direction: column;
-    gap:1rem;
 }
 .about-apps__image {
     width: 100%;
@@ -56,6 +55,7 @@
     height: auto;
     border-radius: 12px;
     display: block;
+    margin: 1rem;
 }
 
 .about-apps__content {
