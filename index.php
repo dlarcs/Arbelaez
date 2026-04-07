@@ -24,22 +24,22 @@
   <meta property="og:title" content="Arbeláez Turismo | Naturaleza, gastronomía, artesanías y alojamiento en Cundinamarca">
   <meta property="og:description" content="Explora Arbeláez: lugares turísticos, ríos, gastronomía local, artesanías y alojamientos rurales.">
   <meta property="og:url" content="https://www.arbelaez.com.co/">
-  <meta property="og:image" content="https://www.arbelaez.com.co/view/home/img/og-1200x630.jpg">
+  <meta property="og:image" content="https://www.arbelaez.com.co/view/global/img/logo.png">
   <meta property="og:image:alt" content="Paisaje turístico de Arbeláez, Cundinamarca">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Arbeláez Turismo | Naturaleza, gastronomía, artesanías y alojamiento en Cundinamarca">
   <meta name="twitter:description" content="Descubre Arbeláez: naturaleza, gastronomía, artesanías y alojamiento rural cerca de Bogotá.">
-  <meta name="twitter:image" content="https://www.arbelaez.com.co/view/home/img/og-1200x630.jpg">
+  <meta name="twitter:image" content="https://www.arbelaez.com.co/view/global/img/logo.png">
 
   <!-- Color del navegador -->
   <meta name="theme-color" content="#005548">
 
   <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="https://www.arbelaez.com.co/view/home/img/parque_principal.jpg">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://www.arbelaez.com.co/view/home/img/parque_principal.jpg">
-  <link rel="apple-touch-icon" sizes="180x180" href="https://www.arbelaez.com.co/view/home/img/parque_principal.jpg">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://www.arbelaez.com.co/view/global/img/logo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://www.arbelaez.com.co/view/global/img/logo.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://www.arbelaez.com.co/view/global/img/logo.png">
 
   <!-- Redes sociales -->
   <link rel="me" href="https://www.instagram.com/arbelaez_turismo/">

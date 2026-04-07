@@ -22,8 +22,8 @@
     $jsTime  = is_file($jsFile)  ? filemtime($jsFile)  : time();
 
     $canonicalUrl = $baseUrl . '/';
-    $ogImage      = $baseUrl . '/view/home/img/og-1200x630.jpg';
-    $favicon      = $baseUrl . '/view/home/img/parque_principal1.jpg';
+    $ogImage      = $baseUrl . '/view/global/img/logo.png';
+    $favicon      = $baseUrl . '/view/global/img/logo.png';
   ?>
 
   <!-- Basic SEO -->
