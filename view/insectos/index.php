@@ -98,7 +98,7 @@
 </head>
 
 <body class="body_insectos">
-  <?php include "../../view/global/menu/menu.php" ?>
+  <?php include "../../global/menu/menu.php" ?>
 
   <div class="container_insectos">
     <?php include "../../view/insectos/slider/slider.php" ?>

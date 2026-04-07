@@ -79,7 +79,7 @@
   <?php include "../../view/global/menu/menu.php" ?>
 
   <div class="container_gastronomia">
-    <?php include "../../view/gastronomia/seccion/slider/slider.php" ?>
+    <?php include "../../gastronomia/seccion/slider/slider.php" ?>
     <?php include "../../view/gastronomia/seccion/restaurante.php" ?>
     <?php include "../../view/global/footer/footer.php" ?>
   </div>

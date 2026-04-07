@@ -50,7 +50,7 @@
 </head>
 
 <body class="body_history">
-  <?php include "../../view/global/menu/menu.php" ?>
+  <?php include "../../global/menu/menu.php" ?>
   <div class="container_history">
     <?php include "../../view/history/seccion/history.php"?>
   </div>

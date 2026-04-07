@@ -1,0 +1,13 @@
+<?php
+$cssTime = filemtime('../../../alojamiento/Casa_Kiyari/title/title.css'); // ejemplo: '../Home/5.Video/video.css'
+?>
+	<link rel="stylesheet" href="../../../alojamiento/Casa_Kiyari/title/title.css?v=<?= $cssTime ?>">
+	<!-- title -->
+	<section class="site">
+		<div class="branding">
+			<img src="../../../alojamiento/Casa_Kiyari/img/logo.jpg" alt="kalu logo" class="logo" width="64" height="64" loading="lazy">
+			<div class="brand">Kiyari</strong>
+				<span class="brand-tag">Alojamiento</span>
+			</div>
+		</div>
+	</section>
