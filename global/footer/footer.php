@@ -1,12 +1,12 @@
 <?php
-$cssTime = filemtime('../../view/global/footer/footer.css');
+$cssTime = filemtime('../../global/footer/footer.css');
 // $jsTime = filemtime('../../../');
 ?>
-<link rel="stylesheet" href="../../view/global/footer/footer.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../../global/footer/footer.css?v=<?= $cssTime ?>">
 <section class="seccion_footer" aria-label="Pie de página">
   <div class="footer_logo">
-    <a href="../../view/home/index.php" aria-label="Inicio">
-      <img class="logo_menu" src="../../view/global/img/logo.png" alt="Logo Arbeláez Turismo"> 
+    <a href="../../home/index.php" aria-label="Inicio">
+      <img class="logo_menu" src="../../global/img/logo.png" alt="Logo Arbeláez Turismo">
     </a>
     <h2>ARBELÁEZ CUNDINAMARCA</h2>
   </div>
@@ -16,7 +16,7 @@ $cssTime = filemtime('../../view/global/footer/footer.css');
       <div class="footer_col">
         <h3 class="footer_title">Inicio</h3>
         <ul class="footer_list">
-          <li><a href="../../view/home/index.php">Página principal</a></li>
+          <li><a href="../../home/index.php">Página principal</a></li>
           <li><a href="#places">Sector turístico</a></li>
           <li>
             <a href="https://maps.app.goo.gl/6BS4VuoXdJ8dpAyu9" target="_blank">
@@ -37,26 +37,26 @@ $cssTime = filemtime('../../view/global/footer/footer.css');
       <div class="footer_col">
         <h3 class="footer_title">Alojamiento</h3>
         <ul class="footer_list">
-          <!-- <li><a href="../../view/alojamiento/Los_Altos/index.php">Los Altos</a></li> -->
-          <li><a href="../../view/alojamiento/Casa_Kandu/index.php">Casa Kiyari</a></li>
-          <li><a href="../../view/alojamiento/Casa_Kandu/index.php">La casita N°2</a></li>
-          <li><a href="../../view/alojamiento/Casa_Kandu/index.php">Casa Kandu</a></li>
-          <li><a href="../../view/alojamiento/La_Rinconada/index.php">La Rinconada</a></li>
-          <li><a href="../../view/alojamiento/Turismo_Hoy_Vivo/index.php">Turismo Hoy Vivo</a></li>
-          <li><a href="../../view/alojamiento/Cachorros_LyC/index.php">Cachorros L&C</a></li>
-          <!-- <li><a href="../../view/alojamiento/IsraHousSuites/index.php">Isra House Suite</a></li> -->
+          <!-- <li><a href="../../alojamiento/Los_Altos/index.php">Los Altos</a></li> -->
+          <li><a href="../../alojamiento/Casa_Kandu/index.php">Casa Kiyari</a></li>
+          <li><a href="../../alojamiento/Casa_Kandu/index.php">La casita N°2</a></li>
+          <li><a href="../../alojamiento/Casa_Kandu/index.php">Casa Kandu</a></li>
+          <li><a href="../../alojamiento/La_Rinconada/index.php">La Rinconada</a></li>
+          <li><a href="../../alojamiento/Turismo_Hoy_Vivo/index.php">Turismo Hoy Vivo</a></li>
+          <li><a href="../../alojamiento/Cachorros_LyC/index.php">Cachorros L&C</a></li>
+          <!-- <li><a href="../../alojamiento/IsraHousSuites/index.php">Isra House Suite</a></li> -->
         </ul>
       </div>
       <!-- Columna: Gastronomía (5) -->
       <div class="footer_col">
         <h3 class="footer_title">Gastronomía</h3>
         <ul class="footer_list">
-          <li><a href="../../view/gastronomia/Don_Ciprio/index.php">Don Ciprio</a></li>
-          <li><a href="../../view/gastronomia/El_Fogon_del_Triangulo/index.php">El Fogon del Triángulo</a></li>
-          <li><a href="../../view/gastronomia/La_Marranada/index.php">La marranada Campestre</a></li>
-          <li><a href="../../view/gastronomia/Pablos_Restaurant/index.php">Pablos Restaurant</a></li>
-          <li><a href="../../view/gastronomia/kalu/index.php">Kalú</a></li>
-          <li><a href="../../view/gastronomia/kapaLuna360/index.php">KapaLuna360°</a></li>
+          <li><a href="../../gastronomia/Don_Ciprio/index.php">Don Ciprio</a></li>
+          <li><a href="../../gastronomia/El_Fogon_del_Triangulo/index.php">El Fogon del Triángulo</a></li>
+          <li><a href="../../gastronomia/La_Marranada/index.php">La marranada Campestre</a></li>
+          <li><a href="../../gastronomia/Pablos_Restaurant/index.php">Pablos Restaurant</a></li>
+          <li><a href="../../gastronomia/kalu/index.php">Kalú</a></li>
+          <li><a href="../../gastronomia/kapaLuna360/index.php">KapaLuna360°</a></li>
         </ul>
       </div>
 
@@ -64,8 +64,8 @@ $cssTime = filemtime('../../view/global/footer/footer.css');
       <div class="footer_col">
         <h3 class="footer_title">Artesanías</h3>
         <ul class="footer_list">
-          <li><a href="../../view/artesanias/Almacen_Religioso/index.php">Almacen Divino Niño Jesús</a></li>
-          <li><a href="../../view/artesanias/Artesanias_Martha_E/index.php">Artesanías Marta E</a></li>
+          <li><a href="../../artesanias/Almacen_Religioso/index.php">Almacen Divino Niño Jesús</a></li>
+          <li><a href="../../artesanias/Artesanias_Martha_E/index.php">Artesanías Marta E</a></li>
         </ul>
       </div>
 
@@ -73,7 +73,7 @@ $cssTime = filemtime('../../view/global/footer/footer.css');
       <!-- <div class="footer_col">
         <h3 class="footer_title">Asociaciones</h3>
         <ul class="footer_list">
-          <li><a href="../../view/Juntanza_de_Mujeres/index.php">Asociación Juntanza de Mujeres</a></li>
+          <li><a href="../../Juntanza_de_Mujeres/index.php">Asociación Juntanza de Mujeres</a></li>
         </ul>
       </div> -->
 
