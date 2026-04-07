@@ -116,7 +116,7 @@
     <?php include $base . "/view/home/places/places.php"; ?>
     <?php include $base . "/view/home/imagen/imagen.php"; ?>
     <?php include $base . "/view/home/Rifa/rifa.php"; ?>
-    <?php include $base . "/view/home/nosotros/nosotros.php" ?>
+
     <?php include $base . "/view/home/text/text.php"; ?>
     <?php include $base . "/view/home/maps/maps.php"; ?>
   </main>
