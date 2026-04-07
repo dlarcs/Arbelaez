@@ -23,7 +23,7 @@ $jsTime = filemtime('../../view/insectos/seccion/insectos.js');
           id="searchInput"
           class="search__input"
           type="search"
-          placeholder="Buscar pájaros por nombre..."
+          placeholder="Buscar insectos por nombre..."
           autocomplete="off"
         />
       </div>

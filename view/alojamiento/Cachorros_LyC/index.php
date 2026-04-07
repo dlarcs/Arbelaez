@@ -17,7 +17,7 @@
   <meta name="geo.placename" content="Arbeláez">
 
   <!-- Palabras clave (light) -->
-  <meta name="keywords" content="Cachorros L&amp;C, mirador Arbeláez, camping Arbeláez, acampar en Arbeláez, cerveza fría, carne asada, asados, BBQ, plan con amigos, plan en pareja, plan familiar, cerca de Bogotá, entrada del pueblo, Arbeláez Cundinamarca">
+  <meta name="keywords" content="Cachorros L&amp;C, arbelaez, Arbelaez, ARBELAEZ, arbeláez, Arbeláez, mirador Arbeláez, camping Arbeláez, acampar en Arbeláez, cerveza fría, carne asada, asados, BBQ, plan con amigos, plan en pareja, plan familiar, cerca de Bogotá, entrada del pueblo, Arbeláez Cundinamarca">
 
   <!-- Open Graph / Twitter -->
   <meta property="og:locale" content="es_CO">
