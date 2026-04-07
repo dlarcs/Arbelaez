@@ -1,7 +1,7 @@
 <?php
-$cssTime = filemtime('../../view/home/nosotros/nosotros.css');
+$cssTime = filemtime('../../home/nosotros/nosotros.css');
 ?>
-<link rel="stylesheet" href="../../view/home/nosotros/nosotros.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../../home/nosotros/nosotros.css?v=<?= $cssTime ?>">
 
 <section class="about-apps">
     <h1 class="about-apps__title">Sobre Arbelaez.com.co</h1>
@@ -15,12 +15,12 @@ $cssTime = filemtime('../../view/home/nosotros/nosotros.css');
         <div class="img_nosotros">
           <img
               class="about-apps__image"
-              src="../../view/home/img/parque_principal.jpg"
+              src="../../home/img/parque_principal.jpg"
               alt="Proyecto turístico digital de Arbeláez"
           />
           <img
               class="about-apps__image"
-              src="../../view/home/img/parque_principal1.jpg"
+              src="../../home/img/parque_principal1.jpg"
               alt="Proyecto turístico digital de Arbeláez"
           />
 

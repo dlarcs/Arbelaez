@@ -1,7 +1,7 @@
 <?php
-$cssTime = filemtime('../../view/home/maps/maps.css'); // ejemplo: '../Home/5.Video/video.css'
+$cssTime = filemtime('../../home/maps/maps.css'); // ejemplo: '../Home/5.Video/video.css'
 ?>
-<link rel="stylesheet" href="../../view/home/maps/maps.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../../home/maps/maps.css?v=<?= $cssTime ?>">
 <section  class="seccion_maps">
   <div class="maps">
   <div class="text_maps">

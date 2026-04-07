@@ -1,7 +1,7 @@
 <?php
-$cssTime = filemtime('../../view/home/text/text.css');
+$cssTime = filemtime('../../home/text/text.css');
 ?>
-	<link rel="stylesheet" href="../../view/home/text/text.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../home/text/text.css?v=<?= $cssTime ?>">
 
   <body>
     <section class="section">

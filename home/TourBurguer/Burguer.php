@@ -1,8 +1,8 @@
 <?php
-$cssTime = filemtime('../../view/home/TourBurguer/Burguer.css');
-$jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
+$cssTime = filemtime('../../home/TourBurguer/Burguer.css');
+$jsTime  = filemtime('../../home/TourBurguer/Burguer.js');
 ?>
-<link rel="stylesheet" href="../../view/home/TourBurguer/Burguer.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../../home/TourBurguer/Burguer.css?v=<?= $cssTime ?>">
 
 <!-- =========================
   SECTION: TOURBURGER ARBELÁEZ
@@ -36,7 +36,7 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
       <figure class="tourburger__image-wrapper">
         <!-- Imagen principal por defecto -->
         <img
-          src="../../view/home/TourBurguer/img/general1.png"
+          src="../../home/TourBurguer/img/general1.png"
           alt="Hamburguesa artesanal del TourBurger Arbeláez"
           class="tourburger__image"
           loading="lazy"
@@ -54,12 +54,12 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     <!-- CARD 1 – Kalú Café Resto-Bar -->
     <article
       class="tourburger-card"
-      data-image="../../view/home/TourBurguer/img/kalu.jpeg"
+      data-image="../../home/TourBurguer/img/kalu.jpeg"
       data-image-alt="TourBurger de Kalú Café Resto-Bar"
     >
       <figure class="tourburger-card__thumb">
         <img
-          src="../../view/home/TourBurguer/img/kalu.jpeg"
+          src="../../home/TourBurguer/img/kalu.jpeg"
           alt="TourBurger de Kalú Café Resto-Bar"
           loading="lazy"
           decoding="async"
@@ -107,12 +107,12 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     <!-- CARD 2 – KapaLuna 360° -->
     <article
       class="tourburger-card"
-      data-image="../../view/home/TourBurguer/img/kapaluna.jpeg"
+      data-image="../../home/TourBurguer/img/kapaluna.jpeg"
       data-image-alt="TourBurger parrillera de KapaLuna 360°"
     >
       <figure class="tourburger-card__thumb">
         <img
-          src="../../view/home/TourBurguer/img/kapaluna.jpeg"
+          src="../../home/TourBurguer/img/kapaluna.jpeg"
           alt="TourBurger parrillera de KapaLuna 360°"
           loading="lazy"
           decoding="async"
@@ -159,12 +159,12 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     <!-- CARD 3 – La Marranada Campestre -->
     <article
       class="tourburger-card"
-      data-image="../../view/home/TourBurguer/img/La_Marranada.jpg"
+      data-image="../../home/TourBurguer/img/La_Marranada.jpg"
       data-image-alt="TourBurger de La Marranada Campestre"
      >
       <figure class="tourburger-card__thumb">
         <img
-          src="../../view/home/TourBurguer/img/La_Marranada.jpg"
+          src="../../home/TourBurguer/img/La_Marranada.jpg"
           alt="TourBurger de La Marranada Campestre"
           loading="lazy"
           decoding="async"
@@ -211,12 +211,12 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     <!-- CARD 4 – Totumazo 2 -->
     <!-- <article
       class="tourburger-card"
-      data-image="../../view/home/TourBurguer/img/totumazo.JPG"
+      data-image="../../home/TourBurguer/img/totumazo.JPG"
       data-image-alt="TourBurger de Totumazo 2"
      >
       <figure class="tourburger-card__thumb">
         <img
-          src="../../view/home/TourBurguer/img/totumazo.JPG"
+          src="../../home/TourBurguer/img/totumazo.JPG"
           alt="TourBurger de Totumazo 2"
           loading="lazy"
           decoding="async"
@@ -263,12 +263,12 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     <!-- CARD 6 – Pimienta Gastro-Bar -->
     <article
       class="tourburger-card"
-      data-image="../../view/home/TourBurguer/img/pimienta.JPG"
+      data-image="../../home/TourBurguer/img/pimienta.JPG"
       data-image-alt="TourBurger de Pimienta Gastro-Bar"
      >
       <figure class="tourburger-card__thumb">
         <img
-          src="../../view/home/TourBurguer/img/pimienta.JPG"
+          src="../../home/TourBurguer/img/pimienta.JPG"
           alt="TourBurger de Pimienta Gastro-Bar"
           loading="lazy"
           decoding="async"
@@ -313,12 +313,12 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     <!-- CARD 7 – Don Cipro -->
     <article
       class="tourburger-card"
-      data-image="../../view/home/TourBurguer/img/doncipro.jpeg"
+      data-image="../../home/TourBurguer/img/doncipro.jpeg"
       data-image-alt="TourBurger de Don Cipro"
      >
       <figure class="tourburger-card__thumb">
         <img
-          src="../../view/home/TourBurguer/img/doncipro.jpeg"
+          src="../../home/TourBurguer/img/doncipro.jpeg"
           alt="TourBurger de Don Cipro"
           loading="lazy"
           decoding="async"
@@ -363,12 +363,12 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
     <!-- CARD 8 – La moza -->
     <article
       class="tourburger-card"
-      data-image="../../view/home/TourBurguer/img/moza.jpeg"
+      data-image="../../home/TourBurguer/img/moza.jpeg"
       data-image-alt="TourBurger de La moza"
      >
       <figure class="tourburger-card__thumb">
         <img
-          src="../../view/home/TourBurguer/img/moza.jpeg"
+          src="../../home/TourBurguer/img/moza.jpeg"
           alt="TourBurger de La moza"
           loading="lazy"
           decoding="async"
@@ -481,4 +481,4 @@ $jsTime  = filemtime('../../view/home/TourBurguer/Burguer.js');
   </div>
 </section>
 
-<script src="../../view/home/TourBurguer/Burguer.js?v=<?= $jsTime ?>" type="text/javascript" ></script>
+<script src="../../home/TourBurguer/Burguer.js?v=<?= $jsTime ?>" type="text/javascript" ></script>

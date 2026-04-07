@@ -1,8 +1,8 @@
 <?php
-$cssTime = filemtime('../../view/home/Rifa/rifa.css');
-$jsTime  = filemtime('../../view/home/Rifa/rifa.js');
+$cssTime = filemtime('../../home/Rifa/rifa.css');
+$jsTime  = filemtime('../../home/Rifa/rifa.js');
 ?>
-<link rel="stylesheet" href="../../view/home/Rifa/rifa.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../../home/Rifa/rifa.css?v=<?= $cssTime ?>">
 <main class="page" id="rifa">
   <section class="px-slider" id="pxSlider" aria-label="Slider informativo: Arbeláez se llena de color">
 
@@ -32,7 +32,7 @@ $jsTime  = filemtime('../../view/home/Rifa/rifa.js');
           <article class="px-slide is-active" data-slide aria-label="1 de 5">
             <div class="slide-card">
               <figure class="slide-media">
-                <img src="../../view/home/Rifa/img/img.png" alt="Negocios coloridos en Arbeláez">
+                <img src="../../home/Rifa/img/img.png" alt="Negocios coloridos en Arbeláez">
               </figure>
 
               <div class="slide-kicker">¿Qué es?</div>
@@ -54,7 +54,7 @@ $jsTime  = filemtime('../../view/home/Rifa/rifa.js');
           <article class="px-slide" data-slide aria-label="2 de 5">
             <div class="slide-card">
               <figure class="slide-media">
-                <img src="../../view/home/Rifa/img/img1.png" alt="Rifa solidaria en Arbeláez">
+                <img src="../../home/Rifa/img/img1.png" alt="Rifa solidaria en Arbeláez">
               </figure>
 
               <div class="slide-kicker">Estructura</div>
@@ -85,7 +85,7 @@ $jsTime  = filemtime('../../view/home/Rifa/rifa.js');
           <article class="px-slide" data-slide aria-label="3 de 5">
             <div class="slide-card">
               <figure class="slide-media">
-                <img src="../../view/home/Rifa/img/img2.png" alt="Fechas de sorteo y boletas">
+                <img src="../../home/Rifa/img/img2.png" alt="Fechas de sorteo y boletas">
               </figure>
 
               <div class="slide-kicker">Fechas y valor</div>
@@ -102,7 +102,7 @@ $jsTime  = filemtime('../../view/home/Rifa/rifa.js');
           <article class="px-slide" data-slide aria-label="4 de 5">
             <div class="slide-card">
               <figure class="slide-media">
-                <img src="../../view/home/Rifa/img/img3.png" alt="Premios de la rifa">
+                <img src="../../home/Rifa/img/img3.png" alt="Premios de la rifa">
               </figure>
 
               <div class="slide-kicker">Premios</div>
@@ -124,17 +124,17 @@ $jsTime  = filemtime('../../view/home/Rifa/rifa.js');
           <article class="px-slide" data-slide aria-label="5 de 5">
             <div class="slide-card">
               <figure class="slide-media">
-                <img src="../../view/home/Rifa/img/img5.png" alt="Apoya la iniciativa y participa">
+                <img src="../../home/Rifa/img/img5.png" alt="Apoya la iniciativa y participa">
               </figure>
 
               <div class="slide-kicker">Participa</div>
               <h2 class="slide-title">Apoya el arte local y gana premios</h2>
               <ul class="slide-list">
                 <li>Compra tu boleta en negocios aliados: Haz lick en:</li>
-                <a href="../../view/gastronomia/kalu/index.php"><li>Kalu</li></a>
-                <a href="../../view/alojamiento/Cachorros_LyC/index.php"><li>Cachorros L&C</li></a>
-                <a href="../../view/gastronomia/Don_Ciprio/index.php"><li>Don Ciprio</li></a>
-                <a href="../../view/gastronomia/El_Fogon_del_Triangulo/index.php"><li>Fogon del triangulo</li></a>
+                <a href="../../gastronomia/kalu/index.php"><li>Kalu</li></a>
+                <a href="../../alojamiento/Cachorros_LyC/index.php"><li>Cachorros L&C</li></a>
+                <a href="../../gastronomia/Don_Ciprio/index.php"><li>Don Ciprio</li></a>
+                <a href="../../gastronomia/El_Fogon_del_Triangulo/index.php"><li>Fogon del triangulo</li></a>
                 <li>Ayudas a financiar <strong>murales</strong>, <strong>pintura</strong> y <strong>señalización</strong></li>
                 <li>Más color = más visibilidad para Arbeláez</li>
               </ul>
@@ -163,4 +163,4 @@ $jsTime  = filemtime('../../view/home/Rifa/rifa.js');
     </div>
   </section>
 </main>
-<script src="../../view/home/Rifa/rifa.js?v=<?= $jsTime ?>" type="text/javascript" ></script>
+<script src="../../home/Rifa/rifa.js?v=<?= $jsTime ?>" type="text/javascript" ></script>

@@ -11,18 +11,18 @@
     $host    = $_SERVER['HTTP_HOST'] ?? 'www.arbelaez.com.co';
     $baseUrl = $scheme . '://' . $host;
 
-    $cssPath = '../../view/home/style.css';
-    $jsPath  = '../../view/home/app.js';
+    $cssPath = '../../home/style.css';
+    $jsPath  = '../../home/app.js';
 
-    $cssFile = $base . '/view/home/style.css';
-    $jsFile  = $base . '/view/home/app.js';
+    $cssFile = $base . '/home/style.css';
+    $jsFile  = $base . '/home/app.js';
 
     $cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
     $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
 
     $canonicalUrl = $baseUrl . '/';
-    $ogImage      = $baseUrl . '/view/global/img/logo.png';
-    $favicon      = $baseUrl . '/view/global/img/logo.png';
+    $ogImage      = $baseUrl . '/global/img/logo.png';
+    $favicon      = $baseUrl . '/global/img/logo.png';
   ?>
 
   <title>Arbeláez Turismo | Qué hacer, dónde comer y dónde dormir en Cundinamarca</title>
@@ -84,18 +84,18 @@
 </head>
 
 <body class="body_home">
-  <?php include $base . "/view/global/menu/menu.php"; ?>
+  <?php include $base . "/global/menu/menu.php"; ?>
 
   <main class="container_home">
-    <?php include $base . "/view/home/slider/slider.php"; ?>
-    <?php include $base . "/view/home/intro/intro.php"; ?>
-    <?php include $base . "/view/home/places/places.php"; ?>
-    <?php include $base . "/view/home/imagen/imagen.php"; ?>
-    <?php include $base . "/view/home/Rifa/rifa.php"; ?>
-    <?php include $base . "/view/home/text/text.php"; ?>
-    <?php include $base . "/view/home/maps/maps.php"; ?>
+    <?php include $base . "/home/slider/slider.php"; ?>
+    <?php include $base . "/home/intro/intro.php"; ?>
+    <?php include $base . "/home/places/places.php"; ?>
+    <?php include $base . "/home/imagen/imagen.php"; ?>
+    <?php include $base . "/home/Rifa/rifa.php"; ?>
+    <?php include $base . "/home/text/text.php"; ?>
+    <?php include $base . "/home/maps/maps.php"; ?>
   </main>
 
-  <?php include $base . "/view/global/footer/footer.php"; ?>
+  <?php include $base . "/global/footer/footer.php"; ?>
 </body>
 </html>

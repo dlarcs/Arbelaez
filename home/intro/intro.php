@@ -1,5 +1,5 @@
 <?php
-$cssPath = '../../view/home/intro/intro.css';
+$cssPath = '../../home/intro/intro.css';
 $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
 
 ?>
@@ -14,7 +14,7 @@ $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
       <div class="post-author">
         <img
           class="post-author__avatar"
-          src="../../view/home/img/logo_pw.png"
+          src="../../home/img/logo_pw.png"
           alt="Avatar del autor">
         <div class="post-author__text">
           <div class="post-author__name">Arbeláez Digitalizada</div>
