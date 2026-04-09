@@ -1,11 +1,11 @@
 <?php
-$cssTime = filemtime('../alojamiento/Casa_Kiyari/bout_us/about.css');
+$cssTime = filemtime('../../alojamiento/Casa_Kiyari/bout_us/about.css');
 ?>
-	<link rel="stylesheet" href="../alojamiento/Casa_Kiyari/bout_us/about.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../alojamiento/Casa_Kiyari/bout_us/about.css?v=<?= $cssTime ?>">
 	<div class="videos-grid">
   <div class="video-container">
     <iframe
-      src="../alojamiento/Casa_Kiyari/bout_us/video1.mp4"
+      src="../../alojamiento/Casa_Kiyari/bout_us/video1.mp4"
       title="Video de ejemplo 2"
       frameborder="0"
       allow="autoplay; encrypted-media"
@@ -18,7 +18,7 @@ $cssTime = filemtime('../alojamiento/Casa_Kiyari/bout_us/about.css');
 	  <article class="card" itemscope itemtype="https://schema.org/LodgingBusiness">
 	    <figure class="hero">
 	      <!-- Cambia la imagen cuando tengas la foto principal de la cabaña -->
-	      <img src="../alojamiento/Casa_Kiyari/img/logo.jpg"
+	      <img src="../../alojamiento/Casa_Kiyari/img/logo.jpg"
 	           alt="Casa Kandu — cabaña rural con zona BBQ en Arbeláez"
 	           itemprop="image" loading="lazy">
 	      <figcaption>Casa Kiyari</figcaption>
