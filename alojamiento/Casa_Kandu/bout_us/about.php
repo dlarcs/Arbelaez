@@ -1,13 +1,13 @@
 <?php
-$cssTime = filemtime('../alojamiento/Casa_Kandu/bout_us/about.css');
+$cssTime = filemtime('../../alojamiento/Casa_Kandu/bout_us/about.css');
 ?>
-	<link rel="stylesheet" href="../alojamiento/Casa_Kandu/bout_us/about.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../alojamiento/Casa_Kandu/bout_us/about.css?v=<?= $cssTime ?>">
 
 	<main id="about_Casa_Kandu" class="wrap">
 	  <article class="card" itemscope itemtype="https://schema.org/LodgingBusiness">
 	    <figure class="hero">
 	      <!-- Cambia la imagen cuando tengas la foto principal de la cabaña -->
-	      <img src="../alojamiento/Casa_Kandu/img/general.jpg"
+	      <img src="../../alojamiento/Casa_Kandu/img/general.jpg"
 	           alt="Casa Kandu — cabaña rural con zona BBQ en Arbeláez"
 	           itemprop="image" loading="lazy">
 	      <figcaption>Cabaña rural cerca del pueblo</figcaption>
