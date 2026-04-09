@@ -59,6 +59,14 @@ $cssTime = filemtime('../global/footer/footer.css');
           <li><a href="../gastronomia/kapaLuna360/index.php">KapaLuna360°</a></li>
         </ul>
       </div>
+      <!-- actividades -->
+      <div class="footer_col">
+        <h3 class="footer_title">Actividades</h3>
+        <ul class="footer_list">
+          <li><a href="../festividades/index.php">Festividades</a></li>
+    			<li><a href="../rio/index.php">Zonas de agua</a></li>
+        </ul>
+      </div>
 
       <!-- Columna: Artesanías (2) -->
       <div class="footer_col">
@@ -68,14 +76,6 @@ $cssTime = filemtime('../global/footer/footer.css');
           <li><a href="../artesanias/Artesanias_Martha_E/index.php">Artesanías Marta E</a></li>
         </ul>
       </div>
-
-      <!-- Columna: Asociaciones (1) -->
-      <!-- <div class="footer_col">
-        <h3 class="footer_title">Asociaciones</h3>
-        <ul class="footer_list">
-          <li><a href="../Juntanza_de_Mujeres/index.php">Asociación Juntanza de Mujeres</a></li>
-        </ul>
-      </div> -->
 
       <!-- Columna: Redes -->
       <div class="footer_col">
