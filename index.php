@@ -85,8 +85,6 @@
 
 <body class="body_home">
   <?php include $base . "/global/menu/menu.php"; ?>
-
-  <main class="container_home">
     <?php include $base . "/home/slider/slider.php"; ?>
     <?php include $base . "/home/intro/intro.php"; ?>
     <?php include $base . "/home/places/places.php"; ?>
@@ -94,8 +92,6 @@
     <?php include $base . "/home/Rifa/rifa.php"; ?>
     <?php include $base . "/home/text/text.php"; ?>
     <?php include $base . "/home/maps/maps.php"; ?>
-  </main>
-
   <?php include $base . "/global/footer/footer.php"; ?>
 </body>
 </html>
