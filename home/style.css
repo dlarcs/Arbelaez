@@ -7,7 +7,7 @@
 }
 .body_home{
   margin: 0;
-  background: red;
+  background: green;
   width: 100vw;
   min-width: 280px;
   display: flex;
