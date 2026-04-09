@@ -1,9 +1,11 @@
 <?php
-$cssTime = filemtime('../../home/slider/slider.css');
-$jsTime  = filemtime('../../home/slider/slider.js');
+$cssFile = '../../home/slider/slider.css';
+$jsFile  = '../../home/slider/slider.js';
+
+$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
+$jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
 ?>
 <link rel="stylesheet" href="../../home/slider/slider.css?v=<?= $cssTime ?>">
-
 <header class="slider" id="sliderMain" aria-roledescription="carrusel" aria-label="Slider principal">
   <!-- Fondo (se actualiza por JS) -->
   <div class="slider__bg" aria-hidden="true"></div>
