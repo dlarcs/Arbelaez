@@ -13,11 +13,11 @@ $jsTime  = @filemtime($jsPath) ?: time(); // fallback si falta el archivo
       <h1>Categorías</h1>
 
       <nav class="nav" aria-label="Ir a categoría">
-        <a href="../../alojamiento/index.php">Alojamientos</a>
-        <a href="../../artesanias/index.php">Artesanías</a>
-        <a href="../../gastronomia/index.php">Gastronomía</a>
-        <a href="../../festividades/index.php">Festividades</a>
-        <a href="../../rio/index.php">Zonas de agua</a>
+        <a href="../alojamiento/index.php">Alojamientos</a>
+        <a href="../artesanias/index.php">Artesanías</a>
+        <a href="../gastronomia/index.php">Gastronomía</a>
+        <a href="../festividades/index.php">Festividades</a>
+        <a href="../rio/index.php">Zonas de agua</a>
       </nav>
     </div>
   </header>
