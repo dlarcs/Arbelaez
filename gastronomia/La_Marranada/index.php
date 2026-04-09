@@ -69,7 +69,7 @@
 		href="https://wa.me/573022514381?text=Hola%20vengo%20desde%20la%20web%20de%20La_Marranada%20Restaurant"
 		target="_blank" rel="noopener"
 		aria-label="Chatear por WhatsApp" >
-		<img src="../../img/img_whatsApp.png"
+		<img src="../../home/img/img_whatsApp.png"
 		 alt="Contactar por WhatsApp" decoding="async">
 	</a>
 

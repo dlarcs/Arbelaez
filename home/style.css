@@ -1,8 +1,9 @@
-html{
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
+body, html{
+  margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
 }
 
 *,
@@ -13,10 +14,10 @@ html{
 
 .body_home{
   margin: 0;
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-    background: linear-gradient(to bottom,transparent 0%,rgba(0, 85, 72, 1) 100%);
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  background: linear-gradient(to bottom,transparent 0%,rgba(0, 85, 72, 1) 100%);
 }
 
 img,
