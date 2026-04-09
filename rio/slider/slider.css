@@ -19,8 +19,8 @@
     url("../../rio/img/puente_colgante.jpeg");
 
   background-position: center;
-  background-size:contain;
-  background-repeat: repeat;
+  background-size:cover;
+  background-repeat: no-repeat;
   --bgY: 0px;
   transform: translate3d(0, var(--bgY), 0) scale(1.12);
   will-change: transform;
