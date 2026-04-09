@@ -32,7 +32,7 @@
   <meta name="twitter:image" content="https://www.arbelaez.com.co/media/Cachorros_LyC/og-1200x630.jpg">
 
   <!-- Icono / tema -->
-  <link rel="icon" href="../alojamiento/Cachorros_LyC/img/logo.jpg" type="image/jpeg">
+  <link rel="icon" href="../../alojamiento/Cachorros_LyC/img/logo.jpg" type="image/jpeg">
   <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/Cachorros_LyC/apple-touch-icon.png">
   <meta name="theme-color" content="#005548">
 
@@ -72,22 +72,22 @@
 </head>
 
 <body class="body_Cachorros_LyC">
-  <?php include "../alojamiento/Cachorros_LyC/menu/menu.php" ?>
+  <?php include "../../alojamiento/Cachorros_LyC/menu/menu.php" ?>
   <div class="container_Cachorros_LyC">
-    <?php include "../alojamiento/Cachorros_LyC/title/title.php" ?>
-    <?php include "../alojamiento/Cachorros_LyC/slider/slider.php" ?>
-    <?php include "../alojamiento/Cachorros_LyC/galery/productos.php" ?>
-    <?php include "../alojamiento/Cachorros_LyC/bout_us/about.php" ?>
-    <?php include "../alojamiento/Cachorros_LyC/maps/maps.php"?>
+    <?php include "../../alojamiento/Cachorros_LyC/title/title.php" ?>
+    <?php include "../../alojamiento/Cachorros_LyC/slider/slider.php" ?>
+    <?php include "../../alojamiento/Cachorros_LyC/galery/productos.php" ?>
+    <?php include "../../alojamiento/Cachorros_LyC/bout_us/about.php" ?>
+    <?php include "../../alojamiento/Cachorros_LyC/maps/maps.php"?>
   </div>
-  <?php include "../alojamiento/Cachorros_LyC/footer/footer.php" ?>
+  <?php include "../../alojamiento/Cachorros_LyC/footer/footer.php" ?>
 
   <!-- Botón WhatsApp -->
   <a class="whatsapp-fab"
      href="https://wa.me/573227011059?text=Hola%20vengo%20desde%20la%20web%20de%20Cachorros%20L%26C%20(Mirador%20y%20Camping)"
      target="_blank" rel="noopener"
      aria-label="Chatear por WhatsApp">
-    <img src="../home/img/img_whatsApp.png" alt="Contactar a Cachorros L&amp;C por WhatsApp" decoding="async" loading="lazy" width="56" height="56">
+    <img src="../../home/img/img_whatsApp.png" alt="Contactar a Cachorros L&amp;C por WhatsApp" decoding="async" loading="lazy" width="56" height="56">
   </a>
 
 </body>
