@@ -11,8 +11,8 @@
     $host    = $_SERVER['HTTP_HOST'] ?? 'www.arbelaez.com.co';
     $baseUrl = $scheme . '://' . $host;
 
-    $cssPath = '../../home/style.css';
-    $jsPath  = '../../home/app.js';
+    $cssPath = '../home/style.css';
+    $jsPath  = '../home/app.js';
 
     $cssFile = $base . '/home/style.css';
     $jsFile  = $base . '/home/app.js';
