@@ -34,7 +34,7 @@
   height: clamp(520px, 88dvh, 920px);
   overflow: hidden;
   isolation: isolate;
-  display: grid;
+  display: flex;
   align-items: end;
   background: #000;
 }
@@ -88,6 +88,7 @@
 .imagen{
   position: relative;
   z-index: 2;
+  margin: auto;
   background-color: red;
   width: min(100%, var(--container));
   margin-inline: auto;
