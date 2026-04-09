@@ -39,6 +39,7 @@ a {
   z-index: 10002;
   font-size: .9rem;
   font-weight: 500;
+  background-color: red;
 }
 
 .skip-link:focus {

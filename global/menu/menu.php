@@ -1,5 +1,5 @@
 <?php
-$cssTime = filemtime('../global/menu/menu.css'); // ejemplo: '../Home/5.Video/video.css'
+$cssTime = filemtime('../global/menu/menu.css'); 
 ?>
 	<link rel="stylesheet" href="../global/menu/menu.css?v=<?= $cssTime ?>">
 	<!-- ===== HEADER PRINCIPAL DE LA PÁGINA ===== -->
