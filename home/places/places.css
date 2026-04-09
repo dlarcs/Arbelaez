@@ -109,8 +109,7 @@
   max-width: var(--max);
   margin: 0 auto;
   padding: 16px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 3fr));
+  display: flex;
   gap: 14px;
 }
 
@@ -119,6 +118,7 @@
   display: block;
   text-decoration: none;
   color: inherit;
+  min-width: 150px;
 }
 
 /* Tarjeta */
