@@ -1,5 +1,5 @@
 <?php
-$cssPath = '../..view/global/img/logo.png/home/imagen/imagen.css';
+$cssPath = '../../view/global/img/logo.png/home/imagen/imagen.css';
 $cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
 
 // Ruta de la imagen de fondo para el preload (igual a la usada en el CSS)
