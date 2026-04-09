@@ -9,7 +9,7 @@ $cssTime = filemtime('../global/menu/menu.css'); // ejemplo: '../Home/5.Video/vi
   <a href="#main" class="skip-link">Saltar al contenido principal</a>
 
   <!-- Marca / logo -->
-  <a class="brand_menu" href="../home/index.php" aria-label="Inicio">
+  <a class="brand_menu" href="../index.php" aria-label="Inicio">
     <h1 class="brand-text">Arbeláez Cundinamarca</h1>
     <!-- <img src="../../pages/kapaLuna360°/menu/img/logo_kapaLuna.png" alt="Arbeláez Turismo" class="brand-logo"> -->
   </a>
@@ -31,10 +31,10 @@ $cssTime = filemtime('../global/menu/menu.css'); // ejemplo: '../Home/5.Video/vi
     <!-- Botón cerrar dentro del panel -->
 
     <ul class="nav-list">
-      <li><a href="../home/index.php">Inicio</a></li>
+      <li><a href="../index.php">Inicio</a></li>
       <!-- <li><a href="../galery/index.php">Galería</a></li> -->
 			<li><a href="../artesanias/index.php">Artesanías</a></li>
-			<li><a href="../alojamiento/index.php">Alojamiento</a></li>
+			<li><a href="../../alojamiento/index.php">Alojamiento</a></li>
       <li><a href="../gastronomia/index.php">Gastronomía</a></li>
       <!-- <li><a href="../">Ferias</a></li> -->
     </ul>
