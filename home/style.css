@@ -1,8 +1,6 @@
 html{
   box-sizing: border-box;
   width: 100%;
-  max-width: 1001px;
-  min-width: 300px;
   background: red;
   overflow-x: hidden;
 }
@@ -16,8 +14,7 @@ html{
 .body_home{
   margin: 0;
   min-width: 300px;
-  width: 100%;
-  max-width: 100%;
+  width: 100vw;
   background: green  ;
 }
 
@@ -29,6 +26,7 @@ html{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: black;
 }
 img,
 iframe,
