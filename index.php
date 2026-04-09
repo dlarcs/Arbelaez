@@ -43,7 +43,7 @@
   <link rel="manifest" href="/site.webmanifest">
 
   <!-- Redirect (fallback) -->
-  <meta http-equiv="refresh" content="0;url=index.php">
+  <meta http-equiv="refresh" content="0;url=https://arbelaez.com.co/index.php">
 </head>
 
 <body class="body_home">
