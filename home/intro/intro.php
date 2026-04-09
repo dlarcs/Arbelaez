@@ -1,10 +1,11 @@
 <?php
-$cssPath = '../../home/intro/intro.css';
-$cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
+$cssFile = '../../home/intro/intro.css';
+$jsFile  = '../../home/intro/intro.js';
 
+$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
+$jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
 ?>
-<link rel="stylesheet" href="<?= $cssPath ?>?v=<?= $cssTime ?>">
-
+<link rel="stylesheet" href="../../home/intro/intro.css?v=<?= $cssTime ?>">
 <header class="post-header">
   <div class="post-header__inner">
 

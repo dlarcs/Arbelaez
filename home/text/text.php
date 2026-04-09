@@ -1,8 +1,11 @@
 <?php
-$cssTime = filemtime('../../home/text/text.css');
-?>
-	<link rel="stylesheet" href="../../home/text/text.css?v=<?= $cssTime ?>">
+$cssFile = '../../home/text/text.css';
+$jsFile  = '../../home/text/text.js';
 
+$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
+$jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
+?>
+<link rel="stylesheet" href="../../home/text/text.css?v=<?= $cssTime ?>">
   <body>
     <section class="section">
 

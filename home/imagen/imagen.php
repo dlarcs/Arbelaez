@@ -1,15 +1,19 @@
 <?php
-$cssPath = '../../home/imagen/imagen.css';
-$cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
+$cssFile = '../../home/imagen/imagen.css';
+$jsFile  = '../../home/imagen/imagen.js';
 
-// Ruta de la imagen de fondo para el preload (igual a la usada en el CSS)
+$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
+$jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
+
 $bgImage = '../../../home/img/yoamoarbelaez1.jpeg';
+
 ?>
+<link rel="stylesheet" href="../../home/imagen/imagen.css?v=<?= $cssTime ?>">
+
 
 <!-- Rendimiento: precarga de la imagen LCP y fuentes -->
 <link rel="preload" as="image" href="<?= $bgImage ?>">
 
-<link rel="stylesheet" href="<?= $cssPath ?>?v=<?= $cssTime ?>">
 
 <?php
 $base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');

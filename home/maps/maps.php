@@ -1,5 +1,9 @@
 <?php
-$cssTime = filemtime('../../home/maps/maps.css'); // ejemplo: '../Home/5.Video/video.css'
+$cssFile = '../../home/maps/maps.css';
+$jsFile  = '../../home/maps/maps.js';
+
+$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
+$jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
 ?>
 <link rel="stylesheet" href="../../home/maps/maps.css?v=<?= $cssTime ?>">
 <section  class="seccion_maps">

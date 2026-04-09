@@ -1,8 +1,9 @@
 <?php
-$cssTime = filemtime('../../home/nosotros/nosotros.css');
+$cssFile = '../../home/nosotros/nosotros.css';
+
+$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
 ?>
 <link rel="stylesheet" href="../../home/nosotros/nosotros.css?v=<?= $cssTime ?>">
-
 <section class="about-apps">
     <h1 class="about-apps__title">Sobre Arbelaez.com.co</h1>
     <p class="about-apps__intro">

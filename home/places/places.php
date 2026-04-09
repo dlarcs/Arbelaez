@@ -1,12 +1,11 @@
 <?php
-$cssPath = '../../home/places/places.css';
-$cssTime = @filemtime($cssPath) ?: time(); // fallback si falta el archivo
+$cssFile = '../../home/places/places.css';
+$jsFile  = '../../home/places/places.js';
 
-$jsPath  = '../../home/places/places.js';
-$jsTime  = @filemtime($jsPath) ?: time(); // fallback si falta el archivo
+$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
+$jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
 ?>
-<link rel="stylesheet" href="<?= $cssPath ?>?v=<?= $cssTime ?>">
-
+<link rel="stylesheet" href="../../home/places/places.css?v=<?= $cssTime ?>">
 <section class="places">
   <header class="top">
     <div class="top__inner">

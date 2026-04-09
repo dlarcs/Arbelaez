@@ -1,6 +1,9 @@
 <?php
-$cssTime = filemtime('../../home/Rifa/rifa.css');
-$jsTime  = filemtime('../../home/Rifa/rifa.js');
+$cssFile = '../../home/Rifa/rifa.css';
+$jsFile  = '../../home/Rifa/rifa.js';
+
+$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
+$jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
 ?>
 <link rel="stylesheet" href="../../home/Rifa/rifa.css?v=<?= $cssTime ?>">
 <main class="page" id="rifa">
