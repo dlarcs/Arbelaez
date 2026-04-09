@@ -68,7 +68,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
   border-radius: 10px;
-  background: red;
+  background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(20px);
 }
 
@@ -142,13 +142,7 @@
 .cat__overlay {
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.68) 0%,
-      rgba(0, 0, 0, 0.32) 45%,
-      rgba(0, 0, 0, 0.14) 100%
-    );
+  background:red;
   z-index: 1;
 }
 
