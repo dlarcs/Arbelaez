@@ -16,7 +16,6 @@
   overflow: hidden;
   display: grid;
   place-items: center;
-  background-color: white;
 }
 
 .slider__bg{

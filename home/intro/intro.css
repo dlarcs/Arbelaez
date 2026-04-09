@@ -4,7 +4,6 @@
   white-space: normal;     /* permite saltos */
   overflow-wrap: break-word; /* si hay palabras largas, las parte */
   word-break: normal;
-  background-color: blue;
 }
 
 .post-header__inner{
