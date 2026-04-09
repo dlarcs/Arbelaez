@@ -11,7 +11,7 @@
   <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
   <meta name="theme-color" content="#005548">
 
-  <link rel="canonical" href="https://arbelaez.com.co/">
+  <link rel="canonical" href="https://www.arbelaez.com.co/">
 
   <link rel="stylesheet" href="home/style.css">
   <script src="home/app.js" defer></script>
@@ -20,8 +20,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="icon" href="https://arbelaez.com.co/home/img/logo1.jpeg">
-  <link rel="apple-touch-icon" href="https://arbelaez.com.co/home/img/logo1.jpeg">
+  <link rel="icon" href="https://www.arbelaez.com.co/home/img/logo1.jpeg">
+  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/home/img/logo1.jpeg">
 
   <!-- Open Graph / WhatsApp / Facebook -->
   <meta property="og:locale" content="es_CO">
@@ -29,15 +29,15 @@
   <meta property="og:site_name" content="Arbeláez Turismo">
   <meta property="og:title" content="Arbeláez Turismo | Qué hacer, dónde comer y dónde dormir en Cundinamarca">
   <meta property="og:description" content="Explora Arbeláez y encuentra naturaleza, gastronomía local, artesanías, ríos y alojamientos rurales cerca de Bogotá.">
-  <meta property="og:url" content="https://arbelaez.com.co/">
-  <meta property="og:image" content="https://arbelaez.com.co/home/img/logo1.jpeg">
+  <meta property="og:url" content="https://www.arbelaez.com.co/">
+  <meta property="og:image" content="https://www.arbelaez.com.co/home/img/logo1.jpeg">
   <meta property="og:image:alt" content="Arbeláez Turismo">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Arbeláez Turismo | Qué hacer, dónde comer y dónde dormir en Cundinamarca">
   <meta name="twitter:description" content="Descubre Arbeláez: naturaleza, gastronomía, artesanías y alojamiento rural cerca de Bogotá.">
-  <meta name="twitter:image" content="https://arbelaez.com.co/home/img/logo1.jpeg">
+  <meta name="twitter:image" content="https://www.arbelaez.com.co/home/img/logo1.jpeg">
 
   <script type="application/ld+json">
   {
@@ -46,14 +46,14 @@
       {
         "@type": "WebSite",
         "name": "Arbeláez Turismo",
-        "url": "https://arbelaez.com.co/",
+        "url": "https://www.arbelaez.com.co/",
         "inLanguage": "es-CO"
       },
       {
         "@type": "Organization",
         "name": "Arbeláez Turismo",
-        "url": "https://arbelaez.com.co/",
-        "logo": "https://arbelaez.com.co/home/img/logo1.jpeg",
+        "url": "https://www.arbelaez.com.co/",
+        "logo": "https://www.arbelaez.com.co/home/img/logo1.jpeg",
         "sameAs": [
           "https://instagram.com/arbelaez_turismo/",
           "https://tiktok.com/@arbelaez_turismo",
