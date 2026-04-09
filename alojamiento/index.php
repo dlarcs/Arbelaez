@@ -10,7 +10,7 @@
   <meta name="robots" content="index,follow">
 
   <!-- Canonical (ajusta si tu URL real es diferente) -->
-  <link rel="canonical" href="https://www.arbelaez.com.co/alojamiento/">
+  <link rel="canonical" href="https://arbelaez.com.co/alojamiento/">
 
   <!-- CSS (cache-busting robusto) -->
   <?php $cssTime = filemtime('../alojamiento/style.css'); ?>
@@ -37,14 +37,14 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Alojamiento en Arbeláez - Accommodation in Arbeláez">
   <meta property="og:description" content="Explore comfortable and affordable stays in Arbeláez: riverside cabins, pool retreats, jacuzzi options, BBQ areas and nature views near Bogotá.">
-  <meta property="og:url" content="https://www.arbelaez.com.co/alojamiento/">
-  <meta property="og:image" content="https://www.arbelaez.com.co/alojamiento/Casa_Colibri/img/piscina.jpeg">
+  <meta property="og:url" content="https://arbelaez.com.co/alojamiento/">
+  <meta property="og:image" content="https://arbelaez.com.co/alojamiento/Casa_Colibri/img/piscina.jpeg">
 
 
   <!-- Social profiles (official) -->
-  <link rel="me" href="https://www.facebook.com/profile.php?id=61580302286594">
-  <link rel="me" href="https://www.instagram.com/arbelaez_turismo/">
-  <link rel="me" href="https://www.tiktok.com/@arbelaez_turismo">
+  <link rel="me" href="https://facebook.com/profile.php?id=61580302286594">
+  <link rel="me" href="https://instagram.com/arbelaez_turismo/">
+  <link rel="me" href="https://tiktok.com/@arbelaez_turismo">
 
   <!-- Structured data: WebPage + Organization -->
   <script type="application/ld+json">
@@ -54,17 +54,17 @@
       {
         "@type": "WebPage",
         "name": "Accommodation in Arbeláez",
-        "url": "https://www.arbelaez.com.co/alojamiento/",
+        "url": "https://arbelaez.com.co/alojamiento/",
         "inLanguage": "en"
       },
       {
         "@type": "Organization",
         "name": "Arbeláez Turismo",
-        "url": "https://www.arbelaez.com.co/",
+        "url": "https://arbelaez.com.co/",
         "sameAs": [
-          "https://www.facebook.com/profile.php?id=61580302286594",
-          "https://www.instagram.com/arbelaez_turismo/",
-          "https://www.tiktok.com/@arbelaez_turismo"
+          "https://facebook.com/profile.php?id=61580302286594",
+          "https://instagram.com/arbelaez_turismo/",
+          "https://tiktok.com/@arbelaez_turismo"
         ]
       }
     ]

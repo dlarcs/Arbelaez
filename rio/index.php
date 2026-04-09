@@ -10,7 +10,7 @@
   <meta name="robots" content="index,follow">
 
   <!-- Canonical (ajusta si tu URL real es diferente) -->
-  <link rel="canonical" href="https://www.arbelaez.com.co/Rios/rios-y-quebradas/">
+  <link rel="canonical" href="https://arbelaez.com.co/Rios/rios-y-quebradas/">
 
   <!-- CSS (cache-busting robusto) -->
   <?php $cssTime = filemtime('../rio/style.css'); ?>
@@ -36,19 +36,19 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Rivers & Streams in Arbeláez – Nature Routes">
   <meta name="description" content="Rios, quebradas y puentes- Rivers & Streams in Arbeláez – Nature Spots, Walks & Water Routes">
-  <meta name="description" content="Descubre ríos, quebradas, puentes y zonas de agua en Arbeláez, Cundinamarca. Encuentra qué hacer, dónde ir, caminatas ecológicas, rutas naturales y lugares tranquilos para disfrutar cerca de Bogotá.">  <meta property="og:url" content="https://www.arbelaez.com.co/Rios/rios-y-quebradas/">
+  <meta name="description" content="Descubre ríos, quebradas, puentes y zonas de agua en Arbeláez, Cundinamarca. Encuentra qué hacer, dónde ir, caminatas ecológicas, rutas naturales y lugares tranquilos para disfrutar cerca de Bogotá.">  <meta property="og:url" content="https://arbelaez.com.co/Rios/rios-y-quebradas/">
   <meta property="og:image" content="../rio/img/puente_rio_guavio.jpg">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Rivers & Streams in Arbeláez – Nature Routes">
   <meta name="twitter:description" content="Explore river and stream spots in Arbeláez with nature walks and water routes near Bogotá.">
-  <meta name="twitter:image" content="https://www.arbelaez.com.co/home/img/og-1200x630.jpg">
+  <meta name="twitter:image" content="https://arbelaez.com.co/rio/img/puente_rio_guavio.jpg">
 
   <!-- Social profiles (official) -->
-  <link rel="me" href="https://www.facebook.com/profile.php?id=61580302286594">
-  <link rel="me" href="https://www.instagram.com/arbelaez_turismo/">
-  <link rel="me" href="https://www.tiktok.com/@arbelaez_turismo">
+  <link rel="me" href="https://facebook.com/profile.php?id=61580302286594">
+  <link rel="me" href="https://instagram.com/arbelaez_turismo/">
+  <link rel="me" href="https://tiktok.com/@arbelaez_turismo">
 
   <!-- Structured data: WebPage + Organization -->
   <script type="application/ld+json">
@@ -58,17 +58,17 @@
       {
         "@type": "WebPage",
         "name": "Rivers & Streams in Arbeláez",
-        "url": "https://www.arbelaez.com.co/Rios/rios-y-quebradas/",
+        "url": "https://arbelaez.com.co/Rios/rios-y-quebradas/",
         "inLanguage": "en"
       },
       {
         "@type": "Organization",
         "name": "Arbeláez Turismo",
-        "url": "https://www.arbelaez.com.co/",
+        "url": "https://arbelaez.com.co/",
         "sameAs": [
-          "https://www.facebook.com/profile.php?id=61580302286594",
-          "https://www.instagram.com/arbelaez_turismo/",
-          "https://www.tiktok.com/@arbelaez_turismo"
+          "https://facebook.com/profile.php?id=61580302286594",
+          "https://instagram.com/arbelaez_turismo/",
+          "https://tiktok.com/@arbelaez_turismo"
         ]
       }
     ]

@@ -10,7 +10,7 @@
   <meta name="robots" content="index,follow">
 
   <!-- Canonical (ajusta si tu URL real es diferente) -->
-  <link rel="canonical" href="https://www.arbelaez.com.co/artesanias/">
+  <link rel="canonical" href="https://arbelaez.com.co/artesanias/">
 
   <!-- CSS (cache-busting robusto) -->
   <?php $cssTime = filemtime('../artesanias/style.css'); ?>
@@ -37,13 +37,13 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Artesanías en Arbeláez - Handicrafts in Arbeláez">
   <meta property="og:description" content="Explore authentic crafts made by local artisans in Arbeláez. Unique souvenirs, handmade gifts and traditional products near Bogotá.">
-  <meta property="og:url" content="https://www.arbelaez.com.co/artesanias/">
-  <meta property="og:image" content="https://www.arbelaez.com.co/artesanias/Artesanias_Martha_E/img/manillas2.jpeg">
+  <meta property="og:url" content="https://arbelaez.com.co/artesanias/">
+  <meta property="og:image" content="https://arbelaez.com.co/artesanias/Artesanias_Martha_E/img/manillas2.jpeg">
 
   <!-- Social profiles (official) -->
-  <link rel="me" href="https://www.facebook.com/profile.php?id=61580302286594">
-  <link rel="me" href="https://www.instagram.com/arbelaez_turismo/">
-  <link rel="me" href="https://www.tiktok.com/@arbelaez_turismo">
+  <link rel="me" href="https://facebook.com/profile.php?id=61580302286594">
+  <link rel="me" href="https://instagram.com/arbelaez_turismo/">
+  <link rel="me" href="https://tiktok.com/@arbelaez_turismo">
 
   <!-- Structured data: WebPage + Organization -->
   <script type="application/ld+json">
@@ -53,17 +53,17 @@
       {
         "@type": "WebPage",
         "name": "Handicrafts in Arbeláez",
-        "url": "https://www.arbelaez.com.co/artesanias/",
+        "url": "https://arbelaez.com.co/artesanias/",
         "inLanguage": "en"
       },
       {
         "@type": "Organization",
         "name": "Arbeláez Turismo",
-        "url": "https://www.arbelaez.com.co/",
+        "url": "https://arbelaez.com.co/",
         "sameAs": [
-          "https://www.facebook.com/profile.php?id=61580302286594",
-          "https://www.instagram.com/arbelaez_turismo/",
-          "https://www.tiktok.com/@arbelaez_turismo"
+          "https://facebook.com/profile.php?id=61580302286594",
+          "https://instagram.com/arbelaez_turismo/",
+          "https://tiktok.com/@arbelaez_turismo"
         ]
       }
     ]
