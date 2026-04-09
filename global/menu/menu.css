@@ -32,6 +32,7 @@ a {
   position: absolute;
   left: -999px;
   top: 0;
+  width: 100%;
   color: transparent;
   padding: .55rem .9rem;
   border-radius: .6rem;
@@ -50,7 +51,7 @@ a {
   position: sticky;
   top: 0;
   z-index: 10001;
-  width: 100vw;
+  width: 100%;
   padding: 1rem var(--header-pad-x);
   display: flex;
   align-items: center;
