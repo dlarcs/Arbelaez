@@ -17,27 +17,27 @@
 }
 
 .alojamientos{
-  background-image: url("../../../view/alojamiento/Casa_Kiyari/img/general15.jpg");
+  background-image: url("../../../alojamiento/Casa_Kiyari/img/general15.jpg");
   background-position: center;
   background-size: cover;
 }
 .artesanias{
-background-image: url('../../../view/artesanias/Artesanas_Veredas/img/slider3.jpeg');
+background-image: url('../../../artesanias/Artesanas_Veredas/img/slider3.jpeg');
 background-position: center;
 background-size: cover;
 }
 .gastronomia{
-background-image: url('../../../view/gastronomia/kalu/img/especial17.jpg');
+background-image: url('../../../gastronomia/kalu/img/especial17.jpg');
 background-position: center;
 background-size: cover;
 }
 .cultura{
-  background-image: url('../../../view/festividades/la_diablada/diablada2.JPG');
+  background-image: url('../../../festividades/la_diablada/diablada2.JPG');
   background-position: center;
   background-size: cover;
 }
 .rio{
-  background-image: url('../../../view/rio/img/bocatoma.jpg');
+  background-image: url('../../../rio/img/bocatoma.jpg');
   background-size: cover;
 }
 .top{
