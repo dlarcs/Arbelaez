@@ -1,6 +1,6 @@
 <?php
-$cssTime = filemtime('../alojamiento/seccion/alojamiento.css');
-$jsTime  = filemtime('../alojamiento/seccion/alojamiento.js'); // <-- tu JS real
+$cssTime = filemtime('../../alojamiento/seccion/alojamiento.css');
+$jsTime  = filemtime('../../alojamiento/seccion/alojamiento.js'); // <-- tu JS real
 
 // Helper WhatsApp (mensaje dinámico por alojamiento)
 function wa_link($phoneInt, $alojamiento) {
@@ -14,7 +14,7 @@ $lodgings = [
   [
     'name'      => 'Cachorros L&C',
     'slug'      => 'Cachorros_LyC',
-    'img'       => '../alojamiento/Cachorros_LyC/img/trago1.jpg',
+    'img'       => '../../alojamiento/Cachorros_LyC/img/trago1.jpg',
     'img_alt'   => 'Cachorros L&C – zona social',
     'map_url'   => 'https://maps.app.goo.gl/xkrKdHVzuiz2aAg99', // TODO: reemplazar por link real de Google Maps
     'distance'  => '15 min 🚶',
@@ -25,7 +25,7 @@ $lodgings = [
   [
     'name'      => 'Turismo Hoy Vivo',
     'slug'      => 'Turismo_Hoy_Vivo',
-    'img'       => '../alojamiento/Turismo_Hoy_Vivo/img/Casa_rural1.jpg',
+    'img'       => '../../alojamiento/Turismo_Hoy_Vivo/img/Casa_rural1.jpg',
     'img_alt'   => 'Turismo Hoy Vivo – casa rural accesible',
     'map_url'   => 'https://maps.app.goo.gl/TXQtMARmkrDKFDqK8',
     'distance'  => '5 min 🚶',
@@ -36,7 +36,7 @@ $lodgings = [
   [
     'name'      => 'La Rinconada',
     'slug'      => 'La_Rinconada',
-    'img'       => '../alojamiento/La_Rinconada/img/piscina1.jpeg',
+    'img'       => '../../alojamiento/La_Rinconada/img/piscina1.jpeg',
     'img_alt'   => 'La Rinconada – piscina y zona de descanso',
     'map_url'   => 'https://maps.app.goo.gl/trEuugwLTvhcBjiy7',
     'distance'  => '5 min 🚶',
@@ -47,7 +47,7 @@ $lodgings = [
   [
     'name'      => 'Casa Kandu',
     'slug'      => 'Casa_Kandu',
-    'img'       => '../alojamiento/img/casa_kandu.jpg',
+    'img'       => '../../alojamiento/img/casa_kandu.jpg',
     'img_alt'   => 'Casa Kandu – fachada',
     'map_url'   => 'https://maps.app.goo.gl/vWRWkRYyF1AXHdXs6',
     'distance'  => '15 min 🚶',
@@ -59,7 +59,7 @@ $lodgings = [
   [
     'name'      => 'La Casita N°2',
     'slug'      => 'La_Casita2',
-    'img'       => '../alojamiento/La_Casita2/img/general2.jpg',
+    'img'       => '../../alojamiento/La_Casita2/img/general2.jpg',
     'img_alt'   => 'La Casita – vista general',
     'map_url'   => 'https://maps.app.goo.gl/8iXw4nfoL2ehs9ZR7',
     'distance'  => '7 min 🚶',
@@ -70,7 +70,7 @@ $lodgings = [
   [
     'name'      => 'Casa Kiyari',
     'slug'      => 'Casa_Kiyari',
-    'img'       => '../alojamiento/Casa_Kiyari/img/general1.jpg',
+    'img'       => '../../alojamiento/Casa_Kiyari/img/general1.jpg',
     'img_alt'   => 'Casa Kiyari – vista general',
     'map_url'   => 'https://maps.app.goo.gl/2vw5ETNGfCsFp78LA',
     'distance'  => '20 min 🚶',
@@ -81,7 +81,7 @@ $lodgings = [
   [
     'name'      => 'Casa Colibrí',
     'slug'      => 'Casa_Colibri',
-    'img'       => '../alojamiento/Casa_Colibri/img/piscina3.jpeg',
+    'img'       => '../../alojamiento/Casa_Colibri/img/piscina3.jpeg',
     'img_alt'   => 'Casa Colibrí',
     'map_url'   => 'https://maps.app.goo.gl/J2RYVwmVwmACdmRL7',
     'distance'  => '7 min 🚙 ',
@@ -93,7 +93,7 @@ $lodgings = [
   // [
   //   'name'      => 'IsraHousSuites',
   //   'slug'      => 'IsraHousSuites',
-  //   'img'       => '../alojamiento/img/isaraHouse.jpeg',
+  //   'img'       => '../../alojamiento/img/isaraHouse.jpeg',
   //   'img_alt'   => 'IsraHousSuites – vista del alojamiento',
   //   'map_url'   => 'https://maps.app.goo.gl/5K3pzDrMt5Bnyfb16',
   //   'distance'  => '15 min 🚶',
@@ -104,7 +104,7 @@ $lodgings = [
 ];
 ?>
 
-<link rel="stylesheet" href="../alojamiento/seccion/alojamiento.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../../alojamiento/seccion/alojamiento.css?v=<?= $cssTime ?>">
 
 <section class="seccion_alojamiento">
   <?php foreach ($lodgings as $it):
@@ -119,7 +119,7 @@ $lodgings = [
     $desc = htmlspecialchars($it['desc'], ENT_QUOTES, 'UTF-8');
 
     // Link principal a la ficha
-    $detailHref = "../alojamiento/{$slug}/index.php";
+    $detailHref = "../../alojamiento/{$slug}/index.php";
     $detailHref = htmlspecialchars($detailHref, ENT_QUOTES, 'UTF-8');
   ?>
   <article class="card" itemscope itemtype="https://schema.org/LodgingBusiness">
@@ -195,4 +195,4 @@ $lodgings = [
   <?php endforeach; ?>
 </section>
 
-<script src="../alojamiento/seccion/alojamiento.js?v=<?= $jsTime ?>" type="text/javascript"></script>
+<script src="../../alojamiento/seccion/alojamiento.js?v=<?= $jsTime ?>" type="text/javascript"></script>

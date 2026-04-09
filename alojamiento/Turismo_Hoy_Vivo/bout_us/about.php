@@ -1,12 +1,12 @@
 <?php
-$cssTime = filemtime('../alojamiento/Turismo_Hoy_Vivo/bout_us/about.css');
+$cssTime = filemtime('../../alojamiento/Turismo_Hoy_Vivo/bout_us/about.css');
 ?>
-	<link rel="stylesheet" href="../alojamiento/Turismo_Hoy_Vivo/bout_us/about.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../alojamiento/Turismo_Hoy_Vivo/bout_us/about.css?v=<?= $cssTime ?>">
 
 	<main id="about_Turismo_Hoy_Vivo" class="wrap">
 		<article class="card" itemscope itemtype="https://schema.org/LocalBusiness">
 			<figure class="hero">
-				<img src="../alojamiento/Turismo_Hoy_Vivo/img/logo.jpeg" alt="Turismo_Hoy_Vivo" itemprop="image" loading="lazy">
+				<img src="../../alojamiento/Turismo_Hoy_Vivo/img/logo.jpeg" alt="Turismo_Hoy_Vivo" itemprop="image" loading="lazy">
 				<figcaption>Alojamiento</figcaption>
 			</figure>
 

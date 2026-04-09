@@ -32,15 +32,15 @@
   <meta name="twitter:image" content="https://www.arbelaez.com.co/media/La_Rinconada/og-1200x630.jpg">
 
   <!-- Icono / tema -->
-  <link rel="icon" href="../alojamiento/La_Rinconada/img/piscina.jpeg" type="image/jpeg">
+  <link rel="icon" href="../../alojamiento/La_Rinconada/img/piscina.jpeg" type="image/jpeg">
   <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/La_Rinconada/apple-touch-icon.png">
   <meta name="theme-color" content="#005548">
 
   <!-- Rendimiento -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="image" href="https://www.arbelaez.com.co/alojamiento/La_Rinconada/img/piscina1.jpeg">
-  <?php $cssTime = filemtime('../alojamiento/La_Rinconada/style.css'); ?>
-  <link rel="stylesheet" href="../alojamiento/La_Rinconada/style.css?v=<?= $cssTime ?>">
+  <?php $cssTime = filemtime('../../alojamiento/La_Rinconada/style.css'); ?>
+  <link rel="stylesheet" href="../../alojamiento/La_Rinconada/style.css?v=<?= $cssTime ?>">
 
   <!-- Datos estructurados: Alojamiento -->
   <script type="application/ld+json">
@@ -78,24 +78,24 @@
 </head>
 
 <body class="body_La_Rinconada">
-  <?php include "../alojamiento/La_Rinconada/menu/menu.php" ?>
+  <?php include "../../alojamiento/La_Rinconada/menu/menu.php" ?>
 
   <div class="container_La_Rinconada">
-    <?php include "../alojamiento/La_Rinconada/title/title.php" ?>
-    <?php include "../alojamiento/La_Rinconada/slider/slider.php" ?>
-    <?php include "../alojamiento/La_Rinconada/galery/productos.php" ?>
-    <?php include "../alojamiento/La_Rinconada/bout_us/about.php" ?>
-    <?php include "../alojamiento/La_Rinconada/maps/maps.php"?>
+    <?php include "../../alojamiento/La_Rinconada/title/title.php" ?>
+    <?php include "../../alojamiento/La_Rinconada/slider/slider.php" ?>
+    <?php include "../../alojamiento/La_Rinconada/galery/productos.php" ?>
+    <?php include "../../alojamiento/La_Rinconada/bout_us/about.php" ?>
+    <?php include "../../alojamiento/La_Rinconada/maps/maps.php"?>
   </div>
 
-  <?php include "../alojamiento/La_Rinconada/footer/footer.php" ?>
+  <?php include "../../alojamiento/La_Rinconada/footer/footer.php" ?>
 
   <!-- Botón WhatsApp -->
   <a class="whatsapp-fab"
      href="https://wa.me/573024229260?text=Hola%20vengo%20desde%20la%20web%20del%20Alojamiento%20La%20Rinconada%20en%20Arbel%C3%A1ez"
      target="_blank" rel="noopener"
      aria-label="Chatear por WhatsApp">
-    <img src="../home/img/img_whatsApp.png"
+    <img src="../../home/img/img_whatsApp.png"
          alt="Contactar a Finca Campestre La Rinconada por WhatsApp"
          decoding="async" loading="lazy" width="56" height="56">
   </a>

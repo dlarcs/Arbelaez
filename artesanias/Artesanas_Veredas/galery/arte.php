@@ -1,8 +1,8 @@
 <?php
-$cssTime = filemtime('../../../artesanias/Artesanas_Veredas/galery/arte.css');
+$cssTime = filemtime('../../artesanias/Artesanas_Veredas/galery/arte.css');
 ?>
 
-<link rel="stylesheet" href="../../../artesanias/Artesanas_Veredas/galery/arte.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../../artesanias/Artesanas_Veredas/galery/arte.css?v=<?= $cssTime ?>">
 
 <?php
 function wa_link($phoneInt, $name){
@@ -15,10 +15,10 @@ $items = [
   [
     "name" => "Hichyta Manos de la Tierra",
     "place" => "Vereda San Miguel bajo - Arbeláez • Cundinamarca",
-    "img" => "../../../artesanias/Artesanas_Veredas/img/Hichyta.jpg",
+    "img" => "../../artesanias/Artesanas_Veredas/img/Hichyta.jpg",
     "img_alt" => "Hichyta Manos de la Tierra",
     "desc" => "Elaboró figuras en cerámica  y realizó talleres de conexión con la arcilla. Siendo la arcilla un instrumento de sanación",
-    "pdf" => "../../../artesanias/Artesanas_Veredas/pdf/hichytamanosdetijera.pdf",
+    "pdf" => "../../artesanias/Artesanas_Veredas/pdf/hichytamanosdetijera.pdf",
     "facebook" => "https://www.facebook.com/hichyta.manos.tierra",
     "instagram" => "https://www.instagram.com/hichyta2022/",
     "whatsapp" => "573143964516"
@@ -27,7 +27,7 @@ $items = [
   [
     "name" => "Artesanías Géminis",
     "place" => "Arbeláez • Cundinamarca",
-    "img" => "../../../artesanias/Artesanas_Veredas/img/artesanias_geminis.jpeg",
+    "img" => "../../artesanias/Artesanas_Veredas/img/artesanias_geminis.jpeg",
     "img_alt" => "Artesanías Géminis. trabajando con amor",
     "desc" => "Joyas en acero hechas con amor y dedicación, pensadas para acompañarte cada día. Diseños lindos, resistentes y de excelente material, perfectos para regalar o consentirte. Encuéntranos en las ferias de Arbeláez, donde cada pieza brilla con estilo y significado",
     "pdf" => "pdf/catalogo-joyas-luz.pdf",
@@ -39,7 +39,7 @@ $items = [
   [
     "name" => "Café santa bárbara el vino de los dioses",
     "place" => "Arbeláez • Cundinamarca",
-    "img" => "../../../artesanias/Artesanas_Veredas/img/CaafeSantaBarbara.png",
+    "img" => "../../artesanias/Artesanas_Veredas/img/CaafeSantaBarbara.png",
     "img_alt" => "Café Santa Bárbara - café local",
     "desc" => "Café Santa Bárbara ofrece una experiencia de sabor local: café de calidad, aromas intensos y productos ideales para compartir. Un lugar perfecto para hacer una pausa, disfrutar una bebida caliente y apoyar el emprendimiento del municipio. Pregunta por sus presentaciones y opciones para llevar.",
     "pdf" => "pdf/catalogo-cafe-santa-barbara.pdf",

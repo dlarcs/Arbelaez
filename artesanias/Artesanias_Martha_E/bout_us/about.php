@@ -1,12 +1,12 @@
 <?php
-$cssTime = filemtime('../../../artesanias/Artesanias_Martha_E/bout_us/about.css');
+$cssTime = filemtime('../../artesanias/Artesanias_Martha_E/bout_us/about.css');
 ?>
-	<link rel="stylesheet" href="../../../artesanias/Artesanias_Martha_E/bout_us/about.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../artesanias/Artesanias_Martha_E/bout_us/about.css?v=<?= $cssTime ?>">
 
 	<main id="about_Artesanias_Martha_E" class="wrap">
 		<article class="card" itemscope itemtype="https://schema.org/LocalBusiness">
 			<figure class="hero">
-				<img src="../../../artesanias/Artesanias_Martha_E/img/lamparas10.jpeg" alt="Artesanias_Martha_E" itemprop="image" loading="lazy">
+				<img src="../../artesanias/Artesanias_Martha_E/img/lamparas10.jpeg" alt="Artesanias_Martha_E" itemprop="image" loading="lazy">
 				<figcaption>Fotografía: Nathalia Jossa</figcaption>
 			</figure>
 
