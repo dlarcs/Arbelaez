@@ -1,12 +1,12 @@
 <?php
-$cssTime = filemtime('alojamiento/Cachorros_LyC/bout_us/about.css');
+$cssTime = filemtime('../../alojamiento/Cachorros_LyC/bout_us/about.css');
 ?>
-	<link rel="stylesheet" href="alojamiento/Cachorros_LyC/bout_us/about.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../alojamiento/Cachorros_LyC/bout_us/about.css?v=<?= $cssTime ?>">
 
 	<main id="about_Cachorros_LyC" class="wrap">
 		<article class="card" itemscope itemtype="https://schema.org/LocalBusiness">
 			<figure class="hero">
-				<img src="alojamiento/Cachorros_LyC/img/logo.jpg" alt="Cachorros_LyC" itemprop="image" loading="lazy">
+				<img src="../../alojamiento/Cachorros_LyC/img/logo.jpg" alt="Cachorros_LyC" itemprop="image" loading="lazy">
 				<figcaption>Fotografía: Nathalia Jossa</figcaption>
 			</figure>
 
