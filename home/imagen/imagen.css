@@ -1,154 +1,224 @@
 /* =========================
-   1) Tokens + reset
+   1) Tokens
 ========================= */
 :root{
   --brand: #005548;
-  --glass: rgba(0, 85, 72, .65);
-  --text-on-glass: #ffffff;
+  --brand-deep: #033c34;
+  --brand-soft: rgba(0, 85, 72, 0.18);
 
-  --ink: #0b0b0b;
-  --muted: #2a2a2a;
+  --white: #ffffff;
+  --text-on-hero: rgba(255, 255, 255, 0.96);
+  --muted-on-hero: rgba(255, 255, 255, 0.82);
 
-  --card: #f7f7f7;
-  --border: rgba(17, 24, 39, .22);
+  --hero-overlay-top: rgba(0, 0, 0, 0.18);
+  --hero-overlay-mid: rgba(0, 0, 0, 0.38);
+  --hero-overlay-bottom: rgba(0, 0, 0, 0.68);
 
-  --radius: 14px;
-  --container: 980px;
-  --pad: clamp(16px, 3vw, 24px);
+  --glass: rgba(0, 85, 72, 0.28);
+  --glass-border: rgba(255, 255, 255, 0.22);
 
-  --hero-fade: 10%;
+  --radius-xl: 24px;
+  --radius-lg: 18px;
+  --container: 1180px;
+  --pad-x: clamp(18px, 4vw, 36px);
+  --pad-y: clamp(22px, 4vw, 42px);
 }
 
 /* =========================
-   3) Hero (imagen full cover)
+   2) Hero
 ========================= */
 .seccion_imagen{
   position: relative;
   width: 100%;
+  min-height: 420px;
+  height: clamp(520px, 88dvh, 920px);
   overflow: hidden;
   isolation: isolate;
-  background: #000;
-
-  /* Altura fluida: ni muy pequeña ni enorme */
-  min-height: 360px;
-  height: clamp(420px, 90dvh, 900px);
-
   display: grid;
-  place-items: end center;
+  align-items: end;
+  background: #000;
 }
 
-/* Imagen background */
+/* Imagen principal */
 .seccion_imagen > img{
   position: absolute;
   inset: 0;
+  z-index: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: top center;
-  z-index: 0;
+  object-position: center center;
+  transform: scale(1.04);
 }
 
-/* Overlay para legibilidad (siempre) */
-.seccion_imagen::after{
-  content:"";
+/* Capa de color y contraste */
+.seccion_imagen::before{
+  content: "";
   position: absolute;
   inset: 0;
   z-index: 1;
   pointer-events: none;
-  background: linear-gradient(
-    to bottom,
-    rgba(0,0,0,0) 0%,
-    rgba(0,0,0,.18) var(--hero-fade),
-    rgba(0,0,0,.55) calc(100% - var(--hero-fade)),
-    rgba(0,0,0,0) 100%
-  );
+  background:
+    radial-gradient(circle at 18% 22%, rgba(0, 85, 72, 0.35), transparent 34%),
+    radial-gradient(circle at 82% 18%, rgba(255, 210, 140, 0.16), transparent 24%),
+    linear-gradient(
+      to bottom,
+      var(--hero-overlay-top) 0%,
+      var(--hero-overlay-mid) 50%,
+      var(--hero-overlay-bottom) 100%
+    );
 }
 
-/* Fade opcional (estético) si el navegador soporta mask */
-@supports (mask-image: linear-gradient(black, transparent)){
-  .seccion_imagen{
-    -webkit-mask-image: linear-gradient(
-      to bottom,
-      transparent 0,
-      black var(--hero-fade),
-      black calc(100% - var(--hero-fade)),
-      transparent 100%
-    );
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: 100% 100%;
-
-    mask-image: linear-gradient(
-      to bottom,
-      transparent 0,
-      black var(--hero-fade),
-      black calc(100% - var(--hero-fade)),
-      transparent 100%
-    );
-    mask-repeat: no-repeat;
-    mask-size: 100% 100%;
-  }
+/* Sombra inferior para cerrar mejor el hero */
+.seccion_imagen::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 28%;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(to top, rgba(0,0,0,0.34), transparent);
 }
 
 /* =========================
-   4) Caption “glass”
+   3) Contenedor del texto
 ========================= */
 .imagen{
+  position: relative;
   z-index: 2;
-  width: 100%;
-  max-width: var(--container);
+  width: min(100%, var(--container));
   margin-inline: auto;
-  padding-inline: var(--pad);
-  padding-block: clamp(14px, 2.8vw, 26px);
+  padding-inline: var(--pad-x);
+  padding-block: var(--pad-y);
 }
 
 .text_imagen{
-  max-width: 62ch;
-  margin-inline: auto;
-  text-align: center;
+  position: relative;
+  width: min(100%, 760px);
+  padding: clamp(20px, 3vw, 34px);
+  border-radius: var(--radius-xl);
+  color: var(--text-on-hero);
 
-  padding: clamp(12px, 2.2vw, 20px);
-  border-radius: 16px;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02)),
+    linear-gradient(135deg, rgba(0, 85, 72, 0.52), rgba(3, 60, 52, 0.72));
 
-  color: var(--text-on-glass);
-  background: var(--glass);
-  border: 1px solid rgba(255,255,255,.18);
-  box-shadow: 0 16px 40px rgba(0,0,0,.25);
+  border: 1px solid var(--glass-border);
+  box-shadow:
+    0 18px 50px rgba(0, 0, 0, 0.26),
+    inset 0 1px 0 rgba(255,255,255,0.10);
 }
 
-@supports (backdrop-filter: blur(10px)){
+@supports (backdrop-filter: blur(12px)){
   .text_imagen{
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(12px) saturate(130%);
+    -webkit-backdrop-filter: blur(12px) saturate(130%);
   }
+}
+
+.text_imagen::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.35),
+    rgba(255,255,255,0.04)
+  );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  pointer-events: none;
+}
+
+.text_imagen__eyebrow{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255,255,255,0.18);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.08);
 }
 
 .text_imagen h1{
   margin: 0;
+  font-size: clamp(2rem, 5vw, 4.6rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
   font-weight: 800;
-  letter-spacing: -0.02em;
-  line-height: 1.08;
-  font-size: clamp(22px, 4vw, 44px);
+  text-wrap: balance;
+  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.18);
+}
+
+.text_imagen p{
+  margin: 16px 0 0;
+  max-width: 58ch;
+  font-size: clamp(1rem, 1.6vw, 1.15rem);
+  line-height: 1.65;
+  color: var(--muted-on-hero);
 }
 
 /* =========================
-   5) Ajustes móviles
+   4) Responsive
 ========================= */
-@media (max-width: 520px){
-  .info_product h2{
-    line-height: 1.65;
+@media (max-width: 900px){
+  .seccion_imagen{
+    height: clamp(480px, 80dvh, 760px);
   }
 
   .text_imagen{
-    max-width: 44ch;
-  }
-
-  .seccion_imagen{
-    height: clamp(380px, 82dvh, 760px);
+    width: min(100%, 680px);
   }
 }
 
-/* Reduce motion */
+@media (max-width: 600px){
+  .seccion_imagen{
+    min-height: 400px;
+    height: clamp(440px, 72dvh, 660px);
+  }
+
+  .imagen{
+    padding-inline: 16px;
+    padding-block: 20px;
+  }
+
+  .text_imagen{
+    padding: 18px 16px;
+    border-radius: var(--radius-lg);
+  }
+
+  .text_imagen__eyebrow{
+    font-size: 0.72rem;
+    padding: 7px 12px;
+    margin-bottom: 12px;
+  }
+
+  .text_imagen p{
+    margin-top: 12px;
+    font-size: 0.98rem;
+    line-height: 1.55;
+  }
+}
+
+/* =========================
+   5) Reduced motion
+========================= */
 @media (prefers-reduced-motion: reduce){
-  .seccion_imagen,
-  .text_imagen{ scroll-behavior: auto; }
+  .seccion_imagen > img{
+    transform: none;
+  }
 }
