@@ -57,13 +57,13 @@
   <meta property="og:title" content="Insectos en Arbeláez – Rutas, especies y fotografía">
   <meta property="og:description" content="Descubre insectos en Arbeláez: mariposas, libélulas, escarabajos y más. Spots naturales y macrofotografía cerca de Bogotá.">
   <meta property="og:url" content="https://www.arbelaez.com.co/insectos/">
-  <meta property="og:image" content="https://www.arbelaez.com.co/view/home/img/og-1200x630.jpg">
+  <meta property="og:image" content="https://www.arbelaez.com.co/insectos/img/Mariposa_malaquita.jpeg">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Insectos en Arbeláez – Rutas y especies">
   <meta name="twitter:description" content="Explora insectos en Arbeláez (Cundinamarca): mariposas, libélulas y más. Un plan de naturaleza cerca de Bogotá.">
-  <meta name="twitter:image" content="https://www.arbelaez.com.co/view/home/img/og-1200x630.jpg">
+  <meta name="twitter:image" content="https://www.arbelaez.com.co/insectos/img/Mariposa_malaquita.jpeg">
 
   <!-- Social profiles (official) -->
   <link rel="me" href="https://www.facebook.com/profile.php?id=61580302286594">
