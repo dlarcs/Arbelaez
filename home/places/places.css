@@ -109,21 +109,7 @@ background-size: cover;
 }
 
 
-/* Contenido encima del fondo (se mueve poquito con fg) */
-.cat__content{
-  position: relative;
-  z-index: 1;
-  height: 100%;
-  padding: clamp(16px, 2.2vw, 22px);
 
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  gap: 6px;
-
-  will-change: transform;
-  transform: translate3d(0, var(--fg-y), 0);
-}
 
 /* Título */
 .cat__content h2{
