@@ -13,6 +13,7 @@ html{
 
 .body_home{
   margin: 0;
+  min-width: 300px;
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
