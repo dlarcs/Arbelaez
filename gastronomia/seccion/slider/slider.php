@@ -1,14 +1,14 @@
 <?php
-$cssTime = filemtime('../../gastronomia/seccion/slider/slider.css');
-$jsTime = filemtime('../../gastronomia/seccion/slider/slider.js');
+$cssTime = filemtime('../gastronomia/seccion/slider/slider.css');
+$jsTime = filemtime('../gastronomia/seccion/slider/slider.js');
 ?>
-<link rel="stylesheet" href="../../gastronomia/seccion/slider/slider.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../gastronomia/seccion/slider/slider.css?v=<?= $cssTime ?>">
 <section class="slider" aria-roledescription="carrusel" aria-label="Galería destacada">
    <div class="slider__viewport" tabindex="0">
      <div class="slider__track" id="slider-track">
        <!-- Slide 1 -->
        <article class="slide is-current" aria-roledescription="slide" aria-label="1 de 4">
-         <img src="../../gastronomia/La_Marranada/img/especial8.jpg"
+         <img src="../gastronomia/La_Marranada/img/especial8.jpg"
               alt="Montañas al amanecer" />
          <div class="slide__caption">
            <p>Ven y descubre sabores.</p>
@@ -16,7 +16,7 @@ $jsTime = filemtime('../../gastronomia/seccion/slider/slider.js');
        </article>
        <!-- Slide 2 -->
        <article class="slide" aria-roledescription="slide" aria-label="2 de 4">
-         <img src="../../gastronomia/kalu/img/especial10.jpg"
+         <img src="../gastronomia/kalu/img/especial10.jpg"
               alt="Bosque con luz dorada" />
          <div class="slide__caption">
            <p>Nuevos lugares.</p>
@@ -24,7 +24,7 @@ $jsTime = filemtime('../../gastronomia/seccion/slider/slider.js');
        </article>
        <!-- Slide 3 -->
        <article class="slide" aria-roledescription="slide" aria-label="3 de 4">
-         <img src="../../gastronomia/Pablos_Restaurant/img/especial17.jpg"
+         <img src="../gastronomia/Pablos_Restaurant/img/especial17.jpg"
               alt="Lago tranquilo" />
          <div class="slide__caption">
            <p>Lo mejor de arbelaez</p>
@@ -32,7 +32,7 @@ $jsTime = filemtime('../../gastronomia/seccion/slider/slider.js');
        </article>
        <!-- Slide 4 -->
        <article class="slide" aria-roledescription="slide" aria-label="4 de 4">
-         <img src="../../gastronomia/img/pablos1.jpeg"
+         <img src="../gastronomia/img/pablos1.jpeg"
               alt="Carretera hacia el horizonte" />
          <div class="slide__caption">
            <p>Comparte en familia.</p>
@@ -54,4 +54,4 @@ $jsTime = filemtime('../../gastronomia/seccion/slider/slider.js');
    </div>
  </section>
 
-<script src="../../gastronomia/seccion/slider/slider.js?v=<?= $jsTime ?>" type="text/javascript"></script>
+<script src="../gastronomia/seccion/slider/slider.js?v=<?= $jsTime ?>" type="text/javascript"></script>
