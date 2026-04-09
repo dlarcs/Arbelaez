@@ -19,7 +19,7 @@
     url("../../rio/img/general.png");
 
   background-position: center;
-  background-size: cover;
+  background-size:contain;
   background-repeat: no-repeat;
   --bgY: 0px;
   transform: translate3d(0, var(--bgY), 0) scale(1.12);
