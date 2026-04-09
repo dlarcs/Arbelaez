@@ -14,11 +14,11 @@
 
   <!-- CSS + JS (cache-busting robusto) -->
   <?php
-    $cssTime = filemtime('../../gastronomia/style.css');
-    $jsTime  = filemtime('../../gastronomia/app.js');
+    $cssTime = filemtime('../gastronomia/style.css');
+    $jsTime  = filemtime('../gastronomia/app.js');
   ?>
-  <link rel="stylesheet" href="../../gastronomia/style.css?v=<?= $cssTime ?>">
-  <script src="../../gastronomia/app.js?v=<?= $jsTime ?>" defer></script>
+  <link rel="stylesheet" href="../gastronomia/style.css?v=<?= $cssTime ?>">
+  <script src="../gastronomia/app.js?v=<?= $jsTime ?>" defer></script>
 
   <!-- Font: optimized -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,10 +26,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
   <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="../../gastronomia/Pablos_Restaurant/img/especial20.jpg">
-  <link rel="icon" type="image/png" sizes="16x16" href="../../gastronomia/Pablos_Restaurant/img/especial20.jpg">
-  <link rel="apple-touch-icon" sizes="180x180" href="../../gastronomia/Pablos_Restaurant/img/especial20.jpg">
-  <link rel="mask-icon" href="../../gastronomia/Pablos_Restaurant/img/especial20.jpg" color="#005548">
+  <link rel="icon" type="image/png" sizes="32x32" href="../gastronomia/Pablos_Restaurant/img/especial20.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="../gastronomia/Pablos_Restaurant/img/especial20.jpg">
+  <link rel="apple-touch-icon" sizes="180x180" href="../gastronomia/Pablos_Restaurant/img/especial20.jpg">
+  <link rel="mask-icon" href="../gastronomia/Pablos_Restaurant/img/especial20.jpg" color="#005548">
   <meta name="theme-color" content="#005548">
 
   <!-- Meta SEO (100 keywords EN) -->
@@ -76,12 +76,12 @@
 </head>
 
 <body class="body_gastronomia">
-  <?php include "../../global/menu/menu.php" ?>
+  <?php include "../global/menu/menu.php" ?>
 
   <div class="container_gastronomia">
-    <?php include "../../gastronomia/seccion/slider/slider.php" ?>
-    <?php include "../../gastronomia/seccion/restaurante.php" ?>
-    <?php include "../../global/footer/footer.php" ?>
+    <?php include "../gastronomia/seccion/slider/slider.php" ?>
+    <?php include "../gastronomia/seccion/restaurante.php" ?>
+    <?php include "../global/footer/footer.php" ?>
   </div>
 
   <section class="scroll-indicator" aria-label="More content below">
