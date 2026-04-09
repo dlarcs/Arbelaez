@@ -39,14 +39,14 @@
 	<meta name="twitter:image" content="https://www.arbelaez.com.co/media/kapaluna360/og-1200x630.jpg">
 
 	<!-- Icono / tema -->
-	<link rel="icon" href="../../../gastronomia/kapaLuna360/menu/img/logo_kapaLuna.png" type="image/png">
+	<link rel="icon" href="../../gastronomia/kapaLuna360/menu/img/logo_kapaLuna.png" type="image/png">
 	<link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/kapaluna360/apple-touch-icon.png">
 	<meta name="theme-color" content="#005548">
 
 	<!-- Rendimiento -->
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="preload" as="image" href="https://www.arbelaez.com.co/media/kapaluna360/hero-gastronomia.webp">
-	<link rel="stylesheet" href="../../../gastronomia/kapaLuna360/style.css">
+	<link rel="stylesheet" href="../../gastronomia/kapaLuna360/style.css">
 
 	<!-- Datos estructurados Restaurant (ajusta teléfono, horarios, URL y geo si los tienes) -->
 	<script type="application/ld+json">
@@ -72,16 +72,16 @@
 </head>
 
 <body class="body_kapaLuna">
-	<?php include "../../../gastronomia/kapaLuna360/menu/menu.php" ?>
+	<?php include "../../gastronomia/kapaLuna360/menu/menu.php" ?>
 	<div class="container_kapaLuna">
-		<?php include "../../../gastronomia/kapaLuna360/title/title.php" ?>
-		<?php include "../../../gastronomia/kapaLuna360/slider/slider.php" ?>
-		<?php include "../../../gastronomia/kapaLuna360/download/download.php" ?>
-		<?php include "../../../gastronomia/kapaLuna360/galery/gastronomia.php" ?>
-		<?php include "../../../gastronomia/kapaLuna360/bout_us/about.php" ?>
-		<?php include "../../../gastronomia/kapaLuna360/maps/maps.php"?>
+		<?php include "../../gastronomia/kapaLuna360/title/title.php" ?>
+		<?php include "../../gastronomia/kapaLuna360/slider/slider.php" ?>
+		<?php include "../../gastronomia/kapaLuna360/download/download.php" ?>
+		<?php include "../../gastronomia/kapaLuna360/galery/gastronomia.php" ?>
+		<?php include "../../gastronomia/kapaLuna360/bout_us/about.php" ?>
+		<?php include "../../gastronomia/kapaLuna360/maps/maps.php"?>
 	</div>
-	<?php include "../../../gastronomia/kapaLuna360/footer/footer.php" ?>
+	<?php include "../../gastronomia/kapaLuna360/footer/footer.php" ?>
 
 	<!-- Botón WhatsApp con tu imagen (ponlo antes de </body>) -->
 
@@ -89,7 +89,7 @@
 		href="https://wa.me/573024229260?text=Hola%20vengo%20desde%20la%20web%20de%20KapaLuna360%C2%B0"
 		target="_blank" rel="noopener"
 		aria-label="Chatear por WhatsApp" >
-		<img src="../../../gastronomia/kapaLuna360/img/img_whatsApp.png"
+		<img src="../../gastronomia/kapaLuna360/img/img_whatsApp.png"
 		 alt="Contactar por WhatsApp" decoding="async">
 	</a>
 

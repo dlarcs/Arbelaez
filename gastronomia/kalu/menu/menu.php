@@ -1,15 +1,15 @@
 <?php
-$cssTime = filemtime('../../../gastronomia/kalu/menu/menu.css'); // ejemplo: '../Home/5.Video/video.css'
+$cssTime = filemtime('../../gastronomia/kalu/menu/menu.css'); // ejemplo: '../Home/5.Video/video.css'
 ?>
-	<link rel="stylesheet" href="../../../gastronomia/kalu/menu/menu.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../gastronomia/kalu/menu/menu.css?v=<?= $cssTime ?>">
 	<!-- ===== HEADER PRINCIPAL DE LA PÁGINA ===== -->
 	<!-- HEADER -->
 	<header class="site-header">
 		<!-- Marca / logo -->
-		<a class="brand_menu" href="../../../home/index.php" aria-label="Inicio">
+		<a class="brand_menu" href="../../index.php" aria-label="Inicio">
 			<h1 class="brand-text">Kalú</h1>
 
-			<!-- <img src="../../../gastronomia/kalu/menu/img/logo_kalu.png" alt="" class="brand-logo"> -->
+			<!-- <img src="../../gastronomia/kalu/menu/img/logo_kalu.png" alt="" class="brand-logo"> -->
 
 		</a>
 
@@ -22,12 +22,12 @@ $cssTime = filemtime('../../../gastronomia/kalu/menu/menu.css'); // ejemplo: '..
 		<!-- Navegación -->
 		<nav id="site-nav" class="nav">
 			<ul class="nav-list">
-				<li><a href="../../../home/index.php">Inicio</a></li>
+				<li><a href="../../index.php">Inicio</a></li>
 				<li><a href="#menu_kalu">Menu</a></li>
 				<li><a href="#galery_kalu">Galeria</a></li>
 				<li><a href="#about_kalu">Nosotros</a></li>
 				<li><a href="#ubicacion_kalu">Ubicación</a></li>
-				<li><a class="cta" href="../../../gastronomia/index.php">Volver</a></li>
+				<li><a class="cta" href="../../gastronomia/index.php">Volver</a></li>
 			</ul>
 		</nav>
 	</header>

@@ -1,15 +1,15 @@
 <?php
-$cssTime = filemtime('../../../gastronomia/kapaLuna360/menu/menu.css'); // ejemplo: '../Home/5.Video/video.css'
+$cssTime = filemtime('../../gastronomia/kapaLuna360/menu/menu.css'); // ejemplo: '../Home/5.Video/video.css'
 ?>
-	<link rel="stylesheet" href="../../../gastronomia/kapaLuna360/menu/menu.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../gastronomia/kapaLuna360/menu/menu.css?v=<?= $cssTime ?>">
 	<!-- ===== HEADER PRINCIPAL DE LA PÁGINA ===== -->
 	<!-- HEADER -->
 	<header class="site-header">
 		<!-- Marca / logo -->
-		<a class="brand_menu" href="../../../home/index.php" aria-label="Inicio">
+		<a class="brand_menu" href="../../index.php" aria-label="Inicio">
 			<h1 class="brand-text">kapaLuna360°</h1>
 
-			<!-- <img src="../../../gastronomia/kapaLuna360°/menu/img/logo_kapaLuna.png" alt="" class="brand-logo"> -->
+			<!-- <img src="../../gastronomia/kapaLuna360°/menu/img/logo_kapaLuna.png" alt="" class="brand-logo"> -->
 
 		</a>
 
@@ -22,12 +22,12 @@ $cssTime = filemtime('../../../gastronomia/kapaLuna360/menu/menu.css'); // ejemp
 		<!-- Navegación -->
 		<nav id="site-nav" class="nav">
 			<ul class="nav-list">
-				<li><a href="../../../home/index.php">Inicio</a></li>
+				<li><a href="../../index.php">Inicio</a></li>
 				<li><a href="#menu_kapaLuna">Menu</a></li>
 				<li><a href="#galery_kapaLuna">Galeria</a></li>
 				<li><a href="#about_kapaLuna">Nosotros</a></li>
 				<li><a href="#ubicacion_kapaLuna">Ubicación</a></li>
-				<li><a class="cta" href="../../../gastronomia/index.php">Volver</a></li>
+				<li><a class="cta" href="../../gastronomia/index.php">Volver</a></li>
 			</ul>
 		</nav>
 	</header>

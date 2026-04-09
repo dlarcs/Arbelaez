@@ -32,14 +32,14 @@
   <meta name="twitter:image" content="https://www.arbelaez.com.co/media/El_Fogon_del_triangulo/og-1200x630.jpg">
 
   <!-- Icono / tema -->
-  <link rel="icon" href="../../../gastronomia/El_Fogon_del_Triangulo/img/logo.png" type="image/png">
+  <link rel="icon" href="../../gastronomia/El_Fogon_del_Triangulo/img/logo.png" type="image/png">
   <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/El_Fogon_del_triangulo/apple-touch-icon.png">
   <meta name="theme-color" content="#005548">
 
   <!-- Rendimiento -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="image" href="https://www.arbelaez.com.co/media/El_Fogon_del_triangulo/hero-gastronomia.webp">
-  <link rel="stylesheet" href="../../../gastronomia/El_Fogon_del_Triangulo/style.css">
+  <link rel="stylesheet" href="../../gastronomia/El_Fogon_del_Triangulo/style.css">
 
   <!-- Datos estructurados Restaurant -->
   <script type="application/ld+json">
@@ -65,23 +65,23 @@
 </head>
 
 <body class="body_El_Fogon_del_triangulo">
-  <?php include "../../../gastronomia/El_Fogon_del_Triangulo/menu/menu.php" ?>
+  <?php include "../../gastronomia/El_Fogon_del_Triangulo/menu/menu.php" ?>
   <div class="container_El_Fogon_del_triangulo">
-    <?php include "../../../gastronomia/El_Fogon_del_Triangulo/title/title.php" ?>
-    <?php include "../../../gastronomia/El_Fogon_del_Triangulo/slider/slider.php" ?>
-    <?php include "../../../gastronomia/El_Fogon_del_Triangulo/download/download.php" ?>
-    <?php include "../../../gastronomia/El_Fogon_del_Triangulo/galery/gastronomia.php" ?>
-    <?php include "../../../gastronomia/El_Fogon_del_Triangulo/bout_us/about.php" ?>
-    <?php include "../../../gastronomia/El_Fogon_del_Triangulo/maps/maps.php"?>
+    <?php include "../../gastronomia/El_Fogon_del_Triangulo/title/title.php" ?>
+    <?php include "../../gastronomia/El_Fogon_del_Triangulo/slider/slider.php" ?>
+    <?php include "../../gastronomia/El_Fogon_del_Triangulo/download/download.php" ?>
+    <?php include "../../gastronomia/El_Fogon_del_Triangulo/galery/gastronomia.php" ?>
+    <?php include "../../gastronomia/El_Fogon_del_Triangulo/bout_us/about.php" ?>
+    <?php include "../../gastronomia/El_Fogon_del_Triangulo/maps/maps.php"?>
   </div>
-  <?php include "../../../gastronomia/El_Fogon_del_Triangulo/footer/footer.php" ?>
+  <?php include "../../gastronomia/El_Fogon_del_Triangulo/footer/footer.php" ?>
 
   <!-- Botón WhatsApp -->
   <a class="whatsapp-fab"
      href="https://wa.me/573144506914?text=Hola%20vengo%20desde%20la%20web%20de%20El%20Asadero%20El%20Fogón%20del%20Triángulo"
      target="_blank" rel="noopener"
      aria-label="Chatear por WhatsApp">
-    <img src="../../../home/img/img_whatsApp.png" alt="Contactar por WhatsApp" decoding="async">
+    <img src="../../home/img/img_whatsApp.png" alt="Contactar por WhatsApp" decoding="async">
   </a>
 </body>
 </html>

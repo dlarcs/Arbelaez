@@ -1,12 +1,12 @@
 <?php
-$cssTime = filemtime('../../../gastronomia/kalu/bout_us/about.css');
+$cssTime = filemtime('../../gastronomia/kalu/bout_us/about.css');
 ?>
-	<link rel="stylesheet" href="../../../gastronomia/kalu/bout_us/about.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../gastronomia/kalu/bout_us/about.css?v=<?= $cssTime ?>">
 
 	<main id="about_kalu" class="wrap">
 		<article class="card" itemscope itemtype="https://schema.org/LocalBusiness">
 			<figure class="hero">
-				<img src="../../../gastronomia/kalu/img/lugar13.jpg" alt="Kalu-Resto_bar°" itemprop="image" loading="lazy">
+				<img src="../../gastronomia/kalu/img/lugar13.jpg" alt="Kalu-Resto_bar°" itemprop="image" loading="lazy">
 				<figcaption>Fotografía: Nathalia Jossa</figcaption>
 			</figure>
 

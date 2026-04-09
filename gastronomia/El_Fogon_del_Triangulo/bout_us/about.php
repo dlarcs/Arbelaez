@@ -1,12 +1,12 @@
 <?php
-$cssTime = filemtime('../../../gastronomia/El_Fogon_del_Triangulo/bout_us/about.css');
+$cssTime = filemtime('../../gastronomia/El_Fogon_del_Triangulo/bout_us/about.css');
 ?>
-	<link rel="stylesheet" href="../../../gastronomia/El_Fogon_del_Triangulo/bout_us/about.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../gastronomia/El_Fogon_del_Triangulo/bout_us/about.css?v=<?= $cssTime ?>">
 
 	<main id="about_El_Fogon_triangulo" class="wrap">
 		<article class="card" itemscope itemtype="https://schema.org/LocalBusiness">
 			<figure class="hero">
-				<img src="../../../gastronomia/El_Fogon_del_Triangulo/img/logo.png" alt="El_Fogon_triangulo" itemprop="image" loading="lazy">
+				<img src="../../gastronomia/El_Fogon_del_Triangulo/img/logo.png" alt="El_Fogon_triangulo" itemprop="image" loading="lazy">
 				<figcaption>Vive el sabor local</figcaption>
 			</figure>
 			<section class="content">

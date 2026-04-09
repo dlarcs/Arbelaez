@@ -1,15 +1,15 @@
 <?php
-$cssTime = filemtime('../../../gastronomia/El_Fogon_del_Triangulo/menu/menu.css'); // ejemplo: '../Home/5.Video/video.css'
+$cssTime = filemtime('../../gastronomia/El_Fogon_del_Triangulo/menu/menu.css'); // ejemplo: '../Home/5.Video/video.css'
 ?>
-	<link rel="stylesheet" href="../../../gastronomia/El_Fogon_del_Triangulo/menu/menu.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../gastronomia/El_Fogon_del_Triangulo/menu/menu.css?v=<?= $cssTime ?>">
 	<!-- ===== HEADER PRINCIPAL DE LA PÁGINA ===== -->
 	<!-- HEADER -->
 	<header class="site-header">
 		<!-- Marca / logo -->
-		<a class="brand_menu" href="../../../home/index.php" aria-label="Inicio">
+		<a class="brand_menu" href="../../index.php" aria-label="Inicio">
 			<h1 class="brand-text">El Fogón del Triángulo</h1>
 
-			<!-- <img src="../../../El_Fogon_del_Triangulo/menu/img/logo_El_Fogon_triangulo.png" alt="" class="brand-logo"> -->
+			<!-- <img src="../../El_Fogon_del_Triangulo/menu/img/logo_El_Fogon_triangulo.png" alt="" class="brand-logo"> -->
 
 		</a>
 
@@ -22,12 +22,12 @@ $cssTime = filemtime('../../../gastronomia/El_Fogon_del_Triangulo/menu/menu.css'
 		<!-- Navegación -->
 		<nav id="site-nav" class="nav">
 			<ul class="nav-list">
-				<li><a href="../../../home/index.php">Inicio</a></li>
+				<li><a href="../../index.php">Inicio</a></li>
 				<li><a href="#menu_El_Fogon_triangulo">Menu</a></li>
 				<li><a href="#galery_El_Fogon_triangulo">Galeria</a></li>
 				<li><a href="#about_El_Fogon_triangulo">Nosotros</a></li>
 				<li><a href="#ubicacion_El_Fogon_triangulo">Ubicación</a></li>
-				<li><a class="cta" href="../../../gastronomia/index.php">Volver</a></li>
+				<li><a class="cta" href="../../gastronomia/index.php">Volver</a></li>
 			</ul>
 		</nav>
 	</header>

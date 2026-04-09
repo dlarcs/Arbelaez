@@ -1,12 +1,12 @@
 <?php
-$cssTime = filemtime('../../../gastronomia/kapaLuna360/bout_us/about.css');
+$cssTime = filemtime('../../gastronomia/kapaLuna360/bout_us/about.css');
 ?>
-	<link rel="stylesheet" href="../../../gastronomia/kapaLuna360/bout_us/about.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../gastronomia/kapaLuna360/bout_us/about.css?v=<?= $cssTime ?>">
 
 	<main id="about_kapaLuna" class="wrap">
 		<article class="card" itemscope itemtype="https://schema.org/LocalBusiness">
 			<figure class="hero">
-				<img src="../../../gastronomia/kapaLuna360/menu/img/logo_kapaLuna.png" alt="KapaLuna360°" itemprop="image" loading="lazy">
+				<img src="../../gastronomia/kapaLuna360/menu/img/logo_kapaLuna.png" alt="KapaLuna360°" itemprop="image" loading="lazy">
 				<figcaption>Vive el sabor local</figcaption>
 			</figure>
 
