@@ -7,6 +7,8 @@ $jsTime = filemtime('../rio/slider/slider.js');
 
 <section class="hero" id="hero">
    <div class="hero__bg" id="heroBg"></div>
+   <div class="hero__bg1" id="heroBg"></div>
+   <div class="hero__bg2" id="heroBg"></div>
 
    <div class="hero__content">
      <h1 class="parallax-text" data-parallax-text>   Ríos • Quebradas • Puentes</h1>
