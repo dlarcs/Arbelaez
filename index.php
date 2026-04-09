@@ -15,7 +15,7 @@
   <meta name="googlebot" content="noindex,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 
   <!-- Canonical del dominio -->
-  <link rel="canonical" href="https://www.arbelaez.com.co/">
+  <link rel="canonical" href="https://www.arbelaez.com.co/index.php">
 
   <!-- ✅ Keywords (100 ES + 100 EN) -->
   <meta name="keywords" lang="es" content="turismo Arbeláez, turismo Arbelaez, Arbeláez Cundinamarca, qué hacer en Arbeláez, visitar Arbeláez, planes en Arbeláez, dónde alojarse en Arbeláez, hoteles en Arbeláez, cabañas en Arbeláez, alojamiento en Arbeláez, fincas turísticas Arbeláez, eco alojamiento Arbeláez, dónde comer en Arbeláez, restaurantes en Arbeláez, comida típica Arbeláez, gastronomía Arbeláez, cafeterías Arbeláez, panaderías Arbeláez, artesanías Arbeláez, artesanos locales Arbeláez, tiendas de artesanías Arbeláez, souvenirs Arbeláez, recuerdos Arbeláez, regalos hechos a mano, ríos de Arbeláez, caminatas por ríos Arbeláez, cascadas cerca de Arbeláez, senderos naturales Arbeláez, caminatas Arbeláez, miradores Arbeláez, avistamiento de aves Arbeláez, aves de Arbeláez, rutas de avifauna Arbeláez, fauna Arbeláez, insectos de Arbeláez, mariposas Arbeláez, plantas de Arbeláez, flora nativa Arbeláez, orquídeas Arbeláez, caminatas botánicas Arbeláez, fotografía de naturaleza Arbeláez, fotografía en Colombia, viajes cerca de Bogotá, plan de fin de semana Bogotá, escapada Cundinamarca, turismo rural Colombia, turismo comunitario Arbeláez, experiencias locales Arbeláez, actividades familiares Arbeláez, viaje en pareja Arbeláez, turismo de aventura Arbeláez, turismo cultural Arbeláez, historia de Arbeláez, festivales Arbeláez, mapa de Arbeláez, cómo llegar a Arbeláez, transporte a Arbeláez, consejos de viaje Arbeláez, itinerario Arbeláez, mejor época para visitar Arbeláez, Arbelaez.com.co, guía de Arbeláez, guía turística Arbeláez, guía de gastronomía Arbeláez, guía de alojamientos Arbeláez, guía de artesanías Arbeláez, sitios turísticos Arbeláez, lugares escondidos Arbeláez, lugares para visitar Arbeláez, negocios locales Arbeláez, emprendimientos Arbeláez, apoya lo local Arbeláez, ecoturismo Arbeláez, turismo sostenible Arbeláez, viaje responsable Colombia, actividades al aire libre Arbeláez, baños de río Arbeláez, zonas de picnic Arbeláez, miradores Cundinamarca, paisajes Arbeláez, campo colombiano, rutas rurales Arbeláez, tours guiados Arbeláez, guías locales Arbeláez, talleres de artesanías Arbeláez, talleres de artesanos Arbeláez, experiencias de café Arbeláez, experiencias de cacao Arbeláez, visitas a fincas Arbeláez, agroturismo Arbeláez, especies de aves Colombia, reserva natural cerca de Arbeláez, mapas de senderos Arbeláez, mejores restaurantes Arbeláez, mejores hoteles Arbeláez, mejores recuerdos Arbeláez, rutas ribereñas Arbeláez, joyería artesanal Arbeláez, mercados artesanales Arbeláez, portal turístico Arbeláez">
@@ -42,8 +42,6 @@
   <!-- Manifest -->
   <link rel="manifest" href="/site.webmanifest">
 
-  <!-- Redirect (fallback) -->
-  <meta http-equiv="refresh" content="0;url=https://arbelaez.com.co/index.php">
 </head>
 
 <body class="body_home">
