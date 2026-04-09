@@ -1,8 +1,3 @@
-html{
-  box-sizing: border-box;
-  overflow-x: hidden;
-}
-
 *,
 *::before,
 *::after{
@@ -10,35 +5,31 @@ html{
   padding: 0;
   box-sizing: inherit;
 }
-
 .body_home{
   margin: 0;
-  background: blue;
-  width: 100%;
-  max-width: 100%;
-  min-width: 280px;
+  background: linear-gradient(
+  to bottom,
+  rgba(235, 255, 235, 0.4) 0%,
+  rgba(0, 85, 72, 1) 80%);
+  width: 100vw;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+
+  height: 100%;
+  max-width: 100vw;
   overflow-x: hidden;
 }
-
 .container_home{
-  width: 100%;
-  max-width: 100%;
-  padding: 0;
+  padding:  0;
   margin: 0;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
   overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  object-fit: cover;
   overflow: hidden;
-}
-
-img,
-video,
-iframe,
-svg,
-canvas{
-  max-width: 100%;
-  height: auto;
-  display: block;
 }
