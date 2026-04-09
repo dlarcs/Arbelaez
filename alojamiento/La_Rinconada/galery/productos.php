@@ -1,8 +1,8 @@
 <?php
-$cssTime = filemtime('../../../alojamiento/La_Rinconada/galery/productos.css'); // ejemplo: '../Home/5.Video/video.css'
-$jsTime = filemtime('../../../alojamiento/La_Rinconada/galery/productos.js');   // ejemplo: '../Home/5.Video/video.js'
+$cssTime = filemtime('../alojamiento/La_Rinconada/galery/productos.css'); // ejemplo: '../Home/5.Video/video.css'
+$jsTime = filemtime('../alojamiento/La_Rinconada/galery/productos.js');   // ejemplo: '../Home/5.Video/video.js'
 ?>
-	<link rel="stylesheet" href="../../../alojamiento/La_Rinconada/galery/productos.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../alojamiento/La_Rinconada/galery/productos.css?v=<?= $cssTime ?>">
 	<section class="section_food_gallery" id="producto_La_Rinconada">
 
 	  <!-- Título principal -->
@@ -20,30 +20,30 @@ $jsTime = filemtime('../../../alojamiento/La_Rinconada/galery/productos.js');   
   <div class="food_gallery_container">
 
 	    <!-- ===== General (7) ===== -->
-	    <div class="food_card General"><img src="../../../alojamiento/La_Rinconada/img/general.jpeg" alt="General 1" width="1200" height="800" loading="lazy" decoding="async"></div>
-	    <div class="food_card General"><img src="../../../alojamiento/La_Rinconada/img/general1.jpeg" alt="General 2" width="1200" height="800" loading="lazy" decoding="async"></div>
-	    <div class="food_card General"><img src="../../../alojamiento/La_Rinconada/img/general2.jpeg" alt="General 3" width="1200" height="800" loading="lazy" decoding="async"></div>
-	    <div class="food_card General"><img src="../../../alojamiento/La_Rinconada/img/general3.jpeg" alt="General 4" width="1200" height="800" loading="lazy" decoding="async"></div>
-	    <div class="food_card General"><img src="../../../alojamiento/La_Rinconada/img/general4.jpeg" alt="General 5" width="1200" height="800" loading="lazy" decoding="async"></div>
-	    <div class="food_card General"><img src="../../../alojamiento/La_Rinconada/img/general5.jpeg" alt="General 6" width="1200" height="800" loading="lazy" decoding="async"></div>
+	    <div class="food_card General"><img src="../alojamiento/La_Rinconada/img/general.jpeg" alt="General 1" width="1200" height="800" loading="lazy" decoding="async"></div>
+	    <div class="food_card General"><img src="../alojamiento/La_Rinconada/img/general1.jpeg" alt="General 2" width="1200" height="800" loading="lazy" decoding="async"></div>
+	    <div class="food_card General"><img src="../alojamiento/La_Rinconada/img/general2.jpeg" alt="General 3" width="1200" height="800" loading="lazy" decoding="async"></div>
+	    <div class="food_card General"><img src="../alojamiento/La_Rinconada/img/general3.jpeg" alt="General 4" width="1200" height="800" loading="lazy" decoding="async"></div>
+	    <div class="food_card General"><img src="../alojamiento/La_Rinconada/img/general4.jpeg" alt="General 5" width="1200" height="800" loading="lazy" decoding="async"></div>
+	    <div class="food_card General"><img src="../alojamiento/La_Rinconada/img/general5.jpeg" alt="General 6" width="1200" height="800" loading="lazy" decoding="async"></div>
 
 	    <!-- ===== Piscina (3) ===== -->
-	    <div class="food_card Piscina"><img src="../../../alojamiento/La_Rinconada/img/piscina.jpeg" alt="Piscina 1" width="1200" height="800" loading="lazy" decoding="async"></div>
-	    <div class="food_card Piscina"><img src="../../../alojamiento/La_Rinconada/img/piscina1.jpeg" alt="Piscina 2" width="1200" height="800" loading="lazy" decoding="async"></div>
-	    <div class="food_card Piscina"><img src="../../../alojamiento/La_Rinconada/img/piscina2.jpeg" alt="Piscina 3" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Piscina"><img src="../../../alojamiento/La_Rinconada/img/piscina3.jpeg" alt="Piscina 4" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Piscina"><img src="../../../alojamiento/La_Rinconada/img/piscina4.jpeg" alt="Piscina 5" width="1200" height="800" loading="lazy" decoding="async"></div>
+	    <div class="food_card Piscina"><img src="../alojamiento/La_Rinconada/img/piscina.jpeg" alt="Piscina 1" width="1200" height="800" loading="lazy" decoding="async"></div>
+	    <div class="food_card Piscina"><img src="../alojamiento/La_Rinconada/img/piscina1.jpeg" alt="Piscina 2" width="1200" height="800" loading="lazy" decoding="async"></div>
+	    <div class="food_card Piscina"><img src="../alojamiento/La_Rinconada/img/piscina2.jpeg" alt="Piscina 3" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Piscina"><img src="../alojamiento/La_Rinconada/img/piscina3.jpeg" alt="Piscina 4" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Piscina"><img src="../alojamiento/La_Rinconada/img/piscina4.jpeg" alt="Piscina 5" width="1200" height="800" loading="lazy" decoding="async"></div>
 
 	    <!-- ===== Aposento (3) ===== -->
-	    <div class="food_card Aposento"><img src="../../../alojamiento/La_Rinconada/img/habitaciones.jpeg" alt="Aposento 1" width="1200" height="800" loading="lazy" decoding="async"></div>
-	    <div class="food_card Aposento"><img src="../../../alojamiento/La_Rinconada/img/habitaciones1.jpeg" alt="Aposento 2" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Aposento"><img src="../../../alojamiento/La_Rinconada/img/habitaciones2.jpeg" alt="Aposento 3" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Aposento"><img src="../../../alojamiento/La_Rinconada/img/habitaciones3.jpeg" alt="Aposento 4" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Aposento"><img src="../../../alojamiento/La_Rinconada/img/habitaciones4.jpeg" alt="Aposento 5" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Aposento"><img src="../../../alojamiento/La_Rinconada/img/habitaciones5.jpeg" alt="Aposento 6" width="1200" height="800" loading="lazy" decoding="async"></div>
+	    <div class="food_card Aposento"><img src="../alojamiento/La_Rinconada/img/habitaciones.jpeg" alt="Aposento 1" width="1200" height="800" loading="lazy" decoding="async"></div>
+	    <div class="food_card Aposento"><img src="../alojamiento/La_Rinconada/img/habitaciones1.jpeg" alt="Aposento 2" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Aposento"><img src="../alojamiento/La_Rinconada/img/habitaciones2.jpeg" alt="Aposento 3" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Aposento"><img src="../alojamiento/La_Rinconada/img/habitaciones3.jpeg" alt="Aposento 4" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Aposento"><img src="../alojamiento/La_Rinconada/img/habitaciones4.jpeg" alt="Aposento 5" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Aposento"><img src="../alojamiento/La_Rinconada/img/habitaciones5.jpeg" alt="Aposento 6" width="1200" height="800" loading="lazy" decoding="async"></div>
 	  </div>
 
 	</section>
 
 
-	<script src="<?php echo '../../../alojamiento/La_Rinconada/galery/productos.js?v=' . filemtime('../../../alojamiento/La_Rinconada/galery/productos.js'); ?>" type="text/javascript"></script>
+	<script src="<?php echo '../alojamiento/La_Rinconada/galery/productos.js?v=' . filemtime('../alojamiento/La_Rinconada/galery/productos.js'); ?>" type="text/javascript"></script>

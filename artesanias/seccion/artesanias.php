@@ -1,12 +1,10 @@
 <?php
-$cssFile = __DIR__ . '/../../artesanias/seccion/artesanias.css';
-$jsFile  = __DIR__ . '/../../artesanias/seccion/artesanias.js';
+$cssFile = __DIR__ . '/../artesanias/seccion/artesanias.css';
 
 $cssTime = file_exists($cssFile) ? filemtime($cssFile) : time();
-$jsTime  = file_exists($jsFile)  ? filemtime($jsFile)  : time();
 ?>
 
-<link rel="stylesheet" href="../../artesanias/seccion/artesanias.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../artesanias/seccion/artesanias.css?v=<?= $cssTime ?>">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,18 +15,18 @@ $jsTime  = file_exists($jsFile)  ? filemtime($jsFile)  : time();
 
     <article class="boxes_product">
       <header class="info_box_product">
-        <a class="cursiva-inglesa" href="../../artesanias/Artesanias_Martha_E/index.php">
+        <a class="cursiva-inglesa" href="../artesanias/Artesanias_Martha_E/index.php">
           Artesanías Martha E.
         </a>
       </header>
 
-      <a href="../../artesanias/Artesanias_Martha_E/index.php"
+      <a href="../artesanias/Artesanias_Martha_E/index.php"
          class="box_product"
          aria-label="Ver Artesanías Martha E.">
         <img
           loading="lazy"
           decoding="async"
-          src="../../artesanias/Artesanias_Martha_E/img/lugar.jpeg"
+          src="../artesanias/Artesanias_Martha_E/img/lugar.jpeg"
           alt="Artesanías Martha E. en Arbeláez"
         >
       </a>
@@ -50,7 +48,7 @@ $jsTime  = file_exists($jsFile)  ? filemtime($jsFile)  : time();
           </a>
 
           <a class="btn_accion btn_vermas"
-             href="../../artesanias/Artesanias_Martha_E/index.php"
+             href="../artesanias/Artesanias_Martha_E/index.php"
              aria-label="Ver más sobre Artesanías Martha E.">
             Ver más
           </a>
@@ -61,18 +59,18 @@ $jsTime  = file_exists($jsFile)  ? filemtime($jsFile)  : time();
 
     <article class="boxes_product">
       <header class="info_box_product">
-        <a class="cursiva-inglesa" href="../../artesanias/Almacen_Religioso/index.php">
+        <a class="cursiva-inglesa" href="../artesanias/Almacen_Religioso/index.php">
           Almacén Religioso y Artesanal Divino Niño Jesús
         </a>
       </header>
 
-      <a href="../../artesanias/Almacen_Religioso/index.php"
+      <a href="../artesanias/Almacen_Religioso/index.php"
          class="box_product"
          aria-label="Ver Almacén Religioso y Artesanal Divino Niño Jesús">
         <img
           loading="lazy"
           decoding="async"
-          src="../../artesanias/img/entrada_Religioso.jpg"
+          src="../artesanias/img/entrada_Religioso.jpg"
           alt="Entrada del Almacén Religioso y Artesanal Divino Niño Jesús"
         >
       </a>
@@ -94,7 +92,7 @@ $jsTime  = file_exists($jsFile)  ? filemtime($jsFile)  : time();
           </a>
 
           <a class="btn_accion btn_vermas"
-             href="../../artesanias/Almacen_Religioso/index.php"
+             href="../artesanias/Almacen_Religioso/index.php"
              aria-label="Ver más sobre el Almacén Religioso y Artesanal Divino Niño Jesús">
             Ver más
           </a>
@@ -104,18 +102,18 @@ $jsTime  = file_exists($jsFile)  ? filemtime($jsFile)  : time();
 
     <article class="boxes_product">
       <header class="info_box_product">
-        <a class="cursiva-inglesa" href="../../artesanias/Artesanas_Veredas/index.php">
+        <a class="cursiva-inglesa" href="../artesanias/Artesanas_Veredas/index.php">
           Artesanías en Veredas
         </a>
       </header>
 
-      <a href="../../artesanias/Artesanas_Veredas/index.php"
+      <a href="../artesanias/Artesanas_Veredas/index.php"
          class="box_product"
          aria-label="Ver Artesanías en Veredas">
         <img
           loading="lazy"
           decoding="async"
-          src="../../artesanias/Artesanas_Veredas/img/portada.png"
+          src="../artesanias/Artesanas_Veredas/img/portada.png"
           alt="Artesanías en Veredas de Arbeláez"
         >
       </a>
@@ -128,7 +126,7 @@ $jsTime  = file_exists($jsFile)  ? filemtime($jsFile)  : time();
         <div class="acciones_producto">
 
           <a class="btn_accion btn_vermas"
-             href="../../artesanias/Artesanas_Veredas/index.php"
+             href="../artesanias/Artesanas_Veredas/index.php"
              aria-label="Ver más sobre el Almacén Religioso y Artesanal Divino Niño Jesús">
             Ver más
           </a>
@@ -138,5 +136,3 @@ $jsTime  = file_exists($jsFile)  ? filemtime($jsFile)  : time();
 
   </div>
 </section>
-
-<script src="../../artesanias/seccion/artesanias.js?v=<?= $jsTime ?>" defer></script>

@@ -13,8 +13,8 @@
   <link rel="canonical" href="https://www.arbelaez.com.co/artesanias/">
 
   <!-- CSS (cache-busting robusto) -->
-  <?php $cssTime = filemtime('../../artesanias/style.css'); ?>
-  <link rel="stylesheet" href="../../artesanias/style.css?v=<?= $cssTime ?>">
+  <?php $cssTime = filemtime('../artesanias/style.css'); ?>
+  <link rel="stylesheet" href="../artesanias/style.css?v=<?= $cssTime ?>">
 
   <!-- Font: optimized -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,10 +22,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
   <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="../../global/img/logo.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../../global/img/logo.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../../global/img/logo.png">
-  <link rel="mask-icon" href="../../global/img/logo.png" color="#005548">
+  <link rel="icon" type="image/png" sizes="32x32" href="../global/img/logo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../global/img/logo.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../global/img/logo.png">
+  <link rel="mask-icon" href="../global/img/logo.png" color="#005548">
   <meta name="theme-color" content="#005548">
 
   <!-- Meta SEO (100 keywords EN) -->
@@ -72,12 +72,12 @@
 </head>
 
 <body class="body_artesanias">
-  <?php include "../../global/menu/menu.php" ?>
+  <?php include "../global/menu/menu.php" ?>
 
   <div class="container_artesanias">
-    <?php include "../../artesanias/seccion/slider/slider.php" ?>
-    <?php include "../../artesanias/seccion/artesanias.php" ?>
-    <?php include "../../global/footer/footer.php" ?>
+    <?php include "../artesanias/seccion/slider/slider.php" ?>
+    <?php include "../artesanias/seccion/artesanias.php" ?>
+    <?php include "../global/footer/footer.php" ?>
   </div>
 </body>
 </html>

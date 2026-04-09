@@ -1,13 +1,13 @@
 <?php
-$cssTime = filemtime('../../../alojamiento/La_Casita2/bout_us/about.css');
+$cssTime = filemtime('../alojamiento/La_Casita2/bout_us/about.css');
 ?>
-	<link rel="stylesheet" href="../../../alojamiento/La_Casita2/bout_us/about.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../alojamiento/La_Casita2/bout_us/about.css?v=<?= $cssTime ?>">
 
 	<main id="about_La_Casita2" class="wrap">
 	  <article class="card" itemscope itemtype="https://schema.org/LodgingBusiness">
 	    <figure class="hero">
 	      <!-- Cambia la imagen cuando tengas la foto principal de la cabaña -->
-	      <img src="../../../alojamiento/La_Casita2/img/logo.png"
+	      <img src="../alojamiento/La_Casita2/img/logo.png"
 	           alt="Casa Kandu — cabaña rural con zona BBQ en Arbeláez"
 	           itemprop="image" loading="lazy">
 	      <figcaption>Hotel La Casita N°2</figcaption>

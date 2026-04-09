@@ -1,8 +1,8 @@
 <?php
-$cssTime = filemtime('../../../alojamiento/La_Casita2/galery/productos.css'); // ejemplo: '../Home/5.Video/video.css'
-$jsTime = filemtime('../../../alojamiento/La_Casita2/galery/productos.js');   // ejemplo: '../Home/5.Video/video.js'
+$cssTime = filemtime('../alojamiento/La_Casita2/galery/productos.css'); // ejemplo: '../Home/5.Video/video.css'
+$jsTime = filemtime('../alojamiento/La_Casita2/galery/productos.js');   // ejemplo: '../Home/5.Video/video.js'
 ?>
-	<link rel="stylesheet" href="../../../alojamiento/La_Casita2/galery/productos.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../alojamiento/La_Casita2/galery/productos.css?v=<?= $cssTime ?>">
 	<section class="section_food_gallery" id="producto_La_Casita2">
 
 	  <!-- Título principal -->
@@ -20,22 +20,22 @@ $jsTime = filemtime('../../../alojamiento/La_Casita2/galery/productos.js');   //
 	  <div class="food_gallery_container">
 
 			<!-- ===== General (4) ===== -->
-			<div class="food_card General"><img src="../../../alojamiento/La_Casita2/img/general.jpeg" alt="General 1" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card General"><img src="../../../alojamiento/La_Casita2/img/general1.jpeg" alt="General 2" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card General"><img src="../../../alojamiento/La_Casita2/img/general2.jpg" alt="General 3" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card General"><img src="../../../alojamiento/La_Casita2/img/general3.jpeg" alt="General 3" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card General"><img src="../alojamiento/La_Casita2/img/general.jpeg" alt="General 1" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card General"><img src="../alojamiento/La_Casita2/img/general1.jpeg" alt="General 2" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card General"><img src="../alojamiento/La_Casita2/img/general2.jpg" alt="General 3" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card General"><img src="../alojamiento/La_Casita2/img/general3.jpeg" alt="General 3" width="1200" height="800" loading="lazy" decoding="async"></div>
 
 			<!-- ===== Habitaciones (6) ===== -->
-			<div class="food_card Habitaciones"><img src="../../../alojamiento/La_Casita2/img/habitacion1.jpeg" alt="Habitaciones 1" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Habitaciones"><img src="../../../alojamiento/La_Casita2/img/habitacion2.jpeg" alt="Habitaciones 2" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Habitaciones"><img src="../../../alojamiento/La_Casita2/img/habitacion3.jpeg" alt="Habitaciones 3" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Habitaciones"><img src="../../../alojamiento/La_Casita2/img/habitacion4.jpeg" alt="Habitaciones 4" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Habitaciones"><img src="../../../alojamiento/La_Casita2/img/habitacion5.jpeg" alt="Habitaciones 5" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Habitaciones"><img src="../../../alojamiento/La_Casita2/img/habitacion6.jpeg" alt="Habitaciones 6" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Habitaciones"><img src="../../../alojamiento/La_Casita2/img/habitacion7.jpeg" alt="Habitaciones 5" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Habitaciones"><img src="../alojamiento/La_Casita2/img/habitacion1.jpeg" alt="Habitaciones 1" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Habitaciones"><img src="../alojamiento/La_Casita2/img/habitacion2.jpeg" alt="Habitaciones 2" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Habitaciones"><img src="../alojamiento/La_Casita2/img/habitacion3.jpeg" alt="Habitaciones 3" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Habitaciones"><img src="../alojamiento/La_Casita2/img/habitacion4.jpeg" alt="Habitaciones 4" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Habitaciones"><img src="../alojamiento/La_Casita2/img/habitacion5.jpeg" alt="Habitaciones 5" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Habitaciones"><img src="../alojamiento/La_Casita2/img/habitacion6.jpeg" alt="Habitaciones 6" width="1200" height="800" loading="lazy" decoding="async"></div>
+			<div class="food_card Habitaciones"><img src="../alojamiento/La_Casita2/img/habitacion7.jpeg" alt="Habitaciones 5" width="1200" height="800" loading="lazy" decoding="async"></div>
 
 	  </div>
 	</section>
 
 
-	<script src="<?php echo '../../../alojamiento/La_Casita2/galery/productos.js?v=' . filemtime('../../../alojamiento/La_Casita2/galery/productos.js'); ?>" type="text/javascript"></script>
+	<script src="<?php echo '../alojamiento/La_Casita2/galery/productos.js?v=' . filemtime('../alojamiento/La_Casita2/galery/productos.js'); ?>" type="text/javascript"></script>

@@ -1,14 +1,14 @@
 <?php
-$cssTime = filemtime('../../view/artesanias/seccion/slider/slider.css');
-$jsTime = filemtime('../../view/artesanias/seccion/slider/slider.js');
+$cssTime = filemtime('../artesanias/seccion/slider/slider.css');
+$jsTime = filemtime('../artesanias/seccion/slider/slider.js');
 ?>
-<link rel="stylesheet" href="../../view/artesanias/seccion/slider/slider.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../artesanias/seccion/slider/slider.css?v=<?= $cssTime ?>">
 <section class="slider" aria-roledescription="carrusel" aria-label="Galería destacada">
    <div class="slider__viewport" tabindex="0">
      <div class="slider__track" id="slider-track">
        <!-- Slide 1 -->
        <article class="slide is-current" aria-roledescription="slide" aria-label="1 de 4">
-         <img src="../../view/artesanias/Artesanias_Martha_E/img/manillas4.jpeg"
+         <img src="../artesanias/Artesanias_Martha_E/img/manillas4.jpeg"
               alt="Montañas al amanecer" />
          <div class="slide__caption">
            <p>Ven y descubre lo mejor de Arbeláez</p>
@@ -16,7 +16,7 @@ $jsTime = filemtime('../../view/artesanias/seccion/slider/slider.js');
        </article>
        <!-- Slide 2 -->
        <article class="slide" aria-roledescription="slide" aria-label="2 de 4">
-         <img src="../../view/artesanias/Almacen_Religioso/img/religioso12.jpg"
+         <img src="../artesanias/Almacen_Religioso/img/religioso12.jpg"
               alt="Bosque con luz dorada" />
          <div class="slide__caption">
            <p>Las mejores Artesanías</p>
@@ -24,7 +24,7 @@ $jsTime = filemtime('../../view/artesanias/seccion/slider/slider.js');
        </article>
        <!-- Slide 3 -->
        <article class="slide" aria-roledescription="slide" aria-label="3 de 4">
-         <img src="../../view/artesanias/Artesanias_Martha_E/img/aretes.jpeg"
+         <img src="../artesanias/Artesanias_Martha_E/img/aretes.jpeg"
               alt="Lago tranquilo" />
          <div class="slide__caption">
            <p>Detalles para compartir</p>
@@ -32,7 +32,7 @@ $jsTime = filemtime('../../view/artesanias/seccion/slider/slider.js');
        </article>
        <!-- Slide 4 -->
        <article class="slide" aria-roledescription="slide" aria-label="4 de 4">
-         <img src="../../view/artesanias/Almacen_Religioso/img/religioso20.jpg"
+         <img src="../artesanias/Almacen_Religioso/img/religioso20.jpg"
               alt="Carretera hacia el horizonte" />
          <div class="slide__caption">
            <p>Date un gusto de calidad</p>
@@ -54,4 +54,4 @@ $jsTime = filemtime('../../view/artesanias/seccion/slider/slider.js');
    </div>
  </section>
 
-<script src="../../view/artesanias/seccion/slider/slider.js?v=<?= $jsTime ?>" type="text/javascript"></script>
+<script src="../artesanias/seccion/slider/slider.js?v=<?= $jsTime ?>" type="text/javascript"></script>

@@ -32,15 +32,15 @@
   <meta name="twitter:image" content="https://www.arbelaez.com.co/media/Turismo_Hoy_Vivo/og-1200x630.jpg">
 
   <!-- Icono / tema -->
-  <link rel="icon" href="../../../alojamiento/Turismo_Hoy_Vivo/img/logo.jpeg" type="image/jpeg">
+  <link rel="icon" href="../alojamiento/Turismo_Hoy_Vivo/img/logo.jpeg" type="image/jpeg">
   <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/Turismo_Hoy_Vivo/apple-touch-icon.png">
   <meta name="theme-color" content="#005548">
 
   <!-- Rendimiento -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="image" href="https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/img/1.jpeg">
-  <?php $cssTime = filemtime('../../../alojamiento/Turismo_Hoy_Vivo/style.css'); ?>
-  <link rel="stylesheet" href="../../../alojamiento/Turismo_Hoy_Vivo/style.css?v=<?= $cssTime ?>">
+  <?php $cssTime = filemtime('../alojamiento/Turismo_Hoy_Vivo/style.css'); ?>
+  <link rel="stylesheet" href="../alojamiento/Turismo_Hoy_Vivo/style.css?v=<?= $cssTime ?>">
 
   <!-- Datos estructurados: Alojamiento -->
   <script type="application/ld+json">
@@ -78,23 +78,23 @@
 </head>
 
 <body class="body_Turismo_Hoy_Vivo">
-  <?php include "../../../alojamiento/Turismo_Hoy_Vivo/menu/menu.php" ?>
+  <?php include "../alojamiento/Turismo_Hoy_Vivo/menu/menu.php" ?>
   <div class="container_Turismo_Hoy_Vivo">
-    <?php include "../../../alojamiento/Turismo_Hoy_Vivo/title/title.php" ?>
-    <?php include "../../../alojamiento/Turismo_Hoy_Vivo/slider/slider.php" ?>
-    <?php include "../../../alojamiento/Turismo_Hoy_Vivo/download/download.php" ?>
-    <?php include "../../../alojamiento/Turismo_Hoy_Vivo/galery/productos.php" ?>
-    <?php include "../../../alojamiento/Turismo_Hoy_Vivo/bout_us/about.php" ?>
-    <?php include "../../../alojamiento/Turismo_Hoy_Vivo/maps/maps.php"?>
+    <?php include "../alojamiento/Turismo_Hoy_Vivo/title/title.php" ?>
+    <?php include "../alojamiento/Turismo_Hoy_Vivo/slider/slider.php" ?>
+    <?php include "../alojamiento/Turismo_Hoy_Vivo/download/download.php" ?>
+    <?php include "../alojamiento/Turismo_Hoy_Vivo/galery/productos.php" ?>
+    <?php include "../alojamiento/Turismo_Hoy_Vivo/bout_us/about.php" ?>
+    <?php include "../alojamiento/Turismo_Hoy_Vivo/maps/maps.php"?>
   </div>
-  <?php include "../../../alojamiento/Turismo_Hoy_Vivo/footer/footer.php" ?>
+  <?php include "../alojamiento/Turismo_Hoy_Vivo/footer/footer.php" ?>
 
   <!-- Botón WhatsApp -->
   <a class="whatsapp-fab"
      href="https://wa.me/573193676553?text=Hola%20vengo%20desde%20la%20web%20de%20Turismo%20Hoy%20Vivo%20Casa%20Rural%20Accesible"
      target="_blank" rel="noopener"
      aria-label="Chatear por WhatsApp">
-    <img src="../../../home/img/img_whatsApp.png"
+    <img src="../home/img/img_whatsApp.png"
          alt="Contactar a Turismo Hoy Vivo Casa Rural Accesible"
          decoding="async" loading="lazy" width="56" height="56">
   </a>

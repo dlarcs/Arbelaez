@@ -1,12 +1,12 @@
 <?php
-$cssTime = filemtime('../../../artesanias/Almacen_Religioso/bout_us/about.css');
+$cssTime = filemtime('../../artesanias/Almacen_Religioso/bout_us/about.css');
 ?>
-	<link rel="stylesheet" href="../../../artesanias/Almacen_Religioso/bout_us/about.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../artesanias/Almacen_Religioso/bout_us/about.css?v=<?= $cssTime ?>">
 
 	<main id="about_Almacen_Religioso" class="wrap">
 		<article class="card" itemscope itemtype="https://schema.org/LocalBusiness">
 			<figure class="hero">
-				<img src="../../../artesanias/Almacen_Religioso/img/religioso20.jpg" alt="Almacen_Religioso" itemprop="image" loading="lazy">
+				<img src="../../artesanias/Almacen_Religioso/img/religioso20.jpg" alt="Almacen_Religioso" itemprop="image" loading="lazy">
 				<figcaption>Fotografía: Nathalia Jossa</figcaption>
 			</figure>
 

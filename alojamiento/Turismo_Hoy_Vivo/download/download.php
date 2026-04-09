@@ -1,11 +1,11 @@
 <?php
-$cssTime = filemtime('../../../alojamiento/Turismo_Hoy_Vivo/download/download.css');
-// $jsTime = filemtime('../../../');
+$cssTime = filemtime('../alojamiento/Turismo_Hoy_Vivo/download/download.css');
+// $jsTime = filemtime('../');
 ?>
-	<link rel="stylesheet" href="../../../alojamiento/Turismo_Hoy_Vivo/download/download.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../alojamiento/Turismo_Hoy_Vivo/download/download.css?v=<?= $cssTime ?>">
 	<section id="datos_Turismo_Hoy_Vivo" class="card_download">
 		<div class="download">
-			<a href="../../../alojamiento/Turismo_Hoy_Vivo/download/Turismohoyvivo.pdf" download="Menu-Restaurante.pdf">
+			<a href="../alojamiento/Turismo_Hoy_Vivo/download/Turismohoyvivo.pdf" download="Menu-Restaurante.pdf">
 				<h2>Haz click aqui <br>para saber más</h2>
 			</a>
 		</div>

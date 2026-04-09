@@ -38,7 +38,7 @@
   <link rel="me" href="https://www.tiktok.com/@arbelaez_turismo">
 
   <!-- Icono / tema -->
-  <link rel="icon" href="../../../alojamiento/La_Casita2/img/logo.png" type="image/jpeg">
+  <link rel="icon" href="../alojamiento/La_Casita2/img/logo.png" type="image/jpeg">
   <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/La_Casita2/apple-touch-icon.png">
   <meta name="theme-color" content="#005548">
 
@@ -50,8 +50,8 @@
   <link rel="preload" as="image" href="https://www.arbelaez.com.co/alojamiento/La_Casita2/img/general.jpg">
 
   <!-- CSS (cache-busting robusto) -->
-  <?php $cssTime = filemtime('../../../alojamiento/La_Casita2/style.css'); ?>
-  <link rel="stylesheet" href="../../../alojamiento/La_Casita2/style.css?v=<?= $cssTime ?>">
+  <?php $cssTime = filemtime('../alojamiento/La_Casita2/style.css'); ?>
+  <link rel="stylesheet" href="../alojamiento/La_Casita2/style.css?v=<?= $cssTime ?>">
 
   <!-- Datos estructurados: Alojamiento -->
   <script type="application/ld+json">
@@ -87,24 +87,24 @@
 </head>
 
 <body class="body_La_Casita2">
-  <?php include "../../../alojamiento/La_Casita2/menu/menu.php" ?>
+  <?php include "../alojamiento/La_Casita2/menu/menu.php" ?>
 
   <div class="container_La_Casita2">
-    <?php include "../../../alojamiento/La_Casita2/title/title.php" ?>
-    <?php include "../../../alojamiento/La_Casita2/slider/slider.php" ?>
-    <?php include "../../../alojamiento/La_Casita2/galery/productos.php" ?>
-    <?php include "../../../alojamiento/La_Casita2/bout_us/about.php" ?>
-    <?php include "../../../alojamiento/La_Casita2/maps/maps.php"?>
+    <?php include "../alojamiento/La_Casita2/title/title.php" ?>
+    <?php include "../alojamiento/La_Casita2/slider/slider.php" ?>
+    <?php include "../alojamiento/La_Casita2/galery/productos.php" ?>
+    <?php include "../alojamiento/La_Casita2/bout_us/about.php" ?>
+    <?php include "../alojamiento/La_Casita2/maps/maps.php"?>
   </div>
 
-  <?php include "../../../alojamiento/La_Casita2/footer/footer.php" ?>
+  <?php include "../alojamiento/La_Casita2/footer/footer.php" ?>
 
   <!-- Botón WhatsApp -->
   <a class="whatsapp-fab"
      href="https://wa.me/573103360964?text=Hola%20vengo%20desde%20la%20web%20del%20Hotel%20La%20Casita%20N%C2%B02%20en%20Arbel%C3%A1ez%20(v%C3%ADa%20San%20Bernardo)"
      target="_blank" rel="noopener"
      aria-label="Chatear por WhatsApp">
-    <img src="../../../home/img/img_whatsApp.png"
+    <img src="../home/img/img_whatsApp.png"
          alt="Contactar a Hotel La Casita N°2 en Arbeláez por WhatsApp"
          decoding="async" loading="lazy" width="56" height="56">
   </a>

@@ -1,12 +1,12 @@
 <?php
-$cssTime = filemtime('../../../alojamiento/La_Rinconada/bout_us/about.css');
+$cssTime = filemtime('../alojamiento/La_Rinconada/bout_us/about.css');
 ?>
-	<link rel="stylesheet" href="../../../alojamiento/La_Rinconada/bout_us/about.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../alojamiento/La_Rinconada/bout_us/about.css?v=<?= $cssTime ?>">
 
 	<main id="about_La_Rinconada" class="wrap">
 		<article class="card" itemscope itemtype="https://schema.org/LocalBusiness">
 			<figure class="hero">
-				<img src="../../../alojamiento/La_Rinconada/img/piscina4.jpeg" alt="La_Rinconada" itemprop="image" loading="lazy">
+				<img src="../alojamiento/La_Rinconada/img/piscina4.jpeg" alt="La_Rinconada" itemprop="image" loading="lazy">
 				<figcaption>Alojamiento con piscina</figcaption>
 			</figure>
 

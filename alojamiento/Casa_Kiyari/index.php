@@ -38,7 +38,7 @@
   <link rel="me" href="https://www.tiktok.com/@arbelaez_turismo">
 
   <!-- Icono / tema -->
-  <link rel="icon" href="../../../alojamiento/Casa_Kiyari/img/logo.jpg" type="image/png">
+  <link rel="icon" href="../alojamiento/Casa_Kiyari/img/logo.jpg" type="image/png">
   <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/Casa_Kiyari/apple-touch-icon.png">
   <meta name="theme-color" content="#005548">
 
@@ -51,10 +51,10 @@
 
   <!-- CSS (cache-busting robusto) -->
   <?php
-    $cssPath = __DIR__ . '/../../../alojamiento/Casa_Kiyari/style.css';
+    $cssPath = __DIR__ . '/../alojamiento/Casa_Kiyari/style.css';
     $cssTime = file_exists($cssPath) ? filemtime($cssPath) : time();
   ?>
-  <link rel="stylesheet" href="../../../alojamiento/Casa_Kiyari/style.css?v=<?= $cssTime ?>">
+  <link rel="stylesheet" href="../alojamiento/Casa_Kiyari/style.css?v=<?= $cssTime ?>">
 
   <!-- Datos estructurados: Alojamiento -->
   <script type="application/ld+json">
@@ -87,24 +87,24 @@
 </head>
 
 <body class="body_Casa_Kiyari">
-  <?php include "../../../alojamiento/Casa_Kiyari/menu/menu.php" ?>
+  <?php include "../alojamiento/Casa_Kiyari/menu/menu.php" ?>
 
   <div class="container_Casa_Kiyari">
-    <?php include "../../../alojamiento/Casa_Kiyari/title/title.php" ?>
-    <?php include "../../../alojamiento/Casa_Kiyari/slider/slider.php" ?>
-    <?php include "../../../alojamiento/Casa_Kiyari/galery/productos.php" ?>
-    <?php include "../../../alojamiento/Casa_Kiyari/bout_us/about.php" ?>
-    <?php include "../../../alojamiento/Casa_Kiyari/maps/maps.php"?>
+    <?php include "../alojamiento/Casa_Kiyari/title/title.php" ?>
+    <?php include "../alojamiento/Casa_Kiyari/slider/slider.php" ?>
+    <?php include "../alojamiento/Casa_Kiyari/galery/productos.php" ?>
+    <?php include "../alojamiento/Casa_Kiyari/bout_us/about.php" ?>
+    <?php include "../alojamiento/Casa_Kiyari/maps/maps.php"?>
   </div>
 
-  <?php include "../../../alojamiento/Casa_Kiyari/footer/footer.php" ?>
+  <?php include "../alojamiento/Casa_Kiyari/footer/footer.php" ?>
 
   <!-- Botón WhatsApp -->
   <a class="whatsapp-fab"
      href="https://wa.me/573016677095?text=Hola%20vengo%20desde%20la%20web%20de%20Kiyari%20en%20Arbel%C3%A1ez%2C%20Cundinamarca"
      target="_blank" rel="noopener"
      aria-label="Chatear por WhatsApp">
-    <img src="../../../home/img/img_whatsApp.png"
+    <img src="../home/img/img_whatsApp.png"
          alt="Contactar a Kiyari en Arbeláez por WhatsApp"
          decoding="async" loading="lazy" width="56" height="56">
   </a>

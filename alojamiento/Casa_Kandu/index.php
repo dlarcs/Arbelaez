@@ -38,7 +38,7 @@
   <link rel="me" href="https://www.tiktok.com/@arbelaez_turismo">
 
   <!-- Icono / tema -->
-  <link rel="icon" href="../../../alojamiento/Casa_Kandu/img/general.jpg" type="image/jpeg">
+  <link rel="icon" href="../alojamiento/Casa_Kandu/img/general.jpg" type="image/jpeg">
   <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/Casa_Kandu/apple-touch-icon.png">
   <meta name="theme-color" content="#005548">
 
@@ -50,8 +50,8 @@
   <link rel="preload" as="image" href="https://www.arbelaez.com.co/alojamiento/Casa_Kandu/img/general.jpg">
 
   <!-- CSS (cache-busting robusto) -->
-  <?php $cssTime = filemtime('../../../alojamiento/Casa_Kandu/style.css'); ?>
-  <link rel="stylesheet" href="../../../alojamiento/Casa_Kandu/style.css?v=<?= $cssTime ?>">
+  <?php $cssTime = filemtime('../alojamiento/Casa_Kandu/style.css'); ?>
+  <link rel="stylesheet" href="../alojamiento/Casa_Kandu/style.css?v=<?= $cssTime ?>">
 
   <!-- Datos estructurados: Alojamiento -->
   <script type="application/ld+json">
@@ -86,24 +86,24 @@
 </head>
 
 <body class="body_Casa_Kandu">
-  <?php include "../../../alojamiento/Casa_Kandu/menu/menu.php" ?>
+  <?php include "../alojamiento/Casa_Kandu/menu/menu.php" ?>
 
   <div class="container_Casa_Kandu">
-    <?php include "../../../alojamiento/Casa_Kandu/title/title.php" ?>
-    <?php include "../../../alojamiento/Casa_Kandu/slider/slider.php" ?>
-    <?php include "../../../alojamiento/Casa_Kandu/galery/productos.php" ?>
-    <?php include "../../../alojamiento/Casa_Kandu/bout_us/about.php" ?>
-    <?php include "../../../alojamiento/Casa_Kandu/maps/maps.php"?>
+    <?php include "../alojamiento/Casa_Kandu/title/title.php" ?>
+    <?php include "../alojamiento/Casa_Kandu/slider/slider.php" ?>
+    <?php include "../alojamiento/Casa_Kandu/galery/productos.php" ?>
+    <?php include "../alojamiento/Casa_Kandu/bout_us/about.php" ?>
+    <?php include "../alojamiento/Casa_Kandu/maps/maps.php"?>
   </div>
 
-  <?php include "../../../alojamiento/Casa_Kandu/footer/footer.php" ?>
+  <?php include "../alojamiento/Casa_Kandu/footer/footer.php" ?>
 
   <!-- Botón WhatsApp -->
   <a class="whatsapp-fab"
      href="https://wa.me/573112250633?text=Hola%20vengo%20desde%20la%20web%20del%20Alojamiento%20Casa%20Kandu%20en%20Arbel%C3%A1ez"
      target="_blank" rel="noopener"
      aria-label="Chatear por WhatsApp">
-    <img src="../../../home/img/img_whatsApp.png"
+    <img src="../home/img/img_whatsApp.png"
          alt="Contactar a Casa Kandu en Arbeláez por WhatsApp"
          decoding="async" loading="lazy" width="56" height="56">
   </a>

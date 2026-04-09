@@ -1,7 +1,7 @@
 <?php
-$cssTime = filemtime('../../../alojamiento/La_Rinconada/maps/maps.css'); // ejemplo: '../Home/5.Video/video.css'
+$cssTime = filemtime('../alojamiento/La_Rinconada/maps/maps.css'); // ejemplo: '../Home/5.Video/video.css'
 ?>
-	<link rel="stylesheet" href="../../../alojamiento/La_Rinconada/maps/maps.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../alojamiento/La_Rinconada/maps/maps.css?v=<?= $cssTime ?>">
 	<section id="ubicacion_La_Rinconada" class="seccion_maps">
 		<div class="maps">
 			<div class="text_maps">
