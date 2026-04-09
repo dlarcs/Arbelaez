@@ -38,7 +38,7 @@
   <meta property="og:title" content="Alojamiento en Arbeláez - Accommodation in Arbeláez">
   <meta property="og:description" content="Explore comfortable and affordable stays in Arbeláez: riverside cabins, pool retreats, jacuzzi options, BBQ areas and nature views near Bogotá.">
   <meta property="og:url" content="https://www.arbelaez.com.co/alojamiento/">
-  <meta property="og:image" content="../alojamiento/Casa_Colibri/img/piscina.jpeg">
+  <meta property="og:image" content="https://www.arbelaez.com.co/alojamiento/Casa_Colibri/img/piscina.jpeg">
 
 
   <!-- Social profiles (official) -->

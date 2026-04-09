@@ -42,7 +42,7 @@
   <meta property="og:title" content="Gastronomía en Arbeláez - Gastronomy in Arbeláez – Restaurants">
   <meta property="og:description" content="Discover where to eat in Arbeláez: local restaurants, cafés, desserts and traditional food in Cundinamarca, near Bogotá.">
   <meta property="og:url" content="https://www.arbelaez.com.co/gastronomia/">
-  <meta property="og:image" content="../gastronomia/kapaLuna360/img/entradas.jpg">
+  <meta property="og:image" content="https://www.arbelaez.com.co/gastronomia/kapaLuna360/img/entradas.jpg">
 
   <!-- Social profiles (official) -->
   <link rel="me" href="https://www.facebook.com/profile.php?id=61580302286594">

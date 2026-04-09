@@ -38,7 +38,7 @@
   <meta property="og:title" content="Artesanías en Arbeláez - Handicrafts in Arbeláez">
   <meta property="og:description" content="Explore authentic crafts made by local artisans in Arbeláez. Unique souvenirs, handmade gifts and traditional products near Bogotá.">
   <meta property="og:url" content="https://www.arbelaez.com.co/artesanias/">
-  <meta property="og:image" content="../artesanias/Artesanias_Martha_E/img/manillas2.jpeg">
+  <meta property="og:image" content="https://www.arbelaez.com.co/artesanias/Artesanias_Martha_E/img/manillas2.jpeg">
 
   <!-- Social profiles (official) -->
   <link rel="me" href="https://www.facebook.com/profile.php?id=61580302286594">

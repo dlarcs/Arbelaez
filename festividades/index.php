@@ -42,7 +42,7 @@
   <meta property="og:title" content="Festividades en Arbeláez - Festivities in Arbeláez">
   <meta property="og:description" content="Discover where to eat in Arbeláez: local restaurants, cafés, desserts and traditional food in Cundinamarca, near Bogotá.">
   <meta property="og:url" content="https://www.arbelaez.com.co/Corpus_Christi/">
-  <meta property="og:image" content="../festividades/la_diablada/diablada21.JPG">
+  <meta property="og:image" content="https://www.arbelaez.com.co/festividades/la_diablada/diablada21.JPG">
 
   <!-- Social profiles (official) -->
   <link rel="me" href="https://www.facebook.com/profile.php?id=61580302286594">
