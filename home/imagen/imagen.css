@@ -88,6 +88,7 @@
 .imagen{
   position: relative;
   z-index: 2;
+  background-color: red;
   width: min(100%, var(--container));
   margin-inline: auto;
   padding-inline: var(--pad-x);
