@@ -1,13 +1,13 @@
 <?php
-$cssTime = filemtime('../../gastronomia/seccion/restaurante.css'); // ejemplo: '../Home/5.Video/video.css'
-$jsTime = filemtime('../../gastronomia/seccion/restaurante.js');   // ejemplo: '../Home/5.Video/video.js'
+$cssTime = filemtime('../gastronomia/seccion/restaurante.css'); // ejemplo: '../Home/5.Video/video.css'
+$jsTime = filemtime('../gastronomia/seccion/restaurante.js');   // ejemplo: '../Home/5.Video/video.js'
 ?>
-	<link rel="stylesheet" href="../../gastronomia/seccion/restaurante.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../gastronomia/seccion/restaurante.css?v=<?= $cssTime ?>">
 	<!-- ===== Directorio ===== -->
   <?php
   // Ajusta estas rutas a donde tengas el CSS y JS de restaurantes
-  $cssTime = filemtime('../../gastronomia/seccion/restaurantes.css');
-  $jsTime  = filemtime('../../gastronomia/seccion/restaurantes.js');
+  $cssTime = filemtime('../gastronomia/seccion/restaurantes.css');
+  $jsTime  = filemtime('../gastronomia/seccion/restaurantes.js');
 
   // Helper para WhatsApp
   function wa_link_resto($phoneInt, $restoName) {
@@ -20,7 +20,7 @@ $jsTime = filemtime('../../gastronomia/seccion/restaurante.js');   // ejemplo: '
     [
       'name'         => 'Kapaluna 360°',
       'slug'         => 'kapaLuna360',
-      'img'          => '../../gastronomia/img/kapa_luna.jpg',
+      'img'          => '../gastronomia/img/kapa_luna.jpg',
       'img_alt'      => 'Kapaluna 360°: terraza gastro-bar con parrilla y coctelería de autor',
       'zone'         => 'Pueblo', // para el filtro (Pueblo / Pueblo)
       'schema'       => 'Restaurant',
@@ -40,7 +40,7 @@ $jsTime = filemtime('../../gastronomia/seccion/restaurante.js');   // ejemplo: '
     [
       'name'         => 'Kalú',
       'slug'         => 'kalu',
-      'img'          => '../../gastronomia/img/kalu.jpg',
+      'img'          => '../gastronomia/img/kalu.jpg',
       'img_alt'      => 'Kalú Café: origen Sumapaz, arte, sabor y conexión',
       'zone'         => 'Pueblo',
       'schema'       => 'CafeOrCoffeeShop',
@@ -59,7 +59,7 @@ $jsTime = filemtime('../../gastronomia/seccion/restaurante.js');   // ejemplo: '
     [
       'name'         => "Pablo's Restaurant",
       'slug'         => 'Pablos_Restaurant',
-      'img'          => '../../gastronomia/img/pablos.jpg',
+      'img'          => '../gastronomia/img/pablos.jpg',
       'img_alt'      => "Pablo’s Restaurant: tradición y sabor en el parque principal",
       'zone'         => 'Pueblo',
       'schema'       => 'Restaurant',
@@ -78,7 +78,7 @@ $jsTime = filemtime('../../gastronomia/seccion/restaurante.js');   // ejemplo: '
     [
       'name'         => 'La Marranada Campestre',
       'slug'         => 'La_Marranada',
-      'img'          => '../../gastronomia/img/logo_lamarranada.jpeg',
+      'img'          => '../gastronomia/img/logo_lamarranada.jpeg',
       'img_alt'      => 'La Marranada Campestre: tradición, sabor y ambiente familiar',
       'zone'         => 'Vereda',
       'schema'       => 'Restaurant',
@@ -98,7 +98,7 @@ $jsTime = filemtime('../../gastronomia/seccion/restaurante.js');   // ejemplo: '
     [
       'name'         => 'El Fogón del Triángulo',
       'slug'         => 'El_Fogon_del_Triangulo',
-      'img'          => '../../gastronomia/El_Fogon_del_Triangulo/img/logo.png',
+      'img'          => '../gastronomia/El_Fogon_del_Triangulo/img/logo.png',
       'img_alt'      => 'El Fogón del Triángulo: tradición, color y sabor en cada plato',
       'zone'         => 'Pueblo', // aquí lo pongo como Pueblo para que el filtro tenga sentido
       'schema'       => 'Restaurant',
@@ -117,7 +117,7 @@ $jsTime = filemtime('../../gastronomia/seccion/restaurante.js');   // ejemplo: '
 		[
       'name'         => 'Don Ciprio',
       'slug'         => 'Don_Ciprio',
-      'img'          => '../../gastronomia/Don_Ciprio/img/logo.png',
+      'img'          => '../gastronomia/Don_Ciprio/img/logo.png',
       'img_alt'      => 'Restaurante mexicano',
       'zone'         => 'Pueblo', // aquí lo pongo como Pueblo para que el filtro tenga sentido
       'schema'       => 'Restaurant',
@@ -136,7 +136,7 @@ $jsTime = filemtime('../../gastronomia/seccion/restaurante.js');   // ejemplo: '
   ];
   ?>
 
-  <link rel="stylesheet" href="../../gastronomia/seccion/restaurantes.css?v=<?= $cssTime ?>">
+  <link rel="stylesheet" href="../gastronomia/seccion/restaurantes.css?v=<?= $cssTime ?>">
 
   <section class="section_restos" aria-labelledby="restos-title">
     <header class="section_head">
@@ -168,7 +168,7 @@ $jsTime = filemtime('../../gastronomia/seccion/restaurante.js');   // ejemplo: '
         $hours    = htmlspecialchars($it['openingHours'], ENT_QUOTES, 'UTF-8');
         $price    = htmlspecialchars($it['priceRange'], ENT_QUOTES, 'UTF-8');
 
-        $detailHref = "../../gastronomia/{$slug}/index.php";
+        $detailHref = "../gastronomia/{$slug}/index.php";
         $detailHref = htmlspecialchars($detailHref, ENT_QUOTES, 'UTF-8');
 
         $waUrl   = wa_link_resto($it['wa_phone'], $it['name']);
@@ -232,4 +232,4 @@ $jsTime = filemtime('../../gastronomia/seccion/restaurante.js');   // ejemplo: '
   </section>
 
 
-	<script src="../../gastronomia/seccion/restaurante.js?v=<?= $jsTime ?>" type="text/javascript"></script>
+	<script src="../gastronomia/seccion/restaurante.js?v=<?= $jsTime ?>" type="text/javascript"></script>
