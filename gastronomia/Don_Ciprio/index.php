@@ -25,22 +25,22 @@
   <meta property="og:title" content="Don Ciprio – Comida mexicana, café y lectura en Arbeláez">
   <meta property="og:description" content="Comida mexicana en un ambiente tranquilo, con objetos tradicionales, café y espacio ideal para leer y compartir.">
   <meta property="og:url" content="https://www.arbelaez.com.co/gastronomia/Don_Ciprio/">
-  <meta property="og:image" content="https://www.arbelaez.com.co/media/Don_Ciprio/og-1200x630.jpg">
+  <meta property="og:image" content="https://www.arbelaez.com.co/gastronomia/Don_Ciprio/img/logo.png">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Don Ciprio – Comida mexicana, café y lectura en Arbeláez">
   <meta name="twitter:description" content="Un lugar tranquilo para comer mexicano, tomar café y leer. Objetos tradicionales y ambiente acogedor.">
-  <meta name="twitter:image" content="https://www.arbelaez.com.co/media/Don_Ciprio/og-1200x630.jpg">
+  <meta name="twitter:image" content="https://www.arbelaez.com.co/gastronomia/Don_Ciprio/img/logo.png">
 
   <!-- Icono / tema -->
-  <link rel="icon" href="../../../gastronomia/Don_Ciprio/img/logo.png" type="image/png">
+  <link rel="icon" href="../../gastronomia/Don_Ciprio/img/logo.png" type="image/png">
   <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/Don_Ciprio/apple-touch-icon.png">
   <meta name="theme-color" content="#005548">
 
   <!-- Rendimiento -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="image" href="https://www.arbelaez.com.co/media/Don_Ciprio/hero-gastronomia.webp">
-  <link rel="stylesheet" href="../../../gastronomia/Don_Ciprio/style.css">
+  <link rel="stylesheet" href="../../gastronomia/Don_Ciprio/style.css">
 
   <!-- Datos estructurados Restaurant -->
   <script type="application/ld+json">
@@ -67,23 +67,23 @@
 
 
 <body class="body_Don_Ciprio">
-  <?php include "../../../gastronomia/Don_Ciprio/menu/menu.php" ?>
+  <?php include "../../gastronomia/Don_Ciprio/menu/menu.php" ?>
   <div class="container_Don_Ciprio">
-    <?php include "../../../gastronomia/Don_Ciprio/title/title.php" ?>
-    <?php include "../../../gastronomia/Don_Ciprio/slider/slider.php" ?>
-    <?php include "../../../gastronomia/Don_Ciprio/download/download.php" ?>
-    <?php include "../../../gastronomia/Don_Ciprio/galery/gastronomia.php" ?>
-    <?php include "../../../gastronomia/Don_Ciprio/bout_us/about.php" ?>
-    <?php include "../../../gastronomia/Don_Ciprio/maps/maps.php"?>
+    <?php include "../../gastronomia/Don_Ciprio/title/title.php" ?>
+    <?php include "../../gastronomia/Don_Ciprio/slider/slider.php" ?>
+    <?php include "../../gastronomia/Don_Ciprio/download/download.php" ?>
+    <?php include "../../gastronomia/Don_Ciprio/galery/gastronomia.php" ?>
+    <?php include "../../gastronomia/Don_Ciprio/bout_us/about.php" ?>
+    <?php include "../../gastronomia/Don_Ciprio/maps/maps.php"?>
   </div>
-  <?php include "../../../gastronomia/Don_Ciprio/footer/footer.php" ?>
+  <?php include "../../gastronomia/Don_Ciprio/footer/footer.php" ?>
 
   <!-- Botón WhatsApp -->
   <a class="whatsapp-fab"
      href="https://wa.me/573176184453?text=Hola%20vengo%20desde%20la%20web%20de%20Don%20Ciprio%20y%20quiero%20m%C3%A1s%20informaci%C3%B3n"
      target="_blank" rel="noopener"
      aria-label="Chatear por WhatsApp">
-    <img src="../../../home/img/img_whatsApp.png" alt="Contactar por WhatsApp" decoding="async">
+    <img src="../../home/img/img_whatsApp.png" alt="Contactar por WhatsApp" decoding="async">
   </a>
 
 </body>

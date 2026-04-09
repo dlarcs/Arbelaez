@@ -1,12 +1,12 @@
 <?php
-$cssTime = filemtime('../../../gastronomia/Don_Ciprio/bout_us/about.css');
+$cssTime = filemtime('../../gastronomia/Don_Ciprio/bout_us/about.css');
 ?>
-	<link rel="stylesheet" href="../../../gastronomia/Don_Ciprio/bout_us/about.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../gastronomia/Don_Ciprio/bout_us/about.css?v=<?= $cssTime ?>">
 
 	<main id="about_Don_Ciprio" class="wrap">
 		<article class="card" itemscope itemtype="https://schema.org/LocalBusiness">
 			<figure class="hero">
-				<img src="../../../gastronomia/Don_Ciprio/img/logo.png" alt="Don_Ciprio" itemprop="image" loading="lazy">
+				<img src="../../gastronomia/Don_Ciprio/img/logo.png" alt="Don_Ciprio" itemprop="image" loading="lazy">
 				<figcaption>Vive el sabor local</figcaption>
 			</figure>
 			<section class="content">

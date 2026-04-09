@@ -1,14 +1,14 @@
 <?php
-$cssTime = filemtime('../../../gastronomia/Don_Ciprio/slider/slider.css');
-$jsTime = filemtime('../../../gastronomia/Don_Ciprio/slider/slider.js');
+$cssTime = filemtime('../../gastronomia/Don_Ciprio/slider/slider.css');
+$jsTime = filemtime('../../gastronomia/Don_Ciprio/slider/slider.js');
 ?>
-	<link rel="stylesheet" href="../../../gastronomia/Don_Ciprio/slider/slider.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../gastronomia/Don_Ciprio/slider/slider.css?v=<?= $cssTime ?>">
 	<section class="slider" aria-role description="carrusel" aria-label="Galería destacada">
 		<div class="slider__viewport" tabindex="0">
 			<div class="slider__track" id="slider-track">
 				<!-- Slide 1 -->
 				<article class="slide is-current" aria-role description="slide" aria-label="1 de 4">
-					<img src="../../../gastronomia/Don_Ciprio/img/general17.jpeg" alt="Montañas al amanecer" />
+					<img src="../../gastronomia/Don_Ciprio/img/general17.jpeg" alt="Montañas al amanecer" />
 					<div class="slide__caption">
 						<!-- <h2>Dios es Amor</h2>
            <p>Descubre el amor que transforma vidas.</p> -->
@@ -16,7 +16,7 @@ $jsTime = filemtime('../../../gastronomia/Don_Ciprio/slider/slider.js');
 				</article>
 				<!-- Slide 2 -->
 				<article class="slide" aria-role description="slide" aria-label="2 de 4">
-					<img src="../../../gastronomia/Don_Ciprio/img/comida2.jpeg" alt="Bosque con luz dorada" />
+					<img src="../../gastronomia/Don_Ciprio/img/comida2.jpeg" alt="Bosque con luz dorada" />
 					<div class="slide__caption">
 						<!-- <h2>Una Familia de Fe</h2>
            <p>Aquí siempre encontrarás un lugar para ti.</p> -->
@@ -24,7 +24,7 @@ $jsTime = filemtime('../../../gastronomia/Don_Ciprio/slider/slider.js');
 				</article>
 				<!-- Slide 3 -->
 				<article class="slide" aria-role description="slide" aria-label="3 de 4">
-					<img src="../../../gastronomia/Don_Ciprio/img/general19.jpeg" alt="Lago tranquilo" />
+					<img src="../../gastronomia/Don_Ciprio/img/general19.jpeg" alt="Lago tranquilo" />
 					<div class="slide__caption">
 						<!-- <h2>La Esperanza Vive</h2>
            <p>Cristo es la luz en medio de la oscuridad.</p> -->
@@ -32,7 +32,7 @@ $jsTime = filemtime('../../../gastronomia/Don_Ciprio/slider/slider.js');
 				</article>
 				<!-- Slide 4 -->
 				<article class="slide" aria-role description="slide" aria-label="4 de 4">
-					<img src="../../../gastronomia/Don_Ciprio/img/general15.jpeg" alt="Carretera hacia el horizonte" />
+					<img src="../../gastronomia/Don_Ciprio/img/general15.jpeg" alt="Carretera hacia el horizonte" />
 					<div class="slide__caption">
 						<!-- <h2>Fortaleza en la Oración</h2>
            <p>Habla con Dios, Él siempre escucha.</p> -->
@@ -54,4 +54,4 @@ $jsTime = filemtime('../../../gastronomia/Don_Ciprio/slider/slider.js');
 		</div>
 	</section>
 
-	<script src="../../../gastronomia/Don_Ciprio/slider/slider.js?v=<?= $jsTime ?>" type="text/javascript"></script>
+	<script src="../../gastronomia/Don_Ciprio/slider/slider.js?v=<?= $jsTime ?>" type="text/javascript"></script>
