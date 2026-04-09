@@ -4,7 +4,7 @@ $cssTime = filemtime('../../alojamiento/Turismo_Hoy_Vivo/menu/menu.css'); // eje
 	<link rel="stylesheet" href="../../alojamiento/Turismo_Hoy_Vivo/menu/menu.css?v=<?= $cssTime ?>">
 	<!-- ===== HEADER PRINCIPAL DE LA PÁGINA ===== -->
 	<header class="site-header">
-  <a class="brand_menu" href="../../home/index.php" aria-label="Inicio">
+  <a class="brand_menu" href="../../index.php" aria-label="Inicio">
     <h1 class="brand-text">Turismo Hoy Vivo</h1>
   </a>
   <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
@@ -15,7 +15,7 @@ $cssTime = filemtime('../../alojamiento/Turismo_Hoy_Vivo/menu/menu.css'); // eje
   <!-- Navegación -->
   <nav id="site-nav" class="nav">
     <ul class="nav-list">
-      <li><a href="../../home/index.php">Inicio</a></li>
+      <li><a href="../../index.php">Inicio</a></li>
 			<li><a href="#datos_Turismo_Hoy_Vivo">Datos</a></li>
       <li><a href="#producto_Turismo_Hoy_Vivo">Galería</a></li>
       <li><a href="#about_Turismo_Hoy_Vivo">Nosotros</a></li>

@@ -20,7 +20,7 @@ $cssTime = filemtime('../../alojamiento/Cachorros_LyC/menu/menu.css'); // ejempl
       <li><a href="#producto_Cachorros_LyC">Galería</a></li>
       <li><a href="#about_Cachorros_LyC">Nosotros</a></li>
       <li><a href="#ubicacion_Cachorros_LyC">Ubicación</a></li>
-      <li><a class="cta" href="../../alojamiento/index.php">Volver</a></li>
+      <li><a class="cta" href="../../index.php">Volver</a></li>
     </ul>
   </nav>
 </header>
