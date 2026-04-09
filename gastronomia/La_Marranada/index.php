@@ -26,7 +26,7 @@
 	<!-- Rendimiento -->
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="preload" as="image" href="https://www.arbelaez.com.co/media/La_Marranada">
-	<link rel="stylesheet" href="../../../gastronomia/La_Marranada/style.css">
+	<link rel="stylesheet" href="../../gastronomia/La_Marranada/style.css">
 
 	<!-- Datos estructurados Restaurant (ajusta teléfono, horarios, URL y geo si los tienes) -->
 	<script type="application/ld+json">
@@ -52,16 +52,16 @@
 </head>
 
 <body class="body_La_Marranada">
-	<?php include "../../../gastronomia/La_Marranada/menu/menu.php" ?>
+	<?php include "../../gastronomia/La_Marranada/menu/menu.php" ?>
 	<div class="container_La_Marranada">
-		<?php include "../../../gastronomia/La_Marranada/title/title.php" ?>
-		<?php include "../../../gastronomia/La_Marranada/slider/slider.php" ?>
-		<?php include "../../../gastronomia/La_Marranada/download/download.php" ?>
-		<?php include "../../../gastronomia/La_Marranada/galery/gastronomia.php" ?>
-		<?php include "../../../gastronomia/La_Marranada/bout_us/about.php" ?>
-		<?php include "../../../gastronomia/La_Marranada/maps/maps.php"?>
+		<?php include "../../gastronomia/La_Marranada/title/title.php" ?>
+		<?php include "../../gastronomia/La_Marranada/slider/slider.php" ?>
+		<?php include "../../gastronomia/La_Marranada/download/download.php" ?>
+		<?php include "../../gastronomia/La_Marranada/galery/gastronomia.php" ?>
+		<?php include "../../gastronomia/La_Marranada/bout_us/about.php" ?>
+		<?php include "../../gastronomia/La_Marranada/maps/maps.php"?>
 	</div>
-	<?php include "../../../gastronomia/La_Marranada/footer/footer.php" ?>
+	<?php include "../../gastronomia/La_Marranada/footer/footer.php" ?>
 
 	<!-- Botón WhatsApp con tu imagen (ponlo antes de </body>) -->
 
@@ -69,7 +69,7 @@
 		href="https://wa.me/573022514381?text=Hola%20vengo%20desde%20la%20web%20de%20La_Marranada%20Restaurant"
 		target="_blank" rel="noopener"
 		aria-label="Chatear por WhatsApp" >
-		<img src="../../../home/img/img_whatsApp.png"
+		<img src="../../img/img_whatsApp.png"
 		 alt="Contactar por WhatsApp" decoding="async">
 	</a>
 

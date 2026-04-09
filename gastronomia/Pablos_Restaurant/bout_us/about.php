@@ -1,12 +1,12 @@
 <?php
-$cssTime = filemtime('../../../gastronomia/Pablos_Restaurant/bout_us/about.css');
+$cssTime = filemtime('../../gastronomia/Pablos_Restaurant/bout_us/about.css');
 ?>
-	<link rel="stylesheet" href="../../../gastronomia/Pablos_Restaurant/bout_us/about.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../gastronomia/Pablos_Restaurant/bout_us/about.css?v=<?= $cssTime ?>">
 
 	<main id="about_Pablos_Restaurant" class="wrap">
 		<article class="card" itemscope itemtype="https://schema.org/LocalBusiness">
 			<figure class="hero">
-				<img src="../../../gastronomia/Pablos_Restaurant/img/lugar4.jpeg" alt="Pablos_Restaurant°" itemprop="image" loading="lazy">
+				<img src="../../gastronomia/Pablos_Restaurant/img/lugar4.jpeg" alt="Pablos_Restaurant°" itemprop="image" loading="lazy">
 				<!-- <a href="https://wa.me/573138737008?text=Hola%20vengo%20desde%20la%20web%20de%20tutumazo" -->
 				<!-- target="_blank" rel="noopener noreferrer"> -->
 				<figcaption>Fotografía: Nathalia Jossa</figcaption>

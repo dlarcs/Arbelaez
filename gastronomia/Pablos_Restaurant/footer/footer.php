@@ -1,11 +1,11 @@
 <?php
-$cssTime = filemtime('../../../gastronomia/Pablos_Restaurant/footer/footer.css');
-// $jsTime = filemtime('../../../');
+$cssTime = filemtime('../../gastronomia/Pablos_Restaurant/footer/footer.css');
+// $jsTime = filemtime('../../');
 ?>
-	<link rel="stylesheet" href="../../../gastronomia/Pablos_Restaurant/footer/footer.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../gastronomia/Pablos_Restaurant/footer/footer.css?v=<?= $cssTime ?>">
 	<section class="seccion_footer">
 		<div class="footer_logo">
-			<a href="../../../home/index.php"><img class="logo_menu" src="../../../global/img/logo.png" alt="Logo"></a>
+			<a href="../../index.php"><img class="logo_menu" src="../../global/img/logo.png" alt="Logo"></a>
 			<h2>ARBELÁEZ CUNDINAMARCA</h2>
 		</div>
 		<div class="footer_container">
