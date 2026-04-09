@@ -34,7 +34,7 @@ $cssTime = filemtime('../global/menu/menu.css'); // ejemplo: '../Home/5.Video/vi
       <li><a href="../index.php">Inicio</a></li>
       <!-- <li><a href="../galery/index.php">Galería</a></li> -->
 			<li><a href="../artesanias/index.php">Artesanías</a></li>
-			<li><a href="../../alojamiento/index.php">Alojamiento</a></li>
+			<li><a href="../alojamiento/index.php">Alojamiento</a></li>
       <li><a href="../gastronomia/index.php">Gastronomía</a></li>
       <!-- <li><a href="../">Ferias</a></li> -->
     </ul>
