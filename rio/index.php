@@ -37,7 +37,7 @@
   <meta property="og:title" content="Rivers & Streams in Arbeláez – Nature Routes">
   <meta name="description" content="Rios, quebradas y puentes- Rivers & Streams in Arbeláez – Nature Spots, Walks & Water Routes">
   <meta name="description" content="Descubre ríos, quebradas, puentes y zonas de agua en Arbeláez, Cundinamarca. Encuentra qué hacer, dónde ir, caminatas ecológicas, rutas naturales y lugares tranquilos para disfrutar cerca de Bogotá.">  <meta property="og:url" content="https://www.arbelaez.com.co/Rios/rios-y-quebradas/">
-  <meta property="og:image" content="../home/img/parque_principal.jpg">
+  <meta property="og:image" content="../rio/img/puente_rio_guavio.jpg">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
