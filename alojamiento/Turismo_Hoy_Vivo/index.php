@@ -25,15 +25,15 @@
   <meta property="og:title" content="Turismo Hoy Vivo – Casa Rural Accesible (Privada) en Arbeláez">
   <meta property="og:description" content="Alojamiento privado y accesible para todos, ideal para descansar de la ciudad y disfrutar avistamiento de aves en Arbeláez, Cundinamarca.">
   <meta property="og:url" content="https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/">
-  <meta property="og:image" content="https://www.arbelaez.com.co/media/Turismo_Hoy_Vivo/og-1200x630.jpg">
+  <meta property="og:image" content="https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/img/logo.jpeg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Turismo Hoy Vivo – Casa Rural Accesible en Arbeláez">
   <meta name="twitter:description" content="Alojamiento privado e inclusivo: descanso, naturaleza y avistamiento de aves.">
-  <meta name="twitter:image" content="https://www.arbelaez.com.co/media/Turismo_Hoy_Vivo/og-1200x630.jpg">
+  <meta name="twitter:image" content="https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/img/logo.jpeg">
 
   <!-- Icono / tema -->
   <link rel="icon" href="../../alojamiento/Turismo_Hoy_Vivo/img/logo.jpeg" type="image/jpeg">
-  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/Turismo_Hoy_Vivo/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/img/logo.jpeg">
   <meta name="theme-color" content="#005548">
 
   <!-- Rendimiento -->
@@ -48,7 +48,7 @@
     "@context": "https://schema.org",
     "@type": "LodgingBusiness",
     "name": "Turismo Hoy Vivo – Casa Rural Accesible",
-    "image": "https://www.arbelaez.com.co/media/Turismo_Hoy_Vivo/og-1200x630.jpg",
+    "image": "https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/img/logo.jpeg",
     "url": "https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/",
     "telephone": "+57 3193676553",
     "priceRange": "$$",

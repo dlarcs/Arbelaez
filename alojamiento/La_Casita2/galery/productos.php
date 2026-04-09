@@ -6,7 +6,7 @@ $jsTime = filemtime('../../alojamiento/La_Casita2/galery/productos.js');   // ej
 	<section class="section_food_gallery" id="producto_La_Casita2">
 
 	  <!-- Título principal -->
-	  <h1>Casa Kandu</h1>
+	  <h1>La Casita #2</h1>
 
 	  <!-- ===== Filtros de categorías ===== -->
 	  <div class="categories_food_gallery">
