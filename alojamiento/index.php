@@ -13,8 +13,8 @@
   <link rel="canonical" href="https://www.arbelaez.com.co/alojamiento/">
 
   <!-- CSS (cache-busting robusto) -->
-  <?php $cssTime = filemtime('../../alojamiento/style.css'); ?>
-  <link rel="stylesheet" href="../../alojamiento/style.css?v=<?= $cssTime ?>">
+  <?php $cssTime = filemtime('../alojamiento/style.css'); ?>
+  <link rel="stylesheet" href="../alojamiento/style.css?v=<?= $cssTime ?>">
 
   <!-- Font: optimized -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,9 +22,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
   <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="../../global/img/logo.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../../global/img/logo.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../../global/img/logo.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../global/img/logo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../global/img/logo.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../global/img/logo.png">
   <link rel="mask-icon" href="global/img/logo.png" color="#005548">
   <meta name="theme-color" content="#005548">
 
@@ -73,11 +73,11 @@
 </head>
 
 <body class="body_alojamiento">
-  <?php include "../../global/menu/menu.php" ?>
+  <?php include "../global/menu/menu.php" ?>
   <div class="container_alojamiento">
-    <?php include "../../alojamiento/seccion/slider/slider.php" ?>
-    <?php include "../../alojamiento/seccion/alojamiento.php" ?>
+    <?php include "../alojamiento/seccion/slider/slider.php" ?>
+    <?php include "../alojamiento/seccion/alojamiento.php" ?>
   </div>
-  <?php include "../../global/footer/footer.php" ?>
+  <?php include "../global/footer/footer.php" ?>
 </body>
 </html>
