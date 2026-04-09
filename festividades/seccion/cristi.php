@@ -1,9 +1,9 @@
 <?php
-$cssTime = filemtime('../../festividades/seccion/cristi.css');
-$jsTime  = filemtime('../../festividades/seccion/cristi.js');
+$cssTime = filemtime('../festividades/seccion/cristi.css');
+$jsTime  = filemtime('../festividades/seccion/cristi.js');
 ?>
 
-<link rel="stylesheet" href="../../festividades/seccion/cristi.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../festividades/seccion/cristi.css?v=<?= $cssTime ?>">
 
 <section class="festivities-section">
   <div class="festivities-container">
@@ -59,4 +59,4 @@ $jsTime  = filemtime('../../festividades/seccion/cristi.js');
   </div>
 </section>
 
-<script src="../../festividades/seccion/cristi.js?v=<?= $jsTime ?>" type="text/javascript"></script>
+<script src="../festividades/seccion/cristi.js?v=<?= $jsTime ?>" type="text/javascript"></script>
