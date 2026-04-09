@@ -39,7 +39,7 @@
   <!-- Rendimiento -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="image" href="https://www.arbelaez.com.co/alojamiento/Cachorros_LyC/img/piscina1.jpeg">
-  <link rel="stylesheet" href="../alojamiento/Cachorros_LyC/style.css">
+  <link rel="stylesheet" href="alojamiento/Cachorros_LyC/style.css">
 
   <!-- Datos estructurados: Lugar para camping + comida (más general que "LodgingBusiness") -->
   <script type="application/ld+json">
