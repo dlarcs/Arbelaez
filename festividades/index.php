@@ -10,7 +10,7 @@
   <meta name="robots" content="index,follow">
 
   <!-- Canonical (ajusta si tu URL real es diferente) -->
-  <link rel="canonical" href="https://arbelaez.com.co/Corpus_Christi/">
+  <link rel="canonical" href="https://www.arbelaez.com.co/Corpus_Christi/">
 
   <!-- CSS + JS (cache-busting robusto) -->
   <?php
@@ -41,8 +41,8 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Festividades en Arbeláez - Festivities in Arbeláez">
   <meta property="og:description" content="Discover where to eat in Arbeláez: local restaurants, cafés, desserts and traditional food in Cundinamarca, near Bogotá.">
-  <meta property="og:url" content="https://arbelaez.com.co/Corpus_Christi/">
-  <meta property="og:image" content="https://arbelaez.com.co/festividades/la_diablada/diablada21.JPG">
+  <meta property="og:url" content="https://www.arbelaez.com.co/Corpus_Christi/">
+  <meta property="og:image" content="https://www.arbelaez.com.co/festividades/la_diablada/diablada21.JPG">
 
   <!-- Social profiles (official) -->
   <link rel="me" href="https://facebook.com/profile.php?id=61580302286594">
@@ -57,13 +57,13 @@
       {
         "@type": "WebPage",
         "name": "Gastronomy in Arbeláez",
-        "url": "https://arbelaez.com.co/Corpus_Christi/",
+        "url": "https://www.arbelaez.com.co/Corpus_Christi/",
         "inLanguage": "en"
       },
       {
         "@type": "Organization",
         "name": "Arbeláez Turismo",
-        "url": "https://arbelaez.com.co/",
+        "url": "https://www.arbelaez.com.co/",
         "sameAs": [
           "https://facebook.com/profile.php?id=61580302286594",
           "https://instagram.com/arbelaez_turismo/",
