@@ -45,7 +45,7 @@
   overflow: hidden; /* fallback */
   box-shadow: var(--shadow);
   border: 1px solid rgba(255,255,255,.10);
-  background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+  background: brown;
   isolation: isolate;
 
   /* ✅ mejor gesto en móvil */
