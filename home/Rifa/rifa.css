@@ -476,11 +476,6 @@
    (pégalo al final del CSS)
 ========================== */
 
-/* Evita scroll horizontal por 1px raro en Android */
-html, body{
-  width: 100%;
-  overflow-x: hidden;
-}
 
 /* 100dvh puede causar saltos en Android: usa 100svh cuando exista */
 .page{
