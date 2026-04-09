@@ -174,7 +174,7 @@
 .cat__content p {
   margin: 0;
   max-width: 46ch;
-  color: var(--muted);
+  color: #fafafa;
   font-size: 14px;
   line-height: 1.45;
 }
