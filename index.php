@@ -30,7 +30,6 @@ $base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
   <link rel="icon" type="image/png" sizes="32x32" href="/home/img/logo1.jpeg">
   <link rel="icon" type="image/png" sizes="16x16" href="/home/img/logo1.jpeg">
   <link rel="apple-touch-icon" sizes="180x180" href="/home/img/logo1.jpeg">
-  <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body class="body_home">
