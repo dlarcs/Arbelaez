@@ -1,23 +1,23 @@
-html{
+body, html{
   margin: 0;
   padding: 0;
-
+  width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
-  background-color: green;
 }
 
 *,
 *::before,
 *::after{
   box-sizing: inherit;
-
 }
 
 .body_home{
   margin: 0;
   width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
-  background: blue;
+  background: linear-gradient(to bottom,transparent 0%,rgba(0, 85, 72, 1) 100%);
 }
 
 img,
