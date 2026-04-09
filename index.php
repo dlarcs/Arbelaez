@@ -1,5 +1,8 @@
 <?php
 $base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
+
+$cssTime = filemtime($base . '/home/style.css');
+$jsTime  = filemtime($base . '/home/app.js');
 ?>
 <!DOCTYPE html>
 <html lang="es-CO" dir="ltr">
@@ -30,6 +33,8 @@ $base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
   <link rel="icon" type="image/png" sizes="32x32" href="/home/img/logo1.jpeg">
   <link rel="icon" type="image/png" sizes="16x16" href="/home/img/logo1.jpeg">
   <link rel="apple-touch-icon" sizes="180x180" href="/home/img/logo1.jpeg">
+
+  <link rel="stylesheet" href="/home/style.css?v=<?= $cssTime ?>">
 </head>
 
 <body class="body_home">
@@ -42,5 +47,7 @@ $base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
   <?php include $base . "/home/text/text.php"; ?>
   <?php include $base . "/home/maps/maps.php"; ?>
   <?php include $base . "/global/footer/footer.php"; ?>
+
+  <script src="/home/app.js?v=<?= $jsTime ?>"></script>
 </body>
 </html>
