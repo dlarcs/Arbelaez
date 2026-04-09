@@ -39,9 +39,6 @@
   <link rel="apple-touch-icon" sizes="180x180" href="home/img/logo1.jpeg">
   <link rel="mask-icon" href="home/img/logo1.jpeg" color="#005548">
 
-  <!-- Manifest -->
-  <link rel="manifest" href="/site.webmanifest">
-
 </head>
 
 <body class="body_home">
