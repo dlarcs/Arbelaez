@@ -7,12 +7,14 @@ html{
 *::before,
 *::after{
   box-sizing: inherit;
+
 }
 
 .body_home{
   margin: 0;
   width: 100%;
   box-sizing: border-box;
+  background-color: red;
   overflow-x: hidden;
 }
 

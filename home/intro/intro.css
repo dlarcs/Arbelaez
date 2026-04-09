@@ -4,6 +4,7 @@
   white-space: normal;     /* permite saltos */
   overflow-wrap: break-word; /* si hay palabras largas, las parte */
   word-break: normal;
+  box-sizing: border-box;
 }
 
 .post-header__inner{

@@ -3,6 +3,7 @@
     position: relative;
     padding: 40px 16px;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 .about-apps__title {
