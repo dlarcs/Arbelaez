@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Arbeláez Turismo | Explora Arbeláez y encuentra naturaleza, gastronomía local, artesanías, ríos y alojamientos rurales cerca de Bogotá.</title>
+  <title>Arbeláez Turismo | Vive Arbeláez: Recuerdos, lugares para conocer, sabores para disfrutar y espacios para descansar</title>
 
   <meta name="description" content="Descubre Arbeláez, Cundinamarca: naturaleza, alojamiento, gastronomía, artesanías y lugares turísticos cerca de Bogotá. Encuentra qué hacer, dónde comer y dónde hospedarte.">
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
