@@ -5,7 +5,7 @@ $cssTime = filemtime('../global/footer/footer.css');
 <link rel="stylesheet" href="../global/footer/footer.css?v=<?= $cssTime ?>">
 <section class="seccion_footer" aria-label="Pie de página">
   <div class="footer_logo">
-    <a href="../home/index.php" aria-label="Inicio">
+    <a href="../index.php" aria-label="Inicio">
       <img class="logo_menu" src="../global/img/logo.png" alt="Logo Arbeláez Turismo">
     </a>
     <h2>ARBELÁEZ CUNDINAMARCA</h2>
@@ -16,7 +16,7 @@ $cssTime = filemtime('../global/footer/footer.css');
       <div class="footer_col">
         <h3 class="footer_title">Inicio</h3>
         <ul class="footer_list">
-          <li><a href="../home/index.php">Página principal</a></li>
+          <li><a href="../index.php">Página principal</a></li>
           <li><a href="#places">Sector turístico</a></li>
           <li>
             <a href="https://maps.app.goo.gl/6BS4VuoXdJ8dpAyu9" target="_blank">
