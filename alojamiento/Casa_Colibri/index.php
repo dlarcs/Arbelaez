@@ -86,7 +86,7 @@
 
   <!-- Botón WhatsApp -->
   <a class="whatsapp-fab"
-     href="https://wa.me/573143417111?text=Hola%20vengo%20desde%20la%20web%20de%20Casa%20Colibrí"
+     href="https://wa.me/573118627750?text=Hola%20vengo%20desde%20la%20web%20de%20Casa%20Colibrí"
      target="_blank" rel="noopener"
      aria-label="Chatear por WhatsApp">
     <img src="../../home/img/img_whatsApp.png" alt="Contactar a Finca Casa colibri por WhatsApp" decoding="async" loading="lazy" width="56" height="56">
