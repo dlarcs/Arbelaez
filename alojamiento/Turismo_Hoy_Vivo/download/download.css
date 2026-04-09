@@ -50,6 +50,6 @@
 @media (max-width: 600px) {
 	.card_download {
 		background-image: linear-gradient(rgba(0, 0, 0, .4),
-    rgba(0, 0, 0, .4)), url("alojamiento/Turismo_Hoy_Vivo/img/Casa_rural2.jpg");
+    rgba(0, 0, 0, .4)), url("../../alojamiento/Turismo_Hoy_Vivo/img/Casa_rural2.jpg");
 	}
 }
