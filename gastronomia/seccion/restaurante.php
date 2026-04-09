@@ -135,9 +135,7 @@ $jsTime = filemtime('../gastronomia/seccion/restaurante.js');   // ejemplo: '../
     ],
   ];
   ?>
-
-  <link rel="stylesheet" href="../gastronomia/seccion/restaurantes.css?v=<?= $cssTime ?>">
-
+z
   <section class="section_restos" aria-labelledby="restos-title">
     <header class="section_head">
       <h1 id="restos-title">Restaurantes de Arbeláez</h1>
