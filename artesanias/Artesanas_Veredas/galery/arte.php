@@ -30,7 +30,7 @@ $items = [
     "img" => "../../artesanias/Artesanas_Veredas/img/artesanias_geminis.jpeg",
     "img_alt" => "Artesanías Géminis. trabajando con amor",
     "desc" => "Joyas en acero hechas con amor y dedicación, pensadas para acompañarte cada día. Diseños lindos, resistentes y de excelente material, perfectos para regalar o consentirte. Encuéntranos en las ferias de Arbeláez, donde cada pieza brilla con estilo y significado",
-    "pdf" => "pdf/catalogo-joyas-luz.pdf",
+    "pdf" => "artesanias/Artesanas_Veredas/pdf/PORTAFOLIO GEMINIS.pdf",
     "facebook" => "https://www.facebook.com/profile.php?id=100063611706936",
     "instagram" => "https://www.instagram.com/artegeminis/",
     "whatsapp" => "573123737368"
@@ -42,10 +42,10 @@ $items = [
     "img" => "../../artesanias/Artesanas_Veredas/img/CaafeSantaBarbara.png",
     "img_alt" => "Café Santa Bárbara - café local",
     "desc" => "Café Santa Bárbara ofrece una experiencia de sabor local: café de calidad, aromas intensos y productos ideales para compartir. Un lugar perfecto para hacer una pausa, disfrutar una bebida caliente y apoyar el emprendimiento del municipio. Pregunta por sus presentaciones y opciones para llevar.",
-    "pdf" => "pdf/catalogo-cafe-santa-barbara.pdf",
+    // "pdf" => "pdf/catalogo-cafe-santa-barbara.pdf",
     "facebook" => "https://facebook.com/tu-pagina",
     "instagram" => "https://instagram.com/tu-cuenta",
-    "whatsapp" => "57XXXXXXXXXX"
+    "whatsapp" => "573202910484"
   ],
 
 ];
