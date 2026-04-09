@@ -5,185 +5,185 @@ const galleriesData = {
   corpus: [
     {
       title: "Corpus Christi",
-      image: "../../view/festividades/img_christi/christi.jpeg",
+      image: "../festividades/img_christi/christi.jpeg",
     },
     {
       title: "Corpus Christi",
-      image: "../../view/festividades/img_christi/christi1.jpeg",
+      image: "../festividades/img_christi/christi1.jpeg",
     },
     {
       title: "Corpus Christi",
-      image: "../../view/festividades/img_christi/christi2.jpeg",
+      image: "../festividades/img_christi/christi2.jpeg",
     },
     {
       title: "Corpus Christi",
-      image: "../../view/festividades/img_christi/christi3.jpeg",
+      image: "../festividades/img_christi/christi3.jpeg",
     },
     {
       title: "Corpus Christi",
-      image: "../../view/festividades/img_christi/christi4.jpeg",
+      image: "../festividades/img_christi/christi4.jpeg",
     },
     {
       title: "Corpus Christi",
-      image: "../../view/festividades/img_christi/christi5.jpeg",
+      image: "../festividades/img_christi/christi5.jpeg",
     },
     {
       title: "Corpus Christi",
-      image: "../../view/festividades/img_christi/christi6.jpeg",
+      image: "../festividades/img_christi/christi6.jpeg",
     },
     {
       title: "Corpus Christi",
-      image: "../../view/festividades/img_christi/christi7.jpeg",
+      image: "../festividades/img_christi/christi7.jpeg",
     },
     {
       title: "Corpus Christi",
-      image: "../../view/festividades/img_christi/christi8.jpeg",
+      image: "../festividades/img_christi/christi8.jpeg",
     },
     {
       title: "Corpus Christi",
-      image: "../../view/festividades/img_christi/christi9.jpeg",
+      image: "../festividades/img_christi/christi9.jpeg",
     },
     {
       title: "Corpus Christi",
-      image: "../../view/festividades/img_christi/christi10.jpeg",
+      image: "../festividades/img_christi/christi10.jpeg",
     },
     {
       title: "Corpus Christi",
-      image: "../../view/festividades/img_christi/christi11.jpeg",
+      image: "../festividades/img_christi/christi11.jpeg",
     },
     {
       title: "Corpus Christi",
-      image: "../../view/festividades/img_christi/christi12.jpeg",
+      image: "../festividades/img_christi/christi12.jpeg",
     },
     {
       title: "Corpus Christi",
-      image: "../../view/festividades/img_christi/christi13.jpeg",
+      image: "../festividades/img_christi/christi13.jpeg",
     },
     {
       title: "Corpus Christi",
-      image: "../../view/festividades/img_christi/christi14.jpeg",
+      image: "../festividades/img_christi/christi14.jpeg",
     },
     {
       title: "Corpus Christi",
-      image: "../../view/festividades/img_christi/christi15.jpeg",
+      image: "../festividades/img_christi/christi15.jpeg",
     },
     {
       title: "Corpus Christi",
-      image: "../../view/festividades/img_christi/christi16.jpeg",
+      image: "../festividades/img_christi/christi16.jpeg",
     },
   ],
 
   diablada: [
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada.JPG",
+      image: "../festividades/la_diablada/diablada.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada1.JPG",
+      image: "../festividades/la_diablada/diablada1.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada2.JPG",
+      image: "../festividades/la_diablada/diablada2.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada3.JPG",
+      image: "../festividades/la_diablada/diablada3.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada4.JPG",
+      image: "../festividades/la_diablada/diablada4.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada5.JPG",
+      image: "../festividades/la_diablada/diablada5.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada6.JPG",
+      image: "../festividades/la_diablada/diablada6.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada7.JPG",
+      image: "../festividades/la_diablada/diablada7.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada8.JPG",
+      image: "../festividades/la_diablada/diablada8.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada9.JPG",
+      image: "../festividades/la_diablada/diablada9.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada10.JPG",
+      image: "../festividades/la_diablada/diablada10.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada11.JPG",
+      image: "../festividades/la_diablada/diablada11.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada12.JPG",
+      image: "../festividades/la_diablada/diablada12.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada13.JPG",
+      image: "../festividades/la_diablada/diablada13.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada14.JPG",
+      image: "../festividades/la_diablada/diablada14.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada15.JPG",
+      image: "../festividades/la_diablada/diablada15.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada16.JPG",
+      image: "../festividades/la_diablada/diablada16.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada17.JPG",
+      image: "../festividades/la_diablada/diablada17.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada18.JPG",
+      image: "../festividades/la_diablada/diablada18.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada19.JPG",
+      image: "../festividades/la_diablada/diablada19.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada20.JPG",
+      image: "../festividades/la_diablada/diablada20.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada21.JPG",
+      image: "../festividades/la_diablada/diablada21.JPG",
     },
     {
       title: "La Diablada",
-      image: "../../view/festividades/la_diablada/diablada22.JPG",
+      image: "../festividades/la_diablada/diablada22.JPG",
     },
   ],
 
   cumple: [
     {
       title: "Cumpleaños de Arbeláez",
-      image: "../../view/festividades/img_cumple/cumple1.jpeg",
+      image: "../festividades/img_cumple/cumple1.jpeg",
     },
     {
       title: "Cumpleaños de Arbeláez",
-      image: "../../view/festividades/img_cumple/cumple2.jpeg",
+      image: "../festividades/img_cumple/cumple2.jpeg",
     },
     {
       title: "Cumpleaños de Arbeláez",
-      image: "../../view/festividades/img_cumple/cumple3.jpeg",
+      image: "../festividades/img_cumple/cumple3.jpeg",
     },
     {
       title: "Cumpleaños de Arbeláez",
-      image: "../../view/festividades/img_cumple/cumple4.jpeg",
+      image: "../festividades/img_cumple/cumple4.jpeg",
     },
   ],
 };

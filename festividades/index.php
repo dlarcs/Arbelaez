@@ -14,11 +14,11 @@
 
   <!-- CSS + JS (cache-busting robusto) -->
   <?php
-    $cssTime = filemtime('../view/festividades/style.css');
-    $jsTime  = filemtime('../view/festividades/style.js');
+    $cssTime = filemtime('../festividades/style.css');
+    $jsTime  = filemtime('../festividades/style.js');
   ?>
-  <link rel="stylesheet" href="../view/festividades/style.css?v=<?= $cssTime ?>">
-  <script src="../view/Corpus_Christi/app.js?v=<?= $jsTime ?>" defer></script>
+  <link rel="stylesheet" href="../festividades/style.css?v=<?= $cssTime ?>">
+  <script src="../Corpus_Christi/app.js?v=<?= $jsTime ?>" defer></script>
 
   <!-- Font: optimized -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,10 +26,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
   <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="../view/home/img/logo_pw.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../view/home/img/logo_pw.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../view/home/img/logo_pw.png">
-  <link rel="mask-icon" href="../view/home/img/logo_pw.png" color="#005548">
+  <link rel="icon" type="image/png" sizes="32x32" href="../home/img/logo_pw.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../home/img/logo_pw.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../home/img/logo_pw.png">
+  <link rel="mask-icon" href="../home/img/logo_pw.png" color="#005548">
   <meta name="theme-color" content="#005548">
 
   <!-- Meta SEO (100 keywords EN) -->
@@ -42,7 +42,7 @@
   <meta property="og:title" content="Festividades en Arbeláez - Festivities in Arbeláez">
   <meta property="og:description" content="Discover where to eat in Arbeláez: local restaurants, cafés, desserts and traditional food in Cundinamarca, near Bogotá.">
   <meta property="og:url" content="https://www.arbelaez.com.co/Corpus_Christi/">
-  <meta property="og:image" content="https://www.arbelaez.com.co/view/home/img/og-1200x630.jpg">
+  <meta property="og:image" content="https://www.arbelaez.com.co/home/img/og-1200x630.jpg">
 
   <!-- Social profiles (official) -->
   <link rel="me" href="https://www.facebook.com/profile.php?id=61580302286594">
@@ -76,11 +76,11 @@
 </head>
 
 <body class="body_Corpus_Christi">
-  <?php include "../view/global/menu/menu.php" ?>
+  <?php include "../global/menu/menu.php" ?>
 
   <div class="container_Corpus_Christi">
-    <?php include "../view/festividades/seccion/cristi.php" ?>
-    <?php include "../view/global/footer/footer.php" ?>
+    <?php include "../festividades/seccion/cristi.php" ?>
+    <?php include "../global/footer/footer.php" ?>
   </div>
 
   <section class="scroll-indicator" aria-label="More content below">
