@@ -7,7 +7,7 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
 ?>
 <link rel="stylesheet" href="../../home/slider/slider.css?v=<?= $cssTime ?>">
 
-<header class="slider" id="sliderMain" aria-roledescription="carrusel" aria-label="Slider principal">
+<section class="slider" id="sliderMain" aria-roledescription="carrusel" aria-label="Slider principal">
   <div class="slider__bg" aria-hidden="true"></div>
   <div class="slider__overlay" aria-hidden="true"></div>
 
@@ -49,6 +49,6 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
   <div class="slider__progress" aria-hidden="true">
     <div class="slider__progressBar" data-slider-progress></div>
   </div>
-</header>
+</section>
 
 <script src="../../home/slider/slider.js?v=<?= $jsTime ?>"></script>

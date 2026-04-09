@@ -35,7 +35,7 @@
       titleAccent: "Arbelaence",
       desc:
         "Gastronomía casera y sabores auténticos en Arbeláez, perfectos para compartir y recordar.",
-      primaryText: "Conocer más",
+      primaryText: "Haz clic aquí",
       primaryHref: "../../../gastronomia/index.php",
     },
     {
@@ -45,7 +45,7 @@
       titleAccent: "inspira",
       desc:
         "Arbeláez las artesanías no son solo objetos: son memoria y cultura viva, creadas con amor para acompañar la vida diaria.",
-      primaryText: "Conocer más",
+      primaryText: "Haz clic aquí",
       primaryHref: "../../../artesanias/index.php",
     },
     {
@@ -55,7 +55,7 @@
       titleAccent: "estilo",
       desc:
         "Entre montañas y tranquilidad, encuentras el lugar ideal para recargar energía y crear recuerdos inolvidables.",
-      primaryText: "Conocer más",
+      primaryText: "Haz clic aquí",
       primaryHref: "../../../alojamiento/index.php",
     },
   ];
