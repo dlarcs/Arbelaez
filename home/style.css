@@ -1,7 +1,8 @@
 html{
   box-sizing: border-box;
   width: 100%;
-  max-width: 100vw;
+  max-width: 1001px;
+  min-width: 300px;
   background: red;
   overflow-x: hidden;
 }
@@ -18,10 +19,7 @@ html{
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
-  background: linear-gradient(
-  to bottom,
-  rgba(235, 255, 235, 0.4) 0%,
-  rgba(0, 85, 72, 1) 80%);
+  background: blue;
 }
 
 .container_home{
