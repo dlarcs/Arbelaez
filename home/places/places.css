@@ -142,7 +142,13 @@
 .cat__overlay {
   position: absolute;
   inset: 0;
-  background:red;
+  background:
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.68) 0%,
+      rgba(0, 0, 0, 0.32) 45%,
+      rgba(0, 0, 0, 0.14) 100%
+    );
   z-index: 1;
 }
 
