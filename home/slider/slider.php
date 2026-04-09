@@ -6,11 +6,9 @@ $cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
 $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
 ?>
 <link rel="stylesheet" href="../../home/slider/slider.css?v=<?= $cssTime ?>">
-<header class="slider" id="sliderMain" aria-roledescription="carrusel" aria-label="Slider principal">
-  <!-- Fondo (se actualiza por JS) -->
-  <div class="slider__bg" aria-hidden="true"></div>
 
-  <!-- Overlay oscuro para legibilidad -->
+<header class="slider" id="sliderMain" aria-roledescription="carrusel" aria-label="Slider principal">
+  <div class="slider__bg" aria-hidden="true"></div>
   <div class="slider__overlay" aria-hidden="true"></div>
 
   <div class="slider__inner">
@@ -18,10 +16,11 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
       <span class="slider__badgeIcon" aria-hidden="true">📍</span>
       <a href="https://maps.app.goo.gl/rBTFjDPx4z9RRD479">
         <span class="slider__badgeText">Arbeláez, Cundinamarca • 2026</span>
-       </a>
+      </a>
     </div>
+
     <h1 class="slider__title" id="sliderTitle">
-      Arbeláez se llena de<br />
+      Arbeláez se llena de<br>
       <span class="slider__titleGradient">color</span>
     </h1>
 
@@ -34,7 +33,6 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
       <a class="sliderBtn sliderBtn--primary" href="#conocer" id="sliderBtnPrimary">Conocer más</a>
     </div>
 
-    <!-- Controles -->
     <div class="slider__controls">
       <button class="sliderNav sliderNav--prev" type="button" aria-label="Anterior" data-slider-prev>
         <span aria-hidden="true">‹</span>
@@ -48,10 +46,9 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
     </div>
   </div>
 
-  <!-- Barra de progreso -->
   <div class="slider__progress" aria-hidden="true">
     <div class="slider__progressBar" data-slider-progress></div>
   </div>
 </header>
 
-<script src="../../home/slider/slider.js?v=<?= $jsTime ?>" type="text/javascript"></script>
+<script src="../../home/slider/slider.js?v=<?= $jsTime ?>"></script>
