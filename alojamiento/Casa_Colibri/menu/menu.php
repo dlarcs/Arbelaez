@@ -1,10 +1,10 @@
 <?php
-$cssTime = filemtime('../alojamiento/Casa_Colibri/menu/menu.css'); // ejemplo: '../Home/5.Video/video.css'
+$cssTime = filemtime('../../alojamiento/Casa_Colibri/menu/menu.css'); // ejemplo: '../../Home/5.Video/video.css'
 ?>
-	<link rel="stylesheet" href="../alojamiento/Casa_Colibri/menu/menu.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../alojamiento/Casa_Colibri/menu/menu.css?v=<?= $cssTime ?>">
 	<!-- ===== HEADER PRINCIPAL DE LA PÁGINA ===== -->
 	<header class="site-header">
-  <a class="brand_menu" href="../home/index.php" aria-label="Inicio">
+  <a class="brand_menu" href="../../home/index.php" aria-label="Inicio">
     <h1 class="brand-text">Casa Colibrí</h1>
   </a>
 
@@ -16,11 +16,11 @@ $cssTime = filemtime('../alojamiento/Casa_Colibri/menu/menu.css'); // ejemplo: '
   <!-- Navegación -->
   <nav id="site-nav" class="nav">
     <ul class="nav-list">
-      <li><a href="../home/index.php">Inicio</a></li>
+      <li><a href="../../home/index.php">Inicio</a></li>
       <li><a href="#producto_Casa_Colibri">Galería</a></li>
       <li><a href="#about_Casa_Colibri">Nosotros</a></li>
       <li><a href="#ubicacion_Casa_Colibri">Ubicación</a></li>
-      <li><a class="cta" href="../alojamiento/index.php">Volver</a></li>
+      <li><a class="cta" href="../../alojamiento/index.php">Volver</a></li>
     </ul>
   </nav>
 </header>

@@ -32,14 +32,14 @@
   <meta name="twitter:image" content="https://www.arbelaez.com.co/media/Casa_Colibri/og-1200x630.jpg">
 
   <!-- Icono / tema -->
-  <link rel="icon" href="../../view/alojamiento/Casa_Colibri/img/logo.jpeg" type="image/jpeg">
+  <link rel="icon" href="../../alojamiento/Casa_Colibri/img/logo.jpeg" type="image/jpeg">
   <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/Casa_Colibri/apple-touch-icon.png">
   <meta name="theme-color" content="#005548">
 
   <!-- Rendimiento -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="image" href="https://www.arbelaez.com.co/view/alojamiento/Casa_Colibri/img/piscina1.jpeg">
-  <link rel="stylesheet" href="../../view/alojamiento/Casa_Colibri/style.css">
+  <link rel="preload" as="image" href="https://www.arbelaez.com.co/alojamiento/Casa_Colibri/img/piscina1.jpeg">
+  <link rel="stylesheet" href="../../alojamiento/Casa_Colibri/style.css">
 
   <!-- Datos estructurados: Alojamiento -->
   <script type="application/ld+json">
@@ -74,22 +74,22 @@
 </head>
 
 <body class="body_Casa_Colibri">
-  <?php include "../../view/alojamiento/Casa_Colibri/menu/menu.php" ?>
+  <?php include "../../alojamiento/Casa_Colibri/menu/menu.php" ?>
   <div class="container_Casa_Colibri">
-    <?php include "../../view/alojamiento/Casa_Colibri/title/title.php" ?>
-    <?php include "../../view/alojamiento/Casa_Colibri/slider/slider.php" ?>
-    <?php include "../../view/alojamiento/Casa_Colibri/galery/productos.php" ?>
-    <?php include "../../view/alojamiento/Casa_Colibri/bout_us/about.php" ?>
-    <?php include "../../view/alojamiento/Casa_Colibri/maps/maps.php"?>
+    <?php include "../../alojamiento/Casa_Colibri/title/title.php" ?>
+    <?php include "../../alojamiento/Casa_Colibri/slider/slider.php" ?>
+    <?php include "../../alojamiento/Casa_Colibri/galery/productos.php" ?>
+    <?php include "../../alojamiento/Casa_Colibri/bout_us/about.php" ?>
+    <?php include "../../alojamiento/Casa_Colibri/maps/maps.php"?>
   </div>
-  <?php include "../../view/alojamiento/Casa_Colibri/footer/footer.php" ?>
+  <?php include "../../alojamiento/Casa_Colibri/footer/footer.php" ?>
 
   <!-- Botón WhatsApp -->
   <a class="whatsapp-fab"
      href="https://wa.me/573143417111?text=Hola%20vengo%20desde%20la%20web%20de%20Casa%20Colibrí"
      target="_blank" rel="noopener"
      aria-label="Chatear por WhatsApp">
-    <img src="../../view/home/img/img_whatsApp.png" alt="Contactar a Finca Casa colibri por WhatsApp" decoding="async" loading="lazy" width="56" height="56">
+    <img src="../../home/img/img_whatsApp.png" alt="Contactar a Finca Casa colibri por WhatsApp" decoding="async" loading="lazy" width="56" height="56">
   </a>
 
 </body>
