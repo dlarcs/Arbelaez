@@ -107,24 +107,7 @@ background-size: cover;
   isolation: isolate;
   min-width: 20%;
 }
-/* Fondo: DEGRADADO + IMAGEN + PARALLAX */
-.cat::before{
-  content:"";
-  position: absolute;
-  inset: -14%;
-  z-index: 0;
 
-  background-image:
-    linear-gradient(180deg, rgba(0,0,0,.1) 0%, rgba(0,0,0,.3) 140%),
-    var(--img);
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-
-  will-change: transform;
-  transform: translate3d(0, var(--bg-y), 0) scale(1.08);
-  filter: saturate(1.06) contrast(1.02);
-}
 
 /* Contenido encima del fondo (se mueve poquito con fg) */
 .cat__content{
