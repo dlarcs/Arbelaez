@@ -79,6 +79,7 @@
 }
 
 .nav {
+  flex-direction:row;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
