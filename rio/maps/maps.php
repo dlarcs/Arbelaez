@@ -1,8 +1,8 @@
 <?php
-$cssTime = filemtime('../../rio/maps/maps.css'); // ejemplo: '../Home/5.Video/video.css'
-$jsTime = filemtime('../../rio/maps/maps.js');
+$cssTime = filemtime('../rio/maps/maps.css'); // ejemplo: '../Home/5.Video/video.css'
+$jsTime = filemtime('../rio/maps/maps.js');
 ?>
-<link rel="stylesheet" href="../../rio/maps/maps.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../rio/maps/maps.css?v=<?= $cssTime ?>">
 <section class="eco" id="eco" aria-label="Explora con responsabilidad">
   <div class="eco__inner">
 
@@ -30,4 +30,4 @@ $jsTime = filemtime('../../rio/maps/maps.js');
 
   </div>
 </section>
-<script src="../../rio/maps/maps.js?v=<?= $jsTime ?>" type="text/javascript"></script>
+<script src="../rio/maps/maps.js?v=<?= $jsTime ?>" type="text/javascript"></script>

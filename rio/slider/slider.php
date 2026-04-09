@@ -1,8 +1,8 @@
 <?php
-$cssTime = filemtime('../../rio/slider/slider.css');
-$jsTime = filemtime('../../rio/slider/slider.js');
+$cssTime = filemtime('../rio/slider/slider.css');
+$jsTime = filemtime('../rio/slider/slider.js');
 ?>
-<link rel="stylesheet" href="../../rio/slider/slider.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../rio/slider/slider.css?v=<?= $cssTime ?>">
 
 
 <section class="hero" id="hero">
@@ -19,4 +19,4 @@ $jsTime = filemtime('../../rio/slider/slider.js');
 
 
 
-<script src="../../rio/slider/slider.js?v=<?= $jsTime ?>" type="text/javascript"></script>
+<script src="../rio/slider/slider.js?v=<?= $jsTime ?>" type="text/javascript"></script>

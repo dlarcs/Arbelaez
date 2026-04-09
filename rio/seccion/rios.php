@@ -1,8 +1,8 @@
 <?php
-$cssTime = filemtime('../../rio/seccion/rios.css');
-$jsTime = filemtime('../../rio/seccion/rios.js');
+$cssTime = filemtime('../rio/seccion/rios.css');
+$jsTime = filemtime('../rio/seccion/rios.js');
 ?>
-<link rel="stylesheet" href="../../rio/seccion/rios.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="../rio/seccion/rios.css?v=<?= $cssTime ?>">
 
 <main class="page">
   <header class="top">
@@ -12,7 +12,7 @@ $jsTime = filemtime('../../rio/seccion/rios.js');
 
   <section class="grid" aria-label="Listado de ríos y quebradas">
 
-    <article class="card" style="--img:url('../../../rio/img/batan.png');">
+    <article class="card" style="--img:url('../../rio/img/batan.png');">
       <div class="card__media">
         <span class="pill">Río</span>
         <div class="card__overlay">
@@ -43,7 +43,7 @@ $jsTime = filemtime('../../rio/seccion/rios.js');
       </div>
     </article>
 
-    <article class="card" style="--img:url('../../../rio/img/lejia.jpg');">
+    <article class="card" style="--img:url('../../rio/img/lejia.jpg');">
       <div class="card__media">
         <span class="pill">Río</span>
         <div class="card__overlay">
@@ -76,7 +76,7 @@ $jsTime = filemtime('../../rio/seccion/rios.js');
     </article>
 
 
-    <article class="card" style="--img:url('../../../rio/img/puente_colgante.jpeg');">
+    <article class="card" style="--img:url('../../rio/img/puente_colgante.jpeg');">
       <div class="card__media">
         <span class="pill">Puente</span>
         <div class="card__overlay">
@@ -108,7 +108,7 @@ $jsTime = filemtime('../../rio/seccion/rios.js');
     </article>
 
 
-    <article class="card" style="--img:url('../../../rio/img/honda.jpeg');">
+    <article class="card" style="--img:url('../../rio/img/honda.jpeg');">
       <div class="card__media">
         <span class="pill">Quebrada</span>
         <div class="card__overlay">
@@ -139,7 +139,7 @@ $jsTime = filemtime('../../rio/seccion/rios.js');
       </div>
     </article>
 
-    <article class="card" style="--img:url('../../../rio/img/michu.png');">
+    <article class="card" style="--img:url('../../rio/img/michu.png');">
       <div class="card__media">
         <span class="pill">Quebrada</span>
         <div class="card__overlay">
@@ -170,7 +170,7 @@ $jsTime = filemtime('../../rio/seccion/rios.js');
       </div>
     </article>
 
-    <article class="card" style="--img:url('../../../rio/img/puente_rio_guavio.jpg');">
+    <article class="card" style="--img:url('../../rio/img/puente_rio_guavio.jpg');">
       <div class="card__media">
         <span class="pill">Puente</span>
         <div class="card__overlay">
@@ -201,7 +201,7 @@ $jsTime = filemtime('../../rio/seccion/rios.js');
       </div>
     </article>
 
-    <article class="card" style="--img:url('../../../rio/img/bocatoma1.jpg');">
+    <article class="card" style="--img:url('../../rio/img/bocatoma1.jpg');">
       <div class="card__media">
         <span class="pill">Río</span>
         <div class="card__overlay">
@@ -236,4 +236,4 @@ $jsTime = filemtime('../../rio/seccion/rios.js');
   </section>
 </main>
 
-<script src="../../rio/seccion/rios.js?v=<?= $jsTime ?>" type="text/javascript"></script>
+<script src="../rio/seccion/rios.js?v=<?= $jsTime ?>" type="text/javascript"></script>
