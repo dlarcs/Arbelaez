@@ -1,7 +1,5 @@
 html{
   box-sizing: border-box;
-  width: 50vw;
-  background: yellow;
   overflow-x: hidden;
 }
 
@@ -14,17 +12,19 @@ html{
 .body_home{
   margin: 0;
   width: 100%;
-  background: red  ;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .container_home{
   padding:  0;
   margin: 0;
   display: flex;
+  box-sizing: border-box;
+  overflow-x: hidden;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: white;
 }
 img,
 iframe,
