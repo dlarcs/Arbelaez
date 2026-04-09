@@ -1,6 +1,5 @@
 <?php
 $cssTime = filemtime('../alojamiento/seccion/alojamiento.css');
-$jsTime  = filemtime('../alojamiento/seccion/alojamiento.js'); // <-- tu JS real
 
 // Helper WhatsApp (mensaje dinámico por alojamiento)
 function wa_link($phoneInt, $alojamiento) {
@@ -194,5 +193,3 @@ $lodgings = [
   </article>
   <?php endforeach; ?>
 </section>
-
-<script src="../alojamiento/seccion/alojamiento.js?v=<?= $jsTime ?>" type="text/javascript"></script>
