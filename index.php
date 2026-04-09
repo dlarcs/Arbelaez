@@ -21,8 +21,8 @@
     $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
 
     $canonicalUrl = $baseUrl . '/';
-    $ogImage      = $baseUrl . '/global/img/logo.png';
-    $favicon      = $baseUrl . '/global/img/logo.png';
+    $ogImage      = $baseUrl . '/home/img/logo1.jpeg';
+    $favicon      = $baseUrl . '/home/img/logo1.jpeg';
   ?>
 
   <title>Arbeláez Turismo | Qué hacer, dónde comer y dónde dormir en Cundinamarca</title>
@@ -51,12 +51,9 @@
   <meta property="og:description" content="Explora Arbeláez y encuentra naturaleza, gastronomía local, artesanías, ríos y alojamientos rurales cerca de Bogotá.">
   <meta property="og:url" content="<?= htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8') ?>">
   <meta property="og:image" content="<?= htmlspecialchars($ogImage, ENT_QUOTES, 'UTF-8') ?>">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Arbeláez Turismo | Qué hacer, dónde comer y dónde dormir en Cundinamarca">
-  <meta name="twitter:description" content="Descubre Arbeláez: naturaleza, gastronomía, artesanías y alojamiento rural cerca de Bogotá.">
-  <meta name="twitter:image" content="<?= htmlspecialchars($ogImage, ENT_QUOTES, 'UTF-8') ?>">
-
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Arbeláez Turismo">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",

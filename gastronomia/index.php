@@ -26,10 +26,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
   <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="../global/img/logo.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../global/img/logo.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../global/img/logo.png">
-  <link rel="mask-icon" href="../global/img/logo.png" color="#005548">
+  <link rel="icon" type="image/png" sizes="32x32" href="../gastronomia/kapaLuna360/img/entradas.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="../gastronomia/kapaLuna360/img/entradas.jpg">
+  <link rel="apple-touch-icon" sizes="180x180" href="../gastronomia/kapaLuna360/img/entradas.jpg">
+  <link rel="mask-icon" href="../gastronomia/kapaLuna360/img/entradas.jpg" color="#005548">
   <meta name="theme-color" content="#005548">
 
   <!-- Meta SEO (100 keywords EN) -->
@@ -42,7 +42,7 @@
   <meta property="og:title" content="Gastronomía en Arbeláez - Gastronomy in Arbeláez – Restaurants">
   <meta property="og:description" content="Discover where to eat in Arbeláez: local restaurants, cafés, desserts and traditional food in Cundinamarca, near Bogotá.">
   <meta property="og:url" content="https://www.arbelaez.com.co/gastronomia/">
-  <meta property="og:image" content="https://www.arbelaez.com.co/global/img/logo.png">
+  <meta property="og:image" content="../gastronomia/kapaLuna360/img/entradas.jpg">
 
   <!-- Social profiles (official) -->
   <link rel="me" href="https://www.facebook.com/profile.php?id=61580302286594">

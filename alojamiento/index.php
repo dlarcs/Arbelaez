@@ -22,10 +22,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
   <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="../global/img/logo.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../global/img/logo.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../global/img/logo.png">
-  <link rel="mask-icon" href="global/img/logo.png" color="#005548">
+  <link rel="icon" type="image/png" sizes="32x32" href="../alojamiento/Casa_Colibri/img/piscina.jpeg">
+  <link rel="icon" type="image/png" sizes="16x16" href="../alojamiento/Casa_Colibri/img/piscina.jpeg">
+  <link rel="apple-touch-icon" sizes="180x180" href="../alojamiento/Casa_Colibri/img/piscina.jpeg">
+  <link rel="mask-icon" href="alojamiento/Casa_Colibri/img/piscina.jpeg" color="#005548">
   <meta name="theme-color" content="#005548">
 
   <!-- Meta SEO (100 keywords EN) -->
@@ -38,7 +38,7 @@
   <meta property="og:title" content="Alojamiento en Arbeláez - Accommodation in Arbeláez">
   <meta property="og:description" content="Explore comfortable and affordable stays in Arbeláez: riverside cabins, pool retreats, jacuzzi options, BBQ areas and nature views near Bogotá.">
   <meta property="og:url" content="https://www.arbelaez.com.co/alojamiento/">
-  <meta property="og:image" content="https://www.arbelaez.com.co/global/img/logo.png">
+  <meta property="og:image" content="../alojamiento/Casa_Colibri/img/piscina.jpeg">
 
 
   <!-- Social profiles (official) -->

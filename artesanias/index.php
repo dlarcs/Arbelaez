@@ -22,10 +22,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
   <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="../global/img/logo.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../global/img/logo.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../global/img/logo.png">
-  <link rel="mask-icon" href="../global/img/logo.png" color="#005548">
+  <link rel="icon" type="image/png" sizes="32x32" href="../artesanias/Artesanias_Martha_E/img/manillas2.jpeg">
+  <link rel="icon" type="image/png" sizes="16x16" href="../artesanias/Artesanias_Martha_E/img/manillas2.jpeg">
+  <link rel="apple-touch-icon" sizes="180x180" href="../artesanias/Artesanias_Martha_E/img/manillas2.jpeg">
+  <link rel="mask-icon" href="../artesanias/Artesanias_Martha_E/img/manillas2.jpeg" color="#005548">
   <meta name="theme-color" content="#005548">
 
   <!-- Meta SEO (100 keywords EN) -->
@@ -38,7 +38,7 @@
   <meta property="og:title" content="Artesanías en Arbeláez - Handicrafts in Arbeláez">
   <meta property="og:description" content="Explore authentic crafts made by local artisans in Arbeláez. Unique souvenirs, handmade gifts and traditional products near Bogotá.">
   <meta property="og:url" content="https://www.arbelaez.com.co/artesanias/">
-  <meta property="og:image" content="https://www.arbelaez.com.co/global/img/logo.png">
+  <meta property="og:image" content="../artesanias/Artesanias_Martha_E/img/manillas2.jpeg">
 
   <!-- Social profiles (official) -->
   <link rel="me" href="https://www.facebook.com/profile.php?id=61580302286594">

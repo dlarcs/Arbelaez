@@ -22,10 +22,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
   <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="../rio/img/batan.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../rio/img/batan.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../rio/img/batan.png">
-  <link rel="mask-icon" href="../rio/img/batan.png" color="#005548">
+  <link rel="icon" type="image/png" sizes="32x32" href="../rio/img/puente_rio_guavio.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="../rio/img/puente_rio_guavio.jpg">
+  <link rel="apple-touch-icon" sizes="180x180" href="../rio/img/puente_rio_guavio.jpg">
+  <link rel="mask-icon" href="../rio/img/puente_rio_guavio.jpg" color="#005548">
   <meta name="theme-color" content="#005548">
 
   <!-- Meta SEO (100 keywords EN) -->
@@ -78,7 +78,6 @@
 
 <body class="body_Rios">
   <?php include "../global/menu/menu.php" ?>
-
   <div class="container_Rios">
     <?php include "../rio/slider/slider.php" ?>
     <?php include "../rio/seccion/rios.php" ?>

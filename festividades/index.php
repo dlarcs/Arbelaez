@@ -26,10 +26,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
   <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="../home/img/logo_pw.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../home/img/logo_pw.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../home/img/logo_pw.png">
-  <link rel="mask-icon" href="../home/img/logo_pw.png" color="#005548">
+  <link rel="icon" type="image/png" sizes="32x32" href="../festividades/la_diablada/diablada21.JPG">
+  <link rel="icon" type="image/png" sizes="16x16" href="../festividades/la_diablada/diablada21.JPG">
+  <link rel="apple-touch-icon" sizes="180x180" href="../festividades/la_diablada/diablada21.JPG">
+  <link rel="mask-icon" href="../festividades/la_diablada/diablada21.JPG" color="#005548">
   <meta name="theme-color" content="#005548">
 
   <!-- Meta SEO (100 keywords EN) -->
@@ -42,7 +42,7 @@
   <meta property="og:title" content="Festividades en Arbeláez - Festivities in Arbeláez">
   <meta property="og:description" content="Discover where to eat in Arbeláez: local restaurants, cafés, desserts and traditional food in Cundinamarca, near Bogotá.">
   <meta property="og:url" content="https://www.arbelaez.com.co/Corpus_Christi/">
-  <meta property="og:image" content="https://www.arbelaez.com.co/home/img/og-1200x630.jpg">
+  <meta property="og:image" content="../festividades/la_diablada/diablada21.JPG">
 
   <!-- Social profiles (official) -->
   <link rel="me" href="https://www.facebook.com/profile.php?id=61580302286594">
