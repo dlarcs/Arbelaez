@@ -1,12 +1,12 @@
 <?php
-$cssTime = filemtime('../alojamiento/Casa_Colibri/bout_us/about.css');
+$cssTime = filemtime('../../alojamiento/Casa_Colibri/bout_us/about.css');
 ?>
-	<link rel="stylesheet" href="../alojamiento/Casa_Colibri/bout_us/about.css?v=<?= $cssTime ?>">
+	<link rel="stylesheet" href="../../alojamiento/Casa_Colibri/bout_us/about.css?v=<?= $cssTime ?>">
 
 	<main id="about_Casa_Colibri" class="wrap">
 		<article class="card" itemscope itemtype="https://schema.org/LocalBusiness">
 			<figure class="hero">
-				<img src="../alojamiento/Casa_Colibri/img/exterior.jpeg" alt="Casa_Colibri" itemprop="image" loading="lazy">
+				<img src="../../alojamiento/Casa_Colibri/img/exterior.jpeg" alt="Casa_Colibri" itemprop="image" loading="lazy">
 				<figcaption>Alojamiento con piscina</figcaption>
 			</figure>
 
