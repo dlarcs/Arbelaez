@@ -1,6 +1,6 @@
 html{
   box-sizing: border-box;
-  width: 80vw;
+  width: 50vw;
   background: yellow;
   overflow-x: hidden;
 }
@@ -14,7 +14,7 @@ html{
 .body_home{
   margin: 0;
   width: 100%;
-  background: green  ;
+  background: red  ;
 }
 
 .container_home{
