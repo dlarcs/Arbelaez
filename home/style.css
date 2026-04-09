@@ -34,6 +34,7 @@ html{
   flex-direction: column;
   object-fit: cover;
   overflow: hidden;
+  background-color: red;
 }
 img,
 iframe,
