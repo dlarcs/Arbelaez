@@ -27,7 +27,7 @@
 	<meta property="og:title" content="kalu-gastrobar – Restaurante en Arbeláez">
 	<meta property="og:description" content="Parrilla, volcanes, postres y cócteles. Perfecto para celebraciones y planes en Arbeláez.">
 	<meta property="og:url" content="https://www.arbelaez.com.co/gastronomia/kalu/">
-	<meta property="og:image" content="https://www.arbelaez.com.co/media/kalu/og-1200x630.jpg">
+	<meta property="og:image" content="https://www.arbelaez.com.co/gastronomia/img/kalu.jpg">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="kalu-gastrobar – Restaurante en Arbeláez">
 	<meta name="twitter:description" content="La mejor comida en Arbeláez: parrilla, volcanes, postres y cócteles.">
@@ -35,12 +35,12 @@
 
 	<!-- Icono / tema -->
 	<link rel="icon" href="../../gastronomia/img/kalu.jpg" type="image/png">
-	<link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/kalu/apple-touch-icon.png">
+	<link rel="apple-touch-icon" href="https://www.arbelaez.com.co/gastronomia/img/kalu.jpg">
 	<meta name="theme-color" content="#005548">
 
 	<!-- Rendimiento -->
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="preload" as="image" href="https://www.arbelaez.com.co/media/kalu/hero-gastronomia.webp">
+	<link rel="preload" as="image" href="https://www.arbelaez.com.co/gastronomia/img/kalu.jpg">
 	<link rel="stylesheet" href="../../gastronomia/kalu/style.css">
 
 	<!-- Datos estructurados Restaurant (ajusta teléfono, horarios, URL y geo si los tienes) -->

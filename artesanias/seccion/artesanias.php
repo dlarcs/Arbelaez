@@ -70,7 +70,7 @@ $cssTime = file_exists($cssFile) ? filemtime($cssFile) : time();
         <img
           loading="lazy"
           decoding="async"
-          src="../artesanias/img/entrada_Religioso.jpg"
+          src="../artesanias/Almacen_Religioso/img/entrada_Religioso.jpg"
           alt="Entrada del Almacén Religioso y Artesanal Divino Niño Jesús"
         >
       </a>

@@ -25,22 +25,22 @@
   <meta property="og:title" content="Divino Niño Jesús – Almacén Religioso y Plantas en Arbeláez">
   <meta property="og:description" content="El único almacén religioso de Arbeláez: rosarios, imágenes, cruces, velas, Biblias y regalos para conmemorar a Dios. También plantas y materas.">
   <meta property="og:url" content="https://www.arbelaez.com.co/artesanias/Almacen_Religioso/index.php">
-  <meta property="og:image" content="https://www.arbelaez.com.co/media/Almacen_Religioso/og-1200x630.jpg">
+  <meta property="og:image" content="../../artesanias/Almacen_Religioso/img/religioso19.jpg">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Divino Niño Jesús – Almacén Religioso y Plantas">
   <meta name="twitter:description" content="Rosarios, cruces, velas, Biblias y regalos religiosos. También plantas. Único en Arbeláez.">
-  <meta name="twitter:image" content="https://www.arbelaez.com.co/media/Almacen_Religioso/og-1200x630.jpg">
+  <meta name="twitter:image" content="https://www.arbelaez.com.co/artesanias/Almacen_Religioso/img/religioso19.jpg">
 
   <!-- Icono / tema -->
-  <link rel="icon" href="../artesanias/Almacen_Religioso/img/religioso20.jpg" type="image/jpeg">
-  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/Almacen_Religioso/apple-touch-icon.png">
+  <link rel="icon" href="../../artesanias/Almacen_Religioso/img/religioso19.jpg" type="image/jpeg">
+  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/artesanias/Almacen_Religioso/img/religioso19.jpg">
   <meta name="theme-color" content="#005548">
 
   <!-- Rendimiento -->
-  <link rel="preload" as="image" href="../artesanias/Almacen_Religioso/img/religioso20.jpg">
-  <?php $cssTime = filemtime('../artesanias/Almacen_Religioso/style.css'); ?>
-  <link rel="stylesheet" href="../artesanias/Almacen_Religioso/style.css?v=<?= $cssTime ?>">
+  <link rel="preload" as="image" href="../../artesanias/Almacen_Religioso/img/religioso19.jpg">
+  <?php $cssTime = filemtime('../../artesanias/Almacen_Religioso/style.css'); ?>
+  <link rel="stylesheet" href="../../artesanias/Almacen_Religioso/style.css?v=<?= $cssTime ?>">
 
   <!-- Datos estructurados: LocalBusiness (tienda religiosa) -->
   <script type="application/ld+json">
@@ -48,7 +48,7 @@
     "@context": "https://schema.org",
     "@type": "Store",
     "name": "Divino Niño Jesús – Almacén Religioso y Plantas",
-    "image": "https://www.arbelaez.com.co/media/Almacen_Religioso/og-1200x630.jpg",
+    "image": "https://www.arbelaez.com.co/artesanias/Almacen_Religioso/img/religioso19.jpg",
     "url": "https://www.arbelaez.com.co/artesanias/Almacen_Religioso/index.php",
     "telephone": "+57 3132277099",
     "priceRange": "$$",
@@ -67,24 +67,24 @@
 </head>
 
 <body class="body_Almacen_Religioso">
-  <?php include "../artesanias/Almacen_Religioso/menu/menu.php" ?>
+  <?php include "../../artesanias/Almacen_Religioso/menu/menu.php" ?>
 
   <div class="container_Almacen_Religioso">
-    <?php include "../artesanias/Almacen_Religioso/title/title.php" ?>
-    <?php include "../artesanias/Almacen_Religioso/slider/slider.php" ?>
-    <?php include "../artesanias/Almacen_Religioso/galery/productos.php" ?>
-    <?php include "../artesanias/Almacen_Religioso/bout_us/about.php" ?>
-    <?php include "../artesanias/Almacen_Religioso/maps/maps.php"?>
+    <?php include "../../artesanias/Almacen_Religioso/title/title.php" ?>
+    <?php include "../../artesanias/Almacen_Religioso/slider/slider.php" ?>
+    <?php include "../../artesanias/Almacen_Religioso/galery/productos.php" ?>
+    <?php include "../../artesanias/Almacen_Religioso/bout_us/about.php" ?>
+    <?php include "../../artesanias/Almacen_Religioso/maps/maps.php"?>
   </div>
 
-  <?php include "../artesanias/Almacen_Religioso/footer/footer.php" ?>
+  <?php include "../../artesanias/Almacen_Religioso/footer/footer.php" ?>
 
   <!-- Botón WhatsApp -->
   <a class="whatsapp-fab"
      href="https://wa.me/573132277099?text=Hola%20vengo%20desde%20la%20web%20del%20Almac%C3%A9n%20Religioso%20Divino%20Ni%C3%B1o%20Jes%C3%BAs%20en%20Arbel%C3%A1ez"
      target="_blank" rel="noopener"
      aria-label="Chatear por WhatsApp">
-    <img src="../home/img/img_whatsApp.png"
+    <img src="../../home/img/img_whatsApp.png"
          alt="Contactar por WhatsApp a Divino Niño Jesús"
          decoding="async" loading="lazy" width="56" height="56">
   </a>

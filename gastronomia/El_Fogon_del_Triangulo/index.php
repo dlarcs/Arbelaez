@@ -33,12 +33,12 @@
 
   <!-- Icono / tema -->
   <link rel="icon" href="../../gastronomia/El_Fogon_del_Triangulo/img/logo.png" type="image/png">
-  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/El_Fogon_del_triangulo/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/gastronomia/El_Fogon_del_Triangulo/img/logo.png">
   <meta name="theme-color" content="#005548">
 
   <!-- Rendimiento -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="image" href="https://www.arbelaez.com.co/media/El_Fogon_del_triangulo/hero-gastronomia.webp">
+  <link rel="preload" as="image" href="https://www.arbelaez.com.co/gastronomia/El_Fogon_del_Triangulo/img/logo.png">
   <link rel="stylesheet" href="../../gastronomia/El_Fogon_del_Triangulo/style.css">
 
   <!-- Datos estructurados Restaurant -->

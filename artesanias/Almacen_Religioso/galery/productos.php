@@ -70,18 +70,6 @@ $jsTime = filemtime('../../artesanias/Almacen_Religioso/galery/productos.js');  
 	    <div class="food_card Religioso"><img src="../../artesanias/Almacen_Religioso/img/religioso12.jpg" alt="religioso 13" width="1200" height="800" loading="lazy" decoding="async"></div>
 	    <div class="food_card Religioso"><img src="../../artesanias/Almacen_Religioso/img/religioso13.jpg" alt="religioso 14" width="1200" height="800" loading="lazy" decoding="async"></div>
 	    <div class="food_card Religioso"><img src="../../artesanias/Almacen_Religioso/img/religioso14.jpg" alt="religioso 15" width="1200" height="800" loading="lazy" decoding="async"></div>
-	    <!-- <div class="food_card Religioso"><img src="../../artesanias/Almacen_Religioso/img/religioso15.jpg" alt="religioso 16" width="1200" height="800" loading="lazy" decoding="async"></div>
-	    <div class="food_card Religioso"><img src="../../artesanias/Almacen_Religioso/img/religioso16.jpg" alt="religioso 17" width="1200" height="800" loading="lazy" decoding="async"></div>
-	    <div class="food_card Religioso"><img src="../../artesanias/Almacen_Religioso/img/religioso17.jpg" alt="religioso 18" width="1200" height="800" loading="lazy" decoding="async"></div>
-	    <div class="food_card Religioso"><img src="../../artesanias/Almacen_Religioso/img/religioso18.jpg" alt="religioso 19" width="1200" height="800" loading="lazy" decoding="async"></div>
-	    <div class="food_card Religioso"><img src="../../artesanias/Almacen_Religioso/img/religioso19.jpg" alt="religioso 20" width="1200" height="800" loading="lazy" decoding="async"></div>
-	    <div class="food_card Religioso"><img src="../../artesanias/Almacen_Religioso/img/religioso20.jpg" alt="religioso 21" width="1200" height="800" loading="lazy" decoding="async"></div>
-			<div class="food_card Religioso"><img src="../../artesanias/Almacen_Religioso/img/religioso21.jpg" alt="religioso 22" width="1200" height="800" loading="lazy" decoding="async"></div>
-		  <div class="food_card Religioso"><img src="../../artesanias/Almacen_Religioso/img/religioso22.jpg" alt="religioso 23" width="1200" height="800" loading="lazy" decoding="async"></div>
-		  <div class="food_card Religioso"><img src="../../artesanias/Almacen_Religioso/img/religioso23.jpg" alt="religioso 24" width="1200" height="800" loading="lazy" decoding="async"></div>
-		  <div class="food_card Religioso"><img src="../../artesanias/Almacen_Religioso/img/religioso24.jpg" alt="religioso 25" width="1200" height="800" loading="lazy" decoding="async"></div>
-		  <div class="food_card Religioso"><img src="../../artesanias/Almacen_Religioso/img/religioso25.jpg" alt="religioso 26" width="1200" height="800" loading="lazy" decoding="async"></div>
-		  <div class="food_card Religioso"><img src="../../artesanias/Almacen_Religioso/img/religioso26.jpg" alt="religioso 27" width="1200" height="800" loading="lazy" decoding="async"></div> -->
 
 
 	  </div>

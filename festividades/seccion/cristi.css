@@ -1,10 +1,7 @@
-
-
 .festivities-section {
   width: 100%;
   padding: 4rem 1.5rem;
   box-sizing: border-box;
-
 }
 
 .festivities-container {
@@ -50,7 +47,7 @@
 
 .marquee-inner {
   display: flex;
-  width: fit-content;
+  width: max-content;
   animation: marqueeScroll linear infinite;
   animation-duration: var(--marquee-duration, 10000ms);
   animation-play-state: running;
@@ -58,6 +55,11 @@
 
 .marquee-track {
   display: flex;
+}
+
+.marquee-group {
+  display: flex;
+  flex-shrink: 0;
 }
 
 .card {
@@ -84,7 +86,6 @@
   display: block;
 }
 
-/* Overlay shown on hover */
 .card-overlay {
   position: absolute;
   inset: 0;
@@ -109,7 +110,6 @@
   text-align: center;
 }
 
-/* Side gradients */
 .fade-left,
 .fade-right {
   position: absolute;
@@ -140,9 +140,8 @@
 
 @keyframes marqueeScroll {
   0% {
-    transform: translateX(0%);
+    transform: translateX(0);
   }
-
   100% {
     transform: translateX(-50%);
   }

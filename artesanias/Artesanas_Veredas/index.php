@@ -21,12 +21,12 @@
 
   <!-- Icono / tema -->
   <link rel="icon" href="../../artesanias/Artesanas_Veredas/img/lamparas4.jpeg" type="image/jpeg">
-  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/Artesanas_Veredas/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/artesanias/Artesanas_Veredas/img/slider1.jpeg">
   <meta name="theme-color" content="#005548">
 
   <!-- Rendimiento -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="image" href="https://www.arbelaez.com.co/media/Artesanas_Veredas/hero-artesanias.webp">
+  <link rel="preload" as="image" href="https://www.arbelaez.com.co/artesanias/Artesanas_Veredas/img/slider1.jpeg">
   <?php $cssTime = filemtime('../../artesanias/Artesanas_Veredas/style.css'); ?>
   <link rel="stylesheet" href="../../artesanias/Artesanas_Veredas/style.css?v=<?= $cssTime ?>">
 
@@ -36,9 +36,9 @@
     "@context": "https://schema.org",
     "@type": "Store",
     "name": "Artesanías Veredas.",
-    "image": "https://www.arbelaez.com.co/media/Artesanas_Veredas/og-1200x630.jpg",
+    "image": "https://www.arbelaez.com.co/artesanias/Artesanas_Veredas/img/slider1.jpeg",
     "url": "https://www.arbelaez.com.co/artesanias/Artesanas_Veredas/index.php",
-    "telephone": "+57 3024229260",
+    "telephone": "+57 ",
     "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
