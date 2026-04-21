@@ -8,7 +8,7 @@ $jsTime = filemtime('../../gastronomia/kapaLuna360/slider/slider.js');
 			<div class="slider__track" id="slider-track">
 				<!-- Slide 1 -->
 				<article class="slide is-current" aria-role description="slide" aria-label="1 de 4">
-					<img src="../../gastronomia/kapaLuna360/img/lugar.jpg" alt="Montañas al amanecer" />
+					<img src="../../gastronomia/kapaLuna360/img/lugar.jpg" alt="Montañas al amanecer" loading="lazy" decoding="async" />
 					<div class="slide__caption">
 						<!-- <h2>Dios es Amor</h2>
            <p>Descubre el amor que transforma vidas.</p> -->
@@ -16,7 +16,7 @@ $jsTime = filemtime('../../gastronomia/kapaLuna360/slider/slider.js');
 				</article>
 				<!-- Slide 2 -->
 				<article class="slide" aria-role description="slide" aria-label="2 de 4">
-					<img src="../../gastronomia/kapaLuna360/img/lugar2.jpg" alt="Bosque con luz dorada" />
+					<img src="../../gastronomia/kapaLuna360/img/lugar2.jpg" alt="Bosque con luz dorada" loading="lazy" decoding="async" />
 					<div class="slide__caption">
 						<!-- <h2>Una Familia de Fe</h2>
            <p>Aquí siempre encontrarás un lugar para ti.</p> -->
@@ -24,7 +24,7 @@ $jsTime = filemtime('../../gastronomia/kapaLuna360/slider/slider.js');
 				</article>
 				<!-- Slide 3 -->
 				<article class="slide" aria-role description="slide" aria-label="3 de 4">
-					<img src="../../gastronomia/kapaLuna360/img/lugar3.jpg" alt="Lago tranquilo" />
+					<img src="../../gastronomia/kapaLuna360/img/lugar3.jpg" alt="Lago tranquilo" loading="lazy" decoding="async" />
 					<div class="slide__caption">
 						<!-- <h2>La Esperanza Vive</h2>
            <p>Cristo es la luz en medio de la oscuridad.</p> -->
@@ -32,7 +32,7 @@ $jsTime = filemtime('../../gastronomia/kapaLuna360/slider/slider.js');
 				</article>
 				<!-- Slide 4 -->
 				<article class="slide" aria-role description="slide" aria-label="4 de 4">
-					<img src="../../gastronomia/kapaLuna360/img/parrilla.jpg" alt="Carretera hacia el horizonte" />
+					<img src="../../gastronomia/kapaLuna360/img/parrilla.jpg" alt="Carretera hacia el horizonte" loading="lazy" decoding="async" />
 					<div class="slide__caption">
 						<!-- <h2>Fortaleza en la Oración</h2>
            <p>Habla con Dios, Él siempre escucha.</p> -->

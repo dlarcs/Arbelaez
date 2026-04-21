@@ -6,7 +6,7 @@ $cssTime = filemtime('../global/footer/footer.css');
 <section class="seccion_footer" aria-label="Pie de página">
   <div class="footer_logo">
     <a href="../index.php" aria-label="Inicio">
-      <img class="logo_menu" src="../global/img/logo.png" alt="Logo Arbeláez Turismo">
+      <img class="logo_menu" src="../global/img/logo.png" alt="Logo Arbeláez Turismo" loading="lazy" decoding="async">
     </a>
     <h2>ARBELÁEZ CUNDINAMARCA</h2>
   </div>

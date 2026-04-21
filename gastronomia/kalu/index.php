@@ -28,6 +28,7 @@
 	<meta property="og:description" content="Parrilla, volcanes, postres y cócteles. Perfecto para celebraciones y planes en Arbeláez.">
 	<meta property="og:url" content="https://www.arbelaez.com.co/gastronomia/kalu/">
 	<meta property="og:image" content="https://www.arbelaez.com.co/gastronomia/img/kalu.jpg">
+	
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="kalu-gastrobar – Restaurante en Arbeláez">
 	<meta name="twitter:description" content="La mejor comida en Arbeláez: parrilla, volcanes, postres y cócteles.">
