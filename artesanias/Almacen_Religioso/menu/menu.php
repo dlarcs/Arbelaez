@@ -22,7 +22,7 @@ $cssTime = filemtime('../../artesanias/Almacen_Religioso/menu/menu.css'); // eje
 		<!-- Navegación -->
 		<nav id="site-nav" class="nav">
 			<ul class="nav-list">
-				<li><a href="../../home/index.php">Inicio</a></li>
+				<li><a href="index.php">Inicio</a></li>
 				<li><a href="#producto_Almacen_Religioso">Productos</a></li>
 				<li><a href="#about_Almacen_Religioso">Nosotros</a></li>
 				<li><a href="#ubicacion_Almacen_Religioso">Ubicación</a></li>
