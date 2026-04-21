@@ -1,5 +1,5 @@
 <?php
-$cssTime = filemtime('../../alojamiento/La_Rinconada/menu/menu.css'); // ejemplo: '../../Home/5.Video/video.css'
+$cssTime = filemtime('../../alojamiento/La_Rinconada/menu/menu.css'); // ejemplo: '../../5.Video/video.css'
 ?>
 	<link rel="stylesheet" href="../../alojamiento/La_Rinconada/menu/menu.css?v=<?= $cssTime ?>">
 	<!-- ===== HEADER PRINCIPAL DE LA PÁGINA ===== -->

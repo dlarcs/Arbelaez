@@ -1,12 +1,12 @@
 <?php
-$cssTime = filemtime('../../artesanias/Almacen_Religioso/menu/menu.css'); // ejemplo: '../Home/5.Video/video.css'
+$cssTime = filemtime('../../artesanias/Almacen_Religioso/menu/menu.css'); // ejemplo: '../5.Video/video.css'
 ?>
 	<link rel="stylesheet" href="../../artesanias/Almacen_Religioso/menu/menu.css?v=<?= $cssTime ?>">
 	<!-- ===== HEADER PRINCIPAL DE LA PÁGINA ===== -->
 	<!-- HEADER -->
 	<header class="site-header">
 		<!-- Marca / logo -->
-		<a class="brand_menu" href="../../home/index.php" aria-label="Inicio">
+		<a class="brand_menu" href="../../index.php" aria-label="Inicio">
 			<h1 class="brand-text">Divino Niño Jesús</h1>
 
 			<!-- <img src="../../gastronomia/huerto/menu/img/logo_huerto.png" alt="" class="brand-logo"> -->

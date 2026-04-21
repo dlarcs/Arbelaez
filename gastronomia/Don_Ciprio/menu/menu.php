@@ -1,12 +1,12 @@
 <?php
-$cssTime = filemtime('../../gastronomia/Don_Ciprio/menu/menu.css'); // ejemplo: '../Home/5.Video/video.css'
+$cssTime = filemtime('../../gastronomia/Don_Ciprio/menu/menu.css'); // ejemplo: '../5.Video/video.css'
 ?>
 	<link rel="stylesheet" href="../../gastronomia/Don_Ciprio/menu/menu.css?v=<?= $cssTime ?>">
 	<!-- ===== HEADER PRINCIPAL DE LA PÁGINA ===== -->
 	<!-- HEADER -->
 	<header class="site-header">
 		<!-- Marca / logo -->
-		<a class="brand_menu" href="../../home/index.php" aria-label="Inicio">
+		<a class="brand_menu" href="../../index.php" aria-label="Inicio">
 			<h1 class="brand-text">Don Ciprio</h1>
 
 			<!-- <img src="../../Don_Ciprio/menu/img/logo_Don_Ciprio.png" alt="" class="brand-logo"> -->
@@ -22,7 +22,7 @@ $cssTime = filemtime('../../gastronomia/Don_Ciprio/menu/menu.css'); // ejemplo: 
 		<!-- Navegación -->
 		<nav id="site-nav" class="nav">
 			<ul class="nav-list">
-				<li><a href="../../home/index.php">Inicio</a></li>
+				<li><a href="../../index.php">Inicio</a></li>
 				<li><a href="#menu_Don_Ciprio">Menu</a></li>
 				<li><a href="#galery_Don_Ciprio">Galeria</a></li>
 				<li><a href="#about_Don_Ciprio">Nosotros</a></li>

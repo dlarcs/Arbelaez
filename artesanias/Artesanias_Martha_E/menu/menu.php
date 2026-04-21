@@ -1,12 +1,12 @@
 <?php
-$cssTime = filemtime('../../artesanias/Artesanias_Martha_E/menu/menu.css'); // ejemplo: '../Home/5.Video/video.css'
+$cssTime = filemtime('../../artesanias/Artesanias_Martha_E/menu/menu.css'); // ejemplo: '../5.Video/video.css'
 ?>
 	<link rel="stylesheet" href="../../artesanias/Artesanias_Martha_E/menu/menu.css?v=<?= $cssTime ?>">
 	<!-- ===== HEADER PRINCIPAL DE LA PÁGINA ===== -->
 	<!-- HEADER -->
 	<header class="site-header">
 		<!-- Marca / logo -->
-		<a class="brand_menu" href="../../home/index.php" aria-label="Inicio">
+		<a class="brand_menu" href="../../index.php" aria-label="Inicio">
 			<h1 class="brand-text">Artesanías Martha'E</h1>
 
 			<!-- <img src="../../gastronomia/huerto/menu/img/logo_huerto.png" alt="" class="brand-logo"> -->
@@ -22,7 +22,7 @@ $cssTime = filemtime('../../artesanias/Artesanias_Martha_E/menu/menu.css'); // e
 		<!-- Navegación -->
 		<nav id="site-nav" class="nav">
 			<ul class="nav-list">
-				<li><a href="../../home/index.php">Inicio</a></li>
+				<li><a href="../../index.php">Inicio</a></li>
 				<li><a href="#producto_Artesanias_Martha_E">Productos</a></li>
 				<li><a href="#about_Artesanias_Martha_E">Nosotros</a></li>
 				<li><a href="#ubicacion_Artesanias_Martha_E">Ubicación</a></li>
