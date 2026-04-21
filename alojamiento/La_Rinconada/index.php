@@ -24,16 +24,16 @@
   <meta property="og:title" content="Finca Campestre La Rinconada – Piscina, jacuzzi y planes accesibles">
   <meta property="og:description" content="Lugar hermoso cerca al pueblo en Arbeláez: piscina, jacuzzi y almuerzos. Planes y precios accesibles para familias y grupos.">
   <meta property="og:url" content="https://www.arbelaez.com.co/alojamiento/La_Rinconada/">
-  <meta property="og:image" content="https://www.arbelaez.com.co/media/La_Rinconada/og-1200x630.jpg">
+  <meta property="og:image" content="https://www.arbelaez.com.co/alojamiento/La_Rinconada/img/piscina.jpeg">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Finca Campestre La Rinconada – Piscina y jacuzzi en Arbeláez">
   <meta name="twitter:description" content="Piscina, jacuzzi y almuerzos cerca al pueblo. Planes y precios accesibles en Arbeláez.">
-  <meta name="twitter:image" content="https://www.arbelaez.com.co/media/La_Rinconada/og-1200x630.jpg">
+  <meta name="twitter:image" content="https://www.arbelaez.com.co/alojamiento/La_Rinconada/img/piscina.jpeg">
 
   <!-- Icono / tema -->
   <link rel="icon" href="../../alojamiento/La_Rinconada/img/piscina.jpeg" type="image/jpeg">
-  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/La_Rinconada/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/alojamiento/La_Rinconada/img/piscina.jpeg">
   <meta name="theme-color" content="#005548">
 
   <!-- Rendimiento -->
@@ -48,7 +48,7 @@
     "@context": "https://schema.org",
     "@type": "LodgingBusiness",
     "name": "Finca Campestre La Rinconada",
-    "image": "https://www.arbelaez.com.co/media/La_Rinconada/og-1200x630.jpg",
+    "image": "https://www.arbelaez.com.co/alojamiento/La_Rinconada/img/piscina.jpeg",
     "url": "https://www.arbelaez.com.co/alojamiento/La_Rinconada/",
     "telephone": "+57 3143417111",
     "priceRange": "$$",

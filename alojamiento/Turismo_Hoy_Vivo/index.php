@@ -22,7 +22,7 @@
   <!-- Open Graph / Twitter -->
   <meta property="og:locale" content="es_CO">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Turismo Hoy Vivo – Casa Rural Accesible (Privada) en Arbeláez">
+  <meta property="og:title" content="Turismo Hoy Vivo – Casa Rural Accesible en Arbeláez">
   <meta property="og:description" content="Alojamiento privado y accesible para todos, ideal para descansar de la ciudad y disfrutar avistamiento de aves en Arbeláez, Cundinamarca.">
   <meta property="og:url" content="https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/">
   <meta property="og:image" content="https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/img/logo.jpeg">
@@ -38,7 +38,7 @@
 
   <!-- Rendimiento -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="image" href="https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/img/1.jpeg">
+  <link rel="preload" as="image" href="https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/img/logo.jpeg">
   <?php $cssTime = filemtime('../../alojamiento/Turismo_Hoy_Vivo/style.css'); ?>
   <link rel="stylesheet" href="../../alojamiento/Turismo_Hoy_Vivo/style.css?v=<?= $cssTime ?>">
 

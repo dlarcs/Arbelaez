@@ -25,15 +25,15 @@
   <meta property="og:title" content="Finca Casa colibri – Alojamiento con piscina">
   <meta property="og:description" content="Hospédate en Casa colibri: piscina, zonas verdes y ubicación cerca al parque principal de Arbeláez.">
   <meta property="og:url" content="https://www.arbelaez.com.co/alojamiento/Casa_Colibri/">
-  <meta property="og:image" content="https://www.arbelaez.com.co/media/Casa_Colibri/og-1200x630.jpg">
+  <meta property="og:image" content="https://www.arbelaez.com.co/alojamiento/Casa_Colibri/img/logo.jpeg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Finca Casa colibri – Alojamiento con piscina">
   <meta name="twitter:description" content="Alojamiento familiar con piscina y acceso rápido al pueblo en Arbeláez.">
-  <meta name="twitter:image" content="https://www.arbelaez.com.co/media/Casa_Colibri/og-1200x630.jpg">
+  <meta name="twitter:image" content="https://www.arbelaez.com.co/alojamiento/Casa_Colibri/img/logo.jpeg">
 
   <!-- Icono / tema -->
   <link rel="icon" href="../../alojamiento/Casa_Colibri/img/logo.jpeg" type="image/jpeg">
-  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/Casa_Colibri/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/alojamiento/Casa_Colibri/img/logo.jpeg">
   <meta name="theme-color" content="#005548">
 
   <!-- Rendimiento -->
@@ -47,7 +47,7 @@
     "@context": "https://schema.org",
     "@type": "LodgingBusiness",
     "name": "Finca Casa colibri",
-    "image": "https://www.arbelaez.com.co/media/Casa_Colibri/og-1200x630.jpg",
+    "image": "https://www.arbelaez.com.co/alojamiento/Casa_Colibri/img/logo.jpeg",
     "url": "https://www.arbelaez.com.co/alojamiento/Casa_Colibri/",
     "telephone": "+57 3143417111",
     "priceRange": "$$",

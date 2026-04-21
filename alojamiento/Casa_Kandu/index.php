@@ -25,12 +25,12 @@
   <meta property="og:title" content="Casa Kandu – Alojamiento familiar en Arbeláez">
   <meta property="og:description" content="Ambiente familiar, naturaleza y antigüedades de la región cafetera en Arbeláez, Cundinamarca. Un lugar tranquilo para descansar.">
   <meta property="og:url" content="https://www.arbelaez.com.co/alojamiento/Casa_Kandu/index.php">
-  <meta property="og:image" content="https://www.arbelaez.com.co/media/Casa_Kandu/og-1200x630.jpg">
+  <meta property="og:image" content="https://www.arbelaez.com.co/alojamiento/Casa_Kandu/img/general.jpg">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Casa Kandu – Alojamiento familiar en Arbeláez">
   <meta name="twitter:description" content="Alojamiento tranquilo en Arbeláez con naturaleza y tradición cafetera.">
-  <meta name="twitter:image" content="https://www.arbelaez.com.co/media/Casa_Kandu/og-1200x630.jpg">
+  <meta name="twitter:image" content="https://www.arbelaez.com.co/alojamiento/Casa_Kandu/img/general.jpg">
 
   <!-- Redes oficiales del portal -->
   <link rel="me" href="https://www.facebook.com/profile.php?id=61580302286594">
@@ -59,7 +59,7 @@
     "@context": "https://schema.org",
     "@type": "LodgingBusiness",
     "name": "Casa Kandu",
-    "image": "https://www.arbelaez.com.co/media/Casa_Kandu/og-1200x630.jpg",
+    "image": "https://www.arbelaez.com.co/alojamiento/Casa_Kandu/img/general.jpg",
     "url": "https://www.arbelaez.com.co/alojamiento/Casa_Kandu/index.php",
     "telephone": "+57 3112250633",
     "priceRange": "$$",

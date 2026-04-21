@@ -25,12 +25,12 @@
   <meta property="og:title" content="Hotel La Casita N°2 – Alojamiento vía San Bernardo en Arbeláez">
   <meta property="og:description" content="Un lugar hermoso, cómodo y accesible vía San Bernardo en Arbeláez, Cundinamarca. Ideal para descansar y disfrutar la naturaleza.">
   <meta property="og:url" content="https://www.arbelaez.com.co/alojamiento/La_Casita2/index.php">
-  <meta property="og:image" content="https://www.arbelaez.com.co/media/La_Casita2/og-1200x630.jpg">
+  <meta property="og:image" content="https://www.arbelaez.com.co/alojamiento/La_Casita2/img/logo.png">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Hotel La Casita N°2 – Alojamiento vía San Bernardo en Arbeláez">
   <meta name="twitter:description" content="Alojamiento hermoso, cómodo y accesible en Arbeláez (vía San Bernardo).">
-  <meta name="twitter:image" content="https://www.arbelaez.com.co/media/La_Casita2/og-1200x630.jpg">
+  <meta name="twitter:image" content="https://www.arbelaez.com.co/alojamiento/La_Casita2/img/logo.png">
 
   <!-- Redes oficiales del portal -->
   <link rel="me" href="https://www.facebook.com/profile.php?id=61580302286594">
@@ -39,7 +39,7 @@
 
   <!-- Icono / tema -->
   <link rel="icon" href="../../alojamiento/La_Casita2/img/logo.png" type="image/jpeg">
-  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/La_Casita2/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/alojamiento/La_Casita2/img/logo.png">
   <meta name="theme-color" content="#005548">
 
   <!-- Rendimiento (fuente + hero) -->
@@ -59,7 +59,7 @@
     "@context": "https://schema.org",
     "@type": "LodgingBusiness",
     "name": "Hotel La Casita N°2",
-    "image": "https://www.arbelaez.com.co/media/La_Casita2/og-1200x630.jpg",
+    "image": "https://www.arbelaez.com.co/alojamiento/La_Casita2/img/logo.png",
     "url": "https://www.arbelaez.com.co/alojamiento/La_Casita2/index.php",
     "telephone": "+57 3112250633",
     "priceRange": "$$",

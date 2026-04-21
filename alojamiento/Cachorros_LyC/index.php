@@ -25,15 +25,15 @@
   <meta property="og:title" content="Cachorros L&amp;C – Mirador, Camping y Asados en Arbeláez">
   <meta property="og:description" content="Mirador a la entrada de Arbeláez con zona para acampar, cerveza fría y carne asada. Plan perfecto para amigos, familias y parejas.">
   <meta property="og:url" content="https://www.arbelaez.com.co/alojamiento/Cachorros_LyC/index.php">
-  <meta property="og:image" content="https://www.arbelaez.com.co/media/Cachorros_LyC/og-1200x630.jpg">
+  <meta property="og:image" content="https://www.arbelaez.com.co/alojamiento/Cachorros_LyC/img/logo.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Cachorros L&amp;C – Mirador, Camping y Asados en Arbeláez">
   <meta name="twitter:description" content="Mirador a la entrada de Arbeláez: camping, cerveza fría y carne asada (BBQ).">
-  <meta name="twitter:image" content="https://www.arbelaez.com.co/media/Cachorros_LyC/og-1200x630.jpg">
+  <meta name="twitter:image" content="https://www.arbelaez.com.co/alojamiento/Cachorros_LyC/img/logo.jpg">
 
   <!-- Icono / tema -->
   <link rel="icon" href="../../alojamiento/Cachorros_LyC/img/logo.jpg" type="image/jpeg">
-  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/Cachorros_LyC/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/alojamiento/Cachorros_LyC/img/logo.jpg">
   <meta name="theme-color" content="#005548">
 
   <!-- Rendimiento -->
@@ -48,7 +48,7 @@
     "@type": "TouristAttraction",
     "name": "Cachorros L&C",
     "description": "Mirador a la entrada del pueblo con zona para acampar, tomar cerveza y disfrutar carne asada. Ideal para amigos, familias y parejas.",
-    "image": "https://www.arbelaez.com.co/media/Cachorros_LyC/og-1200x630.jpg",
+    "image": "https://www.arbelaez.com.co/alojamiento/Cachorros_LyC/img/logo.jpg",
     "url": "https://www.arbelaez.com.co/alojamiento/Cachorros_LyC/index.php",
     "telephone": "+57 3143417111",
     "address": {

@@ -35,7 +35,7 @@ $cssTime = file_exists($cssFile) ? filemtime($cssFile) : time();
         <h3>Hecho a mano, con identidad</h3>
         <p>
           Piezas únicas en tejido, madera y cerámica. Personaliza encargos para ocasiones especiales
-          y apoya a familias artesanas.
+          artesanías de calidad.
         </p>
 
         <div class="acciones_producto">
@@ -113,7 +113,7 @@ $cssTime = file_exists($cssFile) ? filemtime($cssFile) : time();
         <img
           loading="lazy"
           decoding="async"
-          src="../artesanias/Artesanas_Veredas/img/portada.png"
+          src="../artesanias/Artesanas_Veredas/img/slider4.jpeg"
           alt="Artesanías en Veredas de Arbeláez"
         >
       </a>
