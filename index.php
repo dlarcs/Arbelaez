@@ -30,10 +30,10 @@ $jsTime  = filemtime($base . '/home/app.js');
   <meta name="twitter:description" content="Descubre Arbeláez: alojamiento, gastronomía, artesanías, naturaleza y lugares turísticos.">
   <meta name="twitter:image" content="https://www.arbelaez.com.co/home/img/logo1.jpeg">
 
-  <link rel="icon" href="/home/img/logo1.jpeg">
-  <link rel="icon" type="image/png" sizes="32x32" href="/home/img/logo1.jpeg">
-  <link rel="icon" type="image/png" sizes="16x16" href="/home/img/logo1.jpeg">
-  <link rel="apple-touch-icon" sizes="180x180" href="/home/img/logo1.jpeg">
+  <link rel="icon" href="/home/img/logo_pw.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/home/img/logo_pw.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/home/img/logo_pw.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/home/img/logo_pw.png">
 
 
   <link rel="stylesheet" href="/home/style.css?v=<?= $cssTime ?>">
@@ -45,7 +45,7 @@ $jsTime  = filemtime($base . '/home/app.js');
   <?php include $base . "/home/intro/intro.php"; ?>
   <?php include $base . "/home/places/places.php"; ?>
   <?php include $base . "/home/imagen/imagen.php"; ?>
-  <?php include $base . "/home/Rifa/rifa.php"; ?>
+  
   <?php include $base . "/home/text/text.php"; ?>
   <?php include $base . "/home/maps/maps.php"; ?>
   <?php include $base . "/global/footer/footer.php"; ?>
