@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,27 +18,22 @@
 	<meta name="geo.region" content="CO-CUN">
 	<meta name="geo.placename" content="Arbeláez">
 
+	<!-- Palabras clave -->
+	<meta name="keywords" content="mejor restaurante en Arbeláez, restaurante Arbeláez, la mejor comida en Arbeláez, qué hacer en Arbeláez, celebraciones en Arbeláez, cumpleaños en Arbeláez, aniversarios Arbeláez, cenas románticas Arbeláez, parrilla en Arbeláez, volcanes dulces, postres artesanales Arbeláez, cócteles en Arbeláez, comida típica Cundinamarca, restaurante familiar Arbeláez, restaurante para grupos Arbeláez, reservas restaurante Arbeláez, gastronomía Arbeláez, dónde comer en Arbeláez, planes en Arbeláez, restaurante con terraza Arbeláez">
 
-	<!-- Palabras clave (no crítico para Google, útil para otros motores) -->
-	<meta name="keywords" content="mejor restaurante en Arbeláez, restaurante Arbeláez,
-  la mejor comida en Arbeláez, qué hacer en Arbeláez, celebraciones en Arbeláez,
-  cumpleaños en Arbeláez, aniversarios Arbeláez, cenas románticas Arbeláez,
-  parrilla en Arbeláez, volcanes dulces, postres artesanales Arbeláez,
-  cócteles en Arbeláez, comida típica Cundinamarca, restaurante familiar Arbeláez,
-  restaurante para grupos Arbeláez, reservas restaurante Arbeláez, gastronomía Arbeláez,
-  dónde comer en Arbeláez, planes en Arbeláez, restaurante con terraza Arbeláez">
-
-	<!-- Open Graph / Twitter -->
+	<!-- Open Graph -->
 	<meta property="og:locale" content="es_CO">
 	<meta property="og:type" content="restaurant">
-	<meta property="og:title" content="KapaLuna 360° – Restaurante en Arbeláez">
-	<meta property="og:description" content="Parrilla, volcanes, postres y cócteles. Perfecto para celebraciones y planes en Arbeláez.">
+	<meta property="og:title" content="KapaLuna 360° – Restaurante en Arbeláez | Parrilla, volcanes y cócteles">
+	<meta property="og:description" content="KapaLuna 360° en Arbeláez, Cundinamarca. Disfruta parrilla, volcanes, postres y cócteles artesanales. Ideal para celebraciones, cumpleaños y planes especiales.">
 	<meta property="og:url" content="https://www.arbelaez.com.co/gastronomia/kapaluna360/">
 	<meta property="og:image" content="https://www.arbelaez.com.co/gastronomia/kapaLuna360/menu/img/logo_kapaLuna.png">
+	<meta property="og:site_name" content="Arbelaez.com.co">
 
+	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="KapaLuna 360° – Restaurante en Arbeláez">
-	<meta name="twitter:description" content="La mejor comida en Arbeláez: parrilla, volcanes, postres y cócteles.">
+	<meta name="twitter:description" content="Parrilla, volcanes, postres y cócteles artesanales en Arbeláez. Ideal para celebraciones y momentos especiales.">
 	<meta name="twitter:image" content="https://www.arbelaez.com.co/gastronomia/kapaLuna360/menu/img/logo_kapaLuna.png">
 
 	<!-- Icono / tema -->
@@ -49,26 +46,25 @@
 	<link rel="preload" as="image" href="https://www.arbelaez.com.co/gastronomia/kapaLuna360/menu/img/logo_kapaLuna.png">
 	<link rel="stylesheet" href="../../gastronomia/kapaLuna360/style.css">
 
-	<!-- Datos estructurados Restaurant (ajusta teléfono, horarios, URL y geo si los tienes) -->
+	<!-- Datos estructurados -->
 	<script type="application/ld+json">
-		{
-		    "@context": "https://schema.org",
-		    "@type": "Restaurant",
-		    "name": "KapaLuna 360°",
-		    "url": "https://www.arbelaez.com.co/gastronomia/kapaLuna360/index.php#restaurant",
-		    "address": {
-		      "@type": "PostalAddress",
-		      "addressLocality": "Arbeláez",
-		      "addressRegion": "Cundinamarca",
-		      "addressCountry": "CO"
-		    },
-		    "servesCuisine": ["Parrilla","Cocina colombiana","Postres","Cócteles"],
-		    "priceRange": "$$",
-		    "telephone": "+57 3024229260",
-		    "acceptsReservations": True,
-		    "openingHours": ["Mo-Su 12:00-22:00"]
-		  }
-
+	{
+	  "@context": "https://schema.org",
+	  "@type": "Restaurant",
+	  "name": "KapaLuna 360°",
+	  "url": "https://www.arbelaez.com.co/gastronomia/kapaluna360/",
+	  "address": {
+	    "@type": "PostalAddress",
+	    "addressLocality": "Arbeláez",
+	    "addressRegion": "Cundinamarca",
+	    "addressCountry": "CO"
+	  },
+	  "servesCuisine": ["Parrilla", "Cocina colombiana", "Postres", "Cócteles"],
+	  "priceRange": "$$",
+	  "telephone": "+57 3024229260",
+	  "acceptsReservations": true,
+	  "openingHours": ["Mo-Su 12:00-22:00"]
+	}
 	</script>
 </head>
 

@@ -25,11 +25,11 @@
   <meta property="og:title" content="El Fogón del Triángulo – Parrilla y carnes con sazón en Arbeláez">
   <meta property="og:description" content="Carnes a la parrilla con verdadero sabor colombiano. Ambiente familiar, perfecto para parejas y amigos. Postres y cócteles.">
   <meta property="og:url" content="https://www.arbelaez.com.co/gastronomia/El_Fogon_del_triangulo/">
-  <meta property="og:image" content="https://www.arbelaez.com.co/media/El_Fogon_del_triangulo/og-1200x630.jpg">
+  <meta property="og:image" content="https://www.arbelaez.com.co/gastronomia/El_Fogon_del_Triangulo/img/logo.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="El Fogón del Triángulo – Parrilla y carnes con sazón en Arbeláez">
   <meta name="twitter:description" content="Restaurante familiar en Arbeláez. Carnes a la parrilla, comida casera, postres y cócteles. Ideal para compartir.">
-  <meta name="twitter:image" content="https://www.arbelaez.com.co/media/El_Fogon_del_triangulo/og-1200x630.jpg">
+  <meta name="twitter:image" content="https://www.arbelaez.com.co/gastronomia/El_Fogon_del_Triangulo/img/logo.png">
 
   <!-- Icono / tema -->
   <link rel="icon" href="../../gastronomia/El_Fogon_del_Triangulo/img/logo.png" type="image/png">

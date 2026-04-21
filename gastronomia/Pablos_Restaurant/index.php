@@ -26,15 +26,15 @@
 	<meta property="og:title" content="Pablos_Restaurant  – Restaurante en Arbeláez">
 	<meta property="og:description" content="Arbeláez Cundinamarca, uno de los restaurantes mas antiguos de Arbeláez, sopas, sancocho, gallina, picadas.">
 	<meta property="og:url" content="https://www.arbelaez.com.co/gastronomia/Pablos_Restaurant/">
-	<meta property="og:image" content="https://www.arbelaez.com.co/media/Pablos_Restaurant/og-1200x630.jpg">
+	<meta property="og:image" content="https://www.arbelaez.com.co/gastronomia/img/Pablos_Restaurant.jpg">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="Pablos_Restaurant  – Restaurante en Arbeláez">
 	<meta name="twitter:description" content="La mejor comida en Arbeláez en desayunos, almuerzos, .">
-	<meta name="twitter:image" content="https://www.arbelaez.com.co/media/Pablos_Restaurant/og-1200x630.jpg">
+	<meta name="twitter:image" content="https://www.arbelaez.com.co/gastronomia/img/Pablos_Restaurant.jpg">
 
 	<!-- Icono / tema -->
 	<link rel="icon" href="../../gastronomia/img/Pablos_Restaurant.jpg" type="image/png">
-	<link rel="apple-touch-icon" href="https://www.arbelaez.com.co/media/Pablos_Restaurant/apple-touch-icon.png">
+	<link rel="apple-touch-icon" href="https://www.arbelaez.com.co/gastronomia/img/Pablos_Restaurant.jpg">
 	<meta name="theme-color" content="#005548">
 
 	<!-- Rendimiento -->

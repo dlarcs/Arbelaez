@@ -31,7 +31,7 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="kalu-gastrobar – Restaurante en Arbeláez">
 	<meta name="twitter:description" content="La mejor comida en Arbeláez: parrilla, volcanes, postres y cócteles.">
-	<meta name="twitter:image" content="https://www.arbelaez.com.co/media/kalu/og-1200x630.jpg">
+	<meta name="twitter:image" content="https://www.arbelaez.com.co/gastronomia/img/kalu.jpg">
 
 	<!-- Icono / tema -->
 	<link rel="icon" href="../../gastronomia/img/kalu.jpg" type="image/png">
