@@ -2,9 +2,9 @@ const indicator = document.querySelector('.scroll-indicator');
 
 if (indicator) {
   // Cuántos vh quieres que baje al hacer click
-  const SCROLL_AMOUNT_VH = 50;   // 80vh
+  const SCROLL_AMOUNT_VH = 80;   // 80vh
   // A partir de qué punto (en vh) se esconde la flecha
-  const HIDE_AFTER_VH = 70vh;      // 60vh
+  const HIDE_AFTER_VH = 530;      // 60vh
 
   // Función auxiliar para convertir vh a píxeles
   const vhToPx = (vh) => (window.innerHeight / 100) * vh;
