@@ -22,7 +22,11 @@ body{
   overflow-x: hidden;
   background: linear-gradient(to bottom,transparent 0%,rgba(0, 85, 72, 1) 100%);
 }
-
+@media (max-width: 768px){
+  .body_home{
+    width: min(100% - 1rem, 1200px);
+  }
+}
 img,
 video,
 iframe,
