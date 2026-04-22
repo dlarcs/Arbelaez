@@ -181,8 +181,7 @@
   font-size: 13px;
   font-weight: 600;
   border: 1px solid var(--stroke);
-  /* background: rgba(255, 255, 255, 0.08); */
-  background-color: green;
+  background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(10px);
   transition: transform 0.15s ease, background 0.15s ease;
 }

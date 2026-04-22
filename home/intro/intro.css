@@ -5,7 +5,6 @@
   overflow-wrap: break-word; /* si hay palabras largas, las parte */
   word-break: normal;
   box-sizing: border-box;
-  background-color: green;
 }
 
 .post-header__inner{
