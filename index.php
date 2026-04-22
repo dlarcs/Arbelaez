@@ -45,7 +45,7 @@ $jsTime  = filemtime($base . '/home/app.js');
   <?php include $base . "/home/intro/intro.php"; ?>
   <?php include $base . "/home/places/places.php"; ?>
   <?php include $base . "/home/imagen/imagen.php"; ?>
-
+  <?php include $base . "/home/Rifa/rifa.php" ?>
   <?php include $base . "/home/text/text.php"; ?>
   <?php include $base . "/home/maps/maps.php"; ?>
   <?php include $base . "/global/footer/footer.php"; ?>
