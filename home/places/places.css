@@ -134,6 +134,7 @@
   isolation: isolate;
   display: flex;
   align-items: flex-end;
+  background-color: grey;
 }
 
 .cat__overlay {
