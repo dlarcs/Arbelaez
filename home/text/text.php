@@ -28,7 +28,7 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
           <div class="num">02</div>
           <p class="txt">
             <strong>Un pueblo para recorrer a pie.</strong> El centro es ideal para pasear sin afán: parque,
-            calles tranquilas, charlas con la gente y fotos bonitas en cada esquina.
+            calles tranquilas, charlas con la gente y fotos bonitas en cada esquina, caminatas ecologícas, gastronomía y artesanías.
           </p>
         </div>
       </div>
