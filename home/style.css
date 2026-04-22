@@ -1,9 +1,5 @@
-body, html{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
+html{
+  box-sizing: border-box;
 }
 
 *,
@@ -17,7 +13,7 @@ body, html{
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
-  background: linear-gradient(to bottom,transparent 0%,rgba(0, 85, 72, 1) 100%);
+  background: blue;
 }
 
 img,
