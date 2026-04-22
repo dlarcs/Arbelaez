@@ -1,33 +1,35 @@
 html{
   box-sizing: border-box;
-  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
 }
 
 *,
 *::before,
 *::after{
   box-sizing: inherit;
+  min-width: 0;
 }
 
 body{
   margin: 0;
   padding: 0;
   width: 100%;
-  overflow-x: hidden;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: clip;
 }
+
 .body_home{
   margin: 0;
   width: 100%;
   max-width: 100%;
-  overflow-x: hidden;
-  background: linear-gradient(to bottom,transparent 0%,rgba(0, 85, 72, 1) 100%);
+  min-width: 0;
+  overflow-x: clip;
+  background: linear-gradient(to bottom, transparent 0%, rgba(0, 85, 72, 1) 100%);
 }
-@media (max-width: 300px){
-  .body_home{
-    width: 100vw;
-    background-color: green;
-  }
-}
+
 img,
 video,
 iframe,
@@ -40,6 +42,42 @@ svg{
 
 section,
 div,
-main{
+main,
+header,
+footer,
+article,
+aside,
+nav{
   min-width: 0;
+  max-width: 100%;
+}
+
+@media (max-width: 768px){
+  html,
+  body,
+  .body_home{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  *{
+    max-width: 100%;
+  }
+
+  iframe,
+  video,
+  canvas,
+  svg,
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 300px){
+  .body_home{
+    width: 100%;
+    max-width: 100%;
+  }
 }
