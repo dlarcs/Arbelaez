@@ -105,3 +105,16 @@
     bottom: 1.1rem;
   }
 }
+
+@media (max-width: 768px){
+  .body_Corpus_Christi{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+@media (max-width: 300px){
+  .body_Corpus_Christi{
+    width: 100%;
+    max-width: 100%;
+  }
+}
