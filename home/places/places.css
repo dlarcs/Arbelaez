@@ -107,7 +107,9 @@
 
 /* Grid */
 .grid {
-  width: clamp(280px, calc(100vw - 40px), 1200px);
+  max-width: 300px;
+  min-width: 180px;
+  width: 280px;
   margin: 0 auto;
   padding: 16px;
   display: grid;
