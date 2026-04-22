@@ -25,6 +25,7 @@ body{
 @media (max-width: 768px){
   .body_home{
     width: min(100% - 1rem, 1200px);
+    background-color: red;
   }
 }
 img,
