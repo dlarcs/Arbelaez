@@ -46,7 +46,7 @@
 .slider__inner{
   position: relative;
   z-index: 2;
-  width: clamp(280px, calc(100vw - 40px), 1200px);
+  width: clamp(280px, calc(100% - 40px), 1200px);
   padding: clamp(1.4rem, 3vw, 2.3rem);
   display: flex;
   flex-direction: column;
@@ -88,7 +88,7 @@
 
 .slider__desc{
   margin: 0;
-  width: clamp(280px, calc(100vw - 40px), 1200px);
+  width: clamp(280px, calc(100% - 40px), 1200px);
   color: var(--slider-muted);
   font-size: clamp(1rem, 1.4vw, 1.25rem);
   line-height: 1.65;
@@ -140,7 +140,7 @@
   grid-template-columns: 52px 1fr 52px;
   align-items: center;
   gap: .9rem;
-  width: clamp(280px, calc(100vw - 40px), 1200px);
+  width: clamp(280px, calc(100% - 40px), 1200px);
   margin: 2rem  auto;
 }
 

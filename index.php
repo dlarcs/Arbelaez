@@ -10,7 +10,7 @@ $jsTime  = filemtime($base . '/home/app.js');
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Arbeláez Turismo | Cundinamarca | Qué comprar, Qué Hacer, Dónde Comer y Dónde Dormir | Things to Do, Where to Eat & Stay</title>
+  <title>Arbeláez  | Cundinamarca | Turismo</title>
   <meta name="description" content="Descubre Arbeláez, Cundinamarca: naturaleza, alojamiento, gastronomía, artesanías y lugares turísticos cerca de Bogotá.">
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
   <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
