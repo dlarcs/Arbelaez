@@ -9,7 +9,7 @@
 
 /* Sección */
 .eco{
-  width: 100vw;
+  width: 100%;
   color: var(--eco-ink);
   padding: 10%;
   overflow: hidden; /* para que no se vean cosas fuera al animar */
