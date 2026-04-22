@@ -10,15 +10,20 @@
   --stroke: rgba(255, 255, 255, 0.14);
   --radius: 16px;
   --shadow: 0 16px 46px rgba(0, 0, 0, 0.34);
+  --max: 1040px;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
 .places {
   width: 100%;
   color: var(--text);
   overflow-x: hidden;
-  box-sizing: border-box;
-  background-color: red;
 }
 
 /* Fondos por categoría */
@@ -58,7 +63,7 @@
 }
 
 .top__inner {
-  width: clamp(280px, calc(100vw - 40px), 1200px);
+  max-width: var(--max);
   margin: 0 auto;
   padding: 16px;
   display: flex;
@@ -107,9 +112,7 @@
 
 /* Grid */
 .grid {
-  max-width: 300px;
-  min-width: 180px;
-  width: 280px;
+  max-width: var(--max);
   margin: 0 auto;
   padding: 16px;
   display: grid;
@@ -171,7 +174,7 @@
 
 .cat__content p {
   margin: 0;
-  width: 46ch;
+  max-width: 46ch;
   color: #fafafa;
   font-size: 14px;
   line-height: 1.45;
@@ -206,13 +209,13 @@
 }
 
 /* Responsive */
-@media (width: 900px) {
+@media (max-width: 900px) {
   .grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
-@media (width: 768px) {
+@media (max-width: 768px) {
   .top {
     padding: 16px 12px 8px;
   }
@@ -226,7 +229,7 @@
   }
 }
 
-@media (width: 560px) {
+@media (max-width: 560px) {
   .grid {
     grid-template-columns: 1fr;
   }
