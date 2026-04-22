@@ -1,11 +1,4 @@
-/* =========================
-   Reset básico
-========================= */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+
 
 ul {
   margin: 0;
@@ -29,16 +22,6 @@ a {
   --shadow-1: 0 10px 24px rgba(0, 0, 0, 0.16);
   --radius-pill: 999px;
   --header-pad-x: clamp(1rem, 3vw, 2.5rem);
-}
-
-/* =========================
-   Seguridad contra overflow
-========================= */
-html,
-body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
 }
 
 /* =========================
@@ -327,5 +310,17 @@ body:has(#nav-toggle:checked) {
     background: rgba(255, 255, 255, 1);
     color: #000;
     transform: none;
+  }
+}
+@media (max-width: 768px){
+  .skip-link{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+@media (max-width: 300px){
+  .skip-link{
+    width: 100%;
+    max-width: 100%;
   }
 }
