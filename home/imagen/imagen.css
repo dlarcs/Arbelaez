@@ -95,6 +95,7 @@
   padding-inline: var(--pad-x);
   padding-block: var(--pad-y);
   display: flex;
+  background-color: red;
 }
 
 .text_imagen{
