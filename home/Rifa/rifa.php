@@ -35,6 +35,7 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
           <article class="px-slide is-active" data-slide aria-label="1 de 5">
             <div class="slide-card">
               <figure class="slide-media">
+                <img src="../../home/Rifa/img/img.png" alt="Negocios coloridos en Arbeláez">
               </figure>
 
               <div class="slide-kicker">¿Qué es?</div>
@@ -56,6 +57,7 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
           <article class="px-slide" data-slide aria-label="2 de 5">
             <div class="slide-card">
               <figure class="slide-media">
+                <img src="../../home/Rifa/img/img1.png" alt="Rifa solidaria en Arbeláez">
               </figure>
 
               <div class="slide-kicker">Estructura</div>
@@ -86,6 +88,7 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
           <article class="px-slide" data-slide aria-label="3 de 5">
             <div class="slide-card">
               <figure class="slide-media">
+                <img src="../../home/Rifa/img/img2.png" alt="Fechas de sorteo y boletas">
               </figure>
 
               <div class="slide-kicker">Fechas y valor</div>
@@ -102,6 +105,7 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
           <article class="px-slide" data-slide aria-label="4 de 5">
             <div class="slide-card">
               <figure class="slide-media">
+                <img src="../../home/Rifa/img/img3.png" alt="Premios de la rifa">
               </figure>
 
               <div class="slide-kicker">Premios</div>
@@ -123,6 +127,7 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
           <article class="px-slide" data-slide aria-label="5 de 5">
             <div class="slide-card">
               <figure class="slide-media">
+                <img src="../../home/Rifa/img/img5.png" alt="Apoya la iniciativa y participa">
               </figure>
 
               <div class="slide-kicker">Participa</div>
