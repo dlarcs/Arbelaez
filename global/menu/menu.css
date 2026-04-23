@@ -31,10 +31,10 @@ a {
   position: absolute;
   top: 0.75rem;
   width: 100%;
+  background-color: red;
   left: 0.75rem;
   padding: 0.55rem 0.9rem;
   border-radius: 0.6rem;
-  background: #111827;
   color: #fafafa;
   font-size: 0.9rem;
   font-weight: 500;
