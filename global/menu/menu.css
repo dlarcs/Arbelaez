@@ -312,3 +312,17 @@ body:has(#nav-toggle:checked) {
     transform: none;
   }
 }
+@media (max-width: 768px){
+  .skip-link{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 300px){
+  .skip-link{
+    width: 100vw;
+    max-width: 100%;
+
+  }
+}
