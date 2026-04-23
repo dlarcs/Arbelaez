@@ -85,10 +85,11 @@
     <?php include "../rio/footer/footer.php" ?>
 
   </div>
-  <section class="scroll-indicator" aria-label="More content below">
-    <span class="scroll-indicator__circle">
-      <span class="scroll-indicator__arrow"></span>
-    </span>
-  </section>
+
 </body>
+<section class="scroll-indicator" aria-label="More content below">
+  <span class="scroll-indicator__circle">
+    <span class="scroll-indicator__arrow"></span>
+  </span>
+</section>
 </html>
