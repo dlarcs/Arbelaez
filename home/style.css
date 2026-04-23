@@ -1,7 +1,7 @@
 
 html {
   box-sizing: border-box;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   scroll-behavior: smooth;
 }
 
@@ -111,14 +111,14 @@ overflow-x: hidden;
   }
 }
 @media (max-width: 768px){
-  .html_home{
+  .body_home{
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
   }
 }
 @media (max-width: 300px){
-  .html_home{
+  .body_home{
     width: 100vw;
     max-width: 100%;
 
