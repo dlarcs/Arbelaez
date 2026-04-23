@@ -73,8 +73,9 @@
 </head>
 
 <body class="body_alojamiento">
-  <?php include "../global/menu/menu.php" ?>
   <div class="container_alojamiento">
+    <?php include "../global/menu/menu.php" ?>
+
     <?php include "../alojamiento/seccion/slider/slider.php" ?>
     <?php include "../alojamiento/seccion/alojamiento.php" ?>
   </div>
