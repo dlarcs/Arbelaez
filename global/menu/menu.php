@@ -19,7 +19,6 @@ $cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
     class="burger"
     aria-label="Abrir menú"
     aria-controls="site-nav"
-    aria-haspopup="true"
   ></label>
 
   <label for="nav-toggle" class="scrim" aria-hidden="true"></label>
