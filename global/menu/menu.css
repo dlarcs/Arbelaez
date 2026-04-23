@@ -317,6 +317,7 @@ body:has(#nav-toggle:checked) {
   .skip-link{
     width: 100%;
     max-width: 100%;
+    background-color: red;
     overflow-x: hidden;
   }
 }
@@ -324,6 +325,7 @@ body:has(#nav-toggle:checked) {
   .skip-link{
     width: 100vw;
     max-width: 100%;
+    background-color: blue;
 
   }
 }
