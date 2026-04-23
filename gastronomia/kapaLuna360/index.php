@@ -27,23 +27,23 @@
 	<meta property="og:title" content="KapaLuna 360° – Restaurante en Arbeláez | Parrilla, volcanes y cócteles">
 	<meta property="og:description" content="KapaLuna 360° en Arbeláez, Cundinamarca. Disfruta parrilla, volcanes, postres y cócteles artesanales. Ideal para celebraciones, cumpleaños y planes especiales.">
 	<meta property="og:url" content="https://www.arbelaez.com.co/gastronomia/kapaluna360/">
-	<meta property="og:image" content="https://www.arbelaez.com.co/gastronomia/kapaLuna360/menu/img/logo_kapaLuna.png">
+	<meta property="og:image" content="https://www.arbelaez.com.co/gastronomia/img/kapa_luna.jpg">
 	<meta property="og:site_name" content="Arbelaez.com.co">
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="KapaLuna 360° – Restaurante en Arbeláez">
 	<meta name="twitter:description" content="Parrilla, volcanes, postres y cócteles artesanales en Arbeláez. Ideal para celebraciones y momentos especiales.">
-	<meta name="twitter:image" content="https://www.arbelaez.com.co/gastronomia/kapaLuna360/menu/img/logo_kapaLuna.png">
+	<meta name="twitter:image" content="https://www.arbelaez.com.co/gastronomia/img/kapa_luna.jpg">
 
 	<!-- Icono / tema -->
-	<link rel="icon" href="../../gastronomia/kapaLuna360/menu/img/logo_kapaLuna.png" type="image/png">
-	<link rel="apple-touch-icon" href="https://www.arbelaez.com.co/gastronomia/kapaLuna360/menu/img/logo_kapaLuna.png">
+	<link rel="icon" href="../../gastronomia/img/kapa_luna.jpg" type="image/png">
+	<link rel="apple-touch-icon" href="https://www.arbelaez.com.co/gastronomia/img/kapa_luna.jpg">
 	<meta name="theme-color" content="#005548">
 
 	<!-- Rendimiento -->
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="preload" as="image" href="https://www.arbelaez.com.co/gastronomia/kapaLuna360/menu/img/logo_kapaLuna.png">
+	<link rel="preload" as="image" href="https://www.arbelaez.com.co/gastronomia/img/kapa_luna.jpg">
 	<link rel="stylesheet" href="../../gastronomia/kapaLuna360/style.css">
 
 	<!-- Datos estructurados -->
