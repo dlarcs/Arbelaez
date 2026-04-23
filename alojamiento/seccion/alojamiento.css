@@ -17,7 +17,6 @@
   /* Espaciado fluido */
   --gap: clamp(.9rem, 1vw + .6rem, 1.25rem);
   --pad: clamp(1rem, 1.2vw + .6rem, 1.25rem);
-  --container-max: 1200px;
 
 }
 
@@ -29,7 +28,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--gap);
-  width: min(100%, var(--container-max));
+  width: 100%;
   color: var(--text);
   align-items: stretch;
 }
