@@ -31,10 +31,9 @@ a {
   position: absolute;
   top: 0.75rem;
   left: 0.75rem;
-  width: 100vw;
   padding: 0.55rem 0.9rem;
   border-radius: 0.6rem;
-  background:black;
+  background: #111827;
   color: #fff;
   font-size: 0.9rem;
   font-weight: 500;
@@ -314,18 +313,14 @@ body:has(#nav-toggle:checked) {
   }
 }
 @media (max-width: 768px){
-  .skip-link{
+  .nav{
     width: 100%;
     max-width: 100%;
-    background-color: red;
     overflow-x: hidden;
   }
-}
 @media (max-width: 300px){
-  .skip-link{
-    width: 100vw;
+  .nav{
+    width: 100%;
     max-width: 100%;
-    background-color: blue;
-
   }
 }
