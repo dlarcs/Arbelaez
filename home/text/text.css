@@ -7,7 +7,7 @@
    }
 /* Contenedor (las líneas quedan “incompletas” por el padding) */
 .section{
-  max-width: 1120px;
+  width: 100%;
   margin: 0 auto;
   padding: 56px 44px;
 }
