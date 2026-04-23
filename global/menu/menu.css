@@ -283,7 +283,7 @@ body:has(#nav-toggle:checked) {
 
   .nav {
     position: static;
-    width: auto;
+    width: 100vw;
     max-width: none;
     height: auto;
     padding: 0;
@@ -310,17 +310,5 @@ body:has(#nav-toggle:checked) {
     background: rgba(255, 255, 255, 1);
     color: #000;
     transform: none;
-  }
-}
-@media (max-width: 768px){
-  .scrim{
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-  }
-@media (max-width: 300px){
-  .scrim{
-    width: 100%;
-    max-width: 100%;
   }
 }
