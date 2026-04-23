@@ -50,7 +50,7 @@ a {
   color: #fff;
   font-size: 0.9rem;
   font-weight: 500;
-  z-index: 10002;
+  z-index: 1000;
   transform: translateY(-200%);
   transition: transform 0.2s ease;
 }
@@ -65,7 +65,7 @@ a {
 .site-header {
   position: sticky;
   top: 0;
-  z-index: 10001;
+  z-index: 1001;
   width: 100%;
   max-width: 100%;
   padding: 1rem var(--header-pad-x);
@@ -121,7 +121,7 @@ a {
   position: relative;
   cursor: pointer;
   border-radius: 10px;
-  z-index: 10003;
+  z-index: 1003;
   background:
     linear-gradient(#000 0 0)
     center 50% / calc(100% - 12px) 2.5px
@@ -167,7 +167,7 @@ a {
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.25s ease;
-  z-index: 10000;
+  z-index: 1000;
 }
 
 /* =========================
@@ -193,7 +193,7 @@ a {
   box-shadow: var(--shadow-1);
   overflow-y: auto;
   overflow-x: hidden;
-  z-index: 10001;
+  z-index: 1001;
 }
 
 .nav-list {
