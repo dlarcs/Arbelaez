@@ -1,12 +1,14 @@
+
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 *,
 *::before,
-*::after{
-  margin: 0;
-  padding: 0;
+*::after {
   box-sizing: inherit;
-}
-.html_home{
-  background-color: red;
 }
 .body_home{
   margin: 0;
@@ -15,7 +17,9 @@
   rgba(235, 255, 235, 0.4) 0%,
   rgba(0, 85, 72, 1) 80%
 );
-padding: 4rem;
+width: 100%;
+min-width: 0;
+overflow-x: hidden;
 }
 .container_home{
   padding:  0 ;
