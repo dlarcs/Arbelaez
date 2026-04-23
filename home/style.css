@@ -1,16 +1,10 @@
-html{
-  box-sizing: border-box;
-  width: 100%;
-  overflow-x: clip;
-}
-
 *,
 *::before,
 *::after{
+  margin: 0;
+  padding: 0;
   box-sizing: inherit;
-  min-width: 0;
 }
-
 
 .body_home{
   margin: 0;
