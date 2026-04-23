@@ -283,7 +283,7 @@ body:has(#nav-toggle:checked) {
 
   .nav {
     position: static;
-    width: 100vw;
+    width: auto;
     max-width: none;
     height: auto;
     padding: 0;
