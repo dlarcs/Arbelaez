@@ -35,7 +35,6 @@ overflow-x: hidden !important;
   flex-direction: column;
   object-fit: cover;
   overflow: hidden;
-  background: blue;
 }
 
 /*Flecha*/

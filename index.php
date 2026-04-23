@@ -40,6 +40,7 @@ $jsTime  = filemtime($base . '/home/app.js');
 </head>
 
 <body class="body_home">
+  <?php include $base . "/global/menu/menu.php"; ?>
 <div class="container_home">
   <?php include $base . "/home/slider/slider.php"; ?>
   <?php include $base . "/home/intro/intro.php"; ?>
