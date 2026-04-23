@@ -246,7 +246,9 @@ a {
   background-color: #111827;
 }
 
-
+body:has(#nav-toggle:checked) {
+  overflow: hidden;
+}
 
 /* =========================
    Focus visible

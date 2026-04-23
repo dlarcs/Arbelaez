@@ -12,7 +12,7 @@ $cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
     <span class="brand-text">Arbeláez Cundinamarca</span>
   </a>
 
-  <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
 
   <label
     for="nav-toggle"
