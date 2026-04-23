@@ -113,6 +113,9 @@
   .body_gastronomia{
     width: 100%;
     max-width: 100%;
+
+  }
+  .scroll-indicator__circle{
     background-color: red;
   }
 }
