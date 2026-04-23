@@ -1,17 +1,10 @@
-html {
-  box-sizing: border-box;
-  overflow-x: hidden;
-}
-
+/* =========================
+   Reset base
+========================= */
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
-}
-
-body {
-  margin: 0;
-  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 ul {
@@ -35,6 +28,8 @@ a {
   --shadow-1: 0 10px 24px rgba(0, 0, 0, 0.16);
   --radius-pill: 999px;
   --header-pad-x: clamp(1rem, 3vw, 2.5rem);
+  --menu-bg-top: rgba(236, 252, 244, 0.98);
+  --menu-bg-bottom: rgba(0, 85, 72, 0.98);
 }
 
 /* =========================
@@ -50,7 +45,7 @@ a {
   color: #fff;
   font-size: 0.9rem;
   font-weight: 500;
-  z-index: 1000;
+  z-index: 1100;
   transform: translateY(-200%);
   transition: transform 0.2s ease;
 }
@@ -73,14 +68,14 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: var(--shadow-1);
-  overflow-x: clip;
 }
 
 /* =========================
-   Marca
+   Brand
 ========================= */
 .brand_menu {
   display: inline-flex;
@@ -102,59 +97,49 @@ a {
 }
 
 /* =========================
-   Toggle
-========================= */
-.nav-toggle {
-  position: absolute;
-  opacity: 0;
-  pointer-events: none;
-}
-
-/* =========================
-   Burger
+   Burger button
 ========================= */
 .burger {
   flex: 0 0 auto;
-  width: 40px;
-  height: 32px;
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
+  width: 42px;
+  height: 42px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  padding: 0;
+  border: 0;
+  background: transparent;
   border-radius: 10px;
+  cursor: pointer;
   z-index: 1003;
-  background:
-    linear-gradient(#000 0 0)
-    center 50% / calc(100% - 12px) 2.5px
-    no-repeat;
-  transition: background 0.25s ease, box-shadow 0.25s ease, transform 0.15s ease;
 }
 
-.burger::before,
-.burger::after {
-  content: "";
-  position: absolute;
-  left: 6px;
-  right: 6px;
+.burger span {
+  display: block;
+  width: 28px;
   height: 2.5px;
-  border-radius: 999px;
+  margin: 0 auto;
   background: #000;
-  transition:
-    transform 0.25s ease,
-    top 0.25s ease,
-    background-color 0.25s ease;
-}
-
-.burger::before {
-  top: 10px;
-}
-
-.burger::after {
-  top: 20px;
+  border-radius: 999px;
+  transition: transform 0.25s ease, opacity 0.25s ease;
 }
 
 .burger:hover {
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4);
-  transform: translateY(-1px);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Burger open state */
+.site-header.is-menu-open .burger span:nth-child(1) {
+  transform: translateY(8.5px) rotate(45deg);
+}
+
+.site-header.is-menu-open .burger span:nth-child(2) {
+  opacity: 0;
+}
+
+.site-header.is-menu-open .burger span:nth-child(3) {
+  transform: translateY(-8.5px) rotate(-45deg);
 }
 
 /* =========================
@@ -167,11 +152,16 @@ a {
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.25s ease;
-  z-index: 1000;
+  z-index: 999;
+}
+
+.site-header.is-menu-open .scrim {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 /* =========================
-   Nav móvil
+   Mobile nav
 ========================= */
 .nav {
   position: fixed;
@@ -179,89 +169,57 @@ a {
   right: 0;
   width: min(82vw, 320px);
   max-width: 100%;
-  height: 100dvh;
-  padding: 4.5rem 1.4rem 2rem;
+  height: 100vh;
+  min-height: 100dvh;
+  padding: 4.8rem 1.4rem 2rem;
   display: flex;
   flex-direction: column;
-  transform: translateX(100%);
-  transition: transform 0.3s ease;
   background: linear-gradient(
     to bottom,
-    rgba(236, 252, 244, 0.97) 0%,
-    rgba(0, 85, 72, 0.97) 100%
+    var(--menu-bg-top) 0%,
+    var(--menu-bg-bottom) 100%
   );
   box-shadow: var(--shadow-1);
   overflow-y: auto;
   overflow-x: hidden;
-  z-index: 1001;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  z-index: 1000;
+}
+
+.site-header.is-menu-open .nav {
+  transform: translateX(0);
 }
 
 .nav-list {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 0.45rem;
   width: 100%;
-  min-width: 0;
 }
 
 .nav-list li {
   width: 100%;
-  min-width: 0;
 }
 
 .nav-list a {
   display: block;
   width: 100%;
-  max-width: 100%;
-  padding: 0.9rem 1rem;
+  padding: 0.95rem 1rem;
   color: #083126;
   border-radius: 10px;
   font-size: 0.98rem;
   font-weight: 500;
   letter-spacing: 0.2px;
   overflow-wrap: break-word;
-  transition:
-    background 0.18s ease,
-    color 0.18s ease,
-    transform 0.18s ease;
+  transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease;
 }
 
-.nav-list a:hover {
+.nav-list a:hover,
+.nav-list a:focus-visible {
   background: rgba(0, 0, 0, 0.95);
   color: #fffbcc;
   transform: translateX(2px);
-}
-
-/* =========================
-   Estados open
-========================= */
-.nav-toggle:checked ~ .nav {
-  transform: translateX(0);
-}
-
-.nav-toggle:checked ~ .scrim {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.nav-toggle:checked + .burger {
-  background: none;
-}
-
-.nav-toggle:checked + .burger::before {
-  top: 50%;
-  transform: translateY(-50%) rotate(45deg);
-  background-color: #111827;
-}
-
-.nav-toggle:checked + .burger::after {
-  top: 50%;
-  transform: translateY(-50%) rotate(-45deg);
-  background-color: #111827;
-}
-
-body:has(#nav-toggle:checked) {
-  overflow: hidden;
 }
 
 /* =========================
@@ -273,20 +231,6 @@ body:has(#nav-toggle:checked) {
   outline: 2px solid #ffdf40;
   outline-offset: 3px;
   border-radius: 8px;
-}
-
-/* =========================
-   Reduced motion
-========================= */
-@media (prefers-reduced-motion: reduce) {
-  .burger,
-  .burger::before,
-  .burger::after,
-  .nav,
-  .scrim,
-  .skip-link {
-    transition: none;
-  }
 }
 
 /* =========================
@@ -312,6 +256,7 @@ body:has(#nav-toggle:checked) {
     width: auto;
     max-width: none;
     height: auto;
+    min-height: auto;
     padding: 0;
     transform: none;
     background: transparent;
@@ -339,9 +284,23 @@ body:has(#nav-toggle:checked) {
     white-space: nowrap;
   }
 
-  .nav-list a:hover {
+  .nav-list a:hover,
+  .nav-list a:focus-visible {
     background: rgba(255, 255, 255, 1);
     color: #000;
     transform: none;
+  }
+}
+
+/* =========================
+   Reduced motion
+========================= */
+@media (prefers-reduced-motion: reduce) {
+  .skip-link,
+  .burger span,
+  .scrim,
+  .nav,
+  .nav-list a {
+    transition: none;
   }
 }
