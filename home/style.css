@@ -19,7 +19,7 @@ html {
 );
 width: 100%;
 min-width: 0;
-overflow-x: hidden;
+overflow-x: hidden !important;
 }
 .container_home{
   padding:  0 ;
