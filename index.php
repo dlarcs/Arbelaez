@@ -5,7 +5,7 @@ $cssTime = filemtime($base . '/home/style.css');
 $jsTime  = filemtime($base . '/home/app.js');
 ?>
 <!DOCTYPE html>
-<html lang="es-CO" dir="ltr">
+<html class="html_home"lang="es-CO" dir="ltr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">

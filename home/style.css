@@ -5,7 +5,9 @@
   padding: 0;
   box-sizing: inherit;
 }
-
+.html_home{
+  background-color: red;
+}
 .body_home{
   margin: 0;
   background: linear-gradient(
@@ -26,8 +28,6 @@ padding: 4rem;
   object-fit: cover;
   overflow: hidden;
 }
-
-
 
 /*Flecha*/
 .scroll-indicator {
