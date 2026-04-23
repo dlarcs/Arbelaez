@@ -120,18 +120,25 @@ a {
 .burger:hover {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
 }
-
-/* Burger open state */
-.site-header.is-menu-open .burger span:nth-child(1) {
+.nav-toggle:checked ~ .burger span:nth-child(1) {
   transform: translateY(8.5px) rotate(45deg);
 }
 
-.site-header.is-menu-open .burger span:nth-child(2) {
+.nav-toggle:checked ~ .burger span:nth-child(2) {
   opacity: 0;
 }
 
-.site-header.is-menu-open .burger span:nth-child(3) {
+.nav-toggle:checked ~ .burger span:nth-child(3) {
   transform: translateY(-8.5px) rotate(-45deg);
+}
+
+.nav-toggle:checked ~ .scrim {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.nav-toggle:checked ~ .nav {
+  transform: translateX(0);
 }
 
 /* =========================
