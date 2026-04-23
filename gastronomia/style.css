@@ -111,7 +111,7 @@
 }
 @media (max-width: 300px){
   .body_gastronomia{
-    width: 100%;
+    width: 100vw;
     max-width: 100%;
 
   }
