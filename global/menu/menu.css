@@ -30,6 +30,7 @@ a {
 .skip-link {
   position: absolute;
   top: 0.75rem;
+  width: 100%;
   left: 0.75rem;
   padding: 0.55rem 0.9rem;
   border-radius: 0.6rem;
@@ -54,7 +55,6 @@ a {
   top: 0;
   z-index: 1001;
   width: 100%;
-  max-width: 100%;
   padding: 1rem var(--header-pad-x);
   display: flex;
   align-items: center;
