@@ -1,16 +1,20 @@
 <?php
 $base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
 
-$cssTime = filemtime($base . '/home/style.css');
-$jsTime  = filemtime($base . '/home/app.js');
+$cssFile = $base . '/home/style.css';
+$jsFile  = $base . '/home/app.js';
+
+$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
+$jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
 ?>
 <!DOCTYPE html>
-<html class="html_home"lang="es-CO" dir="ltr">
+<html class="html_home" lang="es-CO" dir="ltr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Arbeláez  | Cundinamarca | Turismo</title>
+  <title>Arbeláez | Cundinamarca | Turismo</title>
+
   <meta name="description" content="Descubre Arbeláez, Cundinamarca: naturaleza, alojamiento, gastronomía, artesanías y lugares turísticos cerca de Bogotá.">
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
   <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
@@ -18,40 +22,50 @@ $jsTime  = filemtime($base . '/home/app.js');
 
   <link rel="canonical" href="https://www.arbelaez.com.co/">
 
+  <!-- Imagen que aparece al compartir en WhatsApp / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Arbelaez.com.co">
   <meta property="og:title" content="Arbeláez Turismo | Cundinamarca">
   <meta property="og:description" content="Descubre Arbeláez: alojamiento, gastronomía, artesanías, naturaleza y lugares turísticos.">
   <meta property="og:url" content="https://www.arbelaez.com.co/">
   <meta property="og:image" content="https://www.arbelaez.com.co/home/img/logo1.jpeg">
+  <meta property="og:image:secure_url" content="https://www.arbelaez.com.co/home/img/logo1.jpeg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
 
+  <!-- Imagen que aparece al compartir en Twitter/X -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Arbeláez Turismo | Cundinamarca">
   <meta name="twitter:description" content="Descubre Arbeláez: alojamiento, gastronomía, artesanías, naturaleza y lugares turísticos.">
   <meta name="twitter:image" content="https://www.arbelaez.com.co/home/img/logo1.jpeg">
 
+  <!-- Imagen pequeña que aparece en la pestaña del navegador -->
   <link rel="icon" href="/home/img/logo_pw.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/home/img/logo_pw.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/home/img/logo_pw.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/home/img/logo_pw.png">
 
-
   <link rel="stylesheet" href="/home/style.css?v=<?= $cssTime ?>">
 </head>
 
 <body class="body_home">
+
   <?php include $base . "/global/menu/menu.php"; ?>
-<div class="container_home">
-  <?php include $base . "/home/slider/slider.php"; ?>
-  <?php include $base . "/home/intro/intro.php"; ?>
-  <?php include $base . "/home/places/places.php"; ?>
-  <?php include $base . "/home/imagen/imagen.php"; ?>
-  <?php include $base . "/home/Rifa/rifa.php" ?>
-  <?php include $base . "/home/text/text.php"; ?>
-  <?php include $base . "/home/maps/maps.php"; ?>
-</div>
+
+  <div class="container_home">
+    <?php include $base . "/home/slider/slider.php"; ?>
+    <?php include $base . "/home/intro/intro.php"; ?>
+    <?php include $base . "/home/places/places.php"; ?>
+    <?php include $base . "/home/imagen/imagen.php"; ?>
+    <?php include $base . "/home/Rifa/rifa.php"; ?>
+    <?php include $base . "/home/text/text.php"; ?>
+    <?php include $base . "/home/maps/maps.php"; ?>
+  </div>
+
   <?php include $base . "/global/footer/footer.php"; ?>
-  <section class="scroll-indicator" aria-label="More content below">
+
+  <section class="scroll-indicator" aria-label="Más contenido abajo">
     <span class="scroll-indicator__circle">
       <span class="scroll-indicator__arrow"></span>
     </span>
