@@ -27,18 +27,18 @@
 	<meta property="og:title" content="La Marranada Campestre — Restaurante campestre en Arbeláez">
 	<meta property="og:description" content="Restaurante campestre en la vereda San Antonio, cerca al Arenal. Cerdo, sopas, pescado frito, hamburguesas, patacones y comidas rápidas. Vista, tranquilidad y ambiente familiar en Arbeláez.">
 	<meta property="og:url" content="https://www.arbelaez.com.co/gastronomia/La_Marranada/">
-	<meta property="og:image" content="https://www.arbelaez.com.co/media/La_Marranada/og-1200x630.jpg">
+	<meta property="og:image" content="https://www.arbelaez.com.co/gastronomia/img/logo_lamarranada.jpeg">
 	<meta property="og:site_name" content="Arbelaez.com.co">
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="La Marranada Campestre — Restaurante campestre en Arbeláez">
 	<meta name="twitter:description" content="Cerdo, sopas, pescado frito, hamburguesas, patacones y comidas rápidas. Vista y tranquilidad en la vereda San Antonio, cerca al Arenal.">
-	<meta name="twitter:image" content="https://www.arbelaez.com.co/media/La_Marranada/og-1200x630.jpg">
+	<meta name="twitter:image" content="https://www.arbelaez.com.co/gastronomia/img/logo_lamarranada.jpeg">
 
 	<!-- Rendimiento -->
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="preload" as="image" href="https://www.arbelaez.com.co/media/La_Marranada/og-1200x630.jpg">
+	<link rel="preload" as="image" href="https://www.arbelaez.com.co/gastronomia/img/logo_lamarranada.jpeg">
 	<link rel="stylesheet" href="../../gastronomia/La_Marranada/style.css">
 
 	<!-- Datos estructurados -->
