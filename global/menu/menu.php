@@ -19,6 +19,7 @@ $cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
     class="burger"
     aria-label="Abrir menú"
     aria-controls="site-nav"
+    aria-haspopup="true"
   ></label>
 
   <label for="nav-toggle" class="scrim" aria-hidden="true"></label>
@@ -29,11 +30,8 @@ $cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
       <li><a href="../artesanias/index.php">Artesanías</a></li>
       <li><a href="../alojamiento/index.php">Alojamiento</a></li>
       <li><a href="../gastronomia/index.php">Gastronomía</a></li>
-			<li><a href="../festividades/index.php">Festividades</a></li>
-			<li><a href="../rio/index.php">Zonas de agua</a></li>
-
-
-
+      <li><a href="../festividades/index.php">Festividades</a></li>
+      <li><a href="../rio/index.php">Zonas de agua</a></li>
     </ul>
   </nav>
 </header>

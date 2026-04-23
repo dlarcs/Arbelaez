@@ -1,4 +1,18 @@
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
 
 ul {
   margin: 0;
@@ -18,7 +32,6 @@ a {
   --brand-2: #224335;
   --ink: #0b1b16;
   --fg-on-brand: #000;
-
   --shadow-1: 0 10px 24px rgba(0, 0, 0, 0.16);
   --radius-pill: 999px;
   --header-pad-x: clamp(1rem, 3vw, 2.5rem);
@@ -54,6 +67,7 @@ a {
   top: 0;
   z-index: 10001;
   width: 100%;
+  max-width: 100%;
   padding: 1rem var(--header-pad-x);
   display: flex;
   align-items: center;
@@ -62,6 +76,7 @@ a {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: var(--shadow-1);
+  overflow-x: clip;
 }
 
 /* =========================
@@ -71,6 +86,7 @@ a {
   display: inline-flex;
   align-items: center;
   min-width: 0;
+  flex: 1 1 auto;
   max-width: calc(100% - 56px);
 }
 
@@ -82,6 +98,7 @@ a {
   line-height: 1.1;
   letter-spacing: 0.4px;
   overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 /* =========================
@@ -184,17 +201,25 @@ a {
   flex-direction: column;
   gap: 0.4rem;
   width: 100%;
+  min-width: 0;
+}
+
+.nav-list li {
+  width: 100%;
+  min-width: 0;
 }
 
 .nav-list a {
   display: block;
   width: 100%;
+  max-width: 100%;
   padding: 0.9rem 1rem;
   color: #083126;
   border-radius: 10px;
   font-size: 0.98rem;
   font-weight: 500;
   letter-spacing: 0.2px;
+  overflow-wrap: break-word;
   transition:
     background 0.18s ease,
     color 0.18s ease,
@@ -278,6 +303,7 @@ body:has(#nav-toggle:checked) {
   }
 
   .brand_menu {
+    flex: 0 1 auto;
     max-width: none;
   }
 
@@ -296,7 +322,13 @@ body:has(#nav-toggle:checked) {
   .nav-list {
     flex-direction: row;
     align-items: center;
-    gap: 1.2rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .nav-list li {
+    width: auto;
   }
 
   .nav-list a {
@@ -304,6 +336,7 @@ body:has(#nav-toggle:checked) {
     padding: 0.45rem 0.75rem;
     color: var(--fg-on-brand);
     border-radius: var(--radius-pill);
+    white-space: nowrap;
   }
 
   .nav-list a:hover {
