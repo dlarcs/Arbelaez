@@ -19,7 +19,6 @@
 
 	<!-- Palabras clave (SEO) -->
 	<meta name="keywords" content="almuerzos caseros en Arbeláez, restaurante en Arbeláez, comida casera Arbeláez, menú del día Arbeláez, corrientazo Arbeláez, almuerzo ejecutivo Arbeláez, sopas y seco Arbeláez, comida típica en Arbeláez, comida típica Cundinamarca, restaurante familiar Arbeláez, dónde almorzar en Arbeláez, dónde comer en Arbeláez, comidas rápidas en Arbeláez, comida rápida Arbeláez, hamburguesas Arbeláez, salchipapas Arbeláez, perros calientes Arbeláez, papas a la francesa Arbeláez, para llevar Arbeláez, domicilios Arbeláez, restaurante para grupos Arbeláez, reservas restaurante Arbeláez, gastronomía Arbeláez, qué hacer en Arbeláez, planes en Arbeláez">
-  ">
 
 	<!-- Open Graph / Twitter -->
 	<meta property="og:locale" content="es_CO">
@@ -28,7 +27,7 @@
 	<meta property="og:description" content="Parrilla, volcanes, postres y cócteles. Perfecto para celebraciones y planes en Arbeláez.">
 	<meta property="og:url" content="https://www.arbelaez.com.co/gastronomia/kalu/">
 	<meta property="og:image" content="https://www.arbelaez.com.co/gastronomia/img/kalu.jpg">
-	
+
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="kalu-gastrobar – Restaurante en Arbeláez">
 	<meta name="twitter:description" content="La mejor comida en Arbeláez: parrilla, volcanes, postres y cócteles.">

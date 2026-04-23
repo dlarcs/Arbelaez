@@ -9,7 +9,7 @@
 	<!-- Básicos -->
 	<title>KapaLuna 360° – Restaurante en Arbeláez | Parrilla, volcanes y cócteles</title>
 	<meta name="description" content="KapaLuna 360°: restaurante en Arbeláez, Cundinamarca. Parrilla, volcanes, postres y cócteles artesanales. Perfecto para celebraciones, cumpleaños y planes en Arbeláez.">
-	<link rel="canonical" href="https://www.arbelaez.com.co/gastronomia/kapaluna360/">
+	<link rel="canonical" href="https://www.arbelaez.com.co/gastronomia/kapaLuna360/">
 	<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 
 	<!-- Idioma y geografía -->
