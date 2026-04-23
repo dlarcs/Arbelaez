@@ -19,7 +19,6 @@
   --pad: clamp(1rem, 1.2vw + .6rem, 1.25rem);
   --container-max: 1200px;
 
-  color-scheme: light dark;
 }
 
 /* ===== Sección alojamiento ===== */
