@@ -81,8 +81,9 @@
   <div class="container_gastronomia">
     <?php include "../gastronomia/seccion/slider/slider.php" ?>
     <?php include "../gastronomia/seccion/restaurante.php" ?>
-    <?php include "../global/footer/footer.php" ?>
   </div>
+  <?php include "../global/footer/footer.php" ?>
+
 
   <section class="scroll-indicator" aria-label="More content below">
     <span class="scroll-indicator__circle">
