@@ -77,8 +77,8 @@
 </head>
 
 <body class="body_Rios">
-  <?php include "../global/menu/menu.php" ?>
   <div class="container_Rios">
+    <?php include "../global/menu/menu.php" ?>
     <?php include "../rio/slider/slider.php" ?>
     <?php include "../rio/seccion/rios.php" ?>
     <?php include "../rio/maps/maps.php" ?>
