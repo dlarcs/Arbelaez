@@ -1,12 +1,9 @@
 <?php
 $cssFile = '../../home/text/text.css';
-$jsFile  = '../../home/text/text.js';
 
 $cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
-$jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
 ?>
 <link rel="stylesheet" href="../../home/text/text.css?v=<?= $cssTime ?>">
-  <body>
     <section class="section">
 
       <h2>Aprende de Arbeláez </h2>
@@ -90,4 +87,3 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
       </div>
       <div class="rule"></div>
     </section>
-  </body>
