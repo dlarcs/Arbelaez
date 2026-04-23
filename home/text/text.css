@@ -12,7 +12,8 @@
   padding: 56px 44px;
 }
 .text_glow {
-    width: 520px;
+    max-width: 520px;
+    min-width: 280px;
     height: 520px;
     border-radius: 50%;
     position: absolute;
