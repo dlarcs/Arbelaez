@@ -100,3 +100,16 @@
     animation: none;
   }
 }
+@media (max-width: 768px){
+  .hero {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 300px){
+  .hero {
+    width: 100%;
+    max-width: 100%;
+  }
+}
