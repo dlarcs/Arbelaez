@@ -10,20 +10,20 @@ $jsTime = filemtime('../rio/seccion/rios.js');
     <p>Descubre quebradas, ríos, puentes y pozos naturales para caminar, respirar y desconectar.</p>
   </header>
 
-  <section class="grid" aria-label="Listado de ríos y quebradas">
+  <section class="grid img-coffe" aria-label="Listado de ríos y quebradas">
 
     <article class="card" style="--img:url('../../rio/img/batan.png');">
       <div class="card__media">
-        <span class="pill">Río</span>
+        <span class="pill">Kalú</span>
         <div class="card__overlay">
-          <h2 class="card__title">Batan</h2>
+          <h2 class="card__title">Cafe, moca, late</h2>
           <p class="card__meta">
             <span class="meta__icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" width="18" height="18">
                 <path fill="currentColor" d="M12 2c-3.9 0-7 3.1-7 7 0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/>
               </svg>
             </span>
-            Vía Fusagasuga - Arbeláez
+            Al lado de la capilla
           </p>
         </div>
       </div>

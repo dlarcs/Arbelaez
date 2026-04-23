@@ -25,20 +25,20 @@
   <meta property="og:title" content="Turismo Hoy Vivo – Casa Rural Accesible en Arbeláez">
   <meta property="og:description" content="Alojamiento privado y accesible para todos, ideal para descansar de la ciudad y disfrutar avistamiento de aves en Arbeláez, Cundinamarca.">
   <meta property="og:url" content="https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/">
-  <meta property="og:image" content="https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/img/logo.jpeg">
+  <meta property="og:image" content="https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/img/Casa_rural1.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Turismo Hoy Vivo – Casa Rural Accesible en Arbeláez">
   <meta name="twitter:description" content="Alojamiento privado e inclusivo: descanso, naturaleza y avistamiento de aves.">
-  <meta name="twitter:image" content="https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/img/logo.jpeg">
+  <meta name="twitter:image" content="https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/img/Casa_rural1.jpg">
 
   <!-- Icono / tema -->
-  <link rel="icon" href="../../alojamiento/Turismo_Hoy_Vivo/img/logo.jpeg" type="image/jpeg">
-  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/img/logo.jpeg">
+  <link rel="icon" href="../../alojamiento/Turismo_Hoy_Vivo/img/Casa_rural1.jpg" type="image/jpeg">
+  <link rel="apple-touch-icon" href="https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/img/Casa_rural1.jpg">
   <meta name="theme-color" content="#005548">
 
   <!-- Rendimiento -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="image" href="https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/img/logo.jpeg">
+  <link rel="preload" as="image" href="https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/img/Casa_rural1.jpg">
   <?php $cssTime = filemtime('../../alojamiento/Turismo_Hoy_Vivo/style.css'); ?>
   <link rel="stylesheet" href="../../alojamiento/Turismo_Hoy_Vivo/style.css?v=<?= $cssTime ?>">
 
@@ -48,7 +48,7 @@
     "@context": "https://schema.org",
     "@type": "LodgingBusiness",
     "name": "Turismo Hoy Vivo – Casa Rural Accesible",
-    "image": "https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/img/logo.jpeg",
+    "image": "https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/img/Casa_rural1.jpg",
     "url": "https://www.arbelaez.com.co/alojamiento/Turismo_Hoy_Vivo/",
     "telephone": "+57 3193676553",
     "priceRange": "$$",
