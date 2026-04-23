@@ -41,6 +41,7 @@ $jsTime  = filemtime($base . '/home/app.js');
 
 <body class="body_home">
   <?php include $base . "/global/menu/menu.php"; ?>
+<div class="container_home">
   <?php include $base . "/home/slider/slider.php"; ?>
   <?php include $base . "/home/intro/intro.php"; ?>
   <?php include $base . "/home/places/places.php"; ?>
@@ -48,6 +49,7 @@ $jsTime  = filemtime($base . '/home/app.js');
   <?php include $base . "/home/Rifa/rifa.php" ?>
   <?php include $base . "/home/text/text.php"; ?>
   <?php include $base . "/home/maps/maps.php"; ?>
+</div>
   <?php include $base . "/global/footer/footer.php"; ?>
   <section class="scroll-indicator" aria-label="More content below">
     <span class="scroll-indicator__circle">
