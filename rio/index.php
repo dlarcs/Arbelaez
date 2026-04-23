@@ -83,13 +83,13 @@
     <?php include "../rio/seccion/rios.php" ?>
     <?php include "../rio/maps/maps.php" ?>
     <?php include "../rio/footer/footer.php" ?>
-
+    <section class="scroll-indicator" aria-label="More content below">
+      <span class="scroll-indicator__circle">
+        <span class="scroll-indicator__arrow"></span>
+      </span>
+    </section>
   </div>
 
 </body>
-<section class="scroll-indicator" aria-label="More content below">
-  <span class="scroll-indicator__circle">
-    <span class="scroll-indicator__arrow"></span>
-  </span>
-</section>
+
 </html>
