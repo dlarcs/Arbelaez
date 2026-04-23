@@ -76,9 +76,10 @@
 </head>
 
 <body class="body_gastronomia">
-  <?php include "../global/menu/menu.php" ?>
 
   <div class="container_gastronomia">
+    <?php include "../global/menu/menu.php" ?>
+
     <?php include "../gastronomia/seccion/slider/slider.php" ?>
     <?php include "../gastronomia/seccion/restaurante.php" ?>
   </div>
