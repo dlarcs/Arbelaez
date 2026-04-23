@@ -110,3 +110,17 @@ overflow-x: hidden;
     bottom: 1.1rem;
   }
 }
+@media (max-width: 768px){
+  .html_home{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 300px){
+  .html_home{
+    width: 100vw;
+    max-width: 100%;
+
+  }
+}
