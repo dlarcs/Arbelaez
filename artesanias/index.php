@@ -13,8 +13,12 @@
   <link rel="canonical" href="https://www.arbelaez.com.co/artesanias/">
 
   <!-- CSS (cache-busting robusto) -->
-  <?php $cssTime = filemtime('../artesanias/style.css'); ?>
+  <?php
+    $cssTime = filemtime('../artesanias/style.css');
+    $jsTime  = filemtime('../artesanias/app.js');
+  ?>
   <link rel="stylesheet" href="../artesanias/style.css?v=<?= $cssTime ?>">
+  <script src="../artesanias/app.js?v=<?= $jsTime ?>" defer></script>
 
   <!-- Font: optimized -->
   <link rel="preconnect" href="https://fonts.googleapis.com">

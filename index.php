@@ -1,12 +1,4 @@
-<?php
-$base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
 
-$cssFile = $base . '/home/style.css';
-$jsFile  = $base . '/home/app.js';
-
-$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
-$jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
-?>
 <!DOCTYPE html>
 <html class="html_home" lang="es-CO" dir="ltr">
 <head>
@@ -21,6 +13,13 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
   <meta name="theme-color" content="#005548">
 
   <link rel="canonical" href="https://www.arbelaez.com.co/">
+  <?php
+    $cssTime = filemtime('home/style.css');
+    $jsTime  = filemtime('home/app.js');
+  ?>
+  <link rel="stylesheet" href="home/style.css?v=<?= $cssTime ?>">
+  <script src="home/app.js?v=<?= $jsTime ?>" defer></script>
+
 
   <!-- Imagen que aparece al compartir en WhatsApp / Facebook -->
   <meta property="og:type" content="website">
@@ -46,7 +45,6 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
   <link rel="icon" type="image/png" sizes="16x16" href="/home/img/logo_pw.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/home/img/logo_pw.png">
 
-  <link rel="stylesheet" href="/home/style.css?v=<?= $cssTime ?>">
 </head>
 
 <body class="body_home">
@@ -71,6 +69,5 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
     </span>
   </section>
 
-  <script src="/home/app.js?v=<?= $jsTime ?>"></script>
 </body>
 </html>

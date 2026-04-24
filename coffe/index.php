@@ -13,8 +13,12 @@
   <link rel="canonical" href="https://www.arbelaez.com.co/coffe/ruta-del-coffe/">
 
   <!-- CSS (cache-busting) -->
-  <?php $cssTime = filemtime('../coffe/style.css'); ?>
+  <?php
+    $cssTime = filemtime('../coffe/style.css');
+    $jsTime  = filemtime('../coffe/app.js');
+  ?>
   <link rel="stylesheet" href="../coffe/style.css?v=<?= $cssTime ?>">
+  <script src="../coffe/app.js?v=<?= $jsTime ?>" defer></script>
 
   <!-- Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">

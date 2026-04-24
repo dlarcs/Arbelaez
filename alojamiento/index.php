@@ -13,8 +13,12 @@
   <link rel="canonical" href="https://www.arbelaez.com.co/alojamiento/">
 
   <!-- CSS (cache-busting robusto) -->
-  <?php $cssTime = filemtime('../alojamiento/style.css'); ?>
+  <?php
+    $cssTime = filemtime('../alojamiento/style.css');
+    $jsTime  = filemtime('../alojamiento/app.js');
+  ?>
   <link rel="stylesheet" href="../alojamiento/style.css?v=<?= $cssTime ?>">
+  <script src="../alojamiento/app.js?v=<?= $jsTime ?>" defer></script>
 
   <!-- Font: optimized -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
