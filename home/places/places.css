@@ -11,6 +11,7 @@
   width: 100%;
   color: var(--text);
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 /* Fondos por categoría */
