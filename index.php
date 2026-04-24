@@ -1,4 +1,15 @@
 
+<?php
+$base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
+
+$cssFile = $base . '/home/style.css';
+$jsFile  = $base . '/home/app.js';
+
+$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
+$jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
+?>
+<!DOCTYPE html>
+<html class="html_home" lang="es-CO" dir="ltr">
 <!DOCTYPE html>
 <html class="html_home" lang="es-CO" dir="ltr">
 <head>
@@ -13,13 +24,8 @@
   <meta name="theme-color" content="#005548">
 
   <link rel="canonical" href="https://www.arbelaez.com.co/">
-  <?php
-    $cssTime = filemtime('home/style.css');
-    $jsTime  = filemtime('home/app.js');
-  ?>
-  <link rel="stylesheet" href="home/style.css?v=<?= $cssTime ?>">
-  <script src="home/app.js?v=<?= $jsTime ?>" defer></script>
-
+  <link rel="stylesheet" href="/home/style.css?v=<?= $cssTime ?>">
+  <script src="/home/app.js?v=<?= $jsTime ?>" defer></script>
 
   <!-- Imagen que aparece al compartir en WhatsApp / Facebook -->
   <meta property="og:type" content="website">
