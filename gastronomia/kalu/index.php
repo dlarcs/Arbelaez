@@ -24,13 +24,13 @@
 	<meta property="og:locale" content="es_CO">
 	<meta property="og:type" content="restaurant">
 	<meta property="og:title" content="kalu-gastrobar – Restaurante en Arbeláez">
-	<meta property="og:description" content="Parrilla, volcanes, postres y cócteles. Perfecto para celebraciones y planes en Arbeláez.">
+	<meta property="og:description" content="kalu-gastrobar: restaurante en Arbeláez, Cundinamarca. almuerzos, cafe, comida casera, comida rapida.">
 	<meta property="og:url" content="https://www.arbelaez.com.co/gastronomia/kalu/">
 	<meta property="og:image" content="https://www.arbelaez.com.co/gastronomia/img/kalu.jpg">
 
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="kalu-gastrobar – Restaurante en Arbeláez">
-	<meta name="twitter:description" content="La mejor comida en Arbeláez: parrilla, volcanes, postres y cócteles.">
+	<meta name="twitter:description" content="kalu-gastrobar: restaurante en Arbeláez, Cundinamarca. almuerzos, cafe, comida casera, comida rapida.">
 	<meta name="twitter:image" content="https://www.arbelaez.com.co/gastronomia/img/kalu.jpg">
 
 	<!-- Icono / tema -->
@@ -56,7 +56,7 @@
 		      "addressRegion": "Cundinamarca",
 		      "addressCountry": "CO"
 		    },
-		    "servesCuisine": ["Parrilla","Cocina colombiana","Postres","Cócteles"],
+		    "servesCuisine": ["Almuerzos","Cocina colombiana","Comida rapida","Cafe"],
 		    "priceRange": "$$",
 		    "telephone": "+57 3024229260",
 		    "acceptsReservations": True,
