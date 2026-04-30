@@ -1,6 +1,8 @@
 <?php
-$cssFile = '../../home/Rifa/rifa.css';
-$jsFile  = '../../home/Rifa/rifa.js';
+$base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
+
+$cssFile = $base . '/home/Rifa/rifa.css';
+$jsFile  = $base . '/home/Rifa/rifa.js';
 
 $cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
 $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
@@ -8,181 +10,169 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
 
 <link rel="stylesheet" href="../../home/Rifa/rifa.css?v=<?= $cssTime ?>">
 
-<main class="page" id="rifa">
-  <section class="px-slider" id="pxSlider" aria-label="Slider informativo: Arbeláez se llena de color">
+<main class="rifa-page" id="rifa">
+  <section class="rifa-slider" id="rifaSlider" aria-label="Arbeláez se llena de color">
 
-    <div class="px-bg" aria-hidden="true">
-      <span class="px-photo" id="pxPhoto" aria-hidden="true"></span>
-      <span class="px-blob blob-a"></span>
-      <span class="px-blob blob-b"></span>
-      <span class="px-blob blob-c"></span>
-      <span class="px-grid"></span>
-    </div>
-
-    <header class="px-head">
-      <div class="px-badge">Arbeláez • 2026</div>
-      <h1 class="px-title">Arbeláez se llena de color</h1>
-      <p class="px-sub">
-        Iniciativa comunitaria para embellecer negocios y fortalecer turismo, comercio local y orgullo comunitario.
+    <header class="rifa-header">
+      <span class="rifa-badge">Arbeláez • 2026</span>
+      <h1>Arbeláez se llena de color</h1>
+      <p>
+        Iniciativa comunitaria para embellecer negocios y fortalecer turismo,
+        comercio local y orgullo comunitario.
       </p>
     </header>
 
-    <div class="px-frame" role="group" aria-roledescription="carousel" aria-label="Carrusel">
-      <div class="px-viewport">
-        <div class="px-track" id="pxTrack">
+    <div class="rifa-viewport">
+      <div class="rifa-track" id="rifaTrack">
 
-          <article class="px-slide is-active" data-slide aria-label="1 de 5">
-            <div class="slide-card">
-              <figure class="slide-media">
-                <img
-                  src="../../home/Rifa/img/img.png"
-                  alt="Negocios coloridos en Arbeláez"
-                  loading="eager"
-                  decoding="async"
-                  fetchpriority="high"
-                >
-              </figure>
+        <article class="rifa-slide is-active" data-slide aria-label="1 de 5">
+          <div class="slide-card">
+            <figure class="slide-media">
+              <img
+                src="../../home/Rifa/img/img.png"
+                alt="Negocios coloridos en Arbeláez"
+                loading="eager"
+                decoding="async"
+                fetchpriority="high"
+              >
+            </figure>
 
-              <div class="slide-kicker">¿Qué es?</div>
-              <h2 class="slide-title">Una iniciativa para embellecer y visibilizar</h2>
-              <ul class="slide-list">
-                <li>Organiza: <strong>arbelaez.com.co</strong> y aliados locales</li>
-                <li>Lugar: Arbeláez (casco urbano y veredas)</li>
-                <li>Meta: identidad visual y más visibilidad para negocios participantes</li>
-              </ul>
-              <div class="slide-meta">
-                <span class="pill">Comunidad</span>
-                <span class="pill">Turismo</span>
-                <span class="pill">Comercio local</span>
+            <div class="slide-kicker">¿Qué es?</div>
+            <h2 class="slide-title">Una iniciativa para embellecer y visibilizar</h2>
+            <ul class="slide-list">
+              <li>Organiza: <strong>arbelaez.com.co</strong> y aliados locales</li>
+              <li>Lugar: Arbeláez (casco urbano y veredas)</li>
+              <li>Meta: identidad visual y más visibilidad para negocios participantes</li>
+            </ul>
+            <div class="slide-meta">
+              <span class="pill">Comunidad</span>
+              <span class="pill">Turismo</span>
+              <span class="pill">Comercio local</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="rifa-slide" data-slide aria-label="2 de 5">
+          <div class="slide-card">
+            <figure class="slide-media">
+              <img
+                src="../../home/Rifa/img/img1.png"
+                alt="Rifa solidaria en Arbeláez"
+                loading="lazy"
+                decoding="async"
+              >
+            </figure>
+
+            <div class="slide-kicker">Estructura</div>
+            <h2 class="slide-title">2 fases del proyecto</h2>
+            <div class="two-cols">
+              <div class="col">
+                <div class="col-title">Fase 1</div>
+                <p class="col-text">
+                  <strong>Rifa solidaria:</strong> recaudo con venta de boletas y entrega de premios.
+                </p>
+              </div>
+              <div class="col">
+                <div class="col-title">Fase 2</div>
+                <p class="col-text">
+                  <strong>Intervenciones:</strong> murales/pintura de fachadas y/o señalización, financiados con lo recaudado.
+                </p>
               </div>
             </div>
-          </article>
-
-          <article class="px-slide" data-slide aria-label="2 de 5">
-            <div class="slide-card">
-              <figure class="slide-media">
-                <img
-                  src="../../home/Rifa/img/img1.png"
-                  alt="Rifa solidaria en Arbeláez"
-                  loading="lazy"
-                  decoding="async"
-                >
-              </figure>
-
-              <div class="slide-kicker">Estructura</div>
-              <h2 class="slide-title">2 fases del proyecto</h2>
-              <div class="two-cols">
-                <div class="col">
-                  <div class="col-title">Fase 1</div>
-                  <p class="col-text">
-                    <strong>Rifa solidaria:</strong> recaudo con venta de boletas y entrega de premios.
-                  </p>
-                </div>
-                <div class="col">
-                  <div class="col-title">Fase 2</div>
-                  <p class="col-text">
-                    <strong>Intervenciones:</strong> murales/pintura de fachadas y/o señalización, financiados con lo recaudado.
-                  </p>
-                </div>
-              </div>
-              <div class="slide-meta">
-                <span class="pill">Rifa</span>
-                <span class="pill">Murales</span>
-                <span class="pill">Señalización</span>
-              </div>
+            <div class="slide-meta">
+              <span class="pill">Rifa</span>
+              <span class="pill">Murales</span>
+              <span class="pill">Señalización</span>
             </div>
-          </article>
+          </div>
+        </article>
 
-          <article class="px-slide" data-slide aria-label="3 de 5">
-            <div class="slide-card">
-              <figure class="slide-media">
-                <img
-                  src="../../home/Rifa/img/img2.png"
-                  alt="Fechas de sorteo y boletas"
-                  loading="lazy"
-                  decoding="async"
-                >
-              </figure>
+        <article class="rifa-slide" data-slide aria-label="3 de 5">
+          <div class="slide-card">
+            <figure class="slide-media">
+              <img
+                src="../../home/Rifa/img/img2.png"
+                alt="Fechas de sorteo y boletas"
+                loading="lazy"
+                decoding="async"
+              >
+            </figure>
 
-              <div class="slide-kicker">Fechas y valor</div>
-              <h2 class="slide-title">Sorteos + precio de boleta</h2>
-              <ul class="slide-list">
-                <li>Sorteos: <strong>18 de abril de 2026</strong> y <strong>9 de mayo de 2026</strong></li>
-                <li>Valor boleta: <strong>$10.000 COP</strong></li>
-                <li>Número ganador: últimas <strong>3 cifras</strong> de la <strong>Lotería de Boyacá</strong></li>
-              </ul>
+            <div class="slide-kicker">Fechas y valor</div>
+            <h2 class="slide-title">Sorteos + precio de boleta</h2>
+            <ul class="slide-list">
+              <li>Sorteos: <strong>18 de abril de 2026</strong> y <strong>9 de mayo de 2026</strong></li>
+              <li>Valor boleta: <strong>$10.000 COP</strong></li>
+              <li>Número ganador: últimas <strong>3 cifras</strong> de la <strong>Lotería de Boyacá</strong></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="rifa-slide" data-slide aria-label="4 de 5">
+          <div class="slide-card">
+            <figure class="slide-media">
+              <img
+                src="../../home/Rifa/img/img3.png"
+                alt="Premios de la rifa"
+                loading="lazy"
+                decoding="async"
+              >
+            </figure>
+
+            <div class="slide-kicker">Premios</div>
+            <h2 class="slide-title">4 premios (se eliminan al elegirse)</h2>
+            <ul class="slide-list">
+              <li><strong>Mural</strong> / pintura de fachada hasta <strong>2 m²</strong> (primer piso)</li>
+              <li><strong>Tablet Lenovo</strong> (según disponibilidad)</li>
+              <li><strong>Bono</strong> por <strong>$300.000 COP</strong> (redimible en establecimientos participantes)</li>
+              <li><strong>Página</strong> en arbelaez.com.co por <strong>6 meses</strong></li>
+            </ul>
+            <div class="slide-meta">
+              <span class="pill">1 ganador por fecha</span>
+              <span class="pill">Premio elegido = eliminado</span>
             </div>
-          </article>
+          </div>
+        </article>
 
-          <article class="px-slide" data-slide aria-label="4 de 5">
-            <div class="slide-card">
-              <figure class="slide-media">
-                <img
-                  src="../../home/Rifa/img/img3.png"
-                  alt="Premios de la rifa"
-                  loading="lazy"
-                  decoding="async"
-                >
-              </figure>
+        <article class="rifa-slide" data-slide aria-label="5 de 5">
+          <div class="slide-card">
+            <figure class="slide-media">
+              <img
+                src="../../home/Rifa/img/img5.png"
+                alt="Apoya la iniciativa y participa"
+                loading="lazy"
+                decoding="async"
+              >
+            </figure>
 
-              <div class="slide-kicker">Premios</div>
-              <h2 class="slide-title">4 premios (se eliminan al elegirse)</h2>
-              <ul class="slide-list">
-                <li><strong>Mural</strong> / pintura de fachada hasta <strong>2 m²</strong> (primer piso)</li>
-                <li><strong>Tablet Lenovo</strong> (según disponibilidad)</li>
-                <li><strong>Bono</strong> por <strong>$300.000 COP</strong> (redimible en establecimientos participantes)</li>
-                <li><strong>Página</strong> en arbelaez.com.co por <strong>6 meses</strong></li>
-              </ul>
-              <div class="slide-meta">
-                <span class="pill">1 ganador por fecha</span>
-                <span class="pill">Premio elegido = eliminado</span>
-              </div>
+            <div class="slide-kicker">Participa</div>
+            <h2 class="slide-title">Apoya el arte local y gana premios</h2>
+            <ul class="slide-list">
+              <li>Compra tu boleta en negocios aliados: Haz click en:</li>
+              <a href="../../gastronomia/kalu/index.php"><li>Kalu</li></a>
+              <a href="../../alojamiento/Cachorros_LyC/index.php"><li>Cachorros L&C</li></a>
+              <a href="../../gastronomia/Don_Ciprio/index.php"><li>Don Ciprio</li></a>
+              <a href="../../gastronomia/El_Fogon_del_Triangulo/index.php"><li>Fogón del Triángulo</li></a>
+              <li>Ayudas a financiar <strong>murales</strong>, <strong>pintura</strong> y <strong>señalización</strong></li>
+              <li>Más color = más visibilidad para Arbeláez</li>
+            </ul>
+
+            <div class="cta">
+              <a class="btn" href="https://wa.me/573138846378?text=Hola%20quiero%20m%C3%A1s%20informaci%C3%B3n">Conocer más</a>
             </div>
-          </article>
+          </div>
+        </article>
 
-          <article class="px-slide" data-slide aria-label="5 de 5">
-            <div class="slide-card">
-              <figure class="slide-media">
-                <img
-                  src="../../home/Rifa/img/img5.png"
-                  alt="Apoya la iniciativa y participa"
-                  loading="lazy"
-                  decoding="async"
-                >
-              </figure>
-
-              <div class="slide-kicker">Participa</div>
-              <h2 class="slide-title">Apoya el arte local y gana premios</h2>
-              <ul class="slide-list">
-                <li>Compra tu boleta en negocios aliados: Haz click en:</li>
-                <a href="../../gastronomia/kalu/index.php"><li>Kalu</li></a>
-                <a href="../../alojamiento/Cachorros_LyC/index.php"><li>Cachorros L&C</li></a>
-                <a href="../../gastronomia/Don_Ciprio/index.php"><li>Don Ciprio</li></a>
-                <a href="../../gastronomia/El_Fogon_del_Triangulo/index.php"><li>Fogón del Triángulo</li></a>
-                <li>Ayudas a financiar <strong>murales</strong>, <strong>pintura</strong> y <strong>señalización</strong></li>
-                <li>Más color = más visibilidad para Arbeláez</li>
-              </ul>
-
-              <div class="cta">
-                <a class="btn" href="https://wa.me/573138846378?text=Hola%20quiero%20m%C3%A1s%20informaci%C3%B3n">Conocer más</a>
-              </div>
-            </div>
-          </article>
-
-        </div>
-      </div>
-
-      <div class="px-controls">
-        <button class="nav-btn" id="btnPrev" type="button" aria-label="Anterior">‹</button>
-        <div class="dots" id="pxDots" role="tablist" aria-label="Indicadores"></div>
-        <button class="nav-btn" id="btnNext" type="button" aria-label="Siguiente">›</button>
-      </div>
-
-      <div class="px-progress" aria-hidden="true">
-        <span class="px-bar" id="pxBar"></span>
       </div>
     </div>
+
+    <div class="rifa-controls">
+      <button id="btnPrev" type="button" aria-label="Anterior">‹</button>
+      <div class="rifa-dots" id="rifaDots"></div>
+      <button id="btnNext" type="button" aria-label="Siguiente">›</button>
+    </div>
+
   </section>
 </main>
 
-<script src="../../home/Rifa/rifa.js?v=<?= $jsTime ?>" type="text/javascript"></script>
+<script src="../../home/Rifa/rifa.js?v=<?= $jsTime ?>" defer></script>

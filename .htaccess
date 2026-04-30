@@ -4,7 +4,7 @@
 
 <IfModule mod_expires.c>
     ExpiresActive On
-    
+
     # Imágenes - 1 año (cambian raramente)
     ExpiresByType image/jpeg "access plus 1 year"
     ExpiresByType image/jpg "access plus 1 year"
@@ -14,13 +14,13 @@
     ExpiresByType image/svg+xml "access plus 1 year"
     ExpiresByType image/x-icon "access plus 1 year"
     ExpiresByType image/ico "access plus 1 year"
-    
+
     # CSS y JavaScript - 1 mes (cambian ocasionalmente)
     ExpiresByType text/css "access plus 1 month"
     ExpiresByType application/javascript "access plus 1 month"
     ExpiresByType text/javascript "access plus 1 month"
     ExpiresByType application/x-javascript "access plus 1 month"
-    
+
     # Fuentes - 6 meses
     ExpiresByType font/ttf "access plus 6 months"
     ExpiresByType font/otf "access plus 6 months"
@@ -28,20 +28,20 @@
     ExpiresByType font/woff2 "access plus 6 months"
     ExpiresByType application/font-woff "access plus 6 months"
     ExpiresByType application/font-woff2 "access plus 6 months"
-    
+
     # PDF y documentos - 1 mes
     ExpiresByType application/pdf "access plus 1 month"
     ExpiresByType application/msword "access plus 1 month"
     ExpiresByType application/vnd.ms-excel "access plus 1 month"
-    
+
     # Audio y video - 1 mes
     ExpiresByType audio/mpeg "access plus 1 month"
     ExpiresByType video/mp4 "access plus 1 month"
-    
+
     # HTML - 1 hora (cambia frecuentemente)
     ExpiresByType text/html "access plus 1 hour"
     ExpiresByType application/xhtml+xml "access plus 1 hour"
-    
+
     # Flash - 1 mes
     ExpiresByType application/x-shockwave-flash "access plus 1 month"
 </IfModule>
@@ -55,27 +55,27 @@
     <FilesMatch "\.(jpg|jpeg|png|gif|webp|svg|ico)$">
         Header set Cache-Control "public, max-age=31536000, immutable"
     </FilesMatch>
-    
+
     # CSS y JavaScript - cache pública
     <FilesMatch "\.(css|js)$">
         Header set Cache-Control "public, max-age=2592000"
     </FilesMatch>
-    
+
     # Fuentes - cache pública
     <FilesMatch "\.(ttf|otf|woff|woff2|eot)$">
         Header set Cache-Control "public, max-age=15552000"
     </FilesMatch>
-    
+
     # HTML - no cache o cache corto
     <FilesMatch "\.(html|htm|php)$">
         Header set Cache-Control "no-cache, must-revalidate"
     </FilesMatch>
-    
+
     # PDF y documentos
     <FilesMatch "\.(pdf|doc|docx|xls|xlsx)$">
         Header set Cache-Control "public, max-age=2592000"
     </FilesMatch>
-    
+
     # Comprimir respuestas
     <FilesMatch "\.(html|htm|php|css|js|txt|xml|json)$">
         Header set Vary "Accept-Encoding"
@@ -96,13 +96,13 @@
     AddOutputFilterByType DEFLATE text/xml
     AddOutputFilterByType DEFLATE application/xml
     AddOutputFilterByType DEFLATE application/json
-    
+
     # Comprimir fuentes
     AddOutputFilterByType DEFLATE font/woff
     AddOutputFilterByType DEFLATE font/woff2
     AddOutputFilterByType DEFLATE application/font-woff
     AddOutputFilterByType DEFLATE application/font-woff2
-    
+
     # Excluir navegadores antiguos
     BrowserMatch ^Mozilla/4 gzip-only-text/html
     BrowserMatch ^Mozilla/4\.0[678] no-gzip
@@ -145,11 +145,14 @@
     Header set Connection keep-alive
 </IfModule>
 
-# Prevenir clics en imágenes desde otros sitios (hotlinking)
+# Permitir Facebook / WhatsApp para previews
 <IfModule mod_rewrite.c>
     RewriteEngine on
+
+    RewriteCond %{HTTP_USER_AGENT} !(facebookexternalhit|Facebot|WhatsApp|Twitterbot|LinkedInBot) [NC]
     RewriteCond %{HTTP_REFERER} !^$
     RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?arbelaez.com.co [NC]
     RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?localhost [NC]
+
     RewriteRule \.(jpg|jpeg|png|gif|webp)$ - [F,NC]
 </IfModule>

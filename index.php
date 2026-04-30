@@ -8,8 +8,7 @@ $jsFile  = $base . '/home/app.js';
 $cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
 $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
 ?>
-<!DOCTYPE html>
-<html class="html_home" lang="es-CO" dir="ltr">
+
 <!DOCTYPE html>
 <html class="html_home" lang="es-CO" dir="ltr">
 <head>
