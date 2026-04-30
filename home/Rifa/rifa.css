@@ -9,11 +9,12 @@
 }
 
 .rifa-section {
-  padding: clamp(2rem, 5vw, 5rem) 1rem;
+
+  padding: 2rem;
 }
 
 .rifa-container {
-  width: min(1150px, 100%);
+  width: 80%;
   margin: 0 auto;
 }
 
