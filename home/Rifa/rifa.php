@@ -5,14 +5,14 @@ $jsFile  = '../../home/Rifa/rifa.js';
 $cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
 $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
 ?>
+
 <link rel="stylesheet" href="../../home/Rifa/rifa.css?v=<?= $cssTime ?>">
+
 <main class="page" id="rifa">
   <section class="px-slider" id="pxSlider" aria-label="Slider informativo: Arbeláez se llena de color">
 
-    <!-- Parallax background layers -->
     <div class="px-bg" aria-hidden="true">
       <span class="px-photo" id="pxPhoto" aria-hidden="true"></span>
-
       <span class="px-blob blob-a"></span>
       <span class="px-blob blob-b"></span>
       <span class="px-blob blob-c"></span>
@@ -31,11 +31,16 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
       <div class="px-viewport">
         <div class="px-track" id="pxTrack">
 
-          <!-- Slide 1 -->
           <article class="px-slide is-active" data-slide aria-label="1 de 5">
             <div class="slide-card">
               <figure class="slide-media">
-                <img src="../../home/Rifa/img/img.png" alt="Negocios coloridos en Arbeláez">
+                <img
+                  src="../../home/Rifa/img/img.png"
+                  alt="Negocios coloridos en Arbeláez"
+                  loading="eager"
+                  decoding="async"
+                  fetchpriority="high"
+                >
               </figure>
 
               <div class="slide-kicker">¿Qué es?</div>
@@ -53,11 +58,15 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
             </div>
           </article>
 
-          <!-- Slide 2 -->
           <article class="px-slide" data-slide aria-label="2 de 5">
             <div class="slide-card">
               <figure class="slide-media">
-                <img src="../../home/Rifa/img/img1.png" alt="Rifa solidaria en Arbeláez">
+                <img
+                  src="../../home/Rifa/img/img1.png"
+                  alt="Rifa solidaria en Arbeláez"
+                  loading="lazy"
+                  decoding="async"
+                >
               </figure>
 
               <div class="slide-kicker">Estructura</div>
@@ -84,11 +93,15 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
             </div>
           </article>
 
-          <!-- Slide 3 -->
           <article class="px-slide" data-slide aria-label="3 de 5">
             <div class="slide-card">
               <figure class="slide-media">
-                <img src="../../home/Rifa/img/img2.png" alt="Fechas de sorteo y boletas">
+                <img
+                  src="../../home/Rifa/img/img2.png"
+                  alt="Fechas de sorteo y boletas"
+                  loading="lazy"
+                  decoding="async"
+                >
               </figure>
 
               <div class="slide-kicker">Fechas y valor</div>
@@ -101,11 +114,15 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
             </div>
           </article>
 
-          <!-- Slide 4 -->
           <article class="px-slide" data-slide aria-label="4 de 5">
             <div class="slide-card">
               <figure class="slide-media">
-                <img src="../../home/Rifa/img/img3.png" alt="Premios de la rifa">
+                <img
+                  src="../../home/Rifa/img/img3.png"
+                  alt="Premios de la rifa"
+                  loading="lazy"
+                  decoding="async"
+                >
               </figure>
 
               <div class="slide-kicker">Premios</div>
@@ -123,21 +140,25 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
             </div>
           </article>
 
-          <!-- Slide 5 -->
           <article class="px-slide" data-slide aria-label="5 de 5">
             <div class="slide-card">
               <figure class="slide-media">
-                <img src="../../home/Rifa/img/img5.png" alt="Apoya la iniciativa y participa">
+                <img
+                  src="../../home/Rifa/img/img5.png"
+                  alt="Apoya la iniciativa y participa"
+                  loading="lazy"
+                  decoding="async"
+                >
               </figure>
 
               <div class="slide-kicker">Participa</div>
               <h2 class="slide-title">Apoya el arte local y gana premios</h2>
               <ul class="slide-list">
-                <li>Compra tu boleta en negocios aliados: Haz lick en:</li>
+                <li>Compra tu boleta en negocios aliados: Haz click en:</li>
                 <a href="../../gastronomia/kalu/index.php"><li>Kalu</li></a>
                 <a href="../../alojamiento/Cachorros_LyC/index.php"><li>Cachorros L&C</li></a>
                 <a href="../../gastronomia/Don_Ciprio/index.php"><li>Don Ciprio</li></a>
-                <a href="../../gastronomia/El_Fogon_del_Triangulo/index.php"><li>Fogon del triangulo</li></a>
+                <a href="../../gastronomia/El_Fogon_del_Triangulo/index.php"><li>Fogón del Triángulo</li></a>
                 <li>Ayudas a financiar <strong>murales</strong>, <strong>pintura</strong> y <strong>señalización</strong></li>
                 <li>Más color = más visibilidad para Arbeláez</li>
               </ul>
@@ -151,12 +172,9 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
         </div>
       </div>
 
-      <!-- Controls -->
       <div class="px-controls">
         <button class="nav-btn" id="btnPrev" type="button" aria-label="Anterior">‹</button>
-
         <div class="dots" id="pxDots" role="tablist" aria-label="Indicadores"></div>
-
         <button class="nav-btn" id="btnNext" type="button" aria-label="Siguiente">›</button>
       </div>
 
@@ -166,4 +184,5 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
     </div>
   </section>
 </main>
-<script src="../../home/Rifa/rifa.js?v=<?= $jsTime ?>" type="text/javascript" ></script>
+
+<script src="../../home/Rifa/rifa.js?v=<?= $jsTime ?>" type="text/javascript"></script>
