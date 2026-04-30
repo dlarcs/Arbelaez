@@ -1,19 +1,8 @@
 <?php
-$cssFile = __DIR__ . '/../global/menu/menu.css';
-$cssUrl  = '../global/menu/menu.css';
-$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
+$cssTime = filemtime('../global/menu/menu.css');
+// $jsTime = filemtime('../../');
 ?>
-
-<link
-  rel="preload"
-  href="<?= $cssUrl ?>?v=<?= $cssTime ?>"
-  as="style"
-  onload="this.onload=null;this.rel='stylesheet'"
->
-
-<noscript>
-  <link rel="stylesheet" href="<?= $cssUrl ?>?v=<?= $cssTime ?>">
-</noscript>
+<link rel="stylesheet" href="../global/menu/menu.css?v=<?= $cssTime ?>">
 <header class="site-header">
   <a class="brand_menu" href="../index.php" aria-label="Inicio">
     <span class="brand-text">Arbeláez Cundinamarca</span>
