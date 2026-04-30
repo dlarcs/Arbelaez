@@ -5,7 +5,7 @@ $cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
 
 <link rel="stylesheet" href="../../home/Rifa/rifa.css?v=<?= $cssTime ?>">
 
-<section class="rifa-section" id="rifa">
+<section class="rifa-section">
   <div class="rifa-container">
 
     <header class="rifa-header">
