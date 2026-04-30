@@ -1,11 +1,15 @@
 <?php
-$cssFile = '../../home/slider/slider.css';
-$jsFile  = '../../home/slider/slider.js';
+$cssPath = $_SERVER['DOCUMENT_ROOT'] . '/home/slider/slider.css';
+$jsPath  = $_SERVER['DOCUMENT_ROOT'] . '/home/slider/slider.js';
 
-$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
-$jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
+$cssUrl = '../../home/slider/slider.css';
+$jsUrl  = '../../home/slider/slider.js';
+
+$cssTime = is_file($cssPath) ? filemtime($cssPath) : time();
+$jsTime  = is_file($jsPath) ? filemtime($jsPath) : time();
 ?>
-<link rel="stylesheet" href="../../home/slider/slider.css?v=<?= $cssTime ?>">
+
+<link rel="stylesheet" href="<?= $cssUrl ?>?v=<?= $cssTime ?>">
 
 <section class="slider" id="sliderMain" aria-roledescription="carrusel" aria-label="Slider principal">
   <div class="slider__bg" aria-hidden="true"></div>
@@ -14,7 +18,8 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
   <div class="slider__inner">
     <div class="slider__badge" id="sliderBadge">
       <span class="slider__badgeIcon" aria-hidden="true">📍</span>
-      <a href="https://maps.app.goo.gl/rBTFjDPx4z9RRD479">
+
+      <a href="https://maps.app.goo.gl/rBTFjDPx4z9RRD479" target="_blank" rel="noopener noreferrer">
         <span class="slider__badgeText">Arbeláez, Cundinamarca • 2026</span>
       </a>
     </div>
@@ -30,7 +35,9 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
     </p>
 
     <div class="slider__actions">
-      <a class="sliderBtn sliderBtn--primary" href="#conocer" id="sliderBtnPrimary">Conocer más</a>
+      <a class="sliderBtn sliderBtn--primary" href="#conocer" id="sliderBtnPrimary">
+        <span>Conocer más</span>
+      </a>
     </div>
 
     <div class="slider__controls">
@@ -51,4 +58,4 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
   </div>
 </section>
 
-<script src="../../home/slider/slider.js?v=<?= $jsTime ?>"></script>
+<script defer src="<?= $jsUrl ?>?v=<?= $jsTime ?>"></script>

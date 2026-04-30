@@ -4,8 +4,16 @@ $cssUrl  = '../global/menu/menu.css';
 $cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
 ?>
 
-<link rel="stylesheet" href="<?= $cssUrl ?>?v=<?= $cssTime ?>">
+<link
+  rel="preload"
+  href="<?= $cssUrl ?>?v=<?= $cssTime ?>"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+>
 
+<noscript>
+  <link rel="stylesheet" href="<?= $cssUrl ?>?v=<?= $cssTime ?>">
+</noscript>
 <header class="site-header">
   <a class="brand_menu" href="../index.php" aria-label="Inicio">
     <span class="brand-text">Arbeláez Cundinamarca</span>
