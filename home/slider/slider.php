@@ -15,33 +15,27 @@ $jsTime  = is_file($jsPath) ? filemtime($jsPath) : time();
 
   <div class="slider__slides" aria-hidden="true">
 
-    <picture class="slider__image is-active">
-      <source srcset="../../home/img/parque_principal1.webp" type="image/webp">
+    <div class="slider__image is-active">
       <img src="../../home/img/parque_principal1.jpg" alt="" fetchpriority="high" decoding="async">
-    </picture>
+    </div>
 
-    <picture class="slider__image">
-      <source srcset="../../home/img/lugar2.webp" type="image/webp">
+    <div class="slider__image">
       <img src="../../home/img/lugar2.jpg" alt="" loading="lazy" decoding="async">
-    </picture>
+    </div>
 
-    <picture class="slider__image">
-      <source srcset="../../gastronomia/La_Marranada/img/especial7.webp" type="image/webp">
+    <div class="slider__image">
       <img src="../../gastronomia/La_Marranada/img/especial7.jpg" alt="" loading="lazy" decoding="async">
-    </picture>
+    </div>
 
-    <picture class="slider__image">
-      <source srcset="../../artesanias/Artesanias_Martha_E/img/manillas2.webp" type="image/webp">
+    <div class="slider__image">
       <img src="../../artesanias/Artesanias_Martha_E/img/manillas2.jpeg" alt="" loading="lazy" decoding="async">
-    </picture>
+    </div>
 
-    <picture class="slider__image">
-      <source srcset="../../alojamiento/Casa_Kiyari/img/general12.webp" type="image/webp">
+    <div class="slider__image">
       <img src="../../alojamiento/Casa_Kiyari/img/general12.jpg" alt="" loading="lazy" decoding="async">
-    </picture>
+    </div>
 
   </div>
-
   <div class="slider__overlay" aria-hidden="true"></div>
 
   <div class="slider__inner">
