@@ -1,7 +1,7 @@
 :root {
   --rifa-bg: #f7f7f4;
   --rifa-card: #fafafa;
-  --rifa-text: #fafafa;
+  --rifa-text: #1f2933;
   --rifa-muted: #667085;
   --rifa-border: #e5e7eb;
   --rifa-green: #fafafa;
@@ -32,7 +32,7 @@
 
 .rifa-header h1 {
   margin: 0;
-  color: var(--rifa-text);
+  color: #000;
   font-size: clamp(2rem, 5vw, 4.5rem);
   line-height: 1.05;
 }
