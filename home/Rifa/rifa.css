@@ -1,16 +1,15 @@
 :root {
   --rifa-bg: #f7f7f4;
-  --rifa-card: #ffffff;
-  --rifa-text: #1f2933;
+  --rifa-card: #fafafa;
+  --rifa-text: #fafafa;
   --rifa-muted: #667085;
   --rifa-border: #e5e7eb;
-  --rifa-green: #1f7a4d;
+  --rifa-green: #fafafa;
   --rifa-radius: 22px;
 }
 
 .rifa-section {
   padding: clamp(2rem, 5vw, 5rem) 1rem;
-  background: var(--rifa-bg);
 }
 
 .rifa-container {
