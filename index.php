@@ -1,36 +1,37 @@
-
-<?php
-$base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
-
-$cssFile = $base . '/home/style.css';
-$jsFile  = $base . '/home/app.js';
-
-$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
-$jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
-?>
-
 <!DOCTYPE html>
 <html class="html_home" lang="es-CO" dir="ltr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-language" content="es-CO">
 
-  <title>Arbeláez | Cundinamarca | Turismo</title>
+  <title>Arbeláez Cundinamarca | Turismo, Naturaleza, Gastronomía y Alojamiento</title>
 
-  <meta name="description" content="Descubre Arbeláez, Cundinamarca: naturaleza, alojamiento, gastronomía, artesanías y lugares turísticos cerca de Bogotá.">
+  <link rel="canonical" href="https://www.arbelaez.com.co/">
+  <meta name="description" content="Descubre Arbeláez, Cundinamarca: turismo cerca de Bogotá, alojamiento, gastronomía, artesanías, naturaleza, ríos, cultura y lugares para visitar.">
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
   <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
   <meta name="theme-color" content="#005548">
 
-  <link rel="canonical" href="https://www.arbelaez.com.co/">
-  <link rel="stylesheet" href="/home/style.css?v=<?= $cssTime ?>">
-  <script src="/home/app.js?v=<?= $jsTime ?>" defer></script>
+  <?php
+  $base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
+
+  $cssFile = $base . '/home/style.css';
+  $jsFile  = $base . '/home/app.js';
+
+  $cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
+  $jsVer  = is_file($jsFile) ? filemtime($jsFile) : '';
+  ?>
+
+  <link rel="stylesheet" href="/home/style.css<?= $cssVer ? '?v=' . $cssVer : '' ?>">
+
+  <script defer src="/home/app.js<?= $jsVer ? '?v=' . $jsVer : '' ?>"></script>
 
   <!-- Imagen que aparece al compartir en WhatsApp / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Arbelaez.com.co">
-  <meta property="og:title" content="Arbeláez Turismo | Cundinamarca">
-  <meta property="og:description" content="Descubre Arbeláez: alojamiento, gastronomía, artesanías, naturaleza y lugares turísticos.">
+  <meta property="og:title" content="Arbeláez Cundinamarca | Turismo, Naturaleza, Gastronomía y Alojamiento">
+  <meta property="og:description" content="Descubre Arbeláez, Cundinamarca: turismo cerca de Bogotá, alojamiento, gastronomía, artesanías, naturaleza, ríos, cultura y lugares para visitar.">
   <meta property="og:url" content="https://www.arbelaez.com.co/">
   <meta property="og:image" content="https://www.arbelaez.com.co/home/img/logo1.jpeg">
   <meta property="og:image:secure_url" content="https://www.arbelaez.com.co/home/img/logo1.jpeg">
@@ -38,9 +39,31 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
+  <meta name="keywords" content="
+    Arbeláez, Arbeláez Cundinamarca, turismo Arbeláez, lugares turísticos Arbeláez,
+    qué hacer en Arbeláez, Arbeláez Colombia, turismo rural Colombia,
+    viajar cerca de Bogotá, pueblos cerca de Bogotá, naturaleza Cundinamarca,
+    alojamiento Arbeláez, hoteles Arbeláez, hospedaje Arbeláez,
+    gastronomía Arbeláez, restaurantes Arbeláez,
+    artesanías Arbeláez, cultura Arbeláez, turismo ecológico Colombia,
+    ríos en Cundinamarca, cascadas Arbeláez, senderismo Colombia,
+    planes turísticos Bogotá, turismo sostenible Colombia,
+
+    Arbelaez tourism, Arbelaez Colombia travel, things to do in Arbelaez,
+    places near Bogota, tourism near Bogota, rural tourism Colombia,
+    eco tourism Colombia, nature tourism Colombia,
+    Arbelaez hotels, Arbelaez accommodation, Arbelaez restaurants,
+    local food Colombia, Colombian crafts, cultural tourism Colombia,
+    travel Cundinamarca, visit Colombia nature,
+    hidden gems Colombia, weekend trips Bogota,
+    Colombia countryside tourism, explore Colombia towns,
+    authentic Colombia travel, Colombian villages,
+    Colombia eco destinations, travel Colombia guide
+    ">
+
   <!-- Imagen que aparece al compartir en Twitter/X -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Arbeláez Turismo | Cundinamarca">
+  <meta name="twitter:title" content="Arbeláez Cundinamarca | Turismo, Naturaleza, Gastronomía y Alojamiento">
   <meta name="twitter:description" content="Descubre Arbeláez: alojamiento, gastronomía, artesanías, naturaleza y lugares turísticos.">
   <meta name="twitter:image" content="https://www.arbelaez.com.co/home/img/logo1.jpeg">
 

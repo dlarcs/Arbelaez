@@ -1,9 +1,9 @@
 <?php
-$cssFile = '../../home/Rifa/rifa.css';
-$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
+$base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
+$cssFile = $base . '/home/Rifa/rifa.css';
+$cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
 ?>
-
-<link rel="stylesheet" href="../../home/Rifa/rifa.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="/home/Rifa/rifa.css<?= $cssVer ? '?v=' . $cssVer : '' ?>">
 
 <section class="rifa-section">
   <div class="rifa-container">

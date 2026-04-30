@@ -1,12 +1,14 @@
 <?php
-$cssFile = '../../home/places/places.css';
-$jsFile  = '../../home/places/places.js';
+$base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
 
-$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
-$jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
+$cssFile = $base . '/home/places/places.css';
+$jsFile  = $base . '/home/places/places.js';
+
+$cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
+$jsVer  = is_file($jsFile) ? filemtime($jsFile) : '';
 ?>
 
-<link rel="stylesheet" href="../../home/places/places.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="/home/places/places.css<?= $cssVer ? '?v=' . $cssVer : '' ?>">
 
 <section class="places">
   <header class="top">
@@ -28,7 +30,7 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
       <article class="cat alojamientos" id="alojamientos">
         <div class="cat__overlay"></div>
         <div class="cat__content">
-          <h2>Alojamientos</h2>
+          <h1>Alojamientos</h1>
           <p>Opciones cálidas y cómodas para descansar.</p>
           <span class="btn">Ver más</span>
         </div>
@@ -39,7 +41,7 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
       <article class="cat artesanias" id="artesanias">
         <div class="cat__overlay"></div>
         <div class="cat__content">
-          <h2>Artesanías</h2>
+          <h1>Artesanías</h1>
           <p>Piezas únicas hechas a mano con identidad.</p>
           <span class="btn">Ver más</span>
         </div>
@@ -50,7 +52,7 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
       <article class="cat gastronomia" id="gastronomia">
         <div class="cat__overlay"></div>
         <div class="cat__content">
-          <h2>Gastronomía</h2>
+          <h1>Gastronomía</h1>
           <p>Sabores locales: platos, cafés y recetas.</p>
           <span class="btn">Ver más</span>
         </div>
@@ -61,7 +63,7 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
       <article class="cat cultura" id="cultura">
         <div class="cat__overlay"></div>
         <div class="cat__content">
-          <h2>Festividades</h2>
+          <h1>Festividades</h1>
           <p>Tradiciones, eventos, historia y experiencias.</p>
           <span class="btn">Ver más</span>
         </div>
@@ -72,7 +74,7 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
       <article class="cat rio" id="rio">
         <div class="cat__overlay"></div>
         <div class="cat__content">
-          <h2>Zonas de agua</h2>
+          <h1>Zonas de agua</h1>
           <p>Caminatas ecológicas, paz y tranquilidad.</p>
           <span class="btn">Ver más</span>
         </div>
@@ -81,4 +83,4 @@ $jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
   </main>
 </section>
 
-<script src="../../home/places/places.js?v=<?= $jsTime ?>" defer></script>
+<script defer src="/home/places/places.js<?= $jsVer ? '?v=' . $jsVer : '' ?>"></script>

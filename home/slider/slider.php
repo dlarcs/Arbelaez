@@ -1,15 +1,14 @@
 <?php
-$cssPath = $_SERVER['DOCUMENT_ROOT'] . '/home/slider/slider.css';
-$jsPath  = $_SERVER['DOCUMENT_ROOT'] . '/home/slider/slider.js';
+$base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
 
-$cssUrl = '../../home/slider/slider.css';
-$jsUrl  = '../../home/slider/slider.js';
+$cssFile = $base . '/home/slider/slider.css';
+$jsFile  = $base . '/home/slider/slider.js';
 
-$cssTime = is_file($cssPath) ? filemtime($cssPath) : time();
-$jsTime  = is_file($jsPath) ? filemtime($jsPath) : time();
+$cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
+$jsVer  = is_file($jsFile) ? filemtime($jsFile) : '';
 ?>
 
-<link rel="stylesheet" href="<?= $cssUrl ?>?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="/home/slider/slider.css<?= $cssVer ? '?v=' . $cssVer : '' ?>">
 
 <section class="slider" id="sliderMain" aria-roledescription="carrusel" aria-label="Slider principal">
   <div class="slider__bg" aria-hidden="true"></div>
@@ -25,7 +24,7 @@ $jsTime  = is_file($jsPath) ? filemtime($jsPath) : time();
     </div>
 
     <h1 class="slider__title" id="sliderTitle">
-      Arbeláez se llena de<br>
+      Arbeláez, Cundinamarca: turismo, naturaleza y cultura cerca de Bogotá
       <span class="slider__titleGradient">color</span>
     </h1>
 
@@ -58,4 +57,4 @@ $jsTime  = is_file($jsPath) ? filemtime($jsPath) : time();
   </div>
 </section>
 
-<script defer src="<?= $jsUrl ?>?v=<?= $jsTime ?>"></script>
+<script defer src="/home/slider/slider.js<?= $jsVer ? '?v=' . $jsVer : '' ?>"></script>

@@ -1,7 +1,10 @@
 <?php
-$cssTime = filemtime('../home/mural/murales.css');
+$base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
+$cssFile = $base . '/home/mural/murales.css';
+$cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
 ?>
-<link rel="stylesheet" href="../home/mural/murales.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="/home/mural/murales.css<?= $cssVer ? '?v=' . $cssVer : '' ?>">
+
 
 <section class="mural-banner sr-item">
   <div class="mural-banner__content">

@@ -1,9 +1,10 @@
 <?php
-$cssFile = '../../home/nosotros/nosotros.css';
-
-$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
+$base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
+$cssFile = $base . '/home/nosotros/nosotros.css';
+$cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
 ?>
-<link rel="stylesheet" href="../../home/nosotros/nosotros.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="/home/nosotros/nosotros.css<?= $cssVer ? '?v=' . $cssVer : '' ?>">
+
 <section class="about-apps">
     <h1 class="about-apps__title">Sobre Arbelaez.com.co</h1>
     <p class="about-apps__intro">

@@ -1,9 +1,11 @@
 <?php
-$cssFile = '../../home/text/text.css';
-
-$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
+$base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
+$cssFile = $base . '/home/text/text.css';
+$cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
 ?>
-<link rel="stylesheet" href="../../home/text/text.css?v=<?= $cssTime ?>">
+
+<link rel="stylesheet" href="/home/text/text.css<?= $cssVer ? '?v=' . $cssVer : '' ?>">
+
     <section class="section">
 
       <h2>Aprende de Arbeláez </h2>
