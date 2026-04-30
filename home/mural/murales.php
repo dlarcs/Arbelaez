@@ -1,6 +1,5 @@
 <?php
 $cssTime = filemtime('../home/mural/murales.css');
-$jsTime = filemtime('../home/mural/murales.js');
 ?>
 <link rel="stylesheet" href="../home/mural/murales.css?v=<?= $cssTime ?>">
 
@@ -26,5 +25,3 @@ $jsTime = filemtime('../home/mural/murales.js');
     </a>
   </div>
 </section>
-
-<script src="../home/mural/murales.js?v=<?= $jsTime ?>" type="text/javascript"></script>
