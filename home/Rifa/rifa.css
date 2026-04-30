@@ -5,214 +5,129 @@
   --rifa-muted: #667085;
   --rifa-border: #e5e7eb;
   --rifa-green: #1f7a4d;
-  --rifa-radius: 20px;
+  --rifa-radius: 22px;
 }
 
-.rifa-page {
-  min-height: 100vh;
-  padding: clamp(18px, 4vw, 48px);
+.rifa-section {
+  padding: clamp(2rem, 5vw, 5rem) 1rem;
   background: var(--rifa-bg);
 }
 
-.rifa-slider {
-  max-width: 1050px;
+.rifa-container {
+  width: min(1150px, 100%);
   margin: 0 auto;
-  background: var(--rifa-card);
-  border: 1px solid var(--rifa-border);
-  border-radius: var(--rifa-radius);
-  overflow: hidden;
-  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
 }
 
 .rifa-header {
-  padding: clamp(24px, 5vw, 48px);
+  max-width: 780px;
+  margin: 0 auto 2.5rem;
   text-align: center;
 }
 
 .rifa-badge {
   display: inline-block;
-  margin-bottom: 12px;
+  margin-bottom: 0.8rem;
   color: var(--rifa-green);
   font-weight: 700;
-  font-size: 0.9rem;
 }
 
 .rifa-header h1 {
   margin: 0;
   color: var(--rifa-text);
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: clamp(2rem, 5vw, 4.5rem);
   line-height: 1.05;
 }
 
 .rifa-header p {
-  max-width: 720px;
-  margin: 16px auto 0;
+  margin: 1rem auto 0;
   color: var(--rifa-muted);
   font-size: 1rem;
   line-height: 1.7;
 }
 
-.rifa-viewport {
-  overflow: hidden;
+.rifa-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.4rem;
 }
 
-.rifa-track {
+.rifa-card {
   display: flex;
-  transition: transform 0.35s ease;
-}
-
-.rifa-slide {
-  min-width: 100%;
-  padding: clamp(16px, 3vw, 32px);
-}
-
-.slide-card {
+  flex-direction: column;
+  background: var(--rifa-card);
   border: 1px solid var(--rifa-border);
-  border-radius: 18px;
-  padding: clamp(16px, 3vw, 28px);
-  background: #fff;
-}
-
-.slide-media {
-  margin: 0 0 18px;
-  border-radius: 16px;
+  border-radius: var(--rifa-radius);
   overflow: hidden;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
 }
 
-.slide-media img {
+.rifa-card img {
   width: 100%;
-  height: clamp(180px, 35vw, 320px);
+  height: 220px;
   object-fit: cover;
   display: block;
 }
 
-.slide-kicker {
+.rifa-card span {
+  margin: 1.2rem 1.2rem 0;
   color: var(--rifa-green);
-  font-size: 0.8rem;
-  font-weight: 700;
+  font-size: 0.78rem;
+  font-weight: 800;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 
-.slide-title {
-  margin: 8px 0 14px;
+.rifa-card h2 {
+  margin: 0.5rem 1.2rem 0;
   color: var(--rifa-text);
-  font-size: clamp(1.4rem, 3vw, 2.2rem);
-  line-height: 1.15;
+  font-size: clamp(1.25rem, 2vw, 1.7rem);
+  line-height: 1.2;
 }
 
-.slide-list {
-  margin: 0;
-  padding-left: 20px;
+.rifa-card ul {
+  margin: 1rem 1.2rem 1.4rem;
+  padding-left: 1.2rem;
   color: var(--rifa-muted);
-  line-height: 1.7;
+  line-height: 1.65;
 }
 
-.slide-list a {
+.rifa-card a {
   color: var(--rifa-green);
   font-weight: 700;
   text-decoration: none;
 }
 
-.slide-meta,
-.cta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 18px;
+.rifa-card a:hover {
+  text-decoration: underline;
 }
 
-.pill {
-  padding: 8px 12px;
-  border-radius: 999px;
-  background: #eef7f1;
-  color: var(--rifa-green);
-  font-size: 0.85rem;
-  font-weight: 600;
-}
-
-.two-cols {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 14px;
-}
-
-.col {
-  padding: 16px;
-  border: 1px solid var(--rifa-border);
-  border-radius: 14px;
-  background: #fafafa;
-}
-
-.col-title {
-  margin-bottom: 6px;
-  font-weight: 700;
-  color: var(--rifa-text);
-}
-
-.col-text {
-  margin: 0;
-  color: var(--rifa-muted);
-  line-height: 1.6;
-}
-
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 44px;
-  padding: 11px 18px;
+.rifa-btn {
+  width: fit-content;
+  margin: auto 1.2rem 1.4rem;
+  padding: 0.8rem 1.1rem;
   border-radius: 999px;
   background: var(--rifa-green);
-  color: #fff;
-  text-decoration: none;
+  color: #fff !important;
   font-weight: 700;
+  text-decoration: none !important;
 }
 
-.rifa-controls {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 14px;
-  padding: 0 24px 28px;
+@media (max-width: 980px) {
+  .rifa-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-.rifa-controls button {
-  width: 42px;
-  height: 42px;
-  border: 1px solid var(--rifa-border);
-  border-radius: 999px;
-  background: #fff;
-  color: var(--rifa-text);
-  font-size: 1.8rem;
-  cursor: pointer;
-}
+@media (max-width: 640px) {
+  .rifa-header {
+    text-align: left;
+  }
 
-.rifa-dots {
-  display: flex;
-  gap: 8px;
-}
-
-.rifa-dot {
-  width: 10px;
-  height: 10px;
-  border: 0;
-  border-radius: 999px;
-  background: #d1d5db;
-  cursor: pointer;
-}
-
-.rifa-dot.is-active {
-  width: 26px;
-  background: var(--rifa-green);
-}
-
-@media (max-width: 700px) {
-  .two-cols {
+  .rifa-grid {
     grid-template-columns: 1fr;
   }
 
-  .rifa-header {
-    text-align: left;
+  .rifa-card img {
+    height: 200px;
   }
 }
