@@ -12,36 +12,13 @@ $jsTime  = is_file($jsPath) ? filemtime($jsPath) : time();
 <link rel="stylesheet" href="<?= $cssUrl ?>?v=<?= $cssTime ?>">
 
 <section class="slider" id="sliderMain" aria-roledescription="carrusel" aria-label="Slider principal">
-
-  <div class="slider__slides" aria-hidden="true">
-
-    <div class="slider__image is-active">
-      <img src="../../home/img/parque_principal1.jpg" alt="" fetchpriority="high" decoding="async">
-    </div>
-
-    <div class="slider__image">
-      <img src="../../home/img/lugar2.jpg" alt="" loading="lazy" decoding="async">
-    </div>
-
-    <div class="slider__image">
-      <img src="../../gastronomia/La_Marranada/img/especial7.jpg" alt="" loading="lazy" decoding="async">
-    </div>
-
-    <div class="slider__image">
-      <img src="../../artesanias/Artesanias_Martha_E/img/manillas2.jpeg" alt="" loading="lazy" decoding="async">
-    </div>
-
-    <div class="slider__image">
-      <img src="../../alojamiento/Casa_Kiyari/img/general12.jpg" alt="" loading="lazy" decoding="async">
-    </div>
-
-  </div>
+  <div class="slider__bg" aria-hidden="true"></div>
   <div class="slider__overlay" aria-hidden="true"></div>
 
   <div class="slider__inner">
-
     <div class="slider__badge" id="sliderBadge">
       <span class="slider__badgeIcon" aria-hidden="true">📍</span>
+
       <a href="https://maps.app.goo.gl/rBTFjDPx4z9RRD479" target="_blank" rel="noopener noreferrer">
         <span class="slider__badgeText">Arbeláez, Cundinamarca • 2026</span>
       </a>
@@ -58,8 +35,8 @@ $jsTime  = is_file($jsPath) ? filemtime($jsPath) : time();
     </p>
 
     <div class="slider__actions">
-      <a class="sliderBtn sliderBtn--primary" href="#rifa" id="sliderBtnPrimary">
-        Conocer más
+      <a class="sliderBtn sliderBtn--primary" href="#conocer" id="sliderBtnPrimary">
+        <span>Conocer más</span>
       </a>
     </div>
 
@@ -74,13 +51,11 @@ $jsTime  = is_file($jsPath) ? filemtime($jsPath) : time();
         <span aria-hidden="true">›</span>
       </button>
     </div>
-
   </div>
 
   <div class="slider__progress" aria-hidden="true">
     <div class="slider__progressBar" data-slider-progress></div>
   </div>
-
 </section>
 
 <script defer src="<?= $jsUrl ?>?v=<?= $jsTime ?>"></script>

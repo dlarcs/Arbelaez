@@ -1,4 +1,15 @@
-.slider {
+:root{
+  --slider-ink: #0f2140;
+  --slider-muted: rgba(255,255,255,.78);
+
+  --slider-btn: #ff6a00;
+  --slider-btnHover: #ff7f1f;
+
+  --slider-glass: rgba(17, 18, 22, .38);
+  --slider-glassBorder: rgba(255,255,255,.22);
+}
+
+.slider{
   position: relative;
   height: 80vh;
   min-height: 500px;
@@ -8,50 +19,242 @@
   place-items: center;
 }
 
-.slider__slides,
-.slider__image {
+.slider__bg{
   position: absolute;
   inset: 0;
-}
-
-.slider__image {
-  opacity: 0;
+  background-size: cover;
+  background-position: center;
   transform: scale(1.06);
+  opacity: 1;
   transition: opacity 900ms ease, transform 2400ms ease;
   will-change: opacity, transform;
 }
 
-.slider__image.is-active {
-  opacity: 1;
-  z-index: 1;
-}
-
-.slider.is-moving .slider__image.is-active {
+/* “Ken Burns” suave */
+.slider.is-moving .slider__bg{
   transform: scale(1.12);
 }
 
-.slider__image img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-  object-position: center;
-}
-
-.slider__overlay {
+.slider__overlay{
   position: absolute;
   inset: 0;
-  z-index: 2;
   background:
     linear-gradient(90deg, rgba(0,0,0,.70) 0%, rgba(0,0,0,.42) 55%, rgba(0,0,0,.10) 100%),
     radial-gradient(900px 520px at 20% 35%, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 60%);
 }
 
-.slider__inner {
+.slider__inner{
   position: relative;
-  z-index: 3;
+  z-index: 2;
   width: clamp(280px, calc(100% - 40px), 1200px);
   padding: clamp(1.4rem, 3vw, 2.3rem);
   display: flex;
   flex-direction: column;
+}
+
+.slider__badge{
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  padding: .55rem .95rem;
+  border-radius: 999px;
+  background: rgba(19, 20, 26, .55);
+  border: 1px solid rgba(255,255,255,.18);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: rgba(255,255,255,.86);
+  font-size: clamp(.9rem, 1.2vw, 1rem);
+}
+
+.slider__badgeIcon{
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,.35));
+}
+
+.slider__title{
+  margin: clamp(1.1rem, 2.2vw, 1.8rem) 0 .65rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+  line-height: .98;
+  font-size: clamp(3rem, 6.4vw, 5.4rem);
+  text-shadow: 0 18px 42px rgba(0,0,0,.42);
+}
+
+.slider__titleGradient{
+  background: linear-gradient(90deg, #ffd24a 0%, #ff9f1a 35%, #ff5a00 85%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.slider__desc{
+  margin: 0;
+  width: clamp(280px, calc(100% - 40px), 1200px);
+  color: var(--slider-muted);
+  font-size: clamp(1rem, 1.4vw, 1.25rem);
+  line-height: 1.65;
+  text-shadow: 0 16px 32px rgba(0,0,0,.35);
+}
+
+.slider__actions{
+  display: flex;
+  gap: .9rem;
+  flex-wrap: wrap;
+  margin-top: clamp(1.25rem, 2vw, 1.75rem);
+}
+
+/* Botón */
+.sliderBtn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  padding: 0 1.35rem;
+  border-radius: 14px;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: .01em;
+  transition: transform 220ms ease, box-shadow 220ms ease, background 220ms ease, border-color 220ms ease;
+  user-select: none;
+  outline: none;
+}
+
+.sliderBtn--primary{
+  background: var(--slider-btn);
+  color: #fff;
+  box-shadow: 0 18px 42px rgba(255, 106, 0, .22);
+}
+
+.sliderBtn--primary:hover{
+  background: var(--slider-btnHover);
+  transform: translateY(-2px);
+  box-shadow: 0 22px 52px rgba(255, 106, 0, .28);
+}
+
+.sliderBtn:focus-visible{
+  box-shadow: 0 0 0 4px rgba(255, 155, 40, .25), 0 18px 42px rgba(0,0,0,.22);
+}
+
+/* Controles */
+.slider__controls{
+  display: grid;
+  grid-template-columns: 52px 1fr 52px;
+  align-items: center;
+  gap: .9rem;
+  width: clamp(280px, calc(100% - 40px), 1200px);
+  margin: 2rem  auto;
+}
+
+/* Flechas */
+.sliderNav{
+  width: 40px;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid var(--slider-glassBorder);
+  background: var(--slider-glass);
+  color: #fafafa;
+  cursor: pointer;
+  transition: transform 220ms ease, background 220ms ease;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.sliderNav:hover{
+  transform: translateY(-2px);
+  background: rgba(17,18,22,.52);
+}
+
+.sliderNav span{
+  font-size: 2rem;
+  line-height: .4;
+  margin: auto;
+}
+
+/* Dots */
+.slider__dots{
+  display: flex;
+  justify-content: center;
+  gap: .55rem;
+  padding: .35rem .7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.16);
+  background: rgba(17,18,22,.35);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.sliderDot{
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  border: 0;
+  background: rgba(255,255,255,.38);
+  cursor: pointer;
+  transition: transform 180ms ease, background 180ms ease, width 180ms ease;
+}
+
+.sliderDot[aria-selected="true"]{
+  background: rgba(255,255,255,.92);
+  width: 22px;
+}
+
+/* Animación de texto al cambiar slide */
+.slider__badge,
+.slider__title,
+.slider__desc,
+.slider__actions,
+.slider__controls{
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 520ms ease, transform 520ms ease;
+}
+
+.slider.is-textOut .slider__badge,
+.slider.is-textOut .slider__title,
+.slider.is-textOut .slider__desc,
+.slider.is-textOut .slider__actions,
+.slider.is-textOut .slider__controls{
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+/* Barra de progreso */
+.slider__progress{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 4px;
+  background: rgba(255,255,255,.10);
+  z-index: 3;
+}
+
+.slider__progressBar{
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, rgba(255,210,74,.95), rgba(255,106,0,.95));
+  transition: width 120ms linear;
+}
+
+/* Responsive */
+@media (width: 520px){
+  .slider__controls{
+    grid-template-columns: 48px 1fr 48px;
+  }
+  .sliderBtn{ width: 100%; } /* ✅ antes era 50% porque había 2 botones */
+}
+
+/* Accesibilidad: reduce motion */
+@media (prefers-reduced-motion: reduce){
+  .slider__bg,
+  .slider__badge,
+  .slider__title,
+  .slider__desc,
+  .slider__actions,
+  .slider__controls,
+  .sliderBtn,
+  .sliderNav,
+  .sliderDot{
+    transition: none !important;
+  }
 }
