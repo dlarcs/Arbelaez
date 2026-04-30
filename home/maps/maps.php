@@ -1,11 +1,10 @@
 <?php
-$cssFile = '../../home/maps/maps.css';
-$jsFile  = '../../home/maps/maps.js';
-
-$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
-$jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
+$base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
+$cssFile = $base . '/home/maps/maps.css';
+$cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
 ?>
-<link rel="stylesheet" href="../../home/maps/maps.css?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="/home/maps/maps.css<?= $cssVer ? '?v=' . $cssVer : '' ?>">
+
 <section  class="seccion_maps">
   <div class="maps">
   <div class="text_maps">

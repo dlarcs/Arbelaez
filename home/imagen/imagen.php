@@ -1,32 +1,9 @@
 <?php
-$cssFile = '../../home/imagen/imagen.css';
-$jsFile  = '../../home/imagen/imagen.js';
-
-$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
-$jsTime  = is_file($jsFile) ? filemtime($jsFile) : time();
-
-$bgImage = '../../../home/img/yoamoarbelaez1.jpeg';
-
-?>
-<link rel="stylesheet" href="../../home/imagen/imagen.css?v=<?= $cssTime ?>">
-
-
-<!-- Rendimiento: precarga de la imagen LCP y fuentes -->
-<link rel="preload" as="image" href="<?= $bgImage ?>">
-
-
-<?php
 $base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
-
-$cssWeb  = '/home/imagen/imagen.css';
-$heroWeb = '/home/img/yoamoarbelaez1.jpeg';
-
-$cssFile = $base . $cssWeb;
-$cssTime = is_file($cssFile) ? filemtime($cssFile) : time();
+$cssFile = $base . '/home/imagen/imagen.css';
+$cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
 ?>
-
-<link rel="preload" as="image" href="<?= $heroWeb ?>">
-<link rel="stylesheet" href="<?= $cssWeb ?>?v=<?= $cssTime ?>">
+<link rel="stylesheet" href="/home/imagen/imagen.css<?= $cssVer ? '?v=' . $cssVer : '' ?>">
 
 <section class="seccion_imagen" aria-label="Portada Yo amo Arbeláez">
   <img
