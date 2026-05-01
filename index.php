@@ -95,7 +95,7 @@
     <?php include $base . "/home/places/places.php"; ?>
     <?php include $base . "/home/imagen/imagen.php"; ?>
     <?php include $base . "/home/Rifa/rifa.php"; ?>
-    <?php include $base . "/home/mural/murales.php"; ?>
+
     <?php include $base . "/home/text/text.php"; ?>
     <?php include $base . "/home/maps/maps.php"; ?>
   </div>
