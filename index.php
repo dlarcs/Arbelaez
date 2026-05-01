@@ -7,12 +7,6 @@
 
   <title>Arbeláez Cundinamarca | Turismo, Naturaleza, Gastronomía y Alojamiento</title>
 
-  <link rel="canonical" href="https://www.arbelaez.com.co/">
-  <meta name="description" content="Descubre Arbeláez, Cundinamarca: turismo cerca de Bogotá, alojamiento, gastronomía, artesanías, naturaleza, ríos, cultura y lugares para visitar.">
-  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
-  <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
-  <meta name="theme-color" content="#005548">
-
   <?php
   $base = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
 
@@ -23,11 +17,14 @@
   $jsVer  = is_file($jsFile) ? filemtime($jsFile) : '';
   ?>
 
-  <link rel="stylesheet" href="/home/style.css<?= $cssVer ? '?v=' . $cssVer : '' ?>">
+  <!-- SEO principal para Google -->
+  <meta name="description" content="Descubre Arbeláez, Cundinamarca: turismo cerca de Bogotá, alojamiento, gastronomía, artesanías, naturaleza, ríos, cultura y lugares para visitar.">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <link rel="canonical" href="https://www.arbelaez.com.co/">
+  <meta name="theme-color" content="#005548">
 
-  <script defer src="/home/app.js<?= $jsVer ? '?v=' . $jsVer : '' ?>"></script>
-
-  <!-- Imagen que aparece al compartir en WhatsApp / Facebook -->
+  <!-- Open Graph: WhatsApp / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Arbelaez.com.co">
   <meta property="og:title" content="Arbeláez Cundinamarca | Turismo, Naturaleza, Gastronomía y Alojamiento">
@@ -39,40 +36,53 @@
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
-  <meta name="keywords" content="
-    Arbeláez, Arbeláez Cundinamarca, turismo Arbeláez, lugares turísticos Arbeláez,
-    qué hacer en Arbeláez, Arbeláez Colombia, turismo rural Colombia,
-    viajar cerca de Bogotá, pueblos cerca de Bogotá, naturaleza Cundinamarca,
-    alojamiento Arbeláez, hoteles Arbeláez, hospedaje Arbeláez,
-    gastronomía Arbeláez, restaurantes Arbeláez,
-    artesanías Arbeláez, cultura Arbeláez, turismo ecológico Colombia,
-    ríos en Cundinamarca, cascadas Arbeláez, senderismo Colombia,
-    planes turísticos Bogotá, turismo sostenible Colombia,
-
-    Arbelaez tourism, Arbelaez Colombia travel, things to do in Arbelaez,
-    places near Bogota, tourism near Bogota, rural tourism Colombia,
-    eco tourism Colombia, nature tourism Colombia,
-    Arbelaez hotels, Arbelaez accommodation, Arbelaez restaurants,
-    local food Colombia, Colombian crafts, cultural tourism Colombia,
-    travel Cundinamarca, visit Colombia nature,
-    hidden gems Colombia, weekend trips Bogota,
-    Colombia countryside tourism, explore Colombia towns,
-    authentic Colombia travel, Colombian villages,
-    Colombia eco destinations, travel Colombia guide
-    ">
-
-  <!-- Imagen que aparece al compartir en Twitter/X -->
+  <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Arbeláez Cundinamarca | Turismo, Naturaleza, Gastronomía y Alojamiento">
   <meta name="twitter:description" content="Descubre Arbeláez: alojamiento, gastronomía, artesanías, naturaleza y lugares turísticos.">
   <meta name="twitter:image" content="https://www.arbelaez.com.co/home/img/logo1.jpeg">
 
-  <!-- Imagen pequeña que aparece en la pestaña del navegador -->
+  <!-- Iconos -->
   <link rel="icon" href="/home/img/logo_pw.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/home/img/logo_pw.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/home/img/logo_pw.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/home/img/logo_pw.png">
 
+  <!-- CSS -->
+  <link rel="stylesheet" href="/home/style.css<?= $cssVer ? '?v=' . $cssVer : '' ?>">
+
+  <!-- Datos estructurados para Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.arbelaez.com.co/#website",
+        "name": "Arbeláez Turismo",
+        "url": "https://www.arbelaez.com.co/",
+        "inLanguage": "es-CO"
+      },
+      {
+        "@type": "TouristDestination",
+        "@id": "https://www.arbelaez.com.co/#destination",
+        "name": "Arbeláez, Cundinamarca",
+        "description": "Destino turístico cerca de Bogotá con naturaleza, alojamiento, gastronomía, artesanías, cultura, ríos y lugares para visitar.",
+        "url": "https://www.arbelaez.com.co/",
+        "image": "https://www.arbelaez.com.co/home/img/logo1.jpeg",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Arbeláez",
+          "addressRegion": "Cundinamarca",
+          "addressCountry": "CO"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- JS -->
+  <script defer src="/home/app.js<?= $jsVer ? '?v=' . $jsVer : '' ?>"></script>
 </head>
 
 <body class="body_home">
@@ -85,7 +95,7 @@
     <?php include $base . "/home/places/places.php"; ?>
     <?php include $base . "/home/imagen/imagen.php"; ?>
     <?php include $base . "/home/Rifa/rifa.php"; ?>
-    <?php include $base . "/home/mural/murales.php" ?>
+    <?php include $base . "/home/mural/murales.php"; ?>
     <?php include $base . "/home/text/text.php"; ?>
     <?php include $base . "/home/maps/maps.php"; ?>
   </div>
