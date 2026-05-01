@@ -7,11 +7,12 @@ $cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
 
 <section class="seccion_imagen" aria-label="Portada Yo amo Arbeláez">
   <img
-    src="<?= $parque_principal ?>"
-    alt="Paisaje de Arbeláez al atardecer"
-    fetchpriority="high"
-    loading="eager"
-    decoding="async"
+  src="/home/img/parque_principal.jpg"
+   alt="Turismo en Arbeláez"
+   width="800"
+   height="600"
+   loading="lazy"
+   decoding="async"
   >
   <div class="imagen">
     <div class="text_imagen">
