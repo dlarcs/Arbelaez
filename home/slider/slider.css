@@ -31,7 +31,6 @@
 }
 .slider__badgeText{
   color: #fafafa;
-  text-decoration: none;
 }
 
 /* “Ken Burns” suave */
@@ -60,6 +59,7 @@
   display: inline-flex;
   align-items: center;
   gap: .55rem;
+  text-decoration: none;
   padding: .55rem .95rem;
   border-radius: 999px;
   background: rgba(19, 20, 26, .55);
