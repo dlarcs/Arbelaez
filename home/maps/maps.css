@@ -1,7 +1,6 @@
 .map-card {
   width: 100%;
   max-width: 900px;
-  aspect-ratio: 9 / 4;
   display: block;
   position: relative;
   overflow: hidden;
