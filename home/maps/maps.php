@@ -15,7 +15,6 @@ $cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
   <img
     src="/home/maps/maps.png"
     alt="Mapa de Arbeláez, Cundinamarca"
-    loading="lazy"
     decoding="async"
     width="900"
     height="400"
