@@ -2,19 +2,17 @@
   width: 100%;
   max-width: 900px;
   display: block;
+  margin: auto;
   position: relative;
   overflow: hidden;
   border-radius: 16px;
   text-decoration: none;
-  background: red;
 
 }
 
 .map-card img {
   width: 100%;
   height: 100%;
-  left: 50%;
-  transform: translateX(-50%);
   display: block;
   object-fit: cover;
 }
