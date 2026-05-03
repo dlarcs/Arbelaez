@@ -13,7 +13,7 @@ $cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
   aria-label="Abrir mapa de Arbeláez en Google Maps"
 >
   <img
-    src="/home/maps/arbelaez-map.webp"
+    src="/home/maps/maps.png"
     alt="Mapa de Arbeláez, Cundinamarca"
     loading="lazy"
     decoding="async"
