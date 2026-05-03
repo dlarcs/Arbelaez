@@ -4,7 +4,6 @@ $cssFile = $base . '/home/maps/maps.css';
 $cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
 ?>
 <link rel="stylesheet" href="/home/maps/maps.css<?= $cssVer ? '?v=' . $cssVer : '' ?>">
-
 <a
   class="map-card"
   href="https://maps.app.goo.gl/cqEjb9x9jpsAMsqV6"
