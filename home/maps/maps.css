@@ -3,12 +3,14 @@
   position: relative;
   overflow: hidden;
   text-decoration: none;
+  display: flex;
 }
 
 .map-card img {
   min-width: 200px;
   max-width: 500px;
   height: auto;
+  margin: auto;
   display: block;
   object-fit: cover;
 }
