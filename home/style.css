@@ -93,7 +93,13 @@ overflow-x: hidden !important;
   transform: translateY(-2px);
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
 }
+.lazy-section {
+  min-height: 300px;
+}
 
+.lazy-section.is-loaded {
+  min-height: 0;
+}
 
 /* Animación suave */
 @keyframes scroll-bounce {
