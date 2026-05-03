@@ -1,27 +1,31 @@
 .map-card {
+  width: 100%;
+  max-width: 900px;
+  aspect-ratio: 9 / 4;
+  display: block;
   position: relative;
   overflow: hidden;
+  border-radius: 16px;
   text-decoration: none;
-  display: flex;
-  padding: 1rem;
+  background: #eef5f1;
 }
 
 .map-card img {
   margin: auto;
+  width: 100%;
   object-fit: cover;
   border-radius: 5px;
 }
 
 .map-card span {
   position: absolute;
-  left: 1rem;
   left: 50%;
   transform: translateX(-50%);
   bottom: 1rem;
   padding: 0.65rem 1rem;
-  border-radius: 5px;
+  border-radius: 999px;
   background: #083126;
-  color: #fafafa;
+  color: #fff;
   font-size: 0.95rem;
   font-weight: 600;
 }
