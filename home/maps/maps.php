@@ -7,7 +7,7 @@ $cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
 
 <a
   class="map-card"
-  href="https://www.google.com/maps/place/Arbel%C3%A1ez,+Cundinamarca"
+  href="https://maps.app.goo.gl/cqEjb9x9jpsAMsqV6"
   target="_blank"
   rel="noopener"
   aria-label="Abrir mapa de Arbeláez en Google Maps"
