@@ -15,7 +15,8 @@
 .map-card span {
   position: absolute;
   left: 1rem;
-  margin: auto;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 1rem;
   padding: 0.65rem 1rem;
   border-radius: 5px;
