@@ -1,5 +1,5 @@
 .post-header{
-  padding: clamp(26px, 5vw, 54px) 0;
+  padding: 1rem;
   display: flex;
   white-space: normal;     /* permite saltos */
   overflow-wrap: break-word; /* si hay palabras largas, las parte */
@@ -10,7 +10,7 @@
 
 .post-header__inner{
   width: min(var(--container), calc(100% - 48px));
-  margin: 0 auto;
+  margin: auto;
 }
 
 .post-title{
