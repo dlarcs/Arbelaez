@@ -1,17 +1,14 @@
 .map-card {
-  width: 100%;
   display: block;
   position: relative;
   overflow: hidden;
-  border-radius: 16px;
   text-decoration: none;
-  background: #eef5f1;
-  background-color: red;
 }
 
 .map-card img {
-  width: 80%;
-  height: 50%;
+  min-width: 200px;
+  max-width: 500px;
+  height: auto;
   display: block;
   object-fit: cover;
 }
