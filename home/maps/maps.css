@@ -1,5 +1,4 @@
 .map-card {
-  display: block;
   position: relative;
   overflow: hidden;
   text-decoration: none;
@@ -9,7 +8,6 @@
 
 .map-card img {
   margin: auto;
-  display: block;
   object-fit: cover;
   border-radius: 5px;
 }

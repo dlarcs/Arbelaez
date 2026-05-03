@@ -11,7 +11,7 @@ $cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
   target="_blank"
   rel="noopener"
   aria-label="Abrir mapa de Arbeláez en Google Maps"
->
+><span>Ver ubicación en Google Maps</span>
   <img
     src="/home/maps/maps.png"
     alt="Mapa de Arbeláez, Cundinamarca"
@@ -20,5 +20,5 @@ $cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
     height="400"
   >
 
-  <span>Ver ubicación en Google Maps</span>
+
 </a>
