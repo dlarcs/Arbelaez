@@ -92,12 +92,12 @@
   <div class="container_home">
     <?php include $base . "/home/slider/slider.php"; ?>
     <?php include $base . "/home/intro/intro.php"; ?>
-    <?php include $base . "/home/places/places.php"; ?>
-    <?php include $base . "/home/imagen/imagen.php"; ?>
-    <?php include $base . "/home/Rifa/rifa.php"; ?>
 
-    <?php include $base . "/home/text/text.php"; ?>
-    <?php include $base . "/home/maps/maps.php"; ?>
+    <div class="lazy-section" data-url="/home/places/places.php"></div>
+    <div class="lazy-section" data-url="/home/imagen/imagen.php"></div>
+    <div class="lazy-section" data-url="/home/Rifa/rifa.php"></div>
+    <div class="lazy-section" data-url="/home/text/text.php"></div>
+    <div class="lazy-section" data-url="/home/maps/maps.php"></div>
   </div>
 
   <?php include $base . "/global/footer/footer.php"; ?>

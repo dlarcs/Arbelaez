@@ -26,3 +26,30 @@ if (indicator) {
     }
   });
 }
+
+const lazySections = document.querySelectorAll('.lazy-section');
+
+const sectionObserver = new IntersectionObserver((entries, observer) => {
+  entries.forEach(async entry => {
+    if (!entry.isIntersecting) return;
+
+    const section = entry.target;
+    const url = section.dataset.url;
+
+    try {
+      const response = await fetch(url);
+      const html = await response.text();
+
+      section.innerHTML = html;
+      section.classList.add('is-loaded');
+
+      observer.unobserve(section);
+    } catch (error) {
+      section.innerHTML = '<p>No se pudo cargar esta sección.</p>';
+    }
+  });
+}, {
+  rootMargin: '300px'
+});
+
+lazySections.forEach(section => sectionObserver.observe(section));
