@@ -1,6 +1,6 @@
 .post-header{
   padding: 1rem;
-  width: 100%;
+  width: 80%;
   display: flex;
   white-space: normal;     /* permite saltos */
   overflow-wrap: break-word; /* si hay palabras largas, las parte */
