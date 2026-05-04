@@ -8,7 +8,7 @@ $cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
 <header class="post-header">
   <div class="post-header__inner">
     <h1 class="post-title">Tradición viva en cada rincón</h1>
-    <h1>Arbeláez Cundinamarca: turismo, naturaleza, gastronomía y lugares para visitar</h1>
+    <h1 class="post-title2">Arbeláez Cundinamarca: turismo, naturaleza, gastronomía y lugares para visitar</h1>
     <span class="description_intro">
       Descubre qué hacer, dónde comer y qué lugares visitar en Arbeláez
 
