@@ -27,7 +27,7 @@
 .description_intro{
   margin: 0;
   max-width: 760px;
-  font-size: clamp(20px, 3vw, 30px);
+  font-size: clamp(20px, 2vw, 30px);
   font-weight: 500;
   line-height: 1.18;
   letter-spacing: -0.02em;
