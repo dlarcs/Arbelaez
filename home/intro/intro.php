@@ -38,5 +38,10 @@ $cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
         </a>
       </nav>
     </div>
+    <span class="description_intro">
+  Descubre Arbeláez, Cundinamarca, un destino turístico cerca de Bogotá ideal para disfrutar de la naturaleza, los ríos, la gastronomía local y el descanso.
+  En Arbelaez.com.co encontrarás alojamiento, artesanías, restaurantes y los mejores lugares para visitar en Arbeláez, desde zonas de agua hasta experiencias culturales y actividades al aire libre.
+  Explora todo lo que este hermoso municipio tiene para ofrecer y planifica tu próxima visita.
+  </span>
   </div>
 </header>
