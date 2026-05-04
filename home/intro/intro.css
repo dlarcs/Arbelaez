@@ -2,11 +2,12 @@
   padding: 1rem;
   width: 80%;
   display: flex;
+  background-color: blue;
   white-space: normal;     /* permite saltos */
   overflow-wrap: break-word; /* si hay palabras largas, las parte */
   word-break: normal;
   box-sizing: border-box;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 .post-header__inner{
