@@ -7,7 +7,7 @@ $cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
 
 <header class="post-header">
   <div class="post-header__inner">
-    <h1 class="post-title">Tradición viva en cada rincón</h1>
+    <h1>Arbeláez Cundinamarca: turismo, naturaleza, gastronomía y lugares para visitar</h1>
     <div class="post-meta">
       <div class="post-author">
         <img
