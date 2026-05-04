@@ -10,7 +10,7 @@
 }
 
 .post-header__inner{
-  width: min(var(--container), calc(100% - 48px));
+  width: min(var(--container), calc(100% - 100px));
   margin: auto;
   text-align: center;
 }
