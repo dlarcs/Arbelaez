@@ -16,6 +16,10 @@ $cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
           alt="Avatar del autor">
         <div class="post-author__text">
           <div class="post-author__name">Arbeláez Digitalizada</div>
+          <span class="description_intro">
+            Descubre qué hacer, dónde comer y qué lugares visitar en Arbeláez
+
+        </span>
           <div class="post-author__sub">
             <time datetime="2025-01-20">25 de octubre 2025</time>
             <span class="dot">•</span>
@@ -38,9 +42,6 @@ $cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
         </a>
       </nav>
     </div>
-    <span class="description_intro">
-      Descubre qué hacer, dónde comer y qué lugares visitar en Arbeláez
 
-  </span>
   </div>
 </header>
