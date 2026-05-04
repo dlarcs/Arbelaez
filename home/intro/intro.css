@@ -37,7 +37,6 @@
 }
 .description_intro{
   padding: 1rem;
-  background-color: red;
   max-width: 760px;
   font-size: clamp(1rem, 1.4vw, 1.18rem);
   font-weight: 400;
