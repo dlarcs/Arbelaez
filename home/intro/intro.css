@@ -22,7 +22,9 @@
   font-size: clamp(34px, 5vw, 56px);
 }
 .description_intro{
-  width: 60%;
+  margin: 1rem auto;
+  background-color: red;
+  width: 50%;
   max-width: 300px;
 }
 .post-meta{
