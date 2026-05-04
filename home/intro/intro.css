@@ -12,6 +12,7 @@
 .post-header__inner{
   width: min(var(--container), calc(100% - 48px));
   margin: auto;
+  text-align: center;
 }
 
 .post-title{
