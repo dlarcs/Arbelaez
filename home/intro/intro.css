@@ -22,13 +22,14 @@
   line-height: 1.05;
   letter-spacing: -0.04em;
   color: #005548;
+  text-align: center;
 }
 .post-title2{
   display: block;
   font-size: clamp(1.5rem, 2vw, 2.5rem);
   font-weight: bold;
   unicode-bidi: isolate;
-  text-align: justify;
+  text-align: left;
 }
 .description_intro{
   padding: 1rem;
@@ -37,6 +38,7 @@
   font-weight: 400;
   line-height: 1.75;
   color: #4f625e;
+  text-align: left;
 }
 .post-meta{
   display: flex;
