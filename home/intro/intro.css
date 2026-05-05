@@ -28,6 +28,7 @@
   font-size: clamp(1.5rem, 2vw, 2.5rem);
   font-weight: bold;
   unicode-bidi: isolate;
+  text-align: justify;
 }
 .description_intro{
   padding: 1rem;
