@@ -11,10 +11,7 @@ $cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
     <header class="rifa-header">
       <span class="rifa-badge">Arbeláez • 2026</span>
       <h1>Arbeláez se llena de color</h1>
-      <p>
-        Iniciativa comunitaria para embellecer negocios y fortalecer turismo,
-        comercio local y orgullo comunitario.
-      </p>
+
     </header>
 
     <div class="rifa-grid">
