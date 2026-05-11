@@ -21,8 +21,7 @@ $cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
 
       <article class="rifa-card">
         <img src="../../home/Rifa/img/img.png" alt="Negocios coloridos en Arbeláez">
-        <span>Los numero ganadores fueron</span>
-        <h2>Con la Loteria de Boyaca</h2>
+        <h2>Números ganadores</h2>
         <ul>
           <li>18 de abril 2026<strong> Número 207</strong></li>
           <li>9 de mayo 2026 <strong>Número 943</strong></li>
