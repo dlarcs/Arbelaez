@@ -20,7 +20,6 @@ $cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
     <div class="rifa-grid">
 
       <article class="rifa-card">
-        <img src="../../home/Rifa/img/img.png" alt="Negocios coloridos en Arbeláez">
         <h2>Números ganadores</h2>
         <ul>
           <li>18 de abril 2026<strong> Número 207</strong></li>
