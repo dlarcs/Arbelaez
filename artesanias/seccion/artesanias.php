@@ -15,50 +15,6 @@ $cssTime = file_exists($cssFile) ? filemtime($cssFile) : time();
 
     <article class="boxes_product">
       <header class="info_box_product">
-        <a class="cursiva-inglesa" href="../artesanias/Artesanias_Martha_E/index.php">
-          Artesanías Martha E.
-        </a>
-      </header>
-
-      <a href="../artesanias/Artesanias_Martha_E/index.php"
-         class="box_product"
-         aria-label="Ver Artesanías Martha E.">
-        <img
-          loading="lazy"
-          decoding="async"
-          src="../artesanias/Artesanias_Martha_E/img/lugar.jpeg"
-          alt="Artesanías Martha E. en Arbeláez"
-        >
-      </a>
-
-      <div class="texto">
-        <h3>Hecho a mano, con identidad</h3>
-        <p>
-          Piezas únicas en tejido, madera y cerámica. Personaliza encargos para ocasiones especiales
-          artesanías de calidad.
-        </p>
-
-        <div class="acciones_producto">
-          <a class="btn_accion btn_whatsapp"
-             href="https://wa.me/573143417111?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20Artesan%C3%ADas%20Martha%20E."
-             target="_blank"
-             rel="noopener noreferrer"
-             aria-label="Contactar por WhatsApp a Artesanías Martha E.">
-            WhatsApp
-          </a>
-
-          <a class="btn_accion btn_vermas"
-             href="../artesanias/Artesanias_Martha_E/index.php"
-             aria-label="Ver más sobre Artesanías Martha E.">
-            Ver más
-          </a>
-        </div>
-      </div>
-    </article>
-
-
-    <article class="boxes_product">
-      <header class="info_box_product">
         <a class="cursiva-inglesa" href="../artesanias/Almacen_Religioso/index.php">
           Almacén Religioso y Artesanal Divino Niño Jesús
         </a>
@@ -133,6 +89,49 @@ $cssTime = file_exists($cssFile) ? filemtime($cssFile) : time();
         </div>
       </div>
     </article>
+    <article class="boxes_product">
+      <header class="info_box_product">
+        <a class="cursiva-inglesa" href="../artesanias/Artesanias_Martha_E/index.php">
+          Artesanías Martha E.
+        </a>
+      </header>
+
+      <a href="../artesanias/Artesanias_Martha_E/index.php"
+         class="box_product"
+         aria-label="Ver Artesanías Martha E.">
+        <img
+          loading="lazy"
+          decoding="async"
+          src="../artesanias/Artesanias_Martha_E/img/lugar.jpeg"
+          alt="Artesanías Martha E. en Arbeláez"
+        >
+      </a>
+
+      <div class="texto">
+        <h3>Hecho a mano, con identidad</h3>
+        <p>
+          Piezas únicas en tejido, madera y cerámica. Personaliza encargos para ocasiones especiales
+          artesanías de calidad.
+        </p>
+
+        <div class="acciones_producto">
+          <a class="btn_accion btn_whatsapp"
+             href="https://wa.me/573143417111?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20Artesan%C3%ADas%20Martha%20E."
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="Contactar por WhatsApp a Artesanías Martha E.">
+            WhatsApp
+          </a>
+
+          <a class="btn_accion btn_vermas"
+             href="../artesanias/Artesanias_Martha_E/index.php"
+             aria-label="Ver más sobre Artesanías Martha E.">
+            Ver más
+          </a>
+        </div>
+      </div>
+    </article>
+
 
   </div>
 </section>

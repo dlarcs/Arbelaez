@@ -11,17 +11,6 @@ function wa_link($phoneInt, $alojamiento) {
 $lodgings = [
 
   [
-    'name'      => 'Cachorros L&C',
-    'slug'      => 'Cachorros_LyC',
-    'img'       => '../alojamiento/Cachorros_LyC/img/trago1.jpg',
-    'img_alt'   => 'Cachorros L&C – zona social',
-    'map_url'   => 'https://maps.app.goo.gl/xkrKdHVzuiz2aAg99', // TODO: reemplazar por link real de Google Maps
-    'distance'  => '15 min 🚶',
-    'reserve'   => ['type' => 'wa', 'phone' => '573227011059', 'label' => '24 horas'],
-    'category'  => 'Rural',
-    'desc'      => 'Espacio para acampar, llevar carpa. Ambiente relajado y carne asada fines de semana, disfruta con amigos, parqueadero disponible.'
-  ],
-  [
     'name'      => 'Turismo Hoy Vivo',
     'slug'      => 'Turismo_Hoy_Vivo',
     'img'       => '../alojamiento/Turismo_Hoy_Vivo/img/Casa_rural1.jpg',
@@ -31,6 +20,18 @@ $lodgings = [
     'reserve'   => ['type' => 'url', 'url' => 'https://www.airbnb.com.co/rooms/47158905', 'label' => 'airbnb'],
     'category'  => 'Rural',
     'desc'      => '6 huéspedes, 3 habitaciones, 5 camas, 2 baños: Casa rural accesible, en ambiente privado y seguro. Huerta orgánica y avistamiento de aves.'
+  ],
+  [
+    'name'      => 'Casa Colibrí',
+    'slug'      => 'Casa_Colibri',
+    'img'       => '../alojamiento/Casa_Colibri/img/piscina3.jpeg',
+    'img_alt'   => 'Casa Colibrí',
+    'map_url'   => 'https://maps.app.goo.gl/J2RYVwmVwmACdmRL7',
+    'distance'  => '7 min 🚙 ',
+    'reserve'   => ['type' => 'wa', 'phone' => '573118627750', 'label' => 'Reservar'],
+    'category'  => 'Rural',
+    'desc'      => 'Piscina Privada Capacidad mínima 10 personas, Máxima 18 en camas individuales, Hasta 28 en camas compartidas, 3 habitaciones casa principal 2 baños, 2 habitaciónes casa externa 1 baño, Baño cambiador y ducha en el área de piscina, Sala, Comedor, Cocina integral con menaje, Hamacas, Parqueadero,
+'
   ],
   [
     'name'      => 'La Rinconada',
@@ -77,18 +78,7 @@ $lodgings = [
     'category'  => 'Rural',
     'desc'      => ' 6 huéspedes, 1 habitación con  cama doble, dos habitaciones con camas sencillas y 2 baños, para acampar 15 personas 6 carpas bajo techo, traer carpa:Alojamiento comodo y accesible, con caminata ecologica.'
   ],
-  [
-    'name'      => 'Casa Colibrí',
-    'slug'      => 'Casa_Colibri',
-    'img'       => '../alojamiento/Casa_Colibri/img/piscina3.jpeg',
-    'img_alt'   => 'Casa Colibrí',
-    'map_url'   => 'https://maps.app.goo.gl/J2RYVwmVwmACdmRL7',
-    'distance'  => '7 min 🚙 ',
-    'reserve'   => ['type' => 'wa', 'phone' => '573118627750', 'label' => 'Reservar'],
-    'category'  => 'Rural',
-    'desc'      => 'Piscina Privada Capacidad mínima 10 personas, Máxima 18 en camas individuales, Hasta 28 en camas compartidas, 3 habitaciones casa principal 2 baños, 2 habitaciónes casa externa 1 baño, Baño cambiador y ducha en el área de piscina, Sala, Comedor, Cocina integral con menaje, Hamacas, Parqueadero,
-'
-  ],
+
   // [
   //   'name'      => 'IsraHousSuites',
   //   'slug'      => 'IsraHousSuites',
