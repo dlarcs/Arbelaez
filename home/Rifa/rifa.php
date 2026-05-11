@@ -28,13 +28,6 @@ $cssVer = is_file($cssFile) ? filemtime($cssFile) : '';
 
         </ul>
       </article>
-
-
-
-
-
-
-
     </div>
   </div>
 </section>

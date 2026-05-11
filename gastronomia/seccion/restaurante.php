@@ -56,25 +56,6 @@ $jsTime = filemtime('../gastronomia/seccion/restaurante.js');   // ejemplo: '../
       'wa_phone'     => '573203969152',
       'wa_label'     => 'WhatsApp',
     ],
-    [
-      'name'         => 'Kalú',
-      'slug'         => 'kalu',
-      'img'          => '../gastronomia/img/kalu.jpg',
-      'img_alt'      => 'Kalú Café: origen Sumapaz, arte, sabor y conexión',
-      'zone'         => 'Pueblo',
-      'schema'       => 'CafeOrCoffeeShop',
-      'location'     => 'En el pueblo',
-      'desc'         => 'En Kalú cada taza y cada plato cuentan una historia. Café de origen Sumapaz, arte local y sabores únicos en un espacio para conversar y disfrutar tranquilo.',
-      'servesCuisine'=> '',
-      'features'     => [
-        'Almuerzos 12:00 m – 3:00 pm',
-        'Comida rápida y café 5:00 pm – 10:00 pm',
-      ],
-      'openingHours' => 'Mo-Su 09:00-22:00',
-      'priceRange'   => '$–$$',
-      'wa_phone'     => '573123804104',
-      'wa_label'     => 'WhatsApp',
-    ],
 		[
 			'name'         => 'El Fogón del Triángulo',
 			'slug'         => 'El_Fogon_del_Triangulo',
@@ -94,7 +75,27 @@ $jsTime = filemtime('../gastronomia/seccion/restaurante.js');   // ejemplo: '../
 			'wa_phone'     => '573144506914',
 			'wa_label'     => 'WhatsApp',
 		],
-  
+    [
+      'name'         => 'Kalú',
+      'slug'         => 'kalu',
+      'img'          => '../gastronomia/img/kalu.jpg',
+      'img_alt'      => 'Kalú Café: origen Sumapaz, arte, sabor y conexión',
+      'zone'         => 'Pueblo',
+      'schema'       => 'CafeOrCoffeeShop',
+      'location'     => 'En el pueblo',
+      'desc'         => 'En Kalú cada taza y cada plato cuentan una historia. Café de origen Sumapaz, arte local y sabores únicos en un espacio para conversar y disfrutar tranquilo.',
+      'servesCuisine'=> '',
+      'features'     => [
+        'Almuerzos 12:00 m – 3:00 pm',
+        'Comida rápida y café 5:00 pm – 10:00 pm',
+      ],
+      'openingHours' => 'Mo-Su 09:00-22:00',
+      'priceRange'   => '$–$$',
+      'wa_phone'     => '573123804104',
+      'wa_label'     => 'WhatsApp',
+    ],
+
+
     [
       'name'         => 'La Marranada Campestre',
       'slug'         => 'La_Marranada',
