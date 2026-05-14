@@ -10,25 +10,20 @@ $cssTime = filemtime('../../gastronomia/Los_Andariegos/footer/footer.css');
 		</div>
 		<div class="footer_container">
 			<div class="footer_social" aria-label="Redes sociales">
-				<!-- <ul class="socials">
+				<ul class="socials">
 					<li>
-						<a href="https://www.instagram.com/Los_Andariegos/ " target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-							<ion-icon name="logo-instagram"></ion-icon><span class="sr-only">Instagram</span>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.facebook.com/Andariegos.terraza.gastrobar" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+						<a href="https://www.facebook.com/p/Los-Andariegos-100090573960360/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
 							<ion-icon name="logo-facebook"></ion-icon><span class="sr-only">Facebook</span>
 						</a>
 					</li>
 
 					<li>
-						<a href="https://www.tiktok.com/search?q=Los_Andariegos&t=1757266584549" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+						<a href="https://www.tiktok.com/@losandariegosss" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
 							<ion-icon name="logo-tiktok"></ion-icon><span class="sr-only">TikTok</span>
 						</a>
 					</li>
 
-				</ul> -->
+				</ul>
 			</div>
 		</div>
 		<div class="footer_bottom">
