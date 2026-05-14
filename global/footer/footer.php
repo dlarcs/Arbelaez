@@ -38,12 +38,11 @@ $cssTime = filemtime('../global/footer/footer.css');
         <h3 class="footer_title">Alojamiento</h3>
         <ul class="footer_list">
           <!-- <li><a href="../alojamiento/Los_Altos/index.php">Los Altos</a></li> -->
+          <li><a href="../alojamiento/Turismo_Hoy_Vivo/index.php">Turismo Hoy Vivo</a></li>
           <li><a href="../alojamiento/Casa_Kiyari/index.php">Casa Kiyari</a></li>
           <li><a href="../alojamiento/La_Casita2/index.php">La casita N°2</a></li>
           <li><a href="../alojamiento/Casa_Kandu/index.php">Casa Kandu</a></li>
           <li><a href="../alojamiento/La_Rinconada/index.php">La Rinconada</a></li>
-          <li><a href="../alojamiento/Turismo_Hoy_Vivo/index.php">Turismo Hoy Vivo</a></li>
-          <li><a href="../alojamiento/Cachorros_LyC/index.php">Cachorros L&C</a></li>
           <!-- <li><a href="../alojamiento/IsraHousSuites/index.php">Isra House Suite</a></li> -->
         </ul>
       </div>
@@ -51,12 +50,14 @@ $cssTime = filemtime('../global/footer/footer.css');
       <div class="footer_col">
         <h3 class="footer_title">Gastronomía</h3>
         <ul class="footer_list">
-          <li><a href="../gastronomia/Don_Ciprio/index.php">Don Ciprio</a></li>
+          <li><a href="../gastronomia/Pablos_Restaurant/index.php">Pablos Restaurant</a></li>
+          <li><a href="../gastronomia/Los_andariegos/index.php">Los Andariegos</a></li>
           <li><a href="../gastronomia/El_Fogon_del_Triangulo/index.php">El Fogon del Triángulo</a></li>
           <li><a href="../gastronomia/La_Marranada/index.php">La marranada Campestre</a></li>
-          <li><a href="../gastronomia/Pablos_Restaurant/index.php">Pablos Restaurant</a></li>
           <li><a href="../gastronomia/kalu/index.php">Kalú</a></li>
           <li><a href="../gastronomia/kapaLuna360/index.php">KapaLuna360°</a></li>
+          <li><a href="../gastronomia/Don_Ciprio/index.php">Don Ciprio</a></li>
+
         </ul>
       </div>
       <!-- actividades -->
