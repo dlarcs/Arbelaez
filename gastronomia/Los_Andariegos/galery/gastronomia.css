@@ -1,0 +1,120 @@
+:root{
+  --bg:#f7f7fb;
+	--card:#fafafa;
+	--text:#111827;
+	--muted:#6b7280;
+  --border:#e5e7eb;
+	--brand:#005548;
+	--radius:14px;
+  --shadow:0 10px 24px rgba(0,0,0,.06);
+}
+
+/* Sección */
+.section_food_gallery{
+  padding: 1rem;
+  margin: 1rem 0;
+  display: grid;
+  place-items: center;
+  gap: 1rem;
+}
+
+.section_food_gallery h1{
+  font-size: clamp(22px, 2vw, 50px);
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fafafa;
+  margin: 0 0 1rem;
+  padding: 1rem 0;
+}
+
+/* Filtros */
+.categories_food_gallery ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.categories_food_gallery li{
+  cursor: pointer;
+  font-weight: 600;
+  padding: .5rem 1rem;
+  border-radius: 20px;
+  background: var(--bg);
+  transition: background .25s ease, color .25s ease, transform .2s ease;
+}
+.categories_food_gallery li:hover{
+	transform: translateY(-1px);
+}
+.categories_food_gallery li.active{
+	background: var(--brand);
+	color:#fafafa;
+}
+
+.food_gallery_container{
+  display: grid;
+  gap: 1rem;
+  margin: 1rem;
+  padding:0  2rem;
+  grid-template-columns: repeat(4, minmax(0, 2fr)); /* 4 columnas */
+  grid-auto-rows: 130px; /* altura de cada tarjeta */
+}
+
+/* Card */
+.food_card{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition: transform .25s ease;
+}
+.food_card:hover{ transform: scale(1.03); }
+
+.food_card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Overlay */
+.overlay_food_card{
+  position: absolute; inset: 0;
+  background: rgba(0,0,0,.28);
+  opacity: 0;
+  transition: opacity .25s ease;
+  display: grid; place-items: center;
+  pointer-events: none; /* no bloquea clics si haces la card clicable */
+}
+.food_card:hover .overlay_food_card{ opacity: 1; }
+
+/* Info (opcional) */
+.food_info{ text-align:center; color:#fafafa; padding:1rem; }
+.food_info h3{ font-size:1.1rem; margin:0 0 .35rem; }
+.food_type{ font-weight:700; color:#ffdf40; margin-bottom:.25rem; }
+.food_desc{ font-size:.9rem; line-height:1.3; }
+
+
+/* Responsivo: reduce columnas según ancho */
+@media (max-width: 1200px){
+  .food_gallery_container{
+    grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 900px){
+  .food_gallery_container{
+    grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px){
+  .food_gallery_container{
+    grid-template-columns: repeat(2, 180px);
+    justify-content: center;
+    padding: 0 1rem;
+    overflow-x: auto;
+  }
+}

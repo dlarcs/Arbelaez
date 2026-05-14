@@ -1,0 +1,176 @@
+.seccion_footer {
+	padding: 1rem 0;
+	margin: 0;
+	width: 100%;
+	/* background: linear-gradient(to bottom, transparent 0%, rgba(255, 0, 0, 1) 100%); */
+
+		/* background: linear-gradient(to bottom,transparent 0%,rgba(0, 85, 72, 1) 100%);verde */
+		background: linear-gradient(to bottom,transparent 0%,rgba(0, 0, 0, 1) 100%); /*  negro
+
+	display: flex;
+	flex-direction: column;
+	/* --- Efecto de difuminado solo en la parte superior --- */
+	--fade: 10%;
+	/* porcentaje del alto que se desvanece arriba */
+	-webkit-mask-image: linear-gradient(
+    to bottom, transparent 0, black var(--fade), black 100%);
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-size: cover;
+	mask-image: linear-gradient(
+    to bottom, transparent 0, black var(--fade), black 100%);
+	mask-repeat: no-repeat;
+	mask-size: cover;
+}
+
+/* Contenedor del footer */
+
+.footer_container {
+	position: relative;
+	padding: 0px;
+	width: 100%;
+	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+}
+.footer_logo {
+	position: relative;
+	padding: 2rem 0;
+	width: 80%;
+	font-size: 1rem;
+	text-align: center;
+	margin: auto;
+}
+.footer_logo h2 {
+	font-size: 1.6rem;
+	font-weight: bold;
+	letter-spacing: 0.5vw;
+	text-align: center;
+	color: #fafafa;
+	-webkit-background-clip: text;
+	padding: 2vw;
+	margin: auto;
+}
+.footer_logo img {
+	position: relative;
+	margin: 0;
+	margin: auto;
+	width: 40%;
+	min-width: 30%;
+	max-width: 60%
+	/* Soporte WebKit (Chrome, Safari, Edge Chromium) */
+	-webkit-mask-image: linear-gradient(to bottom, black 10%, transparent 100%), linear-gradient(to left, black 90%, transparent 100%), linear-gradient(to right, black 90%, transparent 100%);
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-size: 100% 100%;
+	-webkit-mask-composite: destination-in;
+	/* Combina las máscaras */
+	/* Estándar (Firefox y otros) */
+	mask-image: linear-gradient(to bottom, black 80%, transparent 100%), linear-gradient(to left, black 95%, transparent 100%), linear-gradient(to right, black 95%, transparent 100%);
+	mask-repeat: no-repeat;
+	mask-size: 100% 100%;
+	mask-composite: intersect;
+	/* Para que la máscara no interfiera con el contenido */
+	background-color: inherit;
+}
+.footer_nav {
+	position: relative;
+	gap: 20px;
+	width: 100%;
+	margin: 5px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+/* Lista de navegación */
+
+.footer_nav ul {
+	list-style: none;
+	padding: 5px 0;
+	margin: 0;
+	display: flex;
+	gap: 20px;
+}
+.footer_nav ul li {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer_nav ul li a {
+	text-decoration: none;
+	font-size: 1rem;
+	padding: 0;
+	transition: color 0.3s ease-in-out;
+	color: #fafafa;
+}
+.footer_nav ul li a:hover {
+	color: yellow;
+}
+.footer_social {
+	position: relative;
+	padding: 5px 0;
+}
+
+/* Pie de página */
+
+.footer_bottom {
+	position: relative;
+	margin: 2px 0;
+	padding: 1rem 0;
+	text-align: center;
+	color: #fafafa;
+	font-size: 1rem;
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.footer_bottom a {
+	text-decoration: none;
+}
+.footer_bottom p {
+	color: #fafafa;
+}
+.socials {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	padding: 0;
+	margin: 8px 0 0;
+}
+.socials a {
+	width: 42px;
+	height: 42px;
+	display: grid;
+	place-items: center;
+	border-radius: 999px;
+	border: 1px solid rgba(255, 255, 255, .25);
+	background: rgba(255, 255, 255, .08);
+	text-decoration: none;
+	transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+	backdrop-filter: blur(4px);
+}
+.socials a:hover {
+	transform: translateY(-1px) scale(1.03);
+	box-shadow: 0 6px 16px rgba(0, 0, 0, .25);
+	background: rgba(255, 255, 255, .16);
+}
+.socials ion-icon {
+	font-size: 20px;
+	color: #fff;
+}
+
+/* Accesibilidad: ocultar el texto visible, mantenerlo para lectores de pantalla */
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
