@@ -95,8 +95,6 @@
 
     <div class="lazy-section" data-url="/home/places/places.php"></div>
     <div class="lazy-section" data-url="/home/imagen/imagen.php"></div>
-    <div class="lazy-section" data-url="/home/Rifa/rifa.php"></div>
-    <div class="lazy-section" data-url="/home/text/text.php"></div>
     <div class="lazy-section" data-url="/home/maps/maps.php"></div>
   </div>
 
